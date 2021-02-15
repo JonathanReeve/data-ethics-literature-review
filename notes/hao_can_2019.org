@@ -1,0 +1,16 @@
+#+TITLE: hao_can_2019: Can you make AI fairer than a judge? Play our courtroom algorithm game
+#+roam_key: cite:hao_can_2019
+#+roam_tags: lit law
+
+- tags ::
+- keywords ::
+
+
+* Can you make AI fairer than a judge? Play our courtroom algorithm game
+  :PROPERTIES:
+  :Custom_ID: hao_can_2019
+  :URL: https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/
+  :AUTHOR: Hao, K., & Stray, J.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

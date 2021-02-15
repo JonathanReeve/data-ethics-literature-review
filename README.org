@@ -1,0 +1,19 @@
+* Data Ethics Literature Review
+
+This is research project to survey academic literature surrounding ethics in data and data science.
+
+* Goals
+
+Goals of this research project include:
+
+ - production of a website to display this collection
+ - production of a course syllabus
+
+* Structure of this Repository
+
+This is an [[https://github.com/org-roam][org-roam]] [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten]], or a graph of interconnected notes.
+
+~/notes~: contains notes for each source. A source can be an article, web page, blog post, book, or similar source. Each source has a single file which contains notes and metadata for that source. Each file is an org-roam / [[https://orgmode.org/][org-mode]] file, named according to its bibliography key, as defined in ~bibliography.bib~.
+~/papers~: contains PDFs of papers themselves, if available. Each paper should be named according to its bibliographic key. These may be withheld from the Git repository, for the moment.
+~bibliography.bib~: a BibLaTeX file containing the bibliography.
+~index.org~: the starting-point for the website.

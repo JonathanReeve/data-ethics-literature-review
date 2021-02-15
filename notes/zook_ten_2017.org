@@ -1,0 +1,16 @@
+#+TITLE: zook_ten_2017: Ten simple rules for responsible big data research
+#+roam_key: cite:zook_ten_2017
+#+roam_tags: lit
+
+- tags ::
+- keywords :: Research ethics, Social media, Research design, Medicine and health sciences, Scientists, Cloud computing, Data mining, Research and analysis methods
+
+
+* Ten simple rules for responsible big data research
+  :PROPERTIES:
+  :Custom_ID: zook_ten_2017
+  :URL: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005399
+  :AUTHOR: Zook, M., Barocas, S., Boyd, D., Crawford, K., Keller, E., Gangadharan, S. P., Goodman, A., …
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

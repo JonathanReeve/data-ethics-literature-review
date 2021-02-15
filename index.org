@@ -3,18 +3,14 @@
 
 - [[https://github.com/JonathanReeve/data-ethics-literature-review][This repository, on GitHub]]
 
-* Isabelle's initial list of resources
-** TODO A reading list on AI ethics. (n.d.). https://caitiewrites.gitbooks.io/ai-ethics-reading-list/content/
-** TODO Bookclub on Data Science Ethics · Teach Data Science. (n.d.). Teach Data Science. Retrieved February 3, 2021, from https://teachdatascience.com/bookclub/
-** FOUND boyd, danah, & Crawford, K. (2012). Critical Questions for Big Data. Information, Communication & Society, 15(5), 662–679. https://doi.org/10.1080/1369118X.2012.678878
-** FOUND D’Ignazio, C. (2020, February 21). 5 Questions on Data and Context with Desmond Patton. Medium. https://medium.com/data-feminism/5-questions-on-data-and-context-with-desmond-patton-5a09661cbbc6
-** TODO Dunn, A. (n.d.). Tech for good isn’t a thing. Retrieved February 3, 2021, from https://relay.substack.com/p/tech-for-good-isnt-a-thing
-** TODO Ethics and Governance of AI Reading List | Berkman Klein Center. (2020, May 25). https://cyber.harvard.edu/ethics-and-governance-ai-reading-list
-** TODO Fiesler, C. (2019, November 21). Tech Ethics Curricula: A Collection of Syllabi. Medium. https://cfiesler.medium.com/tech-ethics-curricula-a-collection-of-syllabi-3eedfb76be18
-** FOUND Frey, W. R., Patton, D. U., Gaskell, M. B., & McGregor, K. A. (2020). Artificial Intelligence and Inclusion: Formerly Gang-Involved Youth as Domain Experts for Analyzing Unstructured Twitter Data. Social Science Computer Review, 38(1), 42–56. https://doi.org/10.1177/0894439318788314
-** TODO IDA B. WELLS JUST DATA Lab. (n.d.). IDA B. WELLS JUST DATA Lab. Retrieved December 31, 2020, from https://www.thejustdatalab.com/about-the-lab
-** TODO [[https://github.com/jknowles/ethical_data_science_reader/blob/master/Ethical%20and%20Inclusive%20Data%20Science%20Readings.pdf][Readings in Ethical Data Science: An Incomplete Annotated Reading List. (2019). Civilytics Consulting LLC.]]
-** TODO Resources. (n.d.). Ruha Benjamin. Retrieved December 31, 2020, from https://www.ruhabenjamin.com/resources
-** TODO Teaching. (n.d.). Ruha Benjamin. Retrieved December 31, 2020, from https://www.ruhabenjamin.com/teaching
-** TODO Wiggins, C. (2018). Thoughts on an data ethics sequence of courses.
-** TODO Zook, M., Barocas, S., boyd, danah, Crawford, K., Keller, E., Gangadharan, S. P., Goodman, A., Hollander, R., Koenig, B. A., Metcalf, J., Narayanan, A., Nelson, A., & Pasquale, F. (2017). Ten simple rules for responsible big data research. PLOS Computational Biology, 13(3), e1005399. https://doi.org/10.1371/journal.pcbi.1005399
+  - What is the problem?
+  - What does the solution look like?
+  - Belmont report, IRB process, "mean no harm"
+    + Chris Wiggins course: Data: Past, Present, Future
+    + FAT/ML: [[https://www.fatml.org/][Fairness, Accountability, and Transparency in Machine Learning]]
+  - Syllabus learning outcomes:
+    + Vocabulary of data ethics
+    + Potential solutions
+  - Models of existing courses?
+
+[[file:notes/20210214185456-reading_lists_and_syllabi.org][Reading lists and syllabi]]

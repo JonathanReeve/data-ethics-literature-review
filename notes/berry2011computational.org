@@ -1,0 +1,17 @@
+#+TITLE: berry2011computational: The computational turn: thinking about the digital humanities
+#+roam_key: cite:berry2011computational
+#+roam_tags: lit
+
+- tags ::
+- keywords ::
+
+* The computational turn: thinking about the digital humanities
+  :PROPERTIES:
+  :Custom_ID: berry2011computational
+  :URL:
+  :AUTHOR: Berry, D. M.
+  :NOTER_DOCUMENT: ../papers/berry2011computational.pdf
+  :NOTER_PAGE: 1
+  :END:
+
+Cited in cite:boyd_2012

@@ -1,0 +1,16 @@
+#+TITLE: dunn_tech_2020: Tech for good isn't a thing
+#+roam_key: cite:dunn_tech_2020
+#+roam_tags: lit blog
+
+- tags ::
+- keywords ::
+
+
+* Tech for good isn't a thing
+  :PROPERTIES:
+  :Custom_ID: dunn_tech_2020
+  :URL: https://relay.substack.com/p/tech-for-good-isnt-a-thing
+  :AUTHOR: Dunn, A.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

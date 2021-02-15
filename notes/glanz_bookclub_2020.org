@@ -1,0 +1,16 @@
+#+TITLE: glanz_bookclub_2020: Bookclub on Data Science Ethics · Teach Data Science
+#+roam_key: cite:glanz_bookclub_2020
+#+roam_tags: lit list
+
+- tags ::
+- keywords ::
+
+
+* Bookclub on Data Science Ethics · Teach Data Science
+  :PROPERTIES:
+  :Custom_ID: glanz_bookclub_2020
+  :URL: https://teachdatascience.com/bookclub/
+  :AUTHOR: Glanz, H.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:
