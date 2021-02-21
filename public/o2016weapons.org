@@ -1,0 +1,17 @@
+#+TITLE: o2016weapons: Weapons of math destruction: how big data increases inequality and threatens democracy
+#+roam_key: cite:o2016weapons
+#+roam_tags: lit books
+#+wikidata: https://www.wikidata.org/wiki/Q30325523
+
+- tags ::
+- keywords ::
+
+* Weapons of math destruction: how big data increases inequality and threatens democracy
+  :PROPERTIES:
+  :Custom_ID: o2016weapons
+  :URL:
+  :BTYPE: book
+  :AUTHOR: O'neil, C.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

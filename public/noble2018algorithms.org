@@ -1,0 +1,16 @@
+#+TITLE: noble2018algorithms: Algorithms of oppression: how search engines reinforce racism
+#+roam_key: cite:noble2018algorithms
+#+roam_tags: lit book
+#+wikidata: https://www.wikidata.org/wiki/Q48816548
+
+- tags ::
+- keywords ::
+
+* Algorithms of oppression: how search engines reinforce racism
+  :PROPERTIES:
+  :Custom_ID: noble2018algorithms
+  :URL:
+  :AUTHOR: Noble, S. U.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

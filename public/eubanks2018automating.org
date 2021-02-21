@@ -1,0 +1,17 @@
+#+TITLE: eubanks2018automating: Automating inequality: how high-tech tools profile, police, and punish the poor
+#+roam_key: cite:eubanks2018automating
+#+roam_tags: lit book
+#+wikidata:
+
+- tags ::
+- keywords ::
+
+
+* Automating inequality: how high-tech tools profile, police, and punish the poor
+  :PROPERTIES:
+  :Custom_ID: eubanks2018automating
+  :URL:
+  :AUTHOR: Eubanks, V.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

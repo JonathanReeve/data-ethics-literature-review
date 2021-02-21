@@ -1,0 +1,16 @@
+#+TITLE: loukides2018ethics: Ethics and data science
+#+roam_key: cite:loukides2018ethics
+#+roam_tags: lit book
+
+- tags ::
+- keywords ::
+
+
+* Ethics and data science
+  :PROPERTIES:
+  :Custom_ID: loukides2018ethics
+  :URL: https://books.google.com/books?id=UXHKDwAAQBAJ
+  :AUTHOR: Loukides, M., Mason, H., & Patil, D.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

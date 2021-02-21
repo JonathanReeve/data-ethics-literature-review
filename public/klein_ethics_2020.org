@@ -1,0 +1,15 @@
+#+TITLE: klein_ethics_2020: Ethics and Governance of AI Reading List
+#+roam_key: cite:klein_ethics_2020
+#+roam_tags: lit list
+
+- tags ::
+- keywords ::
+
+* Ethics and Governance of AI Reading List
+  :PROPERTIES:
+  :Custom_ID: klein_ethics_2020
+  :URL: https://cyber.harvard.edu/ethics-and-governance-ai-reading-list
+  :AUTHOR: The Berkman Klein Center for Internet & Society
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

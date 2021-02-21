@@ -1,0 +1,16 @@
+#+TITLE: wells_ida_justdata: Ida b. wells just data lab
+#+roam_key: cite:wells_ida_justdata
+#+roam_tags: lit organization
+
+- tags ::
+- keywords ::
+
+
+* Ida b. wells just data lab
+  :PROPERTIES:
+  :Custom_ID: wells_ida_justdata
+  :URL: https://www.thejustdatalab.com/about-the-lab
+  :AUTHOR:
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

@@ -1,0 +1,9 @@
+#+TITLE: Index
+#+SEQ_TODO: TODO FOUND READING | DONE CANCELED
+
+- [[https://github.com/JonathanReeve/data-ethics-literature-review][This repository, on GitHub]]
+
+- [[file:20210214185456-reading_lists_and_syllabi.org][reading lists and syllabi]]
+- [[file:20210214211238-general_descriptions.org][general descriptions]]
+- [[file:20210214211424-journals.org][journals]]
+- [[file:20210214220712-organizations.org][organizations]]

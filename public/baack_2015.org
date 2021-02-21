@@ -1,0 +1,28 @@
+#+TITLE: Baack_2015: Datafication and empowerment: how the open data movement re-articulates notions of democracy, participation, and journalism
+#+roam_key: cite:Baack_2015
+#+roam_tags: lit article
+
+- tags ::
+- keywords ::
+
+* Datafication and empowerment: How the open data movement re-articulates notions of democracy, participation, and journalism* Datafication and empowerment: how the open data movement re-articulates notions of democracy, participation, and journalism
+  :PROPERTIES:
+  :Custom_ID: Baack_2015
+  :URL: http://dx.doi.org/10.1177/2053951715594634
+  :AUTHOR:   Baack, Stefan
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :TITLE:    Datafication and empowerment: How the open data movement re-articulates notions of democracy, participation, and journalism
+  :BTYPE:    article
+  :YEAR:     2015
+  :VOLUME:   2
+  :NUMBER:   2
+  :MONTH:    Jul
+  :PAGES:    205395171559463
+  :ISSN:     2053-9517
+  :DOI:      10.1177/2053951715594634
+  :JOURNAL:  Big Data & Society
+  :PUBLISHER: SAGE Publications
+  :END:
+
+Article in [[file:../public/20210214211451-big_data_and_society.org][Big Data and Society]]

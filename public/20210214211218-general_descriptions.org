@@ -1,0 +1,3 @@
+#+title: general descriptions
+
+** [[https://en.wikipedia.org/wiki/Big_data_ethics][Big data ethics - Wikipedia]]

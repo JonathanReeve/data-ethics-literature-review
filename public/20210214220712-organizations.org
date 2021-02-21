@@ -1,0 +1,4 @@
+#+title: organizations
+
+* Berkman Klein Center for Internet and Society, at Harvard
+- Published [[file:klein_ethics_2020.org][klein_ethics_2020: Ethics and Governance of AI Reading List]]

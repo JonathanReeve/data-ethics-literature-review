@@ -1,0 +1,17 @@
+#+title: Isabelle's initial list of resources
+#+roam_tags: lists
+
+* [[file:ai_ethics_reading_list_ai_ethics_reading_list.org][AI Ethics Reading List · AI Ethics Reading List]]
+* [[file:glanz_bookclub_2020.org][glanz_bookclub_2020: Bookclub on Data Science Ethics · Teach Data Science]]
+* [[file:boyd_2012.org][boyd_2012: Critical questions for big data]]
+* [[file:dignazio_5_2020.org][dignazio_5_2020: 5 Questions on Data and Context with Desmond Patton]]
+* [[file:dunn_tech_2020.org][dunn_tech_2020: Tech for good isn't a thing]]
+* [[file:klein_ethics_2020.org][klein_ethics_2020: Ethics and Governance of AI Reading List]]
+* [[file:fiesler_tech_2019.org][fiesler_tech_2019: Tech Ethics Curricula: A Collection of Syllabi]]
+* [[file:frey_2018.org][Frey_2018: Artificial intelligence and inclusion: formerly gang-involved youth as domain experts for analyzing unstructured twitter data]]
+* [[file:wells_ida_justdata.org][wells_ida_justdata: Ida b. wells just data lab]]
+* [[file:knowles_ethical_data_science_reader_2019.org][knowles_ethical_data_science_reader_2019]]
+* [[file:benjamin_resources.org][benjamin_resources: Resources]]
+* Wiggins, C. (2018). Thoughts on an data ethics sequence of courses.
+* [[file:zook_ten_2017.org][zook_ten_2017: Ten simple rules for responsible big data research]]
+* [[file:hao_can_2019.org][hao_can_2019: Can you make AI fairer than a judge? Play our courtroom algorithm game]]

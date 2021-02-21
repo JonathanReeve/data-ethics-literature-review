@@ -1,0 +1,16 @@
+#+TITLE: broussard2019artificial: Artificial unintelligence: how computers misunderstand the world
+#+roam_key: cite:broussard2019artificial
+#+roam_tags: lit book
+
+- tags ::
+- keywords ::
+
+
+* Artificial unintelligence: how computers misunderstand the world
+  :PROPERTIES:
+  :Custom_ID: broussard2019artificial
+  :URL: https://books.google.com/books?id=4r34DwAAQBAJ
+  :AUTHOR: Broussard, M.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

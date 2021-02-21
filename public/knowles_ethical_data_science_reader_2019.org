@@ -1,0 +1,27 @@
+#+TITLE: knowles_ethical_data_science_reader_2019
+#+roam_key: cite:knowles_ethical_data_science_reader_2019
+#+roam_tags: lit list
+
+- tags ::
+- keywords ::
+
+* Readings in Ethical Data Science
+  :PROPERTIES:
+  :Custom_ID: knowles_ethical_data_science_reader_2019
+  :URL: https://github.com/jknowles/ethical_data_science_reader
+  :AUTHOR: Knowles, J.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:
+
+List by Jared Knowles, Civilytics Consulting
+
+** Books
+- [[file:eubanks2018automating.org][eubanks2018automating: Automating inequality: how high-tech tools profile, police, and punish the poor]]
+- [[file:noble2018algorithms.org][noble2018algorithms: Algorithms of oppression: how search engines reinforce racism]]
+- [[file:o2016weapons.org][o2016weapons: Weapons of math destruction: how big data increases inequality and threatens democracy]]
+- [[file:broussard2019artificial.org][broussard2019artificial: Artificial unintelligence: how computers misunderstand the world]]
+- [[file:benjamin2019race.org][benjamin2019race: Race after technology: abolitionist tools for the new jim code]]
+- [[file:loukides2018ethics.org][loukides2018ethics: Ethics and data science]]
+
+** Articles
