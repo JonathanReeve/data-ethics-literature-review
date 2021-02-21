@@ -1,6 +1,0 @@
-#+title: reading lists and syllabi
-#+ROAM_TAGS:
-
-* [[file:20210214190247-isabelle_s_initial_list_of_resources.org][Isabelle's initial list of resources]]
-* [[https://caitiewrites.gitbooks.io/ai-ethics-reading-list/content/][AI Ethics Reading List · AI Ethics Reading List]]
-* [[file:glanz_bookclub_2020.org][glanz_bookclub_2020: Bookclub on Data Science Ethics · Teach Data Science]]

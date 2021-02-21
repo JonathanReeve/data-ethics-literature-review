@@ -1,5 +1,0 @@
-#+title: AI Ethics Reading List · AI Ethics Reading List
-#+roam_key: https://caitiewrites.gitbooks.io/ai-ethics-reading-list/content/
-#+roam_tags: list
-
-Caitlin McDonald
