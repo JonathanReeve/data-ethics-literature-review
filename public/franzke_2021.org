@@ -1,0 +1,18 @@
+#+TITLE: Franzke_2021: Data ethics decision aid (deda): a dialogical framework for ethical inquiry of ai and data projects in the netherlands
+#+roam_key: cite:Franzke_2021
+#+roam_tags: lit
+
+- tags ::
+- keywords ::
+
+
+* Data ethics decision aid (deda): a dialogical framework for ethical inquiry of ai and data projects in the netherlands
+  :PROPERTIES:
+  :Custom_ID: Franzke_2021
+  :URL: http://dx.doi.org/10.1007/s10676-020-09577-5
+  :AUTHOR: Franzke, A. S., Muis, I., & Schäfer, M. T.
+  :NOTER_DOCUMENT: /home/jon/Dokumentujo/Papers/Franzke_2021.pdf
+  :NOTER_PAGE:
+  :END:
+
+  Describes the [[https://dataschool.nl/en/deda/][Data Ethics Decision Aid]]
