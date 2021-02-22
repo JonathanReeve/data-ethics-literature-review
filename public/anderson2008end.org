@@ -1,0 +1,18 @@
+#+TITLE: anderson2008end: The end of theory: the data deluge makes the scientific method obsolete
+#+roam_key: cite:anderson2008end
+#+roam_tags: lit
+
+- tags ::
+- keywords ::
+
+
+* The end of theory: the data deluge makes the scientific method obsolete
+  :PROPERTIES:
+  :Custom_ID: anderson2008end
+  :URL: https://www.wired.com/2008/06/pb-theory/
+  :AUTHOR: Anderson, C.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:
+
+ Highly cited article in Wired. Appears in 2.5K publications.

@@ -1,0 +1,18 @@
+#+TITLE: mazzocchi2015could: Could big data be the end of theory in science? a few remarks on the epistemology of data-driven science
+#+roam_key: cite:mazzocchi2015could
+#+roam_tags: lit
+
+- tags ::
+- keywords ::
+
+
+* Could big data be the end of theory in science? a few remarks on the epistemology of data-driven science
+  :PROPERTIES:
+  :Custom_ID: mazzocchi2015could
+  :URL:
+  :AUTHOR: Mazzocchi, F.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:
+
+  Response to [[file:anderson2008end.org][anderson2008end: The end of theory: the data deluge makes the scientific method obsolete]]

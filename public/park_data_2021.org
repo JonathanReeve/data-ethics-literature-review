@@ -1,0 +1,16 @@
+#+TITLE: park_data_2021: Data Privacy in Higher Education: Yes, Students Care
+#+roam_key: cite:park_data_2021
+#+roam_tags: lit
+
+- tags ::
+- keywords ::
+
+
+* Data Privacy in Higher Education: Yes, Students Care
+  :PROPERTIES:
+  :Custom_ID: park_data_2021
+  :URL: https://er.educause.edu/articles/2021/2/data-privacy-in-higher-education-yes-students-care
+  :AUTHOR: Park, J., & Vance, Amelia # shorttitle # Data Privacy in Higher Education
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:
