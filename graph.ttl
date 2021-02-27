@@ -1,0 +1,3047 @@
+
+0 a ccso:Course
+  ccso:hasSyllabus techanddisability.com
+  ccso:offeredBy "Science, Technology, and Society"
+  ccso:csName "Technology and Disability"
+  ccso:hasInstructor Ashley Shew
+  ccso:courseURL techanddisability.com
+
+"Science, Technology, and Society" ccso:memberOf "Virginia Tech"
+"Ashley Shew" ccso:worksFor "Virginia Tech"
+
+
+1 a ccso:Course
+  ccso:hasSyllabus TBD
+  ccso:offeredBy "Informatics"
+  ccso:csName "Data and Society"
+  ccso:hasInstructor Eden Medina, David Wild, Christopher Miles
+  ccso:courseURL nan
+
+"Informatics" ccso:memberOf "Indiana University Bloomington"
+"Eden Medina, David Wild, Christopher Miles" ccso:worksFor "Indiana University Bloomington"
+
+
+2 a ccso:Course
+  ccso:hasSyllabus TBD
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethics and Cybertechnology"
+  ccso:hasInstructor Glen Miller
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Texas A&M University"
+"Glen Miller" ccso:worksFor "Texas A&M University"
+
+
+3 a ccso:Course
+  ccso:hasSyllabus TBD
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethics of Computational Science"
+  ccso:hasInstructor Valerie Racine
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Western New England University"
+"Valerie Racine" ccso:worksFor "Western New England University"
+
+
+4 a ccso:Course
+  ccso:hasSyllabus Not online
+  ccso:offeredBy "Graduate School"
+  ccso:csName "Research Ethics and Integrity"
+  ccso:hasInstructor Catherine Flick
+  ccso:courseURL nan
+
+"Graduate School" ccso:memberOf "De Montfort University"
+"Catherine Flick" ccso:worksFor "De Montfort University"
+
+
+5 a ccso:Course
+  ccso:hasSyllabus Not online
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Political Philosophy of Social Media"
+  ccso:hasInstructor D.E. Wittkower
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Old Dominion University"
+"D.E. Wittkower" ccso:worksFor "Old Dominion University"
+
+
+6 a ccso:Course
+  ccso:hasSyllabus Not online
+  ccso:offeredBy "Computer Science"
+  ccso:csName "EECS Ethics and Diversity "
+  ccso:hasInstructor Prasad Tadepalli
+  ccso:courseURL https://oregonstate.instructure.com/courses/1646197
+
+"Computer Science" ccso:memberOf "Oregon State University"
+"Prasad Tadepalli" ccso:worksFor "Oregon State University"
+
+
+7 a ccso:Course
+  ccso:hasSyllabus Not online
+  ccso:offeredBy "Computer Science and Software Engineering"
+  ccso:csName "Ethics in Computing"
+  ccso:hasInstructor Various
+  ccso:courseURL nan
+
+"Computer Science and Software Engineering" ccso:memberOf "Seattle University"
+"Various" ccso:worksFor "Seattle University"
+
+
+8 a ccso:Course
+  ccso:hasSyllabus Not online
+  ccso:offeredBy "Computer Science and Informatics"
+  ccso:csName "Computer Ethics"
+  ccso:hasInstructor Sara Wilford
+  ccso:courseURL nan
+
+"Computer Science and Informatics" ccso:memberOf "De Montfort University"
+"Sara Wilford" ccso:worksFor "De Montfort University"
+
+
+9 a ccso:Course
+  ccso:hasSyllabus Not online
+  ccso:offeredBy "Computer Science and Informatics"
+  ccso:csName "Introduction to Research and Ethics"
+  ccso:hasInstructor Catherine Flick
+  ccso:courseURL nan
+
+"Computer Science and Informatics" ccso:memberOf "De Montfort University"
+"Catherine Flick" ccso:worksFor "De Montfort University"
+
+
+10 a ccso:Course
+  ccso:hasSyllabus Not online
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Computer Science and Society"
+  ccso:hasInstructor Ernst Leiss
+  ccso:courseURL http://publications.uh.edu/preview_course_nopop.php?catoid=25&coid=108008&
+
+"Computer Science" ccso:memberOf "University of Houston"
+"Ernst Leiss" ccso:worksFor "University of Houston"
+
+
+11 a ccso:Course
+  ccso:hasSyllabus Not available online
+  ccso:offeredBy "Natural Sciences & Mathematics"
+  ccso:csName "Data, Design & Social Justice"
+  ccso:hasInstructor Jennifer Wilson
+  ccso:courseURL https://courses.newschool.edu/courses/LMTH2103
+
+"Natural Sciences & Mathematics" ccso:memberOf "The New School"
+"Jennifer Wilson" ccso:worksFor "The New School"
+
+
+12 a ccso:Course
+  ccso:hasSyllabus https://www.ucl.ac.uk/sts/module-information/hpsc/2016-17/hpscga47-syllabus-2016-17
+  ccso:offeredBy "Science and Technology Studies"
+  ccso:csName "Responsible science and innovation"
+  ccso:hasInstructor Dr. Melanie Smallman
+  ccso:courseURL http://www.ucl.ac.uk/systems-engineering/pg-taught/tm/taught-modules/responsible
+
+"Science and Technology Studies" ccso:memberOf "University College London"
+"Dr. Melanie Smallman" ccso:worksFor "University College London"
+
+
+13 a ccso:Course
+  ccso:hasSyllabus https://www.scu.edu/media/ethics-center/technology-ethics/Instructors.pdf
+  ccso:offeredBy "Philosophy"
+  ccso:csName "An Introduction to Software Engineering Ethics"
+  ccso:hasInstructor Shannon Vallor with Arvind Narayanan
+  ccso:courseURL https://www.scu.edu/ethics/focus-areas/more/engineering-ethics/an-introduction-to-software-engineering-ethics/
+
+"Philosophy" ccso:memberOf "Santa Clara University"
+"Shannon Vallor with Arvind Narayanan" ccso:worksFor "Santa Clara University"
+
+
+14 a ccso:Course
+  ccso:hasSyllabus https://www.oii.ox.ac.uk/wp-content/uploads/2017/09/The-Philosophy-and-Ethics-of-Information_Reading-List_2017-18_Final.pdf
+  ccso:offeredBy "Oxford Internet Institute"
+  ccso:csName "The Philosophy and Ethics of Information"
+  ccso:hasInstructor Dr Luciano Floridi
+  ccso:courseURL https://www.oii.ox.ac.uk/study/courses/the-philosophy-and-ethics-of-information/
+
+"Oxford Internet Institute" ccso:memberOf "nan"
+"Dr Luciano Floridi" ccso:worksFor "nan"
+
+
+15 a ccso:Course
+  ccso:hasSyllabus https://www.law.washington.edu/coursecatalog/syllabi/2017-spring_calory_e547_robotics_law_and_policy.pdf
+  ccso:offeredBy "School of Law"
+  ccso:csName "Robotics Law and Policy"
+  ccso:hasInstructor Ryan Calo
+  ccso:courseURL https://www.law.washington.edu/coursecatalog/course.aspx?ID=E547&YR=2017
+
+"School of Law" ccso:memberOf "University of Washington"
+"Ryan Calo" ccso:worksFor "University of Washington"
+
+
+16 a ccso:Course
+  ccso:hasSyllabus https://www.dcc.uchile.cl/sites/default/files/CC5611%20%C3%89tica%20para%20Ingenieros%20en%20Computaci%C3%B3n%202014-2%20%28CFIE%29_1.pdf
+  ccso:offeredBy "Computer Science Department"
+  ccso:csName "Ethics for CS students"
+  ccso:hasInstructor Javier Bustos-Jiménez
+  ccso:courseURL nan
+
+"Computer Science Department" ccso:memberOf "Universidad de Chile"
+"Javier Bustos-Jiménez" ccso:worksFor "Universidad de Chile"
+
+
+17 a ccso:Course
+  ccso:hasSyllabus https://www.cs.utexas.edu/users/ear/cs349/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Contemporary Issues in Computer Science"
+  ccso:hasInstructor various
+  ccso:courseURL https://www.cs.utexas.edu/courses/349-contemporary-issues-computer-science
+
+"Computer Science" ccso:memberOf "University of Texas at Austin"
+"various" ccso:worksFor "University of Texas at Austin"
+
+
+18 a ccso:Course
+  ccso:hasSyllabus https://www.cs.utexas.edu/~ans/classes/cs109/syllabus.html
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethical Foundations of Computer Science"
+  ccso:hasInstructor Alison Norman - Sarah Abraham
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "University of Texas at Austin"
+"Alison Norman - Sarah Abraham" ccso:worksFor "University of Texas at Austin"
+
+
+19 a ccso:Course
+  ccso:hasSyllabus https://www.cs.columbia.edu/~smb/classes/s18/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Computers and Society "
+  ccso:hasInstructor Steven M. Bellovin
+  ccso:courseURL http://www.cs.columbia.edu/education/courses/course/COMSW3410-1/24806/
+
+"Computer Science" ccso:memberOf "Columbia University"
+"Steven M. Bellovin" ccso:worksFor "Columbia University"
+
+
+20 a ccso:Course
+  ccso:hasSyllabus https://www.cl.cam.ac.uk/teaching/1718/EconLaw/econlaw2018.pdf
+  ccso:offeredBy "Department of Computer Science and Technology"
+  ccso:csName "Economics, Law and Ethics"
+  ccso:hasInstructor Ross Anderson
+  ccso:courseURL https://www.cl.cam.ac.uk/teaching/1718/EconLaw/
+
+"Department of Computer Science and Technology" ccso:memberOf "University of Cambridge"
+"Ross Anderson" ccso:worksFor "University of Cambridge"
+
+
+21 a ccso:Course
+  ccso:hasSyllabus https://www.cc.gatech.edu/~asb/teaching/4001/fall2017/
+  ccso:offeredBy "College of Computing"
+  ccso:csName "Computing, Society, & Professionalism"
+  ccso:hasInstructor Various
+  ccso:courseURL nan
+
+"College of Computing" ccso:memberOf "Georgia Institute of Technology"
+"Various" ccso:worksFor "Georgia Institute of Technology"
+
+
+22 a ccso:Course
+  ccso:hasSyllabus https://www.cah.ucf.edu/common/files/syllabi/PHI69380001Spring2016.pdf
+  ccso:offeredBy "Texts & Technology / Philosophy"
+  ccso:csName "Digital Ethics"
+  ccso:hasInstructor Jonathan Beever
+  ccso:courseURL nan
+
+"Texts & Technology / Philosophy" ccso:memberOf "University of Central Florida"
+"Jonathan Beever" ccso:worksFor "University of Central Florida"
+
+
+23 a ccso:Course
+  ccso:hasSyllabus https://www.academia.edu/35676633/CMS_332D_Digital_Ethics_Syllabus_Undergraduate_Spring_2018_
+  ccso:offeredBy "Communication Studies"
+  ccso:csName "Digital Ethics"
+  ccso:hasInstructor Scott R. Stroud
+  ccso:courseURL nan
+
+"Communication Studies" ccso:memberOf "University of Texas at Austin"
+"Scott R. Stroud" ccso:worksFor "University of Texas at Austin"
+
+
+24 a ccso:Course
+  ccso:hasSyllabus https://www.academia.edu/19990892/COM_597E_Black_Mirror_Exploring_the_ethical_questions_of_new_technology_-_Winter_2016 
+  ccso:offeredBy "Communication"
+  ccso:csName "Exploring the Ethical Questions of New Technology"
+  ccso:hasInstructor Katy Pearce
+  ccso:courseURL http://info.commlead.uw.edu/course/com-597-black-mirror-exploring-the-ethical-questions-of-new-technology-2/
+
+"Communication" ccso:memberOf "University of Washington"
+"Katy Pearce" ccso:worksFor "University of Washington"
+
+
+25 a ccso:Course
+  ccso:hasSyllabus https://www.academia.edu/1745177/Fall_2011_Syllabus_for_L_and_I_SCI_Information_Technology_Ethics
+  ccso:offeredBy "School of Information Studies"
+  ccso:csName "Information Technology Ethics"
+  ccso:hasInstructor nan
+  ccso:courseURL nan
+
+"School of Information Studies" ccso:memberOf "University of Wisconsin Milwaukee"
+"nan" ccso:worksFor "University of Wisconsin Milwaukee"
+
+
+26 a ccso:Course
+  ccso:hasSyllabus https://wiki.communitydata.science/Human_Centered_Data_Science
+  ccso:offeredBy "eScience Institute"
+  ccso:csName "Human Centered Data Science"
+  ccso:hasInstructor Jonathan T. Morgan
+  ccso:courseURL https://www.datasciencemasters.uw.edu/program-details/courses-curriculum/course-descriptions/
+
+"eScience Institute" ccso:memberOf "University of Washington"
+"Jonathan T. Morgan" ccso:worksFor "University of Washington"
+
+
+27 a ccso:Course
+  ccso:hasSyllabus https://wiki.communitydata.cc/HCDS_(Fall_2017)
+  ccso:offeredBy "eScience Institute/Human Centered Design & Engineering"
+  ccso:csName "Human-Centred Data Science"
+  ccso:hasInstructor Jonathan Morgan, Os Keyes
+  ccso:courseURL https://www.washington.edu/students/crscat/data.html
+
+"eScience Institute/Human Centered Design & Engineering" ccso:memberOf "University of Washington"
+"Jonathan Morgan, Os Keyes" ccso:worksFor "University of Washington"
+
+
+28 a ccso:Course
+  ccso:hasSyllabus https://web.stanford.edu/class/cs106s/ (Not valid)
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Programming Abstractions and Social Good"
+  ccso:hasInstructor J. Cain
+  ccso:courseURL https://stanford.io/2IgPnDm
+
+"Computer Science" ccso:memberOf "Stanford University"
+"J. Cain" ccso:worksFor "Stanford University"
+
+
+29 a ccso:Course
+  ccso:hasSyllabus https://web.cecs.pdx.edu/~harmon8/classes/cs305-201802/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Social, Ethical, and Legal Implications of Computing"
+  ccso:hasInstructor Ellie Harmon
+  ccso:courseURL https://www.pdx.edu/computer-science/cs305
+
+"Computer Science" ccso:memberOf "Portland State University"
+"Ellie Harmon" ccso:worksFor "Portland State University"
+
+
+30 a ccso:Course
+  ccso:hasSyllabus https://ubc-mds.github.io/course-descriptions/DSCI_541_priv-eth-sec/
+  ccso:offeredBy "Master of Data Science"
+  ccso:csName "Ethics, Privacy and Security"
+  ccso:hasInstructor Ed Knorr, Orlin Vakarelov, Giulio Valentino, Dalla Riva
+  ccso:courseURL https://ubc-mds.github.io/course-descriptions/DSCI_541_priv-eth-sec/
+
+"Master of Data Science" ccso:memberOf "University of British Columbia"
+"Ed Knorr, Orlin Vakarelov, Giulio Valentino, Dalla Riva" ccso:worksFor "University of British Columbia"
+
+
+31 a ccso:Course
+  ccso:hasSyllabus https://syllabi-media.s3.amazonaws.com/prod/2019C-LGST242001-97324086.pdf
+  ccso:offeredBy "Legal Studies & Business Ethics"
+  ccso:csName "Big Data, Big Responsibilities"
+  ccso:hasInstructor Kevin Werbach
+  ccso:courseURL nan
+
+"Legal Studies & Business Ethics" ccso:memberOf "University of Pennsylvania - The Wharton School"
+"Kevin Werbach" ccso:worksFor "University of Pennsylvania - The Wharton School"
+
+
+32 a ccso:Course
+  ccso:hasSyllabus https://stanfordcs181.github.io/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Computers, Ethics, and Public Policy"
+  ccso:hasInstructor Allison Berke, Keith Winstein
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Stanford University"
+"Allison Berke, Keith Winstein" ccso:worksFor "Stanford University"
+
+
+33 a ccso:Course
+  ccso:hasSyllabus https://soic.iupui.edu/syllabi/INFO-I453-Hook.pdf?05232018
+  ccso:offeredBy "Informatics"
+  ccso:csName "Computer and Information Ethics"
+  ccso:hasInstructor nan
+  ccso:courseURL https://soic.iupui.edu/courses/info-i453/
+
+"Informatics" ccso:memberOf "Indiana University Bloomington"
+"nan" ccso:worksFor "Indiana University Bloomington"
+
+
+34 a ccso:Course
+  ccso:hasSyllabus https://socialethical.cs.unm.edu/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Social and Ethical Issues in Computing"
+  ccso:hasInstructor Leah Buechley + others on a semester by semester basis, often adjuncts
+  ccso:courseURL http://catalog.unm.edu/catalogs/2019-2020/courses/CS/index.html
+
+"Computer Science" ccso:memberOf "University of New Mexico"
+"Leah Buechley + others on a semester by semester basis, often adjuncts" ccso:worksFor "University of New Mexico"
+
+
+35 a ccso:Course
+  ccso:hasSyllabus https://scottwhyoung.com/syllabi/information-ethics-privacy-spring-2018/
+  ccso:offeredBy "Library/Honors College"
+  ccso:csName "Information Ethics and Privacy in the Age of Big Data"
+  ccso:hasInstructor Scott W. H. Young and Sara Mannheimer
+  ccso:courseURL http://www.montana.edu/honors/seminars.html
+
+"Library/Honors College" ccso:memberOf "Montana State University"
+"Scott W. H. Young and Sara Mannheimer" ccso:worksFor "Montana State University"
+
+
+36 a ccso:Course
+  ccso:hasSyllabus https://pages.stolaf.edu/csci-263-fall19/
+  ccso:offeredBy "Computing Science"
+  ccso:csName "Ethical Issues in Software Design"
+  ccso:hasInstructor nan
+  ccso:courseURL nan
+
+"Computing Science" ccso:memberOf "St. Olaf College"
+"nan" ccso:worksFor "St. Olaf College"
+
+
+37 a ccso:Course
+  ccso:hasSyllabus https://owncloud.tuwien.ac.at/index.php/s/pYzesun5qv3iskz#pdfviewer
+  ccso:offeredBy "Informatics"
+  ccso:csName "Seminar in Critical Algorithm Studies"
+  ccso:hasInstructor Florian Cech, Hilda Tellioğlu, Gabriel Grill, Fabian Fischer, Matthias Fassl
+  ccso:courseURL https://algorithmstudies.wordpress.com/
+
+"Informatics" ccso:memberOf "TU Wien"
+"Florian Cech, Hilda Tellioğlu, Gabriel Grill, Fabian Fischer, Matthias Fassl" ccso:worksFor "TU Wien"
+
+
+38 a ccso:Course
+  ccso:hasSyllabus https://ocw.mit.edu/courses/engineering-systems-division/esd-932-engineering-ethics-spring-2006/syllabus/
+  ccso:offeredBy "Engineering Systems Division"
+  ccso:csName "Engineering Ethics"
+  ccso:hasInstructor Taft Broome
+  ccso:courseURL https://ocw.mit.edu/courses/engineering-systems-division/esd-932-engineering-ethics-spring-2006/index.htm
+
+"Engineering Systems Division" ccso:memberOf "Massachusetts Institute of Technology (MIT)"
+"Taft Broome" ccso:worksFor "Massachusetts Institute of Technology (MIT)"
+
+
+39 a ccso:Course
+  ccso:hasSyllabus https://mikedevito.files.wordpress.com/2017/11/394_humanalgointeraction_w18_11-51.pdf
+  ccso:offeredBy "Communication Studies"
+  ccso:csName "Human/Algorithm Interaction"
+  ccso:hasInstructor Mike DeVito (Winter 2018)
+  ccso:courseURL https://ocw.mit.edu/courses/engineering-systems-division/esd-932-engineering-ethics-spring-2006/index.htm
+
+"Communication Studies" ccso:memberOf "Northwestern University"
+"Mike DeVito (Winter 2018)" ccso:worksFor "Northwestern University"
+
+
+40 a ccso:Course
+  ccso:hasSyllabus https://medium.com/advanced-interaction-service-design-concepts/syllabus-mdes-seminar-iii-fall-2017-f5118b169498
+  ccso:offeredBy "Design"
+  ccso:csName "Advanced Interaction & Service Design Concepts"
+  ccso:hasInstructor Dan Lockton and Ahmed Ansari
+  ccso:courseURL http://design.cmu.edu/content/master-design
+
+"Design" ccso:memberOf "Carnegie Mellon University"
+"Dan Lockton and Ahmed Ansari" ccso:worksFor "Carnegie Mellon University"
+
+
+41 a ccso:Course
+  ccso:hasSyllabus https://medium.com/@aansari86/technology-ethics-politics-b57134f8614e
+  ccso:offeredBy "Design"
+  ccso:csName "Technology, Ethics & Politics"
+  ccso:hasInstructor Ahmed Ansari
+  ccso:courseURL nan
+
+"Design" ccso:memberOf "Carnegie Mellon University"
+"Ahmed Ansari" ccso:worksFor "Carnegie Mellon University"
+
+
+42 a ccso:Course
+  ccso:hasSyllabus https://litdigitaldiversity.northeastern.edu/syllabus/
+  ccso:offeredBy "English"
+  ccso:csName "Literature & Digital Diversity"
+  ccso:hasInstructor Elizabeth Maddock Dillon, Sarah Connell
+  ccso:courseURL nan
+
+"English" ccso:memberOf "Northeastern University"
+"Elizabeth Maddock Dillon, Sarah Connell" ccso:worksFor "Northeastern University"
+
+
+43 a ccso:Course
+  ccso:hasSyllabus https://legacy.earlham.edu/~peters/courses/kant23/syl-kant.htm
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Kant's Second and Third Critiques"
+  ccso:hasInstructor Peter Suber
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Earlham College"
+"Peter Suber" ccso:worksFor "Earlham College"
+
+
+44 a ccso:Course
+  ccso:hasSyllabus https://legacy.earlham.edu/~peters/courses/eb/syl-eb.htm
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethics of Belief"
+  ccso:hasInstructor Peter Suber
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Earlham College"
+"Peter Suber" ccso:worksFor "Earlham College"
+
+
+45 a ccso:Course
+  ccso:hasSyllabus https://legacy.earlham.edu/~peters/courses/consent/syl-cons.htm
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Consent and Coercion"
+  ccso:hasInstructor Peter Suber
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Earlham College"
+"Peter Suber" ccso:worksFor "Earlham College"
+
+
+46 a ccso:Course
+  ccso:hasSyllabus https://ischool.umd.edu/sites/default/files/syllabi/inst610_information_ethics_-_shilton_-_fall_2016.pdf
+  ccso:offeredBy "Information School"
+  ccso:csName "Information Ethics"
+  ccso:hasInstructor Various
+  ccso:courseURL https://ischool.umd.edu/courses
+
+"Information School" ccso:memberOf "University of Maryland - College Park"
+"Various" ccso:worksFor "University of Maryland - College Park"
+
+
+47 a ccso:Course
+  ccso:hasSyllabus https://ischool.umd.edu/sites/default/files/syllabi/inst447_-_spring_2018_-_heidenblad.pdf
+  ccso:offeredBy "Information School"
+  ccso:csName "Data Sources and Manipulation"
+  ccso:hasInstructor Donal Heidenblad
+  ccso:courseURL https://ischool.umd.edu/undergraduate-courses
+
+"Information School" ccso:memberOf "University of Maryland - College Park"
+"Donal Heidenblad" ccso:worksFor "University of Maryland - College Park"
+
+
+48 a ccso:Course
+  ccso:hasSyllabus https://ischool.umd.edu/sites/default/files/syllabi/inst_641_policy_and_ethics_in_digital_curation.pdf
+  ccso:offeredBy "Information School"
+  ccso:csName "Policy and Ethics for Digital Curation"
+  ccso:hasInstructor Katie Shilton
+  ccso:courseURL https://ischool.umd.edu/graduate-courses/policy-and-ethics-digital-curation
+
+"Information School" ccso:memberOf "University of Maryland - College Park"
+"Katie Shilton" ccso:worksFor "University of Maryland - College Park"
+
+
+49 a ccso:Course
+  ccso:hasSyllabus https://informationethicspolicy.wordpress.com/
+  ccso:offeredBy "Information Science"
+  ccso:csName "Ethical and Policy Dimensions of Information, Technology, and New Media"
+  ccso:hasInstructor Casey Fiesler
+  ccso:courseURL nan
+
+"Information Science" ccso:memberOf "University of Colorado Boulder"
+"Casey Fiesler" ccso:worksFor "University of Colorado Boulder"
+
+
+50 a ccso:Course
+  ccso:hasSyllabus https://informationecosystems.wordpress.com
+  ccso:offeredBy "Information Science"
+  ccso:csName "Information Ecosystems"
+  ccso:hasInstructor Casey Fiesler
+  ccso:courseURL nan
+
+"Information Science" ccso:memberOf "University of Colorado Boulder"
+"Casey Fiesler" ccso:worksFor "University of Colorado Boulder"
+
+
+51 a ccso:Course
+  ccso:hasSyllabus https://hackmd.io/vvH1YXGHTlGLUx-7M4OMUw
+  ccso:offeredBy "English"
+  ccso:csName "Data Stories"
+  ccso:hasInstructor Christopher Warren
+  ccso:courseURL https://hackmd.io/vvH1YXGHTlGLUx-7M4OMUw
+
+"English" ccso:memberOf "Carnegie Mellon University"
+"Christopher Warren" ccso:worksFor "Carnegie Mellon University"
+
+
+52 a ccso:Course
+  ccso:hasSyllabus https://hackmd.io/s/BJ74JEM6z#
+  ccso:offeredBy "Mathematics, Science and Technology"
+  ccso:csName "Ethical Issues in Technology Design"
+  ccso:hasInstructor Joey J. Lee
+  ccso:courseURL https://hackmd.io/s/BJ74JEM6z#
+
+"Mathematics, Science and Technology" ccso:memberOf "Columbia University - Teachers College"
+"Joey J. Lee" ccso:worksFor "Columbia University - Teachers College"
+
+
+53 a ccso:Course
+  ccso:hasSyllabus https://hackmd.io/gkEk7RBHRT66QvD8_Og2_g
+  ccso:offeredBy "English"
+  ccso:csName "Data Stories"
+  ccso:hasInstructor Christopher Warren
+  ccso:courseURL https://www.coursicle.com/cmu/courses/ENG/76314/
+
+"English" ccso:memberOf "Carnegie Mellon University"
+"Christopher Warren" ccso:worksFor "Carnegie Mellon University"
+
+
+54 a ccso:Course
+  ccso:hasSyllabus https://h2o.law.harvard.edu/playlists/53282
+  ccso:offeredBy "Harvard Law School"
+  ccso:csName "The Ethics and Governance of Artificial Intelligence"
+  ccso:hasInstructor Jonathan Zittrain
+  ccso:courseURL https://hls.harvard.edu/academics/curriculum/catalog/default.aspx?o=71157
+
+"Harvard Law School" ccso:memberOf "Harvard University"
+"Jonathan Zittrain" ccso:worksFor "Harvard University"
+
+
+55 a ccso:Course
+  ccso:hasSyllabus https://goo.gl/wbKokH
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Professional Ethics in Computing"
+  ccso:hasInstructor Multiple professors
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "California State University Fullerton"
+"Multiple professors" ccso:worksFor "California State University Fullerton"
+
+
+56 a ccso:Course
+  ccso:hasSyllabus https://goo.gl/pu1hda
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Professional Ethics in Computing"
+  ccso:hasInstructor Beth Harnick-Shapiro
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "California State University Fullerton"
+"Beth Harnick-Shapiro" ccso:worksFor "California State University Fullerton"
+
+
+57 a ccso:Course
+  ccso:hasSyllabus https://github.com/shionguha/cosc4931-socialethicalimp-fa18/blob/master/cosc4931_fa18_syllabus.pdf
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethical and Social Implications of Data"
+  ccso:hasInstructor Shion Guha
+  ccso:courseURL https://github.com/shionguha/cosc4931-socialethicalimp-fa18
+
+"Computer Science" ccso:memberOf "Marquette University"
+"Shion Guha" ccso:worksFor "Marquette University"
+
+
+58 a ccso:Course
+  ccso:hasSyllabus https://github.com/s-a-m/UCM-Fdi-ELP/blob/master/Ficha-BasicSyllabus-ELP-2017-18.pdf
+  ccso:offeredBy "Computer Science (Dpt AI & Sw Eng + Dpt Comp. Arch.)"
+  ccso:csName "Ethics, Law & Profession of CS"
+  ccso:hasInstructor Samer Hassan <samer@ucm.es>
+Sara Román <sroman@ucm.es>
+Marcos Sánchez-Elez <marcos@ucm.es>
+  ccso:courseURL https://github.com/s-a-m/UCM-Fdi-ELP
+
+"Computer Science (Dpt AI & Sw Eng + Dpt Comp. Arch.)" ccso:memberOf "Univ. Complutense de Madrid"
+"Samer Hassan <samer@ucm.es>
+Sara Román <sroman@ucm.es>
+Marcos Sánchez-Elez <marcos@ucm.es>" ccso:worksFor "Univ. Complutense de Madrid"
+
+
+59 a ccso:Course
+  ccso:hasSyllabus https://filmsfromthefuture.com/wp-content/uploads/2019/01/Template-Syllabus.pdf
+  ccso:offeredBy "School for the Future of Innovation in Society"
+  ccso:csName "The Moviegoer's Guide to the Future"
+  ccso:hasInstructor Andrew Maynard
+  ccso:courseURL https://riskinnovation.asu.edu/fis-394-moviegoers-guide-future/
+
+"School for the Future of Innovation in Society" ccso:memberOf "Arizona State University"
+"Andrew Maynard" ccso:worksFor "Arizona State University"
+
+
+60 a ccso:Course
+  ccso:hasSyllabus https://fenix.tecnico.ulisboa.pt/disciplinas/CS111326/2017-2018/2-semestre/programa
+  ccso:offeredBy "Computer Science and Engineering"
+  ccso:csName "Computing and Society"
+  ccso:hasInstructor Mário J Silva
+  ccso:courseURL nan
+
+"Computer Science and Engineering" ccso:memberOf "University of Lisbon"
+"Mário J Silva" ccso:worksFor "University of Lisbon"
+
+
+61 a ccso:Course
+  ccso:hasSyllabus https://fairmlclass.github.io/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Fairness in Machine Learning"
+  ccso:hasInstructor Moritz Hardt
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "UC Berkeley"
+"Moritz Hardt" ccso:worksFor "UC Berkeley"
+
+
+62 a ccso:Course
+  ccso:hasSyllabus https://eservices.minnstate.edu/registration/rest/institutions/0070/campuses/070/curriculums/00004785/terms/00000
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Social, Ethical, and Professional Issues in Computing"
+  ccso:hasInstructor Marty J. Wolf
+  ccso:courseURL https://www.bemidjistate.edu/academics/catalog/20135/courses/cs/4390
+
+"Computer Science" ccso:memberOf "Bemidji State University"
+"Marty J. Wolf" ccso:worksFor "Bemidji State University"
+
+
+63 a ccso:Course
+  ccso:hasSyllabus https://engineering.purdue.edu/BME/PRIMEEthics
+  ccso:offeredBy "College of Engineering"
+  ccso:csName "Purdue's Reflective & Interactive Modules for Engineering Ethics"
+  ccso:hasInstructor Andrew Brightman and colleagues
+  ccso:courseURL nan
+
+"College of Engineering" ccso:memberOf "Purdue University"
+"Andrew Brightman and colleagues" ccso:worksFor "Purdue University"
+
+
+64 a ccso:Course
+  ccso:hasSyllabus https://dsalo.info/wp-content/uploads/2011/05/CodeAndPower2017.pdf
+  ccso:offeredBy "Information School"
+  ccso:csName "Ethics and Policy in Data Science"
+  ccso:hasInstructor Dorothea Salo, Reginold Royston, Tracy Lewis-Williams
+  ccso:courseURL https://ischool.wisc.edu/programs/undergraduatedigital-studies/
+
+"Information School" ccso:memberOf "University of Wisconsin - Madison"
+"Dorothea Salo, Reginold Royston, Tracy Lewis-Williams" ccso:worksFor "University of Wisconsin - Madison"
+
+
+65 a ccso:Course
+  ccso:hasSyllabus https://dsalo.info/wp-content/uploads/2011/05/351syll2017sp.pdf
+  ccso:offeredBy "Information School"
+  ccso:csName "Introduction to Digital Information"
+  ccso:hasInstructor Dorothea Salo
+  ccso:courseURL https://ischool.wisc.edu/programs/undergraduatedigital-studies/
+
+"Information School" ccso:memberOf "University of Wisconsin - Madison"
+"Dorothea Salo" ccso:worksFor "University of Wisconsin - Madison"
+
+
+66 a ccso:Course
+  ccso:hasSyllabus https://drive.google.com/open?id=1GV97qqvjQNvyM2I01vuRaAwHe9pQAZ9pbP7KkKveg1o
+  ccso:offeredBy "Information Science"
+  ccso:csName "nan"
+  ccso:hasInstructor Solon Barocas
+  ccso:courseURL https://www.infosci.cornell.edu/academics/courses/ethics-and-policy-data-science
+
+"Information Science" ccso:memberOf "Cornell University"
+"Solon Barocas" ccso:worksFor "Cornell University"
+
+
+67 a ccso:Course
+  ccso:hasSyllabus https://drive.google.com/open?id=1bV86GDFQ550MoN8KrKzRvtd8WK9ejn2R
+  ccso:offeredBy "Management"
+  ccso:csName "Ethical & Legal Issues of Data Analytics"
+  ccso:hasInstructor Salman Azhar
+  ccso:courseURL https://m10763.siss.duke.edu/app/catalog/classsection/DUKEU/1630/
+
+"Management" ccso:memberOf "Duke - Fuqua School of Business"
+"Salman Azhar" ccso:worksFor "Duke - Fuqua School of Business"
+
+
+68 a ccso:Course
+  ccso:hasSyllabus https://drive.google.com/open?id=1BEg2ZH_2BUKgfnuYYNj-rs3c29jiMOgi
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Foundational Values"
+  ccso:hasInstructor Don Winiecki
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Boise State University"
+"Don Winiecki" ccso:worksFor "Boise State University"
+
+
+69 a ccso:Course
+  ccso:hasSyllabus https://drive.google.com/file/d/105--zeyHG32mLy2_dv9z4z6kw4r38JLO/view
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethical Issues in Computing and Research Methods"
+  ccso:hasInstructor Sarah Alsulaiman, Farah Muhammed
+  ccso:courseURL https://fac.ksu.edu.sa/nalnabhan/course/131953
+
+"Computer Science" ccso:memberOf "King Saud University"
+"Sarah Alsulaiman, Farah Muhammed" ccso:worksFor "King Saud University"
+
+
+70 a ccso:Course
+  ccso:hasSyllabus https://drive.google.com/drive/folders/1YZve_Q2orzCYysjh0-IxuN1NB6S6pZE8?usp=sharing
+  ccso:offeredBy "Global Poverty and Practice"
+  ccso:csName "Engineering Social Justice"
+  ccso:hasInstructor Khalid Kadir
+  ccso:courseURL nan
+
+"Global Poverty and Practice" ccso:memberOf "UC Berkeley"
+"Khalid Kadir" ccso:worksFor "UC Berkeley"
+
+
+71 a ccso:Course
+  ccso:hasSyllabus https://drive.google.com/a/umd.edu/file/d/1Fc_sw8dMXB7r1HkVr490q7mg8l7cXC7U/view?usp=sharing
+  ccso:offeredBy "Electrical and Computer Engineering "
+  ccso:csName "Technology and Consequences: Engineering, Ethics and Humanity "
+  ccso:hasInstructor Nicole Mogul 
+  ccso:courseURL https://ece.umd.edu/course-schedule/course/ENEE200
+
+"Electrical and Computer Engineering " ccso:memberOf "University of Maryland, College Park "
+"Nicole Mogul " ccso:worksFor "University of Maryland, College Park "
+
+
+72 a ccso:Course
+  ccso:hasSyllabus https://docs.google.com/spreadsheets/d/169Hz1Jknnu_vn99URSd8MfbqBbYI9MxcqZK7Y6GzGYQ/edit?usp=sharing
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Race & Gender in Silicon Valley"
+  ccso:hasInstructor Cynthia Lee
+  ccso:courseURL https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=CS+80Q&collapse=
+
+"Computer Science" ccso:memberOf "Stanford University"
+"Cynthia Lee" ccso:worksFor "Stanford University"
+
+
+73 a ccso:Course
+  ccso:hasSyllabus https://docs.google.com/document/d/e/2PACX-1vQSuCOtwEb8mynxWAI4rWFiXNgXK6SLiDD9KT51CxeaOIlUw9wY5ZmWPz4AELDdO-27bPm_EbUGA8ur/pub
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Privacy Legislation: Law and Technology"
+  ccso:hasInstructor Daniel Weitzner, Hal Abelson, David Vladeck, Alvaro Bedoya, Laura Moy
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Massachusetts Institute of Technology (MIT) - Georgetown University"
+"Daniel Weitzner, Hal Abelson, David Vladeck, Alvaro Bedoya, Laura Moy" ccso:worksFor "Massachusetts Institute of Technology (MIT) - Georgetown University"
+
+
+74 a ccso:Course
+  ccso:hasSyllabus https://docs.google.com/document/d/1l1GArujM62kfU6-a7pKan95L20GjZ3_9_ErXpEWNO5M/edit#
+  ccso:offeredBy "MIT Media Lab"
+  ccso:csName "#CryptoEthics: The Ethics and Impact of Cryptocurrency and Blockchain Technology"
+  ccso:hasInstructor Rhys Lindmark and Neha Narula
+  ccso:courseURL http://blockchainethics.co
+
+"MIT Media Lab" ccso:memberOf "MIT"
+"Rhys Lindmark and Neha Narula" ccso:worksFor "MIT"
+
+
+75 a ccso:Course
+  ccso:hasSyllabus https://datascienceethics.org/syllabus/
+  ccso:offeredBy "Statistics & Data Science"
+  ccso:csName "Data Science Ethics"
+  ccso:hasInstructor Elisa Celis
+  ccso:courseURL nan
+
+"Statistics & Data Science" ccso:memberOf "Yale University"
+"Elisa Celis" ccso:worksFor "Yale University"
+
+
+76 a ccso:Course
+  ccso:hasSyllabus https://dam-prod.media.mit.edu/x/2018/02/07/Ethics%20and%20Governance%20of%20AI%20S18%20.pdf
+  ccso:offeredBy "MIT Media Lab; "
+  ccso:csName "The Ethics and Governance of Artificial Intelligence"
+  ccso:hasInstructor Joi Ito, Jonathan Zittrain
+  ccso:courseURL https://www.media.mit.edu/courses/the-ethics-and-governance-of-artificial-intelligence/
+
+"MIT Media Lab; " ccso:memberOf "Massachusetts Institute of Technology, Harvard University"
+"Joi Ito, Jonathan Zittrain" ccso:worksFor "Massachusetts Institute of Technology, Harvard University"
+
+
+77 a ccso:Course
+  ccso:hasSyllabus https://cusp.sydney.edu.au/students/view-unit-page/uos_id/289913/vid/316653
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Human-in-the-loop data analytics"
+  ccso:hasInstructor nan
+  ccso:courseURL https://cusp.sydney.edu.au/students/view-unit-page/uos_id/289913/vid/316653
+
+"Computer Science" ccso:memberOf "The University of Sydney"
+"nan" ccso:worksFor "The University of Sydney"
+
+
+78 a ccso:Course
+  ccso:hasSyllabus https://cueims.soc.srcf.net/seminars
+  ccso:offeredBy "Mathematics"
+  ccso:csName "Ethics in Mathematics"
+  ccso:hasInstructor Dr Maurice Chiodo
+  ccso:courseURL nan
+
+"Mathematics" ccso:memberOf "University of Cambridge"
+"Dr Maurice Chiodo" ccso:worksFor "University of Cambridge"
+
+
+79 a ccso:Course
+  ccso:hasSyllabus https://cueims.soc.srcf.net/
+  ccso:offeredBy "nan"
+  ccso:csName "Ethics in Mathematics Project"
+  ccso:hasInstructor nan
+  ccso:courseURL http://www.ethics.maths.cam.ac.uk/EiM1/
+
+"nan" ccso:memberOf "University of Cambridge"
+"nan" ccso:worksFor "University of Cambridge"
+
+
+80 a ccso:Course
+  ccso:hasSyllabus https://cslu.ohsu.edu/~bedricks/courses/cs692_winter_2020/
+  ccso:offeredBy "Computer Science and Electrical Engineering"
+  ccso:csName "Ethics for CS & EE"
+  ccso:hasInstructor Jill Dolata, Steven Bedrick
+  ccso:courseURL http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/courses/research.cfm
+
+"Computer Science and Electrical Engineering" ccso:memberOf "Oregon Health & Science University"
+"Jill Dolata, Steven Bedrick" ccso:worksFor "Oregon Health & Science University"
+
+
+81 a ccso:Course
+  ccso:hasSyllabus https://cs.calvin.edu/courses/cs/384/cs384.pdf
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Perspectives on Computing"
+  ccso:hasInstructor Derek Schuurman
+  ccso:courseURL https://cs.calvin.edu/courses/cs/384/
+
+"Computer Science" ccso:memberOf "Calvin University"
+"Derek Schuurman" ccso:worksFor "Calvin University"
+
+
+82 a ccso:Course
+  ccso:hasSyllabus https://ci.uky.edu/sis/sites/default/files/syllabi/Proferes%20-%20ICT%20690%20205%20Syllabus%20Spring%202019.pdf
+  ccso:offeredBy "School of Information Science"
+  ccso:csName "ICT Ethics"
+  ccso:hasInstructor Nicholas Proferes
+  ccso:courseURL https://ci.uky.edu/sis/sites/default/files/syllabi/Proferes%20-%20ICT%20690%20205%20Syllabus%20Spring%202019.pdf
+
+"School of Information Science" ccso:memberOf "University of Kentucky"
+"Nicholas Proferes" ccso:worksFor "University of Kentucky"
+
+
+83 a ccso:Course
+  ccso:hasSyllabus https://ce.colorado.edu/course-details/anth-4020-explorations-in-anthropology-digital-anthropology-section-581/
+  ccso:offeredBy "Continuing Education"
+  ccso:csName "Digital Anthropology"
+  ccso:hasInstructor Timothy Webmoor
+  ccso:courseURL https://ce.colorado.edu/courses/explorations-in-anthropology-digital-anthropology-anth-4020/#
+
+"Continuing Education" ccso:memberOf "University of Colorado Boulder"
+"Timothy Webmoor" ccso:worksFor "University of Colorado Boulder"
+
+
+84 a ccso:Course
+  ccso:hasSyllabus https://catalog.utdallas.edu/2012/undergraduate/courses/cs3162
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Professional Responsibility in Computer Science and Software Engineering"
+  ccso:hasInstructor Various
+  ccso:courseURL https://catalog.utdallas.edu/2012/undergraduate/courses/cs3162
+
+"Computer Science" ccso:memberOf "The University of Texas at Dallas"
+"Various" ccso:worksFor "The University of Texas at Dallas"
+
+
+85 a ccso:Course
+  ccso:hasSyllabus https://boazmiller.files.wordpress.com/2017/03/philosophy-of-new-technology-design.pdf
+  ccso:offeredBy "The Sammy Ofer School of Communications"
+  ccso:csName "Philosophy of New Technology Design"
+  ccso:hasInstructor Boaz Miller
+  ccso:courseURL nan
+
+"The Sammy Ofer School of Communications" ccso:memberOf "Interdisciplinary Center Herzliya"
+"Boaz Miller" ccso:worksFor "Interdisciplinary Center Herzliya"
+
+
+86 a ccso:Course
+  ccso:hasSyllabus https://bcourses.berkeley.edu/courses/1466946/assignments/syllabus
+  ccso:offeredBy "School of Information, Law School"
+  ccso:csName "Privacy and Security Lab"
+  ccso:hasInstructor Chris Hoofnagle
+  ccso:courseURL https://bcourses.berkeley.edu/courses/1466946/
+
+"School of Information, Law School" ccso:memberOf "UC Berkeley"
+"Chris Hoofnagle" ccso:worksFor "UC Berkeley"
+
+
+87 a ccso:Course
+  ccso:hasSyllabus https://bcourses.berkeley.edu/courses/1463120/assignments/syllabus
+  ccso:offeredBy "School of Information"
+  ccso:csName "Privacy Law for Technologists"
+  ccso:hasInstructor Chris Hoofnagle
+  ccso:courseURL https://bcourses.berkeley.edu/courses/1463120/
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Chris Hoofnagle" ccso:worksFor "UC Berkeley"
+
+
+88 a ccso:Course
+  ccso:hasSyllabus https://apps.wharton.upenn.edu/syllabi/2019C/LGST642001/
+  ccso:offeredBy "Legal Studies & Business Ethics"
+  ccso:csName "Big Data, Big Responsibilities"
+  ccso:hasInstructor Kevin Werbach
+  ccso:courseURL nan
+
+"Legal Studies & Business Ethics" ccso:memberOf "University of Pennsylvania - The Wharton School"
+"Kevin Werbach" ccso:worksFor "University of Pennsylvania - The Wharton School"
+
+
+89 a ccso:Course
+  ccso:hasSyllabus http://www.tmttlt.com/wp-content/uploads/2009/11/CS640B_V2_SYLLABUS_F12_JH-.pdf
+  ccso:offeredBy "Communication Studies"
+  ccso:csName "Critical Internet Studies"
+  ccso:hasInstructor Jeremy Hunsinger
+  ccso:courseURL nan
+
+"Communication Studies" ccso:memberOf "Wilfrid Laurier University"
+"Jeremy Hunsinger" ccso:worksFor "Wilfrid Laurier University"
+
+
+90 a ccso:Course
+  ccso:hasSyllabus http://www.tmttlt.com/wp-content/uploads/2009/11/CS213A_JH_F14_V2.pdf
+  ccso:offeredBy "Communication Studies"
+  ccso:csName "Technology & Society"
+  ccso:hasInstructor Jeremy Hunsinger
+  ccso:courseURL https://academic-calendar.wlu.ca/course.php?c=48394&cal=1&d=1865&s=896&y=77
+
+"Communication Studies" ccso:memberOf "Wilfrid Laurier University"
+"Jeremy Hunsinger" ccso:worksFor "Wilfrid Laurier University"
+
+
+91 a ccso:Course
+  ccso:hasSyllabus http://www.psacomputing.org/algsoc/schedule/
+  ccso:offeredBy "Computer Science and Communication Studies"
+  ccso:csName "Algorithms and Society"
+  ccso:hasInstructor Brent Hecht, possibly more soon
+  ccso:courseURL http://www.psacomputing.org/algsoc/
+
+"Computer Science and Communication Studies" ccso:memberOf "Northwestern University"
+"Brent Hecht, possibly more soon" ccso:worksFor "Northwestern University"
+
+
+92 a ccso:Course
+  ccso:hasSyllabus http://www.jasonohler.com/wordpressii/
+  ccso:offeredBy "Learning, Design and Technology Masters"
+  ccso:csName "Digital Citizenship, Open Access Course"
+  ccso:hasInstructor Jason Ohler
+  ccso:courseURL nan
+
+"Learning, Design and Technology Masters" ccso:memberOf "University of Alaska"
+"Jason Ohler" ccso:worksFor "University of Alaska"
+
+
+93 a ccso:Course
+  ccso:hasSyllabus http://www.inf.ed.ac.uk/teaching/courses/pi/
+  ccso:offeredBy "Informatics"
+  ccso:csName "Professional Issues"
+  ccso:hasInstructor Michael Fourman & Stuart Anderson
+  ccso:courseURL nan
+
+"Informatics" ccso:memberOf "University of Edinburgh"
+"Michael Fourman & Stuart Anderson" ccso:worksFor "University of Edinburgh"
+
+
+94 a ccso:Course
+  ccso:hasSyllabus http://www.hfp.tum.de/en/studies/masters-program/course-content/
+  ccso:offeredBy "School of Governance"
+  ccso:csName "Politics & Technology "
+  ccso:hasInstructor Miranda Schreurs
+  ccso:courseURL https://www.tum.de/nc/en/studies/degree-programs/detail/politics-technology-master-of-science-msc/
+
+"School of Governance" ccso:memberOf "TU Munich"
+"Miranda Schreurs" ccso:worksFor "TU Munich"
+
+
+95 a ccso:Course
+  ccso:hasSyllabus http://www.flyingpenguin.com/?p=21905
+  ccso:offeredBy "informatik & security"
+  ccso:csName "Ethical Foundations for Information Security"
+  ccso:hasInstructor Davi Ottenheimer
+  ccso:courseURL nan
+
+"informatik & security" ccso:memberOf "Fachhochschule St. Pölten"
+"Davi Ottenheimer" ccso:worksFor "Fachhochschule St. Pölten"
+
+
+96 a ccso:Course
+  ccso:hasSyllabus http://www.eg.bucknell.edu/~csci245/schedule/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Life, Computers, and Everything "
+  ccso:hasInstructor L. Felipe Perrone
+  ccso:courseURL http://www.eg.bucknell.edu/~csci245/
+
+"Computer Science" ccso:memberOf "Bucknell University"
+"L. Felipe Perrone" ccso:worksFor "Bucknell University"
+
+
+97 a ccso:Course
+  ccso:hasSyllabus http://www.eg.bucknell.edu/~cs240/schedule/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Computers and Society "
+  ccso:hasInstructor L. Felipe Perrone
+  ccso:courseURL http://www.eg.bucknell.edu/~cs240/
+
+"Computer Science" ccso:memberOf "Bucknell University"
+"L. Felipe Perrone" ccso:worksFor "Bucknell University"
+
+
+98 a ccso:Course
+  ccso:hasSyllabus http://www.drps.ed.ac.uk/17-18/dpt/cxphil10167.htm
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethics of Artificial Intelligence"
+  ccso:hasInstructor Mark Sprevak
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "University of Edinburgh"
+"Mark Sprevak" ccso:worksFor "University of Edinburgh"
+
+
+99 a ccso:Course
+  ccso:hasSyllabus http://www.cs.utah.edu/~suresh/courses/ethics.html
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethics in Data Science"
+  ccso:hasInstructor Katie Shelef, Suresh Venkatasubramanian
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "University of Utah"
+"Katie Shelef, Suresh Venkatasubramanian" ccso:worksFor "University of Utah"
+
+
+100 a ccso:Course
+  ccso:hasSyllabus http://www.cs.ucdavis.edu/blog/ecs-188-ethics-age-technology/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethics in an Age of Technology"
+  ccso:hasInstructor Varies; Phillip Rogaway and others.
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "UC Davis"
+"Varies; Phillip Rogaway and others." ccso:worksFor "UC Davis"
+
+
+101 a ccso:Course
+  ccso:hasSyllabus http://www.cs.cornell.edu/courses/cs4732/2017sp/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Social and Ethical Issues in AI"
+  ccso:hasInstructor Joseph Halpern, Bart Selman
+  ccso:courseURL http://courses.cornell.edu/preview_course_nopop.php?catoid=28&coid=468192
+
+"Computer Science" ccso:memberOf "Cornell University"
+"Joseph Halpern, Bart Selman" ccso:worksFor "Cornell University"
+
+
+102 a ccso:Course
+  ccso:hasSyllabus http://www.cs.columbia.edu/~dechant/aisafety18/index.html
+  ccso:offeredBy "Computer Science"
+  ccso:csName "AI Safety, Ethics, and Policy"
+  ccso:hasInstructor Chad DeChant
+  ccso:courseURL http://www.cs.columbia.edu/education/courses/course/COMSW3995-1/24855/
+
+"Computer Science" ccso:memberOf "Columbia University"
+"Chad DeChant" ccso:worksFor "Columbia University"
+
+
+103 a ccso:Course
+  ccso:hasSyllabus http://www.cs.bath.ac.uk/~jjb/here/CM50230/ai-course-sched.html
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Intelligent Control and Cognitive Systems"
+  ccso:hasInstructor Joanna Bryson
+  ccso:courseURL http://www.bath.ac.uk/catalogues/2018-2019/cm/CM50230.html
+
+"Computer Science" ccso:memberOf "University of Bath"
+"Joanna Bryson" ccso:worksFor "University of Bath"
+
+
+104 a ccso:Course
+  ccso:hasSyllabus http://www.columbia.edu/itc/applied/wiggins/ppf.pdf
+
+  ccso:offeredBy "History and Applied Mathematics"
+  ccso:csName "Data: Past, Present, and Future"
+  ccso:hasInstructor Matt Jones and Chris Wiggins
+  ccso:courseURL http://scienceandsociety.columbia.edu/the-courses/hsam-2901-data-past-present-future-m-jones-c-wiggins/
+
+"History and Applied Mathematics" ccso:memberOf "Columbia University"
+"Matt Jones and Chris Wiggins" ccso:worksFor "Columbia University"
+
+
+105 a ccso:Course
+  ccso:hasSyllabus http://www.angelechristin.com/wp-content/uploads/2018/06/The-Politics-of-Algorithms_Syllabus2018.pdf
+  ccso:offeredBy "Communication"
+  ccso:csName "The Politics of Algorithms"
+  ccso:hasInstructor Angele Christin
+  ccso:courseURL https://ccsre.stanford.edu/courses/2017-2018-csre-154t
+
+"Communication" ccso:memberOf "Stanford University"
+"Angele Christin" ccso:worksFor "Stanford University"
+
+
+106 a ccso:Course
+  ccso:hasSyllabus http://wiki.ubc.ca/images/b/be/LIBR_559A_Summer2017.pdf
+  ccso:offeredBy "School of Library, Archival, and Information Studies"
+  ccso:csName "Sociotechnical Perspectives of Information Systems"
+  ccso:hasInstructor Richard Arias-Hernandez
+  ccso:courseURL https://slais.ubc.ca/libr559a/
+
+"School of Library, Archival, and Information Studies" ccso:memberOf "University of British Columbia"
+"Richard Arias-Hernandez" ccso:worksFor "University of British Columbia"
+
+
+107 a ccso:Course
+  ccso:hasSyllabus http://web.stanford.edu/class/cs122/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Artificial Intelligence - Philosophy, Ethics, and Impact"
+  ccso:hasInstructor Jerry Kaplan
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Stanford University"
+"Jerry Kaplan" ccso:worksFor "Stanford University"
+
+
+108 a ccso:Course
+  ccso:hasSyllabus http://univ20010sp2017.courses.bucknell.edu/files/2016/07/syllabus.pdf
+  ccso:offeredBy "Computer Science/English"
+  ccso:csName "Time/Machine"
+  ccso:hasInstructor L. Felipe Perrone and Michael Drexler
+  ccso:courseURL nan
+
+"Computer Science/English" ccso:memberOf "Bucknell University"
+"L. Felipe Perrone and Michael Drexler" ccso:worksFor "Bucknell University"
+
+
+109 a ccso:Course
+  ccso:hasSyllabus http://timgorichanaz.com/pdf/syllabus-info679.pdf
+  ccso:offeredBy "Information Science & Systems"
+  ccso:csName "Information Ethics"
+  ccso:hasInstructor Tim Gorichanaz
+  ccso:courseURL http://catalog.drexel.edu/coursedescriptions/quarter/grad/info/
+
+"Information Science & Systems" ccso:memberOf "Drexel University"
+"Tim Gorichanaz" ccso:worksFor "Drexel University"
+
+
+110 a ccso:Course
+  ccso:hasSyllabus http://stuartgeiger.com/teaching/summer14-sociology-social-media
+  ccso:offeredBy "Sociology"
+  ccso:csName "Sociology of Virtual Communities and Social Media"
+  ccso:hasInstructor Stuart Geiger
+  ccso:courseURL nan
+
+"Sociology" ccso:memberOf "UC Berkeley"
+"Stuart Geiger" ccso:worksFor "UC Berkeley"
+
+
+111 a ccso:Course
+  ccso:hasSyllabus http://stellar.mit.edu/S/course/CMS/sp18/CMS.614/courseMaterial/topics/topic2/syllabus/CMS614_Syllabus_V2/CMS614_SyllabusV2.pdf
+  ccso:offeredBy "CMS/W"
+  ccso:csName "Network Cultures"
+  ccso:hasInstructor T.L. Taylor
+  ccso:courseURL http://student.mit.edu/catalog/mCMSa.html#CMS.614
+
+"CMS/W" ccso:memberOf "MIT"
+"T.L. Taylor" ccso:worksFor "MIT"
+
+
+112 a ccso:Course
+  ccso:hasSyllabus http://stellar.mit.edu/S/course/CMS/sp18/CMS.614/courseMaterial/topics/topic2/syllabus/CMS614_Syllabus_V2/CMS614_SyllabusV2.pdf
+  ccso:offeredBy "Electrical Engineering and Computer Science"
+  ccso:csName "Foundations of Internet Policy"
+  ccso:hasInstructor Daniel Weitzner, Harold Abelson, Michael Fisher
+  ccso:courseURL nan
+
+"Electrical Engineering and Computer Science" ccso:memberOf "Massachusetts Institute of Technology (MIT)"
+"Daniel Weitzner, Harold Abelson, Michael Fisher" ccso:worksFor "Massachusetts Institute of Technology (MIT)"
+
+
+113 a ccso:Course
+  ccso:hasSyllabus http://people.ischool.berkeley.edu/~jenna/?page_id=779
+  ccso:offeredBy "School of Information"
+  ccso:csName "Social Issues of Information"
+  ccso:hasInstructor Jenna Burrell
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/203
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Jenna Burrell" ccso:worksFor "UC Berkeley"
+
+
+114 a ccso:Course
+  ccso:hasSyllabus http://natematias.com/courses/soc412/syllabus.html
+  ccso:offeredBy "Sociology, Center for IT Policy"
+  ccso:csName "Designing Field Experiments at Scale"
+  ccso:hasInstructor Dr. J. Nathan Matias
+  ccso:courseURL https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=014524&term=1184
+
+"Sociology, Center for IT Policy" ccso:memberOf "nan"
+"Dr. J. Nathan Matias" ccso:worksFor "nan"
+
+
+115 a ccso:Course
+  ccso:hasSyllabus http://mike.ananny.org/comm620-mapp.pdf
+  ccso:offeredBy "Annenberg School for Communication and Journalism"
+  ccso:csName "Media, Algorithms & Platform Publics"
+  ccso:hasInstructor Mike Ananny & Colin Maclay
+  ccso:courseURL nan
+
+"Annenberg School for Communication and Journalism" ccso:memberOf "University of Southern California"
+"Mike Ananny & Colin Maclay" ccso:worksFor "University of Southern California"
+
+
+116 a ccso:Course
+  ccso:hasSyllabus http://mediaethics2017.weebly.com/
+  ccso:offeredBy "Media Psychology"
+  ccso:csName "Media Ethics Leadership"
+  ccso:hasInstructor Jason Ohler
+  ccso:courseURL nan
+
+"Media Psychology" ccso:memberOf "Fielding Graduate University"
+"Jason Ohler" ccso:worksFor "Fielding Graduate University"
+
+
+117 a ccso:Course
+  ccso:hasSyllabus http://live-isf.pantheon.berkeley.edu/sites/default/files/Syllabus_ISF100J-Fall2017-v1-public.pdf
+  ccso:offeredBy "Interdisciplinary Studies"
+  ccso:csName "The Social Life of Computing"
+  ccso:hasInstructor Shreeharsh Kelkar
+  ccso:courseURL http://isf.ugis.berkeley.edu/fall-2017-isf-100j-social-life-computing
+
+"Interdisciplinary Studies" ccso:memberOf "UC Berkeley"
+"Shreeharsh Kelkar" ccso:worksFor "UC Berkeley"
+
+
+118 a ccso:Course
+  ccso:hasSyllabus http://inst.eecs.berkeley.edu/~cs195/fa17/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Social Implications of Computer Technology"
+  ccso:hasInstructor Various
+  ccso:courseURL https://www2.eecs.berkeley.edu/Courses/CS195/
+
+"Computer Science" ccso:memberOf "UC Berkeley"
+"Various" ccso:worksFor "UC Berkeley"
+
+
+119 a ccso:Course
+  ccso:hasSyllabus http://homes.soic.indiana.edu/nensmeng/files/i453-syllabus.pdf
+  ccso:offeredBy "Informatics"
+  ccso:csName "Information Ethics"
+  ccso:hasInstructor Various
+  ccso:courseURL nan
+
+"Informatics" ccso:memberOf "Indiana University Bloomington"
+"Various" ccso:worksFor "Indiana University Bloomington"
+
+
+120 a ccso:Course
+  ccso:hasSyllabus http://handbook.uts.edu.au/subjects/details/54063.html
+  ccso:offeredBy "Communications"
+  ccso:csName "Code as Literacy, Commodity, Infrastructure"
+  ccso:hasInstructor James Meese
+  ccso:courseURL http://handbook.uts.edu.au/subjects/54063.html
+
+"Communications" ccso:memberOf "University of Technology Sydney"
+"James Meese" ccso:worksFor "University of Technology Sydney"
+
+
+121 a ccso:Course
+  ccso:hasSyllabus http://formation.sciences-po.fr/enseignement/2019/k2sp/3015
+  ccso:offeredBy "School of Public Affairs"
+  ccso:csName "Algorithms for Public Policy"
+  ccso:hasInstructor Jean-Marie John-Mathews, Simon Chignard
+  ccso:courseURL nan
+
+"School of Public Affairs" ccso:memberOf "Sciences Po, Paris"
+"Jean-Marie John-Mathews, Simon Chignard" ccso:worksFor "Sciences Po, Paris"
+
+
+122 a ccso:Course
+  ccso:hasSyllabus http://formation.sciences-po.fr/enseignement/2017/KINT/7705
+  ccso:offeredBy "Paris School of International Affairs"
+  ccso:csName "Social and Economic Challenges of Artificial Intelligence "
+  ccso:hasInstructor Nicolas Miailhe
+  ccso:courseURL nan
+
+"Paris School of International Affairs" ccso:memberOf "Sciences Po Paris"
+"Nicolas Miailhe" ccso:worksFor "Sciences Po Paris"
+
+
+123 a ccso:Course
+  ccso:hasSyllabus http://faculty.washington.edu/ebender/2017_575/
+  ccso:offeredBy "Linguistics"
+  ccso:csName "Ethics in NLP"
+  ccso:hasInstructor Emily Bender
+  ccso:courseURL nan
+
+"Linguistics" ccso:memberOf "University of Washington"
+"Emily Bender" ccso:worksFor "University of Washington"
+
+
+124 a ccso:Course
+  ccso:hasSyllabus http://faculty.ung.edu/jyang/syllabi/CSCI%202150_GA_1491_Yang,%20Jianjun.pdf
+  ccso:offeredBy "Computer Science and Information Systems (Mike Cottrell College of Business)"
+  ccso:csName "Computer Ethics and Social Issues (CSCI 2150)"
+  ccso:hasInstructor Jianjun Yang
+  ccso:courseURL https://catalog.ung.edu/content.php?filter%5B27%5D=CSCI&filter%5B29%5D=2150&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=28&expand=&navoid=930&search_database=Filter#
+
+"Computer Science and Information Systems (Mike Cottrell College of Business)" ccso:memberOf "University of North Georgia"
+"Jianjun Yang" ccso:worksFor "University of North Georgia"
+
+
+125 a ccso:Course
+  ccso:hasSyllabus http://edu.epfl.ch/coursebook/en/introduction-to-law-and-ethics-in-lst-BIO-455
+  ccso:offeredBy "Life Sciences and Technology"
+  ccso:csName "Introduction to Law and Ethics in LST"
+  ccso:hasInstructor Gaia Barazetti, Dominique Sprumont
+  ccso:courseURL nan
+
+"Life Sciences and Technology" ccso:memberOf "Swiss Federal Institute of Technology"
+"Gaia Barazetti, Dominique Sprumont" ccso:worksFor "Swiss Federal Institute of Technology"
+
+
+126 a ccso:Course
+  ccso:hasSyllabus http://drablab.org/keithohara/cmsc-119-2013f/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "–"
+  ccso:hasInstructor Keith O'Hara
+  ccso:courseURL http://cs.bard.edu/descriptions/
+
+"Computer Science" ccso:memberOf "Bard College"
+"Keith O'Hara" ccso:worksFor "Bard College"
+
+
+127 a ccso:Course
+  ccso:hasSyllabus http://demo.clab.cs.cmu.edu/ethical_nlp/
+  ccso:offeredBy "Language Technologies Institute (LTI)"
+  ccso:csName "Computational Ethics for NLP"
+  ccso:hasInstructor Yulia Tsvetkov, Alan Black
+  ccso:courseURL https://lti.cs.cmu.edu/intranet/lti-course-listings#a11830
+
+"Language Technologies Institute (LTI)" ccso:memberOf "Carnegie Mellon University"
+"Yulia Tsvetkov, Alan Black" ccso:worksFor "Carnegie Mellon University"
+
+
+128 a ccso:Course
+  ccso:hasSyllabus http://cs.wellesley.edu/~cs115/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Computing for the Socio-Tecno Web"
+  ccso:hasInstructor Catherine Grevet Delcourt
+  ccso:courseURL http://wellesley.smartcatalogiq.com/en/2017-2018/Course-Catalog/2017-2018-Course-Catalog/Departments-and-Programs/Department-of-Computer-Science/Computer-Science-Courses/100/CS-115
+
+"Computer Science" ccso:memberOf "Wellesley College"
+"Catherine Grevet Delcourt" ccso:worksFor "Wellesley College"
+
+
+129 a ccso:Course
+  ccso:hasSyllabus http://cs.haverford.edu/courses/cmsc104/social_inquiry
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Topics in Introductory Programming: Social Inquiry"
+  ccso:hasInstructor Sorelle Friedler
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Haverford College"
+"Sorelle Friedler" ccso:worksFor "Haverford College"
+
+
+130 a ccso:Course
+  ccso:hasSyllabus http://cs.brown.edu/courses/csci1410/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Artificial Intelligence"
+  ccso:hasInstructor George Konidaris
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Brown University"
+"George Konidaris" ccso:worksFor "Brown University"
+
+
+131 a ccso:Course
+  ccso:hasSyllabus http://coen.boisestate.edu/jconrad/cs230/
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethical Issues in Computing"
+  ccso:hasInstructor Multiple professors
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Boise State University"
+"Multiple professors" ccso:worksFor "Boise State University"
+
+
+132 a ccso:Course
+  ccso:hasSyllabus http://codesign.mit.edu 
+  ccso:offeredBy "Media Studies"
+  ccso:csName "Civic Media: Collaborative Design Studio"
+  ccso:hasInstructor Sasha Costanza-Chock
+  ccso:courseURL nan
+
+"Media Studies" ccso:memberOf "Massachusetts Institute of Technology (MIT)"
+"Sasha Costanza-Chock" ccso:worksFor "Massachusetts Institute of Technology (MIT)"
+
+
+133 a ccso:Course
+  ccso:hasSyllabus http://annaeveryday.com/new-graduate-seminar-on-data-politics-and-power/
+  ccso:offeredBy "The Information School"
+  ccso:csName "Data, Politics, & Power: Critical and Ethical Perspectives on Big Data and Algorithms"
+  ccso:hasInstructor Anna Lauren Hoffmann
+  ccso:courseURL nan
+
+"The Information School" ccso:memberOf "University of Washington"
+"Anna Lauren Hoffmann" ccso:worksFor "University of Washington"
+
+
+134 a ccso:Course
+  ccso:hasSyllabus Course outline
+  ccso:offeredBy "Faculty of Business & Economics"
+  ccso:csName "FinTech Ethics & Risks"
+  ccso:hasInstructor David Bishop, David Lee
+  ccso:courseURL https://edx.org/course/fintech-ethics-and-risks
+
+"Faculty of Business & Economics" ccso:memberOf "University of Hong Kong"
+"David Bishop, David Lee" ccso:worksFor "University of Hong Kong"
+
+
+135 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "CS"
+  ccso:csName "Technology Ethics"
+  ccso:hasInstructor Paola Di Maio
+  ccso:courseURL nan
+
+"CS" ccso:memberOf "Center for Technology Ethics"
+"Paola Di Maio" ccso:worksFor "Center for Technology Ethics"
+
+
+136 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "College of Communication"
+  ccso:csName "Digital Media Ethics"
+  ccso:hasInstructor Various
+  ccso:courseURL nan
+
+"College of Communication" ccso:memberOf "DePaul University"
+"Various" ccso:worksFor "DePaul University"
+
+
+137 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "College of Communication, Digital Communication and Media Arts MA program"
+  ccso:csName "Digital Media Ethics"
+  ccso:hasInstructor Multiple professors
+  ccso:courseURL nan
+
+"College of Communication, Digital Communication and Media Arts MA program" ccso:memberOf "DePaul University"
+"Multiple professors" ccso:worksFor "DePaul University"
+
+
+138 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "College of Communication, Media and Cinema Studies concentration"
+  ccso:csName "Digital Media Ethics"
+  ccso:hasInstructor Samantha Close, Adriane Stoner, multiple professors
+  ccso:courseURL nan
+
+"College of Communication, Media and Cinema Studies concentration" ccso:memberOf "DePaul University"
+"Samantha Close, Adriane Stoner, multiple professors" ccso:worksFor "DePaul University"
+
+
+139 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "nan"
+  ccso:csName "Frontier AI & Robotics: Law & Ethics"
+  ccso:hasInstructor Jeff Ward
+  ccso:courseURL nan
+
+"nan" ccso:memberOf "Duke Law School"
+"Jeff Ward" ccso:worksFor "Duke Law School"
+
+
+140 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Informatik & Security"
+  ccso:csName "Ethics of Big Data"
+  ccso:hasInstructor Davi Ottenheimer
+  ccso:courseURL nan
+
+"Informatik & Security" ccso:memberOf "Fachhochschule St. Pölten"
+"Davi Ottenheimer" ccso:worksFor "Fachhochschule St. Pölten"
+
+
+141 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "MBA"
+  ccso:csName "Ethics in the Digital Age"
+  ccso:hasInstructor Elizabeth Edenberg
+  ccso:courseURL https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201910&subj_code_in=BADM&crse_numb_in=746
+
+"MBA" ccso:memberOf "Georgetown University"
+"Elizabeth Edenberg" ccso:worksFor "Georgetown University"
+
+
+142 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Communication, Culture & Technology"
+  ccso:csName "Global Internet Freedom"
+  ccso:hasInstructor Leslie Harris
+  ccso:courseURL https://gufaculty360.georgetown.edu/s/faculty-class-detail?courseid=CCTP-761-01&semester=Fall+2017
+
+"Communication, Culture & Technology" ccso:memberOf "Georgetown University"
+"Leslie Harris" ccso:worksFor "Georgetown University"
+
+
+143 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Law"
+  ccso:csName "Governing Automated Decisions"
+  ccso:hasInstructor David Robinson
+  ccso:courseURL nan
+
+"Law" ccso:memberOf "Georgetown University"
+"David Robinson" ccso:worksFor "Georgetown University"
+
+
+144 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Communication, Culture & Technology"
+  ccso:csName "Governing Emerging Technologies"
+  ccso:hasInstructor Mark MacCarthy, Meg Leta Jones
+  ccso:courseURL https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201730&subj_code_in=CCTP&crse_numb_in=799
+
+"Communication, Culture & Technology" ccso:memberOf "Georgetown University"
+"Mark MacCarthy, Meg Leta Jones" ccso:worksFor "Georgetown University"
+
+
+145 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Communication, Culture & Technology"
+  ccso:csName "ICT Law & Policy"
+  ccso:hasInstructor Meg Leta Jones, Leslie Harris
+  ccso:courseURL https://gufaculty360.georgetown.edu/s/course-catalog/a1o36000001MnPjAAK/cctp65801#/00336000014TkzDAAS/
+
+"Communication, Culture & Technology" ccso:memberOf "Georgetown University"
+"Meg Leta Jones, Leslie Harris" ccso:worksFor "Georgetown University"
+
+
+146 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Communication, Culture & Technology"
+  ccso:csName "International/Comparative Privacy & Surveillance"
+  ccso:hasInstructor Meg Leta Jones
+  ccso:courseURL https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201730&subj_code_in=CCTP&crse_numb_in=708
+
+"Communication, Culture & Technology" ccso:memberOf "Georgetown University"
+"Meg Leta Jones" ccso:worksFor "Georgetown University"
+
+
+147 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Business IT"
+  ccso:csName "Critical Big Data Management"
+  ccso:hasInstructor Irina Shklovski
+  ccso:courseURL nan
+
+"Business IT" ccso:memberOf "IT University of Copenhagen"
+"Irina Shklovski" ccso:worksFor "IT University of Copenhagen"
+
+
+148 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Digital Humanities"
+  ccso:csName "Information Ethics and Digital Rights"
+  ccso:hasInstructor John Lavagnino and Mark Hedges
+  ccso:courseURL https://www.kcl.ac.uk/artshums/depts/ddh/modules/level7/7aavdm13.aspx
+
+"Digital Humanities" ccso:memberOf "King's College London"
+"John Lavagnino and Mark Hedges" ccso:worksFor "King's College London"
+
+
+149 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Applied Statistics "
+  ccso:csName "Ethics in Data Science "
+  ccso:hasInstructor Laura Norén
+  ccso:courseURL nan
+
+"Applied Statistics " ccso:memberOf "New York University"
+"Laura Norén" ccso:worksFor "New York University"
+
+
+150 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Law"
+  ccso:csName "Information Priavcy Law"
+  ccso:hasInstructor Woodrow Hartzog
+  ccso:courseURL nan
+
+"School of Law" ccso:memberOf "Northeastern University"
+"Woodrow Hartzog" ccso:worksFor "Northeastern University"
+
+
+151 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Law"
+  ccso:csName "Information Security Law and Policy"
+  ccso:hasInstructor Andrea Matwyshyn
+  ccso:courseURL nan
+
+"Law" ccso:memberOf "Northeastern University"
+"Andrea Matwyshyn" ccso:worksFor "Northeastern University"
+
+
+152 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Law"
+  ccso:csName "Internet Law and Policy"
+  ccso:hasInstructor Andrea Matwyshyn
+  ccso:courseURL nan
+
+"Law" ccso:memberOf "Northeastern University"
+"Andrea Matwyshyn" ccso:worksFor "Northeastern University"
+
+
+153 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Communication"
+  ccso:csName "Human-Computer Interaction"
+  ccso:hasInstructor Jordan Eschler
+  ccso:courseURL nan
+
+"School of Communication" ccso:memberOf "Northwestern University"
+"Jordan Eschler" ccso:worksFor "Northwestern University"
+
+
+154 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Fairness in Machine Learning"
+  ccso:hasInstructor Arvind Narayanan
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Princeton University"
+"Arvind Narayanan" ccso:worksFor "Princeton University"
+
+
+155 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Communication, Culture & Technology"
+  ccso:csName "https://learn.responsibly.ai/law-society/"
+  ccso:hasInstructor Mark MacCarthy
+  ccso:courseURL https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201730&subj_code_in=CCTP&crse_numb_in=701
+
+"Communication, Culture & Technology" ccso:memberOf "r"
+"Mark MacCarthy" ccso:worksFor "r"
+
+
+156 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethics and Policy for Artificial Intelligence"
+  ccso:hasInstructor Jim Hendler
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Rensselaer Polytechnic Inst"
+"Jim Hendler" ccso:worksFor "Rensselaer Polytechnic Inst"
+
+
+157 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "The Cohn Institute for the History and Philosophy of Science and Ideas"
+  ccso:csName "Privacy in the Age of Emerging Technologies"
+  ccso:hasInstructor Michal (Michele) Rapoport
+  ccso:courseURL nan
+
+"The Cohn Institute for the History and Philosophy of Science and Ideas" ccso:memberOf "Tel Aviv University"
+"Michal (Michele) Rapoport" ccso:worksFor "Tel Aviv University"
+
+
+158 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethics for AI, Robotics, and Human-Robot Interaction"
+  ccso:hasInstructor Matthias Scheutz, Thomas Arnold
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Tufts University"
+"Matthias Scheutz, Thomas Arnold" ccso:worksFor "Tufts University"
+
+
+159 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Behind the Data: Humans and Values"
+  ccso:hasInstructor Deirdre Mulligan, Nathan Good, Anna Lauren Hoffmann, Morgan G. Ames
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/datasci/231
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Deirdre Mulligan, Nathan Good, Anna Lauren Hoffmann, Morgan G. Ames" ccso:worksFor "UC Berkeley"
+
+
+160 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Behind the Data: Humans and Values"
+  ccso:hasInstructor Morgan Ames, Nathan Good, Deirdre Mulligan, others
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/datasci/231
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Morgan Ames, Nathan Good, Deirdre Mulligan, others" ccso:worksFor "UC Berkeley"
+
+
+161 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Big Data, Policy, and Ethics"
+  ccso:hasInstructor Various
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/190/bdpe
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Various" ccso:worksFor "UC Berkeley"
+
+
+162 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Deconstructing Data Science"
+  ccso:hasInstructor David Bamman
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/290/dds
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"David Bamman" ccso:worksFor "UC Berkeley"
+
+
+163 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Information Law and Policy"
+  ccso:hasInstructor Deirdre Mulligan
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/205
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Deirdre Mulligan" ccso:worksFor "UC Berkeley"
+
+
+164 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Social and Organizational Issues of Information"
+  ccso:hasInstructor Jenna Burrell, Coye Cheshire, Morgan Ames, Anne Jonas
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/203
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Jenna Burrell, Coye Cheshire, Morgan Ames, Anne Jonas" ccso:worksFor "UC Berkeley"
+
+
+165 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Technology and Delegation"
+  ccso:hasInstructor Deirdre Mulligan
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/239
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Deirdre Mulligan" ccso:worksFor "UC Berkeley"
+
+
+166 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Law"
+  ccso:csName "Open Source Investigations"
+  ccso:hasInstructor Alexa Koenig
+  ccso:courseURL nan
+
+"Law" ccso:memberOf "UC Berkeley "
+"Alexa Koenig" ccso:worksFor "UC Berkeley "
+
+
+167 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Science and Technology Studies"
+  ccso:csName "Responsible science and innovation"
+  ccso:hasInstructor Jack Stilgoe
+  ccso:courseURL http://www.ucl.ac.uk/systems-engineering/pg-taught/tm/taught-modules/responsible
+
+"Science and Technology Studies" ccso:memberOf "University College London"
+"Jack Stilgoe" ccso:worksFor "University College London"
+
+
+168 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "iSchool"
+  ccso:csName "Information Policy"
+  ccso:hasInstructor Lisa Nathan
+  ccso:courseURL nan
+
+"iSchool" ccso:memberOf "University of British Columbia"
+"Lisa Nathan" ccso:worksFor "University of British Columbia"
+
+
+169 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "iSchool"
+  ccso:csName "Information Practice and Protocol in Support of Indigenous Initaitives"
+  ccso:hasInstructor Lisa Nathan
+  ccso:courseURL nan
+
+"iSchool" ccso:memberOf "University of British Columbia"
+"Lisa Nathan" ccso:worksFor "University of British Columbia"
+
+
+170 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "College of Computer and Information Sciences"
+  ccso:csName "Ethical Considerations in Computing"
+  ccso:hasInstructor Michelle Trim
+  ccso:courseURL nan
+
+"College of Computer and Information Sciences" ccso:memberOf "University of Massachusetts Amherst"
+"Michelle Trim" ccso:worksFor "University of Massachusetts Amherst"
+
+
+171 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Applied & Computational Mathematics & Statistics"
+  ccso:csName "Ethics & Policy in Data Science"
+  ccso:hasInstructor Scott Nestler
+  ccso:courseURL nan
+
+"Applied & Computational Mathematics & Statistics" ccso:memberOf "University of Notre Dame"
+"Scott Nestler" ccso:worksFor "University of Notre Dame"
+
+
+172 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "IT, Analytics, & Operations"
+  ccso:csName "Ethics in Business Analytics"
+  ccso:hasInstructor Scott Nestler
+  ccso:courseURL nan
+
+"IT, Analytics, & Operations" ccso:memberOf "University of Notre Dame"
+"Scott Nestler" ccso:worksFor "University of Notre Dame"
+
+
+173 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "IT, Analytics, & Operations"
+  ccso:csName "Ethics in Business Analytics"
+  ccso:hasInstructor Scott Nestler
+  ccso:courseURL nan
+
+"IT, Analytics, & Operations" ccso:memberOf "University of Notre Dame"
+"Scott Nestler" ccso:worksFor "University of Notre Dame"
+
+
+174 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Electrical Engineering and Computer Science"
+  ccso:csName "Ethics for Artificial Intelligence"
+  ccso:hasInstructor Jason Millar
+  ccso:courseURL nan
+
+"School of Electrical Engineering and Computer Science" ccso:memberOf "University of Ottawa"
+"Jason Millar" ccso:worksFor "University of Ottawa"
+
+
+175 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Social Policy & Practice"
+  ccso:csName "Democratizing Data: Analytics for Social Change"
+  ccso:hasInstructor Ezekiel Dixon-Román 
+  ccso:courseURL nan
+
+"School of Social Policy & Practice" ccso:memberOf "University of Pennsylvania "
+"Ezekiel Dixon-Román " ccso:worksFor "University of Pennsylvania "
+
+
+176 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Entertainment Arts & Engineering"
+  ccso:csName "Ethics in Games"
+  ccso:hasInstructor Jose Zagal
+  ccso:courseURL nan
+
+"Entertainment Arts & Engineering" ccso:memberOf "University of Utah"
+"Jose Zagal" ccso:worksFor "University of Utah"
+
+
+177 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Urban Studies (GIS is housed here)"
+  ccso:csName "Introduction to Geospatial Technologies"
+  ccso:hasInstructor Jim Thatcher
+  ccso:courseURL nan
+
+"Urban Studies (GIS is housed here)" ccso:memberOf "University of Washington Tacoma"
+"Jim Thatcher" ccso:worksFor "University of Washington Tacoma"
+
+
+178 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Information School"
+  ccso:csName "Information Ethics and Policy"
+  ccso:hasInstructor Alan Rubel
+  ccso:courseURL http://guide.wisc.edu/courses/l_i_s/
+
+"Information School" ccso:memberOf "University of Wisconsin - Madison"
+"Alan Rubel" ccso:worksFor "University of Wisconsin - Madison"
+
+
+179 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information Management"
+  ccso:csName "Information Policy Concepts, Issues and Processes"
+  ccso:hasInstructor Brenda Chawner
+  ccso:courseURL https://www.victoria.ac.nz/courses/info/522/2018/offering?crn=27130
+
+"School of Information Management" ccso:memberOf "Victoria University of Wellington"
+"Brenda Chawner" ccso:worksFor "Victoria University of Wellington"
+
+
+180 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information Management"
+  ccso:csName "Legal and Ethical Issues in Information Management"
+  ccso:hasInstructor David Johnstone, Anne Goulding
+  ccso:courseURL https://www.victoria.ac.nz/courses/mmim/571/2018/offering?crn=9650
+
+"School of Information Management" ccso:memberOf "Victoria University of Wellington"
+"David Johnstone, Anne Goulding" ccso:worksFor "Victoria University of Wellington"
+
+
+181 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Science, Technology, and Society"
+  ccso:csName "Main Themes in Philosophy of Science and Technology"
+  ccso:hasInstructor Ashley Shew or Jim Collier
+  ccso:courseURL nan
+
+"Science, Technology, and Society" ccso:memberOf "Virginia Tech"
+"Ashley Shew or Jim Collier" ccso:worksFor "Virginia Tech"
+
+
+182 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Beyond the Code: Cybersecurity in Context"
+  ccso:hasInstructor Chris Jay Hoofnagle, others
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/cyber/200
+
+"School of Information" ccso:memberOf "nan"
+"Chris Jay Hoofnagle, others" ccso:worksFor "nan"
+
+
+183 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Information and Delegation"
+  ccso:hasInstructor Deirdre Mulligan
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/239
+
+"School of Information" ccso:memberOf "nan"
+"Deirdre Mulligan" ccso:worksFor "nan"
+
+
+184 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computing"
+  ccso:csName "Advanced HCI: Ubiquituous Computing"
+  ccso:hasInstructor Eva Hornecker
+  ccso:courseURL https://www.uni-weimar.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=41877&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+
+"Computing" ccso:memberOf "Bauhaus-Universität Weimar, Germany"
+"Eva Hornecker" ccso:worksFor "Bauhaus-Universität Weimar, Germany"
+
+
+185 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Family Medicine & Public Health"
+  ccso:csName "Pubic Health Research & Tech Ethics"
+  ccso:hasInstructor Camille Nebeker
+  ccso:courseURL nan
+
+"Family Medicine & Public Health" ccso:memberOf "UC San Diego"
+"Camille Nebeker" ccso:worksFor "UC San Diego"
+
+
+186 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Department of Computer Science, School of Information Technology"
+  ccso:csName "Ethical Foundations to Design and Manage Information Systems"
+  ccso:hasInstructor Aaditeshwar Seth
+  ccso:courseURL http://act4d.iitd.ernet.in/act4d/index.php?option=com_content&view=article&id=37&Itemid=45
+
+"Department of Computer Science, School of Information Technology" ccso:memberOf "Indian Institute of Technology Delhi"
+"Aaditeshwar Seth" ccso:worksFor "Indian Institute of Technology Delhi"
+
+
+187 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information and Library Science"
+  ccso:csName "Information Ethics"
+  ccso:hasInstructor Amelia Gibson and Maggie Melo
+  ccso:courseURL nan
+
+"School of Information and Library Science" ccso:memberOf "University of North Carolina at Chapel Hill"
+"Amelia Gibson and Maggie Melo" ccso:worksFor "University of North Carolina at Chapel Hill"
+
+
+188 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Institute of Computational Linguistics"
+  ccso:csName "Language Technology and Big Data"
+  ccso:hasInstructor Jochen Leidner
+  ccso:courseURL https://studentservices.uzh.ch/uzh/anonym/vvz/index.html?sap-language=DE&sap-ui-language=DE#/details/2016/003/E/50805338
+
+"Institute of Computational Linguistics" ccso:memberOf "University of Zurich"
+"Jochen Leidner" ccso:worksFor "University of Zurich"
+
+
+189 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Introduction to Data Ethics"
+  ccso:hasInstructor Marco Cremonini
+  ccso:courseURL https://github.com/mc-unimi/Intro-Data-Ethics
+
+"Computer Science" ccso:memberOf "University of Milan"
+"Marco Cremonini" ccso:worksFor "University of Milan"
+
+
+190 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "nan"
+  ccso:csName "Social Environments and Human Values: Design and Metrics"
+  ccso:hasInstructor Joe Edelman
+  ccso:courseURL https://medium.com/what-to-build/designing-for-meaningful-social-space-an-online-class-dad37439797f
+
+"nan" ccso:memberOf "Professional Development at Facebook, Google, etc"
+"Joe Edelman" ccso:worksFor "Professional Development at Facebook, Google, etc"
+
+
+191 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Philosophy of Technology"
+  ccso:hasInstructor Evan Selinger
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Rochester Institute of Technology"
+"Evan Selinger" ccso:worksFor "Rochester Institute of Technology"
+
+
+192 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethics in Computing"
+  ccso:hasInstructor Ed Gehringer
+  ccso:courseURL https://ethics.csc.ncsu.edu/
+
+"Computer Science" ccso:memberOf "North Carolina State University"
+"Ed Gehringer" ccso:worksFor "North Carolina State University"
+
+
+193 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy / Computer Science"
+  ccso:csName "Ethics, Science, and Technology"
+  ccso:hasInstructor Patrick Lin, Ryan Jenkins, Zach Rentz
+  ccso:courseURL http://catalog.calpoly.edu/coursesaz/phil/
+
+"Philosophy / Computer Science" ccso:memberOf "California Polytechnic State Univ., San Luis Obispo"
+"Patrick Lin, Ryan Jenkins, Zach Rentz" ccso:worksFor "California Polytechnic State Univ., San Luis Obispo"
+
+
+194 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Robot Ethics"
+  ccso:hasInstructor Keith Abney
+  ccso:courseURL http://catalog.calpoly.edu/coursesaz/phil/
+
+"Philosophy" ccso:memberOf "California Polytechnic State Univ., San Luis Obispo"
+"Keith Abney" ccso:worksFor "California Polytechnic State Univ., San Luis Obispo"
+
+
+195 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Technologies and the Ethics of Warfare"
+  ccso:hasInstructor Ryan Jenkins
+  ccso:courseURL http://catalog.calpoly.edu/coursesaz/phil/
+
+"Philosophy" ccso:memberOf "California Polytechnic State Univ., San Luis Obispo"
+"Ryan Jenkins" ccso:worksFor "California Polytechnic State Univ., San Luis Obispo"
+
+
+196 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Computing, AI, and Philosophy"
+  ccso:hasInstructor Mate Szabo
+  ccso:courseURL http://coursecatalog.web.cmu.edu/dietrichcollegeofhumanitiesandsocialsciences/departmentofphilosophy/courses/
+
+"Philosophy" ccso:memberOf "Carnegie Mellon University"
+"Mate Szabo" ccso:worksFor "Carnegie Mellon University"
+
+
+197 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Information Science"
+  ccso:csName "Information Ethics, Law, & Policy"
+  ccso:hasInstructor Steve Jackson, Karen Levy
+  ccso:courseURL http://courses.cornell.edu/preview_course_nopop.php?catoid=28&coid=446626
+
+"Information Science" ccso:memberOf "Cornell University"
+"Steve Jackson, Karen Levy" ccso:worksFor "Cornell University"
+
+
+198 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Philosophy and Computers"
+  ccso:hasInstructor James Moor
+  ccso:courseURL http://dartmouth.smartcatalogiq.com/en/current/orc/Departments-Programs-Undergraduate/Philosophy/PHIL-Philosophy/PHIL-26
+
+"Philosophy" ccso:memberOf "Dartmouth College"
+"James Moor" ccso:worksFor "Dartmouth College"
+
+
+199 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Science, Technology and International Afffairs"
+  ccso:csName "Big Data and its Politics"
+  ccso:hasInstructor Rajesh Veeraraghavan
+  ccso:courseURL nan
+
+"Science, Technology and International Afffairs" ccso:memberOf "Georgetown University"
+"Rajesh Veeraraghavan" ccso:worksFor "Georgetown University"
+
+
+200 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Data Ethics"
+  ccso:hasInstructor Maggie Little, Elizabeth Edenberg
+  ccso:courseURL https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201910&subj_code_in=PHIL&crse_numb_in=108
+
+"Philosophy" ccso:memberOf "Georgetown University"
+"Maggie Little, Elizabeth Edenberg" ccso:worksFor "Georgetown University"
+
+
+201 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Social Media & Democracy"
+  ccso:hasInstructor Maggie Little, Elizabeth Edenberg
+  ccso:courseURL https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201730&subj_code_in=PHIL&crse_numb_in=110
+
+"Philosophy" ccso:memberOf "Georgetown University"
+"Maggie Little, Elizabeth Edenberg" ccso:worksFor "Georgetown University"
+
+
+202 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethics in a Digital World"
+  ccso:hasInstructor Vance Ricks
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Guilford College"
+"Vance Ricks" ccso:worksFor "Guilford College"
+
+
+203 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Intelligent Systems: Design and Ethical Challenges"
+  ccso:hasInstructor Barbara Grosz
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "Harvard College"
+"Barbara Grosz" ccso:worksFor "Harvard College"
+
+
+204 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Computing, Ethics, and Society"
+  ccso:hasInstructor Dr. Edward Currie
+  ccso:courseURL http://bulletin.hofstra.edu/preview_course.php?catoid=91&coid=277866
+
+"Computer Science" ccso:memberOf "Hofstra University"
+"Dr. Edward Currie" ccso:worksFor "Hofstra University"
+
+
+205 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Informatics"
+  ccso:csName "Introduction to Social Informatics"
+  ccso:hasInstructor Various
+  ccso:courseURL nan
+
+"Informatics" ccso:memberOf "Indiana University Bloomington"
+"Various" ccso:worksFor "Indiana University Bloomington"
+
+
+206 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Science and Technology"
+  ccso:csName "Practice and Professional Ethics"
+  ccso:hasInstructor Raquel Lugo Vecchini
+  ccso:courseURL http://www.arecibo.inter.edu/wp-content/uploads/catalogos/gencat.pdf
+
+"Science and Technology" ccso:memberOf "Interamerican University of Puerto Rico"
+"Raquel Lugo Vecchini" ccso:worksFor "Interamerican University of Puerto Rico"
+
+
+207 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Data Science in Research, Business and Society"
+  ccso:hasInstructor Irina Shklovski
+  ccso:courseURL https://en.itu.dk/~/media/dk/uddannelser/bacheloruddannelser/data-science/curriculum-for-bachelor-in-data-science_gb_2017_08_underskrevet-pdf.pdf?la=en
+
+"Computer Science" ccso:memberOf "IT University of Copenhagen"
+"Irina Shklovski" ccso:worksFor "IT University of Copenhagen"
+
+
+208 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Bioengineering"
+  ccso:csName "Ethics in Bioengineering"
+  ccso:hasInstructor Russ Altman, Dave Magnus
+  ccso:courseURL nan
+
+"Bioengineering" ccso:memberOf "IT University of Copenhagen"
+"Russ Altman, Dave Magnus" ccso:worksFor "IT University of Copenhagen"
+
+
+209 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Film, TV, Games & Interactive Media"
+  ccso:csName "Ethics and Games"
+  ccso:hasInstructor Karen Schrier
+  ccso:courseURL nan
+
+"Film, TV, Games & Interactive Media" ccso:memberOf "Marist College"
+"Karen Schrier" ccso:worksFor "Marist College"
+
+
+210 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Civil Engineering, cross listed among several other departments"
+  ccso:csName "Ethics for Engineers"
+  ccso:hasInstructor Bernhardt L Trout
+  ccso:courseURL https://stellar.mit.edu/S/course/10/fa17/10.01/index.html
+
+"Civil Engineering, cross listed among several other departments" ccso:memberOf "Massachusetts Institute of Technology (MIT)"
+"Bernhardt L Trout" ccso:worksFor "Massachusetts Institute of Technology (MIT)"
+
+
+211 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Department of Computer Science"
+  ccso:csName "Ethical and Social Aspects of Computing"
+  ccso:hasInstructor Leo Ureel, Linda Ott
+
+  ccso:courseURL nan
+
+"Department of Computer Science" ccso:memberOf "Michigan Technological University"
+"Leo Ureel, Linda Ott
+" ccso:worksFor "Michigan Technological University"
+
+
+212 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Integrated Engineering (Computer Science)"
+  ccso:csName "Artificial Intelligence & Science Fiction"
+  ccso:hasInstructor Rebecca Bates
+  ccso:courseURL nan
+
+"Integrated Engineering (Computer Science)" ccso:memberOf "Minnesota State University, Mankato"
+"Rebecca Bates" ccso:worksFor "Minnesota State University, Mankato"
+
+
+213 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Computing"
+  ccso:csName "Social and Ethical Issues in Computer Science"
+  ccso:hasInstructor Laura Stanley
+  ccso:courseURL http://catalog.montana.edu/coursedescriptions/csci/
+
+"School of Computing" ccso:memberOf "Montana State University "
+"Laura Stanley" ccso:worksFor "Montana State University "
+
+
+214 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "College of Computer and Information Science"
+  ccso:csName "The Law, Policy, and Ethics of Data and Digital Technologies"
+  ccso:hasInstructor Woodrow Hartzog
+  ccso:courseURL nan
+
+"College of Computer and Information Science" ccso:memberOf "Northeastern University"
+"Woodrow Hartzog" ccso:worksFor "Northeastern University"
+
+
+215 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Biomedical Ethics"
+  ccso:hasInstructor Yvette Pearson
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Old Dominion University"
+"Yvette Pearson" ccso:worksFor "Old Dominion University"
+
+
+216 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Cybersecurity Ethics"
+  ccso:hasInstructor Teresa Kouri Kissel, D.E. Wittkower
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Old Dominion University"
+"Teresa Kouri Kissel, D.E. Wittkower" ccso:worksFor "Old Dominion University"
+
+
+217 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Philosophy and Video Games"
+  ccso:hasInstructor Andrew Kissel
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Old Dominion University"
+"Andrew Kissel" ccso:worksFor "Old Dominion University"
+
+
+218 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Philosophy of Digital Culture"
+  ccso:hasInstructor D.E. Wittkower
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Old Dominion University"
+"D.E. Wittkower" ccso:worksFor "Old Dominion University"
+
+
+219 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Technology: Its Nature and Significance"
+  ccso:hasInstructor D.E. Wittkower
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Old Dominion University"
+"D.E. Wittkower" ccso:worksFor "Old Dominion University"
+
+
+220 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Information Sciences and Technology"
+  ccso:csName "Data Ethics"
+  ccso:hasInstructor Daniel Susser
+  ccso:courseURL nan
+
+"Information Sciences and Technology" ccso:memberOf "Penn State University"
+"Daniel Susser" ccso:worksFor "Penn State University"
+
+
+221 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethics of Data Science"
+  ccso:hasInstructor Matthew Kroll
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Purdue University"
+"Matthew Kroll" ccso:worksFor "Purdue University"
+
+
+222 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Philosophy of Peace"
+  ccso:hasInstructor Evan Selinger
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Rochester Institute of Technology"
+"Evan Selinger" ccso:worksFor "Rochester Institute of Technology"
+
+
+223 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science and Philosophy (cotaught)"
+  ccso:csName "Computer Ethics"
+  ccso:hasInstructor Erin Chambers, David Letscher, James McCollum, and Bill Rehg (alternating)
+  ccso:courseURL http://compethics.philosophicon.net/
+
+"Computer Science and Philosophy (cotaught)" ccso:memberOf "Saint Louis University"
+"Erin Chambers, David Letscher, James McCollum, and Bill Rehg (alternating)" ccso:worksFor "Saint Louis University"
+
+
+224 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethics and the Digital Age"
+  ccso:hasInstructor Shannon Vallor
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Santa Clara University"
+"Shannon Vallor" ccso:worksFor "Santa Clara University"
+
+
+225 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Interdisciplinary Studies (Focus on Political and Social Sciences)"
+  ccso:csName "Ethics of New Technologies"
+  ccso:hasInstructor Imane Bello
+  ccso:courseURL nan
+
+"Interdisciplinary Studies (Focus on Political and Social Sciences)" ccso:memberOf "Sciences Po Paris - European Campus"
+"Imane Bello" ccso:worksFor "Sciences Po Paris - European Campus"
+
+
+226 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computing Science"
+  ccso:csName "Professional Responsibility and Ethics"
+  ccso:hasInstructor John Edgar
+  ccso:courseURL http://www.sfu.ca/outlines.html?2018/spring/cmpt/322w/d100
+
+"Computing Science" ccso:memberOf "Simon Fraser University"
+"John Edgar" ccso:worksFor "Simon Fraser University"
+
+
+227 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Engineering"
+  ccso:csName "Ethical Issues in Engineering"
+  ccso:hasInstructor Robert McGinn
+  ccso:courseURL nan
+
+"Engineering" ccso:memberOf "Stanford University"
+"Robert McGinn" ccso:worksFor "Stanford University"
+
+
+228 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Science, Technology, & Society"
+  ccso:csName "The Public Life of Science and Technology"
+  ccso:hasInstructor Sandra Lee
+  ccso:courseURL nan
+
+"Science, Technology, & Society" ccso:memberOf "Stanford University"
+"Sandra Lee" ccso:worksFor "Stanford University"
+
+
+229 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethical Issues in Science and Technology"
+  ccso:hasInstructor Michael Steinmann
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Stevens Institute of Technology"
+"Michael Steinmann" ccso:worksFor "Stevens Institute of Technology"
+
+
+230 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Data and Ethics"
+  ccso:hasInstructor Anna Lauren Hoffmann
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/088
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Anna Lauren Hoffmann" ccso:worksFor "UC Berkeley"
+
+
+231 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Engineering"
+  ccso:csName "Engineering, The Environment, and Society"
+  ccso:hasInstructor Khalid Kadir
+  ccso:courseURL http://classes.berkeley.edu/content/2018-spring-engin-157ac-001-lec-001
+
+"Engineering" ccso:memberOf "UC Berkeley"
+"Khalid Kadir" ccso:worksFor "UC Berkeley"
+
+
+232 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "History, STS, and Interdisciplinary Studies"
+  ccso:csName "Science, Technology, and Society: Human Contexts and Ethics of Data Science"
+  ccso:hasInstructor Cathryn Carson and colleagues (Massimo Mazzotti, Charis Thompson, Margo Boenig-Liptsin, and others)
+  ccso:courseURL http://history.berkeley.edu/courses/2018/182aat
+
+"History, STS, and Interdisciplinary Studies" ccso:memberOf "UC Berkeley"
+"Cathryn Carson and colleagues (Massimo Mazzotti, Charis Thompson, Margo Boenig-Liptsin, and others)" ccso:worksFor "UC Berkeley"
+
+
+233 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Science and Technology Studies"
+  ccso:csName "Data and Society"
+  ccso:hasInstructor Lindsay Poirier
+  ccso:courseURL https://sts.ucdavis.edu/courses/featured-courses/sts-101-data-and-society
+
+"Science and Technology Studies" ccso:memberOf "UC Davis"
+"Lindsay Poirier" ccso:worksFor "UC Davis"
+
+
+234 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Science and Technology Studies"
+  ccso:csName "Governing Emerging Technologies"
+  ccso:hasInstructor Jack Stilgoe
+  ccso:courseURL http://www.ucl.ac.uk/sts/staff/stilgoe/3036
+
+"Science and Technology Studies" ccso:memberOf "University College London"
+"Jack Stilgoe" ccso:worksFor "University College London"
+
+
+235 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Media Studies"
+  ccso:csName "Information Policy"
+  ccso:hasInstructor Lisa Nathan
+  ccso:courseURL nan
+
+"Media Studies" ccso:memberOf "University of British Columbia"
+"Lisa Nathan" ccso:worksFor "University of British Columbia"
+
+
+236 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information Science"
+  ccso:csName "Issues in Information and Communication Technology Policy"
+  ccso:hasInstructor Bryce Newell, Nicholas Proferes
+  ccso:courseURL https://ci.uky.edu/sis/course/ict-205-issues-information-and-communication-technology-policy
+
+"School of Information Science" ccso:memberOf "University of Kentucky"
+"Bryce Newell, Nicholas Proferes" ccso:worksFor "University of Kentucky"
+
+
+237 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science & Electrical Engineering"
+  ccso:csName "Social and Ethical Issues in Information Technology"
+  ccso:hasInstructor Various
+  ccso:courseURL nan
+
+"Computer Science & Electrical Engineering" ccso:memberOf "University of Maryland - Baltimore County (UMBC)"
+"Various" ccso:worksFor "University of Maryland - Baltimore County (UMBC)"
+
+
+238 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "College of Computer and Information Sciences"
+  ccso:csName "Social Issues in Computing"
+  ccso:hasInstructor Michelle Trim (lead) and Justin Obara + additonal temporary instructors as needed.
+  ccso:courseURL nan
+
+"College of Computer and Information Sciences" ccso:memberOf "University of Massachusetts Amherst"
+"Michelle Trim (lead) and Justin Obara + additonal temporary instructors as needed." ccso:worksFor "University of Massachusetts Amherst"
+
+
+239 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Algorithms and Society"
+  ccso:hasInstructor Sarita Schoenebeck
+  ccso:courseURL https://docs.google.com/document/d/122pLT8VXWGyjoNC3AGK9XAG_YpLa4RFx3BiNAFfOwIQ/edit
+
+"School of Information" ccso:memberOf "University of Michigan"
+"Sarita Schoenebeck" ccso:worksFor "University of Michigan"
+
+
+240 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Reilly Center for Science, Technology, and Values and Department of Philosophy"
+  ccso:csName "Data & AI Ethics"
+  ccso:hasInstructor Emanuele Ratti
+  ccso:courseURL nan
+
+"Reilly Center for Science, Technology, and Values and Department of Philosophy" ccso:memberOf "University of Notre Dame"
+"Emanuele Ratti" ccso:worksFor "University of Notre Dame"
+
+
+241 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "IT, Analytics, & Operations"
+  ccso:csName "Ethics in Business Analytics"
+  ccso:hasInstructor Scott Nestler
+  ccso:courseURL nan
+
+"IT, Analytics, & Operations" ccso:memberOf "University of Notre Dame"
+"Scott Nestler" ccso:worksFor "University of Notre Dame"
+
+
+242 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Behavioral Ethics in the Digital Age"
+  ccso:hasInstructor Karen Landolt
+  ccso:courseURL nan
+
+"Computer Science" ccso:memberOf "University of Texas at Austin"
+"Karen Landolt" ccso:worksFor "University of Texas at Austin"
+
+
+243 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Entertainment Arts & Engineering"
+  ccso:csName "Ethics in Videogames"
+  ccso:hasInstructor Jose Zagal
+  ccso:courseURL nan
+
+"Entertainment Arts & Engineering" ccso:memberOf "University of Utah"
+"Jose Zagal" ccso:worksFor "University of Utah"
+
+
+244 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "The Information School"
+  ccso:csName "Information Ethics and Policy"
+  ccso:hasInstructor Adam D. Moore
+  ccso:courseURL https://www.washington.edu/students/crscat/info.html#info350
+
+"The Information School" ccso:memberOf "University of Washington"
+"Adam D. Moore" ccso:worksFor "University of Washington"
+
+
+245 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Urban Studies (GIS is housed here)"
+  ccso:csName "Data and the City"
+  ccso:hasInstructor Jim Thatcher
+  ccso:courseURL nan
+
+"Urban Studies (GIS is housed here)" ccso:memberOf "University of Washington Tacoma"
+"Jim Thatcher" ccso:worksFor "University of Washington Tacoma"
+
+
+246 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Social Implications of Computing"
+  ccso:hasInstructor nan
+  ccso:courseURL https://www.student.cs.uwaterloo.ca/~cs492/
+
+"Computer Science" ccso:memberOf "University of Waterloo"
+"nan" ccso:worksFor "University of Waterloo"
+
+
+247 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information Studies"
+  ccso:csName "Information Technology Ethics"
+  ccso:hasInstructor Michael Zimmer
+  ccso:courseURL nan
+
+"School of Information Studies" ccso:memberOf "University of Wisconsin Milwaukee"
+"Michael Zimmer" ccso:worksFor "University of Wisconsin Milwaukee"
+
+
+248 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "History"
+  ccso:csName "nan"
+  ccso:hasInstructor Tom Ewing
+  ccso:courseURL https://sites.google.com/vt.edu/discipline
+
+"History" ccso:memberOf "Virginia Tech"
+"Tom Ewing" ccso:worksFor "Virginia Tech"
+
+
+249 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Communication"
+  ccso:csName "Digital Ethics"
+  ccso:hasInstructor Florence Chee
+  ccso:courseURL nan
+
+"School of Communication" ccso:memberOf "Loyola University Chicago"
+"Florence Chee" ccso:worksFor "Loyola University Chicago"
+
+
+250 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science"
+  ccso:csName "Ethics and Communications in Computer Science"
+  ccso:hasInstructor Emanuelle Burton
+  ccso:courseURL N/A (yet)
+
+"Computer Science" ccso:memberOf "University of Illinois at Chicago"
+"Emanuelle Burton" ccso:worksFor "University of Illinois at Chicago"
+
+
+251 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science
+Humanities, Arts, and Social Sciences"
+  ccso:csName "Robot Ethics"
+  ccso:hasInstructor Tom Williams
+Qin Zhu
+  ccso:courseURL nan
+
+"Computer Science
+Humanities, Arts, and Social Sciences" ccso:memberOf "Colorado School of Mines"
+"Tom Williams
+Qin Zhu" ccso:worksFor "Colorado School of Mines"
+
+
+252 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Applied Computation"
+  ccso:csName "Critical Thinking In Data Science"
+  ccso:hasInstructor Mike Smith & Jim Waldo
+  ccso:courseURL https://www.coursicle.com/harvard/courses/APCOMP/221/
+
+"Applied Computation" ccso:memberOf "Harvard University"
+"Mike Smith & Jim Waldo" ccso:worksFor "Harvard University"
+
+
+253 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Library and Information Science"
+  ccso:csName "Information and Society; Info Ethics and Governance"
+  ccso:hasInstructor Jesse David Dinneen
+  ccso:courseURL nan
+
+"Library and Information Science" ccso:memberOf "Humboldt-Universität zu Berlin"
+"Jesse David Dinneen" ccso:worksFor "Humboldt-Universität zu Berlin"
+
+
+254 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science  "
+  ccso:csName "Data and Society"
+  ccso:hasInstructor Dr. Fran Berman
+  ccso:courseURL https://www.cs.rpi.edu/~bermaf/Data%20Course%202018/Data.html
+
+"Computer Science  " ccso:memberOf "Rensselaer Polytechnic Inst"
+"Dr. Fran Berman" ccso:worksFor "Rensselaer Polytechnic Inst"
+
+
+255 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Faculty of Industrial Engineering & Management, Faculty of Law"
+  ccso:csName "Responsible AI, Law & Society"
+  ccso:hasInstructor nan
+  ccso:courseURL https://learn.responsibly.ai/law-society/
+
+"Faculty of Industrial Engineering & Management, Faculty of Law" ccso:memberOf "Technion, Univeristy of Haifa"
+"nan" ccso:worksFor "Technion, Univeristy of Haifa"
+
+
+256 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science/Diplomacy, History, and Politics"
+  ccso:csName "CS for Future Presidents"
+  ccso:hasInstructor nan
+  ccso:courseURL https://fletcher.tufts.edu/academics/courses/divisions/dhp/dhp-d291
+
+"Computer Science/Diplomacy, History, and Politics" ccso:memberOf "Tufts University/Fletcher"
+"nan" ccso:worksFor "Tufts University/Fletcher"
+
+
+257 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "Behind the Data: Humans and Values"
+  ccso:hasInstructor Deirdre Mulligan
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/188
+
+"School of Information" ccso:memberOf "UC Berkeley"
+"Deirdre Mulligan" ccso:worksFor "UC Berkeley"
+
+
+258 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Multiple"
+  ccso:csName "Human Rights Investigations Lab"
+  ccso:hasInstructor Alexa Koenig, Stephanie Croft, Eric Stover, Andrea Lampros
+  ccso:courseURL nan
+
+"Multiple" ccso:memberOf "UC Berkeley"
+"Alexa Koenig, Stephanie Croft, Eric Stover, Andrea Lampros" ccso:worksFor "UC Berkeley"
+
+
+259 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Mathematics, Computer Science and Physics"
+  ccso:csName "Social and Ethical Aspect of AI and Cybersecurity"
+  ccso:hasInstructor nan
+  ccso:courseURL https://www.masterstudies.com/MSc-in-Artificial-Intelligence-and-Cybersecurity/Austria/University-of-Klagenfurt-Faculty-of-Technical-Sciences/
+
+"Mathematics, Computer Science and Physics" ccso:memberOf "University of Udine (Italy) and of Klagenfurt (Austria) Double degree"
+"nan" ccso:worksFor "University of Udine (Italy) and of Klagenfurt (Austria) Double degree"
+
+
+260 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information"
+  ccso:csName "History of Information"
+  ccso:hasInstructor Paul Duguid
+  ccso:courseURL https://www.ischool.berkeley.edu/courses/info/103
+
+"School of Information" ccso:memberOf "nan"
+"Paul Duguid" ccso:worksFor "nan"
+
+
+261 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "School of Information and Communication Studies"
+  ccso:csName "Information Ethics"
+  ccso:hasInstructor Marguerite Barry
+  ccso:courseURL https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=IS30370&MAJR=W041
+
+"School of Information and Communication Studies" ccso:memberOf "University College Dublin"
+"Marguerite Barry" ccso:worksFor "University College Dublin"
+
+
+262 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Engineering and Public Policy"
+  ccso:csName "Ethics and Policy Issues In Computing"
+  ccso:hasInstructor James Herbsleb
+  ccso:courseURL nan
+
+"Engineering and Public Policy" ccso:memberOf "Carnegie Mellon University"
+"James Herbsleb" ccso:worksFor "Carnegie Mellon University"
+
+
+263 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Information Science & Communication"
+  ccso:csName "Ethics in New Media, Technology, & Communication"
+  ccso:hasInstructor Dawn Schrader
+  ccso:courseURL http://courses.cornell.edu/preview_course_nopop.php?catoid=26&coid=411157
+
+"Information Science & Communication" ccso:memberOf "Cornell University"
+"Dawn Schrader" ccso:worksFor "Cornell University"
+
+
+264 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Interdisciplinary Studies"
+  ccso:csName "Virtual Selves:  Identities and Communities Online"
+  ccso:hasInstructor Vance Ricks
+  ccso:courseURL nan
+
+"Interdisciplinary Studies" ccso:memberOf "Guilford College"
+"Vance Ricks" ccso:worksFor "Guilford College"
+
+
+265 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Philosophy"
+  ccso:csName "Ethics and the Internet"
+  ccso:hasInstructor Diane Michelfelder
+  ccso:courseURL nan
+
+"Philosophy" ccso:memberOf "Macalester College"
+"Diane Michelfelder" ccso:worksFor "Macalester College"
+
+
+266 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Data Science Department"
+  ccso:csName "e"
+  ccso:hasInstructor Julia Stoyanovich
+  ccso:courseURL https://dataresponsibly.github.io/
+
+"Data Science Department" ccso:memberOf "New York University"
+"Julia Stoyanovich" ccso:worksFor "New York University"
+
+
+267 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Gallatin School of Individualized Study"
+  ccso:csName "Tinkering in Feminist Technoscience"
+  ccso:hasInstructor Cyd Cipolla
+  ccso:courseURL https://gallatin.nyu.edu/academics/courses/2018/SP/idsem-ug1891_001.html
+
+"Gallatin School of Individualized Study" ccso:memberOf "New York University"
+"Cyd Cipolla" ccso:worksFor "New York University"
+
+
+268 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "nan"
+  ccso:csName "nan"
+  ccso:hasInstructor nan
+  ccso:courseURL nan
+
+"nan" ccso:memberOf "Open Access Course Materials CTE"
+"nan" ccso:worksFor "Open Access Course Materials CTE"
+
+
+269 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Communication & Information Sciences, master track New Media Design (at Tilburg School of Humanities & Digital Sciences)"
+  ccso:csName "UX Design"
+  ccso:hasInstructor nan
+  ccso:courseURL nan
+
+"Communication & Information Sciences, master track New Media Design (at Tilburg School of Humanities & Digital Sciences)" ccso:memberOf "Tilburg University, The Netherlandsu"
+"nan" ccso:worksFor "Tilburg University, The Netherlandsu"
+
+
+270 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Berkeley Law"
+  ccso:csName "Human Rights Investigations Lab"
+  ccso:hasInstructor nan
+  ccso:courseURL  
+
+"Berkeley Law" ccso:memberOf "UC Berkeley"
+"nan" ccso:worksFor "UC Berkeley"
+
+
+271 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Gender, Sexuality, Feminist, and Socil Justice Studies of the Institute for Gender, Sexuality, and Feminist Studies"
+  ccso:csName "Feminist Futurities, Technologies, and Worldmaking"
+  ccso:hasInstructor Dr. Alex Ketchum
+  ccso:courseURL Syllabus (public version): https://drive.google.com/file/d/1__AQ9zX6Kmimb8ehonXEn3hgkQXQHx8c/view
+
+"Gender, Sexuality, Feminist, and Socil Justice Studies of the Institute for Gender, Sexuality, and Feminist Studies" ccso:memberOf "McGill University"
+"Dr. Alex Ketchum" ccso:worksFor "McGill University"
+
+
+272 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Sociology"
+  ccso:csName "Public Interest Tech: Case Studies"
+  ccso:hasInstructor Dan Grusky, Margaret Hagan
+  ccso:courseURL https://explorecourses.stanford.edu/search?q=SOC+141P%3a+Public+Interest+Tech%3a+Case+Studies&view=catalog&filter-coursestatus-Active=on&academicYear=20202021
+
+"Sociology" ccso:memberOf "Stanford University"
+"Dan Grusky, Margaret Hagan" ccso:worksFor "Stanford University"
+
+
+273 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science, Public Policy"
+  ccso:csName "Bridging Policy and Tech Through Design"
+  ccso:hasInstructor Jeffrey Ullman
+  ccso:courseURL https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=20202021&q=cs184&collapse=
+
+"Computer Science, Public Policy" ccso:memberOf "Stanford University"
+"Jeffrey Ullman" ccso:worksFor "Stanford University"
+
+
+274 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science "
+  ccso:csName "Ethics in Computer Science "
+  ccso:hasInstructor Kevin Brooks and Abhijeet Rao
+  ccso:courseURL https://drive.google.com/drive/folders/1q80qt1AQJrbLnjD9JPORwvwq6lJU3PPc?usp=sharing
+
+"Computer Science " ccso:memberOf "Lakehead University "
+"Kevin Brooks and Abhijeet Rao" ccso:worksFor "Lakehead University "
+
+
+275 a ccso:Course
+  ccso:hasSyllabus nan
+  ccso:offeredBy "Computer Science, Institute for Comparative Literature and Society"
+  ccso:csName "Multilingual Technologies and Language Diversity"
+  ccso:hasInstructor Smaranda Muresan and Isabelle Zaugg
+  ccso:courseURL http://www.cs.columbia.edu/~smara/teaching/Spring2020/
+
+"Computer Science, Institute for Comparative Literature and Society" ccso:memberOf "Columbia University"
+"Smaranda Muresan and Isabelle Zaugg" ccso:worksFor "Columbia University"
+
