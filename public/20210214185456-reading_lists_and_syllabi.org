@@ -8,4 +8,5 @@
 ** [[file:knowles_ethical_data_science_reader_2019.org][knowles_ethical_data_science_reader_2019]]
 
 * Syllabi
-- [[https://docs.google.com/spreadsheets/d/1jWIrA8jHz5fYAW4h9CkUD8gKS5V98PDJDymRf8d9vKI/edit#gid=0][Tech Ethics Curriculum]] collaborative Google Sheets spreadsheet, with 278 courses
+- [[file:20210227172245-tech_ethics_curriculum_spreadsheet.org][tech ethics curriculum spreadsheet]]
+- [[file:20210227173128-open_syllabus_project.org][open syllabus project]]

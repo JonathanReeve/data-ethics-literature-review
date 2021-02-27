@@ -1,0 +1,6 @@
+#+title: Open Syllabus Project
+#+roam_key: https://opensyllabus.org/
+
+Maps courses, assigned texts, and so on.
+
+[[https://opensyllabus.org/result/title?id=62440234589614][Here's an entry for /Weapons of Math Destruction/.]]

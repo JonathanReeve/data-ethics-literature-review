@@ -1,0 +1,4 @@
+#+title: tech ethics curriculum spreadsheet
+
+- [[https://docs.google.com/spreadsheets/d/1jWIrA8jHz5fYAW4h9CkUD8gKS5V98PDJDymRf8d9vKI/edit#gid=0][Tech Ethics Curriculum]] collaborative Google Sheets spreadsheet, with 278 courses
+- [[../tech-ethics-courses.csv][CSV export]] of above spreadsheet
