@@ -15,3 +15,5 @@
   :NOTER_DOCUMENT:
   :NOTER_PAGE:
   :END:
+
+[[https://opensyllabus.org/result/title?id=62440234589614][An entry in the Open Syllabus Project database]].
