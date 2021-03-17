@@ -1,0 +1,328 @@
+Readings for EECS Ethics and Diversity Course
+
+1.  [[http://www.trincoll.edu/Academics/centers/TIIS/Documents/DonnaRileyEngineeringandSocialJustice.pdf][Engineering
+    and Social Justice]] by Donna Riley
+
+2.  [[https://www.nsf.gov/about/congress/114/hr1806_impact.jsp][America
+    competes reauthorization act of 2015: impact on the National Science
+    Foundation]], by NSF
+
+3.  [[https://theconversation.com/when-politicians-cherry-pick-data-and-disregard-facts-what-should-we-academics-do-79101?utm_source=twitter&utm_medium=twitterbutton][When
+    politicians cherry pick data and disregard facts what should we
+    academic do?]] by Andrew J. Hoffman
+
+4.  [[http://culturalorganizing.org/the-problem-with-that-equity-vs-equality-graphic/][The
+    problem with that equity vs. equality graphic you are using]] by
+    Paul Kuttner
+
+5.  [[http://www.iep.utm.edu/soc-cont/][Social contract theory]], in the
+    internet encyclopedia of philosophy
+
+6.  [[https://www.youtube.com/watch?v=aFe-OJq6A94][Deontology vs.
+    utilitarianism]], You-tube video
+
+7.  [[https://newrepublic.com/article/114127/science-not-enemy-humanities][Science
+    is not your enemy]] by Steven Pinker
+
+8.  [[https://newrepublic.com/article/114172/leon-wieseltier-scientism-and-humanities][No,
+    science doesn't have all the answers]] video by Leon Wieseltier
+
+9.  [[https://nationalseedproject.org/images/documents/Knapsack_plus_Notes-Peggy_McIntosh.pdf][White
+    privilege: unpacking the invisible knapsack]] by Peggy McIntosh
+
+10. [[https://nationalseedproject.org/images/documents/White_Privilege_and_Male_Privilege_Personal_Account-Peggy_McIntosh.pdf][White
+    privilege and male privilege: A personal account of coming to see
+    the correspondences through work in women's studies]] by Peggy
+    McIntosh
+
+11. [[http://watch.opb.org/video/2365980768/][Broken Treaties]] OPB
+    documentary (1 hr)
+
+12. [[https://www.jacobinmag.com/2015/06/racecraft-racism-social-origins-reparations/][The
+    social construction of race]], by Brian Jones
+
+13. [[https://www.youtube.com/watch?v=fo2RVOunsZ8][Why there aren't more
+    black people in Oregon]], U-tube video by Walidah Imarisha
+
+14. [[http://www.statcan.gc.ca/pub/75-006-x/2013001/article/11874-eng.pdf][Gender
+    differences in science, technology, engineering, mathematics and
+    computer science]], by Darcy Hango
+
+15. [[https://www.nytimes.com/2015/02/07/upshot/how-elementary-school-teachers-biases-can-discourage-girls-from-math-and-science.html][How
+    elementary school teacher's biases can discourage girls from math
+    and science]], story by Claire Cain Miller
+
+16. [[http://philosophy.fas.nyu.edu/docs/CP/6039/Saul_IBStereotypeThreatWIP.pdf][Implicit
+    bias, stereotype threat and women in philosophy]], by Jennifer Saul
+
+17. [[http://psiexp.ss.uci.edu/research/teaching/Tversky_Kahneman_1974.pdf][Judgment
+    under uncertainty: heuristics and biases]], by Amos Tversky and
+    Daniel Kahneman
+
+18. [[https://www.theatlantic.com/politics/archive/2015/09/microaggressions-matter/406090/][Microaggressions
+    matter]], by Simba Runyowa
+
+19. [[http://www.huffingtonpost.com/entry/combating-sexual-harassment-in-the-tech-industry_us_58c1701de4b0a797c1d399bd][Combating
+    sexual harassment in the tech industry]], by Megan Brame
+
+20. [[https://medium.com/tech-diversity-files/the-real-reason-women-quit-tech-and-how-to-address-it-6dfb606929fd][The
+    real reason women quit tech (and how to address it)]], by Rachel
+    Thomas
+
+21. [[https://www.americanprogress.org/issues/women/reports/2016/11/07/292175/rhetoric-vs-reality-equal-pay/][Rhetoric
+    vs. reality: equal pay]], by Kaitlin Holmes, Jocelyn Frye, Sarah
+    Jane Glynn, and Jessica Quinter
+
+22. [[https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/][The
+    case for reparations]] by Ta-Nahesi Coates
+
+23. [[http://www.history.com/topics/black-history/civil-rights-movement][Civil
+    rights movement]], from black history website.
+
+24. [[http://www.nytimes.com/2013/06/27/opinion/the-long-road-to-marriage-equality.html][The
+    long road to marriage equality]], by George Chauncey, NYT
+
+25. [[http://blacklivesmatter.com/guiding-principles/][Guiding
+    principles of black lives matter]], Black Lives Matter website.
+
+26. [[https://www.theatlantic.com/politics/archive/2015/07/tanehisi-coates-between-the-world-and-me/397619/][Letter
+    to my son]], by Ta-Nahesi Coates, excerpts from /Between the world
+    and me/.
+
+27. [[https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer][An
+    introduction to machine learning theory and its applications: a
+    visual tutorial with examples]] by Nick McCrea
+
+28. [[https://cacm.acm.org/magazines/2015/10/192386-rise-of-concerns-about-ai/fulltext][Rise
+    of Concerns about AI: Reflections and Directions]], by Thomas G.
+    Dietterich and Eric J. Horvitz.
+
+29. [[https://www.gccs2015.com/sites/default/files/documents/Ethics_Algorithms-final%20doc.pdf][The
+    ethics of algorithms: From radical content to self-driving cars]] by
+    the Center for Internet and Human Rights
+
+30. [[http://www.sciencemag.org/news/2017/04/even-artificial-intelligence-can-acquire-biases-against-race-and-gender?utm_campaign=news_daily_2017-04-13&et_rid=17100973&et_cid=1272742][Even
+    Artificial Intelligence can acquire biases against race and gender]]
+    by Mathew Hutson
+
+31. [[https://www.theguardian.com/technology/2017/mar/17/youtube-and-google-search-for-answers][Google
+    ad controversy: what the row is all about]] by Mark Sweney and Alex
+    Hern
+
+32. [[http://www.msnbc.com/msnbc/how-social-media-changing-the-feminist-movement][How
+    social media is changing the feminist movement]] story by Nisha
+    Chittal
+
+33. [[ttps://www.facebook.com/notes/mark-zuckerberg/building-global-community/10154544292806634][Building
+    social communities]] by Marc Zuckerburg
+
+34. [[http://socialmediasun.com/confirmation-bias/][Confirmation bias as
+    the strongest marketing tactic]] story by Adam Justice
+
+35. [[https://cacm.acm.org/magazines/2016/7/204021-the-rise-of-social-bots/fulltext][The
+    raise of social bots]] by Emilio Ferrara, Onur Varol, Clayton Davis,
+    Filippo Menczer, Alessandro Flammini in CACM
+
+36. [[https://hbr.org/2016/12/fixing-discrimination-in-online-marketplaces][Fixing
+    discrimination in online market places]] by Ray Fisman and Michael
+    Luca
+
+37. [[http://delivery.acm.org/10.1145/3000000/2998579/p28-wallach.pdf?ip=128.193.154.3&id=2998579&acc=OPEN&key=B63ACEF81C6334F5%2E3B580BAC801349E4%2E7A18681A45B134B7%2E6D218144511F3437&CFID=928398607&CFTOKEN=34353980&__acm__=1493141018_5c699806c3c4658e78419bf8f7d88cce][Towards
+    a ban on lethal autonomous weapons]] by Wendell Wallach, CACM, May
+    2017.
+
+38. [[http://www.geekwire.com/2017/washington-state-weighs-autonomous-vehicle-regulations-early/][Washington
+    state considers autonomous vehicle regulations -- but is it too
+    early?]] By Nat Levy
+
+39. [[https://www.weforum.org/agenda/2017/04/why-the-us-isnt-ready-for-the-arrival-of-the-robots][Why
+    the US isn't ready for the arrival of the robots]] story by Jeff Guo
+
+40. [[https://www.aclu.org/blog/speak-freely/7-reasons-government-backdoor-iphone-would-be-catastrophic][7
+    reasons a government backdoor to the iPhone would be catastrophic]]
+    by Noa Achot, ACLU
+
+Extra readings and links
+
+41. [[http://science.sciencemag.org/content/sci/131/3398/391.full.pdf][The
+    social responsibility of scientists]] by Bertrand Russell
+
+42. [[https://www.nytimes.com/2017/06/30/technology/women-entrepreneurs-speak-out-sexual-harassment.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news]]
+
+43. [[https://www.brookings.edu/wp-content/uploads/2016/05/chapter-one_-dream-hoarders.pdf][Chapter
+    1 of Dream Hoarders]] by Richard Reeves
+
+44. [[http://www.politico.com/story/2017/09/11/facebook-fake-news-fact-checks-242567][Tagging
+    fake news on Facebook doesn't work]] by Jason Schwartz @ Politico
+
+45. [[http://gizmodo.com/exclusive-heres-the-full-10-page-anti-diversity-screed-1797564320][Google's
+    Idealogical Ecochamber]] by James Damore
+
+46. [[https://www.forbes.com/sites/quora/2017/08/10/a-scientists-take-on-the-biological-claims-from-the-infamous-google-anti-diversity-manifesto/2/#1a7f044f591b][A
+    scientist's take on the biological claims from the infamous Google's
+    anti-diversity memo]] by Suzanne Sadedin
+
+47. [[ttps://www.nytimes.com/2017/08/08/opinion/anita-hill-women-in-tech-should-take-sexism-to-court.html?action=click&contentCollection=Opinion&module=RelatedCoverage&region=Marginalia&pgtype=article][Class
+    action law suits to fight sexism]] Letter by Anita Hill
+
+48. [[https://www.recode.net/2017/8/11/16127992/google-engineer-memo-research-science-women-biology-tech-james-damore][The
+    Science Doesn't Support the Google Memo]] by Rosalind Barnett and
+    Caryl Revers
+
+49. [[http://www.huffingtonpost.com/entry/charlottesville-vice-documentary_us_59930983e4b09071f69cc8f6][Vice
+    News documentary on Charlettsville]]
+
+50. [[http://web.engr.oregonstate.edu/~burnett/CS507/HowToConfrontIslamophobesInPublic.pdf][How
+    to handle islamophobes in public spaces]]
+
+51. [[https://www.theatlantic.com/politics/archive/2017/08/what-europe-can-teach-america-about-free-speech/537186/][What
+    Europe can teach America about free speech]] by Meela Versteeg
+
+52. [[http://www.politico.com/story/2017/08/19/tech-firms-fight-hate-backlash-241807][Tech
+    firms fight hate -- but are they going too far?]]
+
+53. [[https://www.nytimes.com/2017/08/25/movies/race-police-killings-documentaries.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news][Documentaries
+    on race and racism]] NYT story
+
+54. [[https://www.nytimes.com/2017/08/25/movies/race-police-killings-documentaries.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news][The
+    miseducation of Dylan Roof]] - a video by SPLC
+
+55. [[https://www.splcenter.org/20170814/ten-ways-fight-hate-community-response-guide][Ten
+    ways to fight hate: A community response guide]] -- SPLC
+
+56. [[https://www.splcenter.org/20170810/alt-right-campus-what-students-need-know][The
+    alt-right is on campus: what students need to know]] -- SPLC
+
+57. [[http://biasincidentreport.oregonstate.edu][Where to report bias
+    incidents at OSU]]?
+
+58. [[https://www.nytimes.com/interactive/2017/08/26/us/fort-smith-arkansas-mosque-vandalism-and-forgiveness.html][Fort
+    Smith Arkansas mosque vandalism story]] -- NYT
+
+59. [[https://www.nytimes.com/interactive/2017/08/24/us/affirmative-action.html?hpw=undefined&rref=education&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well][Affirmative
+    action and underrepresentation of blacks and Hispanics]] -- NYT
+
+60. [[file:///C:\Users\tadepall.ONID\AppData\Local\Temp\late.com\articles\news_and_politics\interrogation\2017\08\mark_lilla_thinks_identity_politics_are_destroying_the_democratic_party.html][Are
+    identity politics destroying the democratic party?]] Mark Lolla's
+    interview
+
+61. [[https://www.youtube.com/watch?v=9bsoNHIdMuc][Why more women aren't
+    computer scientists and engineers?]] Interview with Maria Klawe
+
+62. [[https://www.nytimes.com/2017/08/26/opinion/sunday/two-lessons-in-prejudice.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-left-region&region=opinion-c-col-left-region&WT.nav=opinion-c-col-left-region&_r=0][Two
+    lessons in prejudice]] A NYT editorial
+
+63. [[http://oregonstate.kanopystreaming.com/video/political-animals][Political
+    Animals]] -- a documentary on LGBT rights.
+
+64. [[https://www.nytimes.com/2017/08/29/magazine/the-new-front-in-the-gerrymandering-wars-democracy-vs-math.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news&_r=0][A
+    new front in the gerrymandering wars - computer algorithms]] NYT
+    story
+
+65. [[http://home.sandiego.edu/~baber/gender/Harsanyi.pdf][Morality and
+    the theory of rational behavior]] by John Harsanyi
+
+66. [[http://nymag.com/scienceofus/2017/01/psychologys-racism-measuring-tool-isnt-up-to-the-job.html][Psychology's
+    favorite tool for measuring racism isn't up to the job]] by Jesse
+    Singal
+
+67. [[http://www.sciencedirect.com/science/article/pii/S0193397307001244?via%3Dihub][Problems
+    in the pipeline: Stereotype threat and women's achievement in
+    high-level math courses]], by Good, Aronson and Harder
+
+68. [[http://www,eecs.orst.edu/~tadepall/dpd/Sovacool-et-al-NE-Justice.pdf][Energy
+    decisions reframed as justice and ethical concerns]] by Sovacool,
+    Heffron, McCauley and Goldtau
+
+69. [[http://www.sciencedirect.com/science/article/pii/S0927537109000451?via%3Dihub][Automatic
+    associations and discrimination in hiring: Real world evidence]] by
+    Dan Olof Rooth
+
+70. [[https://www.nytimes.com/2015/08/11/upshot/algorithms-and-bias-q-and-a-with-cynthia-dwork.html][Algorithms
+    and bias]], a Q&A with Cynthia Dwork
+
+71. [[https://www.theguardian.com/us-news/2016/oct/12/san-francisco-police-justice-department-report-bias][DoJ
+    Review of San Francisco police finds `institutional bias' against
+    minorities]], The Guardian
+
+72. [[https://www.theatlantic.com/technology/archive/2016/09/the-global-cost-of-electronic-waste/502019/][The
+    global cost of electronic waste]] by Syez Farad Ahmad@Atlantic
+
+73. [[https://www.nytimes.com/2017/09/09/opinion/sunday/trump-epa-pruitt-science.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-left-region&region=opinion-c-col-left-region&WT.nav=opinion-c-col-left-region][Trump's
+    war on science]] -- NYT editorial
+
+74. [[file:///C:\Users\tadepall\Documents\2014-implicit-bias%20Review%20-%20Kirwan%20Institute__xid-33308837_3-2.pdf][Implicit
+    bias review]] by Kirwan Institute
+
+75. [[http://web.engr.oregonstate.edu/~tadepall/dpd/Toolkit_For_Social_Justice.pdf][A
+    toolkit for understanding social justice paradigm]] by Tracy Davis
+    and Laura Harrison
+
+76. [[http://web.engr.oregonstate.edu/~tadepall/dpd/State%20of%20Black%20Oregon%202015%20sheet.doc][State
+    of black Oregon, 2015]]
+
+77. [[http://web.engr.oregonstate.edu/~tadepall/dpd/GendlerImplicit%20Bias%202011.pdf][On
+    the epistemic costs of implicit bias]] by T. S. Gendler
+
+78. [[http://web.engr.oregonstate.edu/~tadepall/dpd/NATHCEE-%20Constructing%20a%20Social%20Justice%20Tour%20Pedagogy%20Race%20and%20Student%20Learning%20through%20Geography_JournalOfGeography.pdf][Constructing
+    a social justice tour pedagogy race and student learning through
+    geography]] by Natchee Barnd
+
+79. [[http://web.engr.oregonstate.edu/~tadepall/dpd/The%20History%20of%20DPD%20at%20OSU.pdf][The
+    history of DPD at Oregon State]] by Gross and Nishihara
+
+80. [[http://web.engr.oregonstate.edu/~tadepall/dpd/Bayesian-ethics.pdf][Bayesian
+    decision theory]] by John Harsanyi
+
+81. [[http://web.engr.oregonstate.edu/~tadepall/dpd/Christian%20Privilege.pdf][Christian
+    Privilege: Breaking a sacred taboo]] by Lewis Schlosser
+
+82. [[http://web.engr.oregonstate.edu/~tadepall/dpd/Condoning%20Stereotypes%20__xid-36384254_3.pdf][Condoning
+    Stereotyping? How awareness of stereotyping prevalence impacts
+    expression of stereotypes]] by M. M. Duguid and M. C. Thomas-Hunt
+
+83. [[http://web.engr.oregonstate.edu/~tadepall/dpd/Do%20Muslim%20Women%20Really%20Need%20Saving.pdf][Do
+    Muslim Women Really Need Saving? Anthropological Reflections on
+    Cultural Relativism and Others]] by Lila Abu-Lughod
+
+84. [[https://wmbranchout.files.wordpress.com/2011/12/five-faces-of-oppression-iris-young.pdf][Five
+    Faces of Oppression]] by Iris Young
+
+85. [[http://web.engr.oregonstate.edu/~tadepall/dpd/The%20Color%20of%20Supremacy__xid-36354670_3.pdf][The
+    Color of Supremacy: Beyond the discourse of `white privilege']] by
+    Zeus Leanardo
+
+86. [[http://web.engr.oregonstate.edu/~tadepall/dpd/War_On_Academic_Women.pdf][The
+    War on Academic Women: Reflections on Postfeminism in the Neoliberal
+    Academy]] by M. Meyers
+
+87. [[http://web.engr.oregonstate.edu/~tadepall/dpd/Weber_Defining%20contested%20concepts.pdf][Defining
+    contested concepts]] by Weber
+
+88. [[http://web.engr.oregonstate.edu/~tadepall/dpd/What%20it%20All%20Has%20to%20Do%20with%20Us_Johnson-1-1.pdf][What
+    it All Has to Do with Us]] by Johnson
+
+89. [[ftp://ftp.cs.orst.edu/pub/burnett/chi17-GenderMagPersonas-vs-stereotypes.pdf][Gender
+    Inclusiveness Personas vs. Stereotyping: Can we have it both ways?]]
+    by Hill, Haag, Oleson, Mendez, Marsden, Sarma, and Burnett
+
+90. [[https://www.politico.com/interactives/2017/top-college-rankings-list-2017-us-news-investigation/][Economic
+    inequality and US news and world reports rankings]] by Benjamin
+    Warmund @politico
+
+91. [[http://www.historynet.com/womens-suffrage-movement][Women's
+    suffrage movement]] from History net
+
+92. [[https://www.theatlantic.com/business/archive/2016/09/why-so-few-american-economists-are-studying-inequality/499253/][Why
+    so few American economists are studying inequality]] by Alana
+    Semuels
+
+93. [[http://theweek.com/articles/717294/wealth-inequality-even-worse-than-income-inequality][Wealth
+    inequality is even worse than income inequality]] by Jeff Spross @
+    The week
+
+94. [[ttps://www.nytimes.com/2017/09/12/opinion/jimmy-carter-electronic-voting.html?mabReward=ART_ACTM2&recid=966ff98d-5452-40fa-43fc-d7ed93e0eb2c&recp=1&moduleDetail=recommendations-1&action=click&contentCollection=Politics&region=Footer&module=WhatsNext&version=WhatsNext&contentID=WhatsNext&src=recg&pgtype=article][Voters
+    need a digital defense]] by Jimmy Carter
+
+95. [[http://studentlife.oregonstate.edu/sites/studentlife.oregonstate.edu/files/code_of_student_conduct.pdf][Student
+    code of conduct]] -- OSU guidelines
