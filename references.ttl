@@ -1,0 +1,1443 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+<file:///home/jon/Code/data-ethics-literature-review/2FTWNN6G>
+    res:resource <https://relay.substack.com/p/tech-for-good-isnt-a-thing> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/3FRKYDKS>
+    res:resource [
+        dcterms:creator _:n565 ;
+        dcterms:date "2018" ;
+        dcterms:publisher [
+            a foaf:Organization ;
+            foaf:name "St. Martin's Press"
+        ] ;
+        dcterms:title "Automating inequality: How high-tech tools profile, police, and punish the poor" ;
+        bibo:authorList [
+            rdf:_1 _:n565 ;
+            a rdf:Seq
+        ] ;
+        a bibo:Book
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/57M46992>
+    res:resource [
+        dcterms:creator _:n477 ;
+        dcterms:isPartOf [
+            dcterms:date "2018" ;
+            dcterms:isPartOf [
+                dcterms:title "Big data" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "3" ;
+            bibo:volume "6" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Aspects of data ethics in a changing world: Where are we now?" ;
+        bibo:authorList [
+            rdf:_1 _:n477 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "176–190" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/57PS9FR3>
+    res:resource <https://medium.com/data-feminism/5-questions-on-data-and-context-with-desmond-patton-5a09661cbbc6> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-03 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/5VX95RII>
+    res:resource <https://github.com/jknowles/ethical_data_science_reader> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/5XVV3L8M>
+    res:resource <http://dx.doi.org/10.1177/0894439318788314> ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/67AJBD3M>
+    res:resource [
+        dcterms:creator _:n453 ;
+        dcterms:isPartOf [
+            dcterms:date "2016" ;
+            dcterms:isPartOf [
+                dcterms:title "IEEE Intelligent Systems" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "4" ;
+            bibo:volume "31" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Ethics for big data and analytics" ;
+        bibo:authorList [
+            rdf:_1 _:n453 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "81–84" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/6D4VWY8N>
+    res:resource <https://cfiesler.medium.com/tech-ethics-curricula-a-collection-of-syllabi-3eedfb76be18> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/6T22T6VM>
+    res:resource [
+        dcterms:creator _:n377, _:n379 ;
+        dcterms:isPartOf [
+            dcterms:date "2014" ;
+            dcterms:isPartOf [
+                dcterms:title "Wake Forest L. Rev." ;
+                a bibo:Journal
+            ] ;
+            bibo:volume "49" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Big data ethics" ;
+        bibo:authorList [
+            rdf:_1 _:n377 ;
+            rdf:_2 _:n379 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "393" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/8PRLPMQM>
+    res:resource [
+        dcterms:creator _:n436 ;
+        dcterms:isPartOf [
+            dcterms:date "2016" ;
+            dcterms:isPartOf [
+                dcterms:title "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "2083" ;
+            bibo:volume "374" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Locating ethics in data science: responsibility and accountability in global and distributed knowledge production systems" ;
+        bibo:authorList [
+            rdf:_1 _:n436 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "20160122" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/8RCBAPV6>
+    res:resource [
+        dcterms:creator _:n616 ;
+        dcterms:isPartOf [
+            dcterms:date "2015" ;
+            dcterms:isPartOf [
+                dcterms:title "EMBO reports" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "10" ;
+            bibo:volume "16" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Could Big Data be the end of theory in science? A few remarks on the epistemology of data-driven science" ;
+        bibo:authorList [
+            rdf:_1 _:n616 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "1250–1255" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/8Z8UWQIE>
+    res:resource [
+        dcterms:creator _:n469 ;
+        dcterms:isPartOf [
+            dcterms:date "2014" ;
+            dcterms:isPartOf [
+                dcterms:title "Big Data & Society" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "2" ;
+            bibo:volume "1" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Big data ethics" ;
+        bibo:authorList [
+            rdf:_1 _:n469 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "2053951714559253" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/8ZEFNYHW>
+    res:resource <https://www.ruhabenjamin.com/resources> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/APN68QAC>
+    res:resource [
+        dcterms:creator _:n351 ;
+        dcterms:date "2005" ;
+        dcterms:publisher [
+            a foaf:Organization ;
+            foaf:name "Routledge"
+        ] ;
+        dcterms:title "The ethics of science: An introduction" ;
+        bibo:authorList [
+            rdf:_1 _:n351 ;
+            a rdf:Seq
+        ] ;
+        a bibo:Book
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/BR8H88QG>
+    res:resource [
+        dcterms:creator _:n485, _:n487, _:n488 ;
+        dcterms:isPartOf [
+            dcterms:date "2014" ;
+            dcterms:isPartOf [
+                dcterms:title "International Journal of Communication" ;
+                a bibo:Journal
+            ] ;
+            bibo:volume "8" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Big Data| critiquing Big Data: Politics, ethics, epistemology| special section introduction" ;
+        bibo:authorList [
+            rdf:_1 _:n485 ;
+            rdf:_2 _:n487 ;
+            rdf:_3 _:n488 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "10" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/CP5RC3NT>
+    res:resource <https://www.thejustdatalab.com/about-the-lab> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/DVXUWEKT>
+    res:resource [
+        dcterms:creator _:n560 ;
+        dcterms:date "2016" ;
+        dcterms:publisher [
+            a foaf:Organization ;
+            foaf:name "Crown"
+        ] ;
+        dcterms:title "Weapons of math destruction: How big data increases inequality and threatens democracy" ;
+        bibo:authorList [
+            rdf:_1 _:n560 ;
+            a rdf:Seq
+        ] ;
+        a bibo:Book
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/ELEFLUWP>
+    res:resource [
+        dcterms:creator _:n368, _:n370 ;
+        dcterms:isPartOf [
+            dcterms:date "2016" ;
+            dcterms:isPartOf [
+                dcterms:title "The ethics of biomedical big data" ;
+                a bibo:Journal
+            ] ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "The ethics of big data: current and foreseeable issues in biomedical contexts" ;
+        bibo:authorList [
+            rdf:_1 _:n368 ;
+            rdf:_2 _:n370 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "445–480" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/ER7JQVL3>
+    res:resource [
+        dcterms:creator _:n391 ;
+        dcterms:isPartOf [
+            dcterms:date "2016" ;
+            dcterms:publisher [
+                a foaf:Organization ;
+                foaf:name "Springer"
+            ] ;
+            dcterms:title "Process mining" ;
+            a bibo:EditedBook
+        ] ;
+        dcterms:title "Data science in action" ;
+        bibo:authorList [
+            rdf:_1 _:n391 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "3–23" ;
+        a bibo:BookSection
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/FG34FN2S>
+    res:resource <https://books.google.com/books?id=4r34DwAAQBAJ> ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/G4HAHT4E>
+    res:resource [
+        dcterms:creator _:n359, _:n361 ;
+        dcterms:isPartOf [
+            dcterms:date "2019" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Data is the new what? Popular metaphors & professional ethics in emerging data culture" ;
+        bibo:authorList [
+            rdf:_1 _:n359 ;
+            rdf:_2 _:n361 ;
+            a rdf:Seq
+        ] ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/GCLW7P4W>
+    res:resource [
+        dcterms:creator _:n570 ;
+        dcterms:date "2018" ;
+        dcterms:publisher [
+            a foaf:Organization ;
+            foaf:name "nyu Press"
+        ] ;
+        dcterms:title "Algorithms of oppression: How search engines reinforce racism" ;
+        bibo:authorList [
+            rdf:_1 _:n570 ;
+            a rdf:Seq
+        ] ;
+        a bibo:Book
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/GGXRXBL9>
+    res:resource <https://books.google.com/books?id=G6-hDwAAQBAJ> ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/H6Z5TLPP>
+    res:resource [
+        dcterms:creator _:n418, _:n420 ;
+        dcterms:isPartOf [
+            dcterms:date "2014" ;
+            dcterms:isPartOf [
+                dcterms:title "Journal of Mass Media Ethics" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "1" ;
+            bibo:volume "29" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Big data, big problems: Emerging issues in the ethics of data science and journalism" ;
+        bibo:authorList [
+            rdf:_1 _:n418 ;
+            rdf:_2 _:n420 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "38–51" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/HGG29WD3>
+    res:resource [
+        dcterms:creator _:n399 ;
+        dcterms:isPartOf [
+            dcterms:date "2016" ;
+            dcterms:isPartOf [
+                dcterms:title "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "2083" ;
+            bibo:volume "374" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "The ethics of big data as a public good: which public? Whose good?" ;
+        bibo:authorList [
+            rdf:_1 _:n399 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "20160126" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/JD466WIB>
+    res:resource <https://books.google.com/books?id=UXHKDwAAQBAJ> ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/JX4LMNUR>
+    res:resource <https://teachdatascience.com/bookclub/> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/KBCX765E>
+    res:resource [
+        dcterms:creator _:n346 ;
+        dcterms:isPartOf [
+            dcterms:date "1996" ;
+            dcterms:isPartOf [
+                dcterms:title "The information society" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "2" ;
+            bibo:volume "12" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Introduction: A debate about the ethics of fair practices for collecting social science data in cyberspace" ;
+        bibo:authorList [
+            rdf:_1 _:n346 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "107–118" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/LDGQFLN9>
+    res:resource <https://er.educause.edu/articles/2021/2/data-privacy-in-higher-education-yes-students-care> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-22 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/ML9XL5KS>
+    res:resource <https://cyber.harvard.edu/ethics-and-governance-ai-reading-list> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/QIMEZKR6>
+    res:resource [
+        dcterms:creator _:n427, _:n429 ;
+        dcterms:isPartOf [
+            dcterms:date "2017" ;
+            dcterms:isPartOf [
+                dcterms:title "Communications of the ACM" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "11" ;
+            bibo:volume "60" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Engaging the ethics of data science in practice" ;
+        bibo:authorList [
+            rdf:_1 _:n427 ;
+            rdf:_2 _:n429 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "23–25" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/R3T9QE5W>
+    res:resource <https://www.newyorker.com/tech/annals-of-technology/who-should-stop-unethical-ai> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-21 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/R9UCTUCP>
+    res:resource [
+        dcterms:creator _:n444, _:n446 ;
+        dcterms:isPartOf [
+            dcterms:date "2016" ;
+            dcterms:isPartOf [
+                dcterms:title "Big Data & Society" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "1" ;
+            bibo:volume "3" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "Where are human subjects in big data research? The emerging ethics divide" ;
+        bibo:authorList [
+            rdf:_1 _:n444 ;
+            rdf:_2 _:n446 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "2053951716650211" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/S2JZYGNH>
+    res:resource [
+        dcterms:creator _:n608 ;
+        dcterms:isPartOf [
+            dcterms:date "2008" ;
+            dcterms:isPartOf [
+                dcterms:title "Wired magazine" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "7" ;
+            bibo:volume "16" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "The end of theory: The data deluge makes the scientific method obsolete" ;
+        bibo:authorList [
+            rdf:_1 _:n608 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "16–07" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/SS6MYJKM>
+    res:resource <https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-15 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/T3MBBCGH>
+    res:resource [
+        dcterms:creator _:n383, _:n385 ;
+        dcterms:date "2014" ;
+        dcterms:publisher [
+            a foaf:Organization ;
+            foaf:name "McFarland"
+        ] ;
+        dcterms:title "Case studies in library and information science ethics" ;
+        bibo:authorList [
+            rdf:_1 _:n383 ;
+            rdf:_2 _:n385 ;
+            a rdf:Seq
+        ] ;
+        a bibo:Book
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/T7TD45XE>
+    res:resource <https://www.slideshare.net/chrishwiggins/history-and-ethics-of-data> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/TTPPWR7S>
+    res:resource <http://journals.sagepub.com/doi/10.1177/0894439318788314> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/TXX3WPXY>
+    res:resource <http://dx.doi.org/10.1080/1369118X.2012.678878> ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/U455XL6T>
+    res:resource [
+        dcterms:creator _:n404 ;
+        dcterms:date "2018" ;
+        dcterms:publisher [
+            a foaf:Organization ;
+            foaf:name "University of Westminster Press"
+        ] ;
+        dcterms:title "The big data agenda: Data ethics and critical data studies" ;
+        bibo:authorList [
+            rdf:_1 _:n404 ;
+            a rdf:Seq
+        ] ;
+        a bibo:Book
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/VKKZCDNB>
+    res:resource [
+        dcterms:creator _:n461 ;
+        dcterms:isPartOf [
+            dcterms:date "2012" ;
+            dcterms:isPartOf [
+                dcterms:title "Science, Technology, & Human Values" ;
+                a bibo:Journal
+            ] ;
+            bibo:issue "6" ;
+            bibo:volume "37" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "The co-production of science, ethics, and emotion" ;
+        bibo:authorList [
+            rdf:_1 _:n461 ;
+            a rdf:Seq
+        ] ;
+        bibo:pages "579–603" ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/WAUDKDGV>
+    res:resource [
+        dcterms:creator _:n325 ;
+        dcterms:isPartOf [
+            dcterms:date "2011" ;
+            dcterms:isPartOf [
+                dcterms:title "Culture machine" ;
+                a bibo:Journal
+            ] ;
+            bibo:volume "12" ;
+            a bibo:Issue
+        ] ;
+        dcterms:title "The computational turn: Thinking about the digital humanities" ;
+        bibo:authorList [
+            rdf:_1 _:n325 ;
+            a rdf:Seq
+        ] ;
+        a bibo:AcademicArticle
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/WFTI7IKQ>
+    res:resource <http://dx.doi.org/10.1177/2053951715594634> ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/Y37X2A7Y>
+    ctag:tagged [
+        ctag:label "Research design" ;
+        a ctag:AutoTag
+    ], [
+        ctag:label "Research ethics" ;
+        a ctag:AutoTag
+    ], [
+        ctag:label "Social media" ;
+        a ctag:AutoTag
+    ], [
+        ctag:label "Medicine and health sciences" ;
+        a ctag:AutoTag
+    ], [
+        ctag:label "Scientists" ;
+        a ctag:AutoTag
+    ], [
+        ctag:label "Cloud computing" ;
+        a ctag:AutoTag
+    ], [
+        ctag:label "Data mining" ;
+        a ctag:AutoTag
+    ], [
+        ctag:label "Research and analysis methods" ;
+        a ctag:AutoTag
+    ] ;
+    res:resource <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005399> ;
+    a z:UserItem ;
+    z:accessDate "2021-02-14 00:00:00" .
+
+<file:///home/jon/Code/data-ethics-literature-review/YLG5NNAH>
+    res:resource <https://books.google.com/books?id=JBwwDwAAQBAJ> ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/YUTT7JTK>
+    res:resource [
+        dcterms:creator _:n409, _:n411 ;
+        dcterms:date "2016" ;
+        dcterms:publisher [
+            a foaf:Organization ;
+            foaf:name "Springer"
+        ] ;
+        dcterms:title "The ethics of biomedical big data" ;
+        bibo:authorList [
+            rdf:_1 _:n409 ;
+            rdf:_2 _:n411 ;
+            a rdf:Seq
+        ] ;
+        bibo:volume "29" ;
+        a bibo:Book
+    ] ;
+    a z:UserItem .
+
+<file:///home/jon/Code/data-ethics-literature-review/ZF2N8TMY>
+    res:resource <http://dx.doi.org/10.1007/s10676-020-09577-5> ;
+    a z:UserItem .
+
+<http://dx.doi.org/10.1007/s10676-020-09577-5>
+    dcterms:creator _:n598, _:n600, _:n601 ;
+    dcterms:isPartOf [
+        dcterms:date "January 2021" ;
+        dcterms:isPartOf [
+            dcterms:title "Ethics and Information Technology" ;
+            bibo:issn "1572-8439" ;
+            a bibo:Journal
+        ] ;
+        a bibo:Issue
+    ] ;
+    dcterms:title "Data Ethics Decision Aid (DEDA): a dialogical framework for ethical inquiry of AI and data projects in the Netherlands" ;
+    bibo:authorList [
+        rdf:_1 _:n598 ;
+        rdf:_2 _:n600 ;
+        rdf:_3 _:n601 ;
+        a rdf:Seq
+    ] ;
+    bibo:doi "10.1007/s10676-020-09577-5" ;
+    bibo:uri "http://dx.doi.org/10.1007/s10676-020-09577-5" ;
+    a bibo:AcademicArticle .
+
+<http://dx.doi.org/10.1080/1369118X.2012.678878>
+    dcterms:creator _:n316, _:n318 ;
+    dcterms:isPartOf [
+        dcterms:date "June 2012" ;
+        dcterms:isPartOf [
+            dcterms:title "Information, Communication & Society" ;
+            bibo:issn "1468-4462" ;
+            a bibo:Journal
+        ] ;
+        bibo:issue "5" ;
+        bibo:volume "15" ;
+        a bibo:Issue
+    ] ;
+    dcterms:title "Critical Questions for Big Data" ;
+    bibo:authorList [
+        rdf:_1 _:n316 ;
+        rdf:_2 _:n318 ;
+        a rdf:Seq
+    ] ;
+    bibo:doi "10.1080/1369118x.2012.678878" ;
+    bibo:pages "662–679" ;
+    bibo:uri "http://dx.doi.org/10.1080/1369118X.2012.678878" ;
+    a bibo:AcademicArticle .
+
+<http://dx.doi.org/10.1177/0894439318788314>
+    dcterms:creator _:n335, _:n337, _:n338, _:n339 ;
+    dcterms:isPartOf [
+        dcterms:date "July 2018" ;
+        dcterms:isPartOf [
+            dcterms:title "Social Science Computer Review" ;
+            bibo:issn "1552-8286" ;
+            a bibo:Journal
+        ] ;
+        bibo:issue "1" ;
+        bibo:volume "38" ;
+        a bibo:Issue
+    ] ;
+    dcterms:title "Artificial Intelligence and Inclusion: Formerly Gang-Involved Youth as Domain Experts for Analyzing Unstructured Twitter Data" ;
+    bibo:authorList [
+        rdf:_1 _:n335 ;
+        rdf:_2 _:n337 ;
+        rdf:_3 _:n338 ;
+        rdf:_4 _:n339 ;
+        a rdf:Seq
+    ] ;
+    bibo:doi "10.1177/0894439318788314" ;
+    bibo:pages "42–56" ;
+    bibo:uri "http://dx.doi.org/10.1177/0894439318788314" ;
+    a bibo:AcademicArticle .
+
+<http://dx.doi.org/10.1177/2053951715594634>
+    dcterms:creator _:n555 ;
+    dcterms:isPartOf [
+        dcterms:date "July 2015" ;
+        dcterms:isPartOf [
+            dcterms:title "Big Data & Society" ;
+            bibo:issn "2053-9517" ;
+            a bibo:Journal
+        ] ;
+        bibo:issue "2" ;
+        bibo:volume "2" ;
+        a bibo:Issue
+    ] ;
+    dcterms:title "Datafication and empowerment: How the open data movement re-articulates notions of democracy, participation, and journalism" ;
+    bibo:authorList [
+        rdf:_1 _:n555 ;
+        a rdf:Seq
+    ] ;
+    bibo:doi "10.1177/2053951715594634" ;
+    bibo:pages "205395171559463" ;
+    bibo:uri "http://dx.doi.org/10.1177/2053951715594634" ;
+    a bibo:AcademicArticle .
+
+<http://journals.sagepub.com/doi/10.1177/0894439318788314>
+    dcterms:abstract "Mining social media data for studying the human condition has created new and unique challenges. When analyzing social media data from marginalized communities, algorithms lack the ability to accurately interpret off-line context, which may lead to dangerous assumptions about and implications for marginalized communities. To combat this challenge, we hired formerly gang-involved young people as domain experts for contextualizing social media data in order to create inclusive, community-informed algorithms. Utilizing data from the Gang Intervention and Computer Science Project—a comprehensive analysis of Twitter data from gang-involved youth in Chicago—we describe the process of involving formerly gang-involved young people in developing a new part-of-speech tagger and content classifier for a prototype natural language processing system that detects aggression and loss in Twitter data. We argue that involving young people as domain experts leads to more robust understandings of context, including localized language, culture, and events. These insights could change how data scientists approach the development of corpora and algorithms that affect people in marginalized communities and who to involve in that process. We offer a contextually driven interdisciplinary approach between social work and data science that integrates domain insights into the training of qualitative annotators and the production of algorithms for positive social impact." ;
+    dcterms:creator _:n506, _:n508, _:n509, _:n510 ;
+    dcterms:isPartOf [
+        dcterms:date "February 2020" ;
+        dcterms:isPartOf [
+            dcterms:title "Social Science Computer Review" ;
+            bibo:issn "0894-4393, 1552-8286" ;
+            a bibo:Journal
+        ] ;
+        bibo:issue "1" ;
+        bibo:volume "38" ;
+        a bibo:Issue
+    ] ;
+    dcterms:language "en" ;
+    dcterms:title "Artificial Intelligence and Inclusion: Formerly Gang-Involved Youth as Domain Experts for Analyzing Unstructured Twitter Data" ;
+    bibo:authorList [
+        rdf:_1 _:n506 ;
+        rdf:_2 _:n508 ;
+        rdf:_3 _:n509 ;
+        rdf:_4 _:n510 ;
+        a rdf:Seq
+    ] ;
+    bibo:doi "10.1177/0894439318788314" ;
+    bibo:pages "42–56" ;
+    bibo:shortTitle "Artificial Intelligence and Inclusion" ;
+    bibo:uri "http://journals.sagepub.com/doi/10.1177/0894439318788314" ;
+    a bibo:AcademicArticle .
+
+<https://books.google.com/books?id=4r34DwAAQBAJ>
+    dcterms:creator _:n574 ;
+    dcterms:date "2019" ;
+    dcterms:isPartOf [
+        dcterms:title "Mit Press" ;
+        a bibo:Series
+    ] ;
+    dcterms:publisher [
+        a foaf:Organization ;
+        foaf:name "MIT Press"
+    ] ;
+    dcterms:title "Artificial Unintelligence: How Computers Misunderstand the World" ;
+    bibo:authorList [
+        rdf:_1 _:n574 ;
+        a rdf:Seq
+    ] ;
+    bibo:isbn13 "9780262537018" ;
+    bibo:uri "https://books.google.com/books?id=4r34DwAAQBAJ" ;
+    a bibo:Book ;
+    z:extra "LCCN: 2017041363" .
+
+<https://books.google.com/books?id=G6-hDwAAQBAJ>
+    dcterms:creator _:n578 ;
+    dcterms:date "2019" ;
+    dcterms:publisher [
+        a foaf:Organization ;
+        foaf:name "Wiley"
+    ] ;
+    dcterms:title "Race After Technology: Abolitionist Tools for the New Jim Code" ;
+    bibo:authorList [
+        rdf:_1 _:n578 ;
+        a rdf:Seq
+    ] ;
+    bibo:isbn13 "9781509526437" ;
+    bibo:uri "https://books.google.com/books?id=G6-hDwAAQBAJ" ;
+    a bibo:Book ;
+    z:extra "LCCN: 2019015243" .
+
+<https://books.google.com/books?id=JBwwDwAAQBAJ>
+    dcterms:creator _:n588 ;
+    dcterms:date "2017" ;
+    dcterms:isPartOf [
+        dcterms:title "Emergent Strategy" ;
+        a bibo:Series
+    ] ;
+    dcterms:publisher [
+        a foaf:Organization ;
+        foaf:name "AK Press"
+    ] ;
+    dcterms:title "Emergent Strategy: Shaping Change, Changing Worlds" ;
+    bibo:authorList [
+        rdf:_1 _:n588 ;
+        a rdf:Seq
+    ] ;
+    bibo:isbn13 "9781849352611" ;
+    bibo:uri "https://books.google.com/books?id=JBwwDwAAQBAJ" ;
+    a bibo:Book .
+
+<https://books.google.com/books?id=UXHKDwAAQBAJ>
+    dcterms:creator _:n582, _:n584, _:n585 ;
+    dcterms:date "2018" ;
+    dcterms:publisher [
+        a foaf:Organization ;
+        foaf:name "O'Reilly Media"
+    ] ;
+    dcterms:title "Ethics and Data Science" ;
+    bibo:authorList [
+        rdf:_1 _:n582 ;
+        rdf:_2 _:n584 ;
+        rdf:_3 _:n585 ;
+        a rdf:Seq
+    ] ;
+    bibo:isbn13 "9781492078227" ;
+    bibo:uri "https://books.google.com/books?id=UXHKDwAAQBAJ" ;
+    a bibo:Book .
+
+<https://cfiesler.medium.com/tech-ethics-curricula-a-collection-of-syllabi-3eedfb76be18>
+    dcterms:abstract "TL;DR: Here’s the spreadsheet. Now read on for context!" ;
+    dcterms:creator _:n499 ;
+    dcterms:date "November 2019" ;
+    dcterms:language "en" ;
+    dcterms:title "Tech Ethics Curricula: A Collection of Syllabi" ;
+    bibo:authorList [
+        rdf:_1 _:n499 ;
+        a rdf:Seq
+    ] ;
+    bibo:shortTitle "Tech Ethics Curricula" ;
+    bibo:uri "https://cfiesler.medium.com/tech-ethics-curricula-a-collection-of-syllabi-3eedfb76be18" ;
+    a bibo:Book .
+
+<https://cyber.harvard.edu/ethics-and-governance-ai-reading-list>
+    dcterms:abstract "\\textlessp dir=\"ltr\"\\textgreaterOur work is designed to catalyze and advance AI in the public interest, with the aim of including a broad set of voices in understanding and addressing the human impacts of AI. The Berkman Klein Center, in collaboration with the MIT Media Lab, serves as a collaborative platform through which stakeholders working across disciplines, sectors, and geographies can meet, engage, learn, and share. This document serves as a curated, evolving list of resources related to the topic of the ethics and governance of AI." ;
+    dcterms:creator _:n496 ;
+    dcterms:date "May 2020" ;
+    dcterms:language "en" ;
+    dcterms:title "Ethics and Governance of AI Reading List \\textbar Berkman Klein Center" ;
+    bibo:authorList [
+        rdf:_1 _:n496 ;
+        a rdf:Seq
+    ] ;
+    bibo:uri "https://cyber.harvard.edu/ethics-and-governance-ai-reading-list" ;
+    a bibo:Book .
+
+<https://er.educause.edu/articles/2021/2/data-privacy-in-higher-education-yes-students-care>
+    dcterms:abstract "Many in higher education believe that students who have grown up using digital technologies (“digital natives”) have little concern for the privacy of" ;
+    dcterms:creator _:n619, _:n621 ;
+    dcterms:language "en" ;
+    dcterms:title "Data Privacy in Higher Education: Yes, Students Care" ;
+    bibo:authorList [
+        rdf:_1 _:n619 ;
+        rdf:_2 _:n621 ;
+        a rdf:Seq
+    ] ;
+    bibo:shortTitle "Data Privacy in Higher Education" ;
+    bibo:uri "https://er.educause.edu/articles/2021/2/data-privacy-in-higher-education-yes-students-care" ;
+    a bibo:Book .
+
+<https://github.com/jknowles/ethical_data_science_reader>
+    dcterms:abstract "Readings in the ethics of doing data science. . Contribute to jknowles/ethical_data_science_reader development by creating an account on GitHub." ;
+    dcterms:creator _:n513 ;
+    dcterms:date "2019" ;
+    dcterms:language "en" ;
+    dcterms:title "jknowles/ethical_data_science_reader" ;
+    bibo:authorList [
+        rdf:_1 _:n513 ;
+        a rdf:Seq
+    ] ;
+    bibo:uri "https://github.com/jknowles/ethical_data_science_reader" ;
+    a bibo:Book .
+
+<https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005399>
+    dcterms:creator _:n524, _:n526, _:n527, _:n528, _:n529, _:n530, _:n531, _:n532, _:n533, _:n534, _:n535, _:n536, _:n537 ;
+    dcterms:isPartOf [
+        dcterms:date "March 2017" ;
+        dcterms:isPartOf [
+            dcterms:title "PLOS Computational Biology" ;
+            bibo:issn "1553-7358" ;
+            a bibo:Journal
+        ] ;
+        bibo:issue "3" ;
+        bibo:volume "13" ;
+        a bibo:Issue
+    ] ;
+    dcterms:language "en" ;
+    dcterms:title "Ten simple rules for responsible big data research" ;
+    bibo:authorList [
+        rdf:_1 _:n531 ;
+        rdf:_10 _:n534 ;
+        rdf:_11 _:n535 ;
+        rdf:_12 _:n536 ;
+        rdf:_13 _:n537 ;
+        rdf:_2 _:n526 ;
+        rdf:_3 _:n527 ;
+        rdf:_4 _:n528 ;
+        rdf:_5 _:n529 ;
+        rdf:_6 _:n530 ;
+        rdf:_7 _:n524 ;
+        rdf:_8 _:n532 ;
+        rdf:_9 _:n533 ;
+        a rdf:Seq
+    ] ;
+    bibo:doi "10.1371/journal.pcbi.1005399" ;
+    bibo:pages "e1005399" ;
+    bibo:uri "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005399" ;
+    a bibo:AcademicArticle .
+
+<https://medium.com/data-feminism/5-questions-on-data-and-context-with-desmond-patton-5a09661cbbc6>
+    dcterms:abstract "By Catherine D’Ignazio with editing by Isabel Carter" ;
+    dcterms:creator _:n328 ;
+    dcterms:date "February 2020" ;
+    dcterms:language "en" ;
+    dcterms:title "5 Questions on Data and Context with Desmond Patton" ;
+    bibo:authorList [
+        rdf:_1 _:n328 ;
+        a rdf:Seq
+    ] ;
+    bibo:uri "https://medium.com/data-feminism/5-questions-on-data-and-context-with-desmond-patton-5a09661cbbc6" ;
+    a bibo:Book .
+
+<https://relay.substack.com/p/tech-for-good-isnt-a-thing>
+    dcterms:abstract "Because 'tech for bad' isn't a thing either" ;
+    dcterms:creator _:n493 ;
+    dcterms:date "2020-02-03" ;
+    dcterms:title "Tech for good isn't a thing" ;
+    bibo:authorList [
+        rdf:_1 _:n493 ;
+        a rdf:Seq
+    ] ;
+    bibo:uri "https://relay.substack.com/p/tech-for-good-isnt-a-thing" ;
+    a bibo:Book .
+
+<https://teachdatascience.com/bookclub/>
+    dcterms:creator _:n490 ;
+    dcterms:title "Bookclub on Data Science Ethics · Teach Data Science" ;
+    bibo:authorList [
+        rdf:_1 _:n490 ;
+        a rdf:Seq
+    ] ;
+    bibo:uri "https://teachdatascience.com/bookclub/" ;
+    a bibo:Book .
+
+<https://www.newyorker.com/tech/annals-of-technology/who-should-stop-unethical-ai>
+    dcterms:abstract "At artificial-intelligence conferences, researchers are increasingly alarmed by what they see." ;
+    dcterms:creator _:n591 ;
+    dcterms:language "en-us" ;
+    dcterms:title "Who Should Stop Unethical A.I.?" ;
+    bibo:authorList [
+        rdf:_1 _:n591 ;
+        a rdf:Seq
+    ] ;
+    bibo:uri "https://www.newyorker.com/tech/annals-of-technology/who-should-stop-unethical-ai" ;
+    a bibo:Book .
+
+<https://www.ruhabenjamin.com/resources>
+    dcterms:abstract "A curated list of Tech and Social Justice Initiatives; Fairness, Accountability, and Transparency Initiatives; and Institutes and Centers dedicated to researching and studying technology." ;
+    dcterms:creator _:n516 ;
+    dcterms:language "en-US" ;
+    dcterms:title "Resources" ;
+    bibo:authorList [
+        rdf:_1 _:n516 ;
+        a rdf:Seq
+    ] ;
+    bibo:uri "https://www.ruhabenjamin.com/resources" ;
+    a bibo:Book .
+
+<https://www.slideshare.net/chrishwiggins/history-and-ethics-of-data>
+    dcterms:abstract "Talk delivered 2019-06-25 as part of the Summer Institute in Computational Social Science, held at Princeton University https://compsocialscience.github.io/summer-institute/2019/ Video: https://www.youtube.com/watch?v=0suLWheVji0 title: what should future statisticians, CEO, and senators know about the history and ethics of data? abstract: What should our future statisticians, senators, and CEOs know about the history and ethics of data? How might understanding that history provide tools and resources to future citizens navigating a future shaped by data empowered algorithms? I'll present content from a class co-developed over the past several years with Professor Matt Jones of Columbia's Department of History, based on material absent from both the curriculum for future technologists as well as for future humanists. The intellectual arc traces from the 18th century to present day, beginning with examples of contemporary technological advances, disquieting ethical debates, and financial success powered by panoptic persuasion architectures." ;
+    dcterms:date "June 2019" ;
+    dcterms:title "history and ethics of data" ;
+    bibo:uri "https://www.slideshare.net/chrishwiggins/history-and-ethics-of-data" ;
+    a bibo:Book .
+
+<https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/>
+    dcterms:abstract "As a child, you develop a sense of what “fairness” means. It’s a concept that you learn early on as you come to terms with the world around you. Something either feels fair or it doesn’t. But increasingly, algorithms have begun to arbitrate fairness for us. They decide who sees housing ads, who gets hired…" ;
+    dcterms:creator _:n547, _:n549 ;
+    dcterms:date "2019-08-17" ;
+    dcterms:language "en" ;
+    dcterms:title "Can you make AI fairer than a judge? Play our courtroom algorithm game" ;
+    bibo:authorList [
+        rdf:_1 _:n547 ;
+        rdf:_2 _:n549 ;
+        a rdf:Seq
+    ] ;
+    bibo:shortTitle "Can you make AI fairer than a judge?" ;
+    bibo:uri "https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/" ;
+    a bibo:Book .
+
+<https://www.thejustdatalab.com/about-the-lab>
+    dcterms:abstract "The IDA B. WELLS Just Data Lab brings together students, educators, activists, and artists to develop a critical and creative approach to data conception, production, and circulation. Our aim is to rethink and retool data for justice." ;
+    dcterms:language "en-US" ;
+    dcterms:title "Ida B. Wells Just Data Lab" ;
+    bibo:uri "https://www.thejustdatalab.com/about-the-lab" ;
+    a bibo:Book .
+
+_:n316
+    a foaf:Person ;
+    foaf:givenName "danah" ;
+    foaf:surname "boyd" .
+
+_:n318
+    a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Crawford" .
+
+_:n325
+    a foaf:Person ;
+    foaf:givenName "David M" ;
+    foaf:surname "Berry" .
+
+_:n328
+    a foaf:Person ;
+    foaf:givenName "Catherine" ;
+    foaf:surname "D'Ignazio" .
+
+_:n335
+    a foaf:Person ;
+    foaf:givenName "William R." ;
+    foaf:surname "Frey" .
+
+_:n337
+    a foaf:Person ;
+    foaf:givenName "Desmond U." ;
+    foaf:surname "Patton" .
+
+_:n338
+    a foaf:Person ;
+    foaf:givenName "Michael B." ;
+    foaf:surname "Gaskell" .
+
+_:n339
+    a foaf:Person ;
+    foaf:givenName "Kyle A." ;
+    foaf:surname "McGregor" .
+
+_:n346
+    a foaf:Person ;
+    foaf:givenName "Jim" ;
+    foaf:surname "Thomas" .
+
+_:n351
+    a foaf:Person ;
+    foaf:givenName "David B" ;
+    foaf:surname "Resnik" .
+
+_:n359
+    a foaf:Person ;
+    foaf:givenName "Luke" ;
+    foaf:surname "Stark" .
+
+_:n361
+    a foaf:Person ;
+    foaf:givenName "Anna Lauren" ;
+    foaf:surname "Hoffmann" .
+
+_:n368
+    a foaf:Person ;
+    foaf:givenName "Brent Daniel" ;
+    foaf:surname "Mittelstadt" .
+
+_:n370
+    a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:n377
+    a foaf:Person ;
+    foaf:givenName "Neil M" ;
+    foaf:surname "Richards" .
+
+_:n379
+    a foaf:Person ;
+    foaf:givenName "Jonathan H" ;
+    foaf:surname "King" .
+
+_:n383
+    a foaf:Person ;
+    foaf:givenName "Elizabeth A" ;
+    foaf:surname "Buchanan" .
+
+_:n385
+    a foaf:Person ;
+    foaf:givenName "Kathrine A" ;
+    foaf:surname "Henderson" .
+
+_:n391
+    a foaf:Person ;
+    foaf:givenName "Wil" ;
+    foaf:surname "Van Der Aalst" .
+
+_:n399
+    a foaf:Person ;
+    foaf:givenName "Linnet" ;
+    foaf:surname "Taylor" .
+
+_:n404
+    a foaf:Person ;
+    foaf:givenName "Annika" ;
+    foaf:surname "Richterich" .
+
+_:n409
+    a foaf:Person ;
+    foaf:givenName "Brent Daniel" ;
+    foaf:surname "Mittelstadt" .
+
+_:n411
+    a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:n418
+    a foaf:Person ;
+    foaf:givenName "Joshua" ;
+    foaf:surname "Fairfield" .
+
+_:n420
+    a foaf:Person ;
+    foaf:givenName "Hannah" ;
+    foaf:surname "Shtein" .
+
+_:n427
+    a foaf:Person ;
+    foaf:givenName "Solon" ;
+    foaf:surname "Barocas" .
+
+_:n429
+    a foaf:Person ;
+    foaf:givenName "Danah" ;
+    foaf:surname "Boyd" .
+
+_:n436
+    a foaf:Person ;
+    foaf:givenName "Sabina" ;
+    foaf:surname "Leonelli" .
+
+_:n444
+    a foaf:Person ;
+    foaf:givenName "Jacob" ;
+    foaf:surname "Metcalf" .
+
+_:n446
+    a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Crawford" .
+
+_:n453
+    a foaf:Person ;
+    foaf:givenName "Daniel E" ;
+    foaf:surname "O'Leary" .
+
+_:n461
+    a foaf:Person ;
+    foaf:givenName "Martyn" ;
+    foaf:surname "Pickersgill" .
+
+_:n469
+    a foaf:Person ;
+    foaf:givenName "Andrej" ;
+    foaf:surname "Zwitter" .
+
+_:n477
+    a foaf:Person ;
+    foaf:givenName "David J" ;
+    foaf:surname "Hand" .
+
+_:n485
+    a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Crawford" .
+
+_:n487
+    a foaf:Person ;
+    foaf:givenName "Mary L" ;
+    foaf:surname "Gray" .
+
+_:n488
+    a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Miltner" .
+
+_:n490
+    a foaf:Person ;
+    foaf:givenName "Hunter" ;
+    foaf:surname "Glanz" .
+
+_:n493
+    a foaf:Person ;
+    foaf:givenName "Alix" ;
+    foaf:surname "Dunn" .
+
+_:n496
+    a foaf:Person ;
+    foaf:givenName "The Berkman Klein Center for Internet &" ;
+    foaf:surname "Society" .
+
+_:n499
+    a foaf:Person ;
+    foaf:givenName "Casey" ;
+    foaf:surname "Fiesler" .
+
+_:n506
+    a foaf:Person ;
+    foaf:givenName "William R." ;
+    foaf:surname "Frey" .
+
+_:n508
+    a foaf:Person ;
+    foaf:givenName "Desmond U." ;
+    foaf:surname "Patton" .
+
+_:n509
+    a foaf:Person ;
+    foaf:givenName "Michael B." ;
+    foaf:surname "Gaskell" .
+
+_:n510
+    a foaf:Person ;
+    foaf:givenName "Kyle A." ;
+    foaf:surname "McGregor" .
+
+_:n513
+    a foaf:Person ;
+    foaf:givenName "Jared" ;
+    foaf:surname "Knowles" .
+
+_:n516
+    a foaf:Person ;
+    foaf:givenName "Ruha" ;
+    foaf:surname "Benjamin" .
+
+_:n524
+    a foaf:Person ;
+    foaf:givenName "Matthew" ;
+    foaf:surname "Zook" .
+
+_:n526
+    a foaf:Person ;
+    foaf:givenName "Solon" ;
+    foaf:surname "Barocas" .
+
+_:n527
+    a foaf:Person ;
+    foaf:givenName "Danah" ;
+    foaf:surname "Boyd" .
+
+_:n528
+    a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Crawford" .
+
+_:n529
+    a foaf:Person ;
+    foaf:givenName "Emily" ;
+    foaf:surname "Keller" .
+
+_:n530
+    a foaf:Person ;
+    foaf:givenName "Seeta Peña" ;
+    foaf:surname "Gangadharan" .
+
+_:n531
+    a foaf:Person ;
+    foaf:givenName "Alyssa" ;
+    foaf:surname "Goodman" .
+
+_:n532
+    a foaf:Person ;
+    foaf:givenName "Rachelle" ;
+    foaf:surname "Hollander" .
+
+_:n533
+    a foaf:Person ;
+    foaf:givenName "Barbara A." ;
+    foaf:surname "Koenig" .
+
+_:n534
+    a foaf:Person ;
+    foaf:givenName "Jacob" ;
+    foaf:surname "Metcalf" .
+
+_:n535
+    a foaf:Person ;
+    foaf:givenName "Arvind" ;
+    foaf:surname "Narayanan" .
+
+_:n536
+    a foaf:Person ;
+    foaf:givenName "Alondra" ;
+    foaf:surname "Nelson" .
+
+_:n537
+    a foaf:Person ;
+    foaf:givenName "Frank" ;
+    foaf:surname "Pasquale" .
+
+_:n547
+    a foaf:Person ;
+    foaf:givenName "Karen" ;
+    foaf:surname "Hao" .
+
+_:n549
+    a foaf:Person ;
+    foaf:givenName "Jonathan" ;
+    foaf:surname "Stray" .
+
+_:n555
+    a foaf:Person ;
+    foaf:givenName "Stefan" ;
+    foaf:surname "Baack" .
+
+_:n560
+    a foaf:Person ;
+    foaf:givenName "Cathy" ;
+    foaf:surname "O'neil" .
+
+_:n565
+    a foaf:Person ;
+    foaf:givenName "Virginia" ;
+    foaf:surname "Eubanks" .
+
+_:n570
+    a foaf:Person ;
+    foaf:givenName "Safiya Umoja" ;
+    foaf:surname "Noble" .
+
+_:n574
+    a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Broussard" .
+
+_:n578
+    a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Benjamin" .
+
+_:n582
+    a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Loukides" .
+
+_:n584
+    a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Mason" .
+
+_:n585
+    a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Patil" .
+
+_:n588
+    a foaf:Person ;
+    foaf:givenName "adrienne maree" ;
+    foaf:surname "brown" .
+
+_:n591
+    a foaf:Person ;
+    foaf:givenName "Matthew" ;
+    foaf:surname "Hutson" .
+
+_:n598
+    a foaf:Person ;
+    foaf:givenName "Aline Shakti" ;
+    foaf:surname "Franzke" .
+
+_:n600
+    a foaf:Person ;
+    foaf:givenName "Iris" ;
+    foaf:surname "Muis" .
+
+_:n601
+    a foaf:Person ;
+    foaf:givenName "Mirko Tobias" ;
+    foaf:surname "Schäfer" .
+
+_:n608
+    a foaf:Person ;
+    foaf:givenName "Chris" ;
+    foaf:surname "Anderson" .
+
+_:n616
+    a foaf:Person ;
+    foaf:givenName "Fulvio" ;
+    foaf:surname "Mazzocchi" .
+
+_:n619
+    a foaf:Person ;
+    foaf:givenName "Jasmine" ;
+    foaf:surname "Park" .
+
+_:n621
+    a foaf:Person ;
+    foaf:givenName "Amelia" ;
+    foaf:surname "Vance" .
+

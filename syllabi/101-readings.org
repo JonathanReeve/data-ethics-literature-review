@@ -1,0 +1,161 @@
+* CS 4732: Ethical and Social Issues in AI (Spring, 2017)\\
+  :PROPERTIES:
+  :CUSTOM_ID: cs-4732-ethical-and-social-issues-in-ai-spring-2017
+  :align: CENTER
+  :END:
+The course will meet for 8 weeks 7:30-9:55 PM on Monday evenings,
+starting Feb. 27. There will be a one-hour public lecture (which can be
+attended by anyone), followed by a discussion. The discussion is limited
+to the students registered in the course. The course will be pass/fail,
+but in order to pass, you will have attend all classes and participate
+actively. There will be short readings associated with all the
+presentations. Here is the current schedule of presentations:
+
+2/27 - Bart Selman, Cornell:
+[[http://cornell.videonote.com/videos/1000393/play][The Future of AI:
+Benefits vs. Risks]]
+
+- *Reading:* This
+  [[https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html?_r=0][interesting
+  New York Times article]] provides good background to some of the
+  current capabilities of AI systems.
+
+3/6 - Jon Kleinberg, Cornell:
+[[http://cornell.videonote.com/videos/1000443/play][Inherent Trade-Offs
+in Algorithmic Fairness]]
+
+- *Abstract:* Recent discussion in the public sphere about algorithmic
+  classification has involved tension between competing notions of what
+  it means for such a classification to be fair to different groups. We
+  consider several of the key fairness conditions that lie at the heart
+  of these debates, and discuss recent research establishing that except
+  in highly constrained special cases, there is no method that can
+  satisfy all of these conditions simultaneously. These results suggest
+  some of the ways in which key notions of fairness are incompatible
+  with each other, and hence provide a framework for thinking about the
+  trade-offs between them.
+- *Readings:*
+
+  - M. Luca, J. Kleinberg, S. Mullainathan. M. Luca, J. Kleinberg, S.
+    Mullainathan.
+    [[https://hbr.org/2016/01/algorithms-need-managers-too][Algorithms
+    Need Managers, Too.]] Harvard Business Review, 94:1 (Jan/Feb 2016).
+  - J. Kleinberg, J. Ludwig, S. Mullainathan.
+    [[https://hbr.org/2016/12/a-guide-to-solving-social-problems-with-machine-learning][A
+    Guide to Solving Social Problems with Machine Learning]]. Harvard
+    Business Review, December 2016.
+
+\\
+
+3/13 - Kilian Weinberger, Cornell:
+[[http://cornell.videonote.com/videos/1000481/play][Interpretable
+Machine Learning: What are the limits and is it necessary?]]
+
+- *Abstract:* Recent years have seen a revival of deep neural networks
+  in machine learning. Although this has led to impressive reduction in
+  error rates in some prominent machine learning tasks, it also raises
+  the concern about interpretability of machine learning
+  algorithms---can we understand/explain what they are doing. In this
+  talk I will describe the basics of deep learning algorithms and
+  explain their basic building blocks. I will show that these are easy
+  to understand. I will also try to shed some light onto what these
+  networks learn on a higher level and hopefully be able to convince the
+  audience that these are not â€œblack boxâ€? algorithms, as they are
+  often described ... maybe instead gray or dark gray at most.
+- *Reading:* Christian Szegedy et al.,
+  [[https://cs.nyu.edu/~zaremba/docs/understanding.pdf][Intriguing
+  properties of neural networks]]
+
+3/20 - Dan Weld, U. Washington:
+[[https://youtu.be/ZlsCGnA-vao][Computational Ethics for AI]]
+
+- *Abstract:* Stephen Hawking, Bill Gates, and other luminaries warn
+  that an “intelligence explosion” may lead to the extinction of
+  humanity at the hands of rampant robots. At the same time, many
+  pundits see a prosperous future in which self-driving cars reduce
+  highway fatalities , while AI advisors improve medical care and
+  minimize malpractice. Weld argues that the utopian outcome is more
+  likely, but only if we address several key social and technical
+  challenges .
+
+3/27 - Moshe Vardi, Rice: [[https://youtu.be/5ThiClGEBes][Humans,
+Machines, and Work: The Future is Now]]
+
+- *Abstract:* Automation, driven by technological progress, has been
+  increasing inexorably for the past several decades. Two schools of
+  economic thinking have for many years been engaged in a debate about
+  the potential effects of automation on jobs: will new technology spawn
+  mass unemployment, as the robots take jobs away from humans? Or will
+  the jobs robots take over create demand for new human jobs? I will
+  present data that demonstrate that the concerns about automation are
+  valid. In fact, technology has been hurting working Americans for the
+  past 40 years. The discussion about humans, machines and work tends to
+  be a discussion about some undetermined point in the far future. But
+  it is time to face reality. The future is now.
+
+4/3 - spring break
+
+4/10 - no lecture
+
+4/17 - Karen Levy, Cornell:
+[[http://cornell.videonote.com/videos/1000620/play][Working With and
+Against AI: Lessons from Low-Wage Labor]]
+
+- *Abstract:* As intelligent systems are increasingly deployed into
+  workplaces, human workers are increasingly in positions to work in
+  coordination and integration with them. To be sure, AI poses threats
+  in the form of the replacement of workers -- but in addition, it
+  stands poised to alter the content and quality of the work that
+  remains. In this talk, I consider how human workers confront
+  computational incursions into their workspaces, how we work alongside
+  them -- and importantly, how we push back against them.
+
+4/24 - Ross Knepper, Cornell:
+[[http://cornell.videonote.com/videos/1000647/play][Autonomy,
+Embodiment, and Anthropomorphism: the Ethics of Robotics]]
+
+- *Abstract:* A robot is an artificially intelligent machine that can
+  sense, think, and act in the world. Its physical, embodied aspect sets
+  a robot apart from other artificially intelligent systems, and it also
+  profoundly affects the way that people interact with robots. Although
+  a robot is an autonomous, engineered machine, its appearance and
+  behavior can trigger anthropomorphic impulses in people who work with
+  it. In many ways, robots occupy a niche that is somewhere between man
+  and machine, which can lead people to form unhealthy emotional
+  attitudes towards them. We can develop unidirectional emotional bonds
+  with robots, and there are indications that robots occupy a distinct
+  moral status from humans, leading us to treat them without the same
+  dignity afforded to a human being. Are emotional relationships with
+  robots inevitable? How will they influence human behavior, given that
+  robots do not reciprocate as humans would? This talk will examine
+  issues such as cruelty to robots, sex robots, and robots used for
+  sales, guard or military duties.
+
+5/1 - Joe Halpern,
+[[http://cornell.videonote.com/videos/1000677/play][Cornell: Moral
+Responsibility, Blameworthiness, and Intention: In Search of Formal
+Definitions]]
+
+- *Abstract:* The need for judging moral responsibility arises both in
+  ethics and in law. In an era of autonomous vehicles and, more
+  generally, autonomous AI agents, the issue has now become relevant to
+  AI as well. Although hundreds of books and thousands of papers have
+  been written on moral responsibility, blameworthiness, and intention,
+  there is surprisingly little work on defining these notions formally.
+  But we will need formal definitions in order for AI agents to apply
+  these notions. In this talk, I take some preliminary steps towards
+  defining these notions.
+
+*More course-related material:*
+
+- An interesting youtube video
+  [[https://www.youtube.com/watch?v=7Pq-S557XQU][Humans Need Not Apply]]
+  on how robots will take over our jobs.
+- Recent work out of Princeton shows that machine learning programs
+  learn our biases (and thus will exhibit the same biases that we do
+  when they make decisions).
+  [[https://www.theguardian.com/technology/2017/apr/13/ai-programs-exhibit-racist-and-sexist-biases-research-reveals?CMP=Share_iOSApp_Other][Here]]
+  is a reasonable newspaper article on the work. Here is the
+  [[file:Science%20article.pdf][original article]] from /Science/ and a
+  fairly accessible [[file:Science%20-%20perspective.pdf][perspective]]
+  on it, also from /Science/.
