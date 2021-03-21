@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="HEAVZSWT">
+        <res:resource rdf:resource="https://github.com/"/>
+        <z:accessDate>2021-03-21 06:49:38</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://github.com/">
+        <dcterms:title>GitHub: Where the world builds software</dcterms:title>
+        <bibo:uri>https://github.com/</bibo:uri>
+        <dcterms:abstract>GitHub is where over 56 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>GitHub</bibo:shortTitle>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>GitHub</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

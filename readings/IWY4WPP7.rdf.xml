@@ -1,0 +1,33 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="IWY4WPP7">
+        <res:resource rdf:resource="https://bostonreview.net/science-nature-politics/annette-zimmermann-elena-di-rosa-hochan-kim-technology-cant-fix-algorithmic"/>
+        <z:accessDate>2021-03-21 06:50:32</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://bostonreview.net/science-nature-politics/annette-zimmermann-elena-di-rosa-hochan-kim-technology-cant-fix-algorithmic">
+        <dcterms:title>Technology Can't Fix Algorithmic Injustice</dcterms:title>
+        <bibo:uri>https://bostonreview.net/science-nature-politics/annette-zimmermann-elena-di-rosa-hochan-kim-technology-cant-fix-algorithmic</bibo:uri>
+        <dcterms:abstract>We need greater democratic oversight of AI not just from developers and designers, but from all members of society.</dcterms:abstract>
+        <dcterms:type>Text</dcterms:type>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n1298"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1298"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Boston Review</dcterms:title>
+                <dcterms:date>2019-12-12T11:08:11-05:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n1298">
+        <foaf:givenName>Elena Di Rosa</foaf:givenName>
+        <foaf:surname>Annette Zimmermann</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="XSC3PRXU">
+        <res:resource rdf:resource="https://www.cs.columbia.edu/"/>
+        <z:accessDate>2021-03-21 06:28:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.cs.columbia.edu/">
+        <bibo:uri>https://www.cs.columbia.edu/</bibo:uri>
+        <dcterms:title>Department of Computer Science, Columbia University</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

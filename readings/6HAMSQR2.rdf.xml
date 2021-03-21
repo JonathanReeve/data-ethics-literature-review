@@ -1,0 +1,81 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="6HAMSQR2">
+        <res:resource rdf:resource="http://arxiv.org/abs/1606.06565"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-03-21 06:29:13</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Artificial Intelligence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Machine Learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1606.06565">
+        <dcterms:creator rdf:nodeID="n858"/>
+        <dcterms:title>Concrete Problems in AI Safety</dcterms:title>
+        <bibo:uri>http://arxiv.org/abs/1606.06565</bibo:uri>
+        <z:extra>arXiv: 1606.06565</z:extra>
+        <dcterms:creator rdf:nodeID="n856"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n856"/>
+                <rdf:li rdf:nodeID="n858"/>
+                <rdf:li rdf:nodeID="n859"/>
+                <rdf:li rdf:nodeID="n860"/>
+                <rdf:li rdf:nodeID="n861"/>
+                <rdf:li rdf:nodeID="n862"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:abstract>Rapid progress in machine learning and artificial intelligence (AI) has brought increasing attention to the potential impacts of AI technologies on society. In this paper we discuss one such potential impact: the problem of accidents in machine learning systems, defined as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of five practical research problems related to accident risk, categorized according to whether the problem originates from having the wrong objective function (&quot;avoiding side effects&quot; and &quot;avoiding reward hacking&quot;), an objective function that is too expensive to evaluate frequently (&quot;scalable supervision&quot;), or undesirable behavior during the learning process (&quot;safe exploration&quot; and &quot;distributional shift&quot;). We review previous work in these areas as well as suggesting research directions with a focus on relevance to cutting-edge AI systems. Finally, we consider the high-level question of how to think most productively about the safety of forward-looking applications of AI.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n859"/>
+        <dcterms:creator rdf:nodeID="n860"/>
+        <dcterms:creator rdf:nodeID="n861"/>
+        <dcterms:creator rdf:nodeID="n862"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-07-25</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>arXiv:1606.06565 [cs]</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n856">
+       <foaf:givenName>Dario</foaf:givenName><foaf:surname>Amodei</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n858">
+       <foaf:givenName>Chris</foaf:givenName><foaf:surname>Olah</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n859">
+        <foaf:givenName>Jacob</foaf:givenName>
+        <foaf:surname>Steinhardt</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n860">
+        <foaf:givenName>Paul</foaf:givenName>
+        <foaf:surname>Christiano</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n861">
+       <foaf:givenName>John</foaf:givenName><foaf:surname>Schulman</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n862">
+       <foaf:givenName>Dan</foaf:givenName><foaf:surname>ManÃ©</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+           <bibo:Note><z:note>Comment: 29 pages</z:note></bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

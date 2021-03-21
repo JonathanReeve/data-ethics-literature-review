@@ -1,0 +1,39 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="DRTVT8NZ">
+        <res:resource rdf:resource="http://www.numdam.org/item/JSFS_1999__140_3_5_0/"/>
+        <z:repository>www.numdam.org</z:repository>
+        <z:accessDate>2021-03-21 06:49:58</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://www.numdam.org/item/JSFS_1999__140_3_5_0/">
+        <dcterms:title>From association to causation : some remarks on the history of statistics</dcterms:title>
+        <bibo:pages>5-32</bibo:pages>
+        <bibo:uri>http://www.numdam.org/item/JSFS_1999__140_3_5_0/</bibo:uri>
+        <dcterms:language>fr</dcterms:language>
+        <bibo:shortTitle>From association to causation</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n1147"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1147"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>1999</dcterms:date>
+                <bibo:volume>140</bibo:volume>
+                <bibo:issue>3</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Journal de la société française de statistique</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n1147">
+       <foaf:givenName>David</foaf:givenName><foaf:surname>Freedman</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

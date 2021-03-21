@@ -1,0 +1,65 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="X83FJAMV">
+        <res:resource rdf:resource="urn:isbn:9781783476725"/>
+        <z:repository>Library of Congress ISBN</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Robotics</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n698"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Automation</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n698"/>
+    </z:UserItem>
+    <bibo:Book rdf:about="urn:isbn:9781783476725">
+        <dcterms:date>2016</dcterms:date>
+        <bibo:isbn13>9781783476725</bibo:isbn13>
+        <bibo:numPages>402</bibo:numPages>
+        <bibo:lccn>K564.C6 R63 2016</bibo:lccn>
+        <dcterms:publisher>
+            <foaf:Organization>
+                <address:localityName>Cheltenham, UK</address:localityName>
+                <foaf:name>Edward Elgar Publishing</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:title>Robot law</dcterms:title>
+        <bibo:editor rdf:nodeID="n693"/>
+        <bibo:editorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n693"/>
+                <rdf:li rdf:nodeID="n695"/>
+                <rdf:li rdf:nodeID="n696"/>
+            </rdf:Seq>
+        </bibo:editorList>
+        <bibo:editor rdf:nodeID="n695"/>
+        <bibo:editor rdf:nodeID="n696"/>
+    </bibo:Book>
+    <foaf:Person rdf:nodeID="n693">
+       <foaf:givenName>M. Ryan</foaf:givenName><foaf:surname>Calo</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n695">
+        <foaf:givenName>Michael</foaf:givenName>
+        <foaf:surname>Froomkin</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n696">
+       <foaf:givenName>Ian</foaf:givenName><foaf:surname>Kerr</foaf:surname>
+    </foaf:Person>
+    <ctag:AutoTag rdf:nodeID="n698">
+       <ctag:label>Law and legislation</ctag:label>
+    </ctag:AutoTag>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+            <bibo:Note>
+                <z:note>How should the law think about robots? / Neil M. Richards and William D. Smart -- Allocating the risk of physical injury from &quot;sophisticated robots&quot; : efficiency, fairness, and innovation / Patrick Hubbard -- The application of traditional tort theory to embodied machine intelligence / Curtis E.A. Karnow -- Lawyers and engineers should speak the same robot language / Bryant Walker Smith -- Delegation, relinquishment and responsibility : the prospect of expert robots / Jason Millar and Ian Kerr -- The open roboethics initiative and the elevator-riding robot / AJung Moon, Ergun Calisgan, Camilla Bassani, Fausto Ferreira, Fiorella Operto, Gianmarco Veruggio, Elizabeth A. Croft and H. F. Machiel Van der Loos -- The application of a 'sufficiently and selectively open license' to limit liability and ethical concerns associated with open robotics / Diana Marina Cooper -- The roboticization of consent / Sinziana M. Gutiu -- Extending legal protection to social robots : the effects of anthropomorphism, empathy, and violent behavior towards robotic objects / Kate Darling -- Confronting automated law enforcement / Lisa A. Shay, Woodrow Hartzog, John Nelson, Dominic Larkin and Gregory Conti -- Do robots dream of electric laws? : an experiment in the law as algorithm / Lisa A. Shay, Woodrow Hartzog, John Nelson and Gregory Conti -- Examining the constitutionality of robot-enhanced interrogation / Kristen Thomasen -- Asleep at the switch? : how killer robots become a force multiplier of military necessity / Ian Kerr and Katie Szilagyi -- Jus nascendi, robotic weapons and the martens clause / Peter Asaro</z:note>
+            </bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

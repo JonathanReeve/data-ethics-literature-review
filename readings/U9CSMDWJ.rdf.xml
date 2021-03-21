@@ -1,0 +1,27 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="U9CSMDWJ">
+        <res:resource rdf:resource="urn:isbn:9780262534536"/>
+        <z:repository>Open WorldCat</z:repository>
+    </z:UserItem>
+    <bibo:Book rdf:about="urn:isbn:9780262534536">
+        <dcterms:language>English</dcterms:language>
+        <dcterms:title>Recoding gender: women's changing participation in computing.</dcterms:title>
+        <dcterms:date>2017</dcterms:date>
+        <bibo:isbn13>9780262534536</bibo:isbn13>
+        <z:extra>OCLC: 1030402184</z:extra>
+        <bibo:shortTitle>Recoding gender</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n1061"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1061"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Book>
+    <foaf:Person rdf:nodeID="n1061">
+       <foaf:givenName>Janet</foaf:givenName><foaf:surname>Abbate</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="6P2GQCLR">
+        <res:resource rdf:resource="http://dirichlet.net/about/"/>
+        <z:accessDate>2021-03-21 06:49:46</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://dirichlet.net/about/">
+        <dcterms:title>Hanna Wallach</dcterms:title>
+        <bibo:uri>http://dirichlet.net/about/</bibo:uri>
+        <dcterms:abstract>I am currently a senior principal researcher at Microsoft Research New York City. I am also an adjunct  professor in the College of Information and Computer Sciences at UMass Amherst and a member of UMass Amherst's Computational Social Science Institute. I have a BA in computer science from the University</dcterms:abstract>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Hanna Wallach</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

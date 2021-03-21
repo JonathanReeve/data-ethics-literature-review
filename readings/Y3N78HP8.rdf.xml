@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="Y3N78HP8">
+        <res:resource rdf:resource="http://www.videonote.com/"/>
+        <z:accessDate>2021-03-21 06:01:25</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.videonote.com/">
+        <bibo:uri>http://www.videonote.com/</bibo:uri>
+        <dcterms:title>videonote</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

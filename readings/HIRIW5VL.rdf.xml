@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="HIRIW5VL">
+        <res:resource rdf:resource="https://www.independent.co.uk/news/world/asia/china-surveillance-big-data-score-censorship-a7375221.html"/>
+        <z:accessDate>2021-03-21 06:29:09</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.independent.co.uk/news/world/asia/china-surveillance-big-data-score-censorship-a7375221.html">
+        <dcterms:title>China wants to give all of its citizens a score â€“ and those who fall short will be denied basic privileges</dcterms:title>
+        <bibo:uri>https://www.independent.co.uk/news/world/asia/china-surveillance-big-data-score-censorship-a7375221.html</bibo:uri>
+        <dcterms:abstract>The Communist Party wants to encourage good behaviour by marking all its people using online data. Those who fall short will be denied basic freedoms like loans or travel</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>The Independent</dcterms:title>
+                <dcterms:date>2016-10-24T07:08:43.000Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

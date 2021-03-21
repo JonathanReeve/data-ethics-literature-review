@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="5H8VQMSQ">
+        <res:resource rdf:resource="https://www.technologyreview.com/2011/10/12/190773/paul-allen-the-singularity-isnt-near/"/>
+        <z:accessDate>2021-03-21 06:28:56</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.technologyreview.com/2011/10/12/190773/paul-allen-the-singularity-isnt-near/">
+        <dcterms:title>Paul Allen: The Singularity Isn’t Near</dcterms:title>
+        <bibo:uri>https://www.technologyreview.com/2011/10/12/190773/paul-allen-the-singularity-isnt-near/</bibo:uri>
+        <dcterms:abstract>Futurists like Vernor Vinge and Ray Kurzweil have argued that the world is rapidly approaching a tipping point, where the accelerating pace of smarter and smarter machines will soon outrun all human capabilities. They call this tipping point the singularity, because they believe it is impossible to predict how the human future might unfold after…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Paul Allen</bibo:shortTitle>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>MIT Technology Review</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

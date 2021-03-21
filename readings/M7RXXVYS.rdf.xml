@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="M7RXXVYS">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=Arthur_R._Miller&amp;oldid=985574376"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-03-21 06:50:13</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=Arthur_R._Miller&amp;oldid=985574376">
+        <dcterms:title>Arthur R. Miller</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=Arthur_R._Miller&amp;oldid=985574376</bibo:uri>
+        <z:extra>Page Version ID: 985574376</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>Arthur Raphael Miller  (born 22 June 1934), is a leading scholar in the field of American civil procedure and a University Professor at New York University and Chairman of The NYU Sports &amp; Society Program.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2020-10-26T18:34:32Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

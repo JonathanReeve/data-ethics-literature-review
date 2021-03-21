@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="QHAW5HS9">
+        <res:resource rdf:resource="/a/2015092903/"/>
+        <z:repository>techscience.org</z:repository>
+        <z:accessDate>2021-03-21 06:50:21</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="/a/2015092903/">
+        <dcterms:title>Only You, Your Doctor, and Many Others May Know</dcterms:title>
+        <bibo:uri>/a/2015092903/</bibo:uri>
+        <dcterms:abstract>Washington State responds to a re-identification study of anonymized health records that it sells by removing fields sensitive to re-identification.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n1263"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1263"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Journal>
+               <dcterms:title>Technology Science</dcterms:title>
+            </bibo:Journal>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n1263">
+        <foaf:givenName>Latanya</foaf:givenName>
+        <foaf:surname>Sweeney</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

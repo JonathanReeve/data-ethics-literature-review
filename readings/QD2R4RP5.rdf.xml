@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="QD2R4RP5">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=Lucasian_Professor_of_Mathematics&amp;oldid=1006029402"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-03-21 06:50:09</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=Lucasian_Professor_of_Mathematics&amp;oldid=1006029402">
+        <dcterms:title>Lucasian Professor of Mathematics</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=Lucasian_Professor_of_Mathematics&amp;oldid=1006029402</bibo:uri>
+        <z:extra>Page Version ID: 1006029402</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>The Lucasian Chair of Mathematics () is a mathematics professorship in the University of Cambridge, England; its holder is known as the Lucasian Professor. The post was founded in 1663 by Henry Lucas, who was Cambridge University's Member of Parliament in 1639â€“1640, and it was officially established by King Charles II on 18 January 1664. It was described by The Daily Telegraph as one of the most prestigious academic posts in the world and its former holders include Isaac Newton, Charles Babbage, George Stokes, Joseph Larmor, Paul Dirac and Stephen Hawking.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2021-02-10T17:29:41Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="E76R6R4R">
+        <res:resource rdf:resource="http://education.github.com"/>
+        <z:accessDate>2021-03-21 06:49:43</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://education.github.com">
+        <dcterms:title>Discounted and free plans are available for educational use</dcterms:title>
+        <bibo:uri>http://education.github.com</bibo:uri>
+        <dcterms:abstract>Teach and learn better, together. Learn to ship software like a pro.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>GitHub Education</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,77 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="D5IC6YMQ">
+        <res:resource rdf:resource="https://distill.pub/2018/building-blocks"/>
+        <z:repository>distill.pub</z:repository>
+        <z:accessDate>2021-03-21 06:29:40</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://distill.pub/2018/building-blocks">
+        <dcterms:creator rdf:nodeID="n992"/>
+        <dcterms:title>The Building Blocks of Interpretability</dcterms:title>
+        <dcterms:abstract>Interpretability techniques are normally studied in isolation. We explore the powerful interfaces that arise when you combine them -- and the rich structure of this combinatorial space.</dcterms:abstract>
+        <bibo:doi>10.23915/distill.00010</bibo:doi>
+        <bibo:pages>e10</bibo:pages>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n990"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n990"/>
+                <rdf:li rdf:nodeID="n992"/>
+                <rdf:li rdf:nodeID="n993"/>
+                <rdf:li rdf:nodeID="n994"/>
+                <rdf:li rdf:nodeID="n995"/>
+                <rdf:li rdf:nodeID="n996"/>
+                <rdf:li rdf:nodeID="n997"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <bibo:uri>https://distill.pub/2018/building-blocks</bibo:uri>
+        <dcterms:creator rdf:nodeID="n993"/>
+        <dcterms:creator rdf:nodeID="n994"/>
+        <dcterms:creator rdf:nodeID="n995"/>
+        <dcterms:creator rdf:nodeID="n996"/>
+        <dcterms:creator rdf:nodeID="n997"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2018/03/06</dcterms:date>
+                <bibo:volume>3</bibo:volume>
+                <bibo:issue>3</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Distill</dcterms:title>
+                        <bibo:shortTitle>Distill</bibo:shortTitle>
+                        <bibo:issn>2476-0757</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n990">
+       <foaf:givenName>Chris</foaf:givenName><foaf:surname>Olah</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n992">
+        <foaf:givenName>Arvind</foaf:givenName>
+        <foaf:surname>Satyanarayan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n993">
+       <foaf:givenName>Ian</foaf:givenName><foaf:surname>Johnson</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n994">
+       <foaf:givenName>Shan</foaf:givenName><foaf:surname>Carter</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n995">
+        <foaf:givenName>Ludwig</foaf:givenName>
+        <foaf:surname>Schubert</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n996">
+       <foaf:givenName>Katherine</foaf:givenName><foaf:surname>Ye</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n997">
+        <foaf:givenName>Alexander</foaf:givenName>
+        <foaf:surname>Mordvintsev</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

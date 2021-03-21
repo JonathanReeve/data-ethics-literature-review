@@ -1,0 +1,39 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="HT5IM7UF">
+        <res:resource rdf:resource="https://www.persee.fr/doc/comm_0588-8018_1988_num_48_1_2857"/>
+        <dcterms:rights>free</dcterms:rights>
+        <z:repository>www.persee.fr</z:repository>
+        <z:accessDate>2021-03-21 06:50:24</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.persee.fr/doc/comm_0588-8018_1988_num_48_1_2857">
+        <dcterms:title>« TV Delivers People » (1973)</dcterms:title>
+        <dcterms:language>fre</dcterms:language>
+        <bibo:pages>42-44</bibo:pages>
+        <bibo:uri>https://www.persee.fr/doc/comm_0588-8018_1988_num_48_1_2857</bibo:uri>
+        <dcterms:creator rdf:nodeID="n1282"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1282"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>1988</dcterms:date>
+                <bibo:volume>48</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>Communications</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n1282">
+       <foaf:givenName>Richard</foaf:givenName><foaf:surname>Serra</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

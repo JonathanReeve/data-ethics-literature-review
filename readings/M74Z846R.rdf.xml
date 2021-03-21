@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="M74Z846R">
+        <res:resource rdf:resource="https://docs.github.com/en"/>
+        <z:accessDate>2021-03-21 06:50:42</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.github.com/en">
+        <bibo:uri>https://docs.github.com/en</bibo:uri>
+        <dcterms:title>GitHub Documentation</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

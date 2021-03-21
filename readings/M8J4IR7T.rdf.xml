@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="M8J4IR7T">
+        <res:resource rdf:resource="https://medium.com/berkman-klein-center/optimization-over-explanation-41ecb135763d"/>
+        <z:accessDate>2021-03-21 06:29:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/berkman-klein-center/optimization-over-explanation-41ecb135763d">
+        <dcterms:title>Optimization over Explanation</dcterms:title>
+        <bibo:uri>https://medium.com/berkman-klein-center/optimization-over-explanation-41ecb135763d</bibo:uri>
+        <dcterms:abstract>Making AI more ethical, not less intelligent</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n750"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n750"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2018-01-30T13:33:49.459Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n750">
+        <foaf:givenName>David</foaf:givenName>
+        <foaf:surname>Weinberger</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

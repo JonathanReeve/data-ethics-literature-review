@@ -1,0 +1,40 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="L9URTIW4">
+        <res:resource rdf:resource="https://www.jstor.org/stable/2245613"/>
+        <z:repository>JSTOR</z:repository>
+        <z:accessDate>2021-03-21 06:42:19</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.jstor.org/stable/2245613">
+        <dcterms:title>Guinness, Gosset, Fisher, and Small Samples</dcterms:title>
+        <dcterms:abstract>The environment in which W. S. Gosset (Student) worked as a brewer at Guinness' Brewery at the turn of the century is described fully enough to show how it forced him to confront problems of small sample statistics, using the techniques he picked up from Karl Pearson. R. A. Fisher's interest in human genetics prompted biometrical applications of his mathematical training even as an undergraduate. As soon as he considered Student's work, he perceived its importance and began to extend its applications. Consequently, when he started work at Rothamsted Experimental Station in 1919, he was ready to respond to the experimental problems by developing statistical theory along with appropriate methods of experimental analysis and design.</dcterms:abstract>
+        <bibo:pages>45-52</bibo:pages>
+        <bibo:uri>https://www.jstor.org/stable/2245613</bibo:uri>
+        <dcterms:creator rdf:nodeID="n1054"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1054"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:issue>1</bibo:issue>
+                <bibo:volume>2</bibo:volume>
+                <dcterms:date>1987</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <bibo:issn>0883-4237</bibo:issn>
+                        <dcterms:title>Statistical Science</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n1054">
+        <foaf:givenName>Joan Fisher</foaf:givenName>
+        <foaf:surname>Box</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

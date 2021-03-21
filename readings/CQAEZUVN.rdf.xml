@@ -1,0 +1,60 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="CQAEZUVN">
+        <res:resource rdf:resource="http://arxiv.org/abs/1606.03137"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-03-21 06:29:15</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Artificial Intelligence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1606.03137">
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n872"/>
+                <rdf:li rdf:nodeID="n874"/>
+                <rdf:li rdf:nodeID="n875"/>
+                <rdf:li rdf:nodeID="n876"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:title>Cooperative Inverse Reinforcement Learning</dcterms:title>
+        <bibo:uri>http://arxiv.org/abs/1606.03137</bibo:uri>
+        <z:extra>arXiv: 1606.03137</z:extra>
+        <dcterms:creator rdf:nodeID="n872"/>
+        <dcterms:abstract>For an autonomous system to be helpful to humans and to pose no unwarranted risks, it needs to align its values with those of the humans in its environment in such a way that its actions contribute to the maximization of value for the humans. We propose a formal definition of the value alignment problem as cooperative inverse reinforcement learning (CIRL). A CIRL problem is a cooperative, partial-information game with two agents, human and robot; both are rewarded according to the human's reward function, but the robot does not initially know what this is. In contrast to classical IRL, where the human is assumed to act optimally in isolation, optimal CIRL solutions produce behaviors such as active teaching, active learning, and communicative actions that are more effective in achieving value alignment. We show that computing optimal joint policies in CIRL games can be reduced to solving a POMDP, prove that optimality in isolation is suboptimal in CIRL, and derive an approximate CIRL algorithm.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n874"/>
+        <dcterms:creator rdf:nodeID="n875"/>
+        <dcterms:creator rdf:nodeID="n876"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-11-12</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>arXiv:1606.03137 [cs]</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n872">
+        <foaf:givenName>Dylan</foaf:givenName>
+        <foaf:surname>Hadfield-Menell</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n874">
+       <foaf:givenName>Anca</foaf:givenName><foaf:surname>Dragan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n875">
+       <foaf:givenName>Pieter</foaf:givenName><foaf:surname>Abbeel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n876">
+       <foaf:givenName>Stuart</foaf:givenName><foaf:surname>Russell</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

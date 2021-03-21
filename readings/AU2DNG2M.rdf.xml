@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="AU2DNG2M">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=George_E._P._Box&amp;oldid=1007513965"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-03-21 06:50:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=George_E._P._Box&amp;oldid=1007513965">
+        <dcterms:title>George E. P. Box</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=George_E._P._Box&amp;oldid=1007513965</bibo:uri>
+        <z:extra>Page Version ID: 1007513965</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>George Edward Pelham Box  (18 October 1919 â€“ 28 March 2013) was a British statistician, who worked in the areas of quality control, time-series analysis, design of experiments, and Bayesian inference.  He has been called &quot;one of the great statistical minds of the 20th century&quot;.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2021-02-18T14:56:23Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

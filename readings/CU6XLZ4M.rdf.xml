@@ -1,0 +1,42 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="CU6XLZ4M">
+        <res:resource rdf:resource="urn:isbn:9780199737970"/>
+        <z:repository>Gemeinsamer Bibliotheksverbund ISBN</z:repository>
+    </z:UserItem>
+    <bibo:Book rdf:about="urn:isbn:9780199737970">
+        <dcterms:date>2010</dcterms:date>
+        <bibo:isbn13>9780199737970</bibo:isbn13>
+        <dcterms:title>Moral machines: teaching robots right from wrong</dcterms:title>
+        <bibo:edition>First issued as an Oxford University Press paperback</bibo:edition>
+        <bibo:numPages>275</bibo:numPages>
+        <dcterms:publisher>
+            <foaf:Organization>
+                <address:localityName>Oxford New York Hong Kong Madrid Toronto</address:localityName>
+                <foaf:name>Oxford University Press</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:language>eng</dcterms:language>
+        <bibo:shortTitle>Moral machines</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n688"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n688"/><rdf:li rdf:nodeID="n690"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n690"/>
+    </bibo:Book>
+    <foaf:Person rdf:nodeID="n688">
+        <foaf:givenName>Wendell</foaf:givenName>
+        <foaf:surname>Wallach</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n690">
+       <foaf:givenName>Colin</foaf:givenName><foaf:surname>Allen</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

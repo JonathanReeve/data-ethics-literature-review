@@ -1,0 +1,35 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="52KMQIJA">
+        <res:resource rdf:resource="https://www.brookings.edu/research/ethical-algorithm-design-should-guide-technology-regulation/"/>
+        <z:accessDate>2021-03-21 06:50:28</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.brookings.edu/research/ethical-algorithm-design-should-guide-technology-regulation/">
+        <dcterms:title>Ethical algorithm design should guide technology regulation</dcterms:title>
+        <bibo:uri>https://www.brookings.edu/research/ethical-algorithm-design-should-guide-technology-regulation/</bibo:uri>
+        <dcterms:abstract>Decision-making driven by machine learning requires a new regulatory approach.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n1290"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1290"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Brookings</dcterms:title>
+                <dcterms:date>2020-01-13T15:33:23+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n1290">
+        <foaf:givenName>Michael Kearns and Aaron</foaf:givenName>
+        <foaf:surname>Roth</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

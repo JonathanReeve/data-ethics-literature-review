@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="WHW96AS9">
+        <res:resource rdf:resource="https://docs.google.com/document/d/1Lz0vEWsUmgNolVJVw3FjKbyAIH6Nw7LMpnjUwSboqXA/edit?usp=embed_facebook"/>
+        <z:accessDate>2021-03-21 06:29:27</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/document/d/1Lz0vEWsUmgNolVJVw3FjKbyAIH6Nw7LMpnjUwSboqXA/edit?usp=embed_facebook">
+        <dcterms:title>Chapter 24: Moral Machines_JD Translation JC CHECKED</dcterms:title>
+        <bibo:uri>https://docs.google.com/document/d/1Lz0vEWsUmgNolVJVw3FjKbyAIH6Nw7LMpnjUwSboqXA/edit?usp=embed_facebook</bibo:uri>
+        <dcterms:abstract>Chapter 24: Moral Machines “We had better be quite sure that the purpose put into the machine is the purpose which we really desire.”  ——Norbert Wiener [1]  2016 was an exceptionally bright year in the history of artificial intelligence. This year, Google’s DeepMind team developed the Go-playing ...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Chapter 24</bibo:shortTitle>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

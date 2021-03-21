@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="264GUKVW">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=Zeynep_Tufekci&amp;oldid=1009818286"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-03-21 06:49:50</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=Zeynep_Tufekci&amp;oldid=1009818286">
+        <dcterms:title>Zeynep Tufekci</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=Zeynep_Tufekci&amp;oldid=1009818286</bibo:uri>
+        <z:extra>Page Version ID: 1009818286</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>Zeynep Tufekci (Turkish: Zeynep Tüfekçi; [zejˈnep tyˈfektʃi]; ZAY-nep tuu-FEK-chee) is a Turkish sociologist and writer. Her work focuses on the social implications of new technologies, such as artificial intelligence and big data, as well as societal challenges such as the COVID-19 pandemic using complex and systems-based thinking. She has been described as “having a habit on being right on the big things” by The New York Times and as one of the most prominent academic voices on social media by The Chronicle of Higher Education.She is currently a writer for the Times and The Atlantic and has written regular columns for Wired and Scientific American in the past. She is an associate professor at the School of Information and Library Science at the University of North Carolina and a faculty associate at the Berkman Klein Center for Internet and Society at Harvard University.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2021-03-02T12:45:06Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

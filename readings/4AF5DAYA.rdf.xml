@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="4AF5DAYA">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=pyU9pm1hmYs"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-03-21 06:50:09</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=pyU9pm1hmYs">
+        <dcterms:title>The Lighthill Debate (1973) - part 4 of 6</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=pyU9pm1hmYs</bibo:uri>
+        <dcterms:abstract>In 1973, professor Sir James Lighthill was asked by Parliament to evaluate the state of AI research in the United Kingdom. His report, now called the Lighthi...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

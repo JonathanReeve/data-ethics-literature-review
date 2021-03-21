@@ -1,0 +1,34 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="JSZNSC47">
+        <res:resource rdf:resource="https://algocracy.wordpress.com/2017/02/19/episode-19-andrew-g-ferguson-on-predictive-policing/"/>
+        <z:accessDate>2021-03-21 06:29:10</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://algocracy.wordpress.com/2017/02/19/episode-19-andrew-g-ferguson-on-predictive-policing/">
+        <dcterms:title>Episode #19 – Andrew G Ferguson on Predictive Policing</dcterms:title>
+        <bibo:uri>https://algocracy.wordpress.com/2017/02/19/episode-19-andrew-g-ferguson-on-predictive-policing/</bibo:uri>
+        <dcterms:abstract>In this episode I talk to Andrew Guthrie Ferguson about the past, present and future of predictive policing. Andrew is a Professor at the David A Clarke School of Law at the University of the Distr…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n834"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n834"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Algocracy and the Transhumanist Project</dcterms:title>
+                <dcterms:date>2017-02-19T18:06:33+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n834">
+       <foaf:givenName>John</foaf:givenName><foaf:surname>Danaher</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

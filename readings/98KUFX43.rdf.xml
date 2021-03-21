@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="98KUFX43">
+        <res:resource rdf:resource="https://freedom-to-tinker.com/2018/01/03/why-the-singularity-is-not-a-singularity/"/>
+        <z:accessDate>2021-03-21 06:28:57</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://freedom-to-tinker.com/2018/01/03/why-the-singularity-is-not-a-singularity/">
+        <bibo:uri>https://freedom-to-tinker.com/2018/01/03/why-the-singularity-is-not-a-singularity/</bibo:uri>
+        <dcterms:title>Why the Singularity is Not a Singularity</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

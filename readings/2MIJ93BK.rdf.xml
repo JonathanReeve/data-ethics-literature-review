@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="2MIJ93BK">
+        <res:resource rdf:resource="http://www.vdb.org/titles/television-delivers-people"/>
+        <z:accessDate>2021-03-21 06:50:23</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.vdb.org/titles/television-delivers-people">
+        <bibo:uri>http://www.vdb.org/titles/television-delivers-people</bibo:uri>
+        <dcterms:title>Television Delivers People | Video Data Bank</dcterms:title>
+        <dcterms:abstract>The Video Data Bank is an essential destination for video art, media art, video art history, art resources, artist interviews, and curated programs.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

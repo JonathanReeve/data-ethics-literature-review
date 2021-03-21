@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="XJLQ9GX3">
+        <res:resource rdf:resource="http://www.lunometer.com/"/>
+        <z:accessDate>2021-03-21 06:50:12</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.lunometer.com/">
+        <bibo:uri>http://www.lunometer.com/</bibo:uri>
+        <dcterms:title>Lunometer - Home</dcterms:title>
+        <dcterms:abstract>H. P. Luhn &amp; Associates designs and manufactures accurate, quick, and easy-to-use measurement instruments for the textile and woven wire industries.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

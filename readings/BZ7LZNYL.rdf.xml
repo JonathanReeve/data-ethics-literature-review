@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="BZ7LZNYL">
+        <res:resource rdf:resource="https://www.vice.com/en/article/884ew5/covid-19-could-provide-cover-for-domestic-surveillance-expansion"/>
+        <z:accessDate>2021-03-21 06:50:13</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.vice.com/en/article/884ew5/covid-19-could-provide-cover-for-domestic-surveillance-expansion">
+        <dcterms:title>COVID-19 Could Provide Cover for Domestic Surveillance Expansion</dcterms:title>
+        <bibo:uri>https://www.vice.com/en/article/884ew5/covid-19-could-provide-cover-for-domestic-surveillance-expansion</bibo:uri>
+        <dcterms:abstract>The use of location data to help track and manage the pandemic should come with meaningful safeguards and expiration dates, privacy experts say.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

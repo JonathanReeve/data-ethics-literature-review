@@ -1,0 +1,80 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="99HTWPMH">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social media</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>Taylor and Francis+NEJM</z:repository>
+        <z:accessDate>2021-03-21 06:49:48</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Big Data</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>analytics</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://doi.org/10.1080/1369118X.2012.678878"/>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>communication studies</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>social network sites</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>philosophy of science</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>epistemology</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>ethics</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Twitter</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1080/1369118X.2012.678878">
+        <dcterms:title>Critical Questions for Big Data</dcterms:title>
+        <bibo:pages>662-679</bibo:pages>
+        <bibo:doi>10.1080/1369118X.2012.678878</bibo:doi>
+        <bibo:uri>https://doi.org/10.1080/1369118X.2012.678878</bibo:uri>
+        <dcterms:abstract>The era of Big Data has begun. Computer scientists, physicists, economists, mathematicians, political scientists, bio-informaticists, sociologists, and other scholars are clamoring for access to the massive quantities of information produced by and about people, things, and their interactions. Diverse groups argue about the potential benefits and costs of analyzing genetic sequences, social media interactions, health records, phone logs, government records, and other digital traces left by people. Significant questions emerge. Will large-scale search data help us create better tools, services, and public goods? Or will it usher in a new wave of privacy incursions and invasive marketing? Will data analytics help us understand online communities and political movements? Or will it be used to track protesters and suppress speech? Will it transform how we study human communication and culture, or narrow the palette of research options and alter what ‘research’ means? Given the rise of Big Data as a socio-technical phenomenon, we argue that it is necessary to critically interrogate its assumptions and biases. In this article, we offer six provocations to spark conversations about the issues of Big Data: a cultural, technological, and scholarly phenomenon that rests on the interplay of technology, analysis, and mythology that provokes extensive utopian and dystopian rhetoric.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n1112"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n1112"/><rdf:li rdf:nodeID="n1114"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n1114"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>15</bibo:volume>
+                <bibo:issue>5</bibo:issue>
+                <dcterms:date>June 1, 2012</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Information, Communication &amp; Society</dcterms:title>
+                        <bibo:issn>1369-118X</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n1112">
+       <foaf:givenName>danah</foaf:givenName><foaf:surname>boyd</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1114">
+       <foaf:givenName>Kate</foaf:givenName><foaf:surname>Crawford</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

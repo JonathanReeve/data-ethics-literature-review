@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="RJT3VJ7D">
+        <res:resource rdf:resource="https://stars.github.com/"/>
+        <z:accessDate>2021-03-21 06:49:43</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://stars.github.com/">
+        <dcterms:title>GitHub Stars: inspire, educate &amp; influence developer communities</dcterms:title>
+        <bibo:uri>https://stars.github.com/</bibo:uri>
+        <dcterms:abstract>GitHub Stars are experts and technical leaders who passionately share their knowledge, online and in-person, with communities in which they live and work.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>GitHub Stars</bibo:shortTitle>
+    </bibo:Webpage>
+</rdf:RDF>

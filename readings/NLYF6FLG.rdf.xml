@@ -1,0 +1,34 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="NLYF6FLG">
+        <res:resource rdf:resource="http://pikettyexplained.blogspot.com/2014/11/summary-of-capital-in-twenty-first.html"/>
+        <z:accessDate>2021-03-21 06:29:02</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="http://pikettyexplained.blogspot.com/2014/11/summary-of-capital-in-twenty-first.html">
+        <dcterms:title>Piketty Explained: Summary of Capital in the Twenty-First Century by Thomas Piketty</dcterms:title>
+        <bibo:uri>http://pikettyexplained.blogspot.com/2014/11/summary-of-capital-in-twenty-first.html</bibo:uri>
+        <bibo:shortTitle>Piketty Explained</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n755"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n755"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:date>Monday, November 10, 2014</dcterms:date>
+                <dcterms:title>Piketty Explained</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n755">
+        <foaf:givenName>Piketty</foaf:givenName>
+        <foaf:surname>Explained</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,68 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="5VNBJ6EA">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>drones</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>Cambridge University Press</z:repository>
+        <z:accessDate>2021-03-21 06:29:37</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>robots</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://www.cambridge.org/core/journals/international-review-of-the-red-cross/article/on-banning-autonomous-weapon-systems-human-rights-automation-and-the-dehumanization-of-lethal-decisionmaking/992565190BF2912AFC5AC0657AFECF07"/>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>autonomous weapon systems</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>automation</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>lethal decision-making</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>human rights</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>arms control</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.cambridge.org/core/journals/international-review-of-the-red-cross/article/on-banning-autonomous-weapon-systems-human-rights-automation-and-the-dehumanization-of-lethal-decisionmaking/992565190BF2912AFC5AC0657AFECF07">
+        <dcterms:language>en</dcterms:language>
+        <dcterms:title>On banning autonomous weapon systems: human rights, automation, and the dehumanization of lethal decision-making</dcterms:title>
+        <bibo:uri>https://www.cambridge.org/core/journals/international-review-of-the-red-cross/article/on-banning-autonomous-weapon-systems-human-rights-automation-and-the-dehumanization-of-lethal-decisionmaking/992565190BF2912AFC5AC0657AFECF07</bibo:uri>
+        <dcterms:abstract>This article considers the recent literature concerned with establishing an international prohibition on autonomous weapon systems. It seeks to address concerns expressed by some scholars that such a ban might be problematic for various reasons. It argues in favour of a theoretical foundation for such a ban based on human rights and humanitarian principles that are not only moral, but also legal ones. In particular, an implicit requirement for human judgement can be found in international humanitarian law governing armed conflict. Indeed, this requirement is implicit in the principles of distinction, proportionality, and military necessity that are found in international treaties, such as the 1949 Geneva Conventions, and firmly established in international customary law. Similar principles are also implicit in international human rights law, which ensures certain human rights for all people, regardless of national origins or local laws, at all times. I argue that the human rights to life and due process, and the limited conditions under which they can be overridden, imply a specific duty with respect to a broad range of automated and autonomous technologies. In particular, there is a duty upon individuals and states in peacetime, as well as combatants, military organizations, and states in armed conflict situations, not to delegate to a machine or automated process the authority or capability to initiate the use of lethal force independently of human determinations of its moral and legal legitimacy in each and every case. I argue that it would be beneficial to establish this duty as an international norm, and express this with a treaty, before the emergence of a broad range of automated and autonomous weapons systems begin to appear that are likely to pose grave threats to the basic rights of individuals.</dcterms:abstract>
+        <bibo:pages>687-709</bibo:pages>
+        <bibo:doi>10.1017/S1816383112000768</bibo:doi>
+        <bibo:shortTitle>On banning autonomous weapon systems</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n956"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n956"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2012/06</dcterms:date>
+                <bibo:volume>94</bibo:volume>
+                <bibo:issue>886</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>International Review of the Red Cross</dcterms:title>
+                        <bibo:issn>1816-3831, 1607-5889</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n956">
+       <foaf:givenName>Peter</foaf:givenName><foaf:surname>Asaro</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

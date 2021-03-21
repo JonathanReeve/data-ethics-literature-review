@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="4K8IU4RD">
+        <res:resource rdf:resource="https://www.newyorker.com/tech/annals-of-technology/christopher-stracheys-nineteen-fifties-love-machine"/>
+        <z:accessDate>2021-03-21 06:50:12</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.newyorker.com/tech/annals-of-technology/christopher-stracheys-nineteen-fifties-love-machine">
+        <dcterms:title>Christopher Stracheyâ€™s Nineteen-Fifties Love Machine</dcterms:title>
+        <bibo:uri>https://www.newyorker.com/tech/annals-of-technology/christopher-stracheys-nineteen-fifties-love-machine</bibo:uri>
+        <dcterms:abstract>Long before artificial intelligence came into its own, a pioneering programmer taught a computer to write love letters.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+        <dcterms:creator rdf:nodeID="n1194"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1194"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>The New Yorker</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n1194">
+        <foaf:givenName>Siobhan</foaf:givenName>
+        <foaf:surname>Roberts</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

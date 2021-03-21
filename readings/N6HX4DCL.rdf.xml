@@ -1,0 +1,69 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="N6HX4DCL">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Research</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>NYTimes.com</z:repository>
+        <z:accessDate>2021-03-21 06:29:04</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Artificial Intelligence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>China</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://www.nytimes.com/2018/02/12/technology/china-trump-artificial-intelligence.html"/>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Office of Science and Technology Policy</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Google Inc</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Obama, Barack</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Trump, Donald J</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>United States Politics and Government</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.nytimes.com/2018/02/12/technology/china-trump-artificial-intelligence.html">
+        <dcterms:title>As China Marches Forward on A.I., the White House Is Silent</dcterms:title>
+        <bibo:section>Technology</bibo:section>
+        <bibo:uri>https://www.nytimes.com/2018/02/12/technology/china-trump-artificial-intelligence.html</bibo:uri>
+        <dcterms:abstract>Last summer, China unveiled a plan to become the worldâ€™s leader in artificial intelligence, challenging the longtime role of the United States.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n768"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n768"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2018-02-12</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Newspaper>
+                        <dcterms:title>The New York Times</dcterms:title>
+                        <bibo:issn>0362-4331</bibo:issn>
+                    </bibo:Newspaper>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n768">
+       <foaf:givenName>Cade</foaf:givenName><foaf:surname>Metz</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="E56832B2">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=G_factor_(psychometrics)&amp;oldid=1008955526"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-03-21 06:49:52</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=G_factor_(psychometrics)&amp;oldid=1008955526">
+        <dcterms:title>&lt;i&gt;g&lt;/i&gt; factor (psychometrics)</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=G_factor_(psychometrics)&amp;oldid=1008955526</bibo:uri>
+        <z:extra>Page Version ID: 1008955526</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>The g factor (also known as general intelligence, general mental ability or general intelligence factor) is a construct developed in psychometric investigations of cognitive abilities and human intelligence. It is a variable that summarizes positive correlations among different cognitive tasks, reflecting the fact that an individual's performance on one type of cognitive task tends to be comparable to that person's performance on other kinds of cognitive tasks. The g factor typically accounts for 40 to 50 percent of the between-individual performance differences on a given cognitive test, and composite scores (&quot;IQ scores&quot;) based on many tests are frequently regarded as estimates of individuals' standing on the g factor. The terms IQ, general intelligence, general cognitive ability, general mental ability, and simply intelligence are often used interchangeably to refer to this common core shared by cognitive tests. The g factor targets a particular measure of  general intelligence.
+The existence of the g factor was originally proposed by the English psychologist Charles Spearman in the early years of the 20th century. He observed that children's performance ratings, across seemingly unrelated school subjects, were positively correlated, and reasoned that these correlations reflected the influence of an underlying general mental ability that entered into performance on all kinds of mental tests. Spearman suggested that all mental performance could be conceptualized in terms of a single general ability factor, which he labeled g, and many narrow task-specific ability factors. Soon after Spearman proposed the existence of g, it was challenged by Godfrey Thomson, who presented evidence that such intercorrelations among test results could arise even if no g-factor existed. Today's factor models of intelligence typically represent cognitive abilities as a three-level hierarchy, where there are many narrow factors at the bottom of the hierarchy, a handful of broad, more general factors at the intermediate level, and at the apex a single factor, referred to as the g factor, which represents the variance common to all cognitive tasks.
+Traditionally, research on g has concentrated on psychometric investigations of test data, with a special emphasis on factor analytic approaches. However, empirical research on the nature of g has also drawn upon experimental cognitive psychology and mental chronometry, brain anatomy and physiology, quantitative and molecular genetics, and primate evolution. Some scientists consider g as a statistical regularity and uncontroversial, and a general cognitive factor appears in data collected from people in nearly every human culture. Yet, there is no consensus as to what causes the positive correlations between tests.
+Research in the field of behavioral genetics has established that the construct of g is highly heritable. It has a number of other biological correlates, including brain size. It is also a significant predictor of individual differences in many social outcomes, particularly in education and employment. The most widely accepted contemporary theories of intelligence incorporate the g factor. However, critics of g have contended that an emphasis on g is misplaced and entails a devaluation of other important abilities. Stephen J. Gould famously denounced the concept of g as supporting an unrealistic reified view of human intelligence.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2021-02-25T23:28:35Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

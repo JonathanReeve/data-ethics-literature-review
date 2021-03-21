@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="KSS8FP5Q">
+        <res:resource rdf:resource="http://www.panarchy.org/keynes/possibilities.html"/>
+        <z:accessDate>2021-03-21 06:29:06</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.panarchy.org/keynes/possibilities.html">
+        <bibo:uri>http://www.panarchy.org/keynes/possibilities.html</bibo:uri>
+        <dcterms:title>John Maynard Keynes, Economic Possibilities for our Grandchildren (1930)</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

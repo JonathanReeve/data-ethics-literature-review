@@ -1,0 +1,39 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="LUTRH466">
+        <res:resource rdf:resource="https://hdsr.mitpress.mit.edu/pub/0aytgrau/release/2"/>
+        <z:repository>hdsr.mitpress.mit.edu</z:repository>
+        <z:accessDate>2021-03-21 06:50:07</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://hdsr.mitpress.mit.edu/pub/0aytgrau/release/2">
+        <dcterms:title>Artificial Intelligence</dcterms:title>
+        <bibo:doi>10.1162/99608f92.92fe150c</bibo:doi>
+        <bibo:uri>https://hdsr.mitpress.mit.edu/pub/0aytgrau/release/2</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n1174"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1174"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2019/7/1</dcterms:date>
+                <bibo:volume>1</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Harvard Data Science Review</dcterms:title>
+                        <bibo:issn>,</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n1174">
+       <foaf:givenName>Stephanie</foaf:givenName><foaf:surname>Dick</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

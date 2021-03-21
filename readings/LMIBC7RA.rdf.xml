@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="LMIBC7RA">
+        <res:resource rdf:resource="https://www.overdrive.com/search?q=CB465E95-201C-49BE-BE9C-C184EEEAFD3F"/>
+        <z:repository>Open WorldCat</z:repository>
+        <z:accessDate>2021-03-21 06:39:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Book rdf:about="https://www.overdrive.com/search?q=CB465E95-201C-49BE-BE9C-C184EEEAFD3F">
+        <dcterms:language>English</dcterms:language>
+        <bibo:uri>https://www.overdrive.com/search?q=CB465E95-201C-49BE-BE9C-C184EEEAFD3F</bibo:uri>
+        <dcterms:title>The mismeasure of man</dcterms:title>
+        <dcterms:date>2008</dcterms:date>
+        <bibo:isbn13>9780393340402</bibo:isbn13>
+        <z:extra>OCLC: 915595083</z:extra>
+        <dcterms:creator rdf:nodeID="n1040"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1040"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Book>
+    <foaf:Person rdf:nodeID="n1040">
+        <foaf:givenName>Stephen Jay</foaf:givenName>
+        <foaf:surname>Gould</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

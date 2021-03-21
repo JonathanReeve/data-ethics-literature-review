@@ -1,0 +1,60 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="9MYSTQKX">
+        <res:resource rdf:resource="urn:isbn:9781250074317"/>
+        <z:repository>Library of Congress ISBN</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Poor</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Services for Data processing</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n682"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Poverty</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n682"/>
+    </z:UserItem>
+    <bibo:Book rdf:about="urn:isbn:9781250074317">
+        <dcterms:publisher>
+            <foaf:Organization>
+                <address:localityName>New York, NY</address:localityName>
+                <foaf:name>St. Martin's Press</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <bibo:isbn13>9781250074317</bibo:isbn13>
+        <bibo:edition>First Edition</bibo:edition>
+        <bibo:numPages>260</bibo:numPages>
+        <bibo:lccn>HC79.P6 E89 2017</bibo:lccn>
+        <dcterms:title>Automating inequality: how high-tech tools profile, police, and punish the poor</dcterms:title>
+        <dcterms:date>2017</dcterms:date>
+        <bibo:shortTitle>Automating inequality</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n678"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n678"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Book>
+    <foaf:Person rdf:nodeID="n678">
+        <foaf:givenName>Virginia</foaf:givenName>
+        <foaf:surname>Eubanks</foaf:surname>
+    </foaf:Person>
+    <ctag:AutoTag rdf:nodeID="n682">
+       <ctag:label>United States</ctag:label>
+    </ctag:AutoTag>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+            <bibo:Note>
+                <z:note>Introduction: red flags -- From poorhouse to database -- Automating welfare in the heartland -- High-tech homelessness in the city of angels -- The Allegheny algorithm -- The digital poorhouse -- Conclusion: dismantling the digital poorhouse -- Acknowledgments -- Sources and methods -- Endnotes -- Index</z:note>
+            </bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

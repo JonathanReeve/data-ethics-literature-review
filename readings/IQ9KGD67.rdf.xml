@@ -1,0 +1,70 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="IQ9KGD67">
+        <res:resource rdf:resource="http://arxiv.org/abs/1104.3913"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-03-21 06:29:20</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+                <ctag:label>Computer Science - Computational Complexity</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Computers and Society</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1104.3913">
+        <dcterms:creator rdf:nodeID="n901"/>
+        <dcterms:title>Fairness Through Awareness</dcterms:title>
+        <bibo:uri>http://arxiv.org/abs/1104.3913</bibo:uri>
+        <z:extra>arXiv: 1104.3913</z:extra>
+        <dcterms:creator rdf:nodeID="n899"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n899"/>
+                <rdf:li rdf:nodeID="n901"/>
+                <rdf:li rdf:nodeID="n902"/>
+                <rdf:li rdf:nodeID="n903"/>
+                <rdf:li rdf:nodeID="n904"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:abstract>We study fairness in classification, where individuals are classified, e.g., admitted to a university, and the goal is to prevent discrimination against individuals based on their membership in some group, while maintaining utility for the classifier (the university). The main conceptual contribution of this paper is a framework for fair classification comprising (1) a (hypothetical) task-specific metric for determining the degree to which individuals are similar with respect to the classification task at hand; (2) an algorithm for maximizing utility subject to the fairness constraint, that similar individuals are treated similarly. We also present an adaptation of our approach to achieve the complementary goal of &quot;fair affirmative action,&quot; which guarantees statistical parity (i.e., the demographics of the set of individuals receiving any classification are the same as the demographics of the underlying population), while treating similar individuals as similarly as possible. Finally, we discuss the relationship of fairness to privacy: when fairness implies privacy, and how tools developed in the context of differential privacy may be applied to fairness.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n902"/>
+        <dcterms:creator rdf:nodeID="n903"/>
+        <dcterms:creator rdf:nodeID="n904"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2011-11-28</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>arXiv:1104.3913 [cs]</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n899">
+       <foaf:givenName>Cynthia</foaf:givenName><foaf:surname>Dwork</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n901">
+       <foaf:givenName>Moritz</foaf:givenName><foaf:surname>Hardt</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n902">
+        <foaf:givenName>Toniann</foaf:givenName>
+        <foaf:surname>Pitassi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n903">
+       <foaf:givenName>Omer</foaf:givenName><foaf:surname>Reingold</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n904">
+       <foaf:givenName>Rich</foaf:givenName><foaf:surname>Zemel</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

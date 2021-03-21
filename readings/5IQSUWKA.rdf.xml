@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="5IQSUWKA">
+        <res:resource rdf:resource="https://www.githubstatus.com/"/>
+        <z:accessDate>2021-03-21 06:50:40</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.githubstatus.com/">
+        <bibo:uri>https://www.githubstatus.com/</bibo:uri>
+        <dcterms:title>GitHub Status</dcterms:title>
+        <dcterms:abstract>Welcome to GitHub's home for real-time and historical data on system performance.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

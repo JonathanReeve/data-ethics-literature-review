@@ -1,0 +1,221 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="36TCBRFW">
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Translation and Interpreters</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>NYTimes.com</z:repository>
+        <z:accessDate>2021-03-21 05:15:12</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Artificial Intelligence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Lewis-Kraus, Gideon</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Google Inc</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Pichai, Sundar</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Voice Recognition Systems</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computers and the Internet</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Dean, Jeff (1968- )</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Hinton, Geoffrey E</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html">
+        <dcterms:title>The Great A.I. Awakening</dcterms:title>
+        <bibo:section>Magazine</bibo:section>
+        <bibo:uri>https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html</bibo:uri>
+        <dcterms:abstract>How Google used artificial intelligence to transform Google Translate, one of its more popular services â€” and how machine learning is poised to reinvent computing itself.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n81"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n81"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-12-14</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Newspaper>
+                        <dcterms:title>The New York Times</dcterms:title>
+                        <bibo:issn>0362-4331</bibo:issn>
+                    </bibo:Newspaper>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n81">
+        <foaf:givenName>Gideon</foaf:givenName>
+        <foaf:surname>Lewis-Kraus</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="5S95HRIY">
+        <res:resource rdf:resource="https://hbr.org/2016/01/algorithms-need-managers-too"/>
+        <z:repository>hbr.org</z:repository>
+        <z:accessDate>2021-03-21 05:19:12</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Analytics</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Data</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>IT</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://hbr.org/2016/01/algorithms-need-managers-too">
+        <dcterms:title>Algorithms Need Managers, Too</dcterms:title>
+        <bibo:uri>https://hbr.org/2016/01/algorithms-need-managers-too</bibo:uri>
+        <dcterms:abstract>Know how to get the most out of your predictive tools.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n109"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n109"/>
+                <rdf:li rdf:nodeID="n111"/>
+                <rdf:li rdf:nodeID="n112"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n111"/>
+        <dcterms:creator rdf:nodeID="n112"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-01-01T05:00:00Z</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Magazine>
+                        <dcterms:title>Harvard Business Review</dcterms:title>
+                        <bibo:issn>0017-8012</bibo:issn>
+                    </bibo:Magazine>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n109">
+       <foaf:givenName>Michael</foaf:givenName><foaf:surname>Luca</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n111">
+       <foaf:givenName>Jon</foaf:givenName><foaf:surname>Kleinberg</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n112">
+        <foaf:givenName>Sendhil</foaf:givenName>
+        <foaf:surname>Mullainathan</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="VVP7SRWR">
+        <res:resource rdf:resource="https://hbr.org/2016/12/a-guide-to-solving-social-problems-with-machine-learning"/>
+        <z:repository>hbr.org</z:repository>
+        <z:accessDate>2021-03-21 05:21:26</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Analytics</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Government</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Social enterprise</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://hbr.org/2016/12/a-guide-to-solving-social-problems-with-machine-learning">
+        <dcterms:title>A Guide to Solving Social Problems with Machine Learning</dcterms:title>
+        <bibo:uri>https://hbr.org/2016/12/a-guide-to-solving-social-problems-with-machine-learning</bibo:uri>
+        <dcterms:abstract>Predictive technology can improve public policy â€” if we use it right.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n133"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n133"/>
+                <rdf:li rdf:nodeID="n135"/>
+                <rdf:li rdf:nodeID="n136"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n135"/>
+        <dcterms:creator rdf:nodeID="n136"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-12-08T13:05:30Z</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Magazine>
+                        <dcterms:title>Harvard Business Review</dcterms:title>
+                        <bibo:issn>0017-8012</bibo:issn>
+                    </bibo:Magazine>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n133">
+       <foaf:givenName>Jon</foaf:givenName><foaf:surname>Kleinberg</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n135">
+       <foaf:givenName>Jens</foaf:givenName><foaf:surname>Ludwig</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n136">
+        <foaf:givenName>Sendhil</foaf:givenName>
+        <foaf:surname>Mullainathan</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="QFGUAUZL">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=ZlsCGnA-vao"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-03-21 05:23:41</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=ZlsCGnA-vao">
+        <dcterms:title>Dan Weld, &quot;Challenges for Socially-Beneficial Artificial Intelligence&quot;</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=ZlsCGnA-vao</bibo:uri>
+        <dcterms:abstract>Daniel S. WeldUniversity of WashingtonStephen Hawking, Bill Gates, and other luminaries warn that an “intelligence explosion” may lead to the extinction of h...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>
+

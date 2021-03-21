@@ -1,0 +1,84 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="INT5NEFV">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=Principal_component_analysis&amp;oldid=1011022836"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-03-21 06:49:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=Principal_component_analysis&amp;oldid=1011022836">
+        <dcterms:title>Principal component analysis</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=Principal_component_analysis&amp;oldid=1011022836</bibo:uri>
+        <z:extra>Page Version ID: 1011022836</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>The principal components of a collection of points in a real p-space are a sequence of 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+   direction vectors, where the 
+  
+    
+      
+        
+          i
+          
+            th
+          
+        
+      
+    
+    {\displaystyle i^{\text{th}}}
+   vector is the direction of a line that best fits the data while being orthogonal to the first 
+  
+    
+      
+        i
+        −
+        1
+      
+    
+    {\displaystyle i-1}
+   vectors. Here, a best-fitting line is defined as one that minimizes the average squared distance from the points to the line. These directions constitute an orthonormal basis in which different individual dimensions of the data are linearly uncorrelated. Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data, sometimes using only the first few principal components and ignoring the rest.
+PCA is used in exploratory data analysis and for making predictive models. It is commonly used for dimensionality reduction by projecting each data point onto only the first few principal components to obtain lower-dimensional data while preserving as much of the data's variation as possible. The first principal component can equivalently be defined as a direction that maximizes the variance of the projected data. The 
+  
+    
+      
+        
+          i
+          
+            th
+          
+        
+      
+    
+    {\displaystyle i^{\text{th}}}
+   principal component can be taken as a direction orthogonal to the first 
+  
+    
+      
+        i
+        −
+        1
+      
+    
+    {\displaystyle i-1}
+   principal components that maximizes the variance of the projected data.
+From either objective, it can be shown that the principal components are eigenvectors of the data's covariance matrix. Thus, the principal components are often computed by eigendecomposition of the data covariance matrix or singular value decomposition of the data matrix. PCA is the simplest of the true eigenvector-based multivariate analyses and is closely related to factor analysis. Factor analysis typically incorporates more domain specific assumptions about the underlying structure and solves eigenvectors of a slightly different matrix. PCA is also related to canonical correlation analysis (CCA). CCA defines coordinate systems that optimally describe the cross-covariance between two datasets while PCA defines a new orthogonal coordinate system that optimally describes variance in a single dataset. Robust and L1-norm-based variants of standard PCA have also been proposed.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2021-03-08T16:34:19Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

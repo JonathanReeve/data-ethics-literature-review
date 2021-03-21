@@ -1,0 +1,58 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="VAF2ZXJD">
+        <res:resource rdf:resource="urn:isbn:9780262526005"/>
+        <z:repository>Gemeinsamer Bibliotheksverbund ISBN</z:repository>
+    </z:UserItem>
+    <bibo:Book rdf:about="urn:isbn:9780262526005">
+        <bibo:shortTitle>Robot ethics</bibo:shortTitle>
+        <bibo:isbn13>9780262526005</bibo:isbn13>
+        <dcterms:title>Robot ethics: the ethical and social implications of robotics</dcterms:title>
+        <bibo:edition>First MIT Press paperback edition</bibo:edition>
+        <bibo:numPages>386</bibo:numPages>
+        <dcterms:publisher>
+            <foaf:Organization>
+                <address:localityName>Cambridge, Massachusetts London, England</address:localityName>
+                <foaf:name>The MIT Press</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:date>2014</dcterms:date>
+        <dcterms:language>eng</dcterms:language>
+        <bibo:editor rdf:nodeID="n704"/>
+        <bibo:editorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n704"/>
+                <rdf:li rdf:nodeID="n706"/>
+                <rdf:li rdf:nodeID="n707"/>
+            </rdf:Seq>
+        </bibo:editorList>
+        <bibo:editor rdf:nodeID="n706"/>
+        <bibo:editor rdf:nodeID="n707"/>
+        <dcterms:isPartOf>
+            <bibo:Series>
+                <dcterms:title>Intelligent robotics and autonomous agents</dcterms:title>
+            </bibo:Series>
+        </dcterms:isPartOf>
+    </bibo:Book>
+    <foaf:Person rdf:nodeID="n704">
+       <foaf:givenName>Patrick</foaf:givenName><foaf:surname>Lin</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n706">
+       <foaf:givenName>Keith</foaf:givenName><foaf:surname>Abney</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n707">
+        <foaf:givenName>George A.</foaf:givenName>
+        <foaf:surname>Bekey</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+           <bibo:Note><z:note>Literaturangaben</z:note></bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

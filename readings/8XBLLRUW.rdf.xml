@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="8XBLLRUW">
+        <res:resource rdf:resource="http://www.theguardian.com/technology/2017/may/08/virtual-reality-religion-robots-sapiens-book"/>
+        <z:accessDate>2021-03-21 06:29:05</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.theguardian.com/technology/2017/may/08/virtual-reality-religion-robots-sapiens-book">
+        <dcterms:title>The meaning of life in a world without work</dcterms:title>
+        <bibo:uri>http://www.theguardian.com/technology/2017/may/08/virtual-reality-religion-robots-sapiens-book</bibo:uri>
+        <dcterms:abstract>As technology renders jobs obsolete, what will keep us busy? Sapiens author Yuval Noah Harari examines ‘the useless class’ and a new quest for purpose</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>the Guardian</dcterms:title>
+                <dcterms:date>2017-05-08T05:00:54.000Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

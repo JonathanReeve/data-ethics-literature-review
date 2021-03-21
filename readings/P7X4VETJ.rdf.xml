@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="P7X4VETJ">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=7Pq-S557XQU"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-03-21 06:01:26</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=7Pq-S557XQU">
+        <dcterms:title>Humans Need Not Apply</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=7Pq-S557XQU</bibo:uri>
+        <dcterms:abstract>Support Grey making videos: https://www.patreon.com/cgpgrey## Robots, Etc:Terex Port automation: http://www.terex.com/port-solutions/en/products/new-equipmen...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

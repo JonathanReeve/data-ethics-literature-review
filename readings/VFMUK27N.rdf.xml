@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="VFMUK27N">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=Arthur_Miller&amp;oldid=1011618064"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-03-21 06:50:14</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=Arthur_Miller&amp;oldid=1011618064">
+        <dcterms:title>Arthur Miller</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=Arthur_Miller&amp;oldid=1011618064</bibo:uri>
+        <z:extra>Page Version ID: 1011618064</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>Arthur Asher Miller (October 17, 1915 â€“ February 10, 2005) was an American playwright and essayist in the 20th-century American theater. Among his most popular plays are All My Sons (1947), Death of a Salesman (1949), The Crucible (1953), and A View from the Bridge (1955, revised 1956). He wrote several screenplays and was most noted for his work on The Misfits (1961). The drama Death of a Salesman has been numbered on the short list of finest American plays in the 20th century.
+Miller was often in the public eye, particularly during the late 1940s, 1950s and early 1960s. During this time, he was awarded a Pulitzer Prize for Drama, testified before the House Un-American Activities Committee, and married Marilyn Monroe. In 1980, Miller received the St. Louis Literary Award from the Saint Louis University Library Associates. He received the Prince of Asturias Award, the Praemium Imperiale prize in 2002 and the Jerusalem Prize in 2003, as well as the Dorothy and Lillian Gish Prize in 1999.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2021-03-11T22:02:56Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

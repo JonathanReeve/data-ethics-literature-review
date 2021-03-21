@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="KHHUF345">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=David_A._Freedman&amp;oldid=990438561"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-03-21 06:49:59</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=David_A._Freedman&amp;oldid=990438561">
+        <dcterms:title>David A. Freedman</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=David_A._Freedman&amp;oldid=990438561</bibo:uri>
+        <z:extra>Page Version ID: 990438561</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>David Amiel Freedman (5 March 1938 – 17 October 2008) was Professor of Statistics at the University of California, Berkeley. He was a distinguished mathematical statistician whose wide-ranging research included the analysis of martingale inequalities, Markov processes, de Finetti's theorem, consistency of Bayes estimators, sampling, the bootstrap, and procedures for testing and evaluating models. He published extensively on methods for causal inference and the behavior of standard statistical models under non-standard conditions – for example, how regression models behave when fitted to data from randomized experiments.  Freedman also wrote widely on the application—and misapplication—of statistics in the social sciences, including epidemiology, public policy, and law.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2020-11-24T13:55:44Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

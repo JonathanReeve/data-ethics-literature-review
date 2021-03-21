@@ -1,0 +1,19 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="HJCA9SYZ">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=03p2CADwGF8"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-03-21 06:50:08</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=03p2CADwGF8">
+        <dcterms:title>The Lighthill debate on Artificial Intelligence: &quot;The general purpose robot is a mirage&quot;</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=03p2CADwGF8</bibo:uri>
+        <dcterms:abstract>Historical video about artificial intelligence and how the AI winter came in the 1970sThis is the full video of the Lighthill debate on Artificial Intelligen...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>The Lighthill debate on Artificial Intelligence</bibo:shortTitle>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>
