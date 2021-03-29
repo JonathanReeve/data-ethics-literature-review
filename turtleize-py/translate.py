@@ -8,6 +8,7 @@ import re
 from bs4 import BeautifulSoup
 
 """
+Turn lots of things into RDF.
 Use the Zotero Translation Server (https://github.com/zotero/translation-server)
 via Docker.
 """
