@@ -10,10 +10,22 @@ from bs4 import BeautifulSoup
 """
 Turn lots of things into RDF.
 Use the Zotero Translation Server (https://github.com/zotero/translation-server)
-via Docker.
+via Docker to do most of it.
+
+Usage:
+
+$ python toRDF.py start
+
+$ python toRDF.py url 'https://heinonline.org/HOL/LandingPage?handle=hein.journals/wflr49&div=16&id=&page='
+
+$ python toRDF.py book "Weapons of Math Destruction"
+
+$ python toRDF.py identifier 10.1177/2053951714559253
 """
 
-def startServer():
+@cli.command()
+def start():
+    """ Start the Zotero translation server in a Docker container."""
     client = docker.from_env()
     container = client.containers.run("zotero/translation-server",
                                     detach=True, ports={1969:1969}, tty=True,
@@ -22,9 +34,12 @@ def startServer():
     while myContainer.status != 'running':
         print('Waiting for container to start...')
         sleep(1)
-    return myContainer
+    click.echo(f"Container ID: {myContainer}")
 
-def stopServer():
+@cli.command()
+@click.argument('query', nargs=1)
+def stop():
+    """ Stop the Zotero translation server."""
     myContainer.stop()
 
 def translateURL(url):
@@ -41,7 +56,7 @@ def translateURL(url):
 
 def translateJSON(zoteroJSON):
     """
-    Convert the JSON format that translateURL() returns
+    Convert the JSON format that translateURL() returns into Bibliontology RDF.
     """
     response = requests.post('http://127.0.0.1:1969/export',
                              data=zoteroJSON,
@@ -50,19 +65,15 @@ def translateJSON(zoteroJSON):
     if response.ok:
         return response.text
 
-def translateID(ident):
-    response = requests.post('http://127.0.0.1:1969/search',
-                             data=ident,
-                             params={"format": "rdf_bibliontology"},
-                             headers={"Content-Type": "text/plain"})
-    if response.ok:
-        return response.text
-
 def ident2rdf(ident):
     """
     Translate an identifier to RDF, where that identifier is one of a DOI, ISBN, arXiv ID, etc.
     """
-    zoteroJSON = translateID(ident)
+    response = requests.post('http://127.0.0.1:1969/search',
+                             data=ident,
+                             params={"format": "rdf_bibliontology"},
+                             headers={"Content-Type": "text/plain"})
+    zoteroJSON = response.text if response.ok else None
     try:
         decodedJSON = json.dumps(json.loads(zoteroJSON))
     except:
@@ -106,10 +117,11 @@ def processURLs(urls):
     print(formatIDs(allItemIDs))
 
 def writeRDF(rdf):
+    """ Write out the RDF to readings/<ID>.rdf.xml. """
     matches = re.finditer('<z:UserItem rdf:about="(.*?)">', rdf)
     itemIds = [match.group(1) for match in matches if match is not None]
     itemId = itemIds[0]
-    fn = f"{itemId}.rdf.xml"
+    fn = f"readings/{itemId}.rdf.xml"
     with open(fn, 'w') as f:
         f.write(rdf)
     print(f"Wrote {fn}")
@@ -125,6 +137,7 @@ def formatIDs(itemList):
     """
 
 def getISBN(query):
+    """ Query the Google Books API to get an ISBN for a book. """
     params = {"q": query}
     resp = requests.get('https://www.googleapis.com/books/v1/volumes', params=params)
     if resp.ok:
@@ -141,12 +154,14 @@ def getISBN(query):
 
 @click.group()
 def cli():
+    """ Translate lots of book/article identifiers into RDF."""
     pass
 
 @cli.command()
 @click.argument('URL', nargs=1)
 def url(url):
-    """Translate a URL to RDF"""
+    """Translate a URL to RDF,
+    where the URL is a link to an article or book."""
     rdf = url2rdf(url)
     writeRDF(rdf)
     click.echo(rdf)
@@ -170,13 +185,16 @@ def syllabus(url):
 @cli.command()
 @click.argument('query', nargs=1)
 def book(query):
-    """ Query Google Books for a book, and
-    try to get its ISBN. Then, turn that into RDF."""
+    """ Try to get RDF for a book, by title or similar query.
+    Uses the Google Books API.
+    """
     isbn = getISBN(query)
     print('ISBN: ', isbn)
     rdf = ident2rdf(isbn)
     click.echo(rdf)
     click.echo(writeRDF(rdf))
+
+
 
 if __name__== "__main__":
     cli()
