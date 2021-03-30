@@ -32,6 +32,7 @@ with import <nixpkgs> {};
         numpy
         toolz
         pandas
+        dominate # HTML DSL
       ];
       doCheck = false;
 
