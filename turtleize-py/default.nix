@@ -73,7 +73,28 @@ with import <nixpkgs> {};
 	    ];
 	    nativeBuildInputs = [ chromedriver ];
 	    doCheck = false;
-    }; 
+    };
+    pyvis = pkgs.python38Packages.buildPythonPackage rec {
+	    pname = "pyvis";
+	    version = "0.1.9";
+	    src = pkgs.python38Packages.fetchPypi {
+	      inherit version; inherit pname;
+	      sha256 = "+epgMCXzHwIVV2C+Y45sRD2ZIFCi5pQklvu6BYYXDL8=";
+	    };
+      buildInputs = with pkgs.python38Packages; [
+        networkx
+        jinja2
+        ipython
+        jsonpickle
+      ];
+	    progogatedBuildInputs = with pkgs.python38Packages; [
+	      networkx
+        jinja2
+        ipython
+        jsonpickle
+	    ];
+	    doCheck = false;
+    };
     customPython = pkgs.python38.buildEnv.override rec {
 	    extraLibs = with pkgs.python38Packages; [
 	      pkgs.chromedriver
@@ -97,8 +118,10 @@ with import <nixpkgs> {};
 	      selenium
 	      etudier
 	      networkx
+        jsonpickle
         docker
         click
+        pyvis
 	    ];
     };
     in 

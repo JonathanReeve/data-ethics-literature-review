@@ -2,74 +2,47 @@
 
 import rdflib
 from rdflib import Graph
+from rdflib.namespace import DC, DCTERMS, FOAF, RDF, OWL
+from rdflib import Namespace
 from rdflib.tools.rdf2dot import rdf2dot
 import dominate
 from dominate.tags import div, script, style
 from dominate.util import raw
 import json
+from pyvis.network import Network
 
 g = Graph()
-g.parse("../references.ttl", format="ttl")
+g.parse("graph.ttl", format="ttl")
 
-nodes = list(set([str(node) for node in g.all_nodes()]))
+# Get subgraph for testing purposes
 
-nodesFormatted = [{"id": n, "label": n} for n in nodes]
+wikidata = Namespace('https://wikidata.org/wiki/')
+ccso = Namespace('https://w3id.org/ccso/ccso/')
+de = Namespace('https://data-ethics.org/')
 
-jsonNodes = json.dumps(nodesFormatted)
+g.bind("foaf", FOAF)
+g.bind('ccso', ccso)
+g.bind('wikidata', wikidata)
+g.bind('owl', OWL)
+g.bind('de', de)
 
-statementDicts = []
-for stmt in g:
-    s, v, o = stmt
-    stmtDict = {"from": s, "label": v, "to": o}
-    statementDicts.append(stmtDict)
+courseUniPairs = g.query("""
+    select distinct ?name ?uniName where {
+        ?a a ccso:Course .
+        ?a ccso:csName ?name .
+        ?a ccso:offeredBy ?dept .
+        ?dept ccso:memberOf ?uni .
+        ?uni ccso:legalName ?uniName .
+    }""")
 
-jsonEdges = json.dumps(statementDicts)
+for line in courseUniPairs:
+    print(line)
 
-doc = dominate.document(title='Visualization of Data Ethics Graph')
+net = Network(height='750px', width='100%')
 
-with doc.head:
-    script(type='text/javascript',
-           src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js')
-    style("""
-        #mynetwork {
-            width: 600px;
-            height: 400px;
-            border: 1px solid lightgray;
-        }
-    """)
+for course, uni in courseUniPairs:
+    net.add_node(course, shape='square', label=str(course))
+    net.add_node(uni, shape='circle', label=str(uni))
+    net.add_edge(course, uni, title="hasCourse")
 
-with doc.body:
-    div(id='mynetwork')
-    script(raw(
-        """
-        // create an array with nodes
-        //var nodes = new vis.DataSet([
-        //    {id: 1, label: 'Node 1'},
-        //    {id: 2, label: 'Node 2'},
-        //    {id: 3, label: 'Node 3'},
-        //    {id: 4, label: 'Node 4'},
-        //    {id: 5, label: 'Node 5'}
-        //]);
-        var nodes = new vis.DataSet(%s)
-
-        // create an array with edges
-        // var edges = new vis.DataSet([
-        //     {from: 1, to: 3},
-        //     {from: 1, to: 2},
-        //     {from: 2, to: 4},
-        //     {from: 2, to: 5}
-        // ]);
-        var edges = new vis.DataSet(%s)
-
-        // create a network
-        var container = document.getElementById('mynetwork');
-
-        // provide the data in the vis format
-        var data = {nodes: nodes, edges: edges};
-        var options = {layout: {improvedLayout: false}};
-
-        // initialize your network!
-        var network = new vis.Network(container, data, options);
-        """ % (jsonNodes, jsonEdges)), type="text/javascript")
-
-print(doc)
+net.show('graph-vis.html')

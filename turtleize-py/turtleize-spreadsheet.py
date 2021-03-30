@@ -94,14 +94,15 @@ def turtleize(i, row):
     # Department
     uniNormalized = urlEncode(row['UNIVERSITY'])
     uni = URIRef(f'https://data-ethics.org/university/{uniNormalized}')
-    uniWikidata = resolveUni(row['UNIVERSITY'])
+    # uniWikidata = resolveUni(row['UNIVERSITY'])
     dept = row['DEPARTMENT']
     deptNormalized = uni + '/department/' + urlEncode(dept)
     g.add((uni, RDF.type, ccso.University))
-    g.add((uni, OWL.sameAs, uniWikidata))
+    # g.add((uni, OWL.sameAs, uniWikidata))
     g.add((ident, ccso.offeredBy, deptNormalized))
     g.add((deptNormalized, RDF.type, ccso.Department))
     g.add((deptNormalized, ccso.memberOf, uni))
+    g.add((uni, ccso.legalName, Literal(row['UNIVERSITY'])))
     # Course Name
     g.add((ident, ccso.csName, Literal(row['COURSE TITLE'])))
     # Instructors
