@@ -53,7 +53,7 @@ def getCourseUni():
         net.add_node(uni, shape='circle', label=str(uni))
         net.add_edge(course, uni, title="hasCourse")
 
-    net.show('graph-vis.html')
+    net.show('../public/graph-vis.html')
 
 def getCountryUniCourse():
     """
