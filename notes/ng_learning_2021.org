@@ -1,0 +1,16 @@
+#+TITLE: ng_learning_2021: Learning about AI with Google Brain and Landing AI founder Andrew Ng
+#+roam_key: cite:ng_learning_2021
+#+roam_tags: lit
+
+- tags ::
+- keywords ::
+
+
+* Learning about AI with Google Brain and Landing AI founder Andrew Ng
+  :PROPERTIES:
+  :Custom_ID: ng_learning_2021
+  :URL: https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine-learning-business/
+  :AUTHOR:
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

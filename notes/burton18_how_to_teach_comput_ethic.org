@@ -1,0 +1,16 @@
+#+TITLE: burton18_how_to_teach_comput_ethic: How To Teach Computer Ethics Through Science Fiction
+#+roam_key: cite:burton18_how_to_teach_comput_ethic
+#+roam_tags: lit
+
+- tags ::
+- keywords ::
+
+
+* How To Teach Computer Ethics Through Science Fiction
+  :PROPERTIES:
+  :Custom_ID: burton18_how_to_teach_comput_ethic
+  :URL: https://doi.org/10.1145/3154485
+  :AUTHOR: Burton, E., Goldsmith, J., & Mattei, N.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

@@ -1,0 +1,3 @@
+#+title: funding
+
+- [[file:20210325011541-mozilla_responsible_computer_science_challenge.org][mozilla responsible computer science challenge]]

@@ -1,0 +1,4 @@
+#+title: mozilla responsible computer science challenge
+#+roam_key: https://foundation.mozilla.org/en/what-we-fund/awards/responsible-computer-science-challenge
+
+[[https://foundation.mozilla.org/en/what-we-fund/awards/responsible-computer-science-challenge/winners/][Winners]] include Augustin Chaintreau at Columbia, who proposes to integrate an "ethical companion" directly into a computer science syllabus.

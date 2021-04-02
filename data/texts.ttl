@@ -1,0 +1,57 @@
+<http://data-ethics.org/syllabi/101> a ccso:Course ;
+    ccso:code "CS 4732" ;
+    ccso:csName "Social and Ethical Issues in AI" ;
+    ccso:description <http://courses.cornell.edu/preview_course_nopop.php?catoid=28&coid=468192> ;
+    ccso:hasInstructor "Bart Selman",
+        "Joseph Halpern" ;
+    # ccso:hasLM JKLJ5DIY , 686JLC39 , CCBTWXNE , TAE4FY79 , 4WBDBL28 , Z4BNARUX , A8KL45KE , QSTA3AC5 , QR2DAGCM , N8TRCRSC , 5WEPW7LQ , 6NTQH7CK , J78EALUM ;
+    ccso:hasSyllabus <http://www.cs.cornell.edu/courses/cs4732/2017sp/> ;
+    ccso:offeredBy <https://data-ethics.org/university/cornell-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/102> a ccso:Course ;
+    ccso:code "COMS W 3995-001" ;
+    ccso:csName "AI Safety, Ethics, and Policy" ;
+    ccso:description <http://www.cs.columbia.edu/education/courses/course/COMSW3995-1/24855/> ;
+    ccso:hasInstructor "Chad DeChant" ;
+    # Books assigned
+    # ccso:hasLM 92ZPRCWS , 9MYSTQKX , CU6XLZ4M , X83FJAMV , VAF2ZXJD , HM99RG3L ;
+    # URLs
+    # ccso:hasLM XSC3PRXU , B6UN7DZV , 389IG4DX , 85RUR75D , 5H8VQMSQ , 98KUFX43 , RWS27P9A , CPKN5GMS , M8J4IR7T , NLYF6FLG , CCJJJVVT , N6HX4DCL , 8XBLLRUW , I3ZN2W3R , KSS8FP5Q , XL7NAMRR , 7DDIWEZD , YURLE8IS , YE8VFZIL , HIRIW5VL , P7YRRDQK , JSZNSC47 , EC2JFKUD , 6HAMSQR2 , CQAEZUVN , J26NZXUV , IQ9KGD67 , VSVAD83G , S3RX6B3M , 65BVNAP4 , 6PHKYS37 , PG25DVUH , WHW96AS9 , 9GG67TB6 , I5VJKLX6 , 5VNBJ6EA , ZSUPQLZ2 , 8XNKYEX4 , 8A7BN2IT , D5IC6YMQ , 9FHF9BIE ;
+    ccso:hasSyllabus <http://www.cs.columbia.edu/~dechant/aisafety18/index.html> ;
+    ccso:offeredBy <https://data-ethics.org/university/columbia-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/103> a ccso:Course ;
+    ccso:code "CM50230 and CM30229" ;
+    ccso:csName "Intelligent Control and Cognitive Systems" ;
+    ccso:description <http://www.bath.ac.uk/catalogues/2018-2019/cm/CM50230.html> ;
+    ccso:hasInstructor "Joanna Bryson" ;
+    # Readings not accessible?
+    ccso:hasSyllabus <http://www.cs.bath.ac.uk/~jjb/here/CM50230/ai-course-sched.html> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-bath/department/computer-science> .
+
+<http://data-ethics.org/syllabi/104> a ccso:Course ;
+    ccso:code "W2901" ;
+    ccso:csName "Data: Past, Present, and Future" ;
+    ccso:description <http://scienceandsociety.columbia.edu/the-courses/hsam-2901-data-past-present-future-m-jones-c-wiggins/> ;
+    ccso:hasInstructor "Chris Wiggins",
+        "Matt Jones" ;
+    # Some books
+    # ccso:hasLM ULRKR58X , FQJBQ34I , 6JU2T97S , 3U3KDYCD , LILBD6HL , LMIBC7RA , 6WICB2JD , L9URTIW4 , GSKPCPR4 , U9CSMDWJ ;
+    # Generated from URLs
+    # ccso:hasLM HEAVZSWT , UQ6UVAK2 , Y4DM5G3Q , JKKLKRMY ,
+    #     VRKSAQXC , UXHWAL6H , S3YNBAKM , RJT3VJ7D , 3L7I55HD , E76R6R4R , AXUL6S7C ,
+    #     CEAA48QY , 6P2GQCLR , 99HTWPMH , T4LBXX6E , EWQX5ULQ , 264GUKVW , E56832B2 ,
+    #     E6PV9EYP , INT5NEFV , DRTVT8NZ , KHHUF345 , IKSUCVZV , AU2DNG2M , UP6HEJM8 ,
+    #     LICRRH83 , 98GX9WPS , LUTRH466 , PV2P8WIU , HJCA9SYZ , 4AF5DAYA , RQ5NZWRQ ,
+    #     QD2R4RP5 , BABR76K3 , ARS47ZLI , 4K8IU4RD , XJLQ9GX3 , BZ7LZNYL , M7RXXVYS ,
+    #     VFMUK27N , XXZTC4GH , APVBY69Y , HG482NI6 , 4QDH3WQF , S39IKPDH , AI55T267 ,
+    #     7PU73F8D , YRSPFLWE , 6VPZU3HR , QHAW5HS9 , JV3BCP7S , JNJV4ENQ , SHIZBUWG ,
+    #     2MIJ93BK , HT5IM7UF , 7JP3RVLP , 52KMQIJA , BJ7U33FS , IWY4WPP7 , I4SN6D6V ,
+    #     8FFFK8Y7 , 5FTD7V2X , YEAPJBQ8 , PVZXW74U , XUEZAYN7 , 9PD8RYGE , GJZ9CRLX ,
+    #     CILTJFCV , 2UITP77W , 5IQSUWKA , IXDQATPI , E82G99UP , 39PREYL3 , AXUVUILN ,
+    #     M74Z846R , 65YP87CL , T53VZDRV , VPSNULH3 ;
+    # This link is broken
+    ccso:hasSyllabus <http://www.columbia.edu/itc/applied/wiggins/ppf.pdf> ;
+    # This one works.
+    ccso:hasSyllabus <https://github.com/data-ppf/data-ppf.github.io/wiki/Syllabus> ;
+    ccso:offeredBy <https://data-ethics.org/university/columbia-university/department/history-and-applied-mathematics> .
