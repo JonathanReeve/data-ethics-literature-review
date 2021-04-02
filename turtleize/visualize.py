@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+Visualize some of the graph.
+
+"""
 import rdflib
 from rdflib import Graph
 from rdflib.namespace import DC, DCTERMS, FOAF, RDF, OWL
@@ -12,7 +16,7 @@ import json
 from pyvis.network import Network
 
 g = Graph()
-g.parse("graph.ttl", format="ttl")
+g.parse("../data/courses.ttl", format="ttl")
 
 # Get subgraph for testing purposes
 

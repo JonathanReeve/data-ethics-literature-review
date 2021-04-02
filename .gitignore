@@ -1,4 +1,3 @@
-node_modules
 org-roam.db
 papers/
-.next/
+**/__pycache__/
