@@ -95,6 +95,27 @@ with import <nixpkgs> {};
 	    ];
 	    doCheck = false;
     };
+    wptools = pkgs.python38Packages.buildPythonPackage rec {
+	    pname = "wptools";
+	    version = "0.4.17";
+	    src = pkgs.python38Packages.fetchPypi {
+	      inherit version; inherit pname;
+	      sha256 = "b3ftoPGc3Q4+McZ1n9GLqh/vE1dmjpg489I4BFG4PiY=";
+	    };
+      buildInputs = with pkgs.python38Packages; [
+        certifi
+        html2text
+        lxml
+        pycurl
+      ];
+      propogatedBuildInputs = with pkgs.python38Packages; [
+        certifi
+        html2text
+        lxml
+        pycurl
+      ];
+	    doCheck = false;
+    };
     customPython = pkgs.python38.buildEnv.override rec {
 	    extraLibs = with pkgs.python38Packages; [
 	      pkgs.chromedriver
@@ -122,6 +143,9 @@ with import <nixpkgs> {};
         docker
         click
         pyvis
+        pycurl
+        html2text
+        wptools
 	    ];
     };
     in 

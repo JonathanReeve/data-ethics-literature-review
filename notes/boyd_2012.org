@@ -1,23 +1,17 @@
 #+TITLE: boyd_2012: Critical questions for big data
 #+roam_key: cite:boyd_2012
 #+roam_tags: lit
+#+wikidata: https://www.wikidata.org/wiki/Q27972298
 
-* Critical Questions for Big Data
+- tags ::
+- keywords ::
+
+
+* Critical questions for big data
   :PROPERTIES:
   :Custom_ID: boyd_2012
   :URL: http://dx.doi.org/10.1080/1369118X.2012.678878
-  :AUTHOR:   boyd, danah and Crawford, Kate
-  :NOTER_DOCUMENT: ../papers/boyd_2012.pdf
-  :NOTER_PAGE: 1
-  :TITLE:    Critical Questions for Big Data
-  :BTYPE:    article
-  :YEAR:     2012
-  :VOLUME:   15
-  :NUMBER:   5
-  :MONTH:    Jun
-  :PAGES:    662–679
-  :ISSN:     1468-4462
-  :DOI:      10.1080/1369118x.2012.678878
-  :JOURNAL:  Information, Communication & Society
-  :PUBLISHER: Informa UK Limited
+  :AUTHOR: boyd, d., & Crawford, K.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
   :END:

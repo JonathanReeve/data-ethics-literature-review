@@ -26,23 +26,41 @@ g.bind('wikidata', wikidata)
 g.bind('owl', OWL)
 g.bind('de', de)
 
-courseUniPairs = g.query("""
-    select distinct ?name ?uniName where {
-        ?a a ccso:Course .
-        ?a ccso:csName ?name .
-        ?a ccso:offeredBy ?dept .
-        ?dept ccso:memberOf ?uni .
-        ?uni ccso:legalName ?uniName .
-    }""")
+def getCourseUni():
+    """
+    Visualize course-university pairs.
+    """
+    courseUniPairs = g.query("""
+        select distinct ?name ?uniName where {
+            ?a a ccso:Course .
+            ?a ccso:csName ?name .
+            ?a ccso:offeredBy ?dept .
+            ?dept ccso:memberOf ?uni .
+            ?uni ccso:legalName ?uniName .
+        }""")
 
-for line in courseUniPairs:
-    print(line)
+    for line in courseUniPairs:
+        print(line)
 
-net = Network(height='750px', width='100%')
+    net = Network(height='750px', width='100%')
 
-for course, uni in courseUniPairs:
-    net.add_node(course, shape='square', label=str(course))
-    net.add_node(uni, shape='circle', label=str(uni))
-    net.add_edge(course, uni, title="hasCourse")
+    for course, uni in courseUniPairs:
+        net.add_node(course, shape='square', label=str(course))
+        net.add_node(uni, shape='circle', label=str(uni))
+        net.add_edge(course, uni, title="hasCourse")
 
-net.show('graph-vis.html')
+    net.show('graph-vis.html')
+
+def getCountryUniCourse():
+    """
+    Make a country-university-course graph.
+    TODO
+    """
+    countryUniCourse = g.query("""
+        select distinct ?name ?uniName where {
+            ?a a ccso:Course .
+            ?a ccso:csName ?name .
+            ?a ccso:offeredBy ?dept .
+            ?dept ccso:memberOf ?uni .
+            ?uni ccso:legalName ?uniName .
+        }""")

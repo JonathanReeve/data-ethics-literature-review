@@ -1,19 +1,19 @@
 * Data Ethics Literature Review
 
-This is research project to survey academic literature surrounding ethics in data and data science.
+This is research project to survey academic literature, courses, and other materials related to ethics in data science. Work-in-progress.
 
 * Goals
 
 Goals of this research project include:
 
- - production of a website to display this collection
- - production of a course syllabus
+ - production of a website to display a navigable collection of courses,
+ - production of a sample course syllabus
 
 * Structure of this Repository
 
 This is an [[https://github.com/org-roam][org-roam]] [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten]], or a graph of interconnected notes representing our knowledge graph. It uses [[https://github.com/rasendubi/uniorg/tree/master/examples/org-braindump][org-braindump]] for making a website out its plain text files.
 
-~/public/~: contains notes for each source. A source can be an article, web page, blog post, book, or similar source. Each source has a single file which contains notes and metadata for that source. Each file is an org-roam / [[https://orgmode.org/][org-mode]] file, named according to its bibliography key, as defined in ~bibliography.bib~.
+~/notes/~: an [[https://github.com/org-roam][org-roam]] [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten]], containing notes for each source in the bibliography, and for additional concept notes, as needed.
 ~/papers~: contains PDFs of papers themselves, if available. Each paper should be named according to its bibliographic key. These may be withheld from the Git repository, for the moment.
 ~bibliography.bib~: a BibLaTeX file containing the bibliography.
 ~index.org~: the starting-point for the website.
@@ -30,3 +30,21 @@ Everything is a note. Notes can be:
  - Course / syllabus notes, tagged with ~course~.
    + Each has a top-level heading containing metadata about the course.
    + May contain links to literature that appears on the syllabus.
+
+* Project Abstract
+
+** Proposed title:  Teaching Data Ethics on the Bleeding Edge
+
+Jonathan Reeve
+Department of English and Comparative Literature
+Columbia University
+
+Isabelle Zaugg
+Data Science Institute and Institute for Comparative Literature and Society
+Columbia University
+
+Tian Zheng
+Department of Statistics and Data Science Institute
+Columbia University
+
+From the spread of disinformation via social media, to class-biased dynamic pricing, to racial profiling in online systems that lead to “real-world” harms, teaching data ethics has never been more urgently needed in the data science curriculum.  This article conducts a thorough review of the literature on data ethics and explores current trends among syllabi on the topic.  It analyzes the overlaps and divides between various approaches to data ethics, from FAT (Fairness, Accountability, Transparency), to the Public Interest Technology movement, to calls to reimagine “digital justice” from Critical Race and Digital Studies scholars such as Ruha Benjamin, to the way classical philosophical texts on ethics from different cultural contexts are being applied to the digital age.  Besides a traditional literature review, we also present a data visualization of the relationship between different approaches to data ethics through a zettelkasten graphic, an interconnected web of literature clustered by shared concepts and cross-citations.  Finally, we propose next steps in defining a cutting-edge approach to teaching data ethics that takes into account diverse understandings of the topic within the urgency of the moment. This approach will not only familiarize students with data ethics theories, but will push them to recognize a horizon of possible solutions and build a foundation of computational literacy to explore solutions in practice.
