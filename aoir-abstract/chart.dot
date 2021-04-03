@@ -1,0 +1,25 @@
+digraph {
+    UniversityA[shape=box3d]
+    UniversityA -> CourseA [label="offersCourse"]
+    UniversityA -> CourseB [label="offersCourse"]
+    # To refactor nodes, place the cursor left to a node name
+    CourseA[shape=box]
+
+    CourseA -> SyllabusA [label="hasSyllabus"]
+
+    SyllabusA -> TextA [label="hasLearningMaterial"]
+    TextA -> TextB [label="cites"]
+    TextA -> TextC [label="cites"]
+
+    CourseB[shape=box]
+    CourseB -> SyllabusB [label="hasSyllabus"]
+    SyllabusB -> TextC [label="hasLearningMaterial"]
+    SyllabusA[shape=folder]
+    SyllabusB[shape=folder]
+    TextA [shape=note]
+    TextB [shape=note]
+    TextC [shape=note]
+    TextA -> JournalA [label="publishedIn"]
+    JournalA[shape=cylinder]
+    TextB -> JournalA [label="publishedIn"]
+}
