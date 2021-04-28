@@ -1,0 +1,49 @@
+* Setup
+
+1. Make sure you have the [[https://nixos.org/][Nix Package Manager]] installed, or that you're running NixOS, either on your computer, or in VirtualBox.
+2. Enter this directory: ~cd turtleize~
+3. Run ~nix-shell~, which will load the environment from ~default.nix~. Alternatively, install [[https://direnv.net/][direnv]], which will automatically run ~nix-shell~ each time you enter the directory, using its ~.envrc~.
+
+* Usage
+
+~toRDF.py~ uses the Zotero translation Docker image to handle resolving bibliographic entities. To use it, first [[https://www.docker.com/get-started][install Docker.]] Then, run:
+
+#+BEGIN_SRC sh
+python toRDF.py start
+#+END_SRC
+
+You can get help on the usage of ~toRDF.py~ with:
+
+#+BEGIN_SRC sh
+python toRDF.py --help
+#+END_SRC
+
+Get RDF for a text, from its URL:
+
+#+BEGIN_SRC sh
+python toRDF.py url 'https://heinonline.org/HOL/LandingPage?handle=hein.journals/wflr49&div=16&id=&page='
+#+END_SRC
+
+Get RDF for a book, from a book query (e.g. title):
+
+#+BEGIN_SRC sh
+python toRDF.py book "Weapons of Math Destruction"
+#+END_SRC
+
+Get RDF for a text from its DOI:
+
+#+BEGIN_SRC sh
+python toRDF.py identifier 10.1177/2053951714559253
+#+END_SRC
+
+Get RDF for all the texts in a syllabus, from the syllabus URL:
+
+#+BEGIN_SRC sh
+python toRDF.py syllabus 'https://example.org/some-syllabus.html'
+#+END_SRC
+
+Visualize a network, writing HTML to ~public/graph-vis.html~:
+
+#+BEGIN_SRC sh
+python visualize.py
+#+END_SRC

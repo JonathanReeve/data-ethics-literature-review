@@ -150,5 +150,5 @@ with import <nixpkgs> {};
     };
     in 
     pkgs.mkShell { 
-      buildInputs = [ customPython chromedriver ];
+      buildInputs = [ customPython chromedriver docker ];
     })

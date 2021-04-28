@@ -1,6 +1,14 @@
 * Data Ethics Literature Review
 
-This is research project to survey academic literature, courses, and other materials related to ethics in data science. Work-in-progress.
+This is research project to survey academic literature, courses, and other materials related to ethics in data science.
+
+Very much a work-in-progress.
+
+We use semantic web technologies to chart:
+
+ - Courses in data ethics
+ - Texts in data ethics
+ - Relations between the above
 
 * Goals
 
@@ -11,10 +19,19 @@ Goals of this research project include:
 
 * Structure of this Repository
 
-~/aoir-abstract/~: abstract for the project, for the AoIR conference.
-~/data/~: this contains the main graph data, in [[https://www.w3.org/TR/turtle/][Turtle]]-format [[https://en.wikipedia.org/wiki/Resource_Description_Framework][RDF]].
-~/notes/~: an [[https://github.com/org-roam][org-roam]] [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten]], containing mostly hand-written notes for each source in the bibliography, and for additional concept notes, as needed.
-~/papers~: contains PDFs of papers themselves, if available. Each paper should be named according to its bibliographic key. These may be withheld from the Git repository, for the moment.
-~/turtleize/~: a set of Python scripts for generating the graph, manipulating the data, and visualizing it.
-~bibliography.bib~: a BibLaTeX file containing the bibliography.
+- ~/aoir-abstract/~: abstract for the project, for the AoIR conference.
+- ~/data/~: this contains the main graph data, in [[https://www.w3.org/TR/turtle/][Turtle]]-format [[https://en.wikipedia.org/wiki/Resource_Description_Framework][RDF]].
+- ~/notes/~: an [[https://github.com/org-roam][org-roam]] [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten]], containing mostly hand-written notes for each source in the bibliography, and for additional concept notes, as needed.
+- ~/papers~: contains PDFs of papers themselves, if available. Each paper should be named according to its bibliographic key. These may be withheld from the Git repository, for the moment.
+- ~/turtleize/~: a set of Python scripts for generating the graph, manipulating the data, and visualizing it.
+- ~bibliography.bib~: a BibLaTeX file containing the bibliography.
 
+* Hacking
+
+To run the code in this project:
+
+1. Install the [[https://nixos.org/][Nix Package Manager]].
+2. Enter the ~turtleize~ directory: ~cd turtleize~
+3. Run ~nix-shell~, which will load the environment from ~default.nix~.
+
+See [[./turtleize/README.org][the README in the turtleize/ directory for more details.]]
