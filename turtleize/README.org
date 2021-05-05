@@ -4,9 +4,17 @@
 2. Enter this directory: ~cd turtleize~
 3. Run ~nix-shell~, which will load the environment from ~default.nix~. Alternatively, install [[https://direnv.net/][direnv]], which will automatically run ~nix-shell~ each time you enter the directory, using its ~.envrc~.
 
+* Contents
+
+- ~tech-ethics-courses.csv~: a dump of the crowdsourced courses list gathered by [[https://cfiesler.medium.com/tech-ethics-curricula-a-collection-of-syllabi-3eedfb76be18][this research project]]
+- ~turtleize-spreadsheet.py~: a script for transforming the CSV into RDF
+- ~toRDF.py~: a command-line program for transforming all kinds of text identifiers into RDF
+
 * Usage
 
-~toRDF.py~ uses the Zotero translation Docker image to handle resolving bibliographic entities. To use it, first [[https://www.docker.com/get-started][install Docker.]] Then, run:
+~toRDF.py~
+
+It the Zotero translation Docker image to handle resolving bibliographic entities. To use it, first [[https://www.docker.com/get-started][install Docker.]] Then, run:
 
 #+BEGIN_SRC sh
 python toRDF.py start
