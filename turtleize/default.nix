@@ -107,15 +107,41 @@ with import <nixpkgs> {};
         html2text
         lxml
         pycurl
+        filelock
       ];
-      propogatedBuildInputs = with pkgs.python38Packages; [
+      propagatedBuildInputs = with pkgs.python38Packages; [
         certifi
         html2text
         lxml
         pycurl
+        filelock
       ];
 	    doCheck = false;
     };
+    urlextract = pkgs.python38Packages.buildPythonPackage rec {
+	    pname = "urlextract";
+	    version = "1.2.0";
+	    src = pkgs.python38Packages.fetchPypi {
+	      inherit version; inherit pname;
+	      sha256 = "0xg2jwjyqb42fnxw41g3zznyi9b27j4iikf8l8byj2sycp6qh51q";
+	    };
+      buildInputs = with pkgs.python38Packages; [
+        idna
+        uritools
+        appdirs
+        dnspython
+        filelock
+      ];
+      propagatedBuildInputs = with pkgs.python38Packages; [
+        idna
+        uritools
+        appdirs
+        dnspython
+        filelock
+      ];
+	    doCheck = false;
+    };
+
     customPython = pkgs.python38.buildEnv.override rec {
 	    extraLibs = with pkgs.python38Packages; [
 	      pkgs.chromedriver
@@ -146,6 +172,9 @@ with import <nixpkgs> {};
         pycurl
         html2text
         wptools
+        urlextract
+        filelock
+        pytest
 	    ];
     };
     in 
