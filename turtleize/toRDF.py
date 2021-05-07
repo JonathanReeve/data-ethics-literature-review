@@ -23,6 +23,11 @@ $ python toRDF.py book "Weapons of Math Destruction"
 $ python toRDF.py identifier 10.1177/2053951714559253
 """
 
+@click.group()
+def cli():
+    """ Translate lots of book/article identifiers into RDF."""
+    pass
+
 @cli.command()
 def start():
     """ Start the Zotero translation server in a Docker container."""
@@ -94,11 +99,19 @@ def url2rdf(url):
     return translateJSON(decodedJSON)
 
 def getSyllabus(url):
-    resp = requests.get(url)
-    if resp.ok:
-        return resp.text
+    # TODO: handle PDF syllabi
+    if url.endswith('.pdf'):
+        # 1. Download PDF
+        # 2. Convert to text
+        return # TODO
+    elif url.endswith('.htm') or url.endswith('.html'):
+        resp = requests.get(url)
+        if resp.ok:
+            return resp.text
+        else:
+            exit(f"Couldn't download syllabus html. Response: {resp.status}")
     else:
-        exit("Response not OK.")
+        exit(f"Unknown syllabus format: {url}")
 
 def getURLs(html):
     soup = BeautifulSoup(html)
@@ -151,11 +164,23 @@ def getISBN(query):
         print("Something went wrong with this query.")
         print(resp)
 
+def lookupORCID(familyName, givenNames, uni):
+    """
+    Look up an ORCID, given name and affiliation of instructor.
+    See API documentation here:
+    https://info.orcid.org/documentation/api-tutorials/api-tutorial-searching-the-orcid-registry/#easy-faq-2532
+    """
+    baseURL = "https://pub.orcid.org/v3.0/search/"
+    params = {"q": " AND ".join([f"family-name:{familyName}",
+                                 f"given-names:{givenNames}",
+                                 f"affiliation-org-name:{uni}"])
+              }
+    headers={"Content-Type": "application/json"}
+    response = requests.get(baseURL, params=params, headers=headers)
+    return json.loads(response.text)
 
-@click.group()
-def cli():
-    """ Translate lots of book/article identifiers into RDF."""
-    pass
+
+
 
 @cli.command()
 @click.argument('URL', nargs=1)
@@ -198,3 +223,4 @@ def book(query):
 
 if __name__== "__main__":
     cli()
+    # lookupORCID("johnson")
