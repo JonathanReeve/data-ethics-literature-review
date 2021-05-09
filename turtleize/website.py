@@ -49,11 +49,19 @@ def scaffold(contents):
             ))
 
 def courseList(data):
-    out = ul([li(uni, ul(li(data[uni][0]))) for uni in data])
-    return out
+    uniList = ul(cls="universities")
+    for uni in data:
+        courses = data[uni]
+        uniLi = uniList.add(li(uni, cls="university"))
+        courseList = uniLi.add(ul(cls="courseList"))
+        for course in courses:
+            courseName, instFN, instGN = course
+            name = f"{instGN} {instFN}"
+            courseList.add(li(span(courseName, cls="courseName"),
+                        span(", "),
+                        span(name, cls="instName"),
+                        cls="course"))
+    return uniList
 
-unis = [li(str(uni)) for uni in byUniversity]
 
 print(scaffold(courseList(byUniversity)))
-
-# print(scaffold(courseList(byUniversity)))
