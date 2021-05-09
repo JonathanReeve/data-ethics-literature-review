@@ -3134,7 +3134,7 @@ dePerson:ross-anderson foaf:familyName "Anderson" ;
     ccso:worksFor deUniversity:university-of-cambridge ;
     ns1:ORCID "https://orcid.org/0000-0002-0558-7563" .
 
-dePerson:russ-altman foaf:familypython testing frameworkName "Altman" ;
+dePerson:russ-altman foaf:familyName "Altman" ;
     foaf:givenName "Russ" ;
     ccso:worksFor deUniversity:it-university-of-copenhagen .
 

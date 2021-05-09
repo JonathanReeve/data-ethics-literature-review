@@ -171,6 +171,7 @@ with import <nixpkgs> {};
         pyvis
         pycurl
         html2text
+        pdftotext
         wptools
         urlextract
         filelock
