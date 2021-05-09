@@ -1,6 +1,7 @@
 @prefix ccso: <https://w3id.org/ccso/ccso/> .
 @prefix deCourse: <https://data-ethics.tech/course/> .
 @prefix dePerson: <https://data-ethics.tech/person/> .
+@prefix deText: <https://data-ethics.tech/text/> .
 @prefix deUniversity: <https://data-ethics.tech/university/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns1: <https://w3id.org/reproduceme#> .
@@ -11,9 +12,9 @@
 deCourse:0 a ccso:Course ;
     ccso:code "STS 3284" ;
     ccso:csName "Technology and Disability" ;
-    ccso:description <techanddisability.com> ;
+    ccso:description <file:///home/jon/Code/data-ethics-literature-review/data/techanddisability.com> ;
     ccso:hasInstructor dePerson:ashley-shew ;
-    ccso:hasSyllabus <techanddisability.com> ;
+    ccso:hasSyllabus <file:///home/jon/Code/data-ethics-literature-review/data/techanddisability.com> ;
     ccso:offeredBy <https://data-ethics.tech/university/virginia-tech/department/science%2C-technology%2C-and-society> .
 
 deCourse:1 a ccso:Course ;
@@ -40,6 +41,29 @@ deCourse:100 a ccso:Course ;
     ccso:csName "Ethics in an Age of Technology" ;
     ccso:hasInstructor <https://data-ethics.tech/person/others.>,
         <https://data-ethics.tech/person/varies%3B-phillip-rogaway> ;
+    ccso:hasLM deText:5B5QIT3E,
+        deText:733MSYFE,
+        deText:7XWC72XM,
+        deText:8RBXJET5,
+        deText:A5CWI4GU,
+        deText:BWHHDVV9,
+        deText:CNF99UC3,
+        deText:DWMLRG2G,
+        deText:EKZDF23X,
+        deText:EPVE4VTS,
+        deText:FEJ5DP8Q,
+        deText:GG57FWU9,
+        deText:GT5AN3R4,
+        deText:HS2ZYIYV,
+        deText:HSL2846M,
+        deText:JLISR3MW,
+        deText:K7KM7663,
+        deText:PSBZUT78,
+        deText:W22YNG68,
+        deText:WDSYBRFZ,
+        deText:X8SSWRED,
+        deText:XVZY4ZTG,
+        deText:ZJKYKT26 ;
     ccso:hasSyllabus <http://www.cs.ucdavis.edu/blog/ecs-188-ethics-age-technology/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/uc-davis/department/computer-science> .
@@ -50,6 +74,19 @@ deCourse:101 a ccso:Course ;
     ccso:description <http://courses.cornell.edu/preview_course_nopop.php?catoid=28&coid=468192> ;
     ccso:hasInstructor dePerson:bart-selman,
         dePerson:joseph-halpern ;
+    ccso:hasLM deText:8XFCT6L8,
+        deText:9ZYRTP7N,
+        deText:BPUE8U3F,
+        deText:C827DWIZ,
+        deText:DSDCMCD7,
+        deText:G55ZDHD8,
+        deText:GB46KV9E,
+        deText:J8H6G872,
+        deText:JXFVLEKX,
+        deText:L3IBSQ5N,
+        deText:SXCIUTRD,
+        deText:TXQIK4ZQ,
+        deText:VD24WT5Y ;
     ccso:hasSyllabus <http://www.cs.cornell.edu/courses/cs4732/2017sp/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/cornell-university/department/computer-science> .
@@ -59,6 +96,13 @@ deCourse:102 a ccso:Course ;
     ccso:csName "AI Safety, Ethics, and Policy" ;
     ccso:description <http://www.cs.columbia.edu/education/courses/course/COMSW3995-1/24855/> ;
     ccso:hasInstructor dePerson:chad-dechant ;
+    ccso:hasLM deText:77E6P4LX,
+        deText:AAQL8VD6,
+        deText:D89AF4IT,
+        deText:H99JMQCT,
+        deText:HZL292YQ,
+        deText:MXHCYCBL,
+        deText:WXEKEDUB ;
     ccso:hasSyllabus <http://www.cs.columbia.edu/~dechant/aisafety18/index.html> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/columbia-university/department/computer-science> .
@@ -69,6 +113,14 @@ deCourse:103 a ccso:Course ;
     ccso:csName "Intelligent Control and Cognitive Systems" ;
     ccso:description <http://www.bath.ac.uk/catalogues/2018-2019/cm/CM50230.html> ;
     ccso:hasInstructor dePerson:joanna-bryson ;
+    ccso:hasLM deText:39UHZQBW,
+        deText:3TJRT9QA,
+        deText:BZ5BB3IB,
+        deText:ILVKCIQ4,
+        deText:JX3X42F5,
+        deText:P29ZSN96,
+        deText:T6UH4KIW,
+        deText:VMVQ6BJT ;
     ccso:hasSyllabus <http://www.cs.bath.ac.uk/~jjb/here/CM50230/ai-course-sched.html> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-bath/department/computer-science> .
@@ -104,6 +156,25 @@ deCourse:107 a ccso:Course ;
     ccso:code "CS 122" ;
     ccso:csName "Artificial Intelligence - Philosophy, Ethics, and Impact" ;
     ccso:hasInstructor dePerson:jerry-kaplan ;
+    ccso:hasLM deText:2YFU9ZHW,
+        deText:6MAU6PPG,
+        deText:6RXN67X4,
+        deText:922QZMCT,
+        deText:B9II22MI,
+        deText:DLXEQ92I,
+        deText:DYDESSNC,
+        deText:EJCC8Y6Q,
+        deText:F3EZU9CI,
+        deText:FIQUBKBM,
+        deText:H7UB5B75,
+        deText:IYKZV5SQ,
+        deText:JL97BJIP,
+        deText:P7Y2YD9F,
+        deText:PPZ66FMY,
+        deText:VSP33AH9,
+        deText:Y727NT54,
+        deText:Z7ILHASV,
+        deText:ZSJ2BYKF ;
     ccso:hasSyllabus <http://web.stanford.edu/class/cs122/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/computer-science> .
@@ -139,6 +210,48 @@ deCourse:11 a ccso:Course ;
 deCourse:110 a ccso:Course ;
     ccso:csName "Sociology of Virtual Communities and Social Media" ;
     ccso:hasInstructor dePerson:stuart-geiger ;
+    ccso:hasLM deText:2NW8TTGQ,
+        deText:3EB38XEF,
+        deText:4GFV6FZI,
+        deText:4HSD2U2G,
+        deText:4TJ48ZFG,
+        deText:5W48XYEZ,
+        deText:6G9ZXS8W,
+        deText:6RFFY6MJ,
+        deText:6XLVVPIM,
+        deText:8B68LZAY,
+        deText:BEJPFUJF,
+        deText:CK2KUYG9,
+        deText:D5K86KLY,
+        deText:DJHEJU4Z,
+        deText:EG57T766,
+        deText:GDZXLYVI,
+        deText:GW4N9EB6,
+        deText:GZUNIXCU,
+        deText:HMNH5JFU,
+        deText:ISUCWRZD,
+        deText:J4PWTQH8,
+        deText:KS7XV7WD,
+        deText:KWYFNMD3,
+        deText:LXGSXNDJ,
+        deText:MNQKARKP,
+        deText:NRDXD8QH,
+        deText:NZJS9ML2,
+        deText:P5RZ4XG8,
+        deText:PEUN88MG,
+        deText:PPN663KK,
+        deText:PT6SKJTD,
+        deText:QERN5E69,
+        deText:RQTEY9SJ,
+        deText:RRMLYFDF,
+        deText:RTU3T3GN,
+        deText:SMRI524T,
+        deText:SUX4LIZ8,
+        deText:U5G4SRI6,
+        deText:V97PSN8S,
+        deText:ZNEG6P4K,
+        deText:ZWVRA7DM,
+        deText:ZZQTFNR4 ;
     ccso:hasSyllabus <http://stuartgeiger.com/teaching/summer14-sociology-social-media> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/uc-berkeley/department/sociology> .
@@ -167,6 +280,111 @@ deCourse:113 a ccso:Course ;
     ccso:csName "Social Issues of Information" ;
     ccso:description <https://www.ischool.berkeley.edu/courses/info/203> ;
     ccso:hasInstructor dePerson:jenna-burrell ;
+    ccso:hasLM deText:2B8PVXRV,
+        deText:2D4WCVWM,
+        deText:2K44ISRR,
+        deText:3FH2DGEX,
+        deText:3IAMZBUM,
+        deText:3SC27IHW,
+        deText:3TWYRGLR,
+        deText:3US9FCAC,
+        deText:4N54VHD8,
+        deText:4STAWF8B,
+        deText:53XD6FUK,
+        deText:5EKR9EAQ,
+        deText:5IG5CDKT,
+        deText:5QP9XQLR,
+        deText:5VPJWYJK,
+        deText:5YJMPAEW,
+        deText:64FBLPZV,
+        deText:68MVEVZA,
+        deText:6QSLYMZ2,
+        deText:6U5MLZHH,
+        deText:6VYXGJ5A,
+        deText:6WGKSPYQ,
+        deText:6ZJDQV2N,
+        deText:7B85DA4S,
+        deText:7BQWJV8E,
+        deText:7JPGYJGS,
+        deText:8J4GPS4P,
+        deText:8MJWEIFD,
+        deText:8QKRVX38,
+        deText:8SJXW2IK,
+        deText:9FFPTUAS,
+        deText:9R6Z9CK8,
+        deText:ACVMUH65,
+        deText:AQ83KTWE,
+        deText:B3DTP3PY,
+        deText:BEAZX2HI,
+        deText:BQK4SYNK,
+        deText:C78IF9CV,
+        deText:CK8PQ97B,
+        deText:CRDYM35R,
+        deText:D785GDQM,
+        deText:D7ZSCIEN,
+        deText:DGMSBUXZ,
+        deText:DS98K659,
+        deText:E3F2IBC5,
+        deText:E77RTBA2,
+        deText:EBFDG7J6,
+        deText:EHLNLWTR,
+        deText:EKAKDJQJ,
+        deText:EN55FUSZ,
+        deText:ESK4N97T,
+        deText:ET3QRCFB,
+        deText:FECFLRE2,
+        deText:FFJ2868Z,
+        deText:G96EW5N7,
+        deText:GGAHS4AT,
+        deText:GGNRVB8K,
+        deText:GIE6VG4E,
+        deText:H2UFYPT2,
+        deText:H5LYHFRQ,
+        deText:HZV9YAL2,
+        deText:I5HXQ9LR,
+        deText:INZ9GWSS,
+        deText:ISEUYEB4,
+        deText:J3ZDDWU8,
+        deText:JH4KEZ6Z,
+        deText:JMQ7TYNA,
+        deText:KB3W7G5V,
+        deText:KQDV4MVS,
+        deText:KQNXBS6G,
+        deText:KUNVCBXB,
+        deText:KVH5DWXF,
+        deText:LFF9RLWJ,
+        deText:LNTE8297,
+        deText:LYKGB52I,
+        deText:M9K32HLT,
+        deText:MIFBZ29X,
+        deText:MRYEYHG3,
+        deText:MXJF79X3,
+        deText:N2AP796S,
+        deText:NSYE9NQ3,
+        deText:PKE4SYDU,
+        deText:PQ2U7SMT,
+        deText:PRXYGQVI,
+        deText:PU5TME97,
+        deText:PX8QFE2Q,
+        deText:QINN823H,
+        deText:QRBZFR4C,
+        deText:RCJ66U4L,
+        deText:RDRVQQB2,
+        deText:RNHQYPAC,
+        deText:TN9LECLY,
+        deText:TYHYX6WX,
+        deText:UISVGK8T,
+        deText:UZRCUFA3,
+        deText:V84E6E26,
+        deText:VA6PIIVE,
+        deText:VWA9RTUN,
+        deText:W5REBLFT,
+        deText:WRRZBAYW,
+        deText:YEZYP6G6,
+        deText:Z3E4GGIR,
+        deText:ZL8AQWEZ,
+        deText:ZMECWQP9,
+        deText:ZR7ITRC8 ;
     ccso:hasSyllabus <http://people.ischool.berkeley.edu/~jenna/?page_id=779> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -179,6 +397,44 @@ deCourse:114 a ccso:Course ;
     ccso:csName "Designing Field Experiments at Scale" ;
     ccso:description <https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=014524&term=1184> ;
     ccso:hasInstructor dePerson:dr.-j.-nathan-matias ;
+    ccso:hasLM deText:2F849PLS,
+        deText:2QJRTCLW,
+        deText:3GRA4U6Y,
+        deText:7IYGHPRB,
+        deText:8JRIL4AG,
+        deText:93TX793D,
+        deText:98P3D3XK,
+        deText:9HVFEXQC,
+        deText:B5RWBVF3,
+        deText:B74UB59I,
+        deText:BE9Z7QU6,
+        deText:BKHB6MIH,
+        deText:BTZ3CQVJ,
+        deText:DMVBZTDR,
+        deText:EJWCCZI8,
+        deText:ER4CPFR3,
+        deText:FBT45DTY,
+        deText:FXS37NQI,
+        deText:GKFGCVX5,
+        deText:GMEHCKN3,
+        deText:GX7655CN,
+        deText:HPUNJBWQ,
+        deText:HRGSSC8M,
+        deText:IE2NLTJI,
+        deText:JGLB3PX4,
+        deText:K2ENXR6Z,
+        deText:KEUJJQN4,
+        deText:KKSE2UWP,
+        deText:KZQL73ZI,
+        deText:NCGS6CMT,
+        deText:QTW394D4,
+        deText:TWA2P2ED,
+        deText:WTV5ZLBR,
+        deText:WXAUEGT6,
+        deText:XCKSXYKP,
+        deText:XWE9CLMX,
+        deText:YS9CZ6RS,
+        deText:Z2TI522G ;
     ccso:hasSyllabus <http://natematias.com/courses/soc412/syllabus.html> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/nan/department/sociology%2C-center-for-it-policy> .
@@ -195,6 +451,11 @@ deCourse:115 a ccso:Course ;
 deCourse:116 a ccso:Course ;
     ccso:csName "Media Ethics Leadership" ;
     ccso:hasInstructor dePerson:jason-ohler ;
+    ccso:hasLM deText:GINKJZHZ,
+        deText:IDPVWXAE,
+        deText:K6G8Z4YX,
+        deText:QBEETF9E,
+        deText:XKKKCVJ5 ;
     ccso:hasSyllabus <http://mediaethics2017.weebly.com/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -214,6 +475,81 @@ deCourse:118 a ccso:Course ;
     ccso:csName "Social Implications of Computer Technology" ;
     ccso:description <https://www2.eecs.berkeley.edu/Courses/CS195/> ;
     ccso:hasInstructor dePerson:various ;
+    ccso:hasLM deText:22FCZE6N,
+        deText:29G3KBUQ,
+        deText:2H483RUV,
+        deText:2XGJZQLD,
+        deText:35UY85XY,
+        deText:3P6N2ZTB,
+        deText:3XSZIH2R,
+        deText:442YLVEW,
+        deText:4CQ7VQ8B,
+        deText:5NLU3ZSG,
+        deText:6TZIZYE5,
+        deText:6VLQFPV4,
+        deText:6XYHAQYI,
+        deText:79S4DK62,
+        deText:7MJ4Q376,
+        deText:7S6S9TFJ,
+        deText:7T9P98BV,
+        deText:7Z6EERYH,
+        deText:88XQH6ZQ,
+        deText:8RL7Y4D5,
+        deText:9I2IRQ56,
+        deText:BBEEHNNV,
+        deText:BN5H9F6J,
+        deText:CAXW9J5M,
+        deText:CIAZE3K2,
+        deText:CWGIKDX4,
+        deText:CZJAGPCW,
+        deText:D7EZJEFH,
+        deText:DXHR884V,
+        deText:E8LXJ8SW,
+        deText:EA3XW2ZA,
+        deText:EVIBEU8V,
+        deText:F7N2PRBC,
+        deText:F9Q7R2KJ,
+        deText:FZFHL48H,
+        deText:G3LMIJ4E,
+        deText:GB5DMYGR,
+        deText:HFXCHDUR,
+        deText:HLUS9ID4,
+        deText:I9JGCACW,
+        deText:ICMPILRI,
+        deText:J8UCHCSB,
+        deText:LMZQ2Y8P,
+        deText:LPPMCA83,
+        deText:LRMRW43G,
+        deText:LXEE75ET,
+        deText:MIV5BN6F,
+        deText:MMYBFQQD,
+        deText:MTUTT6GR,
+        deText:NF3JKQFH,
+        deText:NT8YF9DV,
+        deText:NXPTPTYM,
+        deText:P3I2KU77,
+        deText:PBKMRL43,
+        deText:PTULKRRJ,
+        deText:QJ4X8VW4,
+        deText:QQ6TZEB4,
+        deText:RFNLSXCC,
+        deText:SHREUXAJ,
+        deText:SKCMCTV5,
+        deText:SXN2ITVK,
+        deText:T26NKE24,
+        deText:T5QKK8DA,
+        deText:U5XXTJNT,
+        deText:UVEL7WQG,
+        deText:VJT9SDJ8,
+        deText:VK44B5BR,
+        deText:VKQBT3ET,
+        deText:WZNEXYND,
+        deText:XJIBWCIL,
+        deText:XZEXJV8L,
+        deText:YCSPAEKK,
+        deText:YX2E2D4Z,
+        deText:Z8XV8V9R,
+        deText:ZVBXP8SL ;
     ccso:hasSyllabus <http://inst.eecs.berkeley.edu/~cs195/fa17/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/uc-berkeley/department/computer-science> .
@@ -237,10 +573,57 @@ deCourse:12 a ccso:Course ;
 
 deCourse:120 a ccso:Course ;
     ccso:code "54063" ;
-    ccso:courseURL <dsmcode.com> ;
+    ccso:courseURL <file:///home/jon/Code/data-ethics-literature-review/data/dsmcode.com> ;
     ccso:csName "Code as Literacy, Commodity, Infrastructure" ;
     ccso:description <http://handbook.uts.edu.au/subjects/54063.html> ;
     ccso:hasInstructor dePerson:james-meese ;
+    ccso:hasLM deText:2LRRYSDM,
+        deText:45TWNKER,
+        deText:4EQEZCYR,
+        deText:4EWCJLXI,
+        deText:4T3YYZ3X,
+        deText:6WQKVGDK,
+        deText:7BR93MME,
+        deText:7ZNFFA8Z,
+        deText:8CTZJSFA,
+        deText:8NMZUADK,
+        deText:9RY3FJ5Z,
+        deText:A9TM7HZJ,
+        deText:ANF3T874,
+        deText:ARLPZ6VN,
+        deText:CNAR6JPK,
+        deText:DBR5CU4Y,
+        deText:EIBVNMPH,
+        deText:ERE2TLIW,
+        deText:FHEGDH8X,
+        deText:G9H4RYKX,
+        deText:GKUB9HUD,
+        deText:IUPMDX6J,
+        deText:IW6Y5GV9,
+        deText:JBK52Y46,
+        deText:JGZBS3TT,
+        deText:JJM3JN3I,
+        deText:LHF7RMQ7,
+        deText:MH8VEYYE,
+        deText:P4IRB3F9,
+        deText:QM8XL2LX,
+        deText:RGUSU74L,
+        deText:RIAUX55N,
+        deText:RZBQFU2Q,
+        deText:S7HYMZMP,
+        deText:UGE8CWF3,
+        deText:UQXYCQHC,
+        deText:VFC6ZLNN,
+        deText:VM2SIHHZ,
+        deText:W38TQVTV,
+        deText:W7I2E643,
+        deText:WBM67RJK,
+        deText:XPVTYMAZ,
+        deText:XY6MUTPI,
+        deText:Y66JS9SE,
+        deText:Y9CN3S3D,
+        deText:Z8HBY9MF,
+        deText:ZXMMD6D4 ;
     ccso:hasSyllabus <http://handbook.uts.edu.au/subjects/details/54063.html> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-technology-sydney/department/communications> .
@@ -249,6 +632,11 @@ deCourse:121 a ccso:Course ;
     ccso:csName "Algorithms for Public Policy" ;
     ccso:hasInstructor dePerson:jean-marie-john-mathews,
         dePerson:simon-chignard ;
+    ccso:hasLM deText:9LKZ92AJ,
+        deText:G5AJ8XZT,
+        deText:GTIDT6MZ,
+        deText:HH3CFM3T,
+        deText:T8PMJ42H ;
     ccso:hasSyllabus <http://formation.sciences-po.fr/enseignement/2019/k2sp/3015> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -267,6 +655,93 @@ deCourse:122 a ccso:Course ;
 deCourse:123 a ccso:Course ;
     ccso:csName "Ethics in NLP" ;
     ccso:hasInstructor dePerson:emily-bender ;
+    ccso:hasLM deText:2AA53X9P,
+        deText:2MIELE2T,
+        deText:3AJ97KHV,
+        deText:3NQZHSTW,
+        deText:52C4W7HJ,
+        deText:53JZWSQ6,
+        deText:58CX5U4I,
+        deText:5SCKUQ9E,
+        deText:6ECGNVAD,
+        deText:6WG9ASLU,
+        deText:72262XFJ,
+        deText:76JXCHRJ,
+        deText:79J6RARU,
+        deText:7DX7N9Y6,
+        deText:7IGRJNPA,
+        deText:87NY36NH,
+        deText:8BNC8SVB,
+        deText:8GAEEECK,
+        deText:8MBZGE7U,
+        deText:8SDT3SVS,
+        deText:8VNQ5378,
+        deText:9K2VH6ZY,
+        deText:9X7FZTCW,
+        deText:A5ZJYZWK,
+        deText:ATFP6BAJ,
+        deText:AXLW58ZG,
+        deText:B46YP2PY,
+        deText:BW74RAPQ,
+        deText:C28EG992,
+        deText:CAJTMLYM,
+        deText:CHSQT73J,
+        deText:DDINV35K,
+        deText:DTUXE7KM,
+        deText:EMW55MGD,
+        deText:EZB8TZK8,
+        deText:F7IICM29,
+        deText:F7SPIY6A,
+        deText:FIATCM4W,
+        deText:FWUBBVWN,
+        deText:GDEXFYV8,
+        deText:GJ68EMYJ,
+        deText:GJ8RCWYY,
+        deText:GKPMGYHZ,
+        deText:HYVJELVI,
+        deText:I53G5964,
+        deText:I68PDNJ4,
+        deText:IKR26XWZ,
+        deText:IKVRWZ6G,
+        deText:IMXFV24K,
+        deText:IUYP8TKV,
+        deText:J4P63GCQ,
+        deText:K9LAC8CY,
+        deText:KEDRVDUV,
+        deText:KUVA2XTY,
+        deText:L7P3S6C4,
+        deText:LE8CWSWW,
+        deText:LGPB8N5Y,
+        deText:LQ4EVAEQ,
+        deText:LUJSHDTI,
+        deText:LWTR2LZW,
+        deText:MNDH4YJG,
+        deText:MU9TJ2IA,
+        deText:N2AV8658,
+        deText:NADX7A7P,
+        deText:NB93Q3DV,
+        deText:NIFJZTLH,
+        deText:P7GH2BKR,
+        deText:PPZEKGRV,
+        deText:Q895F7BY,
+        deText:QA7RDVGP,
+        deText:QIXXMVFZ,
+        deText:QMYTN86E,
+        deText:QPVPSTFC,
+        deText:R6Z8TWVW,
+        deText:SNX3R29L,
+        deText:TKS5HSFF,
+        deText:TM25CVD4,
+        deText:TTZGAUME,
+        deText:UGTWNK3T,
+        deText:V9ADS2NA,
+        deText:W667MQ6L,
+        deText:WIZH7ZD9,
+        deText:WUGNVA5Q,
+        deText:XB5UJRLR,
+        deText:XGASEV59,
+        deText:YQTVSJQN,
+        deText:ZRIT8Z69 ;
     ccso:hasSyllabus <http://faculty.washington.edu/ebender/2017_575/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -295,6 +770,10 @@ deCourse:126 a ccso:Course ;
     ccso:csName "–" ;
     ccso:description <http://cs.bard.edu/descriptions/> ;
     ccso:hasInstructor <https://data-ethics.tech/person/keith-o%27hara> ;
+    ccso:hasLM deText:34S2Z8KB,
+        deText:KNCA28L6,
+        deText:SMT9MZ3G,
+        deText:TC6WWTXZ ;
     ccso:hasSyllabus <http://drablab.org/keithohara/cmsc-119-2013f/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/bard-college/department/computer-science> .
@@ -305,6 +784,72 @@ deCourse:127 a ccso:Course ;
     ccso:description <https://lti.cs.cmu.edu/intranet/lti-course-listings#a11830> ;
     ccso:hasInstructor dePerson:alan-black,
         dePerson:yulia-tsvetkov ;
+    ccso:hasLM deText:27UGN7NV,
+        deText:2A5PDIC6,
+        deText:2XVNW4UL,
+        deText:37JFYUIT,
+        deText:3UYC3497,
+        deText:45DKVZFG,
+        deText:58UKHDZC,
+        deText:5LUVWCWN,
+        deText:699JPY24,
+        deText:6GR3SY5U,
+        deText:6KKVI9IT,
+        deText:8IDVS7D5,
+        deText:8NEST2SG,
+        deText:8NK9ZWN3,
+        deText:8VBCTK8W,
+        deText:9BL7XCVV,
+        deText:AKHZLB8N,
+        deText:AV8ANIAV,
+        deText:CW3YL7AZ,
+        deText:CZC6LG4S,
+        deText:D78HGNA2,
+        deText:DSPYVRH5,
+        deText:E5VKX82P,
+        deText:EMMPSDM5,
+        deText:FX49BC5T,
+        deText:FZZEGNDZ,
+        deText:GCGICBY8,
+        deText:H9LVN2ZJ,
+        deText:HA3ZSGQC,
+        deText:HT4UEAWA,
+        deText:HTA7ZEI5,
+        deText:I8YYHDJK,
+        deText:IXJULPR5,
+        deText:J4E2SFDA,
+        deText:JAPY7AQE,
+        deText:JMVUTLJ3,
+        deText:KR2KXETK,
+        deText:L63SNIKW,
+        deText:LSZLNWML,
+        deText:MD79UHZG,
+        deText:MK6RC5KP,
+        deText:MMEKR97P,
+        deText:P5C76ARM,
+        deText:PBSS4PZN,
+        deText:PJSCUEA6,
+        deText:PQWEKZXY,
+        deText:QHEL6Q2R,
+        deText:R4NWI75W,
+        deText:R6W8Z9JI,
+        deText:RZFEP8FK,
+        deText:SHXK2GWU,
+        deText:SY86S35K,
+        deText:T6ICRBWT,
+        deText:UFX72TF3,
+        deText:UGU5HJED,
+        deText:W3TEARX4,
+        deText:W4N8WC79,
+        deText:W522D9DA,
+        deText:W55T5HL8,
+        deText:X85XNQ8Z,
+        deText:XVCB5Y2H,
+        deText:XWYIW24T,
+        deText:YJ9XTSHB,
+        deText:ZM93TWGV,
+        deText:ZUCY2V33,
+        deText:ZZ5TC6VT ;
     ccso:hasSyllabus <http://demo.clab.cs.cmu.edu/ethical_nlp/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -316,6 +861,8 @@ deCourse:128 a ccso:Course ;
     ccso:csName "Computing for the Socio-Tecno Web" ;
     ccso:description <http://wellesley.smartcatalogiq.com/en/2017-2018/Course-Catalog/2017-2018-Course-Catalog/Departments-and-Programs/Department-of-Computer-Science/Computer-Science-Courses/100/CS-115> ;
     ccso:hasInstructor dePerson:catherine-grevet-delcourt ;
+    ccso:hasLM deText:KECMFP39,
+        deText:RNXX2TKE ;
     ccso:hasSyllabus <http://cs.wellesley.edu/~cs115/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/wellesley-college/department/computer-science> .
@@ -323,6 +870,17 @@ deCourse:128 a ccso:Course ;
 deCourse:129 a ccso:Course ;
     ccso:csName "Topics in Introductory Programming: Social Inquiry" ;
     ccso:hasInstructor dePerson:sorelle-friedler ;
+    ccso:hasLM deText:24FWXI6T,
+        deText:6GMQJBWK,
+        deText:9VNJLVM9,
+        deText:J3927WCA,
+        deText:JF8F6C3N,
+        deText:JM2Y26QJ,
+        deText:NAZLNCQR,
+        deText:PWW5IF8P,
+        deText:R379BPN7,
+        deText:RIB7GZV3,
+        deText:TDU77VMP ;
     ccso:hasSyllabus <http://cs.haverford.edu/courses/cmsc104/social_inquiry> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/haverford-college/department/computer-science> .
@@ -339,6 +897,54 @@ deCourse:130 a ccso:Course ;
     ccso:code "CS 1410" ;
     ccso:csName "Artificial Intelligence" ;
     ccso:hasInstructor dePerson:george-konidaris ;
+    ccso:hasLM deText:22Z3F97E,
+        deText:3YWNGUPV,
+        deText:482SA67V,
+        deText:4H5D5ZCC,
+        deText:4LBRNASZ,
+        deText:5AHKH4US,
+        deText:5NTC46PS,
+        deText:5UCUT4KA,
+        deText:6UHLLHIC,
+        deText:7HJDSA5R,
+        deText:7RV536UL,
+        deText:7SQ6DPKM,
+        deText:7UXRVT2Z,
+        deText:8BURVYGJ,
+        deText:8P4TSQGE,
+        deText:9EQ4Y6CD,
+        deText:AFT5NXNJ,
+        deText:AWFFL9HF,
+        deText:B6WVNI9H,
+        deText:BPX9QC7P,
+        deText:CGWB2DFT,
+        deText:DS9AMFHM,
+        deText:EA7RK4B9,
+        deText:EVB93E3Q,
+        deText:F8EGVBZR,
+        deText:H5THRXRR,
+        deText:IM3L3FNN,
+        deText:IR5E6B9H,
+        deText:J625W49P,
+        deText:L7G3KL83,
+        deText:LTSUAUF3,
+        deText:MFDA6YN8,
+        deText:MM9ZBE6R,
+        deText:NFIJ899L,
+        deText:PSPQXJA4,
+        deText:Q6NES5C7,
+        deText:RLMJNEWJ,
+        deText:RU3CR5WK,
+        deText:SLFL7JKS,
+        deText:VFX28I3C,
+        deText:VNH5233X,
+        deText:W62SQBLZ,
+        deText:WELKP6BI,
+        deText:WMZPEV4W,
+        deText:XP454E8E,
+        deText:YXECTREG,
+        deText:Z3AXBKRY,
+        deText:ZBF96L4Q ;
     ccso:hasSyllabus <http://cs.brown.edu/courses/csci1410/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/brown-university/department/computer-science> .
@@ -347,6 +953,55 @@ deCourse:131 a ccso:Course ;
     ccso:code "CS 230" ;
     ccso:csName "Ethical Issues in Computing" ;
     ccso:hasInstructor dePerson:multiple-professors ;
+    ccso:hasLM deText:2KU8HWSK,
+        deText:2QR7CJF4,
+        deText:2SVQ4UV2,
+        deText:3A5F4VC6,
+        deText:3DS8IFTE,
+        deText:3EZFJRC7,
+        deText:3L4AUYDW,
+        deText:438U4S53,
+        deText:5NCQ5EM7,
+        deText:5UVJFYRB,
+        deText:7BRPP9TS,
+        deText:8AQTGFMX,
+        deText:8RJBYGED,
+        deText:9WNGDKCS,
+        deText:CUS3A6LJ,
+        deText:D2F9ITMC,
+        deText:DEDV7MR5,
+        deText:FCMNR3I2,
+        deText:FRDNIUNZ,
+        deText:G9H83CRW,
+        deText:GAXC3YD7,
+        deText:GXFWRICY,
+        deText:JAAETR7Z,
+        deText:JS5DGM9F,
+        deText:JXILL9KQ,
+        deText:LVZCKXDE,
+        deText:LWE2U6Q5,
+        deText:M4S4U9BB,
+        deText:MSJ9B7LZ,
+        deText:NU5GB2FA,
+        deText:PI6Z99GM,
+        deText:PMWN7T8G,
+        deText:PW4WF436,
+        deText:Q8R9Y9E6,
+        deText:QNR9GZUB,
+        deText:QP5NC2IE,
+        deText:QZ7V3QH7,
+        deText:R35NEVWK,
+        deText:SUJ9GIN7,
+        deText:VEA7BSME,
+        deText:VICM3BW6,
+        deText:W735WKSJ,
+        deText:W98HPQ5R,
+        deText:WBKA9TSP,
+        deText:WN2EY8QP,
+        deText:XLIQTECK,
+        deText:Y5WPB3U5,
+        deText:YAH9J3V9,
+        deText:YU8U5RMB ;
     ccso:hasSyllabus <http://coen.boisestate.edu/jconrad/cs230/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/boise-state-university/department/computer-science> .
@@ -732,6 +1387,10 @@ deCourse:17 a ccso:Course ;
     ccso:csName "Contemporary Issues in Computer Science" ;
     ccso:description <https://www.cs.utexas.edu/courses/349-contemporary-issues-computer-science> ;
     ccso:hasInstructor dePerson:various ;
+    ccso:hasLM deText:2I2N7WDU,
+        deText:M35F47G3,
+        deText:PFHF2VR7,
+        deText:WJTUIVJT ;
     ccso:hasSyllabus <https://www.cs.utexas.edu/users/ear/cs349/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-texas-at-austin/department/computer-science> .
@@ -825,6 +1484,11 @@ deCourse:18 a ccso:Course ;
     ccso:code "CS 103F" ;
     ccso:csName "Ethical Foundations of Computer Science" ;
     ccso:hasInstructor dePerson:alison-norman---sarah-abraham ;
+    ccso:hasLM deText:7PFNLRIB,
+        deText:9C9TF5BQ,
+        deText:HSFIFZJA,
+        deText:I29WK5S4,
+        deText:ZF4SVSJ4 ;
     ccso:hasSyllabus <https://www.cs.utexas.edu/~ans/classes/cs109/syllabus.html> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-texas-at-austin/department/computer-science> .
@@ -917,6 +1581,10 @@ deCourse:19 a ccso:Course ;
     ccso:csName "Computers and Society " ;
     ccso:description <http://www.cs.columbia.edu/education/courses/course/COMSW3410-1/24806/> ;
     ccso:hasInstructor dePerson:steven-m.-bellovin ;
+    ccso:hasLM deText:5GUULFR9,
+        deText:68SAB7HF,
+        deText:9TBRTHMY,
+        deText:KMR3NXUH ;
     ccso:hasSyllabus <https://www.cs.columbia.edu/~smb/classes/s18/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/columbia-university/department/computer-science> .
@@ -1091,6 +1759,14 @@ deCourse:21 a ccso:Course ;
     ccso:courseURL <http://www.munmund.net/CS4001_Spring2019.html> ;
     ccso:csName "Computing, Society, & Professionalism" ;
     ccso:hasInstructor dePerson:various ;
+    ccso:hasLM deText:6QVIV8W5,
+        deText:7UAT7FBK,
+        deText:A9RFJ8E5,
+        deText:B9FG4WNA,
+        deText:DK3B9ZJ9,
+        deText:PH75MJGA,
+        deText:QTT75LTV,
+        deText:SNI87Y9V ;
     ccso:hasSyllabus <https://www.cc.gatech.edu/~asb/teaching/4001/fall2017/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/georgia-institute-of-technology/department/college-of-computing> .
@@ -1241,6 +1917,51 @@ deCourse:23 a ccso:Course ;
     ccso:code "CMS 332D" ;
     ccso:csName "Digital Ethics" ;
     ccso:hasInstructor dePerson:scott-r.-stroud ;
+    ccso:hasLM deText:3J6CHZIX,
+        deText:3TACWBNX,
+        deText:43443CA9,
+        deText:455YPV5C,
+        deText:4JQAGJLE,
+        deText:5C6IUYCR,
+        deText:6C6PI3LR,
+        deText:7M5PPG7C,
+        deText:7NPUXWAI,
+        deText:7NY36VXK,
+        deText:8IX282TK,
+        deText:AVQRS2MK,
+        deText:BE3DJ5G3,
+        deText:CRXZIZWZ,
+        deText:GP2ADYA4,
+        deText:IFYFKFJN,
+        deText:IG37S447,
+        deText:IIYMBT3K,
+        deText:J3FPDWGM,
+        deText:J6I3PUQN,
+        deText:KBXZDZFA,
+        deText:KWY5HLZW,
+        deText:L9CR843I,
+        deText:LDAEQTDE,
+        deText:M2SAPRA8,
+        deText:M6WKV4NW,
+        deText:MC4FNQ8X,
+        deText:MG84X6ZG,
+        deText:MXYTK39F,
+        deText:N8J7RCNM,
+        deText:NE3YYSR4,
+        deText:QF5Y2M32,
+        deText:QVD3A4RS,
+        deText:RA3E7NLM,
+        deText:RCMA7S9W,
+        deText:RGUG5KCE,
+        deText:RQND3MP7,
+        deText:S52VUVSN,
+        deText:SV7K9GJS,
+        deText:TYR7GGIW,
+        deText:VACSJF98,
+        deText:VLZG46A2,
+        deText:WIDKLBXF,
+        deText:XUBPZRH4,
+        deText:ZMFILRGK ;
     ccso:hasSyllabus <https://www.academia.edu/35676633/CMS_332D_Digital_Ethics_Syllabus_Undergraduate_Spring_2018_> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-texas-at-austin/department/communication-studies> .
@@ -1326,6 +2047,49 @@ deCourse:24 a ccso:Course ;
     ccso:csName "Exploring the Ethical Questions of New Technology" ;
     ccso:description <http://info.commlead.uw.edu/course/com-597-black-mirror-exploring-the-ethical-questions-of-new-technology-2/> ;
     ccso:hasInstructor dePerson:katy-pearce ;
+    ccso:hasLM deText:2L4HX3L6,
+        deText:3H34SHI4,
+        deText:47YTAZ2F,
+        deText:49VDSZD6,
+        deText:4BXIUZWA,
+        deText:4KYUKHQ7,
+        deText:6AF4622W,
+        deText:6WZML7FE,
+        deText:9UUR2H7U,
+        deText:ABXKRBUR,
+        deText:B8D85NUR,
+        deText:C9BV6D52,
+        deText:D2U5GJ53,
+        deText:EQL9RJZ4,
+        deText:G9NNLD3U,
+        deText:GRYRRRN7,
+        deText:H7LBZNKP,
+        deText:H8BGHWXD,
+        deText:HJSYW9RH,
+        deText:IKTT6BBF,
+        deText:IZMRNFTD,
+        deText:J8S96UH9,
+        deText:JIYC37E9,
+        deText:JJ4FVZU2,
+        deText:K7F423I5,
+        deText:LW4P29J3,
+        deText:NAWRQDM6,
+        deText:QK6YCI5S,
+        deText:R335PDFX,
+        deText:RDUHW3PZ,
+        deText:SD8PRYAV,
+        deText:SDS73ZZK,
+        deText:SPUE3YGA,
+        deText:TA2UPUU3,
+        deText:TGUAX7HB,
+        deText:TTMCD4MA,
+        deText:UU7V2J5K,
+        deText:V26HPGRL,
+        deText:WAJR6YSB,
+        deText:WNS7CHRW,
+        deText:XANL934I,
+        deText:XIDWQM9X,
+        deText:YM9J5F78 ;
     ccso:hasSyllabus <https://www.academia.edu/19990892/COM_597E_Black_Mirror_Exploring_the_ethical_questions_of_new_technology_-_Winter_2016> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1402,6 +2166,51 @@ deCourse:249 a ccso:Course ;
 deCourse:25 a ccso:Course ;
     ccso:csName "Information Technology Ethics" ;
     ccso:hasInstructor dePerson:nan ;
+    ccso:hasLM deText:262HAEMG,
+        deText:2GMMUC2J,
+        deText:2NLLDZFZ,
+        deText:2PZSIJ3X,
+        deText:4GBNKEZY,
+        deText:5IFTPWUB,
+        deText:689NYGJ8,
+        deText:6JXH25WQ,
+        deText:7VZITUNB,
+        deText:9HCX93AZ,
+        deText:9L3RUH62,
+        deText:A4X5U975,
+        deText:ACYPPTCB,
+        deText:B8PEF64X,
+        deText:CF6U2USY,
+        deText:CU6MFAZ8,
+        deText:DTDVLSBP,
+        deText:FIZ6WTG4,
+        deText:FLCMW53C,
+        deText:FU928U5F,
+        deText:FWXXIFTV,
+        deText:G49Y9FD3,
+        deText:HJZ6JGCE,
+        deText:IIJGLMG9,
+        deText:INFVHMXU,
+        deText:JDT6BQVF,
+        deText:JN6CMK6M,
+        deText:KHJ5TJW8,
+        deText:LM6DJ6TZ,
+        deText:M4LPCYUY,
+        deText:NCM8XTN7,
+        deText:NUK7NRTU,
+        deText:PFMXDHVY,
+        deText:PGAN6PXX,
+        deText:R45ZVRVI,
+        deText:R6W6JGG5,
+        deText:TPYHF4ZT,
+        deText:UJCFYISD,
+        deText:UZUMMHDJ,
+        deText:V9N82PTK,
+        deText:VU4HSFAV,
+        deText:YEGT8HD7,
+        deText:YN3KFBTX,
+        deText:YV6YPVC9,
+        deText:ZB8TVTE3 ;
     ccso:hasSyllabus <https://www.academia.edu/1745177/Fall_2011_Syllabus_for_L_and_I_SCI_Information_Technology_Ethics> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-wisconsin-milwaukee/department/school-of-information-studies> .
@@ -1483,6 +2292,16 @@ deCourse:26 a ccso:Course ;
     ccso:csName "Human Centered Data Science" ;
     ccso:description <https://www.datasciencemasters.uw.edu/program-details/courses-curriculum/course-descriptions/> ;
     ccso:hasInstructor dePerson:jonathan-t.-morgan ;
+    ccso:hasLM deText:6TTSPU95,
+        deText:BYP5H32K,
+        deText:FTGBZ9UG,
+        deText:HVHPP3HH,
+        deText:JPH4WCIV,
+        deText:L7HGPC8A,
+        deText:MQG9WPRD,
+        deText:N9M2EQ5C,
+        deText:SDP9KV52,
+        deText:ZWIGHJK3 ;
     ccso:hasSyllabus <https://wiki.communitydata.science/Human_Centered_Data_Science> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1562,6 +2381,80 @@ deCourse:27 a ccso:Course ;
     ccso:description <https://www.washington.edu/students/crscat/data.html> ;
     ccso:hasInstructor dePerson:jonathan-morgan,
         dePerson:os-keyes ;
+    ccso:hasLM deText:2BUQA6AC,
+        deText:32LPWFIR,
+        deText:3NC6AAUJ,
+        deText:3YKQSPX6,
+        deText:4FWGBLVX,
+        deText:4KK9BYM9,
+        deText:4YJJ43W6,
+        deText:5RW2INMF,
+        deText:6K6B9XAL,
+        deText:6LNQQ2NX,
+        deText:6NVZ6T8F,
+        deText:6WFBQPYT,
+        deText:7C3TXF34,
+        deText:7IFM5NMA,
+        deText:7PUWUADJ,
+        deText:7U5NENPQ,
+        deText:84NGKX46,
+        deText:85Z66HAT,
+        deText:8C4SVWSL,
+        deText:9Q8HGIYC,
+        deText:ADXVRJTQ,
+        deText:AIUBCPFP,
+        deText:AJB55TFH,
+        deText:AZBMB6VP,
+        deText:B5NGEYM4,
+        deText:CBVY7STA,
+        deText:CE6XSMME,
+        deText:CEL695RQ,
+        deText:CIJMEI9B,
+        deText:CSP5PCM7,
+        deText:DG2VFBAB,
+        deText:DIZRLMLY,
+        deText:FDMZCSMV,
+        deText:FPGZHL5G,
+        deText:HJYWPQ56,
+        deText:HMAXLXYP,
+        deText:HRGDUG5U,
+        deText:HTFNP5QU,
+        deText:IMJ8MNPY,
+        deText:J4RCZIX9,
+        deText:JEHNWAQX,
+        deText:LVVPVBAC,
+        deText:MAU8QA2Q,
+        deText:MLIM88B2,
+        deText:N7WA7EBN,
+        deText:NMWMGNQJ,
+        deText:PL2776Z4,
+        deText:QZSYUXQ6,
+        deText:R29VVBQ8,
+        deText:R57MHJCF,
+        deText:RLNUFCD6,
+        deText:RQBR8HCD,
+        deText:RTMSB6YV,
+        deText:S5IQ2TBX,
+        deText:SF34AYTW,
+        deText:SJ7FC2MZ,
+        deText:SLE65NFF,
+        deText:TVWBJ9NN,
+        deText:U6IVB4PN,
+        deText:VDY5M9FN,
+        deText:VFVIQ3N6,
+        deText:W7LSDC6G,
+        deText:WN8XBZUS,
+        deText:WP3AAAU4,
+        deText:WQCE9VX8,
+        deText:WZLMBE9X,
+        deText:XFBJ64CK,
+        deText:XGVQQIP2,
+        deText:XHMS8CLQ,
+        deText:XMN6Q7AV,
+        deText:Y8QKYY3L,
+        deText:YBUIQW5W,
+        deText:ZITUPPR3,
+        deText:ZZ6QLCVE ;
     ccso:hasSyllabus <https://wiki.communitydata.cc/HCDS_(Fall_2017)> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1616,6 +2509,22 @@ deCourse:28 a ccso:Course ;
     ccso:csName "Programming Abstractions and Social Good" ;
     ccso:description <https://stanford.io/2IgPnDm> ;
     ccso:hasInstructor dePerson:j.-cain ;
+    ccso:hasLM deText:58YHMU6V,
+        deText:8Y8AUBUK,
+        deText:AXC23JYH,
+        deText:BDXGFQHK,
+        deText:D6TRJFIG,
+        deText:FFMVLS3F,
+        deText:HMNV95K3,
+        deText:IR9YXJWT,
+        deText:LMZKBAZ5,
+        deText:N3DV5ZBI,
+        deText:NCYJV5EK,
+        deText:NHQ2EUN5,
+        deText:RSC3Y5RH,
+        deText:TX84A7TJ,
+        deText:W2XNIQVS,
+        deText:ZT4ECR7D ;
     ccso:hasSyllabus <https://web.stanford.edu/class/cs106s/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/computer-science> .
@@ -1625,6 +2534,19 @@ deCourse:29 a ccso:Course ;
     ccso:csName "Social, Ethical, and Legal Implications of Computing" ;
     ccso:description <https://www.pdx.edu/computer-science/cs305> ;
     ccso:hasInstructor dePerson:ellie-harmon ;
+    ccso:hasLM deText:4F4BKVMD,
+        deText:6Z3WVHR4,
+        deText:7Q5K69WF,
+        deText:9D5P9U7X,
+        deText:ARNP4FRI,
+        deText:CSL2CGCN,
+        deText:GLFPB2Z6,
+        deText:GWNFSCIA,
+        deText:JPWRT4T6,
+        deText:MRVGT5EY,
+        deText:QSZT4INS,
+        deText:UAUZCUEL,
+        deText:WFMVIJMX ;
     ccso:hasSyllabus <https://web.cecs.pdx.edu/~harmon8/classes/cs305-201802/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/portland-state-university/department/computer-science> .
@@ -1642,6 +2564,20 @@ deCourse:30 a ccso:Course ;
         dePerson:ed-knorr,
         dePerson:giulio-valentino,
         dePerson:orlin-vakarelov ;
+    ccso:hasLM deText:22TLNIGN,
+        deText:5INZFC5V,
+        deText:7RN222TH,
+        deText:88KZKB3Q,
+        deText:CN9M62WC,
+        deText:DR2NUGRS,
+        deText:EMK76QGL,
+        deText:GZXRIGZ9,
+        deText:HKME8DUV,
+        deText:JK85F9FD,
+        deText:NN7VA3FU,
+        deText:TNGLC86R,
+        deText:TS9JWAV9,
+        deText:WKB3Q3J5 ;
     ccso:hasSyllabus <https://ubc-mds.github.io/course-descriptions/DSCI_541_priv-eth-sec/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1662,6 +2598,79 @@ deCourse:32 a ccso:Course ;
     ccso:csName "Computers, Ethics, and Public Policy" ;
     ccso:hasInstructor dePerson:allison-berke,
         dePerson:keith-winstein ;
+    ccso:hasLM deText:26EMDED7,
+        deText:2UBRS3B6,
+        deText:2YBAYQGQ,
+        deText:3SVSS6U8,
+        deText:3XD9FBHM,
+        deText:46ST695Y,
+        deText:4ZJDK8PH,
+        deText:545SICU6,
+        deText:54XSXPAP,
+        deText:5L7XHNCC,
+        deText:5S3HG5HU,
+        deText:67RW2MDX,
+        deText:76MHCE9C,
+        deText:7BJ4AYIB,
+        deText:7IRBDS9K,
+        deText:9DQFT6J6,
+        deText:9K7TVI3X,
+        deText:A38E7368,
+        deText:ACRYQV4G,
+        deText:AQS3GSF5,
+        deText:B5YSF4IR,
+        deText:BES24CBD,
+        deText:CVKNNTBT,
+        deText:DEZLDDX7,
+        deText:E2NQKJSI,
+        deText:E3L6FSIW,
+        deText:EBFLUS9Q,
+        deText:F9QI6R6I,
+        deText:H2H9J23D,
+        deText:H78IYV9G,
+        deText:HD3QKJ9F,
+        deText:HN4WKCQQ,
+        deText:IBSKTHFF,
+        deText:IBUWXFBQ,
+        deText:IT5V24UA,
+        deText:JR9A4UDK,
+        deText:K7NLLU8G,
+        deText:LITLLP98,
+        deText:LNB9GASH,
+        deText:MP7NL2QV,
+        deText:MQIYF7BV,
+        deText:MZIXNAYN,
+        deText:NFSRFZTM,
+        deText:NH3FNR39,
+        deText:NI6RB47T,
+        deText:NYGHNK3H,
+        deText:P6HRMKIH,
+        deText:P8FDCZJP,
+        deText:P9RH3WD6,
+        deText:PCGBKAKB,
+        deText:PLAV8J4C,
+        deText:PPC7WWPE,
+        deText:QG8DNIEI,
+        deText:QPF2B3SY,
+        deText:QYTEZRCN,
+        deText:RMBSZ7T8,
+        deText:RY8XD4Q3,
+        deText:RZZ28GRF,
+        deText:SR4AR3ZJ,
+        deText:TL568HPJ,
+        deText:TPVP3HLK,
+        deText:UAZXSEDN,
+        deText:UGGK76S9,
+        deText:ULGSU85W,
+        deText:USQPPZR3,
+        deText:V48NAHER,
+        deText:V6JGD3Z3,
+        deText:WD76AZRA,
+        deText:WFKTJP28,
+        deText:WSQG6WJW,
+        deText:XL87WWXS,
+        deText:ZE2KWGPU,
+        deText:ZSVGZS4R ;
     ccso:hasSyllabus <https://stanfordcs181.github.io/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/computer-science> .
@@ -1680,6 +2689,29 @@ deCourse:34 a ccso:Course ;
     ccso:description <http://catalog.unm.edu/catalogs/2019-2020/courses/CS/index.html> ;
     ccso:hasInstructor <https://data-ethics.tech/person/leah-buechley-%2B-others-on-a-semester-by-semester-basis>,
         dePerson:often-adjuncts ;
+    ccso:hasLM deText:25XNSB9H,
+        deText:27UXQRZL,
+        deText:3EIA8BQQ,
+        deText:4FRDVNIU,
+        deText:5L4FYB86,
+        deText:5W42ATMP,
+        deText:89EDW4X9,
+        deText:9GLCBQZS,
+        deText:9NM4JJNB,
+        deText:BTLQ29BM,
+        deText:G6BLG5IJ,
+        deText:J7UGZ4ZT,
+        deText:JF8VL7Y3,
+        deText:JTILSBX6,
+        deText:LPKWTKEZ,
+        deText:QV8PC2FJ,
+        deText:T4IR2KHK,
+        deText:UCRHUYAI,
+        deText:UWJ7ZKDD,
+        deText:VB35QVRJ,
+        deText:VK89ALBD,
+        deText:W9MUPTCQ,
+        deText:XAVJX4QC ;
     ccso:hasSyllabus <https://socialethical.cs.unm.edu/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-new-mexico/department/computer-science> .
@@ -1698,6 +2730,45 @@ deCourse:36 a ccso:Course ;
     ccso:courseURL <https://pages.stolaf.edu/huff/wp-content/uploads/sites/532/2020/05/Huff.Furchert.CACM_.pdf> ;
     ccso:csName "Ethical Issues in Software Design" ;
     ccso:hasInstructor dePerson:nan ;
+    ccso:hasLM deText:29MQPE9B,
+        deText:2FANRUSQ,
+        deText:2YVCTKSB,
+        deText:3DHUTLAU,
+        deText:3Q7T9ABP,
+        deText:4WUPGW95,
+        deText:4XYVPGHX,
+        deText:7KE8FUGP,
+        deText:7RYYMVF3,
+        deText:8C6YQQVB,
+        deText:8UQGMHJT,
+        deText:A9R7JJIN,
+        deText:AFMJILE5,
+        deText:BFFD5E6Z,
+        deText:CINR2WFK,
+        deText:DVXB4C8M,
+        deText:F8GIDZ75,
+        deText:F8HCJYNL,
+        deText:FJ9HAHYA,
+        deText:HDERVINK,
+        deText:LWEETCDL,
+        deText:N4WU3AVC,
+        deText:Q5JEFTWC,
+        deText:QA33MI2Q,
+        deText:QTWFRQN4,
+        deText:QVJTETXY,
+        deText:REP3NPBP,
+        deText:RQ5DCTQU,
+        deText:RU6YADKV,
+        deText:SNMKI4SV,
+        deText:T23JH36C,
+        deText:V5Z26NNX,
+        deText:V9DLK6D4,
+        deText:VNBYRJRZ,
+        deText:WAY6LYE4,
+        deText:WGG8IK5P,
+        deText:Y42HDSQK,
+        deText:YVZJPHAA,
+        deText:Z8UA6YPI ;
     ccso:hasSyllabus <https://pages.stolaf.edu/csci-263-fall19/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/st.-olaf-college/department/computing-science> .
@@ -1710,6 +2781,11 @@ deCourse:37 a ccso:Course ;
         dePerson:gabriel-grill,
         <https://data-ethics.tech/person/hilda-tellio%C4%9Flu>,
         dePerson:matthias-fassl ;
+    ccso:hasLM deText:5KKSDPVH,
+        deText:7YAFA5UE,
+        deText:9VBCSC8Z,
+        deText:KE6I3MUT,
+        deText:Z4ZHE3SE ;
     ccso:hasSyllabus <https://owncloud.tuwien.ac.at/index.php/s/pYzesun5qv3iskz#pdfviewer> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1720,6 +2796,24 @@ deCourse:38 a ccso:Course ;
     ccso:csName "Engineering Ethics" ;
     ccso:description <https://ocw.mit.edu/courses/engineering-systems-division/esd-932-engineering-ethics-spring-2006/index.htm> ;
     ccso:hasInstructor dePerson:taft-broome ;
+    ccso:hasLM deText:2XQXX686,
+        deText:3SB59ZLJ,
+        deText:5IS69C9C,
+        deText:8E4TW5QX,
+        deText:9X4MCC7F,
+        deText:ANXKGXVN,
+        deText:BZ2RTMTN,
+        deText:FP9SMAVD,
+        deText:HPA9S4BZ,
+        deText:HPLWAQTI,
+        deText:KBMAP6T4,
+        deText:M89BHG5L,
+        deText:P8TZJRSL,
+        deText:PXRQW82C,
+        deText:RZDWCVKI,
+        deText:S74282A9,
+        deText:U5CNRW23,
+        deText:V4L3MAAV ;
     ccso:hasSyllabus <https://ocw.mit.edu/courses/engineering-systems-division/esd-932-engineering-ethics-spring-2006/syllabus/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1748,6 +2842,71 @@ deCourse:40 a ccso:Course ;
     ccso:description <http://design.cmu.edu/content/master-design> ;
     ccso:hasInstructor dePerson:ahmed-ansari,
         dePerson:dan-lockton ;
+    ccso:hasLM deText:24GC789E,
+        deText:2DI24VZH,
+        deText:2F5MX395,
+        deText:3H7GQ9PD,
+        deText:3XTXEXS2,
+        deText:4NGASUBG,
+        deText:5FHWCRJY,
+        deText:5TNWK2YM,
+        deText:69QYEAH3,
+        deText:6YEQQ9SH,
+        deText:7IM3UI9W,
+        deText:82VSTRWE,
+        deText:8CGZQX86,
+        deText:8EQU85RU,
+        deText:98V623CR,
+        deText:AIFGM3YM,
+        deText:ASASMNIS,
+        deText:B65TEXPS,
+        deText:C9QL6FW9,
+        deText:CD25B8QJ,
+        deText:CDGW35Q5,
+        deText:CFDDLP3H,
+        deText:CWUQLR5R,
+        deText:DCT6FAZ7,
+        deText:DFQTV57A,
+        deText:DHCXBFC7,
+        deText:DLEUS6UQ,
+        deText:EHFA2FUU,
+        deText:EIQF8VBH,
+        deText:F9EXX9ZW,
+        deText:FF6GIY5B,
+        deText:FNWSPRP5,
+        deText:GT78MA3K,
+        deText:H842YH7U,
+        deText:HZYMUJSS,
+        deText:I74T3E9D,
+        deText:IEBVNDDJ,
+        deText:IK2VALSV,
+        deText:J6MLN9Y5,
+        deText:JN8J53MS,
+        deText:LSEL6S5Y,
+        deText:M47SKGAZ,
+        deText:NULL58Q5,
+        deText:PGIMLJ35,
+        deText:PIYYN96Z,
+        deText:Q6NYBGA7,
+        deText:QH3AKHCR,
+        deText:QR4F8PHX,
+        deText:RSCIYPKJ,
+        deText:T7UMXMZX,
+        deText:TU55N5GD,
+        deText:TY8T8VN2,
+        deText:V69THEMI,
+        deText:VICPFUN5,
+        deText:W5GII3CZ,
+        deText:X4RAD3DU,
+        deText:XG6QLFPE,
+        deText:XHDVU4JB,
+        deText:XY327Y3J,
+        deText:YFGHIUR8,
+        deText:YU3MGL4E,
+        deText:Z5V9KEMB,
+        deText:ZA7P9JQL,
+        deText:ZDHPTB7P,
+        deText:ZDLJIEH2 ;
     ccso:hasSyllabus <https://medium.com/advanced-interaction-service-design-concepts/syllabus-mdes-seminar-iii-fall-2017-f5118b169498> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1757,6 +2916,55 @@ deCourse:40 a ccso:Course ;
 deCourse:41 a ccso:Course ;
     ccso:csName "Technology, Ethics & Politics" ;
     ccso:hasInstructor dePerson:ahmed-ansari ;
+    ccso:hasLM deText:278X4TJ7,
+        deText:3KJVH437,
+        deText:492YAUZB,
+        deText:4JTXL6DT,
+        deText:4RNGPIVH,
+        deText:5U32QCGS,
+        deText:5VS3P3VB,
+        deText:5XK8GRBU,
+        deText:6WXB5GJF,
+        deText:8U43K2RT,
+        deText:9XXHRJ7B,
+        deText:B9YGIHFR,
+        deText:BLUKGQH9,
+        deText:BSBX3DHQ,
+        deText:BUJNA3TN,
+        deText:CBFBPYT4,
+        deText:CCYT6BNK,
+        deText:DQDWTARJ,
+        deText:E5KN4P7M,
+        deText:EAHDHRJK,
+        deText:EX6A9G4A,
+        deText:EY3EP6L7,
+        deText:FNTB8KZ8,
+        deText:HMDQCFNQ,
+        deText:HMTMLJ82,
+        deText:I4LR5R78,
+        deText:I8Y5TWGA,
+        deText:JN57AHDD,
+        deText:JQF5887Q,
+        deText:JVKWXXPB,
+        deText:K2SIKWXP,
+        deText:LWH9JJKR,
+        deText:NKWWSQX3,
+        deText:NWKGMETW,
+        deText:P6GDEKQH,
+        deText:PLZ4UH7E,
+        deText:RHJZYXSR,
+        deText:RIIA6D8Z,
+        deText:RV3R6SCT,
+        deText:SYPQ3L5M,
+        deText:W62EMT6E,
+        deText:WMF2N7WR,
+        deText:WS4MYVRD,
+        deText:XSSAEW8I,
+        deText:YCCKPT4U,
+        deText:YJ5JI2K4,
+        deText:YK2LTPSP,
+        deText:ZFZ25DJ8,
+        deText:ZXIA9AFI ;
     ccso:hasSyllabus <https://medium.com/@aansari86/technology-ethics-politics-b57134f8614e> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1767,6 +2975,41 @@ deCourse:42 a ccso:Course ;
     ccso:csName "Literature & Digital Diversity" ;
     ccso:hasInstructor dePerson:elizabeth-maddock-dillon,
         dePerson:sarah-connell ;
+    ccso:hasLM deText:4V3ZKHTB,
+        deText:5UIRCF6X,
+        deText:63AWI3RA,
+        deText:6VRWIY6E,
+        deText:76J5FRM6,
+        deText:7F76CSW6,
+        deText:7LBYWEFS,
+        deText:8AKAP7MC,
+        deText:8ZGEKXAE,
+        deText:A3WUJJ4M,
+        deText:B3HTLWXD,
+        deText:B5C27AUT,
+        deText:BJWVQG89,
+        deText:EED3FNF9,
+        deText:EKEWNBCL,
+        deText:ETUKIICR,
+        deText:FWYSQIWN,
+        deText:GBZEPGAR,
+        deText:HUNR3PX9,
+        deText:IPQ4SP8J,
+        deText:JQEF77Z2,
+        deText:KHWLGS5K,
+        deText:MUR93WSW,
+        deText:PRG9HFGF,
+        deText:QDBCLWRI,
+        deText:RLGC5DQI,
+        deText:RVEPZ7SL,
+        deText:S5R9ZYYQ,
+        deText:SJ9ANT6F,
+        deText:SMXFFCDV,
+        deText:T9LH8K3M,
+        deText:V6M2SLCE,
+        deText:VKJ8YD92,
+        deText:X8MC8262,
+        deText:ZBDXSVTM ;
     ccso:hasSyllabus <https://litdigitaldiversity.northeastern.edu/syllabus/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/northeastern-university/department/english> .
@@ -1776,6 +3019,9 @@ deCourse:43 a ccso:Course ;
     ccso:courseURL <https://legacy.earlham.edu/~peters/courses/kant23/kanthome.htm> ;
     ccso:csName "Kant's Second and Third Critiques" ;
     ccso:hasInstructor dePerson:peter-suber ;
+    ccso:hasLM deText:QQKU95DF,
+        deText:YZSF9LC3,
+        deText:ZFBZNPMP ;
     ccso:hasSyllabus <https://legacy.earlham.edu/~peters/courses/kant23/syl-kant.htm> ;
     ccso:offeredBy <https://data-ethics.tech/university/earlham-college/department/philosophy> .
 
@@ -1784,6 +3030,11 @@ deCourse:44 a ccso:Course ;
     ccso:courseURL <https://legacy.earlham.edu/~peters/courses/eb/ebhome.htm> ;
     ccso:csName "Ethics of Belief" ;
     ccso:hasInstructor dePerson:peter-suber ;
+    ccso:hasLM deText:2XTS5ZR2,
+        deText:4SZQAKPI,
+        deText:52V6AAKF,
+        deText:9PL2AT5Z,
+        deText:K4ZLJKHI ;
     ccso:hasSyllabus <https://legacy.earlham.edu/~peters/courses/eb/syl-eb.htm> ;
     ccso:offeredBy <https://data-ethics.tech/university/earlham-college/department/philosophy> .
 
@@ -1792,6 +3043,12 @@ deCourse:45 a ccso:Course ;
     ccso:courseURL <https://legacy.earlham.edu/~peters/courses/consent/conshome.htm> ;
     ccso:csName "Consent and Coercion" ;
     ccso:hasInstructor dePerson:peter-suber ;
+    ccso:hasLM deText:2RC6TVTK,
+        deText:89XPX3CX,
+        deText:9WIWQBPX,
+        deText:CEW6YPB8,
+        deText:FDKEZMX9,
+        deText:IVA3ARWF ;
     ccso:hasSyllabus <https://legacy.earlham.edu/~peters/courses/consent/syl-cons.htm> ;
     ccso:offeredBy <https://data-ethics.tech/university/earlham-college/department/philosophy> .
 
@@ -1829,6 +3086,16 @@ deCourse:49 a ccso:Course ;
     ccso:code "INFO 4601/5601" ;
     ccso:csName "Ethical and Policy Dimensions of Information, Technology, and New Media" ;
     ccso:hasInstructor dePerson:casey-fiesler ;
+    ccso:hasLM deText:3Y4E8MWG,
+        deText:6A7CWBEI,
+        deText:6ZGJ25RS,
+        deText:DMDSWRK3,
+        deText:E7UKH6PB,
+        deText:IQQ5M6JZ,
+        deText:QHEYDN7M,
+        deText:QNXSY252,
+        deText:S87HT2JJ,
+        deText:VQ82V9VC ;
     ccso:hasSyllabus <https://informationethicspolicy.wordpress.com/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-colorado-boulder/department/information-science> .
@@ -1845,6 +3112,15 @@ deCourse:50 a ccso:Course ;
     ccso:code "INFO 2131" ;
     ccso:csName "Information Ecosystems" ;
     ccso:hasInstructor dePerson:casey-fiesler ;
+    ccso:hasLM deText:2JM9W3GI,
+        deText:3ZPM7YEP,
+        deText:CAWKDM8M,
+        deText:G9ZYHUU3,
+        deText:GDTLYEF4,
+        deText:PGSUE8WB,
+        deText:XGQCFDLG,
+        deText:ZCAV9RQP,
+        deText:ZU8NSZ3R ;
     ccso:hasSyllabus <https://informationecosystems.wordpress.com> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-colorado-boulder/department/information-science> .
@@ -1854,6 +3130,28 @@ deCourse:51 a ccso:Course ;
     ccso:csName "Data Stories" ;
     ccso:description <https://hackmd.io/vvH1YXGHTlGLUx-7M4OMUw> ;
     ccso:hasInstructor dePerson:christopher-warren ;
+    ccso:hasLM deText:5DL2JXWH,
+        deText:5W2YZVDG,
+        deText:8PJ9SZBK,
+        deText:AQ2XZJWD,
+        deText:AXMQ96Y2,
+        deText:C8K2Q5YN,
+        deText:DUS27UCN,
+        deText:EE2BEFC4,
+        deText:ENRUVM7D,
+        deText:JJ24ZPB8,
+        deText:KE3G8Z7M,
+        deText:KZUQV34M,
+        deText:PA6KA7BE,
+        deText:QPZMAVVI,
+        deText:SS9MHFNR,
+        deText:STSNMC3K,
+        deText:U29YBBNB,
+        deText:V5XFIFR5,
+        deText:W4A9RWK6,
+        deText:WZ2T2Y8T,
+        deText:XFJDW8WJ,
+        deText:XUJPY5JE ;
     ccso:hasSyllabus <https://hackmd.io/vvH1YXGHTlGLUx-7M4OMUw> ;
     ccso:offeredBy <https://data-ethics.tech/university/carnegie-mellon-university/department/english> .
 
@@ -1862,6 +3160,15 @@ deCourse:52 a ccso:Course ;
     ccso:csName "Ethical Issues in Technology Design" ;
     ccso:description <https://hackmd.io/s/BJ74JEM6z#> ;
     ccso:hasInstructor dePerson:joey-j.-lee ;
+    ccso:hasLM deText:3RIXIRPF,
+        deText:989ZPXRP,
+        deText:D5KN2RYG,
+        deText:DC6GGJZJ,
+        deText:DIS68RBH,
+        deText:F8BVJM6U,
+        deText:K9CNWSRB,
+        deText:MR867BWQ,
+        deText:Z2JX82RT ;
     ccso:hasSyllabus <https://hackmd.io/s/BJ74JEM6z#> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1873,6 +3180,29 @@ deCourse:53 a ccso:Course ;
     ccso:csName "Data Stories" ;
     ccso:description <https://www.coursicle.com/cmu/courses/ENG/76314/> ;
     ccso:hasInstructor dePerson:christopher-warren ;
+    ccso:hasLM deText:3VQLN932,
+        deText:65NNJ8R6,
+        deText:7R72L4PW,
+        deText:7X8BYU2D,
+        deText:8YCZR67M,
+        deText:B3A749H7,
+        deText:FBQUFBLG,
+        deText:FTDJP4EH,
+        deText:GQBRNU5A,
+        deText:IDJ6SGIF,
+        deText:ILXTCX8X,
+        deText:JL5R8579,
+        deText:KDH4LFYG,
+        deText:MBA6JVW9,
+        deText:T7WRFXGD,
+        deText:V6VZXRM3,
+        deText:WDA9MYEJ,
+        deText:X5F5BWQE,
+        deText:Y8VLI6L7,
+        deText:YAQNTBT4,
+        deText:YIYP93YX,
+        deText:YMTUCWJ3,
+        deText:Z55AH556 ;
     ccso:hasSyllabus <https://hackmd.io/gkEk7RBHRT66QvD8_Og2_g> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/carnegie-mellon-university/department/english> .
@@ -1881,6 +3211,82 @@ deCourse:54 a ccso:Course ;
     ccso:csName "The Ethics and Governance of Artificial Intelligence" ;
     ccso:description <https://hls.harvard.edu/academics/curriculum/catalog/default.aspx?o=71157> ;
     ccso:hasInstructor dePerson:jonathan-zittrain ;
+    ccso:hasLM deText:2I8LYPNU,
+        deText:2KCWLCKZ,
+        deText:37BJ85S4,
+        deText:3IV7ZRME,
+        deText:3Y6BMJSH,
+        deText:48VS57WI,
+        deText:4K67J965,
+        deText:52MQ5ED6,
+        deText:5ZQ5TUEI,
+        deText:62CISQS9,
+        deText:634IPXXU,
+        deText:7B7YWUXH,
+        deText:7GMZBPJ7,
+        deText:7J8ES5EH,
+        deText:8KSIME5X,
+        deText:8URSTCV9,
+        deText:8ZN46NQH,
+        deText:93JA85KU,
+        deText:9GLPEAJW,
+        deText:A4BKF9IV,
+        deText:ADUHZ48C,
+        deText:BEJNNACM,
+        deText:D6NNSZVI,
+        deText:DM4GUQEL,
+        deText:EGYP5RY2,
+        deText:EPJ6TSSX,
+        deText:F6QGDWIV,
+        deText:F9VGP2WL,
+        deText:GSGRYMRW,
+        deText:H67FWACF,
+        deText:HEYFDYXU,
+        deText:HFCBP55C,
+        deText:HYVQ998E,
+        deText:HZCZLN9Z,
+        deText:IAJQLBCB,
+        deText:IFQ7HE66,
+        deText:KSUDMTEX,
+        deText:L22Q7XJA,
+        deText:L3ML2NGJ,
+        deText:LI47Z38U,
+        deText:LPKDQNCN,
+        deText:M7H7FUHV,
+        deText:MLACXAAX,
+        deText:MPL2DYUT,
+        deText:MUT7ULAH,
+        deText:N3PLB2T9,
+        deText:NUIYGGXR,
+        deText:PC634ZZZ,
+        deText:PRYHFLXP,
+        deText:QAQEQFLY,
+        deText:QAVZ68I9,
+        deText:QHTB2CTZ,
+        deText:QIU9TAFD,
+        deText:R378JEB5,
+        deText:R3PR5EZM,
+        deText:R5LMWXBW,
+        deText:R8VVE6K4,
+        deText:RIW2C44T,
+        deText:S5NL9ST3,
+        deText:S8SNKQBJ,
+        deText:S8WPU7F9,
+        deText:SE5XBI8K,
+        deText:SEQRD3SH,
+        deText:USREJUQV,
+        deText:UXHQGMSF,
+        deText:V2QSZ66H,
+        deText:V8RT9T6B,
+        deText:VEKZZUAI,
+        deText:VYSZXDWA,
+        deText:WUE8HRUL,
+        deText:WY2B9TAH,
+        deText:XP79GFMR,
+        deText:YGEGYYE7,
+        deText:YWDCYNZJ,
+        deText:ZASMGPKH,
+        deText:ZXFJ9SB8 ;
     ccso:hasSyllabus <https://h2o.law.harvard.edu/playlists/53282> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/harvard-university/department/harvard-law-school> .
@@ -1888,6 +3294,9 @@ deCourse:54 a ccso:Course ;
 deCourse:55 a ccso:Course ;
     ccso:csName "Professional Ethics in Computing" ;
     ccso:hasInstructor dePerson:multiple-professors ;
+    ccso:hasLM deText:DF27LSXZ,
+        deText:SU288SGB,
+        deText:V99Z2AKD ;
     ccso:hasSyllabus <https://goo.gl/wbKokH> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/california-state-university-fullerton/department/computer-science> .
@@ -1895,6 +3304,9 @@ deCourse:55 a ccso:Course ;
 deCourse:56 a ccso:Course ;
     ccso:csName "Professional Ethics in Computing" ;
     ccso:hasInstructor dePerson:beth-harnick-shapiro ;
+    ccso:hasLM deText:8VCSD4QP,
+        deText:96V862BC,
+        deText:9P4J2EFF ;
     ccso:hasSyllabus <https://goo.gl/pu1hda> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/california-state-university-fullerton/department/computer-science> .
@@ -1938,12 +3350,90 @@ deCourse:6 a ccso:Course ;
 deCourse:60 a ccso:Course ;
     ccso:csName "Computing and Society" ;
     ccso:hasInstructor <https://data-ethics.tech/person/m%C3%A1rio-j-silva> ;
+    ccso:hasLM deText:3DY57B8G,
+        deText:3W2N2XFH,
+        deText:4XRYYLMW,
+        deText:5L6CGWNT,
+        deText:669NGVFL,
+        deText:6Q8W29L3,
+        deText:6SL2IPNQ,
+        deText:AGNVD7QG,
+        deText:BCAYSHRH,
+        deText:CRNFUHG5,
+        deText:DQAKXRVX,
+        deText:ECBNP83N,
+        deText:F3RD9UN9,
+        deText:FUN3J2SK,
+        deText:GKBWI2A3,
+        deText:J8FEL7IX,
+        deText:LQ752TJQ,
+        deText:LYCYWHSS,
+        deText:NEDK7FAT,
+        deText:QREY54QI,
+        deText:RCIHBE45,
+        deText:UUFXUIDT,
+        deText:WTGHGZPN,
+        deText:XQ44KEN5,
+        deText:Y435WNIQ,
+        deText:YAJCEGTI,
+        deText:YRM9RBYU,
+        deText:Z29TNAEA,
+        deText:ZMQIUSSC ;
     ccso:hasSyllabus <https://fenix.tecnico.ulisboa.pt/disciplinas/CS111326/2017-2018/2-semestre/programa> ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-lisbon/department/computer-science-and-engineering> .
 
 deCourse:61 a ccso:Course ;
     ccso:csName "Fairness in Machine Learning" ;
     ccso:hasInstructor dePerson:moritz-hardt ;
+    ccso:hasLM deText:2WCGTGHN,
+        deText:378QGDSV,
+        deText:3GTH6VT4,
+        deText:3HTLDHA6,
+        deText:3JZKSPYX,
+        deText:3RP5NVKL,
+        deText:532LIED4,
+        deText:5L4FS7PR,
+        deText:7FJFVRN8,
+        deText:7U5MF6F2,
+        deText:8DWI2Z4H,
+        deText:96LZHBBI,
+        deText:9JMHGPK9,
+        deText:ACKIVYIF,
+        deText:AT2IJRA2,
+        deText:ATLDSRW3,
+        deText:AVSMD2NM,
+        deText:BNV2KSXC,
+        deText:BWLUV2L5,
+        deText:CEWJMDCN,
+        deText:CIPQPKC6,
+        deText:CQ7RTBR3,
+        deText:D2RLGI68,
+        deText:DEUU5457,
+        deText:DFK46E86,
+        deText:EUXS4S4M,
+        deText:H425UB35,
+        deText:HINNLKDM,
+        deText:HVVICQMG,
+        deText:I4DFVUZY,
+        deText:I9KADMUM,
+        deText:JV29LIJD,
+        deText:LVZI9SJC,
+        deText:MCRJ3PHM,
+        deText:MDZZPWUS,
+        deText:MY8NIBWP,
+        deText:N7LC8ZW5,
+        deText:PD7KHI6G,
+        deText:QUJHEY3Y,
+        deText:RBFU6K5K,
+        deText:RBX28DLT,
+        deText:S7SI89G6,
+        deText:SQ67LWCE,
+        deText:U3KA4PZN,
+        deText:UFD77D4Z,
+        deText:UUDEBMNW,
+        deText:WBP5C6KX,
+        deText:XAAMI3DH,
+        deText:XCCRG2Z4 ;
     ccso:hasSyllabus <https://fairmlclass.github.io/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1962,6 +3452,31 @@ deCourse:63 a ccso:Course ;
     ccso:csName "Purdue's Reflective & Interactive Modules for Engineering Ethics" ;
     ccso:hasInstructor dePerson:andrew-brightman,
         dePerson:colleagues ;
+    ccso:hasLM deText:22TG435R,
+        deText:2JJMUW7D,
+        deText:47U7ZEBL,
+        deText:4FZR8NVS,
+        deText:63R9C58L,
+        deText:65R64FS7,
+        deText:74MFSJ94,
+        deText:9ACPZKGL,
+        deText:A55X9SX8,
+        deText:AYGH56BD,
+        deText:BSB5IYX3,
+        deText:EZ2DUSCV,
+        deText:FRTL97EB,
+        deText:GTZT7RV9,
+        deText:IEM2EWTJ,
+        deText:IFUW65VS,
+        deText:ILUEI9PF,
+        deText:JAZLGCHC,
+        deText:KM3B9DNG,
+        deText:NQJ8Z3KN,
+        deText:P947I6S5,
+        deText:QQBAP5ID,
+        deText:XQZGPA5D,
+        deText:XVDKJD6C,
+        deText:Z37LNKPD ;
     ccso:hasSyllabus <https://engineering.purdue.edu/BME/PRIMEEthics> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -1993,6 +3508,9 @@ deCourse:66 a ccso:Course ;
     ccso:csName "NaN"^^xsd:double ;
     ccso:description <https://www.infosci.cornell.edu/academics/courses/ethics-and-policy-data-science> ;
     ccso:hasInstructor dePerson:solon-barocas ;
+    ccso:hasLM deText:4BKENRQD,
+        deText:F57RPEU7,
+        deText:Y7BKAL8G ;
     ccso:hasSyllabus <https://drive.google.com/open?id=1GV97qqvjQNvyM2I01vuRaAwHe9pQAZ9pbP7KkKveg1o> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/cornell-university/department/information-science> .
@@ -2001,6 +3519,7 @@ deCourse:67 a ccso:Course ;
     ccso:csName "Ethical & Legal Issues of Data Analytics" ;
     ccso:description <https://m10763.siss.duke.edu/app/catalog/classsection/DUKEU/1630/> ;
     ccso:hasInstructor dePerson:salman-azhar ;
+    ccso:hasLM deText:HNLYMUV7 ;
     ccso:hasSyllabus <https://drive.google.com/open?id=1bV86GDFQ550MoN8KrKzRvtd8WK9ejn2R> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -2011,6 +3530,7 @@ deCourse:68 a ccso:Course ;
     ccso:coversTopic "Abuse at Uber, Google, Facebook; ProPublica (and others') reports on ML recidivism racist predictions; Facial recognition racism" ;
     ccso:csName "Foundational Values" ;
     ccso:hasInstructor dePerson:don-winiecki ;
+    ccso:hasLM deText:K2CHBUQH ;
     ccso:hasSyllabus <https://drive.google.com/open?id=1BEg2ZH_2BUKgfnuYYNj-rs3c29jiMOgi> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/boise-state-university/department/computer-science> .
@@ -2021,6 +3541,7 @@ deCourse:69 a ccso:Course ;
     ccso:description <https://fac.ksu.edu.sa/nalnabhan/course/131953> ;
     ccso:hasInstructor dePerson:farah-muhammed,
         dePerson:sarah-alsulaiman ;
+    ccso:hasLM deText:ZS57P4C8 ;
     ccso:hasSyllabus <https://drive.google.com/file/d/105--zeyHG32mLy2_dv9z4z6kw4r38JLO/view> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/king-saud-university/department/computer-science> .
@@ -2038,6 +3559,46 @@ deCourse:70 a ccso:Course ;
     ccso:courseURL <https://engineering.berkeley.edu/magazine/spring-2014/engineering-social-justice> ;
     ccso:csName "Engineering Social Justice" ;
     ccso:hasInstructor dePerson:khalid-kadir ;
+    ccso:hasLM deText:28BBCHUC,
+        deText:2T2UYZIU,
+        deText:3VJ3DLYH,
+        deText:47SZQZ4B,
+        deText:5NPD46BB,
+        deText:67IHU26Z,
+        deText:7UH3PLGV,
+        deText:7VPAAATR,
+        deText:9ENZJX2H,
+        deText:B7XEVW8V,
+        deText:BAJS2LZB,
+        deText:C7FPXLZK,
+        deText:CKS8BFIU,
+        deText:D6QF6DKW,
+        deText:DAYJDVR5,
+        deText:FVQYDPDE,
+        deText:G3V33VWC,
+        deText:JKN5HHT5,
+        deText:KQS8Z6DD,
+        deText:LMX35SHS,
+        deText:MUTD7GR8,
+        deText:NSH8YHY2,
+        deText:P3PR6P3I,
+        deText:PC57SA6L,
+        deText:PS4GWVI2,
+        deText:PTA96FLD,
+        deText:RFH4PC45,
+        deText:RUC9XZBK,
+        deText:RYCI84KJ,
+        deText:T2ZPQG92,
+        deText:UF8DEQ22,
+        deText:V2L9SVUL,
+        deText:VFXQ9H7A,
+        deText:WF3BAZMW,
+        deText:WLBNCCKZ,
+        deText:WZW7274V,
+        deText:X2XC5SVU,
+        deText:XEZCZMQI,
+        deText:XIP5QJY2,
+        deText:ZK8QFWYJ ;
     ccso:hasSyllabus <https://drive.google.com/drive/folders/1YZve_Q2orzCYysjh0-IxuN1NB6S6pZE8?usp=sharing> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/uc-berkeley/department/global-poverty-and-practice> .
@@ -2047,6 +3608,7 @@ deCourse:71 a ccso:Course ;
     ccso:csName "Technology and Consequences: Engineering, Ethics and Humanity " ;
     ccso:description <https://ece.umd.edu/course-schedule/course/ENEE200> ;
     ccso:hasInstructor dePerson:nicole-mogul- ;
+    ccso:hasLM deText:LABR8KIE ;
     ccso:hasSyllabus <https://drive.google.com/a/umd.edu/file/d/1Fc_sw8dMXB7r1HkVr490q7mg8l7cXC7U/view?usp=sharing> ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-maryland%2C-college-park-/department/electrical-and-computer-engineering-> .
 
@@ -2055,6 +3617,10 @@ deCourse:72 a ccso:Course ;
     ccso:csName "Race & Gender in Silicon Valley" ;
     ccso:description <https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=CS+80Q&collapse=> ;
     ccso:hasInstructor dePerson:cynthia-lee ;
+    ccso:hasLM deText:M9V556RN,
+        deText:MF36CJHA,
+        deText:TTKPWRYY,
+        deText:VJSEH38P ;
     ccso:hasSyllabus <https://docs.google.com/spreadsheets/d/169Hz1Jknnu_vn99URSd8MfbqBbYI9MxcqZK7Y6GzGYQ/edit?usp=sharing> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/computer-science> .
@@ -2068,6 +3634,24 @@ deCourse:73 a ccso:Course ;
         dePerson:david-vladeck,
         dePerson:hal-abelson,
         dePerson:laura-moy ;
+    ccso:hasLM deText:2GCWGW2D,
+        deText:3XMN4FPC,
+        deText:AYW2S5MR,
+        deText:CE53TTT4,
+        deText:CYGMV5VC,
+        deText:EBSCQMCV,
+        deText:FEG2SHVY,
+        deText:FLPTZSCL,
+        deText:GAMXA85G,
+        deText:LKDBCL3D,
+        deText:NW59IIW6,
+        deText:P4YWBK4X,
+        deText:PU5ISC9G,
+        deText:RTHTSKQH,
+        deText:T6CWIWCZ,
+        deText:UBYV32HK,
+        deText:ULRDNIPR,
+        deText:VFCVMR2W ;
     ccso:hasSyllabus <https://docs.google.com/document/d/e/2PACX-1vQSuCOtwEb8mynxWAI4rWFiXNgXK6SLiDD9KT51CxeaOIlUw9wY5ZmWPz4AELDdO-27bPm_EbUGA8ur/pub> ;
     ccso:offeredBy <https://data-ethics.tech/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university/department/computer-science> .
 
@@ -2077,6 +3661,9 @@ deCourse:74 a ccso:Course ;
     ccso:description <http://blockchainethics.co> ;
     ccso:hasInstructor dePerson:neha-narula,
         dePerson:rhys-lindmark ;
+    ccso:hasLM deText:DS68IVH7,
+        deText:J3ZXIVVB,
+        deText:MFELNC9Z ;
     ccso:hasSyllabus <https://docs.google.com/document/d/1l1GArujM62kfU6-a7pKan95L20GjZ3_9_ErXpEWNO5M/edit#> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -2088,6 +3675,18 @@ deCourse:75 a ccso:Course ;
     ccso:courseURL <https://datascienceethics.org/> ;
     ccso:csName "Data Science Ethics" ;
     ccso:hasInstructor dePerson:elisa-celis ;
+    ccso:hasLM deText:2I69KTA9,
+        deText:4EGAYP8N,
+        deText:4VJSIR8S,
+        deText:CV343PMJ,
+        deText:DIUKPEPY,
+        deText:F29U6JNE,
+        deText:JTN7HF73,
+        deText:NJEM7FJ3,
+        deText:T8G5NXAG,
+        deText:T96EK5VT,
+        deText:XVZ93BC9,
+        deText:ZCUTSKXQ ;
     ccso:hasSyllabus <https://datascienceethics.org/syllabus/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/yale-university/department/statistics-%26-data-science> .
@@ -2105,6 +3704,33 @@ deCourse:77 a ccso:Course ;
     ccso:csName "Human-in-the-loop data analytics" ;
     ccso:description <https://cusp.sydney.edu.au/students/view-unit-page/uos_id/289913/vid/316653> ;
     ccso:hasInstructor dePerson:nan ;
+    ccso:hasLM deText:2D4IHJ9W,
+        deText:2X7QD84G,
+        deText:4AQACBZQ,
+        deText:4YK4HFQB,
+        deText:8ASKXMRJ,
+        deText:8CPMP4T4,
+        deText:8ZINM9IS,
+        deText:A92WK5CN,
+        deText:BK6H6J43,
+        deText:EA5D6UD7,
+        deText:ENTY6J7M,
+        deText:FHRF92ZF,
+        deText:H95F46UL,
+        deText:KJGCK8A9,
+        deText:NJ9X28AI,
+        deText:P7I2ZE54,
+        deText:R4KAPTAJ,
+        deText:RQG322PQ,
+        deText:SSN9GT2Z,
+        deText:TQB85SYP,
+        deText:TUYLEPDS,
+        deText:UCBPBAQR,
+        deText:UJJ2BWFX,
+        deText:UW2V7T3Z,
+        deText:XQNH6MFJ,
+        deText:YSJW723X,
+        deText:Z78SW9LB ;
     ccso:hasSyllabus <https://cusp.sydney.edu.au/students/view-unit-page/uos_id/289913/vid/316653> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/the-university-of-sydney/department/computer-science> .
@@ -2121,6 +3747,10 @@ deCourse:79 a ccso:Course ;
     ccso:csName "Ethics in Mathematics Project" ;
     ccso:description <http://www.ethics.maths.cam.ac.uk/EiM1/> ;
     ccso:hasInstructor dePerson:nan ;
+    ccso:hasLM deText:FM9TGRID,
+        deText:HXNYGWSD,
+        deText:KW9HMG94,
+        deText:YTYD97LA ;
     ccso:hasSyllabus <https://cueims.soc.srcf.net/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-cambridge/department/nan> .
@@ -2137,6 +3767,12 @@ deCourse:80 a ccso:Course ;
     ccso:description <http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/courses/research.cfm> ;
     ccso:hasInstructor dePerson:jill-dolata,
         dePerson:steven-bedrick ;
+    ccso:hasLM deText:8RHKY4JS,
+        deText:8RPSLVSV,
+        deText:EI3H7LSS,
+        deText:IX8NPWVE,
+        deText:QIYFDHLM,
+        deText:VHQRC9TJ ;
     ccso:hasSyllabus <https://cslu.ohsu.edu/~bedricks/courses/cs692_winter_2020/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -2168,6 +3804,14 @@ deCourse:83 a ccso:Course ;
     ccso:csName "Digital Anthropology" ;
     ccso:description <https://ce.colorado.edu/courses/explorations-in-anthropology-digital-anthropology-anth-4020/#> ;
     ccso:hasInstructor dePerson:timothy-webmoor ;
+    ccso:hasLM deText:7J5EPQUM,
+        deText:9YKQ2UC3,
+        deText:BZ75W9PH,
+        deText:DHSKFDMM,
+        deText:QE7SUYHW,
+        deText:UF9YIURM,
+        deText:URNG425T,
+        deText:ZAXWGMKV ;
     ccso:hasSyllabus <https://ce.colorado.edu/course-details/anth-4020-explorations-in-anthropology-digital-anthropology-section-581/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-colorado-boulder/department/continuing-education> .
@@ -2177,6 +3821,127 @@ deCourse:84 a ccso:Course ;
     ccso:csName "Professional Responsibility in Computer Science and Software Engineering" ;
     ccso:description <https://catalog.utdallas.edu/2012/undergraduate/courses/cs3162> ;
     ccso:hasInstructor dePerson:various ;
+    ccso:hasLM deText:25QJLPV6,
+        deText:2KB6MRU4,
+        deText:2PISL7GQ,
+        deText:2Q4MB556,
+        deText:2XZK4XC9,
+        deText:36TGXUMN,
+        deText:3I7XT6NY,
+        deText:426LTAGH,
+        deText:4LUTKW86,
+        deText:4UG4G4FX,
+        deText:4W2WN2V2,
+        deText:4X82A54R,
+        deText:52PJJRL5,
+        deText:57UTT2NZ,
+        deText:65YFYWSU,
+        deText:6BAT72ZE,
+        deText:6RABLCPA,
+        deText:6RSZPI33,
+        deText:75PZFTWM,
+        deText:797RBQ6T,
+        deText:7DDWRKTW,
+        deText:7QWMUA35,
+        deText:7S6T46D6,
+        deText:7UDAI8KM,
+        deText:8376R8SS,
+        deText:8DDYHN2C,
+        deText:8HBWI8S7,
+        deText:93Z6265V,
+        deText:973I4N9X,
+        deText:9Q75T7EV,
+        deText:9SAAPPVM,
+        deText:9WEAWQ3W,
+        deText:9WMJ2HMB,
+        deText:9Y44SUCF,
+        deText:A6EQB3N3,
+        deText:ABAJ4G5S,
+        deText:AHW4RY9V,
+        deText:AMM44FBF,
+        deText:B3MW9LR3,
+        deText:B496IH3Z,
+        deText:B9Q67RI3,
+        deText:BN6AX749,
+        deText:BRVP7ZGN,
+        deText:BSDGWI8L,
+        deText:BW86P55D,
+        deText:CWJIX5U2,
+        deText:CWKAMS5S,
+        deText:DI6DDXT8,
+        deText:DQX53GZ3,
+        deText:EFUQ3MLW,
+        deText:EJSU9AH3,
+        deText:EX655XRN,
+        deText:F3TXN8WV,
+        deText:FFEIATRX,
+        deText:FTN6HPN5,
+        deText:G6H7IS2V,
+        deText:GCDG7CZR,
+        deText:GJBFB3LS,
+        deText:GPRU4DCF,
+        deText:GUZL66IV,
+        deText:HHAX3BK3,
+        deText:I3RKCLEH,
+        deText:I7SMGDAR,
+        deText:I8ZFNFV2,
+        deText:IL7A6L3W,
+        deText:IWJAYUV5,
+        deText:JGKNZGIA,
+        deText:JLKLC8ZV,
+        deText:JQJBIW9T,
+        deText:JRIRV44C,
+        deText:JUI4ETX7,
+        deText:JXHESW43,
+        deText:KC59KNYI,
+        deText:KHJPNN2D,
+        deText:L7G4MCPC,
+        deText:L9X3ZEWK,
+        deText:LBAFQVY6,
+        deText:LDACX7E4,
+        deText:LRU4EP7A,
+        deText:LV2YJR4Y,
+        deText:M43WCSW3,
+        deText:M6D7QYDQ,
+        deText:MTSF9BAC,
+        deText:N3JUPE69,
+        deText:N5M4UTJT,
+        deText:NLEVXN6I,
+        deText:NMAER2X3,
+        deText:P74WEVT4,
+        deText:PA5L6ZJ9,
+        deText:PKUCB2QG,
+        deText:PS6D43RW,
+        deText:PTF2KP4F,
+        deText:QNTUE2EK,
+        deText:S8T5MF3T,
+        deText:SIDEW9V3,
+        deText:SJLEHSS6,
+        deText:SM5L52QW,
+        deText:SUGFVYDI,
+        deText:SWH7H7GV,
+        deText:SXJCILJS,
+        deText:T72CSNVV,
+        deText:T76VFZ2R,
+        deText:TGM9F38B,
+        deText:U5R94AQV,
+        deText:U8Z9ZZL3,
+        deText:UMFRSICE,
+        deText:V4NKKPXE,
+        deText:VARHEPLS,
+        deText:VL88FK96,
+        deText:W45F4ALM,
+        deText:W4AKTCTI,
+        deText:W4QDR8QM,
+        deText:W6J43S3U,
+        deText:WBCTVIYV,
+        deText:WKCJPUR3,
+        deText:XAWCDH5J,
+        deText:XM6G5AHK,
+        deText:XSC948TS,
+        deText:YXS7W8JF,
+        deText:YXVNWDWH,
+        deText:YYBPSHHS ;
     ccso:hasSyllabus <https://catalog.utdallas.edu/2012/undergraduate/courses/cs3162> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/the-university-of-texas-at-dallas/department/computer-science> .
@@ -2192,6 +3957,49 @@ deCourse:86 a ccso:Course ;
     ccso:csName "Privacy and Security Lab" ;
     ccso:description <https://bcourses.berkeley.edu/courses/1466946/> ;
     ccso:hasInstructor dePerson:chris-hoofnagle ;
+    ccso:hasLM deText:2KXW3PIR,
+        deText:2VDL2D35,
+        deText:3RCKT6YJ,
+        deText:4L3DNRK3,
+        deText:5MCJI9QQ,
+        deText:65NC9MGZ,
+        deText:84E2HL5I,
+        deText:87L2FIB8,
+        deText:8RB4G89D,
+        deText:8ZU9TVD8,
+        deText:946J9TPY,
+        deText:AIE8Y3KU,
+        deText:AT3YQTN8,
+        deText:BP8RGNWD,
+        deText:BYCGNJGL,
+        deText:CTZ4VTI3,
+        deText:DUUQTU96,
+        deText:DV7TYQE4,
+        deText:E6KNUMEJ,
+        deText:E7NBZF7D,
+        deText:EA6QEGKE,
+        deText:GAX6SGJP,
+        deText:GYPTC87K,
+        deText:I6PDVUDR,
+        deText:IEA4UXSP,
+        deText:IJN46WY8,
+        deText:KHF6XZB8,
+        deText:LC2VCM53,
+        deText:LDP3SJSZ,
+        deText:M4VGU88G,
+        deText:N7BJSPC5,
+        deText:P25F7FPY,
+        deText:R7UBWBUU,
+        deText:RMA7DZHN,
+        deText:TI6V2RED,
+        deText:TTQA4SQM,
+        deText:UD7RA4GA,
+        deText:VED97BWC,
+        deText:VMX4ADVQ,
+        deText:WWSGZLQQ,
+        deText:WZ5V6RR7,
+        deText:XQUYD9ZN,
+        deText:YRC5TREN ;
     ccso:hasSyllabus <https://bcourses.berkeley.edu/courses/1466946/assignments/syllabus> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -2202,6 +4010,43 @@ deCourse:87 a ccso:Course ;
     ccso:csName "Privacy Law for Technologists" ;
     ccso:description <https://bcourses.berkeley.edu/courses/1463120/> ;
     ccso:hasInstructor dePerson:chris-hoofnagle ;
+    ccso:hasLM deText:2KUMKHNS,
+        deText:5FXHJKMP,
+        deText:7RDMYJDM,
+        deText:7XXYJHWW,
+        deText:8UNIRKV9,
+        deText:95L6TYWL,
+        deText:99YL3Q43,
+        deText:B84BCEDV,
+        deText:BBHKVVNM,
+        deText:E5XQIXMW,
+        deText:FHRWLWG2,
+        deText:FIS9BSTS,
+        deText:FTRLC4KS,
+        deText:IEENDAYP,
+        deText:IPFNGKT9,
+        deText:J933KJGJ,
+        deText:JLNVV9IV,
+        deText:KCMVWY94,
+        deText:KF5ECSG8,
+        deText:KQFAMC4K,
+        deText:LENYELWY,
+        deText:M253ZBYA,
+        deText:M388RQR9,
+        deText:MCXELK6K,
+        deText:ND7XUST4,
+        deText:NSTZPLKS,
+        deText:PISZNFW3,
+        deText:QA34TCKT,
+        deText:UD7C3EMD,
+        deText:VMZ5PBHP,
+        deText:WLEANMS7,
+        deText:WQ5MZZS2,
+        deText:X2P6TZYR,
+        deText:Y8NSLAI7,
+        deText:YUW7A6CC,
+        deText:ZHMYYAJ7,
+        deText:ZM4NHSFX ;
     ccso:hasSyllabus <https://bcourses.berkeley.edu/courses/1463120/assignments/syllabus> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -2247,6 +4092,49 @@ deCourse:91 a ccso:Course ;
     ccso:description <http://www.psacomputing.org/algsoc/> ;
     ccso:hasInstructor dePerson:brent-hecht,
         dePerson:possibly-more-soon ;
+    ccso:hasLM deText:44KZY3QL,
+        deText:5I7FCI2P,
+        deText:6MYEAPIE,
+        deText:7IDMA3R8,
+        deText:9JUMEF2N,
+        deText:AEM9VQDQ,
+        deText:AHFB2Z2V,
+        deText:AI5EEU96,
+        deText:AUIGKTZ2,
+        deText:BEDFT56W,
+        deText:BLXZ859S,
+        deText:DCMQWRUD,
+        deText:E7GBFVHZ,
+        deText:E9WNQTAB,
+        deText:EHJBQGZX,
+        deText:FSPMY3AW,
+        deText:GES6S9RX,
+        deText:H4UDDBK6,
+        deText:HHH6DXSF,
+        deText:HKX3CGP6,
+        deText:JVZG8UYG,
+        deText:K2SR5PPZ,
+        deText:KC8V4M7E,
+        deText:L4KW3KAF,
+        deText:LZ46A9A7,
+        deText:MHAFZPMD,
+        deText:MNIYJYAE,
+        deText:N9C9PSSF,
+        deText:NCW5DJ6C,
+        deText:NLDAFHC9,
+        deText:PSBW8MCB,
+        deText:QWBVL77I,
+        deText:S5JXEFKS,
+        deText:TKLX7CZG,
+        deText:TRTTA6BK,
+        deText:UXM6ZNUS,
+        deText:WSDI8RRV,
+        deText:X359UNWM,
+        deText:XP56EZPJ,
+        deText:Y3M7AG87,
+        deText:Y3SPN4DC,
+        deText:YCGGVX6F,
+        deText:ZCK4SFTC ;
     ccso:hasSyllabus <http://www.psacomputing.org/algsoc/schedule/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/northwestern-university/department/computer-science-and-communication-studies> .
@@ -2254,6 +4142,34 @@ deCourse:91 a ccso:Course ;
 deCourse:92 a ccso:Course ;
     ccso:csName "Digital Citizenship, Open Access Course" ;
     ccso:hasInstructor dePerson:jason-ohler ;
+    ccso:hasLM deText:2M2I7JIG,
+        deText:3DMNSMV7,
+        deText:4FCH72PU,
+        deText:54PD6AXI,
+        deText:5PJMTKQU,
+        deText:5T7A5FZ6,
+        deText:5TWA4ZR4,
+        deText:89FLK2YH,
+        deText:8JTUP77F,
+        deText:8N9JNMIN,
+        deText:9MTN5KXQ,
+        deText:C7QQJI66,
+        deText:CN47SJ42,
+        deText:D8DTMW56,
+        deText:GUDS4CLJ,
+        deText:HNNK2M7S,
+        deText:IUAJMFMR,
+        deText:JCN7ME6T,
+        deText:KBF59M4J,
+        deText:LUL2TZEC,
+        deText:PC82MJ3H,
+        deText:RWIPTXL7,
+        deText:SDRQ9HZD,
+        deText:SECMSFDT,
+        deText:SXXX2JXT,
+        deText:W6AY3CUG,
+        deText:WV88VG87,
+        deText:YBCYH2MB ;
     ccso:hasSyllabus <http://www.jasonohler.com/wordpressii/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -2263,6 +4179,7 @@ deCourse:92 a ccso:Course ;
 deCourse:93 a ccso:Course ;
     ccso:csName "Professional Issues" ;
     ccso:hasInstructor <https://data-ethics.tech/person/michael-fourman-%26-stuart-anderson> ;
+    ccso:hasLM deText:KGRYK5M3 ;
     ccso:hasSyllabus <http://www.inf.ed.ac.uk/teaching/courses/pi/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-edinburgh/department/informatics> .
@@ -2271,6 +4188,10 @@ deCourse:94 a ccso:Course ;
     ccso:csName "Politics & Technology " ;
     ccso:description <https://www.tum.de/nc/en/studies/degree-programs/detail/politics-technology-master-of-science-msc/> ;
     ccso:hasInstructor dePerson:miranda-schreurs ;
+    ccso:hasLM deText:EYLSGV8M,
+        deText:I564DL27,
+        deText:IDD2VADI,
+        deText:P3SEYJRU ;
     ccso:hasSyllabus <http://www.hfp.tum.de/en/studies/masters-program/course-content/> ;
     ccso:includedIn ccso:Master ;
     ccso:language "en" ;
@@ -2280,6 +4201,57 @@ deCourse:94 a ccso:Course ;
 deCourse:95 a ccso:Course ;
     ccso:csName "Ethical Foundations for Information Security" ;
     ccso:hasInstructor dePerson:davi-ottenheimer ;
+    ccso:hasLM deText:2LX6C263,
+        deText:2WSUIW5G,
+        deText:3S4Z3WB3,
+        deText:3SDL55V8,
+        deText:6FMQUUV7,
+        deText:72TCESER,
+        deText:79SZ6GDZ,
+        deText:7R728STC,
+        deText:92DZXXM2,
+        deText:BUDHQNFC,
+        deText:CRAEUS35,
+        deText:EIEM4SQP,
+        deText:FF5JL82G,
+        deText:FPM8W87N,
+        deText:FS9XWJYM,
+        deText:FUT66V5W,
+        deText:GGASEILB,
+        deText:HQDB9AQM,
+        deText:HWWTALZQ,
+        deText:JLXAF6VF,
+        deText:JRGQKGIU,
+        deText:JTEFBB57,
+        deText:KMUJT4HP,
+        deText:KPAVGTXS,
+        deText:KRZINNW9,
+        deText:LCW7LG3S,
+        deText:LP7DLFAL,
+        deText:LWPR9UQV,
+        deText:LZR8ACZF,
+        deText:MMG4T3EM,
+        deText:NIHKRG4N,
+        deText:NMBI2L56,
+        deText:NTJQQ4HE,
+        deText:NUNCCW9F,
+        deText:PBVEIP36,
+        deText:PCP6LFMB,
+        deText:R3N9NQD8,
+        deText:RSHF3VKN,
+        deText:RT2QTCTN,
+        deText:RV86RRNL,
+        deText:SIJ8FZW3,
+        deText:TSAXNV4S,
+        deText:TV3EB9TX,
+        deText:UE9348QX,
+        deText:VYFJL3IZ,
+        deText:W54XKAPJ,
+        deText:WZ7SQFF5,
+        deText:YV8YERBV,
+        deText:Z74D9VCY,
+        deText:ZGYCQKTJ,
+        deText:ZXA6JRKQ ;
     ccso:hasSyllabus <http://www.flyingpenguin.com/?p=21905> ;
     ccso:includedIn ccso:Master ;
     ccso:language "de" ;
@@ -2290,6 +4262,28 @@ deCourse:96 a ccso:Course ;
     ccso:csName "Life, Computers, and Everything " ;
     ccso:description <http://www.eg.bucknell.edu/~csci245/> ;
     ccso:hasInstructor dePerson:l.-felipe-perrone ;
+    ccso:hasLM deText:2JI4IM9N,
+        deText:3DPFQH6W,
+        deText:3PCLI2MV,
+        deText:8YUYLX78,
+        deText:983ULRQP,
+        deText:AI4HZRSV,
+        deText:CYR9ZWF5,
+        deText:F2XWYWG5,
+        deText:FQ6X6LN3,
+        deText:FY9EXQW8,
+        deText:J5ZR54Z3,
+        deText:LZC9PXCK,
+        deText:ML4ZIJTB,
+        deText:NJD9R54U,
+        deText:NXPUZ4LT,
+        deText:PV74D6XN,
+        deText:SN48UJIM,
+        deText:SU3RS5IG,
+        deText:THCPPR7Z,
+        deText:VK86TT2W,
+        deText:VMZI392T,
+        deText:YC5L5SR7 ;
     ccso:hasSyllabus <http://www.eg.bucknell.edu/~csci245/schedule/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/bucknell-university/department/computer-science> .
@@ -2299,6 +4293,19 @@ deCourse:97 a ccso:Course ;
     ccso:csName "Computers and Society " ;
     ccso:description <http://www.eg.bucknell.edu/~cs240/> ;
     ccso:hasInstructor dePerson:l.-felipe-perrone ;
+    ccso:hasLM deText:3I3KSKB7,
+        deText:3UE4UW57,
+        deText:458WMRZM,
+        deText:BPHF829W,
+        deText:DVBNDBEA,
+        deText:ILIV86MF,
+        deText:K33DXQGT,
+        deText:K9JAJDV4,
+        deText:KG6L9UC4,
+        deText:NTYZANX8,
+        deText:R6F2QIMU,
+        deText:Y457YL7Z,
+        deText:Z5ICLEBM ;
     ccso:hasSyllabus <http://www.eg.bucknell.edu/~cs240/schedule/> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/bucknell-university/department/computer-science> .
@@ -2306,6 +4313,14 @@ deCourse:97 a ccso:Course ;
 deCourse:98 a ccso:Course ;
     ccso:csName "Ethics of Artificial Intelligence" ;
     ccso:hasInstructor dePerson:mark-sprevak ;
+    ccso:hasLM deText:54DYJ5UQ,
+        deText:HPHU57AX,
+        deText:I99D34GE,
+        deText:JRWEVWC2,
+        deText:LX96VAZ8,
+        deText:RYUZC4XB,
+        deText:V9ZX6D8D,
+        deText:VWVHIWBN ;
     ccso:hasSyllabus <http://www.drps.ed.ac.uk/17-18/dpt/cxphil10167.htm> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-edinburgh/department/philosophy> .
@@ -2314,6 +4329,21 @@ deCourse:99 a ccso:Course ;
     ccso:csName "Ethics in Data Science" ;
     ccso:hasInstructor dePerson:katie-shelef,
         dePerson:suresh-venkatasubramanian ;
+    ccso:hasLM deText:437PGPYU,
+        deText:6HLXECMB,
+        deText:6KHU5IH6,
+        deText:95CKPQZN,
+        deText:97ZYTXHB,
+        deText:A344XJGW,
+        deText:H3MTYJDQ,
+        deText:KA7BK4D4,
+        deText:KSTHR383,
+        deText:MYS8ZCYX,
+        deText:T2T6H8L9,
+        deText:TEGJZWHE,
+        deText:WEZ8XYRA,
+        deText:WQXA9ZFP,
+        deText:XNIUG996 ;
     ccso:hasSyllabus <http://www.cs.utah.edu/~suresh/courses/ethics.html> ;
     ccso:language "en" ;
     ccso:offeredBy <https://data-ethics.tech/university/university-of-utah/department/computer-science> .
@@ -4944,5 +6974,4 @@ deUniversity:stanford-university a ccso:University ;
 deUniversity:uc-berkeley a ccso:University ;
     owl:sameAs <https://wikidata.org/wiki/-1> ;
     ccso:legalName "UC Berkeley" .
-
 
