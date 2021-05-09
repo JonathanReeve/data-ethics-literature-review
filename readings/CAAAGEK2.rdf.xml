@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="CAAAGEK2">
+        <res:resource rdf:resource="https://epe.yale.edu/"/>
+        <z:accessDate>2021-05-09 03:08:04</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://epe.yale.edu/">
+        <bibo:uri>https://epe.yale.edu/</bibo:uri>
+        <dcterms:title>Introduction | Program on Ethics, Politics and Economics</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

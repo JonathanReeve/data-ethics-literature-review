@@ -1,0 +1,89 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="WXEKEDUB">
+        <ctag:tagged rdf:nodeID="n3905"/>
+        <z:repository>Library Catalog (Blacklight)</z:repository>
+        <z:accessDate>2021-05-09 03:20:21</z:accessDate>
+        <ctag:tagged rdf:nodeID="n3905"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Human factors</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="http://www.columbia.edu/cgi-bin/cul/resolve?clio11370856.001"/>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Moral and ethical aspects</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n3905"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Social aspects</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Robots</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Design and construction</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Aufsatzsammlung</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Book rdf:about="http://www.columbia.edu/cgi-bin/cul/resolve?clio11370856.001">
+        <bibo:shortTitle>Robot ethics</bibo:shortTitle>
+        <bibo:isbn13>9780262016667</bibo:isbn13>
+        <dcterms:publisher>
+            <foaf:Organization>
+                <address:localityName>Cambridge, Mass</address:localityName>
+                <foaf:name>MIT Press</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:date>2012</dcterms:date>
+        <bibo:lccn>EBOOKS</bibo:lccn>
+        <bibo:uri>http://www.columbia.edu/cgi-bin/cul/resolve?clio11370856.001</bibo:uri>
+        <dcterms:title>Robot ethics: the ethical and social implications of robotics</dcterms:title>
+        <bibo:editor rdf:nodeID="n3901"/>
+        <bibo:editorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n3901"/>
+                <rdf:li rdf:nodeID="n3903"/>
+                <rdf:li rdf:nodeID="n3904"/>
+            </rdf:Seq>
+        </bibo:editorList>
+        <bibo:editor rdf:nodeID="n3903"/>
+        <bibo:editor rdf:nodeID="n3904"/>
+        <dcterms:isPartOf>
+            <bibo:Series>
+                <dcterms:title>Intelligent robotics and autonomous agents</dcterms:title>
+            </bibo:Series>
+        </dcterms:isPartOf>
+    </bibo:Book>
+    <foaf:Person rdf:nodeID="n3901">
+       <foaf:givenName>Patrick</foaf:givenName><foaf:surname>Lin</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n3903">
+       <foaf:givenName>Keith</foaf:givenName><foaf:surname>Abney</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n3904">
+        <foaf:givenName>George A.</foaf:givenName>
+        <foaf:surname>Bekey</foaf:surname>
+    </foaf:Person>
+    <ctag:AutoTag rdf:nodeID="n3905">
+       <ctag:label>Robotics</ctag:label>
+    </ctag:AutoTag>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+            <bibo:Note>
+                <z:note>Patrick Lin -- George A. Bekey -- Keith Abney -- Colin Allen and Wendell Wallach -- James Hughes -- Selmer Bringsjord and Joshua Taylor -- Noel Sharkey -- Marcello Guarini and Paul Bello -- Gert-Jan Lokhorst and Jeroen van den Hoven -- Richard M. O'Meara -- Peter M. Asaro -- M. Ryan Calo -- Matthias Scheutz -- David Levy -- Blay Whitby -- Jason Borenstein and Yvette Pearson -- Noel Sharkey and Amanda Sharkey -- Steve Petersen -- Rob Sparrow -- Kevin Warwick -- Anthony F. Beavers -- Gianmarco Veruggio and Keith Abney Introduction to robot ethics / Current topics in robotics : technology and ethics / Robotics, ethical theory, and metaethics : a guide for the perplexed / Moral machines : contradictions in terms or abdication of human responsibility? / Compassionate AI and selfless robots : a Buddhist approach / The divine-command approach to robot ethics / Killing made easy : from joysticks to politics / Robotic warfare : some challenges in moving from noncivilian to civilian theaters / Responsibility for military robots / Contemporary governance architecture regarding robotics technologies : an assessment / A body to kick but still no soul to damn : legal perspectives on robotics / Robots and privacy / The inherent dangers of unidirectional emotional bonds between humans and social robots / The ethics of robot prostitutes / Do you want a robot lover? : the ethics of caring technologies / Robot caregiver : ethical issues across the human lifespan / The rights and wrongs of robot care / Designing people to serve / Can machines be people? : reflections on the Turing triage test / Robots with biological brains / Moral machines and the threat of ethical nihilism / Roboethics : the applied ethics for a new science</z:note>
+            </bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

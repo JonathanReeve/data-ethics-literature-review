@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="9LKZ92AJ">
+        <res:resource rdf:resource="https://www.sciencespo.fr/college/fr"/>
+        <z:accessDate>2021-05-09 03:12:04</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.sciencespo.fr/college/fr">
+        <bibo:uri>https://www.sciencespo.fr/college/fr</bibo:uri>
+        <dcterms:title>Accueil | Sciences Po CollÃ¨ge universitaire</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

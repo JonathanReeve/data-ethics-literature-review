@@ -1,0 +1,59 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="84E2HL5I">
+        <res:resource rdf:resource="https://papers.ssrn.com/abstract=1085333"/>
+        <z:repository>papers.ssrn.com</z:repository>
+        <z:accessDate>2021-05-09 03:28:23</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>anonymity</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>privacy</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>privacy enhancing technologies</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>engineering</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://papers.ssrn.com/abstract=1085333">
+        <dcterms:publisher>
+            <foaf:Organization>
+                <foaf:name>Social Science Research Network</foaf:name>
+                <address:localityName>Rochester, NY</address:localityName>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:title>Engineering Privacy</dcterms:title>
+        <bibo:uri>https://papers.ssrn.com/abstract=1085333</bibo:uri>
+        <dcterms:abstract>In this paper we integrate insights from diverse islands of research on electronic privacy to offer a holistic view of privacy engineering and a systematic structure for the discipline's topics. First we discuss privacy requirements grounded in both historic and contemporary perspectives on privacy. We use a two-layer model of user privacy concerns to relate them to system operations (data transfer, storage and processing) and examine their effects on user behavior. In the second part of the paper we develop guidelines for building privacy-friendly systems. We distinguish two approaches: &quot;privacy by policy&quot; and &quot;privacy by architecture.&quot; The privacy by policy approach focuses on the implementation of the notice and choice principles of fair information practices (FIPs), while the privacy by architecture approach minimizes the collection of identifiable personal data and emphasizes anonymization and client-side data storage and processing. We discuss both approaches with a view to their technical overlaps and boundaries as well as to economic feasibility.  The paper aims to introduce engineers and computer scientists to the privacy research domain and provide concrete guidance on how to design privacy-friendly systems.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:type>SSRN Scholarly Paper</dcterms:type>
+        <dcterms:date>JÃ¤nner/Februar 2009</dcterms:date>
+        <bibo:number>ID 1085333</bibo:number>
+        <dcterms:creator rdf:nodeID="n5340"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n5340"/><rdf:li rdf:nodeID="n5342"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5342"/>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n5340">
+        <foaf:givenName>Sarah</foaf:givenName>
+        <foaf:surname>Spiekermann</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5342">
+        <foaf:givenName>Lorrie Faith</foaf:givenName>
+        <foaf:surname>Cranor</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

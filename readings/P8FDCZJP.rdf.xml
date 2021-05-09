@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="P8FDCZJP">
+        <res:resource rdf:resource="https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber"/>
+        <z:accessDate>2021-05-09 03:29:45</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber">
+        <dcterms:title>Reflecting on one very, very strange year at Uber</dcterms:title>
+        <bibo:uri>https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber</bibo:uri>
+        <dcterms:abstract>As most of you know, I left Uber in December and joined Stripe in January. I've gotten a lot of questions over the past couple of months about why I left and what my time at Uber was like. It's a strange, fascinating, and slightly horrifying story that deserves to be told while it is still fresh in</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Susan Fowler</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

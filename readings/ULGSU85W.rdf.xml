@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="ULGSU85W">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=T5y5Sfh__-s"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:30:23</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=T5y5Sfh__-s">
+        <dcterms:title>Beyond the emoji | VPRO Documentary</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=T5y5Sfh__-s</bibo:uri>
+        <dcterms:abstract>Every day we send seven billion emojis worldwide. Although the colorful icons called emojis can no longer be ignored in our daily communication, little is kn...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

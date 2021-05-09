@@ -1,0 +1,52 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="XL87WWXS">
+        <res:resource rdf:resource="https://plato.stanford.edu/archives/sum2021/entries/paradox-simpson/"/>
+        <z:repository>Stanford Encyclopedia of Philosophy</z:repository>
+        <z:accessDate>2021-05-09 03:29:34</z:accessDate>
+    </z:UserItem>
+    <bibo:BookSection rdf:about="https://plato.stanford.edu/archives/sum2021/entries/paradox-simpson/">
+        <dcterms:title>Simpson’s Paradox</dcterms:title>
+        <bibo:uri>https://plato.stanford.edu/archives/sum2021/entries/paradox-simpson/</bibo:uri>
+        <dcterms:abstract>Simpson’s Paradox is a statistical phenomenon where anassociation between two variables in a population emerges, disappearsor reverses when the population is divided into subpopulations. Forinstance, two variables may be positively associated in a population,but be independent or even negatively associated in allsubpopulations. Cases exhibiting the paradox are unproblematic fromthe perspective of mathematics and probability theory, butnevertheless strike many people as surprising. Additionally, theparadox has implications for a range of areas that rely onprobabilities, including decision theory, causal inference, andevolutionary biology. Finally, there are many instances of theparadox, including in epidemiology and in studies of discrimination,where understanding the paradox is essential for drawing the correctconclusions from the data., The following article provides a mathematical analysis of the paradox,explains its role in causal reasoning and inference, compares theoriesof what makes the paradox seem paradoxical, and surveys itsapplications in different domains.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n5552"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n5552"/><rdf:li rdf:nodeID="n5554"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5554"/>
+        <dcterms:isPartOf>
+            <bibo:EditedBook>
+                <dcterms:title>The Stanford Encyclopedia of Philosophy</dcterms:title>
+                <dcterms:date>2021</dcterms:date>
+                <bibo:edition>Summer 2021</bibo:edition>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Metaphysics Research Lab, Stanford University</foaf:name>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:editor rdf:nodeID="n5555"/>
+                <bibo:editorList>
+                   <rdf:Seq><rdf:li rdf:nodeID="n5555"/></rdf:Seq>
+                </bibo:editorList>
+            </bibo:EditedBook>
+        </dcterms:isPartOf>
+    </bibo:BookSection>
+    <foaf:Person rdf:nodeID="n5552">
+       <foaf:givenName>Jan</foaf:givenName><foaf:surname>Sprenger</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5554">
+        <foaf:givenName>Naftali</foaf:givenName>
+        <foaf:surname>Weinberger</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5555">
+        <foaf:givenName>Edward N.</foaf:givenName>
+        <foaf:surname>Zalta</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

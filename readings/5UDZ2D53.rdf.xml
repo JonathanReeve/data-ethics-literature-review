@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="5UDZ2D53">
+        <res:resource rdf:resource="https://docs.google.com/document/d/e/2PACX-1vTfZKEt8geUSYa6nqt8rRrxA1gjKZuQo0KWeANYZY9syak-qEaEpbI5o1DKBSKD8SY-SyiPK3nJtzBI/pub"/>
+        <z:accessDate>2021-05-09 03:00:11</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/document/d/e/2PACX-1vTfZKEt8geUSYa6nqt8rRrxA1gjKZuQo0KWeANYZY9syak-qEaEpbI5o1DKBSKD8SY-SyiPK3nJtzBI/pub">
+        <bibo:uri>https://docs.google.com/document/d/e/2PACX-1vTfZKEt8geUSYa6nqt8rRrxA1gjKZuQo0KWeANYZY9syak-qEaEpbI5o1DKBSKD8SY-SyiPK3nJtzBI/pub</bibo:uri>
+        <dcterms:title>Group Projects Home Page</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

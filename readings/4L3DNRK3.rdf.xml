@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="4L3DNRK3">
+        <res:resource rdf:resource="http://www.theguardian.com/technology/2018/mar/29/apple-launches-ios-113-privacy-features-gdpr-data-protection"/>
+        <z:accessDate>2021-05-09 03:28:40</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.theguardian.com/technology/2018/mar/29/apple-launches-ios-113-privacy-features-gdpr-data-protection">
+        <dcterms:title>Apple launches iOS 11.3 with raft of privacy features</dcterms:title>
+        <bibo:uri>http://www.theguardian.com/technology/2018/mar/29/apple-launches-ios-113-privacy-features-gdpr-data-protection</bibo:uri>
+        <dcterms:abstract>Sensing opportunity – and GDPR – the Silicon Valley company launches major data protection push across devices</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>the Guardian</dcterms:title>
+                <dcterms:date>2018-03-29T17:00:20.000Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

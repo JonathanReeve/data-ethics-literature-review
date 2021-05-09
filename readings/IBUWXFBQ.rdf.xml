@@ -1,0 +1,44 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="IBUWXFBQ">
+        <res:resource rdf:resource="https://ed.stanford.edu/academics/masters-handbook/honor-code"/>
+        <z:accessDate>2021-05-09 03:29:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://ed.stanford.edu/academics/masters-handbook/honor-code">
+        <dcterms:title>Stanford University Honor Code</dcterms:title>
+        <bibo:uri>https://ed.stanford.edu/academics/masters-handbook/honor-code</bibo:uri>
+        <dcterms:abstract>In the spring of 1921, after a seven-year campaign by the student body, the first campus-wide honor system was formally adopted by the University. The code underwent various changes through the years, most recently in the spring of 1977. The standard of academic conduct for Stanford students is as follows:</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5446"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n5446"/>
+                <rdf:li rdf:nodeID="n5448"/>
+                <rdf:li rdf:nodeID="n5449"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5448"/>
+        <dcterms:creator rdf:nodeID="n5449"/>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Stanford Graduate School of Education</dcterms:title>
+                <dcterms:date>2010-07-22T23:41:23-07:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n5446">
+        <foaf:givenName>Â© Stanford</foaf:givenName>
+        <foaf:surname>University</foaf:surname>
+    </foaf:Person>
+    <foaf:Organization rdf:nodeID="n5448">
+       <foaf:name>Stanford</foaf:name>
+    </foaf:Organization>
+    <foaf:Organization rdf:nodeID="n5449">
+       <foaf:name>California 94305</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

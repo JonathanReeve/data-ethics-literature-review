@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="95CKPQZN">
+        <res:resource rdf:resource="http://www.cs.utah.edu/~suresh/about.html"/>
+        <z:accessDate>2021-05-09 03:31:45</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.cs.utah.edu/~suresh/about.html">
+        <bibo:uri>http://www.cs.utah.edu/~suresh/about.html</bibo:uri>
+        <dcterms:title>Suresh Venkatasubramanian :: About</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

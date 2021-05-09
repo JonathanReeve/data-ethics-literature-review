@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="IUU53TX8">
+        <res:resource rdf:resource="http://cs.wellesley.edu/~eni/"/>
+        <z:accessDate>2021-05-09 02:56:07</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://cs.wellesley.edu/~eni/">
+        <bibo:uri>http://cs.wellesley.edu/~eni/</bibo:uri>
+        <dcterms:title>Eni Mustafaraj @ Wellesley College</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

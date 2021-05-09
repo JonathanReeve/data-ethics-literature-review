@@ -1,0 +1,90 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="AZBMB6VP">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>replication</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>November 2017</z:repository>
+        <z:accessDate>2021-05-09 03:13:18</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>reproducibility</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>mixed methods</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>trace ethnography</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>conflict</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://doi.org/10.1145/3134684"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>algorithms</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>wikis</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>automation</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>bots</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>critical data studies</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>open science</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>peer production</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>wikipedia</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1145/3134684">
+        <bibo:shortTitle>Operationalizing Conflict and Cooperation between Automated Software Agents in Wikipedia</bibo:shortTitle>
+        <dcterms:title>Operationalizing Conflict and Cooperation between Automated Software Agents in Wikipedia: A Replication and Expansion of 'Even Good Bots Fight'</dcterms:title>
+        <dcterms:abstract>This paper replicates, extends, and refutes conclusions made in a study published in PLoS ONE (&quot;Even Good Bots Fight&quot;), which claimed to identify substantial levels of conflict between automated software agents (or bots) in Wikipedia using purely quantitative methods. By applying an integrative mixed-methods approach drawing on trace ethnography, we place these alleged cases of bot-bot conflict into context and arrive at a better understanding of these interactions. We found that overwhelmingly, the interactions previously characterized as problematic instances of conflict are typically better characterized as routine, productive, even collaborative work. These results challenge past work and show the importance of qualitative/quantitative collaboration. In our paper, we present quantitative metrics and qualitative heuristics for operationalizing bot-bot conflict. We give thick descriptions of kinds of events that present as bot-bot reverts, helping distinguish conflict from non-conflict. We computationally classify these kinds of events through patterns in edit summaries. By interpreting found/trace data in the socio-technical contexts in which people give that data meaning, we gain more from quantitative measurements, drawing deeper understandings about the governance of algorithmic systems in Wikipedia. We have also released our data collection, processing, and analysis pipeline, to facilitate computational reproducibility of our findings and to help other researchers interested in conducting similar mixed-method scholarship in other platforms and contexts.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/3134684</bibo:uri>
+        <bibo:doi>10.1145/3134684</bibo:doi>
+        <bibo:pages>49:1â€“49:33</bibo:pages>
+        <dcterms:creator rdf:nodeID="n2786"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n2786"/><rdf:li rdf:nodeID="n2788"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n2788"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>1</bibo:volume>
+                <bibo:issue>CSCW</bibo:issue>
+                <dcterms:date>December 6, 2017</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Proceedings of the ACM on Human-Computer Interaction</dcterms:title>
+                        <bibo:shortTitle>Proc. ACM Hum.-Comput. Interact.</bibo:shortTitle>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n2786">
+        <foaf:givenName>R. Stuart</foaf:givenName>
+        <foaf:surname>Geiger</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2788">
+       <foaf:givenName>Aaron</foaf:givenName><foaf:surname>Halfaker</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

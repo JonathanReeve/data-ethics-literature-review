@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="H99JMQCT">
+        <res:resource rdf:resource="https://piazza.com/columbia/spring2018/comsw3995_001_2018_1topicsincomputerscience/home"/>
+        <z:accessDate>2021-05-09 03:20:20</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://piazza.com/columbia/spring2018/comsw3995_001_2018_1topicsincomputerscience/home">
+        <bibo:uri>https://piazza.com/columbia/spring2018/comsw3995_001_2018_1topicsincomputerscience/home</bibo:uri>
+        <dcterms:title>COMSW3995_001_2018_1TOPICSINCOMPUTERSCIENCE at Columbia University in the City of New York | Piazza</dcterms:title>
+        <dcterms:abstract>COMSW3995_001_2018_1TOPICSINCOMPUTERSCIENCE at Columbia University in the City of New York for Spring 2018 on Piazza, an intuitive Q&amp;A platform for students and instructors.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

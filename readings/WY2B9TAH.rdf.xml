@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="WY2B9TAH">
+        <res:resource rdf:resource="https://perma.cc/89PD-YUM7"/>
+        <z:accessDate>2021-05-09 03:26:09</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/89PD-YUM7">
+        <dcterms:title>Should Prison Sentences Be Based On Crimes That Haven’t Been Committed Yet? | FiveThirtyEight</dcterms:title>
+        <bibo:uri>https://perma.cc/89PD-YUM7</bibo:uri>
+        <dcterms:abstract>The new science of sentencing.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+        <bibo:shortTitle>Should Prison Sentences Be Based On Crimes That Haven’t Been Committed Yet?</bibo:shortTitle>
+    </bibo:Webpage>
+</rdf:RDF>

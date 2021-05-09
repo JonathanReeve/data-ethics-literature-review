@@ -1,0 +1,64 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="3X5M2I96">
+        <res:resource rdf:resource="https://www.aclweb.org/anthology/D19-1176"/>
+        <z:repository>ACLWeb</z:repository>
+        <z:accessDate>2021-05-09 03:01:16</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.aclweb.org/anthology/D19-1176">
+        <dcterms:creator rdf:nodeID="n1176"/>
+        <dcterms:title>Finding Microaggressions in the Wild: A Case for Locating Elusive Phenomena in Social Media Posts</dcterms:title>
+        <bibo:doi>10.18653/v1/D19-1176</bibo:doi>
+        <bibo:pages>1664â€“1674</bibo:pages>
+        <dcterms:abstract>Microaggressions are subtle, often veiled, manifestations of human biases. These uncivil interactions can have a powerful negative impact on people by marginalizing minorities and disadvantaged groups. The linguistic subtlety of microaggressions in communication has made it difficult for researchers to analyze their exact nature, and to quantify and extract microaggressions automatically. Specifically, the lack of a corpus of real-world microaggressions and objective criteria for annotating them have prevented researchers from addressing these problems at scale. In this paper, we devise a general but nuanced, computationally operationalizable typology of microaggressions based on a small subset of data that we have. We then create two datasets: one with examples of diverse types of microaggressions recollected by their targets, and another with gender-based microaggressions in public conversations on social media. We introduce a new, more objective, criterion for annotation and an active-learning based procedure that increases the likelihood of surfacing posts containing microaggressions. Finally, we analyze the trends that emerge from these new datasets.</dcterms:abstract>
+        <bibo:presentedAt>
+            <bibo:Conference>
+               <dcterms:title>EMNLP-IJCNLP 2019</dcterms:title>
+            </bibo:Conference>
+        </bibo:presentedAt>
+        <bibo:shortTitle>Finding Microaggressions in the Wild</bibo:shortTitle>
+        <bibo:uri>https://www.aclweb.org/anthology/D19-1176</bibo:uri>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n1176"/>
+                <rdf:li rdf:nodeID="n1178"/>
+                <rdf:li rdf:nodeID="n1179"/>
+                <rdf:li rdf:nodeID="n1180"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n1178"/>
+        <dcterms:creator rdf:nodeID="n1179"/>
+        <dcterms:creator rdf:nodeID="n1180"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)</dcterms:title>
+                <dcterms:date>2019-11</dcterms:date>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <address:localityName>Hong Kong, China</address:localityName>
+                        <foaf:name>Association for Computational Linguistics</foaf:name>
+                    </foaf:Organization>
+                </dcterms:publisher>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n1176">
+        <foaf:givenName>Luke</foaf:givenName>
+        <foaf:surname>Breitfeller</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1178">
+       <foaf:givenName>Emily</foaf:givenName><foaf:surname>Ahn</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1179">
+       <foaf:givenName>David</foaf:givenName><foaf:surname>Jurgens</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1180">
+       <foaf:givenName>Yulia</foaf:givenName><foaf:surname>Tsvetkov</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

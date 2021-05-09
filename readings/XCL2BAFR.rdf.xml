@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="XCL2BAFR">
+        <res:resource rdf:resource="https://www.academia.edu/35640945/Healthscapes_W18_Syllabus"/>
+        <z:repository>www.academia.edu</z:repository>
+        <z:accessDate>2021-05-09 02:55:35</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.academia.edu/35640945/Healthscapes_W18_Syllabus">
+        <dcterms:title>Healthscapes W18 Syllabus</dcterms:title>
+        <bibo:uri>https://www.academia.edu/35640945/Healthscapes_W18_Syllabus</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n601"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n601"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n601">
+       <foaf:givenName>Beza</foaf:givenName><foaf:surname>Merid</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

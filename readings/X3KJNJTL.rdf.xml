@@ -1,0 +1,44 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="X3KJNJTL">
+        <res:resource rdf:resource="https://www.sciencemag.org/news/2017/11/new-accelerator-aims-bring-big-science-psychology"/>
+        <z:accessDate>2021-05-09 02:45:11</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.sciencemag.org/news/2017/11/new-accelerator-aims-bring-big-science-psychology">
+        <dcterms:title>A new ‘accelerator’ aims to bring big science to psychology</dcterms:title>
+        <bibo:uri>https://www.sciencemag.org/news/2017/11/new-accelerator-aims-bring-big-science-psychology</bibo:uri>
+        <dcterms:abstract>Initiative aims to engage dozens of laboratories around the world in large-scale studies</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n206"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n206"/>
+                <rdf:li rdf:nodeID="n208"/>
+                <rdf:li rdf:nodeID="n209"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n208"/>
+        <dcterms:creator rdf:nodeID="n209"/>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Science | AAAS</dcterms:title>
+                <dcterms:date>2017-11-08T16:40:00-05:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n206">
+        <foaf:givenName>Dalmeet Singh</foaf:givenName>
+        <foaf:surname>ChawlaNov. 8</foaf:surname>
+    </foaf:Person>
+    <foaf:Organization rdf:nodeID="n208">
+       <foaf:name>2017</foaf:name>
+    </foaf:Organization>
+    <foaf:Person rdf:nodeID="n209">
+       <foaf:givenName>4:40</foaf:givenName><foaf:surname>Pm</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

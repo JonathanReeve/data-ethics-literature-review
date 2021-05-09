@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="6MAU6PPG">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=Brad_Templeton&amp;oldid=989435337"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-05-09 03:21:18</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=Brad_Templeton&amp;oldid=989435337">
+        <dcterms:title>Brad Templeton</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=Brad_Templeton&amp;oldid=989435337</bibo:uri>
+        <z:extra>Page Version ID: 989435337</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>Brad Templeton (born June 1960 near Toronto) is a Canadian software developer, internet entrepreneur, online community pioneer, publisher of news, comedy, science fiction and e-books, writer, photographer, civil rights advocate, futurist, public speaker, educator and self-driving car consultant. He graduated from the University of Waterloo.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2020-11-18T23:41:08Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

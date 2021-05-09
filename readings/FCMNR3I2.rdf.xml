@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="FCMNR3I2">
+        <res:resource rdf:resource="https://www.boisestatepublicradio.org/"/>
+        <z:accessDate>2021-05-09 03:22:13</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.boisestatepublicradio.org/">
+        <bibo:uri>https://www.boisestatepublicradio.org/</bibo:uri>
+        <dcterms:title>Boise State Public Radio|Homepage</dcterms:title>
+        <dcterms:abstract>NPR in Idaho</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Boise State Public Radio</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

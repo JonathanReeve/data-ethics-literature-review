@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="ZASMGPKH">
+        <res:resource rdf:resource="https://perma.cc/RK6C-S7Z2"/>
+        <z:accessDate>2021-05-09 03:25:50</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/RK6C-S7Z2">
+        <dcterms:title>Elon Musk and Mark Zuckerberg Debate Artificial Intelligence - The Atlantic</dcterms:title>
+        <bibo:uri>https://perma.cc/RK6C-S7Z2</bibo:uri>
+        <dcterms:abstract>It looks like the two tech titans are arguing about AI’s impact on humanity. Really they’re protecting their personal brands.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="KC56T5GS">
+        <res:resource rdf:resource="http://www.rayidghani.com/"/>
+        <z:accessDate>2021-05-09 03:01:32</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.rayidghani.com/">
+        <dcterms:title>Home</dcterms:title>
+        <bibo:uri>http://www.rayidghani.com/</bibo:uri>
+        <dcterms:abstract>Machine Learning Department &amp; Heinz College of Information Systems and Public Policy at Carnegie Mellon University. Machine Learning, AI, and Data Science for solving high impact social good and public policy problems in a fair and equitable way across criminal justice, education, healthcare, energy, transportation, economic development, workforce development and public safety. research in areas including explainablity, bias/fairness/equity, and developing and teaching educational and training programs. Data Science for Social Good Summer Fellowship Artificial Intelligence, Public Policy, Social Good, Ethics, Fairness, Social Justice and Equity</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n1223"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1223"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Rayid Ghani</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n1223">
+       <foaf:name>rayidghani</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

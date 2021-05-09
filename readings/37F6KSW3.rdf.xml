@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="37F6KSW3">
+        <res:resource rdf:resource="https://apps.cs.utexas.edu/udb/update/"/>
+        <z:accessDate>2021-05-09 03:03:36</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://apps.cs.utexas.edu/udb/update/">
+        <bibo:uri>https://apps.cs.utexas.edu/udb/update/</bibo:uri>
+        <dcterms:title>UTCS</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

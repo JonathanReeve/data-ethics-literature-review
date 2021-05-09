@@ -1,0 +1,98 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="RIW2C44T">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>HCI</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>papers.ssrn.com</z:repository>
+        <z:accessDate>2021-05-09 03:25:54</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>HRI</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>ethics</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>driverless cars</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n4941"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>automation</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>autonomy</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>human in the loop</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://papers.ssrn.com/abstract=2757236"/>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>autonomous vehicles</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>responsibility</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>machine learning</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n4941"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>accidents</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>social perceptions of technology</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>self-driving cars</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>robots</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>human-in-the-loop</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>human-robot interaction</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://papers.ssrn.com/abstract=2757236">
+        <dcterms:publisher>
+            <foaf:Organization>
+                <foaf:name>Social Science Research Network</foaf:name>
+                <address:localityName>Rochester, NY</address:localityName>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:title>Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction (pre-print)</dcterms:title>
+        <bibo:uri>https://papers.ssrn.com/abstract=2757236</bibo:uri>
+        <dcterms:abstract>As debates about the policy and ethical implications of AI systems grow, it will be increasingly important to accurately locate who is responsible when agency is distributed in a system and control over an action is mediated through time and space. Analyzing several high-profile accidents involving complex and automated socio-technical systems and the media coverage that surrounded them, I introduce the concept of a moral crumple zone to describe how responsibility for an action may be misattributed to a human actor who had limited control over the behavior of an automated or autonomous system. Just as the crumple zone in a car is designed to absorb the force of impact in a crash, the human in a highly complex and automated system may become simply a component—accidentally or intentionally—that bears the brunt of the moral and legal responsibilities when the overall system malfunctions. While the crumple zone in a car is meant to protect the human driver, the moral crumple zone protects the integrity of the technological system, at the expense of the nearest human operator. The concept is both a challenge to and an opportunity for the design and regulation of human-robot systems. At stake in articulating moral crumple zones is not only the misattribution of responsibility but also the ways in which new forms of consumer and worker harm may develop in new complex, automated, or purported autonomous technologies.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:type>SSRN Scholarly Paper</dcterms:type>
+        <dcterms:date>2019/03/01</dcterms:date>
+        <bibo:number>ID 2757236</bibo:number>
+        <bibo:shortTitle>Moral Crumple Zones</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n4936"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4936"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n4936">
+        <foaf:givenName>Madeleine Clare</foaf:givenName>
+        <foaf:surname>Elish</foaf:surname>
+    </foaf:Person>
+    <ctag:AutoTag rdf:nodeID="n4941">
+       <ctag:label>human factors</ctag:label>
+    </ctag:AutoTag>
+</rdf:RDF>

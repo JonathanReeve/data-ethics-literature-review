@@ -1,0 +1,71 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="HT4UEAWA">
+        <res:resource rdf:resource="http://arxiv.org/abs/1911.03854"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-05-09 03:24:53</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+                <ctag:label>Computer Science - Computation and Language</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Computers and Society</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Information Retrieval</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1911.03854">
+        <dcterms:creator rdf:nodeID="n4767"/>
+        <dcterms:title>r/Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection</dcterms:title>
+        <bibo:uri>http://arxiv.org/abs/1911.03854</bibo:uri>
+        <z:extra>arXiv: 1911.03854</z:extra>
+        <bibo:shortTitle>r/Fakeddit</bibo:shortTitle>
+        <dcterms:abstract>Fake news has altered society in negative ways in politics and culture. It has adversely affected both online social network systems as well as offline communities and conversations. Using automatic machine learning classification models is an efficient way to combat the widespread dissemination of fake news. However, a lack of effective, comprehensive datasets has been a problem for fake news research and detection model development. Prior fake news datasets do not provide multimodal text and image data, metadata, comment data, and fine-grained fake news categorization at the scale and breadth of our dataset. We present Fakeddit, a novel multimodal dataset consisting of over 1 million samples from multiple categories of fake news. After being processed through several stages of review, the samples are labeled according to 2-way, 3-way, and 6-way classification categories through distant supervision. We construct hybrid text+image models and perform extensive experiments for multiple variations of classification, demonstrating the importance of the novel aspect of multimodality and fine-grained classification unique to Fakeddit.</dcterms:abstract>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n4767"/>
+                <rdf:li rdf:nodeID="n4769"/>
+                <rdf:li rdf:nodeID="n4770"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n4769"/>
+        <dcterms:creator rdf:nodeID="n4770"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2020-03-12</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>arXiv:1911.03854 [cs]</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n4767">
+       <foaf:givenName>Kai</foaf:givenName><foaf:surname>Nakamura</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4769">
+       <foaf:givenName>Sharon</foaf:givenName><foaf:surname>Levy</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4770">
+        <foaf:givenName>William Yang</foaf:givenName>
+        <foaf:surname>Wang</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+           <bibo:Note><z:note>Comment: Accepted LREC 2020</z:note></bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

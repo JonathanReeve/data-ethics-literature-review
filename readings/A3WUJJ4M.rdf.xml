@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="A3WUJJ4M">
+        <res:resource rdf:resource="https://data-feminism.mitpress.mit.edu/"/>
+        <z:repository>data-feminism.mitpress.mit.edu</z:repository>
+        <z:accessDate>2021-05-09 03:19:06</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://data-feminism.mitpress.mit.edu/">
+        <dcterms:title>Data Feminism</dcterms:title>
+        <bibo:uri>https://data-feminism.mitpress.mit.edu/</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Journal>
+               <dcterms:title>Data Feminism</dcterms:title>
+            </bibo:Journal>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+</rdf:RDF>

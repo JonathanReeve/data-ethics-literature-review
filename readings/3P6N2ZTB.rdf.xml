@@ -1,0 +1,78 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="3P6N2ZTB">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Brooks, Arthur C</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>NYTimes.com</z:repository>
+        <z:accessDate>2021-05-09 03:32:33</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Dalai Lama</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Happiness</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://www.nytimes.com/2016/11/04/opinion/dalai-lama-behind-our-anxiety-the-fear-of-being-unneeded.html"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>United States</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Europe</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Labor and Jobs</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Social Conditions and Trends</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Anxiety and Stress</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Anger (Emotion)</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.nytimes.com/2016/11/04/opinion/dalai-lama-behind-our-anxiety-the-fear-of-being-unneeded.html">
+        <bibo:shortTitle>Opinion | Dalai Lama</bibo:shortTitle>
+        <dcterms:title>Opinion | Dalai Lama: Behind Our Anxiety, the Fear of Being Unneeded</dcterms:title>
+        <bibo:uri>https://www.nytimes.com/2016/11/04/opinion/dalai-lama-behind-our-anxiety-the-fear-of-being-unneeded.html</bibo:uri>
+        <dcterms:abstract>There has never been a better time to be alive, and yet in the richest countries, there is a growing sense of unease and helplessness because people no longer feel useful.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:section>Opinion</bibo:section>
+        <dcterms:creator rdf:nodeID="n6164"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n6164"/><rdf:li rdf:nodeID="n6166"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n6166"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-11-04</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Newspaper>
+                        <dcterms:title>The New York Times</dcterms:title>
+                        <bibo:issn>0362-4331</bibo:issn>
+                    </bibo:Newspaper>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n6164">
+       <foaf:givenName>The Dalai</foaf:givenName><foaf:surname>Lama</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n6166">
+        <foaf:givenName>Arthur C.</foaf:givenName>
+        <foaf:surname>Brooks</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

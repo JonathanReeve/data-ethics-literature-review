@@ -1,0 +1,35 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="LRSJMJVE">
+        <res:resource rdf:resource="https://www.brookings.edu/opinions/the-robotics-revolution/"/>
+        <z:accessDate>2021-05-09 03:03:25</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.brookings.edu/opinions/the-robotics-revolution/">
+        <dcterms:title>The Robotics Revolution</dcterms:title>
+        <bibo:uri>https://www.brookings.edu/opinions/the-robotics-revolution/</bibo:uri>
+        <dcterms:abstract>The ripple effects of drones, unmanned systems, and robotics will continue to push out into all sorts of domains, in ways both expected and unexpected. Peter W. Singer looks at the pros and cons of these advances in military technology.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n1459"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1459"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Brookings</dcterms:title>
+                <dcterms:date>-001-11-30T00:00:00+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n1459">
+        <foaf:givenName>Peter W.</foaf:givenName>
+        <foaf:surname>Singer</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

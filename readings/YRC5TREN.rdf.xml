@@ -1,0 +1,59 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="YRC5TREN">
+        <res:resource>
+            <bibo:Article>
+                <dcterms:creator rdf:nodeID="n5286"/>
+                <dcterms:title>Measuring the effectiveness of privacy tools for limiting behavioral advertising</dcterms:title>
+                <dcterms:creator rdf:nodeID="n5283"/>
+                <bibo:authorList>
+                    <rdf:Seq>
+                        <rdf:li rdf:nodeID="n5283"/>
+                        <rdf:li rdf:nodeID="n5285"/>
+                        <rdf:li rdf:nodeID="n5286"/>
+                        <rdf:li rdf:nodeID="n5287"/>
+                        <rdf:li rdf:nodeID="n5288"/>
+                        <rdf:li rdf:nodeID="n5289"/>
+                    </rdf:Seq>
+                </bibo:authorList>
+                <dcterms:creator rdf:nodeID="n5285"/>
+                <dcterms:abstract>Abstract—Online Behavioral Advertising (OBA) is the practice of tailoring ads based on an individual’s activities online. Users have expressed privacy concerns regarding this practice, and both the advertising industry and third parties offer tools for users to control the OBA they receive. We provide the first systematic method for evaluating the effectiveness of these tools in limiting OBA. We first present a methodology for measuring behavioral targeting based on web history, which we support with a case study showing that some text ads are currently being tailored based on browsing history. We then present a methodology for evaluating the effectiveness of tools, regardless of how they are implmented, for limiting OBA. Using this methodology, we show differences in the effectiveness of six tools at limiting text-based behavioral ads by Google. These tools include opt-out webpages, browser Do Not Track (DNT) headers, and tools that block blacklisted domains. Although both opt-out cookies and blocking tools were effective at limiting OBA in our limited case study, the DNT headers that are being used by millions of Firefox users were not effective. We detail our methodology and discuss how it can be extended to measure OBA beyond our case study. Keywords-behavioral advertising, tracking, privacy tools, do not track, third-party cookies I.</dcterms:abstract>
+                <dcterms:creator rdf:nodeID="n5287"/>
+                <dcterms:creator rdf:nodeID="n5288"/>
+                <dcterms:creator rdf:nodeID="n5289"/>
+                <dcterms:isPartOf>
+                    <bibo:Proceedings>
+                        <dcterms:title>In Web 2.0 Workshop on Security and Privacy</dcterms:title>
+                        <dcterms:date>2012</dcterms:date>
+                    </bibo:Proceedings>
+                </dcterms:isPartOf>
+            </bibo:Article>
+        </res:resource>
+        <z:repository>CiteSeer</z:repository>
+    </z:UserItem>
+    <foaf:Person rdf:nodeID="n5283">
+        <foaf:givenName>Rebecca</foaf:givenName>
+        <foaf:surname>Balebako</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5285">
+       <foaf:givenName>Pedro G.</foaf:givenName><foaf:surname>Leon</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5286">
+       <foaf:givenName>Richard</foaf:givenName><foaf:surname>Shay</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5287">
+       <foaf:givenName>Blase</foaf:givenName><foaf:surname>Ur</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5288">
+       <foaf:givenName>Yang</foaf:givenName><foaf:surname>Wang</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5289">
+        <foaf:givenName>Lorrie Faith</foaf:givenName>
+        <foaf:surname>Cranor</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

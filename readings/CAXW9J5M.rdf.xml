@@ -1,0 +1,43 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="CAXW9J5M">
+        <res:resource rdf:resource="https://doi.org/10.1162/DAED_a_00417"/>
+        <z:repository>Silverchair</z:repository>
+        <z:accessDate>2021-05-09 03:33:14</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1162/DAED_a_00417">
+        <dcterms:title>Moral Character or Character of War? American Public Opinion on the Targeting of Civilians in Times of War</dcterms:title>
+        <bibo:doi>10.1162/DAED_a_00417</bibo:doi>
+        <bibo:pages>127-138</bibo:pages>
+        <dcterms:abstract>Since the end of the Vietnam War, the United States has refrained from the widespread, intentional targeting of civilian populations in times of war. Public opinion polls seem to reflect a marked decline in American support for targeting foreign civilians since that time. Drawing on original public opinion surveys, as well as other historical material, this essay explores several explanations for these changes. Although there is some evidence that the public's views about the morality of civilian targeting have shifted, I argue that two other explanations also play an important role in the changes in the conduct of American wars. First, a mounting skepticism, especially within the U.S. military, about the efficacy of killing civilians, has undercut the primary motivation to even consider such tactics. Indeed, many U.S. military leaders now perceive that killing adversary civilians in large numbers – intentionally or unintentionally – usually backfires, making the adversary fight harder or driving more civilians to join or support the adversary's forces. Second, due to the lower stakes, and especially the dramatically lower fatality rates suffered by American troops in recent wars, the temptation to attempt to end wars quickly with a “death blow” against adversary cities has become less potent. Under certain conditions, however, a majority of Americans would still support today the kind of population bombing last practiced during World War II.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1162/DAED_a_00417</bibo:uri>
+        <bibo:shortTitle>Moral Character or Character of War?</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n6299"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6299"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>September 1, 2016</dcterms:date>
+                <bibo:volume>145</bibo:volume>
+                <bibo:issue>4</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <bibo:shortTitle>Daedalus</bibo:shortTitle>
+                        <bibo:issn>0011-5266</bibo:issn>
+                        <dcterms:title>Daedalus</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n6299">
+        <foaf:givenName>Benjamin</foaf:givenName>
+        <foaf:surname>Valentino</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

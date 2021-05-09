@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="37BJ85S4">
+        <res:resource rdf:resource="https://perma.cc/3JV5-P9VK"/>
+        <z:accessDate>2021-05-09 03:26:33</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/3JV5-P9VK">
+        <dcterms:title>Artificial Intelligence Pushes the Antitrust Envelope | Bloomberg BNA</dcterms:title>
+        <bibo:uri>https://perma.cc/3JV5-P9VK</bibo:uri>
+        <dcterms:abstract>If machines collude when no oneâ€™s watching, would any antitrust alarm bells sound?</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,67 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="ZVBXP8SL">
+        <res:resource rdf:resource="https://www.nytimes.com/2017/06/07/well/family/the-secret-social-media-lives-of-teenagers.html"/>
+        <z:repository>NYTimes.com</z:repository>
+        <z:accessDate>2021-05-09 03:33:57</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Social Media</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Teenagers and Adolescence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Mobile Applications</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Families and Family Life</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Harvard University</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Colleges and Universities</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.nytimes.com/2017/06/07/well/family/the-secret-social-media-lives-of-teenagers.html">
+        <dcterms:title>The Secret Social Media Lives of Teenagers</dcterms:title>
+        <bibo:section>Well</bibo:section>
+        <bibo:uri>https://www.nytimes.com/2017/06/07/well/family/the-secret-social-media-lives-of-teenagers.html</bibo:uri>
+        <dcterms:abstract>‘Private’ groups — like the one used by students whose Harvard acceptances were recently rescinded — may offer a false sense of confidence.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n6437"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6437"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017-06-07</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Newspaper>
+                        <dcterms:title>The New York Times</dcterms:title>
+                        <bibo:issn>0362-4331</bibo:issn>
+                    </bibo:Newspaper>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n6437">
+       <foaf:givenName>Ana</foaf:givenName><foaf:surname>Homayoun</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="76KVENK2">
+        <res:resource rdf:resource="https://docs.google.com/document/d/e/2PACX-1vTP502Uzxo8Q2BQgjiz1eJqi-Qp25_0C338R_vAV5-8U0qD8-jxpqUvTbRUyNtF__3a6JsSQxKMVoYv/pub"/>
+        <z:accessDate>2021-05-09 03:00:17</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/document/d/e/2PACX-1vTP502Uzxo8Q2BQgjiz1eJqi-Qp25_0C338R_vAV5-8U0qD8-jxpqUvTbRUyNtF__3a6JsSQxKMVoYv/pub">
+        <bibo:uri>https://docs.google.com/document/d/e/2PACX-1vTP502Uzxo8Q2BQgjiz1eJqi-Qp25_0C338R_vAV5-8U0qD8-jxpqUvTbRUyNtF__3a6JsSQxKMVoYv/pub</bibo:uri>
+        <dcterms:title>GULC 1315-MIT 6.S978 Class 5 - March 8: Broadband ISP Privacy</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

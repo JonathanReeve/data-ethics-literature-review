@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="WFKTJP28">
+        <res:resource rdf:resource="https://www.vox.com/the-big-idea/2017/8/11/16130452/google-memo-women-tech-biology-sexism"/>
+        <z:accessDate>2021-05-09 03:29:47</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.vox.com/the-big-idea/2017/8/11/16130452/google-memo-women-tech-biology-sexism">
+        <dcterms:title>James Damore has sued Google. His infamous memo on women in tech is still nonsense.</dcterms:title>
+        <bibo:uri>https://www.vox.com/the-big-idea/2017/8/11/16130452/google-memo-women-tech-biology-sexism</bibo:uri>
+        <dcterms:abstract>Don't be taken in by the documentâ€™s faux-reasonable tone.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5611"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n5611"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Vox</dcterms:title>
+                <dcterms:date>2017-08-11T10:20:02-04:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n5611">
+       <foaf:givenName>Cynthia</foaf:givenName><foaf:surname>Lee</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

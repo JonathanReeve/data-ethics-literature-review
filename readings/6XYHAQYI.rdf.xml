@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="6XYHAQYI">
+        <res:resource rdf:resource="https://www.ted.com/talks/zeynep_tufekci_we_re_building_a_dystopia_just_to_make_people_click_on_ads"/>
+        <z:repository>www.ted.com</z:repository>
+        <z:accessDate>2021-05-09 03:32:43</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.ted.com/talks/zeynep_tufekci_we_re_building_a_dystopia_just_to_make_people_click_on_ads">
+        <dcterms:title>We're building a dystopia just to make people click on ads</dcterms:title>
+        <bibo:uri>https://www.ted.com/talks/zeynep_tufekci_we_re_building_a_dystopia_just_to_make_people_click_on_ads</bibo:uri>
+        <dcterms:abstract>We're building an artificial intelligence-powered dystopia, one click at a time, says techno-sociologist Zeynep Tufekci. In an eye-opening talk, she details how the same algorithms companies like Facebook, Google and Amazon use to get you to click on ads are also used to organize your access to political and social information. And the machines aren't even the real threat. What we need to understand is how the powerful might use AI to control us -- and what we can do in response.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n6204"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6204"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Person rdf:nodeID="n6204">
+       <foaf:givenName>Zeynep</foaf:givenName><foaf:surname>Tufekci</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

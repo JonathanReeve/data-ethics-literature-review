@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="T26NKE24">
+        <res:resource rdf:resource="https://accounts.google.com/ServiceLogin?service=wise&amp;passive=1209600&amp;continue=https://docs.google.com/forms/d/e/1FAIpQLScYimbTX6jlgWcsPha8HATP_a5IHRwfSVYAcYHduINrq7R6Vw/viewform&amp;followup=https://docs.google.com/forms/d/e/1FAIpQLScYimbTX6jlgWcsPha8HATP_a5IHRwfSVYAcYHduINrq7R6Vw/viewform&amp;ltmpl=forms"/>
+        <z:accessDate>2021-05-09 03:33:31</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://accounts.google.com/ServiceLogin?service=wise&amp;passive=1209600&amp;continue=https://docs.google.com/forms/d/e/1FAIpQLScYimbTX6jlgWcsPha8HATP_a5IHRwfSVYAcYHduINrq7R6Vw/viewform&amp;followup=https://docs.google.com/forms/d/e/1FAIpQLScYimbTX6jlgWcsPha8HATP_a5IHRwfSVYAcYHduINrq7R6Vw/viewform&amp;ltmpl=forms">
+        <bibo:uri>https://accounts.google.com/ServiceLogin?service=wise&amp;passive=1209600&amp;continue=https://docs.google.com/forms/d/e/1FAIpQLScYimbTX6jlgWcsPha8HATP_a5IHRwfSVYAcYHduINrq7R6Vw/viewform&amp;followup=https://docs.google.com/forms/d/e/1FAIpQLScYimbTX6jlgWcsPha8HATP_a5IHRwfSVYAcYHduINrq7R6Vw/viewform&amp;ltmpl=forms</bibo:uri>
+        <dcterms:title>Google Forms: Sign-in</dcterms:title>
+        <dcterms:abstract>Access Google Forms with a free Google account (for personal use) or Google Workspace account (for business use).</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="BKHB6MIH">
+        <res:resource rdf:resource="https://www.semanticscholar.org/paper/Experimental-and-Quasi-Experimental-Designs-for-Shadish-Cook/4e950e026f5199219facb36d1886c3d096944f43"/>
+        <z:repository>www.semanticscholar.org</z:repository>
+        <z:accessDate>2021-05-09 03:30:31</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.semanticscholar.org/paper/Experimental-and-Quasi-Experimental-Designs-for-Shadish-Cook/4e950e026f5199219facb36d1886c3d096944f43">
+        <dcterms:title>Experimental and Quasi-Experimental Designs for Generalized Causal Inference</dcterms:title>
+        <dcterms:abstract>1. Experiments and Generalized Causal Inference 2. Statistical Conclusion Validity and Internal Validity 3. Construct Validity and External Validity 4. Quasi-Experimental Designs That Either Lack a Control Group or Lack Pretest Observations on the Outcome 5. Quasi-Experimental Designs That Use Both Control Groups and Pretests 6. Quasi-Experimentation: Interrupted Time Series Designs 7. Regression Discontinuity Designs 8. Randomized Experiments: Rationale, Designs, and Conditions Conducive to Doing Them 9. Practical Problems 1: Ethics, Participant Recruitment, and Random Assignment 10. Practical Problems 2: Treatment Implementation and Attrition 11. Generalized Causal Inference: A Grounded Theory 12. Generalized Causal Inference: Methods for Single Studies 13. Generalized Causal Inference: Methods for Multiple Studies 14. A Critical Assessment of Our Assumptions</dcterms:abstract>
+        <bibo:uri>https://www.semanticscholar.org/paper/Experimental-and-Quasi-Experimental-Designs-for-Shadish-Cook/4e950e026f5199219facb36d1886c3d096944f43</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5726"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n5726"/>
+                <rdf:li rdf:nodeID="n5728"/>
+                <rdf:li rdf:nodeID="n5729"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5728"/>
+        <dcterms:creator rdf:nodeID="n5729"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2001</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>undefined</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n5726">
+       <foaf:givenName>W.</foaf:givenName><foaf:surname>Shadish</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5728">
+       <foaf:givenName>T.</foaf:givenName><foaf:surname>Cook</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5729">
+       <foaf:givenName>D.</foaf:givenName><foaf:surname>Campbell</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

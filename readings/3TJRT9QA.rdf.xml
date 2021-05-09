@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="3TJRT9QA">
+        <res:resource rdf:resource="https://researchportal.bath.ac.uk/en/persons/wenbin-li"/>
+        <z:accessDate>2021-05-09 03:32:06</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://researchportal.bath.ac.uk/en/persons/wenbin-li">
+        <dcterms:title>Wenbin Li</dcterms:title>
+        <bibo:uri>https://researchportal.bath.ac.uk/en/persons/wenbin-li</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>the University of Bath's research portal</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

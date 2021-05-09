@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="93JA85KU">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=Mu3scWZvZKo"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:26:42</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=Mu3scWZvZKo">
+        <dcterms:title>How AI Startups Must Compete with Google - Dr Fei-Fei Li + Mike Abbott</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=Mu3scWZvZKo</bibo:uri>
+        <dcterms:abstract>SUBSCRIBE: https://www.youtube.com/user/StartupGrindSTARTUP GRIND: https://www.startupgrind.com/GLOBAL CONFERENCE: https://www.startupgrind.com/conference/Mi...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

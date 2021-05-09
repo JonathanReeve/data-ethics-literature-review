@@ -1,0 +1,24 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="VHQRC9TJ">
+        <res:resource rdf:resource="https://ori.hhs.gov/ori-introduction-responsible-conduct-research"/>
+        <z:accessDate>2021-05-09 03:18:00</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://ori.hhs.gov/ori-introduction-responsible-conduct-research">
+        <bibo:uri>https://ori.hhs.gov/ori-introduction-responsible-conduct-research</bibo:uri>
+        <dcterms:title>ORI Introduction to the Responsible Conduct of Research | ORI - The Office of Research Integrity</dcterms:title>
+        <dcterms:abstract>Nicholas H. Steneck, PhD Illustrations by David Zinn
+
+Download PDF version
+
+Disclaimer
+
+TABLE OF CONTENTS
+
+Frontis material</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

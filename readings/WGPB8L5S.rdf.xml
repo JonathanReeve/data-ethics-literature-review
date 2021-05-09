@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="WGPB8L5S">
+        <res:resource rdf:resource="https://automattic.com/cookies/"/>
+        <z:accessDate>2021-05-09 03:08:08</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://automattic.com/cookies/">
+        <dcterms:title>Cookie Policy</dcterms:title>
+        <bibo:uri>https://automattic.com/cookies/</bibo:uri>
+        <dcterms:abstract>Our Privacy Policy explains our principles when it comes to the collection, processing, and storage of your information. This policy specifically explains how we, our partners, and users of our serâ€¦</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Automattic</dcterms:title>
+                <dcterms:date>2018-05-10T16:47:29+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

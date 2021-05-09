@@ -1,0 +1,47 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="GZXRIGZ9">
+        <res:resource rdf:resource="https://github.com/UBC-MDS/public"/>
+        <z:repository>GitHub</z:repository>
+        <z:accessDate>2021-05-09 03:14:39</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>education</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>machine-learning</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>teaching</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>teaching-materials</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>algorithms-and-data-structures</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <sc:ComputerProgram_CW rdf:about="https://github.com/UBC-MDS/public">
+        <bibo:uri>https://github.com/UBC-MDS/public</bibo:uri>
+        <dcterms:title>UBC-MDS/public</dcterms:title>
+        <dcterms:abstract>Public documents for the Master of Data Science program at the University of British Columbia</dcterms:abstract>
+        <z:extra>original-date: 2016-01-20T06:28:50Z</z:extra>
+        <dcterms:date>2021-05-08T00:45:22Z</dcterms:date>
+        <dcterms:publisher>
+            <foaf:Organization>
+                <foaf:name>Master of Data Science at the University of British Columbia</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </sc:ComputerProgram_CW>
+</rdf:RDF>

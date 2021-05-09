@@ -1,0 +1,37 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="E2NQKJSI">
+        <res:resource rdf:resource="https://www.stanford.edu/"/>
+        <z:accessDate>2021-05-09 03:29:14</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.stanford.edu/">
+        <dcterms:title>Stanford University</dcterms:title>
+        <bibo:uri>https://www.stanford.edu/</bibo:uri>
+        <dcterms:abstract>Stanford University, one of the world's leading teaching and research institutions, is dedicated to finding solutions to big challenges and to preparing students for leadership in a complex world.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5478"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n5478"/><rdf:li rdf:nodeID="n5480"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5480"/>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Stanford University</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n5478">
+        <foaf:givenName>Â©Copyright Stanford University</foaf:givenName>
+        <foaf:surname>Stanford</foaf:surname>
+    </foaf:Person>
+    <foaf:Organization rdf:nodeID="n5480">
+       <foaf:name>California 94305</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

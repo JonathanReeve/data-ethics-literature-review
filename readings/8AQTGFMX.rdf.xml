@@ -1,0 +1,34 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="8AQTGFMX">
+        <res:resource rdf:resource="https://www.boisestate.edu/coen/alumni/"/>
+        <z:accessDate>2021-05-09 03:21:55</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.boisestate.edu/coen/alumni/">
+        <dcterms:title>Engineering Alumni</dcterms:title>
+        <bibo:uri>https://www.boisestate.edu/coen/alumni/</bibo:uri>
+        <dcterms:abstract>The College of Engineering Alumni Chapter invites all graduates and friends of the college to...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4161"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4161"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>College of Engineering</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n4161">
+        <foaf:givenName>College of</foaf:givenName>
+        <foaf:surname>Engineering</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

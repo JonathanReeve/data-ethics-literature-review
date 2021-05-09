@@ -1,0 +1,56 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="VK44B5BR">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>religion</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>www.wired.com</z:repository>
+        <z:accessDate>2021-05-09 03:32:31</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>backchannel</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://www.wired.com/story/anthony-levandowski-artificial-intelligence-religion/"/>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>artificial intelligence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>uber</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>waymo</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>longreads</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>web</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.wired.com/story/anthony-levandowski-artificial-intelligence-religion/">
+        <dcterms:title>Inside the First Church of Artificial Intelligence | Backchannel</dcterms:title>
+        <bibo:uri>https://www.wired.com/story/anthony-levandowski-artificial-intelligence-religion/</bibo:uri>
+        <dcterms:abstract>The engineer at the heart of the Uber/Waymo lawsuit is serious about his AI religion. Welcome to Anthony Levandowski's Way of the Future.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n6140"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6140"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Magazine>
+                <dcterms:title>Wired</dcterms:title>
+                <bibo:issn>1059-1028</bibo:issn>
+            </bibo:Magazine>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n6140">
+       <foaf:givenName>Mark</foaf:givenName><foaf:surname>Harris</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

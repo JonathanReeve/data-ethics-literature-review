@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="T8PMJ42H">
+        <res:resource rdf:resource="fr.html"/>
+        <z:accessDate>2021-05-09 03:12:02</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="fr.html">
+        <bibo:uri>fr.html</bibo:uri>
+        <dcterms:title>Accueil | Sciences Po Admissions</dcterms:title>
+        <dcterms:abstract>Étudiants, professionnels, grand public : découvrez comment rejoindre les formations de Sciences Po en fonction de votre parcours.</dcterms:abstract>
+        <dcterms:language>fr</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:date>2016-10-06T00:00:00Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

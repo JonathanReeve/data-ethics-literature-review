@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="T8Q9FSL9">
+        <res:resource rdf:resource="https://www.nist.gov/cyberframework/cybersecurity-framework-faqs-framework-basics"/>
+        <z:accessDate>2021-05-09 03:05:27</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.nist.gov/cyberframework/cybersecurity-framework-faqs-framework-basics">
+        <dcterms:title>Cybersecurity Framework FAQS Framework Basics</dcterms:title>
+        <bibo:uri>https://www.nist.gov/cyberframework/cybersecurity-framework-faqs-framework-basics</bibo:uri>
+        <dcterms:type>text</dcterms:type>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n1786"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1786"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>NIST</dcterms:title>
+                <dcterms:date>2015-09-29T09:51-04:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n1786">
+       <foaf:name>nicole.keller@nist.gov</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

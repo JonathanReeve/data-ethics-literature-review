@@ -1,0 +1,33 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="YU8U5RMB">
+        <res:resource rdf:resource="https://www.boisestate.edu/admissions/apply/"/>
+        <z:accessDate>2021-05-09 03:21:39</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.boisestate.edu/admissions/apply/">
+        <dcterms:title>Apply Now to Boise State University</dcterms:title>
+        <bibo:uri>https://www.boisestate.edu/admissions/apply/</bibo:uri>
+        <dcterms:abstract>Apply now to Boise State, a thriving metropolitan research university located in the heart of Idaho's capital with more than 200 areas of study.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4106"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4106"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Admissions</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Organization rdf:nodeID="n4106">
+       <foaf:name>Admissions</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

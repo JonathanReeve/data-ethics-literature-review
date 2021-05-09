@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="CZIMUYS8">
+        <res:resource rdf:resource="http://redstonesciencefiction.com/2010/09/his-masters-voice/"/>
+        <z:accessDate>2021-05-09 03:03:10</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="http://redstonesciencefiction.com/2010/09/his-masters-voice/">
+        <dcterms:title>His Master’s Voice</dcterms:title>
+        <bibo:uri>http://redstonesciencefiction.com/2010/09/his-masters-voice/</bibo:uri>
+        <dcterms:abstract>(Editor’s Note: This story first appeared in Interzone #218. It is available in other formats, but Redstone SF is pleased to present the full text of this Sturgeon Award finalist online for t…</dcterms:abstract>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Redstone Science Fiction</dcterms:title>
+                <dcterms:date>2010-10-01T04:06:40+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

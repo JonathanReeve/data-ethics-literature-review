@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="ERE2TLIW">
+        <res:resource rdf:resource="https://www.uts.edu.au/about/utsweb-statements/accessibility-statement"/>
+        <z:accessDate>2021-05-09 03:23:56</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.uts.edu.au/about/utsweb-statements/accessibility-statement">
+        <dcterms:title>Accessibility statement</dcterms:title>
+        <bibo:uri>https://www.uts.edu.au/about/utsweb-statements/accessibility-statement</bibo:uri>
+        <dcterms:abstract>Our commitment
+
+UTS is committed to creating an equitable and inclusive environment for people with diverse abilities. Our objective for this site is to provide as far as possible the same experience for all.
+
+Web standards
+
+This site has been developed using guidelines incorporating the recommendations of the World Wide Web Consortium's (W3C) Web Content Accessibility Guidelines (WCAG), the accepted worldwide standard.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>University of Technology Sydney</dcterms:title>
+                <dcterms:date>2013-02-26T16:38:04+1100</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

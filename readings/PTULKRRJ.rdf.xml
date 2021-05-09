@@ -1,0 +1,24 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="PTULKRRJ">
+        <res:resource rdf:resource="https://docs.google.com/forms/d/e/1FAIpQLScUY3Oe_SxDb2FifxAzBYwLTyac_CHlZeJXxLX0Q57DCRVPwA/viewform?usp=sf_link&amp;usp=embed_facebook"/>
+        <z:accessDate>2021-05-09 03:32:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/forms/d/e/1FAIpQLScUY3Oe_SxDb2FifxAzBYwLTyac_CHlZeJXxLX0Q57DCRVPwA/viewform?usp=sf_link&amp;usp=embed_facebook">
+        <dcterms:title>Week 10 Survey on Politics &amp; Media Due @ Thursday 10/26</dcterms:title>
+        <bibo:uri>https://docs.google.com/forms/d/e/1FAIpQLScUY3Oe_SxDb2FifxAzBYwLTyac_CHlZeJXxLX0Q57DCRVPwA/viewform?usp=sf_link&amp;usp=embed_facebook</bibo:uri>
+        <dcterms:abstract>Topic: Politics &amp; Media
+
+Responses will not affect your score in any way and will not be shared except as aggregate statistics, so feel free to answer honestly. Logins are only collected to track survey participation.
+
+Readings are linked from the course website: http://inst.eecs.berkeley.edu/~cs195/</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="HZCZLN9Z">
+        <res:resource rdf:resource="https://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom"/>
+        <z:accessDate>2021-05-09 03:25:47</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom">
+        <dcterms:title>The Doomsday Invention</dcterms:title>
+        <bibo:uri>https://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom</bibo:uri>
+        <dcterms:abstract>Will artificial intelligence bring us utopia or destruction?</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4912"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4912"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>The New Yorker</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n4912">
+        <foaf:givenName>Raffi</foaf:givenName>
+        <foaf:surname>Khatchadourian</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

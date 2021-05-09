@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="2NLLDZFZ">
+        <res:resource rdf:resource="https://www.academia.edu/Documents/in/Physics"/>
+        <z:accessDate>2021-05-09 03:09:12</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.academia.edu/Documents/in/Physics">
+        <bibo:uri>https://www.academia.edu/Documents/in/Physics</bibo:uri>
+        <dcterms:title>Physics Research Papers - Academia.edu</dcterms:title>
+        <dcterms:abstract>View Physics Research Papers on Academia.edu for free.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

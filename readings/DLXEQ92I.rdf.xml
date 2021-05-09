@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="DLXEQ92I">
+        <res:resource rdf:resource="https://marshallbrain.com/manna1"/>
+        <z:accessDate>2021-05-09 03:21:22</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://marshallbrain.com/manna1">
+        <dcterms:title>Manna - Two Views of Humanity's Future - Chapter 1</dcterms:title>
+        <bibo:uri>https://marshallbrain.com/manna1</bibo:uri>
+        <dcterms:abstract>by Marshall Brain Depending on how you want to think about it, it was funny or inevitable or symbolic that the robotic takeover did not start at MIT, NASA, Microsoft or Ford. It started at a Burger-G restaurant in Cary, NC on May 17. It seemed like such a simple thing at the time, but May … Continue reading Manna – Two Views of Humanity’s Future – Chapter 1 →</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>MarshallBrain.com</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

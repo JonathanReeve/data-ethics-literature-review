@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="DM4GUQEL">
+        <res:resource rdf:resource="https://perma.cc/D455-HHDM"/>
+        <z:accessDate>2021-05-09 03:26:55</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/D455-HHDM">
+        <dcterms:title>obamawhitehouse.archives.gov</dcterms:title>
+        <bibo:uri>https://perma.cc/D455-HHDM</bibo:uri>
+        <dcterms:abstract>This is an archive of https://obamawhitehouse.archives.gov/sites/default/files/page/files/20160707_cea_ai_furman.pdf from Monday 22, January 2018</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

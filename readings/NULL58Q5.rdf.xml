@@ -1,0 +1,40 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="NULL58Q5">
+        <res:resource rdf:resource="https://doi.org/10.2752/144871310X13968744282755"/>
+        <z:repository>Taylor and Francis+NEJM</z:repository>
+        <z:accessDate>2021-05-09 03:09:53</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.2752/144871310X13968744282755">
+        <dcterms:title>Returning: Sacred Design III</dcterms:title>
+        <bibo:pages>25-34</bibo:pages>
+        <bibo:doi>10.2752/144871310X13968744282755</bibo:doi>
+        <bibo:uri>https://doi.org/10.2752/144871310X13968744282755</bibo:uri>
+        <bibo:shortTitle>Returning</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n2171"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2171"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>8</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:date>August 1, 2010</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Design Philosophy Papers</dcterms:title>
+                        <bibo:issn>null</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n2171">
+       <foaf:givenName>Tony</foaf:givenName><foaf:surname>Fry</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

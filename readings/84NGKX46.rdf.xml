@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="84NGKX46">
+        <res:resource rdf:resource="https://scholarworks.iu.edu/dspace/bitstream/handle/2022/1798/wp97-04B.html"/>
+        <z:accessDate>2021-05-09 03:12:30</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://scholarworks.iu.edu/dspace/bitstream/handle/2022/1798/wp97-04B.html">
+        <bibo:uri>https://scholarworks.iu.edu/dspace/bitstream/handle/2022/1798/wp97-04B.html</bibo:uri>
+        <dcterms:title>Organizational and Social Informatics for Human Centered Systems</dcterms:title>
+        <dcterms:abstract>The Center for Social Informatics is dedicated to support research and study that examines social aspects of computerization including the roles of information technology in social and organizational change and the uses of information technologies in social contexts as well as the ways that the social organization of information technologies is influenced by social forces.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="BN5H9F6J">
+        <res:resource rdf:resource="https://www.kongregate.com/games/ChiefWakamakamu/socrates-jones-pro-philosopher"/>
+        <z:accessDate>2021-05-09 03:33:29</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.kongregate.com/games/ChiefWakamakamu/socrates-jones-pro-philosopher">
+        <dcterms:title>Socrates Jones: Pro Philosopher</dcterms:title>
+        <bibo:uri>https://www.kongregate.com/games/ChiefWakamakamu/socrates-jones-pro-philosopher</bibo:uri>
+        <dcterms:abstract>After an unfortunate accident, bumbling accountant Socrates Jones must find quotthe nature of moralityquot by debating philosophers to earn back his life. More than...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Socrates Jones</bibo:shortTitle>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Kongregate</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

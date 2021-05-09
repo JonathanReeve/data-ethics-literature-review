@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="GB5DMYGR">
+        <res:resource rdf:resource="https://www.theverge.com/2016/8/30/12715848/new-york-post-internet-texting-addiction-irresponsible-hysteria"/>
+        <z:accessDate>2021-05-09 03:32:35</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.theverge.com/2016/8/30/12715848/new-york-post-internet-texting-addiction-irresponsible-hysteria">
+        <dcterms:title>Why calling screen time 'digital heroin' is digital garbage</dcterms:title>
+        <bibo:uri>https://www.theverge.com/2016/8/30/12715848/new-york-post-internet-texting-addiction-irresponsible-hysteria</bibo:uri>
+        <dcterms:abstract>The supposed danger of digital media made headlines over the weekend when psychotherapist Nicholas Kardaras published a story in the New York Post called &quot;It’s ‘digital heroin’: How screens turn...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n6179"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6179"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>The Verge</dcterms:title>
+                <dcterms:date>2016-08-30T16:31:02-04:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n6179">
+       <foaf:givenName>Rachel</foaf:givenName><foaf:surname>Becker</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

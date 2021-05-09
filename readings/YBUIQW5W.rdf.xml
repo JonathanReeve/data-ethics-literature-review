@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:sc="http://umbel.org/umbel/sc/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="YBUIQW5W">
+        <res:resource rdf:resource="https://github.com/eclarke/swga_paper"/>
+        <z:repository>GitHub</z:repository>
+        <z:accessDate>2021-05-09 03:12:55</z:accessDate>
+    </z:UserItem>
+    <sc:ComputerProgram_CW rdf:about="https://github.com/eclarke/swga_paper">
+        <bibo:uri>https://github.com/eclarke/swga_paper</bibo:uri>
+        <dcterms:title>eclarke/swga_paper</dcterms:title>
+        <dcterms:abstract>Data and analysis for the SWGA paper. Contribute to eclarke/swga_paper development by creating an account on GitHub.</dcterms:abstract>
+        <z:extra>original-date: 2016-12-21T21:39:55Z</z:extra>
+        <dcterms:date>2016-12-21T21:39:55Z</dcterms:date>
+        <dcterms:creator rdf:nodeID="n2712"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2712"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </sc:ComputerProgram_CW>
+    <foaf:Person rdf:nodeID="n2712">
+       <foaf:givenName>Erik</foaf:givenName><foaf:surname>Clarke</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

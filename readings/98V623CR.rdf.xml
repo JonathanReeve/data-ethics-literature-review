@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="98V623CR">
+        <res:resource rdf:resource="http://www.cmu.edu/counseling//index.html"/>
+        <z:accessDate>2021-05-09 03:10:38</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.cmu.edu/counseling//index.html">
+        <dcterms:title>CaPS - Counseling and Psychological Services (CaPS) - Division of Student Affairs - Carnegie Mellon University</dcterms:title>
+        <bibo:uri>http://www.cmu.edu/counseling//index.html</bibo:uri>
+        <dcterms:abstract>Carnegie Mellon University Counseling and Psychological Services. CaPS provides a safe, confidential environment for students to talk about personal and academic concerns.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n2257"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2257"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n2257">
+        <foaf:givenName>Carnegie Mellon</foaf:givenName>
+        <foaf:surname>University</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

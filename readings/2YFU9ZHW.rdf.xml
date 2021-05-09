@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="2YFU9ZHW">
+        <res:resource rdf:resource="https://uit.stanford.edu/service/mailinglists/tools"/>
+        <z:accessDate>2021-05-09 03:21:09</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://uit.stanford.edu/service/mailinglists/tools">
+        <bibo:uri>https://uit.stanford.edu/service/mailinglists/tools</bibo:uri>
+        <dcterms:title>Mailman Mailing List Tools | University IT</dcterms:title>
+        <dcterms:abstract>Create, manage, view, or copy lists Request a new list Only Stanford community members with a full-service SUNet ID may request a new list. Manage the lists you own Only Stanford community members with a full-service SUNet ID can be a list owner and login to manage their lists via this web interface. Note: if you own many lists, this page can be slow to load. If you know the</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

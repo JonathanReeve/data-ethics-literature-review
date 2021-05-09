@@ -1,0 +1,84 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="5ZQ5TUEI">
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Psychology and Psychologists</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>NYTimes.com</z:repository>
+        <z:accessDate>2021-05-09 03:26:24</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Homosexuality and Bisexuality</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Face</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computers and the Internet</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://www.nytimes.com/2017/10/09/science/stanford-sexual-orientation-study.html"/>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Artificial Intelligence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Computer Vision</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+                <ctag:label>Journal of Personality and Social Psychology</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Stanford University</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Privacy</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Kosinski, Michal</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Wang, Yilun</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.nytimes.com/2017/10/09/science/stanford-sexual-orientation-study.html">
+        <dcterms:title>Why Stanford Researchers Tried to Create a ‘Gaydar’ Machine</dcterms:title>
+        <bibo:section>Science</bibo:section>
+        <bibo:uri>https://www.nytimes.com/2017/10/09/science/stanford-sexual-orientation-study.html</bibo:uri>
+        <dcterms:abstract>Scientists worried that facial recognition software could be used to detect sexual orientation. Their efforts to raise an alarm caused an uproar.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5029"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n5029"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017-10-09</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Newspaper>
+                        <dcterms:title>The New York Times</dcterms:title>
+                        <bibo:issn>0362-4331</bibo:issn>
+                    </bibo:Newspaper>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n5029">
+       <foaf:givenName>Heather</foaf:givenName><foaf:surname>Murphy</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

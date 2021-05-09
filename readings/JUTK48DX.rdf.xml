@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="JUTK48DX">
+        <res:resource rdf:resource="https://www.cs.utexas.edu/~ans/classes/cs103f/index.html"/>
+        <z:accessDate>2021-05-09 03:03:32</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.cs.utexas.edu/~ans/classes/cs103f/index.html">
+        <bibo:uri>https://www.cs.utexas.edu/~ans/classes/cs103f/index.html</bibo:uri>
+        <dcterms:title>CS103F Spring 2019</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

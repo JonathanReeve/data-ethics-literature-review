@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="YV8YERBV">
+        <res:resource rdf:resource="https://www.flyingpenguin.com/?p=21879"/>
+        <z:accessDate>2021-05-09 03:11:34</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.flyingpenguin.com/?p=21879">
+        <bibo:uri>https://www.flyingpenguin.com/?p=21879</bibo:uri>
+        <dcterms:title>US Restitution for Wartime Internment of Japanese-American Civilians | flyingpenguin</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

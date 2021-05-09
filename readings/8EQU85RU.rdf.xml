@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="8EQU85RU">
+        <res:resource rdf:resource="http://www.cmu.edu/index.html"/>
+        <z:accessDate>2021-05-09 03:09:22</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.cmu.edu/index.html">
+        <dcterms:title>Homepage - CMU - Carnegie Mellon University</dcterms:title>
+        <bibo:uri>http://www.cmu.edu/index.html</bibo:uri>
+        <dcterms:abstract>CMU is a global research university known for its world-class, interdisciplinary programs: arts, business, computing, engineering, humanities, policy and science.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n2111"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2111"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n2111">
+        <foaf:givenName>Carnegie Mellon</foaf:givenName>
+        <foaf:surname>University</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

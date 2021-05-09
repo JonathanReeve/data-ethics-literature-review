@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="V8RT9T6B">
+        <res:resource rdf:resource="https://www.economist.com/business/2016/04/02/million-dollar-babies"/>
+        <z:repository>The Economist</z:repository>
+        <z:accessDate>2021-05-09 03:26:28</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.economist.com/business/2016/04/02/million-dollar-babies">
+        <bibo:uri>https://www.economist.com/business/2016/04/02/million-dollar-babies</bibo:uri>
+        <dcterms:title>Million-dollar babies</dcterms:title>
+        <dcterms:abstract>As Silicon Valley fights for talent, universities struggle to hold on to their stars</dcterms:abstract>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-04-02T04:00:00Z</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Magazine>
+                        <bibo:issn>0013-0613</bibo:issn>
+                        <dcterms:title>The Economist</dcterms:title>
+                    </bibo:Magazine>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

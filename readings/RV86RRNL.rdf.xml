@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="RV86RRNL">
+        <res:resource rdf:resource="https://www.flyingpenguin.com/?p=22683&amp;cpage=1#comment-646876"/>
+        <z:accessDate>2021-05-09 03:11:42</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.flyingpenguin.com/?p=22683&amp;cpage=1#comment-646876">
+        <bibo:uri>https://www.flyingpenguin.com/?p=22683&amp;cpage=1#comment-646876</bibo:uri>
+        <dcterms:title>Did a Spitfire Really Tip the Wing of V1? | flyingpenguin</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

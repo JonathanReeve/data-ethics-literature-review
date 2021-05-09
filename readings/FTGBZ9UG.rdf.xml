@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="FTGBZ9UG">
+        <res:resource rdf:resource="https://blog.communitydata.science/"/>
+        <z:accessDate>2021-05-09 03:20:31</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://blog.communitydata.science/">
+        <dcterms:title>Community Data Science Collective</dcterms:title>
+        <bibo:uri>https://blog.communitydata.science/</bibo:uri>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Community Data Science Collective</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

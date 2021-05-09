@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="HFXCHDUR">
+        <res:resource rdf:resource="https://www.economist.com/finance-and-economics/2017/05/25/machine-learning-promises-to-shake-up-large-swathes-of-finance"/>
+        <z:repository>The Economist</z:repository>
+        <z:accessDate>2021-05-09 03:33:55</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.economist.com/finance-and-economics/2017/05/25/machine-learning-promises-to-shake-up-large-swathes-of-finance">
+        <bibo:uri>https://www.economist.com/finance-and-economics/2017/05/25/machine-learning-promises-to-shake-up-large-swathes-of-finance</bibo:uri>
+        <dcterms:title>Machine-learning promises to shake up large swathes of finance</dcterms:title>
+        <dcterms:abstract>In fields from trading to credit assessment to fraud prevention, machine-learning is advancing</dcterms:abstract>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017-05-25T14:49:34Z</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Magazine>
+                        <bibo:issn>0013-0613</bibo:issn>
+                        <dcterms:title>The Economist</dcterms:title>
+                    </bibo:Magazine>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

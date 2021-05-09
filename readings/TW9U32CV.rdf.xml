@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="TW9U32CV">
+        <res:resource rdf:resource="https://docs.google.com/presentation/d/10x1PQJ3yLNNHqHdMy2791DpkVVbI3_nR5oIdrkb8f2E/edit?usp=sharing&amp;usp=embed_facebook"/>
+        <z:accessDate>2021-05-09 03:07:45</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/presentation/d/10x1PQJ3yLNNHqHdMy2791DpkVVbI3_nR5oIdrkb8f2E/edit?usp=sharing&amp;usp=embed_facebook">
+        <dcterms:title>S21.3 - JS + Security &amp; Hashing</dcterms:title>
+        <bibo:uri>https://docs.google.com/presentation/d/10x1PQJ3yLNNHqHdMy2791DpkVVbI3_nR5oIdrkb8f2E/edit?usp=sharing&amp;usp=embed_facebook</bibo:uri>
+        <dcterms:abstract>CS+Social Good CS 106S - Spring 2021 Notes for next time: CUT THE HTML/CSS stuff consider doing in groups</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

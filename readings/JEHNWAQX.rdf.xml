@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="JEHNWAQX">
+        <res:resource rdf:resource="https://meta.wikimedia.org/wiki/Research:Autoconfirmed_article_creation_trial"/>
+        <z:accessDate>2021-05-09 03:13:07</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://meta.wikimedia.org/wiki/Research:Autoconfirmed_article_creation_trial">
+        <dcterms:title>Research:Autoconfirmed article creation trial - Meta</dcterms:title>
+        <bibo:uri>https://meta.wikimedia.org/wiki/Research:Autoconfirmed_article_creation_trial</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Research</bibo:shortTitle>
+    </bibo:Webpage>
+</rdf:RDF>

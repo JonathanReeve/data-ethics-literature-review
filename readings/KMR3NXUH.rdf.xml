@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="KMR3NXUH">
+        <res:resource rdf:resource="http://catless.ncl.ac.uk/Risks/"/>
+        <z:repository>catless.ncl.ac.uk</z:repository>
+        <z:accessDate>2021-05-09 03:20:38</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://catless.ncl.ac.uk/Risks/">
+        <dcterms:title>The RISKS Digest</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>http://catless.ncl.ac.uk/Risks/</bibo:uri>
+        <dcterms:abstract>The web page of the RISKS digest moderated by Peter G. Neumman of SRI</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n3969"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n3969"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Journal>
+               <dcterms:title>The RISKS Digest</dcterms:title>
+            </bibo:Journal>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n3969">
+        <foaf:givenName>Peter G.</foaf:givenName>
+        <foaf:surname>Neumann</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

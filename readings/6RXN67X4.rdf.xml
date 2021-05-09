@@ -1,0 +1,30 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="6RXN67X4">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=Her_(film)&amp;oldid=1017653963"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-05-09 03:21:27</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=Her_(film)&amp;oldid=1017653963">
+        <dcterms:title>&lt;i&gt;Her&lt;/i&gt; (film)</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=Her_(film)&amp;oldid=1017653963</bibo:uri>
+        <z:extra>Page Version ID: 1017653963</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>Her  is a 2013 American science-fiction romantic drama film written, directed, and produced by Spike Jonze. It marks Jonze's solo screenwriting debut. The film follows Theodore Twombly (Joaquin Phoenix), a man who develops a relationship with Samantha (Scarlett Johansson), an artificially intelligent virtual assistant personified through a female voice. The film also stars Amy Adams, Rooney Mara, Olivia Wilde, and Chris Pratt.
+Jonze conceived the idea in the early 2000s after reading an article about a website that allowed for instant messaging with an artificial intelligence program. After making I'm Here (2010), a short film sharing similar themes, Jonze returned to the idea. He wrote the first draft of the script in five months. Principal photography took place in Los Angeles and Shanghai in mid-2012. The role of Samantha was recast in post-production, with Samantha Morton being replaced with Johansson. Additional scenes were filmed in August 2013 following the casting change.
+Her premiered at the 2013 New York Film Festival on October 12, 2013. Warner Bros. Pictures initially provided a limited release for Her at six theaters on December 18. It was later given a wide release at over 1,700 theaters in the United States and Canada on January 10, 2014. Her received widespread critical acclaim upon its release, and grossed over $48 million worldwide on a production budget of $23 million. The film received numerous awards and nominations, primarily for Jonze's screenplay. At the 86th Academy Awards, Her received five nominations, including Best Picture, and won the award for Best Original Screenplay. Jonze also won awards for his screenplay at the 71st Golden Globe Awards, the 66th Writers Guild of America Awards, the 19th Critics' Choice Awards, and the 40th Saturn Awards. In a 2016 BBC poll of 177 critics around the world, Her was voted the 84th-greatest film since 2000.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2021-04-13T23:45:45Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

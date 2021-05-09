@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="MUT7ULAH">
+        <res:resource rdf:resource="https://perma.cc/5H25-AQC7"/>
+        <z:accessDate>2021-05-09 03:26:43</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/5H25-AQC7">
+        <dcterms:title>Computer says no: why making AIs fair, accountable and transparent is crucial | Science | The Guardian</dcterms:title>
+        <bibo:uri>https://perma.cc/5H25-AQC7</bibo:uri>
+        <dcterms:abstract>As powerful AIs proliferate in society, the ability to trace their decisions, challenge them and remove ingrained biases is a key area of research</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+        <bibo:shortTitle>Computer says no</bibo:shortTitle>
+    </bibo:Webpage>
+</rdf:RDF>

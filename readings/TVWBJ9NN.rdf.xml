@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="TVWBJ9NN">
+        <res:resource rdf:resource="https://cscw2016hcds.wordpress.com/papers/"/>
+        <z:accessDate>2021-05-09 03:12:33</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://cscw2016hcds.wordpress.com/papers/">
+        <dcterms:title>Accepted Papers</dcterms:title>
+        <bibo:uri>https://cscw2016hcds.wordpress.com/papers/</bibo:uri>
+        <dcterms:abstract>Accepted submissions will be archived here. Attending authors, please register via the CSCW registration page – you should receive an email with the workshop invited attendee registration cod…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Human-Centered Data Science @ CSCW 2016</dcterms:title>
+                <dcterms:date>2015-10-31T17:37:39+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

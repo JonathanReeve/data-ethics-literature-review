@@ -1,0 +1,27 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="XV5I4NVB">
+        <res:resource rdf:resource="https://browsehappy.com/?locale=en"/>
+        <z:accessDate>2021-05-09 02:54:57</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://browsehappy.com/?locale=en">
+        <bibo:uri>https://browsehappy.com/?locale=en</bibo:uri>
+        <dcterms:title>Browse Happy</dcterms:title>
+        <dcterms:abstract>Online. Worry-free. Upgrade your browser today!</dcterms:abstract>
+        <dcterms:language>en-AU</dcterms:language>
+        <dcterms:creator rdf:nodeID="n509"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n509"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </sioct:BlogPost>
+    <foaf:Organization rdf:nodeID="n509">
+       <foaf:name>WordPress</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

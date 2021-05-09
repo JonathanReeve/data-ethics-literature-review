@@ -1,0 +1,95 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="J4E2SFDA">
+        <res:resource rdf:resource="https://www.aclweb.org/anthology/P19-1159"/>
+        <z:repository>ACLWeb</z:repository>
+        <z:accessDate>2021-05-09 03:24:19</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.aclweb.org/anthology/P19-1159">
+        <dcterms:creator rdf:nodeID="n4613"/>
+        <dcterms:title>Mitigating Gender Bias in Natural Language Processing: Literature Review</dcterms:title>
+        <bibo:doi>10.18653/v1/P19-1159</bibo:doi>
+        <bibo:pages>1630â€“1640</bibo:pages>
+        <dcterms:abstract>As Natural Language Processing (NLP) and Machine Learning (ML) tools rise in popularity, it becomes increasingly vital to recognize the role they play in shaping societal biases and stereotypes. Although NLP models have shown success in modeling various applications, they propagate and may even amplify gender bias found in text corpora. While the study of bias in artificial intelligence is not new, methods to mitigate gender bias in NLP are relatively nascent. In this paper, we review contemporary studies on recognizing and mitigating gender bias in NLP. We discuss gender bias based on four forms of representation bias and analyze methods recognizing gender bias. Furthermore, we discuss the advantages and drawbacks of existing gender debiasing methods. Finally, we discuss future studies for recognizing and mitigating gender bias in NLP.</dcterms:abstract>
+        <bibo:presentedAt>
+            <bibo:Conference>
+               <dcterms:title>ACL 2019</dcterms:title>
+            </bibo:Conference>
+        </bibo:presentedAt>
+        <bibo:shortTitle>Mitigating Gender Bias in Natural Language Processing</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n4610"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n4615"/>
+                <rdf:li rdf:nodeID="n4612"/>
+                <rdf:li rdf:nodeID="n4613"/>
+                <rdf:li rdf:nodeID="n4614"/>
+                <rdf:li rdf:nodeID="n4610"/>
+                <rdf:li rdf:nodeID="n4616"/>
+                <rdf:li rdf:nodeID="n4617"/>
+                <rdf:li rdf:nodeID="n4618"/>
+                <rdf:li rdf:nodeID="n4619"/>
+                <rdf:li rdf:nodeID="n4620"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n4612"/>
+        <bibo:uri>https://www.aclweb.org/anthology/P19-1159</bibo:uri>
+        <dcterms:creator rdf:nodeID="n4614"/>
+        <dcterms:creator rdf:nodeID="n4615"/>
+        <dcterms:creator rdf:nodeID="n4616"/>
+        <dcterms:creator rdf:nodeID="n4617"/>
+        <dcterms:creator rdf:nodeID="n4618"/>
+        <dcterms:creator rdf:nodeID="n4619"/>
+        <dcterms:creator rdf:nodeID="n4620"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics</dcterms:title>
+                <dcterms:date>2019-07</dcterms:date>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <address:localityName>Florence, Italy</address:localityName>
+                        <foaf:name>Association for Computational Linguistics</foaf:name>
+                    </foaf:Organization>
+                </dcterms:publisher>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n4610">
+       <foaf:givenName>Tony</foaf:givenName><foaf:surname>Sun</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4612">
+       <foaf:givenName>Andrew</foaf:givenName><foaf:surname>Gaut</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4613">
+       <foaf:givenName>Shirlyn</foaf:givenName><foaf:surname>Tang</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4614">
+       <foaf:givenName>Yuxin</foaf:givenName><foaf:surname>Huang</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4615">
+       <foaf:givenName>Mai</foaf:givenName><foaf:surname>ElSherief</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4616">
+       <foaf:givenName>Jieyu</foaf:givenName><foaf:surname>Zhao</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4617">
+       <foaf:givenName>Diba</foaf:givenName><foaf:surname>Mirza</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4618">
+        <foaf:givenName>Elizabeth</foaf:givenName>
+        <foaf:surname>Belding</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4619">
+       <foaf:givenName>Kai-Wei</foaf:givenName><foaf:surname>Chang</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n4620">
+        <foaf:givenName>William Yang</foaf:givenName>
+        <foaf:surname>Wang</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

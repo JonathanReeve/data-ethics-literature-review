@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="39UHZQBW">
+        <res:resource rdf:resource="https://auth.bath.ac.uk/login?service=http%253A%252F%252Fmoodle.bath.ac.uk%252Flogin%252Findex.php"/>
+        <z:accessDate>2021-05-09 03:32:14</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://auth.bath.ac.uk/login?service=http%253A%252F%252Fmoodle.bath.ac.uk%252Flogin%252Findex.php">
+        <bibo:uri>https://auth.bath.ac.uk/login?service=http%3A%2F%2Fmoodle.bath.ac.uk%2Flogin%2Findex.php</bibo:uri>
+        <dcterms:title>University of Bath Single Sign-on</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

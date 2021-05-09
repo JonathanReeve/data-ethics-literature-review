@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="H842YH7U">
+        <res:resource rdf:resource="https://www.bbc.com/future/article/20161027-how-smart-homes-have-become-the-haunted-houses-of-today"/>
+        <z:accessDate>2021-05-09 03:10:21</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.bbc.com/future/article/20161027-how-smart-homes-have-become-the-haunted-houses-of-today">
+        <dcterms:title>How smart homes have become the haunted houses of today</dcterms:title>
+        <bibo:uri>https://www.bbc.com/future/article/20161027-how-smart-homes-have-become-the-haunted-houses-of-today</bibo:uri>
+        <dcterms:abstract>Our close relationship with technology has made it easy for our devices to creep us out</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n2196"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2196"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n2196">
+       <foaf:givenName>Aleks</foaf:givenName><foaf:surname>Krotoski</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

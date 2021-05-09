@@ -1,0 +1,33 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="3XD9FBHM">
+        <res:resource rdf:resource="https://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor/"/>
+        <z:accessDate>2021-05-09 03:29:48</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor/">
+        <dcterms:title>I Was a Warehouse Wage Slave</dcterms:title>
+        <bibo:uri>https://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor/</bibo:uri>
+        <dcterms:abstract>My brief, backbreaking, rage-inducing, low-paying, dildo-packing time inside the online-shipping machine.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5621"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n5621"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Mother Jones</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n5621">
+       <foaf:givenName>Gabriel</foaf:givenName><foaf:surname>Mac</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="PW4WF436">
+        <res:resource rdf:resource="https://www.extramilearena.com/"/>
+        <z:accessDate>2021-05-09 03:22:26</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.extramilearena.com/">
+        <dcterms:title>Official Site | ExtraMile Arena in Boise, ID</dcterms:title>
+        <bibo:uri>https://www.extramilearena.com/</bibo:uri>
+        <dcterms:abstract>ExtraMile Arena is the premiere Sports &amp; Entertainment venue in Boise, ID, located on the Boise State Campus.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4279"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4279"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n4279">
+        <foaf:givenName>Official Site | ExtraMile Arena in Boise</foaf:givenName>
+        <foaf:surname>ID</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

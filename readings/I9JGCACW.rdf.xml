@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="I9JGCACW">
+        <res:resource rdf:resource="https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/"/>
+        <z:repository>The Atlantic</z:repository>
+        <z:accessDate>2021-05-09 03:32:33</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/">
+        <bibo:uri>https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/</bibo:uri>
+        <dcterms:abstract>More comfortable online than out partying, post-Millennials are safer, physically, than adolescents have ever been. But theyâ€™re on the brink of a mental-health crisis.</dcterms:abstract>
+        <dcterms:title>Have Smartphones Destroyed a Generation?</dcterms:title>
+        <dcterms:creator rdf:nodeID="n6157"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6157"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Magazine>
+                <bibo:issn>1072-7825</bibo:issn>
+                <dcterms:title>The Atlantic</dcterms:title>
+            </bibo:Magazine>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n6157">
+        <foaf:givenName>Story by Jean M.</foaf:givenName>
+        <foaf:surname>Twenge</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

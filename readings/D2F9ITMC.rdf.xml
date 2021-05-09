@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="D2F9ITMC">
+        <res:resource rdf:resource="https://www.morrisoncenter.com/"/>
+        <z:accessDate>2021-05-09 03:22:18</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.morrisoncenter.com/">
+        <dcterms:title>Velma V Morrison Center Official Site</dcterms:title>
+        <bibo:uri>https://www.morrisoncenter.com/</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4261"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4261"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n4261">
+        <foaf:givenName>Velma V. Morrison Center Official</foaf:givenName>
+        <foaf:surname>Site</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="R7XIS44B">
+        <res:resource rdf:resource="http://www.cmu.edu/dietrich/philosophy/people/faculty/danks.html"/>
+        <z:accessDate>2021-05-09 03:00:46</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.cmu.edu/dietrich/philosophy/people/faculty/danks.html">
+        <dcterms:title>David Danks - Department of Philosophy - Dietrich College of Humanities and Social Sciences - Carnegie Mellon University</dcterms:title>
+        <bibo:uri>http://www.cmu.edu/dietrich/philosophy/people/faculty/danks.html</bibo:uri>
+        <dcterms:abstract>Department Head &amp; L.L. Thurstone Professor of Philosophy and Psychology</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n1032"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1032"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n1032">
+        <foaf:givenName>Carnegie Mellon</foaf:givenName>
+        <foaf:surname>University</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

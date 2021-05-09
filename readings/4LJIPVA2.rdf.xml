@@ -1,0 +1,24 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="4LJIPVA2">
+        <res:resource rdf:resource="https://www.iclicker.com/remote-registration-form-for-classic"/>
+        <z:accessDate>2021-05-09 03:03:34</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.iclicker.com/remote-registration-form-for-classic">
+        <dcterms:title>Register a Remote for iClicker Classic</dcterms:title>
+        <bibo:uri>https://www.iclicker.com/remote-registration-form-for-classic</bibo:uri>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>iClicker</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

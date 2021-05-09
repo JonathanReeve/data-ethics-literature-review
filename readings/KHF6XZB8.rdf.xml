@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="KHF6XZB8">
+        <res:resource rdf:resource="https://shkspr.mobi/blog/2016/05/easy-apis-without-authentication/"/>
+        <z:accessDate>2021-05-09 03:28:15</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://shkspr.mobi/blog/2016/05/easy-apis-without-authentication/">
+        <dcterms:title>Easy APIs Without Authentication</dcterms:title>
+        <bibo:uri>https://shkspr.mobi/blog/2016/05/easy-apis-without-authentication/</bibo:uri>
+        <dcterms:abstract>This is a curated list of APIs which do not require usernames, passwords, access tokens, signing, accept-headers, or anything more complicated than sticking a URL in a browser. (This is an update t…</dcterms:abstract>
+        <dcterms:language>en-GB</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Terence Eden’s Blog</dcterms:title>
+                <dcterms:date>2016-05-25T14:58:26+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

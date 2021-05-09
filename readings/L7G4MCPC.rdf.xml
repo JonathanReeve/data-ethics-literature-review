@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="L7G4MCPC">
+        <res:resource rdf:resource="https://catalog.utdallas.edu/2012/undergraduate/programs/jsom/finance"/>
+        <z:accessDate>2021-05-09 03:16:05</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://catalog.utdallas.edu/2012/undergraduate/programs/jsom/finance">
+        <bibo:uri>https://catalog.utdallas.edu/2012/undergraduate/programs/jsom/finance</bibo:uri>
+        <dcterms:title>Finance - UT Dallas 2012 Undergraduate Catalog - The University of Texas at Dallas</dcterms:title>
+        <dcterms:abstract>UT Dallas 2012 Undergraduate Catalog</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

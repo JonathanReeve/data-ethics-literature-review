@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="MLACXAAX">
+        <res:resource rdf:resource="https://www.nytimes.com/interactive/2017/11/08/magazine/tech-design-autonomous-future-cars-100-percent-augmented-reality-policing.html,%20https://www.nytimes.com/interactive/2017/11/08/magazine/tech-design-autonomous-future-cars-100-percent-augmented-reality-policing.html"/>
+        <z:repository>NYTimes.com</z:repository>
+        <z:accessDate>2021-05-09 03:27:14</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.nytimes.com/interactive/2017/11/08/magazine/tech-design-autonomous-future-cars-100-percent-augmented-reality-policing.html,%20https://www.nytimes.com/interactive/2017/11/08/magazine/tech-design-autonomous-future-cars-100-percent-augmented-reality-policing.html">
+        <dcterms:title>Full Tilt: When 100% of Cars Are Autonomous</dcterms:title>
+        <bibo:section>Magazine</bibo:section>
+        <bibo:uri>https://www.nytimes.com/interactive/2017/11/08/magazine/tech-design-autonomous-future-cars-100-percent-augmented-reality-policing.html, https://www.nytimes.com/interactive/2017/11/08/magazine/tech-design-autonomous-future-cars-100-percent-augmented-reality-policing.html</bibo:uri>
+        <dcterms:abstract>What happens to roadkill or traffic tickets when our vehicles are in control?</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:shortTitle>Full Tilt</bibo:shortTitle>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017-11-08</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Newspaper>
+                        <dcterms:title>The New York Times</dcterms:title>
+                        <bibo:issn>0362-4331</bibo:issn>
+                    </bibo:Newspaper>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="2UBRS3B6">
+        <res:resource rdf:resource="https://www.nspe.org/resources/ethics/code-ethics"/>
+        <z:accessDate>2021-05-09 03:29:03</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.nspe.org/resources/ethics/code-ethics">
+        <bibo:uri>https://www.nspe.org/resources/ethics/code-ethics</bibo:uri>
+        <dcterms:title>Code of Ethics | National Society of Professional Engineers</dcterms:title>
+        <dcterms:abstract>NSPE Code of Ethics for Engineers  Download: NSPE Code of Ethics  Download: The NSPE Ethics Reference Guide for a list of all cases through 2019.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

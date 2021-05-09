@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="N7WA7EBN">
+        <res:resource rdf:resource="https://medium.com/@leapingllamas/the-role-of-model-interpretability-in-data-science-703918f64330"/>
+        <z:accessDate>2021-05-09 03:13:12</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/@leapingllamas/the-role-of-model-interpretability-in-data-science-703918f64330">
+        <dcterms:title>The role of model interpretability in data science</dcterms:title>
+        <bibo:uri>https://medium.com/@leapingllamas/the-role-of-model-interpretability-in-data-science-703918f64330</bibo:uri>
+        <dcterms:abstract>In data science, models can involve abstract features in high dimensional spaces, or they can be more concrete, in lower dimensions, andâ€¦</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n2761"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2761"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2016-02-01T14:13:07.088Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n2761">
+       <foaf:givenName>Carl</foaf:givenName><foaf:surname>Anderson</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

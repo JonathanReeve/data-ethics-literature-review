@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="CTZ4VTI3">
+        <res:resource rdf:resource="https://www.lynda.com/IT-Infrastructure-tutorials/Ethical-Hacking-Penetration-Testing/529366-2.html"/>
+        <z:accessDate>2021-05-09 03:27:34</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.lynda.com/IT-Infrastructure-tutorials/Ethical-Hacking-Penetration-Testing/529366-2.html">
+        <dcterms:title>Ethical Hacking: Penetration Testing</dcterms:title>
+        <bibo:uri>https://www.lynda.com/IT-Infrastructure-tutorials/Ethical-Hacking-Penetration-Testing/529366-2.html</bibo:uri>
+        <dcterms:abstract>The only way to know your systems are secure is to test them. Learn how to use penetration testing to check for vulnerabilities in computers, networks, applications, email, and people.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:shortTitle>Ethical Hacking</bibo:shortTitle>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Lynda.com - from LinkedIn</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

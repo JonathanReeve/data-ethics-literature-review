@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="RLNUFCD6">
+        <res:resource rdf:resource="https://gizmodo.com/facebook-figured-out-my-family-secrets-and-it-wont-tel-1797696163"/>
+        <z:accessDate>2021-05-09 03:13:12</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://gizmodo.com/facebook-figured-out-my-family-secrets-and-it-wont-tel-1797696163">
+        <dcterms:title>Facebook Figured Out My Family Secrets, And It Won't Tell Me How</dcterms:title>
+        <bibo:uri>https://gizmodo.com/facebook-figured-out-my-family-secrets-and-it-wont-tel-1797696163</bibo:uri>
+        <dcterms:abstract>Rebecca Porter and I were strangers, as far as I knew. Facebook, however, thought we might be connected. Her name popped up this summer on my list of “People You May Know,” the social network’s roster of potential new online friends for me.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Gizmodo</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

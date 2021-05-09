@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="XJIBWCIL">
+        <res:resource rdf:resource="https://www.eff.org/deeplinks/2014/11/fbis-suicide-letter-dr-martin-luther-king-jr-and-dangers-unchecked-surveillance"/>
+        <z:accessDate>2021-05-09 03:33:34</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.eff.org/deeplinks/2014/11/fbis-suicide-letter-dr-martin-luther-king-jr-and-dangers-unchecked-surveillance">
+        <dcterms:title>FBI's &quot;Suicide Letter&quot; to Dr. Martin Luther King, Jr., and the Dangers of Unchecked Surveillance</dcterms:title>
+        <bibo:uri>https://www.eff.org/deeplinks/2014/11/fbis-suicide-letter-dr-martin-luther-king-jr-and-dangers-unchecked-surveillance</bibo:uri>
+        <dcterms:abstract>The New York Times has published an unredacted version of the famous “suicide letter” from the FBI to Dr. Martin Luther King, Jr. The letter, recently discovered by historian and professor Beverly Gage, is a disturbing document. But it’s also something that everyone in the United States should read...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n6388"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6388"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Electronic Frontier Foundation</dcterms:title>
+                <dcterms:date>2014-11-12T12:14:48-08:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n6388">
+       <foaf:givenName>Dia</foaf:givenName><foaf:surname>Kayyali</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

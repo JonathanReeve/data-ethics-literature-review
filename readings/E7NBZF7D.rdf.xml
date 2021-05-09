@@ -1,0 +1,19 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="E7NBZF7D">
+        <res:resource rdf:resource="https://tools.kali.org/sniffingspoofing/mitmproxy"/>
+        <z:accessDate>2021-05-09 03:28:20</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://tools.kali.org/sniffingspoofing/mitmproxy">
+        <dcterms:title>mitmproxy</dcterms:title>
+        <bibo:uri>https://tools.kali.org/sniffingspoofing/mitmproxy</bibo:uri>
+        <dcterms:abstract>mitmproxy is an SSL-capable man-in-the-middle HTTP proxy. It provides a console interface that allows traffic flows to be inspected and edited on the fly. Also shipped is mitmdump, the command-line version of mitmproxy, with the same functionality but without the frills.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </sioct:BlogPost>
+</rdf:RDF>

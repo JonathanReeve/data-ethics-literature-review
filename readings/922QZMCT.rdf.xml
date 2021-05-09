@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="922QZMCT">
+        <res:resource rdf:resource="https://www.kickstarter.com/profile/1060341604"/>
+        <z:accessDate>2021-05-09 03:21:06</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.kickstarter.com/profile/1060341604">
+        <dcterms:title>Sarah Sterman</dcterms:title>
+        <bibo:uri>https://www.kickstarter.com/profile/1060341604</bibo:uri>
+        <dcterms:abstract>Sarah Sterman is a senior at Stanford University studying Computer Science and Product Design. When not coding, I write fiction, build things, bake bread, and do karate. Dreams for the future include hiking the entire Appalachian Trail and reading all the books in the world.
+
+Elise Guinee-Cooper is a senior at Stanford University studying Product Design and dreaming about crazy ways in which to change the world. She loves to travel, loves to run, and is excited for the possibilities of life after graduation.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Kickstarter</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

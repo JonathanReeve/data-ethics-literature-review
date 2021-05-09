@@ -1,0 +1,13 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="9DQFT6J6">
+        <res:resource rdf:resource="https://forms.gle/Kfh2eWawq14V8itR8"/>
+        <z:accessDate>2021-05-09 03:29:09</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://forms.gle/Kfh2eWawq14V8itR8">
+       <bibo:uri>https://forms.gle/Kfh2eWawq14V8itR8</bibo:uri>
+    </bibo:Webpage>
+</rdf:RDF>

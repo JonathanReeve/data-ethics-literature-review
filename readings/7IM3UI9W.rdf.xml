@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="7IM3UI9W">
+        <res:resource rdf:resource="https://www.microsoft.com/design"/>
+        <z:accessDate>2021-05-09 03:10:37</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.microsoft.com/design">
+        <dcterms:title>Microsoft Design</dcterms:title>
+        <bibo:uri>https://www.microsoft.com/design</bibo:uri>
+        <dcterms:abstract>Microsoft Design</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

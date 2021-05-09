@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="S5NL9ST3">
+        <res:resource rdf:resource="https://perma.cc/8KUQ-LPJC"/>
+        <z:accessDate>2021-05-09 03:26:23</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/8KUQ-LPJC">
+        <dcterms:title>Machines Learn a Biased View of Women | WIRED</dcterms:title>
+        <bibo:uri>https://perma.cc/8KUQ-LPJC</bibo:uri>
+        <dcterms:abstract>Image recognition software showed a tendency to associate women with shopping and men with shooting.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

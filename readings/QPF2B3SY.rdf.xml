@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="QPF2B3SY">
+        <res:resource rdf:resource="https://www.signupgenius.com/go/5080f49a9af2fa5ff2-cs181w4"/>
+        <z:accessDate>2021-05-09 03:29:13</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.signupgenius.com/go/5080f49a9af2fa5ff2-cs181w4">
+        <bibo:uri>https://www.signupgenius.com/go/5080f49a9af2fa5ff2-cs181w4</bibo:uri>
+        <dcterms:title>TCP: CS181W remote WIM conferences</dcterms:title>
+        <dcterms:abstract>All times Pacific Time. Choose ONE slot below for a remote conference to discuss the 181W writing assignment you would like to revise. Please send a copy to the TCP instructor at least one day in advance of meeting--earlier is better! TCP instructors will send you a Zoom link. Thanks! Thank you! Emails: Melissa Dabiri mdabiri@stanford.edu Page Ive pageive3@gmail.com Andrew Kim andrewhk@stanfod.edu Derek Knowles dcknowles@stanford.edu Mary McDevitt mary.mcdevitt@stanford.edu Lisa Modifica modifica@stanford.edu Jill O'Nan jonan@stanford.edu Evelin Sullivan evelin.sullivan@stanford.edu</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:shortTitle>TCP</bibo:shortTitle>
+    </bibo:Webpage>
+</rdf:RDF>

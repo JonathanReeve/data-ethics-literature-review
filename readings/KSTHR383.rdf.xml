@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="KSTHR383">
+        <res:resource rdf:resource="https://bdes.datasociety.net/council-output/case-study-it-was-a-matter-of-life-and-death-a-youtube-engineers-decision-to-alter-data-in-the-it-gets-better-project/"/>
+        <z:accessDate>2021-05-09 03:31:53</z:accessDate>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://bdes.datasociety.net/council-output/case-study-it-was-a-matter-of-life-and-death-a-youtube-engineers-decision-to-alter-data-in-the-it-gets-better-project/">
+        <dcterms:title>Case Study: “It Was A Matter of Life and Death”: A YouTube Engineer&amp;#8217;s Decision to Alter Data in the &amp;#8216;It Gets Better Project’</dcterms:title>
+        <dcterms:publisher>
+            <foaf:Organization>
+               <foaf:name>Council for Big Data, Ethics, and Society</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:date>2021-05-09</dcterms:date>
+        <bibo:uri>https://bdes.datasociety.net/council-output/case-study-it-was-a-matter-of-life-and-death-a-youtube-engineers-decision-to-alter-data-in-the-it-gets-better-project/</bibo:uri>
+        <dcterms:language>English</dcterms:language>
+        <bibo:shortTitle>Case Study</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n6083"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6083"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n6083">
+       <foaf:givenName>Laurie</foaf:givenName><foaf:surname>Honda</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

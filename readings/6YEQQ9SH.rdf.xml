@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="6YEQQ9SH">
+        <res:resource rdf:resource="https://apps.apple.com/us/app/medium/id828256236"/>
+        <z:accessDate>2021-05-09 03:10:58</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://apps.apple.com/us/app/medium/id828256236">
+        <dcterms:title>‎Medium</dcterms:title>
+        <bibo:uri>https://apps.apple.com/us/app/medium/id828256236</bibo:uri>
+        <dcterms:abstract>‎Medium is an open platform where 170 million readers come to find insightful and dynamic thinking. Here, expert and undiscovered voices alike dive into the heart of any topic and bring new ideas to the surface.
+
+Read.
+Easily find and follow writers and publications that matter to you, and keep up on…</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>App Store</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

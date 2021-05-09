@@ -1,0 +1,33 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="PQCFXBWV">
+        <res:resource rdf:resource="http://www.scirp.org/journal/PaperInformation.aspx?PaperID=30059"/>
+        <z:repository>file.scirp.org</z:repository>
+        <z:accessDate>2021-05-09 03:05:25</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://www.scirp.org/journal/PaperInformation.aspx?PaperID=30059">
+        <dcterms:title>ISO/IEC 27000, 27001 and 27002 for Information Security Management</dcterms:title>
+        <bibo:doi>10.4236/jis.2013.42011</bibo:doi>
+        <dcterms:abstract>With the increasing significance of information technology, there is an urgent need for adequate measures of information security. Systematic information security management is one of most important initiatives for IT management. At least since reports about privacy and security breaches, fraudulent accounting practices, and attacks on IT systems appeared in public, organizations have recognized their responsibilities to safeguard physical and information assets. Security standards can be used as guideline or framework to develop and maintain an adequate information security management system (ISMS). The standards ISO/IEC 27000, 27001 and 27002 are international standards that are receiving growing recognition and adoption. They are referred to as “common language of organizations around the world” for information security [1]. With ISO/IEC 27001 companies can have their ISMS certified by a third-party organization and thus show their customers evidence of their security measures.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>http://www.scirp.org/journal/PaperInformation.aspx?PaperID=30059</bibo:uri>
+        <dcterms:creator rdf:nodeID="n1775"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1775"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>2013</bibo:volume>
+                <dcterms:date>2013-04-23</dcterms:date>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n1775">
+       <foaf:givenName>Georg</foaf:givenName><foaf:surname>Disterer</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

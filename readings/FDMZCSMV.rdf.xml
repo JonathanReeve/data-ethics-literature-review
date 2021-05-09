@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="FDMZCSMV">
+        <res:resource rdf:resource="https://blog.cryptographyengineering.com/2016/06/15/what-is-differential-privacy/"/>
+        <z:accessDate>2021-05-09 03:12:44</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://blog.cryptographyengineering.com/2016/06/15/what-is-differential-privacy/">
+        <dcterms:title>What is Differential Privacy?</dcterms:title>
+        <bibo:uri>https://blog.cryptographyengineering.com/2016/06/15/what-is-differential-privacy/</bibo:uri>
+        <dcterms:abstract>Yesterday at the WWDC keynote, Apple announced a series of new security and privacy features, including one feature that’s drawn a bit of attention — and confusion. Specifically, Apple …</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>A Few Thoughts on Cryptographic Engineering</dcterms:title>
+                <dcterms:date>2016-06-15T03:20:00+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

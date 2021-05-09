@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="HYVQ998E">
+        <res:resource rdf:resource="https://perma.cc/49AQ-C83B"/>
+        <z:accessDate>2021-05-09 03:26:34</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/49AQ-C83B">
+        <dcterms:title>How Facebook’s Algorithm Suppresses Content Diversity (Modestly) &amp; How the Newsfeed Rules the Clicks</dcterms:title>
+        <bibo:uri>https://perma.cc/49AQ-C83B</bibo:uri>
+        <dcterms:abstract>Today, three researchers at Facebook published an article in Science on how Facebook’s newsfeed algorithm suppresses the amount of “cross-cutting” (i.e. likely to cause disagreement) news articles a…</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

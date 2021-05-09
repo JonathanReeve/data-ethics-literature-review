@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="8ZN46NQH">
+        <res:resource rdf:resource="https://perma.cc/TY9U-8U7E"/>
+        <z:accessDate>2021-05-09 03:26:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/TY9U-8U7E">
+        <dcterms:title>Human and Artificial Intelligence May Be Equally Impossible to Understand</dcterms:title>
+        <bibo:uri>https://perma.cc/TY9U-8U7E</bibo:uri>
+        <dcterms:abstract>Dmitry Malioutov canâ€™t say much about what he built. As a research scientist at IBM, Malioutov spends part of his time building&amp;#8230;</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>
