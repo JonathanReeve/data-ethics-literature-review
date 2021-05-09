@@ -1,0 +1,73 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="5SCKUQ9E">
+        <res:resource rdf:resource="http://arxiv.org/abs/1609.05807"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-05-09 03:46:35</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Machine Learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Computers and Society</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Statistics - Machine Learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1609.05807">
+        <dcterms:title>Inherent Trade-Offs in the Fair Determination of Risk Scores</dcterms:title>
+        <dcterms:abstract>Recent discussion in the public sphere about algorithmic classification has involved tension between competing notions of what it means for a probabilistic classification to be fair to different groups. We formalize three fairness conditions that lie at the heart of these debates, and we prove that except in highly constrained special cases, there is no method that can satisfy these three conditions simultaneously. Moreover, even satisfying all three conditions approximately requires that the data lie in an approximate version of one of the constrained special cases identified by our theorem. These results suggest some of the ways in which key notions of fairness are incompatible with each other, and hence provide a framework for thinking about the trade-offs between them.</dcterms:abstract>
+        <bibo:uri>http://arxiv.org/abs/1609.05807</bibo:uri>
+        <z:extra>arXiv: 1609.05807</z:extra>
+        <dcterms:creator rdf:nodeID="n8687"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n8687"/>
+                <rdf:li rdf:nodeID="n8689"/>
+                <rdf:li rdf:nodeID="n8690"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n8689"/>
+        <dcterms:creator rdf:nodeID="n8690"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-11-17</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>arXiv:1609.05807 [cs, stat]</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n8687">
+       <foaf:givenName>Jon</foaf:givenName><foaf:surname>Kleinberg</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8689">
+        <foaf:givenName>Sendhil</foaf:givenName>
+        <foaf:surname>Mullainathan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8690">
+        <foaf:givenName>Manish</foaf:givenName>
+        <foaf:surname>Raghavan</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+            <bibo:Note>
+                <z:note>Comment: To appear in Proceedings of Innovations in Theoretical Computer Science (ITCS), 2017</z:note>
+            </bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

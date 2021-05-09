@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="NB93Q3DV">
+        <res:resource rdf:resource="http://www.cse.unsw.edu.au/~tw/aiethics/AI_Ethics/Introduction.html"/>
+        <z:accessDate>2021-05-09 03:46:57</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.cse.unsw.edu.au/~tw/aiethics/AI_Ethics/Introduction.html">
+        <bibo:uri>http://www.cse.unsw.edu.au/~tw/aiethics/AI_Ethics/Introduction.html</bibo:uri>
+        <dcterms:title>3rd International Workshop on AI, Ethics and Society 4th February 2017 San Francisco, USA</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

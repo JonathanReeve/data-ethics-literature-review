@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="ATFP6BAJ">
+        <res:resource rdf:resource="https://www.propublica.org/article/bias-in-criminal-risk-scores-is-mathematically-inevitable-researchers-say"/>
+        <z:accessDate>2021-05-09 03:45:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.propublica.org/article/bias-in-criminal-risk-scores-is-mathematically-inevitable-researchers-say">
+        <dcterms:title>Bias in Criminal Risk Scores Is Mathematically Inevitable, Researchers Say</dcterms:title>
+        <bibo:uri>https://www.propublica.org/article/bias-in-criminal-risk-scores-is-mathematically-inevitable-researchers-say</bibo:uri>
+        <dcterms:abstract>ProPublica’s analysis of bias against black defendants in criminal risk scores has prompted research showing that the disparity can be addressed — if the algorithms focus on the fairness of outcomes.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n8418"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n8418"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>ProPublica</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n8418">
+        <foaf:givenName>Julia Angwin,Jeff</foaf:givenName>
+        <foaf:surname>Larson</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

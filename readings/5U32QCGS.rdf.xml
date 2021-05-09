@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="5U32QCGS">
+        <res:resource rdf:resource="https://medium.com/salesforce-research-insights/scaling-user-research-operations-infrastructure-with-salesforce-94df979ece4f"/>
+        <z:accessDate>2021-05-09 03:52:43</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/salesforce-research-insights/scaling-user-research-operations-infrastructure-with-salesforce-94df979ece4f">
+        <dcterms:title>Scaling User Research Operations Infrastructure with Salesforce</dcterms:title>
+        <bibo:uri>https://medium.com/salesforce-research-insights/scaling-user-research-operations-infrastructure-with-salesforce-94df979ece4f</bibo:uri>
+        <dcterms:abstract>I remember the conversation that sparked it all, the one that set the course for the most high-impact work of my career. It was the dayâ€¦</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n9533"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9533"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2020-07-30T18:46:03.020Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n9533">
+       <foaf:givenName>Noel</foaf:givenName><foaf:surname>Lamb</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

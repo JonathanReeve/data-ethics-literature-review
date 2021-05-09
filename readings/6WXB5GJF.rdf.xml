@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="6WXB5GJF">
+        <res:resource rdf:resource="https://medium.com/@zoeez"/>
+        <z:accessDate>2021-05-09 03:52:36</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/@zoeez">
+        <dcterms:title>Zoe Zindrou</dcterms:title>
+        <bibo:uri>https://medium.com/@zoeez</bibo:uri>
+        <dcterms:abstract>Read writing from Zoe Zindrou on Medium. User experience Consultant and Strategist, Systems thinker and Service designer. Every day, Zoe Zindrou and thousands of other voices read, write, and share important stories on Medium.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Medium</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

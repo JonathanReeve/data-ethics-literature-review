@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="MUTD7GR8">
+        <res:resource rdf:resource="https://www.google.com/photos/about/"/>
+        <z:accessDate>2021-05-09 03:39:07</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.google.com/photos/about/">
+        <dcterms:title>Google Photos</dcterms:title>
+        <bibo:uri>https://www.google.com/photos/about/</bibo:uri>
+        <dcterms:abstract>Google Photos is the home for all your photos and videos, automatically organized and easy to share.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Google Photos</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

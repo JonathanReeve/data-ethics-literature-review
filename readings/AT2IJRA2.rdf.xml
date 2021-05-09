@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:doap="http://usefulinc.com/ns/doap#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="AT2IJRA2">
+        <res:resource rdf:resource="https://github.com/propublica/compas-analysis"/>
+        <z:repository>GitHub</z:repository>
+        <z:accessDate>2021-05-09 03:53:30</z:accessDate>
+    </z:UserItem>
+    <sc:ComputerProgram_CW rdf:about="https://github.com/propublica/compas-analysis">
+        <bibo:uri>https://github.com/propublica/compas-analysis</bibo:uri>
+        <dcterms:title>propublica/compas-analysis</dcterms:title>
+        <dcterms:abstract>Data and analysis for 'Machine Bias'. Contribute to propublica/compas-analysis development by creating an account on GitHub.</dcterms:abstract>
+        <doap:programming-language>Jupyter Notebook</doap:programming-language>
+        <z:extra>original-date: 2016-05-21T03:36:35Z</z:extra>
+        <dcterms:date>2021-05-05T11:57:55Z</dcterms:date>
+        <dcterms:publisher>
+            <foaf:Organization>
+               <foaf:name>ProPublica</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </sc:ComputerProgram_CW>
+</rdf:RDF>

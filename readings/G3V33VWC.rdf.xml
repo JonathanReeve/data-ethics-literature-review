@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="G3V33VWC">
+        <res:resource rdf:resource="https://stadia.google.com"/>
+        <z:accessDate>2021-05-09 03:39:21</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://stadia.google.com">
+        <dcterms:title>Stadia - Play for Free across your favorite devices</dcterms:title>
+        <bibo:uri>https://stadia.google.com</bibo:uri>
+        <dcterms:abstract>Get instant access to Stadia and a collection of games with a Stadia Pro free trial now.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

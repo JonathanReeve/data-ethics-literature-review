@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="CE53TTT4">
+        <res:resource rdf:resource="https://docs.google.com/document/d/1LgngbG32nMIGswwlPOeU-3SfOih6a0qfpMS6oYtakMc/pub"/>
+        <z:accessDate>2021-05-09 03:48:46</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/document/d/1LgngbG32nMIGswwlPOeU-3SfOih6a0qfpMS6oYtakMc/pub">
+        <bibo:uri>https://docs.google.com/document/d/1LgngbG32nMIGswwlPOeU-3SfOih6a0qfpMS6oYtakMc/pub</bibo:uri>
+        <dcterms:title>GULC 1315/MIT 6.S978 Spring 2017 - Calendar Page</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="PD7KHI6G">
+        <res:resource rdf:resource="http://arxiv.org/abs/1705.10378"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-05-09 03:53:54</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Statistics - Machine Learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1705.10378">
+        <dcterms:title>Fair Inference On Outcomes</dcterms:title>
+        <dcterms:abstract>In this paper, we consider the problem of fair statistical inference involving outcome variables. Examples include classification and regression problems, and estimating treatment effects in randomized trials or observational data. The issue of fairness arises in such problems where some covariates or treatments are &quot;sensitive,&quot; in the sense of having potential of creating discrimination. In this paper, we argue that the presence of discrimination can be formalized in a sensible way as the presence of an effect of a sensitive covariate on the outcome along certain causal pathways, a view which generalizes (Pearl, 2009). A fair outcome model can then be learned by solving a constrained optimization problem. We discuss a number of complications that arise in classical statistical inference due to this view and provide workarounds based on recent work in causal and semi-parametric inference.</dcterms:abstract>
+        <bibo:uri>http://arxiv.org/abs/1705.10378</bibo:uri>
+        <z:extra>arXiv: 1705.10378</z:extra>
+        <dcterms:creator rdf:nodeID="n9892"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n9892"/><rdf:li rdf:nodeID="n9894"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n9894"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2018-01-21</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>arXiv:1705.10378 [stat]</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n9892">
+       <foaf:givenName>Razieh</foaf:givenName><foaf:surname>Nabi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9894">
+       <foaf:givenName>Ilya</foaf:givenName><foaf:surname>Shpitser</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

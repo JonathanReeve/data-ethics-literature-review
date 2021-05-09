@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="CEWJMDCN">
+        <res:resource rdf:resource="http://hrdag.org/people/kristian-lum-phd/"/>
+        <z:accessDate>2021-05-09 03:53:17</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="http://hrdag.org/people/kristian-lum-phd/">
+        <dcterms:title>Kristian Lum, PhD</dcterms:title>
+        <bibo:uri>http://hrdag.org/people/kristian-lum-phd/</bibo:uri>
+        <dcterms:abstract>Kristian Lum is the Lead Statistician at the Human Rights Data Analysis Group (HRDAG), where she leads the HRDAG project on criminal justice in the United States. Previously, Kristian worked as a research assistant professor in the Virginia Bioinformatics Institute at Virginia Tech and as a data scientist at DataPad, a small technology start-up. ...</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>HRDAG - Human Rights Data Analysis Group</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

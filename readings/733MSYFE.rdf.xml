@@ -1,0 +1,35 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="733MSYFE">
+        <res:resource rdf:resource="https://cs.ucdavis.edu/undergraduate/non-majors/changing-majors-double-majors"/>
+        <z:accessDate>2021-05-09 03:55:24</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://cs.ucdavis.edu/undergraduate/non-majors/changing-majors-double-majors">
+        <dcterms:title>Changing Majors and Double Majors</dcterms:title>
+        <bibo:uri>https://cs.ucdavis.edu/undergraduate/non-majors/changing-majors-double-majors</bibo:uri>
+        <dcterms:abstract>Important Information on Major Changes
+
+Change of Major to Computer Science
+
+The requirements to change majors into the Computer Science (CS) major in the College of Letters and Science changed in Spring Quarter 2015. With the declaration of CS as an impacted major, new prerequisites for transferring into the major will be enforced. Students who are considering switching to CS must have a 3.0 GPA at the time the petition is submitted. Additionally, students must have completed the following courses with a grade of C- or better:</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n10231"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n10231"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Computer Science</dcterms:title>
+                <dcterms:date>2020-01-23T14:18:01-08:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n10231">
+       <foaf:givenName>Eric</foaf:givenName><foaf:surname>Blosch</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

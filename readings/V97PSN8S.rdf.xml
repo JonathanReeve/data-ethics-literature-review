@@ -1,0 +1,55 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="V97PSN8S">
+        <res:resource rdf:resource="https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9566.ep10939100"/>
+        <z:repository>Wiley Online Library</z:repository>
+        <z:accessDate>2021-05-09 03:41:53</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>representation</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>patient record</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>artefact</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>medical work</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9566.ep10939100">
+        <dcterms:language>en</dcterms:language>
+        <dcterms:title>Practices of reading and writing: the constitutive role of the patient record in medical work</dcterms:title>
+        <bibo:doi>https://doi.org/10.1111/1467-9566.ep10939100</bibo:doi>
+        <bibo:uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9566.ep10939100</bibo:uri>
+        <dcterms:abstract>This paper contributes to a reappraisal of the sociological significance of the medical record. Building upon re-evaluations of the notion of ‘representation’ in ethnomethodological and science and technology studies, it attempts to portray the medical record as an artefact which mediates the social relations that act and work through it. Through practices of reading and writing, it is argued, the medical record figures as a fundamental, constitutive element of medical practice. To address some of the dimensions that are involved, three case fragments are discussed. The way the medical record enters into the process of ‘medical decision making’ in the doctor-patient interaction, and into that interaction itself, is discussed first. Subsequently, some aspects of how the record mediates medical work as it is performed in the wards of a hospital are outlined. A third instance of its prominent role demonstrates how practices of reading and writing tend to produce particular renderings of patients’ histories - including notions of how medical work is structured.</dcterms:abstract>
+        <bibo:pages>499-524</bibo:pages>
+        <bibo:shortTitle>Practices of reading and writing</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n7646"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7646"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>18</bibo:volume>
+                <bibo:issue>4</bibo:issue>
+                <dcterms:date>1996</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Sociology of Health &amp; Illness</dcterms:title>
+                        <bibo:issn>1467-9566</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n7646">
+       <foaf:givenName>Marc</foaf:givenName><foaf:surname>Berg</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

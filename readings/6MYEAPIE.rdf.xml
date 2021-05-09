@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="6MYEAPIE">
+        <res:resource rdf:resource="https://brenthecht.medium.com/hci-and-the-u-s-presidential-election-a-few-thoughts-on-a-research-agenda-7c1a0a04986"/>
+        <z:accessDate>2021-05-09 03:39:29</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://brenthecht.medium.com/hci-and-the-u-s-presidential-election-a-few-thoughts-on-a-research-agenda-7c1a0a04986">
+        <dcterms:title>HCI and the U.S. Presidential Election: A Few Thoughts on a Research Agenda</dcterms:title>
+        <bibo:uri>https://brenthecht.medium.com/hci-and-the-u-s-presidential-election-a-few-thoughts-on-a-research-agenda-7c1a0a04986</bibo:uri>
+        <dcterms:abstract>Many in the human-computer interaction community are feeling a sense of despondency after Tuesday’s U.S. presidential election. It’s…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>HCI and the U.S. Presidential Election</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n7187"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7187"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2016-11-14T19:32:58.459Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n7187">
+       <foaf:givenName>Brent</foaf:givenName><foaf:surname>Hecht</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

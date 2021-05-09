@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="BEDFT56W">
+        <res:resource rdf:resource="https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles"/>
+        <z:repository>www.ted.com</z:repository>
+        <z:accessDate>2021-05-09 03:39:56</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles">
+        <dcterms:title>Beware online &quot;filter bubbles&quot;</dcterms:title>
+        <bibo:uri>https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles</bibo:uri>
+        <dcterms:abstract>As web companies strive to tailor their services (including news and search results) to our personal tastes, there's a dangerous unintended consequence: We get trapped in a &quot;filter bubble&quot; and don't get exposed to information that could challenge or broaden our worldview. Eli Pariser argues powerfully that this will ultimately prove to be bad for us and bad for democracy.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n7219"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7219"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Person rdf:nodeID="n7219">
+       <foaf:givenName>Eli</foaf:givenName><foaf:surname>Pariser</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

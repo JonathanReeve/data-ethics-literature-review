@@ -1,0 +1,49 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="8VNQ5378">
+        <res:resource rdf:resource="https://doi.org/10.1145/1743546.1743558"/>
+        <z:repository>June 2010</z:repository>
+        <z:accessDate>2021-05-09 03:45:36</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1145/1743546.1743558">
+        <dcterms:title>Myths and fallacies of &quot;Personally Identifiable Information&quot;</dcterms:title>
+        <bibo:pages>24â€“26</bibo:pages>
+        <dcterms:abstract>Developing effective privacy protection technologies is a critical challenge for security and privacy research as the amount and variety of data collected about individuals increase exponentially.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/1743546.1743558</bibo:uri>
+        <bibo:doi>10.1145/1743546.1743558</bibo:doi>
+        <dcterms:creator rdf:nodeID="n8588"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n8588"/><rdf:li rdf:nodeID="n8590"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n8590"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>53</bibo:volume>
+                <bibo:issue>6</bibo:issue>
+                <dcterms:date>June 1, 2010</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Communications of the ACM</dcterms:title>
+                        <bibo:issn>0001-0782</bibo:issn>
+                        <bibo:shortTitle>Commun. ACM</bibo:shortTitle>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n8588">
+        <foaf:givenName>Arvind</foaf:givenName>
+        <foaf:surname>Narayanan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8590">
+        <foaf:givenName>Vitaly</foaf:givenName>
+        <foaf:surname>Shmatikov</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

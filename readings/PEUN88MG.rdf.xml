@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="PEUN88MG">
+        <res:resource rdf:resource="https://www.theatlantic.com/technology/archive/2014/02/our-numbered-days-the-evolution-of-the-area-code/283803/"/>
+        <z:accessDate>2021-05-09 03:42:11</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.theatlantic.com/technology/archive/2014/02/our-numbered-days-the-evolution-of-the-area-code/283803/">
+        <dcterms:title>Our Numbered Days: The Evolution of the Area Code</dcterms:title>
+        <bibo:uri>https://www.theatlantic.com/technology/archive/2014/02/our-numbered-days-the-evolution-of-the-area-code/283803/</bibo:uri>
+        <dcterms:abstract>Long-distance digits long ago shed their monetary worth, but they gained something else in its place: cultural value.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Our Numbered Days</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n7663"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7663"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>The Atlantic</dcterms:title>
+                <dcterms:date>2014-02-13T18:43:40Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n7663">
+       <foaf:givenName>Megan</foaf:givenName><foaf:surname>Garber</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="SNI87Y9V">
+        <res:resource rdf:resource="https://www.cc.gatech.edu/~asb/"/>
+        <z:accessDate>2021-05-09 03:43:42</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.cc.gatech.edu/~asb/">
+        <bibo:uri>https://www.cc.gatech.edu/~asb/</bibo:uri>
+        <dcterms:title>Amy Bruckman - Home</dcterms:title>
+        <dcterms:abstract>Amy Bruckman - Georgia Institute of Technology, College of Computing - Collaborative Computing</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

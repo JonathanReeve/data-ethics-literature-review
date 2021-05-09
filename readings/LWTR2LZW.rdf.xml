@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="LWTR2LZW">
+        <res:resource rdf:resource="http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=UW&amp;afterPDS=true&amp;docId="/>
+        <z:accessDate>2021-05-09 03:44:59</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=UW&amp;afterPDS=true&amp;docId=">
+        <bibo:uri>http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=UW&amp;afterPDS=true&amp;docId=</bibo:uri>
+        <dcterms:title>null - null</dcterms:title>
+        <dcterms:language>en-US</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

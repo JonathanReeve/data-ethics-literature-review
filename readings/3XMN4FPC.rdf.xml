@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="3XMN4FPC">
+        <res:resource rdf:resource="https://drive.google.com/drive/folders/1KODIPhPsCVfHuDZl773NRz1aHDZmkoZ6?usp=drive_open"/>
+        <z:accessDate>2021-05-09 03:48:45</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://drive.google.com/drive/folders/1KODIPhPsCVfHuDZl773NRz1aHDZmkoZ6?usp=drive_open">
+        <bibo:uri>https://drive.google.com/drive/folders/1KODIPhPsCVfHuDZl773NRz1aHDZmkoZ6?usp=drive_open</bibo:uri>
+        <dcterms:title>FINAL SUBMISSIONS - Google Drive</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

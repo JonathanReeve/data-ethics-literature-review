@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="QIXXMVFZ">
+        <res:resource rdf:resource="http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=UW&amp;afterPDS=true&amp;docId=CP71202132870001451"/>
+        <z:accessDate>2021-05-09 03:44:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=UW&amp;afterPDS=true&amp;docId=CP71202132870001451">
+        <dcterms:title>Ethics : a liberative approach</dcterms:title>
+        <bibo:uri>http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=UW&amp;afterPDS=true&amp;docId=CP71202132870001451</bibo:uri>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:shortTitle>Ethics</bibo:shortTitle>
+    </bibo:Webpage>
+</rdf:RDF>

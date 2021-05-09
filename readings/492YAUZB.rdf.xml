@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="492YAUZB">
+        <res:resource rdf:resource="https://medium.com/@noellamb"/>
+        <z:accessDate>2021-05-09 03:52:44</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/@noellamb">
+        <dcterms:title>Noel Lamb</dcterms:title>
+        <bibo:uri>https://medium.com/@noellamb</bibo:uri>
+        <dcterms:abstract>Read writing from Noel Lamb on Medium. ResearchOps. West coast lover living in Fort Worth. Every day, Noel Lamb and thousands of other voices read, write, and share important stories on Medium.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Medium</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

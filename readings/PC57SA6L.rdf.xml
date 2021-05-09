@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="PC57SA6L">
+        <res:resource rdf:resource="https://accounts.google.com/ServiceLogin?service=mail&amp;passive=true&amp;rm=false&amp;continue=https://mail.google.com/mail/?tab%253Dom&amp;scc=1&amp;ltmpl=default&amp;ltmplcache=2&amp;emr=1&amp;osid=1#"/>
+        <z:accessDate>2021-05-09 03:39:03</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://accounts.google.com/ServiceLogin?service=mail&amp;passive=true&amp;rm=false&amp;continue=https://mail.google.com/mail/?tab%253Dom&amp;scc=1&amp;ltmpl=default&amp;ltmplcache=2&amp;emr=1&amp;osid=1#">
+        <bibo:uri>https://accounts.google.com/ServiceLogin?service=mail&amp;passive=true&amp;rm=false&amp;continue=https://mail.google.com/mail/?tab%3Dom&amp;scc=1&amp;ltmpl=default&amp;ltmplcache=2&amp;emr=1&amp;osid=1#</bibo:uri>
+        <dcterms:title>Gmail</dcterms:title>
+        <dcterms:abstract>Gmail is email thatâ€™s intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

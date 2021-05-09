@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="G9ZYHUU3">
+        <res:resource rdf:resource="https://caseyfiesler.com/"/>
+        <z:accessDate>2021-05-09 03:44:14</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://caseyfiesler.com/">
+        <dcterms:title>Casey Fiesler</dcterms:title>
+        <bibo:uri>https://caseyfiesler.com/</bibo:uri>
+        <dcterms:abstract>#computing #ethics #law #feminism #geek</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Casey Fiesler</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

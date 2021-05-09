@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="PWW5IF8P">
+        <res:resource rdf:resource="https://docs.google.com/document/d/1uSfLYzD9UnveVdMeRMvp-At2NC1YFqGQfzBOfNT1J14/edit?usp=sharing&amp;usp=embed_facebook"/>
+        <z:accessDate>2021-05-09 03:43:35</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/document/d/1uSfLYzD9UnveVdMeRMvp-At2NC1YFqGQfzBOfNT1J14/edit?usp=sharing&amp;usp=embed_facebook">
+        <dcterms:title>Accessing your lab files from outside KINSC H110</dcterms:title>
+        <bibo:uri>https://docs.google.com/document/d/1uSfLYzD9UnveVdMeRMvp-At2NC1YFqGQfzBOfNT1J14/edit?usp=sharing&amp;usp=embed_facebook</bibo:uri>
+        <dcterms:abstract>ACCESSING YOUR PROJECTS FROM OUTSIDE THE QuaCS (H110/H204) CS LAB There are two ways to work on lab projects from outside the lab:  If you have a fast and reliable network connection, you can open up a window running on a lab computer but shown on your screen, using ssh with X11 support. This is...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

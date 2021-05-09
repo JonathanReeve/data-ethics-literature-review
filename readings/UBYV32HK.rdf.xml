@@ -1,0 +1,13 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="UBYV32HK">
+        <res:resource rdf:resource="http://privacylawtech.net/"/>
+        <z:accessDate>2021-05-09 03:48:43</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://privacylawtech.net/">
+       <bibo:uri>http://privacylawtech.net/</bibo:uri>
+    </bibo:Webpage>
+</rdf:RDF>

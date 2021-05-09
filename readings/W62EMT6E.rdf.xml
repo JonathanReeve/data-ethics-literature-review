@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="W62EMT6E">
+        <res:resource rdf:resource="https://www.cmu.edu/student-affairs/ocsi/index.html"/>
+        <z:accessDate>2021-05-09 03:52:21</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.cmu.edu/student-affairs/ocsi/index.html">
+        <dcterms:title>Office of Community Standards &amp; Integrity - Office of Community Standards &amp; Integrity - Division of Student Affairs - Carnegie Mellon University</dcterms:title>
+        <bibo:uri>https://www.cmu.edu/student-affairs/ocsi/index.html</bibo:uri>
+        <dcterms:abstract>Overview of undergraduate and graduate student polices and procedures related to academic integrity and student conduct</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n9458"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9458"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n9458">
+        <foaf:givenName>Carnegie Mellon</foaf:givenName>
+        <foaf:surname>University</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,81 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="Y3M7AG87">
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>explicit semantic analysis</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>wikipedia</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://doi.org/10.1145/1753326.1753370"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>hyperlingual</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>multilingual</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>semantic relatedness</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>knowledge diversity</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>language</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/1753326.1753370">
+        <bibo:shortTitle>The tower of Babel meets web 2.0</bibo:shortTitle>
+        <dcterms:title>The tower of Babel meets web 2.0: user-generated content and its applications in a multilingual context</dcterms:title>
+        <dcterms:abstract>This study explores language's fragmenting effect on user-generated content by examining the diversity of knowledge representations across 25 different Wikipedia language editions. This diversity is measured at two levels: the concepts that are included in each edition and the ways in which these concepts are described. We demonstrate that the diversity present is greater than has been presumed in the literature and has a significant influence on applications that use Wikipedia as a source of world knowledge. We close by explicating how knowledge diversity can be beneficially leveraged to create &quot;culturally-aware applications&quot; and &quot;hyperlingual applications&quot;.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/1753326.1753370</bibo:uri>
+        <bibo:doi>10.1145/1753326.1753370</bibo:doi>
+        <bibo:pages>291â€“300</bibo:pages>
+        <dcterms:creator rdf:nodeID="n7287"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n7287"/><rdf:li rdf:nodeID="n7289"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n7289"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Atlanta, Georgia, USA</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781605589299</bibo:isbn13>
+                <dcterms:date>April 10, 2010</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>CHI '10</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7287">
+       <foaf:givenName>Brent</foaf:givenName><foaf:surname>Hecht</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7289">
+       <foaf:givenName>Darren</foaf:givenName><foaf:surname>Gergle</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

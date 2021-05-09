@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="U5CNRW23">
+        <res:resource rdf:resource="https://www.instagram.com/mitocw/"/>
+        <z:accessDate>2021-05-09 03:35:37</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.instagram.com/mitocw/">
+        <dcterms:title>MIT OpenCourseWare is on Instagram â€¢ 134 posts on their profile</dcterms:title>
+        <bibo:uri>https://www.instagram.com/mitocw/</bibo:uri>
+        <dcterms:abstract>7,541 Followers, 106 Following, 134 Posts - See Instagram photos and videos from MIT OpenCourseWare (@mitocw)</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="7IDMA3R8">
+        <res:resource rdf:resource="https://medium.com/hci-design-at-uw/information-wars-a-window-into-the-alternative-media-ecosystem-a1347f32fd8f"/>
+        <z:accessDate>2021-05-09 03:40:31</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/hci-design-at-uw/information-wars-a-window-into-the-alternative-media-ecosystem-a1347f32fd8f">
+        <dcterms:title>Information Wars: A Window into the Alternative Media Ecosystem</dcterms:title>
+        <bibo:uri>https://medium.com/hci-design-at-uw/information-wars-a-window-into-the-alternative-media-ecosystem-a1347f32fd8f</bibo:uri>
+        <dcterms:abstract>Conspiracy Theories, Muddled Thinking, and Political Disinformation</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Information Wars</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n7337"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7337"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2017-03-31T04:39:07.775Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n7337">
+       <foaf:givenName>Kate</foaf:givenName><foaf:surname>Starbird</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="M2SAPRA8">
+        <res:resource rdf:resource="https://med-umich.academia.edu/BezaMerid"/>
+        <z:accessDate>2021-05-09 03:47:49</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://med-umich.academia.edu/BezaMerid">
+        <bibo:uri>https://med-umich.academia.edu/BezaMerid</bibo:uri>
+        <dcterms:title>Beza Merid | University of Michigan Medical School - Academia.edu</dcterms:title>
+        <dcterms:abstract>Academia.edu is a place to share and follow research.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

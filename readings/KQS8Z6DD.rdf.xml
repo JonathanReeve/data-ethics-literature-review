@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="KQS8Z6DD">
+        <res:resource rdf:resource="https://www.google.com/chrome/"/>
+        <z:accessDate>2021-05-09 03:39:08</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.google.com/chrome/">
+        <dcterms:title>Google Chrome - Download the Fast, Secure Browser from Google</dcterms:title>
+        <bibo:uri>https://www.google.com/chrome/</bibo:uri>
+        <dcterms:abstract>Get more done with the new Google Chrome. A more simple, secure, and faster web browser than ever, with Googleâ€™s smarts built-in. Download now.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

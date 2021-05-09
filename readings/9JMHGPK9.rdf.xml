@@ -1,0 +1,64 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="9JMHGPK9">
+        <res:resource rdf:resource="https://doi.org/10.1177/0162243915605575"/>
+        <z:repository>SAGE Journals</z:repository>
+        <z:accessDate>2021-05-09 03:54:17</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>privacy</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>big data</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>automatic decisions</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>discrimination</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>data protection</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>credit scoring</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1177/0162243915605575">
+        <dcterms:language>en</dcterms:language>
+        <dcterms:title>The Trouble with Algorithmic Decisions: An Analytic Road Map to Examine Efficiency and Fairness in Automated and Opaque Decision Making</dcterms:title>
+        <bibo:pages>118-132</bibo:pages>
+        <dcterms:abstract>We are currently witnessing a sharp rise in the use of algorithmic decision-making tools. In these instances, a new wave of policy concerns is set forth. This article strives to map out these issues, separating the wheat from the chaff. It aims to provide policy makers and scholars with a comprehensive framework for approaching these thorny issues in their various capacities. To achieve this objective, this article focuses its attention on a general analytical framework, which will be applied to a specific subset of the overall discussion. The analytical framework will reduce the discussion to two dimensions, every one of which addressing two central elements. These four factors call for a distinct discussion, which is at times absent in the existing literature. The two dimensions are (1) the specific and novel problems the process assumedly generates and (2) the specific attributes which exacerbate them. While the problems are articulated in a variety of ways, they most likely could be reduced to two broad categories: efficiency and fairness-based concerns. In the context of this discussion, such problems are usually linked to two salient attributes the algorithmic processes featureâ€”its opaque and automated nature.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1177/0162243915605575</bibo:uri>
+        <bibo:doi>10.1177/0162243915605575</bibo:doi>
+        <bibo:shortTitle>The Trouble with Algorithmic Decisions</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n9996"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9996"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>January 1, 2016</dcterms:date>
+                <bibo:volume>41</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Science, Technology, &amp; Human Values</dcterms:title>
+                        <bibo:shortTitle>Science, Technology, &amp; Human Values</bibo:shortTitle>
+                        <bibo:issn>0162-2439</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n9996">
+       <foaf:givenName>Tal</foaf:givenName><foaf:surname>Zarsky</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

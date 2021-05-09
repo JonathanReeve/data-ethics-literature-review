@@ -1,0 +1,72 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="KC8V4M7E">
+        <res:resource rdf:resource="https://doi.org/10.1145/1979742.1979606"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>crowdsourcing</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>wisdom of crowds</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>collective intelligence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>HCOMP</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>human computation</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/1979742.1979606">
+        <dcterms:title>Web workers unite! addressing challenges of online laborers</dcterms:title>
+        <bibo:pages>97â€“106</bibo:pages>
+        <dcterms:abstract>The ongoing rise of human computation as a means of solving computational problems has created an environment where human workers are often regarded as nameless, faceless computational resources. Some people have begun to think of online tasks as a &quot;remote person call&quot;. In this paper, we summarize ethical and practical labor issues surrounding online labor, and offer a set of guidelines for designing and using online labor in ways that support more positive relationships between workers and requesters, so that both can gain the most benefit from the interaction.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/1979742.1979606</bibo:uri>
+        <bibo:doi>10.1145/1979742.1979606</bibo:doi>
+        <dcterms:creator rdf:nodeID="n7441"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n7441"/><rdf:li rdf:nodeID="n7443"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n7443"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>CHI '11 Extended Abstracts on Human Factors in Computing Systems</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Vancouver, BC, Canada</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450302685</bibo:isbn13>
+                <dcterms:date>May 7, 2011</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>CHI EA '11</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7441">
+        <foaf:givenName>Benjamin B.</foaf:givenName>
+        <foaf:surname>Bederson</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7443">
+        <foaf:givenName>Alexander J.</foaf:givenName>
+        <foaf:surname>Quinn</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

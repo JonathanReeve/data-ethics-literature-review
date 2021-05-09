@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="KEDRVDUV">
+        <res:resource rdf:resource="//www.google.com/main/gender-equality-films/"/>
+        <z:accessDate>2021-05-09 03:45:44</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="//www.google.com/main/gender-equality-films/">
+        <dcterms:title>Using technology to address gender bias in film - Google</dcterms:title>
+        <bibo:uri>//www.google.com/main/gender-equality-films/</bibo:uri>
+        <dcterms:abstract>Machine learning helps identify gender in movies and reveals new information about gender inequality in highest grossing films and Oscar winning films.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

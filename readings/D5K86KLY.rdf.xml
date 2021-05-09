@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="D5K86KLY">
+        <res:resource rdf:resource="https://www.lib.berkeley.edu/research-support/cite-sources"/>
+        <z:accessDate>2021-05-09 03:41:31</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.lib.berkeley.edu/research-support/cite-sources">
+        <bibo:uri>https://www.lib.berkeley.edu/research-support/cite-sources</bibo:uri>
+        <dcterms:title>Cite sources | UC Berkeley Library</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

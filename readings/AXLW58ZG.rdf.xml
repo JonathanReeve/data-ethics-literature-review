@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="AXLW58ZG">
+        <res:resource rdf:resource="https://ischool.uw.edu/people/faculty/profile/batya"/>
+        <z:accessDate>2021-05-09 03:44:34</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://ischool.uw.edu/people/faculty/profile/batya">
+        <bibo:uri>https://ischool.uw.edu/people/faculty/profile/batya</bibo:uri>
+        <dcterms:title>iSchool Directory | Information School | University of Washington</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="8QKRVX38">
+        <res:resource rdf:resource="https://www.berkeley.edu/"/>
+        <z:accessDate>2021-05-09 03:42:37</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.berkeley.edu/">
+        <bibo:uri>https://www.berkeley.edu/</bibo:uri>
+        <dcterms:title>Home | University of California, Berkeley</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

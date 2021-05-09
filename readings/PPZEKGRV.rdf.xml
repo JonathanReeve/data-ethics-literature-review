@@ -1,0 +1,51 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="PPZEKGRV">
+        <res:resource rdf:resource="https://www.aclweb.org/anthology/P16-2096"/>
+        <z:repository>ACLWeb</z:repository>
+        <z:accessDate>2021-05-09 03:44:42</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.aclweb.org/anthology/P16-2096">
+        <dcterms:title>The Social Impact of Natural Language Processing</dcterms:title>
+        <bibo:uri>https://www.aclweb.org/anthology/P16-2096</bibo:uri>
+        <bibo:doi>10.18653/v1/P16-2096</bibo:doi>
+        <bibo:pages>591â€“598</bibo:pages>
+        <bibo:presentedAt>
+            <bibo:Conference>
+               <dcterms:title>ACL 2016</dcterms:title>
+            </bibo:Conference>
+        </bibo:presentedAt>
+        <dcterms:creator rdf:nodeID="n8369"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n8369"/><rdf:li rdf:nodeID="n8371"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n8371"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</dcterms:title>
+                <dcterms:date>2016-08</dcterms:date>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <address:localityName>Berlin, Germany</address:localityName>
+                        <foaf:name>Association for Computational Linguistics</foaf:name>
+                    </foaf:Organization>
+                </dcterms:publisher>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n8369">
+       <foaf:givenName>Dirk</foaf:givenName><foaf:surname>Hovy</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8371">
+        <foaf:givenName>Shannon L.</foaf:givenName>
+        <foaf:surname>Spruit</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

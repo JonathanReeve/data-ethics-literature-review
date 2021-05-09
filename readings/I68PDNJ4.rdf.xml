@@ -1,0 +1,27 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="I68PDNJ4">
+        <res:resource rdf:resource="https://www.csmonitor.com/World/Passcode/2016/0608/Why-you-should-think-twice-before-spilling-your-guts-to-a-chatbot"/>
+        <z:repository>Christian Science Monitor</z:repository>
+        <z:accessDate>2021-05-09 03:45:22</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.csmonitor.com/World/Passcode/2016/0608/Why-you-should-think-twice-before-spilling-your-guts-to-a-chatbot">
+        <bibo:uri>https://www.csmonitor.com/World/Passcode/2016/0608/Why-you-should-think-twice-before-spilling-your-guts-to-a-chatbot</bibo:uri>
+        <dcterms:title>Why you should think twice before spilling your guts to a chatbot</dcterms:title>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-06-08T13:24:00-04:00</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Magazine>
+                        <bibo:issn>0882-7729</bibo:issn>
+                        <dcterms:title>Christian Science Monitor</dcterms:title>
+                    </bibo:Magazine>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

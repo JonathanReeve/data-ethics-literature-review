@@ -1,0 +1,40 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:z="http://www.zotero.org/namespaces/export#">
+    <z:UserItem rdf:about="X359UNWM">
+        <res:resource>
+            <bibo:Book>
+                <dcterms:language>English</dcterms:language>
+                <dcterms:title>The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                       <foaf:name>W. W. Norton &amp; Company</foaf:name>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:edition>Reprint edition</bibo:edition>
+                <bibo:numPages>320</bibo:numPages>
+                <dcterms:date>January 20, 2014</dcterms:date>
+                <bibo:shortTitle>The Second Machine Age</bibo:shortTitle>
+                <dcterms:creator rdf:nodeID="n7464"/>
+                <bibo:authorList>
+                    <rdf:Seq>
+                       <rdf:li rdf:nodeID="n7464"/><rdf:li rdf:nodeID="n7466"/>
+                    </rdf:Seq>
+                </bibo:authorList>
+                <dcterms:creator rdf:nodeID="n7466"/>
+            </bibo:Book>
+        </res:resource>
+        <z:repository>Amazon</z:repository>
+    </z:UserItem>
+    <foaf:Person rdf:nodeID="n7464">
+        <foaf:givenName>Erik</foaf:givenName>
+        <foaf:surname>Brynjolfsson</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7466">
+       <foaf:givenName>Andrew</foaf:givenName><foaf:surname>McAfee</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="B7XEVW8V">
+        <res:resource rdf:resource="https://www.google.com/drive/"/>
+        <z:accessDate>2021-05-09 03:39:06</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.google.com/drive/">
+        <dcterms:title>Cloud Storage for Work and Home - Google Drive</dcterms:title>
+        <bibo:uri>https://www.google.com/drive/</bibo:uri>
+        <dcterms:abstract>Safely store and share your photos, videos, files and more in the cloud. Your first 15 GB of storage are free with a Google account.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

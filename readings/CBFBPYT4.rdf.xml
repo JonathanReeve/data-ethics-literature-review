@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="CBFBPYT4">
+        <res:resource rdf:resource="https://uxdesign.cc/provotypes-how-making-annoying-things-can-help-you-design-better-64f9a0a7e361"/>
+        <z:accessDate>2021-05-09 03:52:33</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://uxdesign.cc/provotypes-how-making-annoying-things-can-help-you-design-better-64f9a0a7e361">
+        <dcterms:title>Provotypes: how making annoying things can help you design better</dcterms:title>
+        <bibo:uri>https://uxdesign.cc/provotypes-how-making-annoying-things-can-help-you-design-better-64f9a0a7e361</bibo:uri>
+        <dcterms:abstract>Provotypes are an interesting — and extremely fun — way of making designs better by first making the most unusable or provocative versions…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Provotypes</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n9499"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9499"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2018-08-16T07:46:57.181Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n9499">
+       <foaf:givenName>Anna</foaf:givenName><foaf:surname>Haverinen</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

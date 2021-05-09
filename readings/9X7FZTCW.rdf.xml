@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="9X7FZTCW">
+        <res:resource rdf:resource="http://www.topbots.com/can-bots-manipulate-public-opinion/"/>
+        <z:accessDate>2021-05-09 03:45:27</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.topbots.com/can-bots-manipulate-public-opinion/">
+        <dcterms:title>Can Bots Manipulate Public Opinion?</dcterms:title>
+        <bibo:uri>http://www.topbots.com/can-bots-manipulate-public-opinion/</bibo:uri>
+        <dcterms:abstract>Crazy things happen when armies of chatbots execute algorithms designed to re-program your mind. Truth and reason lose their importance.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>TOPBOTS</dcterms:title>
+                <dcterms:date>2016-11-15T19:44:07+00:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

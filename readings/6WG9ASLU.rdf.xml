@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="6WG9ASLU">
+        <res:resource rdf:resource="http://www.michaeljquinn.net/computer-ethics.html"/>
+        <z:accessDate>2021-05-09 03:44:59</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.michaeljquinn.net/computer-ethics.html">
+        <dcterms:title>Computer Ethics</dcterms:title>
+        <bibo:uri>http://www.michaeljquinn.net/computer-ethics.html</bibo:uri>
+        <dcterms:abstract>Ethics for the Information Age is a introductory textbook in computer ethics that has been adopted by faculty members at hundreds of colleges and universities around the world. The book, now in its...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Michael J. Quinn, Ph.D.</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

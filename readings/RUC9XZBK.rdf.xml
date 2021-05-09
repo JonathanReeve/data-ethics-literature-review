@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="RUC9XZBK">
+        <res:resource rdf:resource="https://earth.google.com/web/"/>
+        <z:accessDate>2021-05-09 03:39:17</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://earth.google.com/web/">
+        <bibo:uri>https://earth.google.com/web/</bibo:uri>
+        <dcterms:title>Google Earth</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

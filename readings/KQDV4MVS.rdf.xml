@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="KQDV4MVS">
+        <res:resource rdf:resource="https://sites.ischool.berkeley.edu/jburrell/?cat=37815"/>
+        <z:accessDate>2021-05-09 03:43:17</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://sites.ischool.berkeley.edu/jburrell/?cat=37815">
+        <bibo:uri>https://sites.ischool.berkeley.edu/jburrell/?cat=37815</bibo:uri>
+        <dcterms:title>grants | Jenna Burrell</dcterms:title>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n8100"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n8100"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n8100">
+       <foaf:givenName>Jenna</foaf:givenName><foaf:surname>Burrell</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

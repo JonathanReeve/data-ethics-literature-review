@@ -1,0 +1,90 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="XAAMI3DH">
+        <res:resource rdf:resource="http://arxiv.org/abs/1706.02744"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-05-09 03:53:52</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Statistics - Machine Learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Computers and Society</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Machine Learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1706.02744">
+        <dcterms:creator rdf:nodeID="n9877"/>
+        <dcterms:title>Avoiding Discrimination through Causal Reasoning</dcterms:title>
+        <bibo:uri>http://arxiv.org/abs/1706.02744</bibo:uri>
+        <z:extra>arXiv: 1706.02744</z:extra>
+        <dcterms:creator rdf:nodeID="n9875"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n9875"/>
+                <rdf:li rdf:nodeID="n9877"/>
+                <rdf:li rdf:nodeID="n9878"/>
+                <rdf:li rdf:nodeID="n9879"/>
+                <rdf:li rdf:nodeID="n9880"/>
+                <rdf:li rdf:nodeID="n9881"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:abstract>Recent work on fairness in machine learning has focused on various statistical discrimination criteria and how they trade off. Most of these criteria are observational: They depend only on the joint distribution of predictor, protected attribute, features, and outcome. While convenient to work with, observational criteria have severe inherent limitations that prevent them from resolving matters of fairness conclusively. Going beyond observational criteria, we frame the problem of discrimination based on protected attributes in the language of causal reasoning. This viewpoint shifts attention from &quot;What is the right fairness criterion?&quot; to &quot;What do we want to assume about the causal data generating process?&quot; Through the lens of causality, we make several contributions. First, we crisply articulate why and when observational criteria fail, thus formalizing what was before a matter of opinion. Second, our approach exposes previously ignored subtleties and why they are fundamental to the problem. Finally, we put forward natural causal non-discrimination criteria and develop algorithms that satisfy them.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n9878"/>
+        <dcterms:creator rdf:nodeID="n9879"/>
+        <dcterms:creator rdf:nodeID="n9880"/>
+        <dcterms:creator rdf:nodeID="n9881"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2018-01-21</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>arXiv:1706.02744 [cs, stat]</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n9875">
+       <foaf:givenName>Niki</foaf:givenName><foaf:surname>Kilbertus</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9877">
+        <foaf:givenName>Mateo</foaf:givenName>
+        <foaf:surname>Rojas-Carulla</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9878">
+        <foaf:givenName>Giambattista</foaf:givenName>
+        <foaf:surname>Parascandolo</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9879">
+       <foaf:givenName>Moritz</foaf:givenName><foaf:surname>Hardt</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9880">
+        <foaf:givenName>Dominik</foaf:givenName>
+        <foaf:surname>Janzing</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9881">
+        <foaf:givenName>Bernhard</foaf:givenName>
+        <foaf:surname>SchÃ¶lkopf</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+            <bibo:Note>
+                <z:note>Comment: Advances in Neural Information Processing Systems 30, 2017 http://papers.nips.cc/paper/6668-avoiding-discrimination-through-causal-reasoning</z:note>
+            </bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

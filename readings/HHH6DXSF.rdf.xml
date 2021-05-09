@@ -1,0 +1,62 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="HHH6DXSF">
+        <res:resource rdf:resource="https://science.sciencemag.org/content/356/6334/183"/>
+        <dcterms:rights>Copyright © 2017, American Association for the Advancement of Science</dcterms:rights>
+        <z:repository>science.sciencemag.org</z:repository>
+        <z:accessDate>2021-05-09 03:40:20</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://science.sciencemag.org/content/356/6334/183">
+        <z:extra>PMID: 28408601</z:extra>
+        <dcterms:title>Semantics derived automatically from language corpora contain human-like biases</dcterms:title>
+        <dcterms:abstract>Machines learn what people know implicitly
+AlphaGo has demonstrated that a machine can learn how to do things that people spend many years of concentrated study learning, and it can rapidly learn how to do them better than any human can. Caliskan et al. now show that machines can learn word associations from written texts and that these associations mirror those learned by humans, as measured by the Implicit Association Test (IAT) (see the Perspective by Greenwald). Why does this matter? Because the IAT has predictive value in uncovering the association between concepts, such as pleasantness and flowers or unpleasantness and insects. It can also tease out attitudes and beliefs—for example, associations between female names and family or male names and career. Such biases may not be expressed explicitly, yet they can prove influential in behavior.
+Science, this issue p. 183; see also p. 133
+Machine learning is a means to derive artificial intelligence by discovering patterns in existing data. Here, we show that applying machine learning to ordinary human language results in human-like semantic biases. We replicated a spectrum of known biases, as measured by the Implicit Association Test, using a widely used, purely statistical machine-learning model trained on a standard corpus of text from the World Wide Web. Our results indicate that text corpora contain recoverable and accurate imprints of our historic biases, whether morally neutral as toward insects or flowers, problematic as toward race or gender, or even simply veridical, reflecting the status quo distribution of gender with respect to careers or first names. Our methods hold promise for identifying and addressing sources of bias in culture, including technology.
+Computers can learn which words go together more or less often and can thus mimic human performance on a test of implicit bias.
+Computers can learn which words go together more or less often and can thus mimic human performance on a test of implicit bias.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://science.sciencemag.org/content/356/6334/183</bibo:uri>
+        <bibo:pages>183-186</bibo:pages>
+        <bibo:doi>10.1126/science.aal4230</bibo:doi>
+        <dcterms:creator rdf:nodeID="n7305"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n7305"/>
+                <rdf:li rdf:nodeID="n7307"/>
+                <rdf:li rdf:nodeID="n7308"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n7307"/>
+        <dcterms:creator rdf:nodeID="n7308"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017/04/14</dcterms:date>
+                <bibo:volume>356</bibo:volume>
+                <bibo:issue>6334</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Science</dcterms:title>
+                        <bibo:issn>0036-8075, 1095-9203</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n7305">
+       <foaf:givenName>Aylin</foaf:givenName><foaf:surname>Caliskan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7307">
+        <foaf:givenName>Joanna J.</foaf:givenName>
+        <foaf:surname>Bryson</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7308">
+        <foaf:givenName>Arvind</foaf:givenName>
+        <foaf:surname>Narayanan</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

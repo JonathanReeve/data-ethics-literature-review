@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="BK6H6J43">
+        <res:resource rdf:resource="https://www.sydney.edu.au/medicine-health/schools/sydney-pharmacy-school.html"/>
+        <z:accessDate>2021-05-09 03:50:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.sydney.edu.au/medicine-health/schools/sydney-pharmacy-school.html">
+        <dcterms:title>The University of Sydney School of Pharmacy</dcterms:title>
+        <bibo:uri>https://www.sydney.edu.au/medicine-health/schools/sydney-pharmacy-school.html</bibo:uri>
+        <dcterms:abstract>We are Australia's first pharmacy school with an outstanding national and international reputation for pharmacy education and research and innovation in pharmaceutical science.</dcterms:abstract>
+        <dcterms:language>en-AU</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>The University of Sydney</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>
