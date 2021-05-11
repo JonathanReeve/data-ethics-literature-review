@@ -142,6 +142,15 @@ with import <nixpkgs> {};
 	    doCheck = false;
     };
 
+    docx2txt = pkgs.python38Packages.buildPythonPackage rec {
+	    pname = "docx2txt";
+	    version = "0.8";
+	    src = pkgs.python38Packages.fetchPypi {
+	      inherit version; inherit pname;
+	      sha256 = "1r9nj80ff8irf8vqg71pbds0gzz34kcmf2knwm3kjbgygj6xj1ic";
+	    };
+	    doCheck = false;
+    };
     customPython = pkgs.python38.buildEnv.override rec {
 	    extraLibs = with pkgs.python38Packages; [
 	      pkgs.chromedriver
@@ -176,6 +185,7 @@ with import <nixpkgs> {};
         urlextract
         filelock
         pytest
+        docx2txt
 	    ];
     };
     in 
