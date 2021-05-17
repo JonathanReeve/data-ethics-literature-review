@@ -1,0 +1,3530 @@
+@prefix ccso: <https://w3id.org/ccso/ccso/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikidata: <https://wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data-ethics.org/syllabi/0> a ccso:Course ;
+    ccso:code "STS 3284" ;
+    ccso:csName "Technology and Disability" ;
+    ccso:description <file:///C:/Users/alind/OneDrive/Documents/GitHub/data-ethics-literature-review/data/techanddisability.com> ;
+    ccso:hasInstructor "Ashley Shew" ;
+    ccso:hasSyllabus <file:///C:/Users/alind/OneDrive/Documents/GitHub/data-ethics-literature-review/data/techanddisability.com> ;
+    ccso:offeredBy <https://data-ethics.org/university/virginia-tech/department/science%2C-technology%2C-and-society> .
+
+<http://data-ethics.org/syllabi/1> a ccso:Course ;
+    ccso:csName "Data and Society" ;
+    ccso:hasInstructor "Christopher Miles",
+        "David Wild",
+        "Eden Medina" ;
+    ccso:offeredBy <https://data-ethics.org/university/indiana-university-bloomington/department/informatics> .
+
+<http://data-ethics.org/syllabi/10> a ccso:Course ;
+    ccso:code "COSC 4311" ;
+    ccso:csName "Computer Science and Society" ;
+    ccso:description <http://publications.uh.edu/preview_course_nopop.php?catoid=25&coid=108008&> ;
+    ccso:hasInstructor "Ernst Leiss" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-houston/department/computer-science> .
+
+<http://data-ethics.org/syllabi/100> a ccso:Course ;
+    ccso:code "ECS 188" ;
+    ccso:csName "Ethics in an Age of Technology" ;
+    ccso:hasInstructor "Varies; Phillip Rogaway",
+        "others." ;
+    ccso:hasSyllabus <http://www.cs.ucdavis.edu/blog/ecs-188-ethics-age-technology/> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-davis/department/computer-science> .
+
+<http://data-ethics.org/syllabi/101> a ccso:Course ;
+    ccso:code "CS 4732" ;
+    ccso:csName "Social and Ethical Issues in AI" ;
+    ccso:description <http://courses.cornell.edu/preview_course_nopop.php?catoid=28&coid=468192> ;
+    ccso:hasInstructor "Bart Selman",
+        "Joseph Halpern" ;
+    ccso:hasSyllabus <http://www.cs.cornell.edu/courses/cs4732/2017sp/> ;
+    ccso:offeredBy <https://data-ethics.org/university/cornell-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/102> a ccso:Course ;
+    ccso:code "COMS W 3995-001" ;
+    ccso:csName "AI Safety, Ethics, and Policy" ;
+    ccso:description <http://www.cs.columbia.edu/education/courses/course/COMSW3995-1/24855/> ;
+    ccso:hasInstructor "Chad DeChant" ;
+    ccso:hasSyllabus <http://www.cs.columbia.edu/~dechant/aisafety18/index.html> ;
+    ccso:offeredBy <https://data-ethics.org/university/columbia-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/103> a ccso:Course ;
+    ccso:code "CM50230 and CM30229" ;
+    ccso:csName "Intelligent Control and Cognitive Systems" ;
+    ccso:description <http://www.bath.ac.uk/catalogues/2018-2019/cm/CM50230.html> ;
+    ccso:hasInstructor "Joanna Bryson" ;
+    ccso:hasSyllabus <http://www.cs.bath.ac.uk/~jjb/here/CM50230/ai-course-sched.html> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-bath/department/computer-science> .
+
+<http://data-ethics.org/syllabi/104> a ccso:Course ;
+    ccso:code "W2901" ;
+    ccso:csName "Data: Past, Present, and Future" ;
+    ccso:description <http://scienceandsociety.columbia.edu/the-courses/hsam-2901-data-past-present-future-m-jones-c-wiggins/> ;
+    ccso:hasInstructor "Chris Wiggins",
+        "Matt Jones" ;
+    ccso:hasSyllabus <http://www.columbia.edu/itc/applied/wiggins/ppf.pdf>,
+        <https://github.com/data-ppf/data-ppf.github.io/wiki/Syllabus> ;
+    ccso:offeredBy <https://data-ethics.org/university/columbia-university/department/history-and-applied-mathematics> .
+
+<http://data-ethics.org/syllabi/105> a ccso:Course ;
+    ccso:code "COMM 154" ;
+    ccso:csName "The Politics of Algorithms" ;
+    ccso:description <https://ccsre.stanford.edu/courses/2017-2018-csre-154t> ;
+    ccso:hasInstructor "Angele Christin" ;
+    ccso:hasSyllabus <http://www.angelechristin.com/wp-content/uploads/2018/06/The-Politics-of-Algorithms_Syllabus2018.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/communication> .
+
+<http://data-ethics.org/syllabi/106> a ccso:Course ;
+    ccso:csName "Sociotechnical Perspectives of Information Systems" ;
+    ccso:description <https://slais.ubc.ca/libr559a/> ;
+    ccso:hasInstructor "Richard Arias-Hernandez" ;
+    ccso:hasSyllabus <http://wiki.ubc.ca/images/b/be/LIBR_559A_Summer2017.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-british-columbia/department/school-of-library%2C-archival%2C-and-information-studies> .
+
+<http://data-ethics.org/syllabi/107> a ccso:Course ;
+    ccso:code "CS 122" ;
+    ccso:csName "Artificial Intelligence - Philosophy, Ethics, and Impact" ;
+    ccso:hasInstructor "Jerry Kaplan" ;
+    ccso:hasSyllabus <http://web.stanford.edu/class/cs122/> ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/108> a ccso:Course ;
+    ccso:csName "Time/Machine" ;
+    ccso:hasInstructor "L. Felipe Perrone",
+        "Michael Drexler" ;
+    ccso:hasSyllabus <http://univ20010sp2017.courses.bucknell.edu/files/2016/07/syllabus.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/bucknell-university/department/computer-science/english> .
+
+<http://data-ethics.org/syllabi/109> a ccso:Course ;
+    ccso:code "INFO 679" ;
+    ccso:csName "Information Ethics" ;
+    ccso:description <http://catalog.drexel.edu/coursedescriptions/quarter/grad/info/> ;
+    ccso:hasInstructor "Tim Gorichanaz" ;
+    ccso:hasSyllabus <http://timgorichanaz.com/pdf/syllabus-info679.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/drexel-university/department/information-science-%26-systems> .
+
+<http://data-ethics.org/syllabi/11> a ccso:Course ;
+    ccso:csName "Data, Design & Social Justice" ;
+    ccso:description <https://courses.newschool.edu/courses/LMTH2103> ;
+    ccso:hasInstructor "Jennifer Wilson" ;
+    ccso:offeredBy <https://data-ethics.org/university/the-new-school/department/natural-sciences-%26-mathematics> .
+
+<http://data-ethics.org/syllabi/110> a ccso:Course ;
+    ccso:csName "Sociology of Virtual Communities and Social Media" ;
+    ccso:hasInstructor "Stuart Geiger" ;
+    ccso:hasSyllabus <http://stuartgeiger.com/teaching/summer14-sociology-social-media> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/sociology> .
+
+<http://data-ethics.org/syllabi/111> a ccso:Course ;
+    ccso:code "CMS.614" ;
+    ccso:csName "Network Cultures" ;
+    ccso:description <http://student.mit.edu/catalog/mCMSa.html#CMS.614> ;
+    ccso:hasInstructor "T.L. Taylor" ;
+    ccso:hasSyllabus <http://stellar.mit.edu/S/course/CMS/sp18/CMS.614/courseMaterial/topics/topic2/syllabus/CMS614_Syllabus_V2/CMS614_SyllabusV2.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/mit/department/cms/w> .
+
+<http://data-ethics.org/syllabi/112> a ccso:Course ;
+    ccso:csName "Foundations of Internet Policy" ;
+    ccso:hasInstructor "Daniel Weitzner",
+        "Harold Abelson",
+        "Michael Fisher" ;
+    ccso:hasSyllabus <http://stellar.mit.edu/S/course/CMS/sp18/CMS.614/courseMaterial/topics/topic2/syllabus/CMS614_Syllabus_V2/CMS614_SyllabusV2.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29/department/electrical-engineering-and-computer-science> .
+
+<http://data-ethics.org/syllabi/113> a ccso:Course ;
+    ccso:code "INFO 203" ;
+    ccso:csName "Social Issues of Information" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/203> ;
+    ccso:hasInstructor "Jenna Burrell" ;
+    ccso:hasSyllabus <http://people.ischool.berkeley.edu/~jenna/?page_id=779> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/114> a ccso:Course ;
+    ccso:code "SOC 412" ;
+    ccso:csName "Designing Field Experiments at Scale" ;
+    ccso:description <https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=014524&term=1184> ;
+    ccso:hasInstructor "Dr. J. Nathan Matias" ;
+    ccso:hasSyllabus <http://natematias.com/courses/soc412/syllabus.html> ;
+    ccso:offeredBy <https://data-ethics.org/university/nan/department/sociology%2C-center-for-it-policy> .
+
+<http://data-ethics.org/syllabi/115> a ccso:Course ;
+    ccso:csName "Media, Algorithms & Platform Publics" ;
+    ccso:hasInstructor "Mike Ananny & Colin Maclay" ;
+    ccso:hasSyllabus <http://mike.ananny.org/comm620-mapp.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-southern-california/department/annenberg-school-for-communication-and-journalism> .
+
+<http://data-ethics.org/syllabi/116> a ccso:Course ;
+    ccso:csName "Media Ethics Leadership" ;
+    ccso:hasInstructor "Jason Ohler" ;
+    ccso:hasSyllabus <http://mediaethics2017.weebly.com/> ;
+    ccso:offeredBy <https://data-ethics.org/university/fielding-graduate-university/department/media-psychology> .
+
+<http://data-ethics.org/syllabi/117> a ccso:Course ;
+    ccso:csName "The Social Life of Computing" ;
+    ccso:description <http://isf.ugis.berkeley.edu/fall-2017-isf-100j-social-life-computing> ;
+    ccso:hasInstructor "Shreeharsh Kelkar" ;
+    ccso:hasSyllabus <http://live-isf.pantheon.berkeley.edu/sites/default/files/Syllabus_ISF100J-Fall2017-v1-public.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/interdisciplinary-studies> .
+
+<http://data-ethics.org/syllabi/118> a ccso:Course ;
+    ccso:code "CS 195" ;
+    ccso:csName "Social Implications of Computer Technology" ;
+    ccso:description <https://www2.eecs.berkeley.edu/Courses/CS195/> ;
+    ccso:hasInstructor "Various" ;
+    ccso:hasSyllabus <http://inst.eecs.berkeley.edu/~cs195/fa17/> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/computer-science> .
+
+<http://data-ethics.org/syllabi/119> a ccso:Course ;
+    ccso:csName "Information Ethics" ;
+    ccso:hasInstructor "Various" ;
+    ccso:hasSyllabus <http://homes.soic.indiana.edu/nensmeng/files/i453-syllabus.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/indiana-university-bloomington/department/informatics> .
+
+<http://data-ethics.org/syllabi/12> a ccso:Course ;
+    ccso:code "HPSCGA47" ;
+    ccso:csName "Responsible science and innovation" ;
+    ccso:description <http://www.ucl.ac.uk/systems-engineering/pg-taught/tm/taught-modules/responsible> ;
+    ccso:hasInstructor "Dr. Melanie Smallman" ;
+    ccso:hasSyllabus <https://www.ucl.ac.uk/sts/module-information/hpsc/2016-17/hpscga47-syllabus-2016-17> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-college-london/department/science-and-technology-studies> .
+
+<http://data-ethics.org/syllabi/120> a ccso:Course ;
+    ccso:code "54063" ;
+    ccso:csName "Code as Literacy, Commodity, Infrastructure" ;
+    ccso:description <http://handbook.uts.edu.au/subjects/54063.html> ;
+    ccso:hasInstructor "James Meese" ;
+    ccso:hasSyllabus <http://handbook.uts.edu.au/subjects/details/54063.html> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-technology-sydney/department/communications> .
+
+<http://data-ethics.org/syllabi/121> a ccso:Course ;
+    ccso:csName "Algorithms for Public Policy" ;
+    ccso:hasInstructor "Jean-Marie John-Mathews",
+        "Simon Chignard" ;
+    ccso:hasSyllabus <http://formation.sciences-po.fr/enseignement/2019/k2sp/3015> ;
+    ccso:offeredBy <https://data-ethics.org/university/sciences-po%2C-paris/department/school-of-public-affairs> .
+
+<http://data-ethics.org/syllabi/122> a ccso:Course ;
+    ccso:csName "Social and Economic Challenges of Artificial Intelligence " ;
+    ccso:hasInstructor "Nicolas Miailhe" ;
+    ccso:hasSyllabus <http://formation.sciences-po.fr/enseignement/2017/KINT/7705> ;
+    ccso:offeredBy <https://data-ethics.org/university/sciences-po-paris/department/paris-school-of-international-affairs> .
+
+<http://data-ethics.org/syllabi/123> a ccso:Course ;
+    ccso:csName "Ethics in NLP" ;
+    ccso:hasInstructor "Emily Bender" ;
+    ccso:hasSyllabus <http://faculty.washington.edu/ebender/2017_575/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington/department/linguistics> .
+
+<http://data-ethics.org/syllabi/124> a ccso:Course ;
+    ccso:csName "Computer Ethics and Social Issues (CSCI 2150)" ;
+    ccso:description <https://catalog.ung.edu/content.php?filter%5B27%5D=CSCI&filter%5B29%5D=2150&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=28&expand=&navoid=930&search_database=Filter#> ;
+    ccso:hasInstructor "Jianjun Yang" ;
+    ccso:hasSyllabus <http://faculty.ung.edu/jyang/syllabi/CSCI%202150_GA_1491_Yang,%20Jianjun.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-north-georgia/department/computer-science-and-information-systems-%28mike-cottrell-college-of-business%29> .
+
+<http://data-ethics.org/syllabi/125> a ccso:Course ;
+    ccso:csName "Introduction to Law and Ethics in LST" ;
+    ccso:hasInstructor "Dominique Sprumont",
+        "Gaia Barazetti" ;
+    ccso:hasSyllabus <http://edu.epfl.ch/coursebook/en/introduction-to-law-and-ethics-in-lst-BIO-455> ;
+    ccso:offeredBy <https://data-ethics.org/university/swiss-federal-institute-of-technology/department/life-sciences-and-technology> .
+
+<http://data-ethics.org/syllabi/126> a ccso:Course ;
+    ccso:code "CMSC 119" ;
+    ccso:csName "–" ;
+    ccso:description <http://cs.bard.edu/descriptions/> ;
+    ccso:hasInstructor "Keith O'Hara" ;
+    ccso:hasSyllabus <http://drablab.org/keithohara/cmsc-119-2013f/> ;
+    ccso:offeredBy <https://data-ethics.org/university/bard-college/department/computer-science> .
+
+<http://data-ethics.org/syllabi/127> a ccso:Course ;
+    ccso:code "11-830" ;
+    ccso:csName "Computational Ethics for NLP" ;
+    ccso:description <https://lti.cs.cmu.edu/intranet/lti-course-listings#a11830> ;
+    ccso:hasInstructor "Alan Black",
+        "Yulia Tsvetkov" ;
+    ccso:hasSyllabus <http://demo.clab.cs.cmu.edu/ethical_nlp/> ;
+    ccso:offeredBy <https://data-ethics.org/university/carnegie-mellon-university/department/language-technologies-institute-%28lti%29> .
+
+<http://data-ethics.org/syllabi/128> a ccso:Course ;
+    ccso:code "CS115/MAS115" ;
+    ccso:csName "Computing for the Socio-Tecno Web" ;
+    ccso:description <http://wellesley.smartcatalogiq.com/en/2017-2018/Course-Catalog/2017-2018-Course-Catalog/Departments-and-Programs/Department-of-Computer-Science/Computer-Science-Courses/100/CS-115> ;
+    ccso:hasInstructor "Catherine Grevet Delcourt" ;
+    ccso:hasSyllabus <http://cs.wellesley.edu/~cs115/> ;
+    ccso:offeredBy <https://data-ethics.org/university/wellesley-college/department/computer-science> .
+
+<http://data-ethics.org/syllabi/129> a ccso:Course ;
+    ccso:csName "Topics in Introductory Programming: Social Inquiry" ;
+    ccso:hasInstructor "Sorelle Friedler" ;
+    ccso:hasSyllabus <http://cs.haverford.edu/courses/cmsc104/social_inquiry> ;
+    ccso:offeredBy <https://data-ethics.org/university/haverford-college/department/computer-science> .
+
+<http://data-ethics.org/syllabi/13> a ccso:Course ;
+    ccso:csName "An Introduction to Software Engineering Ethics" ;
+    ccso:description <https://www.scu.edu/ethics/focus-areas/more/engineering-ethics/an-introduction-to-software-engineering-ethics/> ;
+    ccso:hasInstructor "Shannon Vallor with Arvind Narayanan" ;
+    ccso:hasSyllabus <https://www.scu.edu/media/ethics-center/technology-ethics/Instructors.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/santa-clara-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/130> a ccso:Course ;
+    ccso:code "CS 1410" ;
+    ccso:csName "Artificial Intelligence" ;
+    ccso:hasInstructor "George Konidaris" ;
+    ccso:hasSyllabus <http://cs.brown.edu/courses/csci1410/> ;
+    ccso:offeredBy <https://data-ethics.org/university/brown-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/131> a ccso:Course ;
+    ccso:code "CS 230" ;
+    ccso:csName "Ethical Issues in Computing" ;
+    ccso:hasInstructor "Multiple professors" ;
+    ccso:hasSyllabus <http://coen.boisestate.edu/jconrad/cs230/> ;
+    ccso:offeredBy <https://data-ethics.org/university/boise-state-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/132> a ccso:Course ;
+    ccso:csName "Civic Media: Collaborative Design Studio" ;
+    ccso:hasInstructor "Sasha Costanza-Chock" ;
+    ccso:hasSyllabus <http://codesign.mit.edu> ;
+    ccso:offeredBy <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29/department/media-studies> .
+
+<http://data-ethics.org/syllabi/133> a ccso:Course ;
+    ccso:csName "Data, Politics, & Power: Critical and Ethical Perspectives on Big Data and Algorithms" ;
+    ccso:hasInstructor "Anna Lauren Hoffmann" ;
+    ccso:hasSyllabus <http://annaeveryday.com/new-graduate-seminar-on-data-politics-and-power/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington/department/the-information-school> .
+
+<http://data-ethics.org/syllabi/134> a ccso:Course ;
+    ccso:code "Massive Open Online Course" ;
+    ccso:csName "FinTech Ethics & Risks" ;
+    ccso:description <https://edx.org/course/fintech-ethics-and-risks> ;
+    ccso:hasInstructor "David Bishop",
+        "David Lee" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-hong-kong/department/faculty-of-business-%26-economics> .
+
+<http://data-ethics.org/syllabi/135> a ccso:Course ;
+    ccso:code "TE101" ;
+    ccso:csName "Technology Ethics" ;
+    ccso:hasInstructor "Paola Di Maio" ;
+    ccso:offeredBy <https://data-ethics.org/university/center-for-technology-ethics/department/cs> .
+
+<http://data-ethics.org/syllabi/136> a ccso:Course ;
+    ccso:code "MCS 575" ;
+    ccso:csName "Digital Media Ethics" ;
+    ccso:hasInstructor "Various" ;
+    ccso:offeredBy <https://data-ethics.org/university/depaul-university/department/college-of-communication> .
+
+<http://data-ethics.org/syllabi/137> a ccso:Course ;
+    ccso:csName "Digital Media Ethics" ;
+    ccso:hasInstructor "Multiple professors" ;
+    ccso:offeredBy <https://data-ethics.org/university/depaul-university/department/college-of-communication%2C-digital-communication-and-media-arts-ma-program> .
+
+<http://data-ethics.org/syllabi/138> a ccso:Course ;
+    ccso:code "MCS 575" ;
+    ccso:csName "Digital Media Ethics" ;
+    ccso:hasInstructor "Adriane Stoner",
+        "Samantha Close",
+        "multiple professors" ;
+    ccso:offeredBy <https://data-ethics.org/university/depaul-university/department/college-of-communication%2C-media-and-cinema-studies-concentration> .
+
+<http://data-ethics.org/syllabi/139> a ccso:Course ;
+    ccso:csName "Frontier AI & Robotics: Law & Ethics" ;
+    ccso:hasInstructor "Jeff Ward" ;
+    ccso:offeredBy <https://data-ethics.org/university/duke-law-school/department/nan> .
+
+<http://data-ethics.org/syllabi/14> a ccso:Course ;
+    ccso:csName "The Philosophy and Ethics of Information" ;
+    ccso:description <https://www.oii.ox.ac.uk/study/courses/the-philosophy-and-ethics-of-information/> ;
+    ccso:hasInstructor "Dr Luciano Floridi" ;
+    ccso:hasSyllabus <https://www.oii.ox.ac.uk/wp-content/uploads/2017/09/The-Philosophy-and-Ethics-of-Information_Reading-List_2017-18_Final.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/nan/department/oxford-internet-institute> .
+
+<http://data-ethics.org/syllabi/140> a ccso:Course ;
+    ccso:csName "Ethics of Big Data" ;
+    ccso:hasInstructor "Davi Ottenheimer" ;
+    ccso:offeredBy <https://data-ethics.org/university/fachhochschule-st.-p%C3%B6lten/department/informatik-%26-security> .
+
+<http://data-ethics.org/syllabi/141> a ccso:Course ;
+    ccso:csName "Ethics in the Digital Age" ;
+    ccso:description <https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201910&subj_code_in=BADM&crse_numb_in=746> ;
+    ccso:hasInstructor "Elizabeth Edenberg" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/mba> .
+
+<http://data-ethics.org/syllabi/142> a ccso:Course ;
+    ccso:code "CCTP 761" ;
+    ccso:csName "Global Internet Freedom" ;
+    ccso:description <https://gufaculty360.georgetown.edu/s/faculty-class-detail?courseid=CCTP-761-01&semester=Fall+2017> ;
+    ccso:hasInstructor "Leslie Harris" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/communication%2C-culture-%26-technology> .
+
+<http://data-ethics.org/syllabi/143> a ccso:Course ;
+    ccso:csName "Governing Automated Decisions" ;
+    ccso:hasInstructor "David Robinson" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/law> .
+
+<http://data-ethics.org/syllabi/144> a ccso:Course ;
+    ccso:code "CCTP 799" ;
+    ccso:csName "Governing Emerging Technologies" ;
+    ccso:description <https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201730&subj_code_in=CCTP&crse_numb_in=799> ;
+    ccso:hasInstructor "Mark MacCarthy",
+        "Meg Leta Jones" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/communication%2C-culture-%26-technology> .
+
+<http://data-ethics.org/syllabi/145> a ccso:Course ;
+    ccso:code "CCTP-658-01" ;
+    ccso:csName "ICT Law & Policy" ;
+    ccso:description <https://gufaculty360.georgetown.edu/s/course-catalog/a1o36000001MnPjAAK/cctp65801#/00336000014TkzDAAS/> ;
+    ccso:hasInstructor "Leslie Harris",
+        "Meg Leta Jones" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/communication%2C-culture-%26-technology> .
+
+<http://data-ethics.org/syllabi/146> a ccso:Course ;
+    ccso:code "CCTP 708" ;
+    ccso:csName "International/Comparative Privacy & Surveillance" ;
+    ccso:description <https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201730&subj_code_in=CCTP&crse_numb_in=708> ;
+    ccso:hasInstructor "Meg Leta Jones" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/communication%2C-culture-%26-technology> .
+
+<http://data-ethics.org/syllabi/147> a ccso:Course ;
+    ccso:code "CRBDM" ;
+    ccso:csName "Critical Big Data Management" ;
+    ccso:hasInstructor "Irina Shklovski" ;
+    ccso:offeredBy <https://data-ethics.org/university/it-university-of-copenhagen/department/business-it> .
+
+<http://data-ethics.org/syllabi/148> a ccso:Course ;
+    ccso:code "7AAVDM13" ;
+    ccso:csName "Information Ethics and Digital Rights" ;
+    ccso:description <https://www.kcl.ac.uk/artshums/depts/ddh/modules/level7/7aavdm13.aspx> ;
+    ccso:hasInstructor "John Lavagnino",
+        "Mark Hedges" ;
+    ccso:offeredBy <https://data-ethics.org/university/king%27s-college-london/department/digital-humanities> .
+
+<http://data-ethics.org/syllabi/149> a ccso:Course ;
+    ccso:code "APSTA-GE 2062" ;
+    ccso:csName "Ethics in Data Science " ;
+    ccso:hasInstructor "Laura Norén" ;
+    ccso:offeredBy <https://data-ethics.org/university/new-york-university/department/applied-statistics-> .
+
+<http://data-ethics.org/syllabi/15> a ccso:Course ;
+    ccso:code "E547" ;
+    ccso:csName "Robotics Law and Policy" ;
+    ccso:description <https://www.law.washington.edu/coursecatalog/course.aspx?ID=E547&YR=2017> ;
+    ccso:hasInstructor "Ryan Calo" ;
+    ccso:hasSyllabus <https://www.law.washington.edu/coursecatalog/syllabi/2017-spring_calory_e547_robotics_law_and_policy.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington/department/school-of-law> .
+
+<http://data-ethics.org/syllabi/150> a ccso:Course ;
+    ccso:csName "Information Priavcy Law" ;
+    ccso:hasInstructor "Woodrow Hartzog" ;
+    ccso:offeredBy <https://data-ethics.org/university/northeastern-university/department/school-of-law> .
+
+<http://data-ethics.org/syllabi/151> a ccso:Course ;
+    ccso:csName "Information Security Law and Policy" ;
+    ccso:hasInstructor "Andrea Matwyshyn" ;
+    ccso:offeredBy <https://data-ethics.org/university/northeastern-university/department/law> .
+
+<http://data-ethics.org/syllabi/152> a ccso:Course ;
+    ccso:csName "Internet Law and Policy" ;
+    ccso:hasInstructor "Andrea Matwyshyn" ;
+    ccso:offeredBy <https://data-ethics.org/university/northeastern-university/department/law> .
+
+<http://data-ethics.org/syllabi/153> a ccso:Course ;
+    ccso:csName "Human-Computer Interaction" ;
+    ccso:hasInstructor "Jordan Eschler" ;
+    ccso:offeredBy <https://data-ethics.org/university/northwestern-university/department/school-of-communication> .
+
+<http://data-ethics.org/syllabi/154> a ccso:Course ;
+    ccso:csName "Fairness in Machine Learning" ;
+    ccso:hasInstructor "Arvind Narayanan" ;
+    ccso:offeredBy <https://data-ethics.org/university/princeton-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/155> a ccso:Course ;
+    ccso:code "CCTP 701" ;
+    ccso:csName "https://learn.responsibly.ai/law-society/" ;
+    ccso:description <https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201730&subj_code_in=CCTP&crse_numb_in=701> ;
+    ccso:hasInstructor "Mark MacCarthy" ;
+    ccso:offeredBy <https://data-ethics.org/university/r/department/communication%2C-culture-%26-technology> .
+
+<http://data-ethics.org/syllabi/156> a ccso:Course ;
+    ccso:csName "Ethics and Policy for Artificial Intelligence" ;
+    ccso:hasInstructor "Jim Hendler" ;
+    ccso:offeredBy <https://data-ethics.org/university/rensselaer-polytechnic-inst/department/computer-science> .
+
+<http://data-ethics.org/syllabi/157> a ccso:Course ;
+    ccso:csName "Privacy in the Age of Emerging Technologies" ;
+    ccso:hasInstructor "Michal (Michele) Rapoport" ;
+    ccso:offeredBy <https://data-ethics.org/university/tel-aviv-university/department/the-cohn-institute-for-the-history-and-philosophy-of-science-and-ideas> .
+
+<http://data-ethics.org/syllabi/158> a ccso:Course ;
+    ccso:csName "Ethics for AI, Robotics, and Human-Robot Interaction" ;
+    ccso:hasInstructor "Matthias Scheutz",
+        "Thomas Arnold" ;
+    ccso:offeredBy <https://data-ethics.org/university/tufts-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/159> a ccso:Course ;
+    ccso:code "W231" ;
+    ccso:csName "Behind the Data: Humans and Values" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/datasci/231> ;
+    ccso:hasInstructor "Anna Lauren Hoffmann",
+        "Deirdre Mulligan",
+        "Morgan G. Ames",
+        "Nathan Good" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/16> a ccso:Course ;
+    ccso:code "CC5611" ;
+    ccso:csName "Ethics for CS students" ;
+    ccso:hasInstructor "Javier Bustos-Jiménez" ;
+    ccso:hasSyllabus <https://www.dcc.uchile.cl/sites/default/files/CC5611%20%C3%89tica%20para%20Ingenieros%20en%20Computaci%C3%B3n%202014-2%20%28CFIE%29_1.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/universidad-de-chile/department/computer-science-department> .
+
+<http://data-ethics.org/syllabi/160> a ccso:Course ;
+    ccso:csName "Behind the Data: Humans and Values" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/datasci/231> ;
+    ccso:hasInstructor "Deirdre Mulligan",
+        "Morgan Ames",
+        "Nathan Good",
+        "others" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/161> a ccso:Course ;
+    ccso:csName "Big Data, Policy, and Ethics" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/190/bdpe> ;
+    ccso:hasInstructor "Various" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/162> a ccso:Course ;
+    ccso:csName "Deconstructing Data Science" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/290/dds> ;
+    ccso:hasInstructor "David Bamman" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/163> a ccso:Course ;
+    ccso:csName "Information Law and Policy" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/205> ;
+    ccso:hasInstructor "Deirdre Mulligan" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/164> a ccso:Course ;
+    ccso:csName "Social and Organizational Issues of Information" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/203> ;
+    ccso:hasInstructor "Anne Jonas",
+        "Coye Cheshire",
+        "Jenna Burrell",
+        "Morgan Ames" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/165> a ccso:Course ;
+    ccso:code "Info 239" ;
+    ccso:csName "Technology and Delegation" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/239> ;
+    ccso:hasInstructor "Deirdre Mulligan" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/166> a ccso:Course ;
+    ccso:csName "Open Source Investigations" ;
+    ccso:hasInstructor "Alexa Koenig" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley-/department/law> .
+
+<http://data-ethics.org/syllabi/167> a ccso:Course ;
+    ccso:code "HPSCGA47" ;
+    ccso:csName "Responsible science and innovation" ;
+    ccso:description <http://www.ucl.ac.uk/systems-engineering/pg-taught/tm/taught-modules/responsible> ;
+    ccso:hasInstructor "Jack Stilgoe" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-college-london/department/science-and-technology-studies> .
+
+<http://data-ethics.org/syllabi/168> a ccso:Course ;
+    ccso:csName "Information Policy" ;
+    ccso:hasInstructor "Lisa Nathan" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-british-columbia/department/ischool> .
+
+<http://data-ethics.org/syllabi/169> a ccso:Course ;
+    ccso:csName "Information Practice and Protocol in Support of Indigenous Initaitives" ;
+    ccso:hasInstructor "Lisa Nathan" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-british-columbia/department/ischool> .
+
+<http://data-ethics.org/syllabi/17> a ccso:Course ;
+    ccso:code "CS 349" ;
+    ccso:csName "Contemporary Issues in Computer Science" ;
+    ccso:description <https://www.cs.utexas.edu/courses/349-contemporary-issues-computer-science> ;
+    ccso:hasInstructor "various" ;
+    ccso:hasSyllabus <https://www.cs.utexas.edu/users/ear/cs349/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-texas-at-austin/department/computer-science> .
+
+<http://data-ethics.org/syllabi/170> a ccso:Course ;
+    ccso:code "CS 590E" ;
+    ccso:csName "Ethical Considerations in Computing" ;
+    ccso:hasInstructor "Michelle Trim" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-massachusetts-amherst/department/college-of-computer-and-information-sciences> .
+
+<http://data-ethics.org/syllabi/171> a ccso:Course ;
+    ccso:code "DS 64305" ;
+    ccso:csName "Ethics & Policy in Data Science" ;
+    ccso:hasInstructor "Scott Nestler" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-notre-dame/department/applied-%26-computational-mathematics-%26-statistics> .
+
+<http://data-ethics.org/syllabi/172> a ccso:Course ;
+    ccso:code "MSBA 70600" ;
+    ccso:csName "Ethics in Business Analytics" ;
+    ccso:hasInstructor "Scott Nestler" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-notre-dame/department/it%2C-analytics%2C-%26-operations> .
+
+<http://data-ethics.org/syllabi/173> a ccso:Course ;
+    ccso:code "ITAO 70330" ;
+    ccso:csName "Ethics in Business Analytics" ;
+    ccso:hasInstructor "Scott Nestler" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-notre-dame/department/it%2C-analytics%2C-%26-operations> .
+
+<http://data-ethics.org/syllabi/174> a ccso:Course ;
+    ccso:code "CSI 5195" ;
+    ccso:csName "Ethics for Artificial Intelligence" ;
+    ccso:hasInstructor "Jason Millar" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-ottawa/department/school-of-electrical-engineering-and-computer-science> .
+
+<http://data-ethics.org/syllabi/175> a ccso:Course ;
+    ccso:csName "Democratizing Data: Analytics for Social Change" ;
+    ccso:hasInstructor "Ezekiel Dixon-Román " ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-pennsylvania-/department/school-of-social-policy-%26-practice> .
+
+<http://data-ethics.org/syllabi/176> a ccso:Course ;
+    ccso:csName "Ethics in Games" ;
+    ccso:hasInstructor "Jose Zagal" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-utah/department/entertainment-arts-%26-engineering> .
+
+<http://data-ethics.org/syllabi/177> a ccso:Course ;
+    ccso:csName "Introduction to Geospatial Technologies" ;
+    ccso:hasInstructor "Jim Thatcher" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington-tacoma/department/urban-studies-%28gis-is-housed-here%29> .
+
+<http://data-ethics.org/syllabi/178> a ccso:Course ;
+    ccso:code "LIS 661" ;
+    ccso:csName "Information Ethics and Policy" ;
+    ccso:description <http://guide.wisc.edu/courses/l_i_s/> ;
+    ccso:hasInstructor "Alan Rubel" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-wisconsin---madison/department/information-school> .
+
+<http://data-ethics.org/syllabi/179> a ccso:Course ;
+    ccso:code "INFO 522" ;
+    ccso:csName "Information Policy Concepts, Issues and Processes" ;
+    ccso:description <https://www.victoria.ac.nz/courses/info/522/2018/offering?crn=27130> ;
+    ccso:hasInstructor "Brenda Chawner" ;
+    ccso:offeredBy <https://data-ethics.org/university/victoria-university-of-wellington/department/school-of-information-management> .
+
+<http://data-ethics.org/syllabi/18> a ccso:Course ;
+    ccso:code "CS 103F" ;
+    ccso:csName "Ethical Foundations of Computer Science" ;
+    ccso:hasInstructor "Alison Norman - Sarah Abraham" ;
+    ccso:hasSyllabus <https://www.cs.utexas.edu/~ans/classes/cs109/syllabus.html> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-texas-at-austin/department/computer-science> .
+
+<http://data-ethics.org/syllabi/180> a ccso:Course ;
+    ccso:code "MMIM 571" ;
+    ccso:csName "Legal and Ethical Issues in Information Management" ;
+    ccso:description <https://www.victoria.ac.nz/courses/mmim/571/2018/offering?crn=9650> ;
+    ccso:hasInstructor "Anne Goulding",
+        "David Johnstone" ;
+    ccso:offeredBy <https://data-ethics.org/university/victoria-university-of-wellington/department/school-of-information-management> .
+
+<http://data-ethics.org/syllabi/181> a ccso:Course ;
+    ccso:code "STS 5306" ;
+    ccso:csName "Main Themes in Philosophy of Science and Technology" ;
+    ccso:hasInstructor "Ashley Shew or Jim Collier" ;
+    ccso:offeredBy <https://data-ethics.org/university/virginia-tech/department/science%2C-technology%2C-and-society> .
+
+<http://data-ethics.org/syllabi/182> a ccso:Course ;
+    ccso:csName "Beyond the Code: Cybersecurity in Context" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/cyber/200> ;
+    ccso:hasInstructor "Chris Jay Hoofnagle",
+        "others" ;
+    ccso:offeredBy <https://data-ethics.org/university/nan/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/183> a ccso:Course ;
+    ccso:csName "Information and Delegation" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/239> ;
+    ccso:hasInstructor "Deirdre Mulligan" ;
+    ccso:offeredBy <https://data-ethics.org/university/nan/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/184> a ccso:Course ;
+    ccso:code " " ;
+    ccso:csName "Advanced HCI: Ubiquituous Computing" ;
+    ccso:description <https://www.uni-weimar.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=41877&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung> ;
+    ccso:hasInstructor "Eva Hornecker" ;
+    ccso:offeredBy <https://data-ethics.org/university/bauhaus-universit%C3%A4t-weimar%2C-germany/department/computing> .
+
+<http://data-ethics.org/syllabi/185> a ccso:Course ;
+    ccso:csName "Pubic Health Research & Tech Ethics" ;
+    ccso:hasInstructor "Camille Nebeker" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-san-diego/department/family-medicine-%26-public-health> .
+
+<http://data-ethics.org/syllabi/186> a ccso:Course ;
+    ccso:csName "Ethical Foundations to Design and Manage Information Systems" ;
+    ccso:description <http://act4d.iitd.ernet.in/act4d/index.php?option=com_content&view=article&id=37&Itemid=45> ;
+    ccso:hasInstructor "Aaditeshwar Seth" ;
+    ccso:offeredBy <https://data-ethics.org/university/indian-institute-of-technology-delhi/department/department-of-computer-science%2C-school-of-information-technology> .
+
+<http://data-ethics.org/syllabi/187> a ccso:Course ;
+    ccso:csName "Information Ethics" ;
+    ccso:hasInstructor "Amelia Gibson",
+        "Maggie Melo" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-north-carolina-at-chapel-hill/department/school-of-information-and-library-science> .
+
+<http://data-ethics.org/syllabi/188> a ccso:Course ;
+    ccso:code "520175" ;
+    ccso:csName "Language Technology and Big Data" ;
+    ccso:description <https://studentservices.uzh.ch/uzh/anonym/vvz/index.html?sap-language=DE&sap-ui-language=DE#/details/2016/003/E/50805338> ;
+    ccso:hasInstructor "Jochen Leidner" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-zurich/department/institute-of-computational-linguistics> .
+
+<http://data-ethics.org/syllabi/189> a ccso:Course ;
+    ccso:csName "Introduction to Data Ethics" ;
+    ccso:description <https://github.com/mc-unimi/Intro-Data-Ethics> ;
+    ccso:hasInstructor "Marco Cremonini" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-milan/department/computer-science> .
+
+<http://data-ethics.org/syllabi/19> a ccso:Course ;
+    ccso:code "WCOMS3410-1" ;
+    ccso:csName "Computers and Society " ;
+    ccso:description <http://www.cs.columbia.edu/education/courses/course/COMSW3410-1/24806/> ;
+    ccso:hasInstructor "Steven M. Bellovin" ;
+    ccso:hasSyllabus <https://www.cs.columbia.edu/~smb/classes/s18/> ;
+    ccso:offeredBy <https://data-ethics.org/university/columbia-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/190> a ccso:Course ;
+    ccso:code "HSC1" ;
+    ccso:csName "Social Environments and Human Values: Design and Metrics" ;
+    ccso:description <https://medium.com/what-to-build/designing-for-meaningful-social-space-an-online-class-dad37439797f> ;
+    ccso:hasInstructor "Joe Edelman" ;
+    ccso:offeredBy <https://data-ethics.org/university/professional-development-at-facebook%2C-google%2C-etc/department/nan> .
+
+<http://data-ethics.org/syllabi/191> a ccso:Course ;
+    ccso:csName "Philosophy of Technology" ;
+    ccso:hasInstructor "Evan Selinger" ;
+    ccso:offeredBy <https://data-ethics.org/university/rochester-institute-of-technology/department/philosophy> .
+
+<http://data-ethics.org/syllabi/192> a ccso:Course ;
+    ccso:code "CSC 379" ;
+    ccso:csName "Ethics in Computing" ;
+    ccso:description <https://ethics.csc.ncsu.edu/> ;
+    ccso:hasInstructor "Ed Gehringer" ;
+    ccso:offeredBy <https://data-ethics.org/university/north-carolina-state-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/193> a ccso:Course ;
+    ccso:code "PHIL 323" ;
+    ccso:csName "Ethics, Science, and Technology" ;
+    ccso:description <http://catalog.calpoly.edu/coursesaz/phil/> ;
+    ccso:hasInstructor "Patrick Lin",
+        "Ryan Jenkins",
+        "Zach Rentz" ;
+    ccso:offeredBy <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo/department/philosophy-/-computer-science> .
+
+<http://data-ethics.org/syllabi/194> a ccso:Course ;
+    ccso:code "PHIL 327" ;
+    ccso:csName "Robot Ethics" ;
+    ccso:description <http://catalog.calpoly.edu/coursesaz/phil/> ;
+    ccso:hasInstructor "Keith Abney" ;
+    ccso:offeredBy <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo/department/philosophy> .
+
+<http://data-ethics.org/syllabi/195> a ccso:Course ;
+    ccso:code "PHIL 328" ;
+    ccso:csName "Technologies and the Ethics of Warfare" ;
+    ccso:description <http://catalog.calpoly.edu/coursesaz/phil/> ;
+    ccso:hasInstructor "Ryan Jenkins" ;
+    ccso:offeredBy <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo/department/philosophy> .
+
+<http://data-ethics.org/syllabi/196> a ccso:Course ;
+    ccso:code "80-214" ;
+    ccso:csName "Computing, AI, and Philosophy" ;
+    ccso:description <http://coursecatalog.web.cmu.edu/dietrichcollegeofhumanitiesandsocialsciences/departmentofphilosophy/courses/> ;
+    ccso:hasInstructor "Mate Szabo" ;
+    ccso:offeredBy <https://data-ethics.org/university/carnegie-mellon-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/197> a ccso:Course ;
+    ccso:code "INFO 1200" ;
+    ccso:csName "Information Ethics, Law, & Policy" ;
+    ccso:description <http://courses.cornell.edu/preview_course_nopop.php?catoid=28&coid=446626> ;
+    ccso:hasInstructor "Karen Levy",
+        "Steve Jackson" ;
+    ccso:offeredBy <https://data-ethics.org/university/cornell-university/department/information-science> .
+
+<http://data-ethics.org/syllabi/198> a ccso:Course ;
+    ccso:csName "Philosophy and Computers" ;
+    ccso:description <http://dartmouth.smartcatalogiq.com/en/current/orc/Departments-Programs-Undergraduate/Philosophy/PHIL-Philosophy/PHIL-26> ;
+    ccso:hasInstructor "James Moor" ;
+    ccso:offeredBy <https://data-ethics.org/university/dartmouth-college/department/philosophy> .
+
+<http://data-ethics.org/syllabi/199> a ccso:Course ;
+    ccso:csName "Big Data and its Politics" ;
+    ccso:hasInstructor "Rajesh Veeraraghavan" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/science%2C-technology-and-international-afffairs> .
+
+<http://data-ethics.org/syllabi/2> a ccso:Course ;
+    ccso:csName "Ethics and Cybertechnology" ;
+    ccso:hasInstructor "Glen Miller" ;
+    ccso:offeredBy <https://data-ethics.org/university/texas-a%26m-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/20> a ccso:Course ;
+    ccso:csName "Economics, Law and Ethics" ;
+    ccso:description <https://www.cl.cam.ac.uk/teaching/1718/EconLaw/> ;
+    ccso:hasInstructor "Ross Anderson" ;
+    ccso:hasSyllabus <https://www.cl.cam.ac.uk/teaching/1718/EconLaw/econlaw2018.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-cambridge/department/department-of-computer-science-and-technology> .
+
+<http://data-ethics.org/syllabi/200> a ccso:Course ;
+    ccso:code "PHIL 108" ;
+    ccso:csName "Data Ethics" ;
+    ccso:description <https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201910&subj_code_in=PHIL&crse_numb_in=108> ;
+    ccso:hasInstructor "Elizabeth Edenberg",
+        "Maggie Little" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/201> a ccso:Course ;
+    ccso:code "PHIL 110" ;
+    ccso:csName "Social Media & Democracy" ;
+    ccso:description <https://myaccess.georgetown.edu/pls/bninbp/bwckctlg.p_disp_course_detail?cat_term_in=201730&subj_code_in=PHIL&crse_numb_in=110> ;
+    ccso:hasInstructor "Elizabeth Edenberg",
+        "Maggie Little" ;
+    ccso:offeredBy <https://data-ethics.org/university/georgetown-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/202> a ccso:Course ;
+    ccso:csName "Ethics in a Digital World" ;
+    ccso:hasInstructor "Vance Ricks" ;
+    ccso:offeredBy <https://data-ethics.org/university/guilford-college/department/philosophy> .
+
+<http://data-ethics.org/syllabi/203> a ccso:Course ;
+    ccso:code "CS 108" ;
+    ccso:csName "Intelligent Systems: Design and Ethical Challenges" ;
+    ccso:hasInstructor "Barbara Grosz" ;
+    ccso:offeredBy <https://data-ethics.org/university/harvard-college/department/computer-science> .
+
+<http://data-ethics.org/syllabi/204> a ccso:Course ;
+    ccso:code "CSC 163" ;
+    ccso:csName "Computing, Ethics, and Society" ;
+    ccso:description <http://bulletin.hofstra.edu/preview_course.php?catoid=91&coid=277866> ;
+    ccso:hasInstructor "Dr. Edward Currie" ;
+    ccso:offeredBy <https://data-ethics.org/university/hofstra-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/205> a ccso:Course ;
+    ccso:csName "Introduction to Social Informatics" ;
+    ccso:hasInstructor "Various" ;
+    ccso:offeredBy <https://data-ethics.org/university/indiana-university-bloomington/department/informatics> .
+
+<http://data-ethics.org/syllabi/206> a ccso:Course ;
+    ccso:code "COMP 4910" ;
+    ccso:csName "Practice and Professional Ethics" ;
+    ccso:description <http://www.arecibo.inter.edu/wp-content/uploads/catalogos/gencat.pdf> ;
+    ccso:hasInstructor "Raquel Lugo Vecchini" ;
+    ccso:offeredBy <https://data-ethics.org/university/interamerican-university-of-puerto-rico/department/science-and-technology> .
+
+<http://data-ethics.org/syllabi/207> a ccso:Course ;
+    ccso:code "DSRBS" ;
+    ccso:csName "Data Science in Research, Business and Society" ;
+    ccso:description <https://en.itu.dk/~/media/dk/uddannelser/bacheloruddannelser/data-science/curriculum-for-bachelor-in-data-science_gb_2017_08_underskrevet-pdf.pdf?la=en> ;
+    ccso:hasInstructor "Irina Shklovski" ;
+    ccso:offeredBy <https://data-ethics.org/university/it-university-of-copenhagen/department/computer-science> .
+
+<http://data-ethics.org/syllabi/208> a ccso:Course ;
+    ccso:code "BIOE 131" ;
+    ccso:csName "Ethics in Bioengineering" ;
+    ccso:hasInstructor "Dave Magnus",
+        "Russ Altman" ;
+    ccso:offeredBy <https://data-ethics.org/university/it-university-of-copenhagen/department/bioengineering> .
+
+<http://data-ethics.org/syllabi/209> a ccso:Course ;
+    ccso:code "MDIA 316" ;
+    ccso:csName "Ethics and Games" ;
+    ccso:hasInstructor "Karen Schrier" ;
+    ccso:offeredBy <https://data-ethics.org/university/marist-college/department/film%2C-tv%2C-games-%26-interactive-media> .
+
+<http://data-ethics.org/syllabi/21> a ccso:Course ;
+    ccso:code "CS 4001" ;
+    ccso:csName "Computing, Society, & Professionalism" ;
+    ccso:hasInstructor "Various" ;
+    ccso:hasSyllabus <https://www.cc.gatech.edu/~asb/teaching/4001/fall2017/> ;
+    ccso:offeredBy <https://data-ethics.org/university/georgia-institute-of-technology/department/college-of-computing> .
+
+<http://data-ethics.org/syllabi/210> a ccso:Course ;
+    ccso:csName "Ethics for Engineers" ;
+    ccso:description <https://stellar.mit.edu/S/course/10/fa17/10.01/index.html> ;
+    ccso:hasInstructor "Bernhardt L Trout" ;
+    ccso:offeredBy <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29/department/civil-engineering%2C-cross-listed-among-several-other-departments> .
+
+<http://data-ethics.org/syllabi/211> a ccso:Course ;
+    ccso:csName "Ethical and Social Aspects of Computing" ;
+    ccso:hasInstructor "Leo Ureel",
+        "Linda Ott" ;
+    ccso:offeredBy <https://data-ethics.org/university/michigan-technological-university/department/department-of-computer-science> .
+
+<http://data-ethics.org/syllabi/212> a ccso:Course ;
+    ccso:code "CS 201W" ;
+    ccso:csName "Artificial Intelligence & Science Fiction" ;
+    ccso:hasInstructor "Rebecca Bates" ;
+    ccso:offeredBy <https://data-ethics.org/university/minnesota-state-university%2C-mankato/department/integrated-engineering-%28computer-science%29> .
+
+<http://data-ethics.org/syllabi/213> a ccso:Course ;
+    ccso:csName "Social and Ethical Issues in Computer Science" ;
+    ccso:description <http://catalog.montana.edu/coursedescriptions/csci/> ;
+    ccso:hasInstructor "Laura Stanley" ;
+    ccso:offeredBy <https://data-ethics.org/university/montana-state-university-/department/school-of-computing> .
+
+<http://data-ethics.org/syllabi/214> a ccso:Course ;
+    ccso:csName "The Law, Policy, and Ethics of Data and Digital Technologies" ;
+    ccso:hasInstructor "Woodrow Hartzog" ;
+    ccso:offeredBy <https://data-ethics.org/university/northeastern-university/department/college-of-computer-and-information-science> .
+
+<http://data-ethics.org/syllabi/215> a ccso:Course ;
+    ccso:csName "Biomedical Ethics" ;
+    ccso:hasInstructor "Yvette Pearson" ;
+    ccso:offeredBy <https://data-ethics.org/university/old-dominion-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/216> a ccso:Course ;
+    ccso:csName "Cybersecurity Ethics" ;
+    ccso:hasInstructor "D.E. Wittkower",
+        "Teresa Kouri Kissel" ;
+    ccso:offeredBy <https://data-ethics.org/university/old-dominion-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/217> a ccso:Course ;
+    ccso:csName "Philosophy and Video Games" ;
+    ccso:hasInstructor "Andrew Kissel" ;
+    ccso:offeredBy <https://data-ethics.org/university/old-dominion-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/218> a ccso:Course ;
+    ccso:csName "Philosophy of Digital Culture" ;
+    ccso:hasInstructor "D.E. Wittkower" ;
+    ccso:offeredBy <https://data-ethics.org/university/old-dominion-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/219> a ccso:Course ;
+    ccso:csName "Technology: Its Nature and Significance" ;
+    ccso:hasInstructor "D.E. Wittkower" ;
+    ccso:offeredBy <https://data-ethics.org/university/old-dominion-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/22> a ccso:Course ;
+    ccso:csName "Digital Ethics" ;
+    ccso:hasInstructor "Jonathan Beever" ;
+    ccso:hasSyllabus <https://www.cah.ucf.edu/common/files/syllabi/PHI69380001Spring2016.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-central-florida/department/texts-%26-technology-/-philosophy> .
+
+<http://data-ethics.org/syllabi/220> a ccso:Course ;
+    ccso:code "IST 402" ;
+    ccso:csName "Data Ethics" ;
+    ccso:hasInstructor "Daniel Susser" ;
+    ccso:offeredBy <https://data-ethics.org/university/penn-state-university/department/information-sciences-and-technology> .
+
+<http://data-ethics.org/syllabi/221> a ccso:Course ;
+    ccso:code "PHIL 20800" ;
+    ccso:csName "Ethics of Data Science" ;
+    ccso:hasInstructor "Matthew Kroll" ;
+    ccso:offeredBy <https://data-ethics.org/university/purdue-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/222> a ccso:Course ;
+    ccso:csName "Philosophy of Peace" ;
+    ccso:hasInstructor "Evan Selinger" ;
+    ccso:offeredBy <https://data-ethics.org/university/rochester-institute-of-technology/department/philosophy> .
+
+<http://data-ethics.org/syllabi/223> a ccso:Course ;
+    ccso:code "CSCI 2050/PHIL 3410" ;
+    ccso:csName "Computer Ethics" ;
+    ccso:description <http://compethics.philosophicon.net/> ;
+    ccso:hasInstructor "",
+        "Bill Rehg (alternating)",
+        "David Letscher",
+        "Erin Chambers",
+        "James McCollum" ;
+    ccso:offeredBy <https://data-ethics.org/university/saint-louis-university/department/computer-science-and-philosophy-%28cotaught%29> .
+
+<http://data-ethics.org/syllabi/224> a ccso:Course ;
+    ccso:csName "Ethics and the Digital Age" ;
+    ccso:hasInstructor "Shannon Vallor" ;
+    ccso:offeredBy <https://data-ethics.org/university/santa-clara-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/225> a ccso:Course ;
+    ccso:csName "Ethics of New Technologies" ;
+    ccso:hasInstructor "Imane Bello" ;
+    ccso:offeredBy <https://data-ethics.org/university/sciences-po-paris---european-campus/department/interdisciplinary-studies-%28focus-on-political-and-social-sciences%29> .
+
+<http://data-ethics.org/syllabi/226> a ccso:Course ;
+    ccso:code "CMPT 322W" ;
+    ccso:csName "Professional Responsibility and Ethics" ;
+    ccso:description <http://www.sfu.ca/outlines.html?2018/spring/cmpt/322w/d100> ;
+    ccso:hasInstructor "John Edgar" ;
+    ccso:offeredBy <https://data-ethics.org/university/simon-fraser-university/department/computing-science> .
+
+<http://data-ethics.org/syllabi/227> a ccso:Course ;
+    ccso:code "ENGR 131" ;
+    ccso:csName "Ethical Issues in Engineering" ;
+    ccso:hasInstructor "Robert McGinn" ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/engineering> .
+
+<http://data-ethics.org/syllabi/228> a ccso:Course ;
+    ccso:code "STS 1" ;
+    ccso:csName "The Public Life of Science and Technology" ;
+    ccso:hasInstructor "Sandra Lee" ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/science%2C-technology%2C-%26-society> .
+
+<http://data-ethics.org/syllabi/229> a ccso:Course ;
+    ccso:csName "Ethical Issues in Science and Technology" ;
+    ccso:hasInstructor "Michael Steinmann" ;
+    ccso:offeredBy <https://data-ethics.org/university/stevens-institute-of-technology/department/philosophy> .
+
+<http://data-ethics.org/syllabi/23> a ccso:Course ;
+    ccso:code "CMS 332D" ;
+    ccso:csName "Digital Ethics" ;
+    ccso:hasInstructor "Scott R. Stroud" ;
+    ccso:hasSyllabus <https://www.academia.edu/35676633/CMS_332D_Digital_Ethics_Syllabus_Undergraduate_Spring_2018_> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-texas-at-austin/department/communication-studies> .
+
+<http://data-ethics.org/syllabi/230> a ccso:Course ;
+    ccso:csName "Data and Ethics" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/088> ;
+    ccso:hasInstructor "Anna Lauren Hoffmann" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/231> a ccso:Course ;
+    ccso:csName "Engineering, The Environment, and Society" ;
+    ccso:description <http://classes.berkeley.edu/content/2018-spring-engin-157ac-001-lec-001> ;
+    ccso:hasInstructor "Khalid Kadir" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/engineering> .
+
+<http://data-ethics.org/syllabi/232> a ccso:Course ;
+    ccso:csName "Science, Technology, and Society: Human Contexts and Ethics of Data Science" ;
+    ccso:description <http://history.berkeley.edu/courses/2018/182aat> ;
+    ccso:hasInstructor "",
+        "Cathryn Carson",
+        "Charis Thompson",
+        "Margo Boenig-Liptsin",
+        "colleagues (Massimo Mazzotti",
+        "others)" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/history%2C-sts%2C-and-interdisciplinary-studies> .
+
+<http://data-ethics.org/syllabi/233> a ccso:Course ;
+    ccso:csName "Data and Society" ;
+    ccso:description <https://sts.ucdavis.edu/courses/featured-courses/sts-101-data-and-society> ;
+    ccso:hasInstructor "Lindsay Poirier" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-davis/department/science-and-technology-studies> .
+
+<http://data-ethics.org/syllabi/234> a ccso:Course ;
+    ccso:code "HPSC3036" ;
+    ccso:csName "Governing Emerging Technologies" ;
+    ccso:description <http://www.ucl.ac.uk/sts/staff/stilgoe/3036> ;
+    ccso:hasInstructor "Jack Stilgoe" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-college-london/department/science-and-technology-studies> .
+
+<http://data-ethics.org/syllabi/235> a ccso:Course ;
+    ccso:csName "Information Policy" ;
+    ccso:hasInstructor "Lisa Nathan" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-british-columbia/department/media-studies> .
+
+<http://data-ethics.org/syllabi/236> a ccso:Course ;
+    ccso:code "ICT 205" ;
+    ccso:csName "Issues in Information and Communication Technology Policy" ;
+    ccso:description <https://ci.uky.edu/sis/course/ict-205-issues-information-and-communication-technology-policy> ;
+    ccso:hasInstructor "Bryce Newell",
+        "Nicholas Proferes" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-kentucky/department/school-of-information-science> .
+
+<http://data-ethics.org/syllabi/237> a ccso:Course ;
+    ccso:csName "Social and Ethical Issues in Information Technology" ;
+    ccso:hasInstructor "Various" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-maryland---baltimore-county-%28umbc%29/department/computer-science-%26-electrical-engineering> .
+
+<http://data-ethics.org/syllabi/238> a ccso:Course ;
+    ccso:code "CS 305" ;
+    ccso:csName "Social Issues in Computing" ;
+    ccso:hasInstructor "Justin Obara + additonal temporary instructors as needed.",
+        "Michelle Trim (lead)" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-massachusetts-amherst/department/college-of-computer-and-information-sciences> .
+
+<http://data-ethics.org/syllabi/239> a ccso:Course ;
+    ccso:csName "Algorithms and Society" ;
+    ccso:description <https://docs.google.com/document/d/122pLT8VXWGyjoNC3AGK9XAG_YpLa4RFx3BiNAFfOwIQ/edit> ;
+    ccso:hasInstructor "Sarita Schoenebeck" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-michigan/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/24> a ccso:Course ;
+    ccso:csName "Exploring the Ethical Questions of New Technology" ;
+    ccso:description <http://info.commlead.uw.edu/course/com-597-black-mirror-exploring-the-ethical-questions-of-new-technology-2/> ;
+    ccso:hasInstructor "Katy Pearce" ;
+    ccso:hasSyllabus <https://www.academia.edu/19990892/COM_597E_Black_Mirror_Exploring_the_ethical_questions_of_new_technology_-_Winter_2016> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington/department/communication> .
+
+<http://data-ethics.org/syllabi/240> a ccso:Course ;
+    ccso:csName "Data & AI Ethics" ;
+    ccso:hasInstructor "Emanuele Ratti" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-notre-dame/department/reilly-center-for-science%2C-technology%2C-and-values-and-department-of-philosophy> .
+
+<http://data-ethics.org/syllabi/241> a ccso:Course ;
+    ccso:code "ITAO 40510" ;
+    ccso:csName "Ethics in Business Analytics" ;
+    ccso:hasInstructor "Scott Nestler" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-notre-dame/department/it%2C-analytics%2C-%26-operations> .
+
+<http://data-ethics.org/syllabi/242> a ccso:Course ;
+    ccso:code "CS 378" ;
+    ccso:csName "Behavioral Ethics in the Digital Age" ;
+    ccso:hasInstructor "Karen Landolt" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-texas-at-austin/department/computer-science> .
+
+<http://data-ethics.org/syllabi/243> a ccso:Course ;
+    ccso:csName "Ethics in Videogames" ;
+    ccso:hasInstructor "Jose Zagal" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-utah/department/entertainment-arts-%26-engineering> .
+
+<http://data-ethics.org/syllabi/244> a ccso:Course ;
+    ccso:code "INFO 350" ;
+    ccso:csName "Information Ethics and Policy" ;
+    ccso:description <https://www.washington.edu/students/crscat/info.html#info350> ;
+    ccso:hasInstructor "Adam D. Moore" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington/department/the-information-school> .
+
+<http://data-ethics.org/syllabi/245> a ccso:Course ;
+    ccso:code "T URB 305" ;
+    ccso:csName "Data and the City" ;
+    ccso:hasInstructor "Jim Thatcher" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington-tacoma/department/urban-studies-%28gis-is-housed-here%29> .
+
+<http://data-ethics.org/syllabi/246> a ccso:Course ;
+    ccso:code "CS 492" ;
+    ccso:csName "Social Implications of Computing" ;
+    ccso:description <https://www.student.cs.uwaterloo.ca/~cs492/> ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-waterloo/department/computer-science> .
+
+<http://data-ethics.org/syllabi/247> a ccso:Course ;
+    ccso:csName "Information Technology Ethics" ;
+    ccso:hasInstructor "Michael Zimmer" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-wisconsin-milwaukee/department/school-of-information-studies> .
+
+<http://data-ethics.org/syllabi/248> a ccso:Course ;
+    ccso:code "History/STS/SOC 2604" ;
+    ccso:csName "NaN"^^xsd:double ;
+    ccso:description <https://sites.google.com/vt.edu/discipline> ;
+    ccso:hasInstructor "Tom Ewing" ;
+    ccso:offeredBy <https://data-ethics.org/university/virginia-tech/department/history> .
+
+<http://data-ethics.org/syllabi/249> a ccso:Course ;
+    ccso:code "COMM 360" ;
+    ccso:csName "Digital Ethics" ;
+    ccso:hasInstructor "Florence Chee" ;
+    ccso:offeredBy <https://data-ethics.org/university/loyola-university-chicago/department/school-of-communication> .
+
+<http://data-ethics.org/syllabi/25> a ccso:Course ;
+    ccso:csName "Information Technology Ethics" ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:hasSyllabus <https://www.academia.edu/1745177/Fall_2011_Syllabus_for_L_and_I_SCI_Information_Technology_Ethics> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-wisconsin-milwaukee/department/school-of-information-studies> .
+
+<http://data-ethics.org/syllabi/250> a ccso:Course ;
+    ccso:csName "Ethics and Communications in Computer Science" ;
+    ccso:hasInstructor "Emanuelle Burton" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-illinois-at-chicago/department/computer-science> .
+
+<http://data-ethics.org/syllabi/251> a ccso:Course ;
+    ccso:code "CSCI/HASS 437" ;
+    ccso:csName "Robot Ethics" ;
+    ccso:hasInstructor """Tom Williams\r
+Qin Zhu""" ;
+    ccso:offeredBy <https://data-ethics.org/university/colorado-school-of-mines/department/computer-science%0Ahumanities%2C-arts%2C-and-social-sciences> .
+
+<http://data-ethics.org/syllabi/252> a ccso:Course ;
+    ccso:csName "Critical Thinking In Data Science" ;
+    ccso:description <https://www.coursicle.com/harvard/courses/APCOMP/221/> ;
+    ccso:hasInstructor "Mike Smith & Jim Waldo" ;
+    ccso:offeredBy <https://data-ethics.org/university/harvard-university/department/applied-computation> .
+
+<http://data-ethics.org/syllabi/253> a ccso:Course ;
+    ccso:code "BWP3, MWP10" ;
+    ccso:csName "Information and Society; Info Ethics and Governance" ;
+    ccso:hasInstructor "Jesse David Dinneen" ;
+    ccso:offeredBy <https://data-ethics.org/university/humboldt-universit%C3%A4t-zu-berlin/department/library-and-information-science> .
+
+<http://data-ethics.org/syllabi/254> a ccso:Course ;
+    ccso:code "CSCI 6370, CSCI 4370, ITWS 6970, ITWS 4960" ;
+    ccso:csName "Data and Society" ;
+    ccso:description <https://www.cs.rpi.edu/~bermaf/Data%20Course%202018/Data.html> ;
+    ccso:hasInstructor "Dr. Fran Berman" ;
+    ccso:offeredBy <https://data-ethics.org/university/rensselaer-polytechnic-inst/department/computer-science--> .
+
+<http://data-ethics.org/syllabi/255> a ccso:Course ;
+    ccso:csName "Responsible AI, Law & Society" ;
+    ccso:description <https://learn.responsibly.ai/law-society/> ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:offeredBy <https://data-ethics.org/university/technion%2C-univeristy-of-haifa/department/faculty-of-industrial-engineering-%26-management%2C-faculty-of-law> .
+
+<http://data-ethics.org/syllabi/256> a ccso:Course ;
+    ccso:csName "CS for Future Presidents" ;
+    ccso:description <https://fletcher.tufts.edu/academics/courses/divisions/dhp/dhp-d291> ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:offeredBy <https://data-ethics.org/university/tufts-university/fletcher/department/computer-science/diplomacy%2C-history%2C-and-politics> .
+
+<http://data-ethics.org/syllabi/257> a ccso:Course ;
+    ccso:csName "Behind the Data: Humans and Values" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/188> ;
+    ccso:hasInstructor "Deirdre Mulligan" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/258> a ccso:Course ;
+    ccso:csName "Human Rights Investigations Lab" ;
+    ccso:hasInstructor "Alexa Koenig",
+        "Andrea Lampros",
+        "Eric Stover",
+        "Stephanie Croft" ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/multiple> .
+
+<http://data-ethics.org/syllabi/259> a ccso:Course ;
+    ccso:csName "Social and Ethical Aspect of AI and Cybersecurity" ;
+    ccso:description <https://www.masterstudies.com/MSc-in-Artificial-Intelligence-and-Cybersecurity/Austria/University-of-Klagenfurt-Faculty-of-Technical-Sciences/> ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-udine-%28italy%29-and-of-klagenfurt-%28austria%29-double-degree/department/mathematics%2C-computer-science-and-physics> .
+
+<http://data-ethics.org/syllabi/26> a ccso:Course ;
+    ccso:code "DATA 512" ;
+    ccso:csName "Human Centered Data Science" ;
+    ccso:description <https://www.datasciencemasters.uw.edu/program-details/courses-curriculum/course-descriptions/> ;
+    ccso:hasInstructor "Jonathan T. Morgan" ;
+    ccso:hasSyllabus <https://wiki.communitydata.science/Human_Centered_Data_Science> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington/department/escience-institute> .
+
+<http://data-ethics.org/syllabi/260> a ccso:Course ;
+    ccso:csName "History of Information" ;
+    ccso:description <https://www.ischool.berkeley.edu/courses/info/103> ;
+    ccso:hasInstructor "Paul Duguid" ;
+    ccso:offeredBy <https://data-ethics.org/university/nan/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/261> a ccso:Course ;
+    ccso:code "IS30370 " ;
+    ccso:csName "Information Ethics" ;
+    ccso:description <https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=IS30370&MAJR=W041> ;
+    ccso:hasInstructor "Marguerite Barry" ;
+    ccso:offeredBy <https://data-ethics.org/university/university-college-dublin/department/school-of-information-and-communication-studies> .
+
+<http://data-ethics.org/syllabi/262> a ccso:Course ;
+    ccso:code "08-200" ;
+    ccso:csName "Ethics and Policy Issues In Computing" ;
+    ccso:hasInstructor "James Herbsleb" ;
+    ccso:offeredBy <https://data-ethics.org/university/carnegie-mellon-university/department/engineering-and-public-policy> .
+
+<http://data-ethics.org/syllabi/263> a ccso:Course ;
+    ccso:code "COMM 4300" ;
+    ccso:csName "Ethics in New Media, Technology, & Communication" ;
+    ccso:description <http://courses.cornell.edu/preview_course_nopop.php?catoid=26&coid=411157> ;
+    ccso:hasInstructor "Dawn Schrader" ;
+    ccso:offeredBy <https://data-ethics.org/university/cornell-university/department/information-science-%26-communication> .
+
+<http://data-ethics.org/syllabi/264> a ccso:Course ;
+    ccso:csName "Virtual Selves:  Identities and Communities Online" ;
+    ccso:hasInstructor "Vance Ricks" ;
+    ccso:offeredBy <https://data-ethics.org/university/guilford-college/department/interdisciplinary-studies> .
+
+<http://data-ethics.org/syllabi/265> a ccso:Course ;
+    ccso:code "PHIL 225" ;
+    ccso:csName "Ethics and the Internet" ;
+    ccso:hasInstructor "Diane Michelfelder" ;
+    ccso:offeredBy <https://data-ethics.org/university/macalester-college/department/philosophy> .
+
+<http://data-ethics.org/syllabi/266> a ccso:Course ;
+    ccso:code "DS-GA 3001.009/.010" ;
+    ccso:csName "e" ;
+    ccso:description <https://dataresponsibly.github.io/> ;
+    ccso:hasInstructor "Julia Stoyanovich" ;
+    ccso:offeredBy <https://data-ethics.org/university/new-york-university/department/data-science-department> .
+
+<http://data-ethics.org/syllabi/267> a ccso:Course ;
+    ccso:code "IDSEM-UG1891" ;
+    ccso:csName "Tinkering in Feminist Technoscience" ;
+    ccso:description <https://gallatin.nyu.edu/academics/courses/2018/SP/idsem-ug1891_001.html> ;
+    ccso:hasInstructor "Cyd Cipolla" ;
+    ccso:offeredBy <https://data-ethics.org/university/new-york-university/department/gallatin-school-of-individualized-study> .
+
+<http://data-ethics.org/syllabi/268> a ccso:Course ;
+    ccso:code "?" ;
+    ccso:csName "NaN"^^xsd:double ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:offeredBy <https://data-ethics.org/university/open-access-course-materials-cte/department/nan> .
+
+<http://data-ethics.org/syllabi/269> a ccso:Course ;
+    ccso:csName "UX Design" ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:offeredBy <https://data-ethics.org/university/tilburg-university%2C-the-netherlandsu/department/communication-%26-information-sciences%2C-master-track-new-media-design-%28at-tilburg-school-of-humanities-%26-digital-sciences%29> .
+
+<http://data-ethics.org/syllabi/27> a ccso:Course ;
+    ccso:code "DATA 512" ;
+    ccso:csName "Human-Centred Data Science" ;
+    ccso:description <https://www.washington.edu/students/crscat/data.html> ;
+    ccso:hasInstructor "Jonathan Morgan",
+        "Os Keyes" ;
+    ccso:hasSyllabus <https://wiki.communitydata.cc/HCDS_(Fall_2017)> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-washington/department/escience-institute/human-centered-design-%26-engineering> .
+
+<http://data-ethics.org/syllabi/270> a ccso:Course ;
+    ccso:csName "Human Rights Investigations Lab" ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/berkeley-law> .
+
+<http://data-ethics.org/syllabi/271> a ccso:Course ;
+    ccso:csName "Feminist Futurities, Technologies, and Worldmaking" ;
+    ccso:description <https://drive.google.com/file/d/1__AQ9zX6Kmimb8ehonXEn3hgkQXQHx8c/view> ;
+    ccso:hasInstructor "Dr. Alex Ketchum" ;
+    ccso:offeredBy <https://data-ethics.org/university/mcgill-university/department/gender%2C-sexuality%2C-feminist%2C-and-socil-justice-studies-of-the-institute-for-gender%2C-sexuality%2C-and-feminist-studies> .
+
+<http://data-ethics.org/syllabi/272> a ccso:Course ;
+    ccso:code "SOC 141P" ;
+    ccso:csName "Public Interest Tech: Case Studies" ;
+    ccso:description <https://explorecourses.stanford.edu/search?q=SOC+141P%3a+Public+Interest+Tech%3a+Case+Studies&view=catalog&filter-coursestatus-Active=on&academicYear=20202021> ;
+    ccso:hasInstructor "Dan Grusky",
+        "Margaret Hagan" ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/sociology> .
+
+<http://data-ethics.org/syllabi/273> a ccso:Course ;
+    ccso:code "CS 184/PUBLPOL 170" ;
+    ccso:csName "Bridging Policy and Tech Through Design" ;
+    ccso:description <https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=20202021&q=cs184&collapse=> ;
+    ccso:hasInstructor "Jeffrey Ullman" ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/computer-science%2C-public-policy> .
+
+<http://data-ethics.org/syllabi/274> a ccso:Course ;
+    ccso:code "CS 5015" ;
+    ccso:csName "Ethics in Computer Science " ;
+    ccso:description <https://drive.google.com/drive/folders/1q80qt1AQJrbLnjD9JPORwvwq6lJU3PPc?usp=sharing> ;
+    ccso:hasInstructor "Abhijeet Rao",
+        "Kevin Brooks" ;
+    ccso:offeredBy <https://data-ethics.org/university/lakehead-university-/department/computer-science-> .
+
+<http://data-ethics.org/syllabi/275> a ccso:Course ;
+    ccso:csName "Multilingual Technologies and Language Diversity" ;
+    ccso:description <http://www.cs.columbia.edu/~smara/teaching/Spring2020/> ;
+    ccso:hasInstructor "Isabelle Zaugg",
+        "Smaranda Muresan" ;
+    ccso:offeredBy <https://data-ethics.org/university/columbia-university/department/computer-science%2C-institute-for-comparative-literature-and-society> .
+
+<http://data-ethics.org/syllabi/28> a ccso:Course ;
+    ccso:code "CS 106S" ;
+    ccso:csName "Programming Abstractions and Social Good" ;
+    ccso:description <https://stanford.io/2IgPnDm> ;
+    ccso:hasInstructor "J. Cain" ;
+    ccso:hasSyllabus <https://web.stanford.edu/class/cs106s/> ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/29> a ccso:Course ;
+    ccso:code "CS 305" ;
+    ccso:csName "Social, Ethical, and Legal Implications of Computing" ;
+    ccso:description <https://www.pdx.edu/computer-science/cs305> ;
+    ccso:hasInstructor "Ellie Harmon" ;
+    ccso:hasSyllabus <https://web.cecs.pdx.edu/~harmon8/classes/cs305-201802/> ;
+    ccso:offeredBy <https://data-ethics.org/university/portland-state-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/3> a ccso:Course ;
+    ccso:csName "Ethics of Computational Science" ;
+    ccso:hasInstructor "Valerie Racine" ;
+    ccso:offeredBy <https://data-ethics.org/university/western-new-england-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/30> a ccso:Course ;
+    ccso:csName "Ethics, Privacy and Security" ;
+    ccso:description <https://ubc-mds.github.io/course-descriptions/DSCI_541_priv-eth-sec/> ;
+    ccso:hasInstructor "Dalla Riva",
+        "Ed Knorr",
+        "Giulio Valentino",
+        "Orlin Vakarelov" ;
+    ccso:hasSyllabus <https://ubc-mds.github.io/course-descriptions/DSCI_541_priv-eth-sec/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-british-columbia/department/master-of-data-science> .
+
+<http://data-ethics.org/syllabi/31> a ccso:Course ;
+    ccso:code "LGST 242" ;
+    ccso:csName "Big Data, Big Responsibilities" ;
+    ccso:hasInstructor "Kevin Werbach" ;
+    ccso:hasSyllabus <https://syllabi-media.s3.amazonaws.com/prod/2019C-LGST242001-97324086.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-pennsylvania---the-wharton-school/department/legal-studies-%26-business-ethics> .
+
+<http://data-ethics.org/syllabi/32> a ccso:Course ;
+    ccso:code "CS 181" ;
+    ccso:csName "Computers, Ethics, and Public Policy" ;
+    ccso:hasInstructor "Allison Berke",
+        "Keith Winstein" ;
+    ccso:hasSyllabus <https://stanfordcs181.github.io/> ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/33> a ccso:Course ;
+    ccso:code "INFO I453" ;
+    ccso:csName "Computer and Information Ethics" ;
+    ccso:description <https://soic.iupui.edu/courses/info-i453/> ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:hasSyllabus <https://soic.iupui.edu/syllabi/INFO-I453-Hook.pdf?05232018> ;
+    ccso:offeredBy <https://data-ethics.org/university/indiana-university-bloomington/department/informatics> .
+
+<http://data-ethics.org/syllabi/34> a ccso:Course ;
+    ccso:code "CS293" ;
+    ccso:csName "Social and Ethical Issues in Computing" ;
+    ccso:description <http://catalog.unm.edu/catalogs/2019-2020/courses/CS/index.html> ;
+    ccso:hasInstructor "Leah Buechley + others on a semester by semester basis",
+        "often adjuncts" ;
+    ccso:hasSyllabus <https://socialethical.cs.unm.edu/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-new-mexico/department/computer-science> .
+
+<http://data-ethics.org/syllabi/35> a ccso:Course ;
+    ccso:code "HONR 494" ;
+    ccso:csName "Information Ethics and Privacy in the Age of Big Data" ;
+    ccso:description <http://www.montana.edu/honors/seminars.html> ;
+    ccso:hasInstructor "Sara Mannheimer",
+        "Scott W. H. Young" ;
+    ccso:hasSyllabus <https://scottwhyoung.com/syllabi/information-ethics-privacy-spring-2018/> ;
+    ccso:offeredBy <https://data-ethics.org/university/montana-state-university/department/library/honors-college> .
+
+<http://data-ethics.org/syllabi/36> a ccso:Course ;
+    ccso:csName "Ethical Issues in Software Design" ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:hasSyllabus <https://pages.stolaf.edu/csci-263-fall19/> ;
+    ccso:offeredBy <https://data-ethics.org/university/st.-olaf-college/department/computing-science> .
+
+<http://data-ethics.org/syllabi/37> a ccso:Course ;
+    ccso:csName "Seminar in Critical Algorithm Studies" ;
+    ccso:description <https://algorithmstudies.wordpress.com/> ;
+    ccso:hasInstructor "Fabian Fischer",
+        "Florian Cech",
+        "Gabriel Grill",
+        "Hilda Tellioğlu",
+        "Matthias Fassl" ;
+    ccso:hasSyllabus <https://owncloud.tuwien.ac.at/index.php/s/pYzesun5qv3iskz#pdfviewer> ;
+    ccso:offeredBy <https://data-ethics.org/university/tu-wien/department/informatics> .
+
+<http://data-ethics.org/syllabi/38> a ccso:Course ;
+    ccso:csName "Engineering Ethics" ;
+    ccso:description <https://ocw.mit.edu/courses/engineering-systems-division/esd-932-engineering-ethics-spring-2006/index.htm> ;
+    ccso:hasInstructor "Taft Broome" ;
+    ccso:hasSyllabus <https://ocw.mit.edu/courses/engineering-systems-division/esd-932-engineering-ethics-spring-2006/syllabus/> ;
+    ccso:offeredBy <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29/department/engineering-systems-division> .
+
+<http://data-ethics.org/syllabi/39> a ccso:Course ;
+    ccso:code "Comm_ST 394-0" ;
+    ccso:csName "Human/Algorithm Interaction" ;
+    ccso:description <https://ocw.mit.edu/courses/engineering-systems-division/esd-932-engineering-ethics-spring-2006/index.htm> ;
+    ccso:hasInstructor "Mike DeVito (Winter 2018)" ;
+    ccso:hasSyllabus <https://mikedevito.files.wordpress.com/2017/11/394_humanalgointeraction_w18_11-51.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/northwestern-university/department/communication-studies> .
+
+<http://data-ethics.org/syllabi/4> a ccso:Course ;
+    ccso:csName "Research Ethics and Integrity" ;
+    ccso:hasInstructor "Catherine Flick" ;
+    ccso:offeredBy <https://data-ethics.org/university/de-montfort-university/department/graduate-school> .
+
+<http://data-ethics.org/syllabi/40> a ccso:Course ;
+    ccso:csName "Advanced Interaction & Service Design Concepts" ;
+    ccso:description <http://design.cmu.edu/content/master-design> ;
+    ccso:hasInstructor "Ahmed Ansari",
+        "Dan Lockton" ;
+    ccso:hasSyllabus <https://medium.com/advanced-interaction-service-design-concepts/syllabus-mdes-seminar-iii-fall-2017-f5118b169498> ;
+    ccso:offeredBy <https://data-ethics.org/university/carnegie-mellon-university/department/design> .
+
+<http://data-ethics.org/syllabi/41> a ccso:Course ;
+    ccso:csName "Technology, Ethics & Politics" ;
+    ccso:hasInstructor "Ahmed Ansari" ;
+    ccso:hasSyllabus <https://medium.com/@aansari86/technology-ethics-politics-b57134f8614e> ;
+    ccso:offeredBy <https://data-ethics.org/university/carnegie-mellon-university/department/design> .
+
+<http://data-ethics.org/syllabi/42> a ccso:Course ;
+    ccso:csName "Literature & Digital Diversity" ;
+    ccso:hasInstructor "Elizabeth Maddock Dillon",
+        "Sarah Connell" ;
+    ccso:hasSyllabus <https://litdigitaldiversity.northeastern.edu/syllabus/> ;
+    ccso:offeredBy <https://data-ethics.org/university/northeastern-university/department/english> .
+
+<http://data-ethics.org/syllabi/43> a ccso:Course ;
+    ccso:code "PHILO 80" ;
+    ccso:csName "Kant's Second and Third Critiques" ;
+    ccso:hasInstructor "Peter Suber" ;
+    ccso:hasSyllabus <https://legacy.earlham.edu/~peters/courses/kant23/syl-kant.htm> ;
+    ccso:offeredBy <https://data-ethics.org/university/earlham-college/department/philosophy> .
+
+<http://data-ethics.org/syllabi/44> a ccso:Course ;
+    ccso:code "PHILO 480" ;
+    ccso:csName "Ethics of Belief" ;
+    ccso:hasInstructor "Peter Suber" ;
+    ccso:hasSyllabus <https://legacy.earlham.edu/~peters/courses/eb/syl-eb.htm> ;
+    ccso:offeredBy <https://data-ethics.org/university/earlham-college/department/philosophy> .
+
+<http://data-ethics.org/syllabi/45> a ccso:Course ;
+    ccso:code "PHILO 121" ;
+    ccso:csName "Consent and Coercion" ;
+    ccso:hasInstructor "Peter Suber" ;
+    ccso:hasSyllabus <https://legacy.earlham.edu/~peters/courses/consent/syl-cons.htm> ;
+    ccso:offeredBy <https://data-ethics.org/university/earlham-college/department/philosophy> .
+
+<http://data-ethics.org/syllabi/46> a ccso:Course ;
+    ccso:csName "Information Ethics" ;
+    ccso:description <https://ischool.umd.edu/courses> ;
+    ccso:hasInstructor "Various" ;
+    ccso:hasSyllabus <https://ischool.umd.edu/sites/default/files/syllabi/inst610_information_ethics_-_shilton_-_fall_2016.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-maryland---college-park/department/information-school> .
+
+<http://data-ethics.org/syllabi/47> a ccso:Course ;
+    ccso:code "INST 447" ;
+    ccso:csName "Data Sources and Manipulation" ;
+    ccso:description <https://ischool.umd.edu/undergraduate-courses> ;
+    ccso:hasInstructor "Donal Heidenblad" ;
+    ccso:hasSyllabus <https://ischool.umd.edu/sites/default/files/syllabi/inst447_-_spring_2018_-_heidenblad.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-maryland---college-park/department/information-school> .
+
+<http://data-ethics.org/syllabi/48> a ccso:Course ;
+    ccso:csName "Policy and Ethics for Digital Curation" ;
+    ccso:description <https://ischool.umd.edu/graduate-courses/policy-and-ethics-digital-curation> ;
+    ccso:hasInstructor "Katie Shilton" ;
+    ccso:hasSyllabus <https://ischool.umd.edu/sites/default/files/syllabi/inst_641_policy_and_ethics_in_digital_curation.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-maryland---college-park/department/information-school> .
+
+<http://data-ethics.org/syllabi/49> a ccso:Course ;
+    ccso:code "INFO 4601/5601" ;
+    ccso:csName "Ethical and Policy Dimensions of Information, Technology, and New Media" ;
+    ccso:hasInstructor "Casey Fiesler" ;
+    ccso:hasSyllabus <https://informationethicspolicy.wordpress.com/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-colorado-boulder/department/information-science> .
+
+<http://data-ethics.org/syllabi/5> a ccso:Course ;
+    ccso:csName "Political Philosophy of Social Media" ;
+    ccso:hasInstructor "D.E. Wittkower" ;
+    ccso:offeredBy <https://data-ethics.org/university/old-dominion-university/department/philosophy> .
+
+<http://data-ethics.org/syllabi/50> a ccso:Course ;
+    ccso:code "INFO 2131" ;
+    ccso:csName "Information Ecosystems" ;
+    ccso:hasInstructor "Casey Fiesler" ;
+    ccso:hasSyllabus <https://informationecosystems.wordpress.com> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-colorado-boulder/department/information-science> .
+
+<http://data-ethics.org/syllabi/51> a ccso:Course ;
+    ccso:code "76-314/714" ;
+    ccso:csName "Data Stories" ;
+    ccso:description <https://hackmd.io/vvH1YXGHTlGLUx-7M4OMUw> ;
+    ccso:hasInstructor "Christopher Warren" ;
+    ccso:hasSyllabus <https://hackmd.io/vvH1YXGHTlGLUx-7M4OMUw> ;
+    ccso:offeredBy <https://data-ethics.org/university/carnegie-mellon-university/department/english> .
+
+<http://data-ethics.org/syllabi/52> a ccso:Course ;
+    ccso:code "MSTU 5199" ;
+    ccso:csName "Ethical Issues in Technology Design" ;
+    ccso:description <https://hackmd.io/s/BJ74JEM6z#> ;
+    ccso:hasInstructor "Joey J. Lee" ;
+    ccso:hasSyllabus <https://hackmd.io/s/BJ74JEM6z#> ;
+    ccso:offeredBy <https://data-ethics.org/university/columbia-university---teachers-college/department/mathematics%2C-science-and-technology> .
+
+<http://data-ethics.org/syllabi/53> a ccso:Course ;
+    ccso:code "76-314" ;
+    ccso:csName "Data Stories" ;
+    ccso:description <https://www.coursicle.com/cmu/courses/ENG/76314/> ;
+    ccso:hasInstructor "Christopher Warren" ;
+    ccso:hasSyllabus <https://hackmd.io/gkEk7RBHRT66QvD8_Og2_g> ;
+    ccso:offeredBy <https://data-ethics.org/university/carnegie-mellon-university/department/english> .
+
+<http://data-ethics.org/syllabi/54> a ccso:Course ;
+    ccso:csName "The Ethics and Governance of Artificial Intelligence" ;
+    ccso:description <https://hls.harvard.edu/academics/curriculum/catalog/default.aspx?o=71157> ;
+    ccso:hasInstructor "Jonathan Zittrain" ;
+    ccso:hasSyllabus <https://h2o.law.harvard.edu/playlists/53282> ;
+    ccso:offeredBy <https://data-ethics.org/university/harvard-university/department/harvard-law-school> .
+
+<http://data-ethics.org/syllabi/55> a ccso:Course ;
+    ccso:csName "Professional Ethics in Computing" ;
+    ccso:hasInstructor "Multiple professors" ;
+    ccso:hasSyllabus <https://goo.gl/wbKokH> ;
+    ccso:offeredBy <https://data-ethics.org/university/california-state-university-fullerton/department/computer-science> .
+
+<http://data-ethics.org/syllabi/56> a ccso:Course ;
+    ccso:csName "Professional Ethics in Computing" ;
+    ccso:hasInstructor "Beth Harnick-Shapiro" ;
+    ccso:hasSyllabus <https://goo.gl/pu1hda> ;
+    ccso:offeredBy <https://data-ethics.org/university/california-state-university-fullerton/department/computer-science> .
+
+<http://data-ethics.org/syllabi/57> a ccso:Course ;
+    ccso:code "COSC 5820" ;
+    ccso:csName "Ethical and Social Implications of Data" ;
+    ccso:description <https://github.com/shionguha/cosc4931-socialethicalimp-fa18> ;
+    ccso:hasInstructor "Shion Guha" ;
+    ccso:hasSyllabus <https://github.com/shionguha/cosc4931-socialethicalimp-fa18/blob/master/cosc4931_fa18_syllabus.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/marquette-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/58> a ccso:Course ;
+    ccso:code "ELP" ;
+    ccso:csName "Ethics, Law & Profession of CS" ;
+    ccso:description <https://github.com/s-a-m/UCM-Fdi-ELP> ;
+    ccso:hasInstructor """Samer Hassan <samer@ucm.es>\r
+Sara Román <sroman@ucm.es>\r
+Marcos Sánchez-Elez <marcos@ucm.es>""" ;
+    ccso:hasSyllabus <https://github.com/s-a-m/UCM-Fdi-ELP/blob/master/Ficha-BasicSyllabus-ELP-2017-18.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/univ.-complutense-de-madrid/department/computer-science-%28dpt-ai-%26-sw-eng-%2B-dpt-comp.-arch.%29> .
+
+<http://data-ethics.org/syllabi/59> a ccso:Course ;
+    ccso:code "FIS 394" ;
+    ccso:csName "The Moviegoer's Guide to the Future" ;
+    ccso:description <https://riskinnovation.asu.edu/fis-394-moviegoers-guide-future/> ;
+    ccso:hasInstructor "Andrew Maynard" ;
+    ccso:hasSyllabus <https://filmsfromthefuture.com/wp-content/uploads/2019/01/Template-Syllabus.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/arizona-state-university/department/school-for-the-future-of-innovation-in-society> .
+
+<http://data-ethics.org/syllabi/6> a ccso:Course ;
+    ccso:csName "EECS Ethics and Diversity " ;
+    ccso:description <https://oregonstate.instructure.com/courses/1646197> ;
+    ccso:hasInstructor "Prasad Tadepalli" ;
+    ccso:offeredBy <https://data-ethics.org/university/oregon-state-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/60> a ccso:Course ;
+    ccso:csName "Computing and Society" ;
+    ccso:hasInstructor "Mário J Silva" ;
+    ccso:hasSyllabus <https://fenix.tecnico.ulisboa.pt/disciplinas/CS111326/2017-2018/2-semestre/programa> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-lisbon/department/computer-science-and-engineering> .
+
+<http://data-ethics.org/syllabi/61> a ccso:Course ;
+    ccso:csName "Fairness in Machine Learning" ;
+    ccso:hasInstructor "Moritz Hardt" ;
+    ccso:hasSyllabus <https://fairmlclass.github.io/> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/computer-science> .
+
+<http://data-ethics.org/syllabi/62> a ccso:Course ;
+    ccso:csName "Social, Ethical, and Professional Issues in Computing" ;
+    ccso:description <https://www.bemidjistate.edu/academics/catalog/20135/courses/cs/4390> ;
+    ccso:hasInstructor "Marty J. Wolf" ;
+    ccso:hasSyllabus <https://eservices.minnstate.edu/registration/rest/institutions/0070/campuses/070/curriculums/00004785/terms/00000> ;
+    ccso:offeredBy <https://data-ethics.org/university/bemidji-state-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/63> a ccso:Course ;
+    ccso:csName "Purdue's Reflective & Interactive Modules for Engineering Ethics" ;
+    ccso:hasInstructor "Andrew Brightman",
+        "colleagues" ;
+    ccso:hasSyllabus <https://engineering.purdue.edu/BME/PRIMEEthics> ;
+    ccso:offeredBy <https://data-ethics.org/university/purdue-university/department/college-of-engineering> .
+
+<http://data-ethics.org/syllabi/64> a ccso:Course ;
+    ccso:code "LIS 500" ;
+    ccso:csName "Ethics and Policy in Data Science" ;
+    ccso:description <https://ischool.wisc.edu/programs/undergraduatedigital-studies/> ;
+    ccso:hasInstructor "Dorothea Salo",
+        "Reginold Royston",
+        "Tracy Lewis-Williams" ;
+    ccso:hasSyllabus <https://dsalo.info/wp-content/uploads/2011/05/CodeAndPower2017.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-wisconsin---madison/department/information-school> .
+
+<http://data-ethics.org/syllabi/65> a ccso:Course ;
+    ccso:code "LIS 351" ;
+    ccso:csName "Introduction to Digital Information" ;
+    ccso:description <https://ischool.wisc.edu/programs/undergraduatedigital-studies/> ;
+    ccso:hasInstructor "Dorothea Salo" ;
+    ccso:hasSyllabus <https://dsalo.info/wp-content/uploads/2011/05/351syll2017sp.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-wisconsin---madison/department/information-school> .
+
+<http://data-ethics.org/syllabi/66> a ccso:Course ;
+    ccso:code "INFO 4270" ;
+    ccso:csName "NaN"^^xsd:double ;
+    ccso:description <https://www.infosci.cornell.edu/academics/courses/ethics-and-policy-data-science> ;
+    ccso:hasInstructor "Solon Barocas" ;
+    ccso:hasSyllabus <https://drive.google.com/open?id=1GV97qqvjQNvyM2I01vuRaAwHe9pQAZ9pbP7KkKveg1o> ;
+    ccso:offeredBy <https://data-ethics.org/university/cornell-university/department/information-science> .
+
+<http://data-ethics.org/syllabi/67> a ccso:Course ;
+    ccso:csName "Ethical & Legal Issues of Data Analytics" ;
+    ccso:description <https://m10763.siss.duke.edu/app/catalog/classsection/DUKEU/1630/> ;
+    ccso:hasInstructor "Salman Azhar" ;
+    ccso:hasSyllabus <https://drive.google.com/open?id=1bV86GDFQ550MoN8KrKzRvtd8WK9ejn2R> ;
+    ccso:offeredBy <https://data-ethics.org/university/duke---fuqua-school-of-business/department/management> .
+
+<http://data-ethics.org/syllabi/68> a ccso:Course ;
+    ccso:csName "Foundational Values" ;
+    ccso:hasInstructor "Don Winiecki" ;
+    ccso:hasSyllabus <https://drive.google.com/open?id=1BEg2ZH_2BUKgfnuYYNj-rs3c29jiMOgi> ;
+    ccso:offeredBy <https://data-ethics.org/university/boise-state-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/69> a ccso:Course ;
+    ccso:code "CSC304" ;
+    ccso:csName "Ethical Issues in Computing and Research Methods" ;
+    ccso:description <https://fac.ksu.edu.sa/nalnabhan/course/131953> ;
+    ccso:hasInstructor "Farah Muhammed",
+        "Sarah Alsulaiman" ;
+    ccso:hasSyllabus <https://drive.google.com/file/d/105--zeyHG32mLy2_dv9z4z6kw4r38JLO/view> ;
+    ccso:offeredBy <https://data-ethics.org/university/king-saud-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/7> a ccso:Course ;
+    ccso:csName "Ethics in Computing" ;
+    ccso:hasInstructor "Various" ;
+    ccso:offeredBy <https://data-ethics.org/university/seattle-university/department/computer-science-and-software-engineering> .
+
+<http://data-ethics.org/syllabi/70> a ccso:Course ;
+    ccso:code "GPP 150" ;
+    ccso:csName "Engineering Social Justice" ;
+    ccso:hasInstructor "Khalid Kadir" ;
+    ccso:hasSyllabus <https://drive.google.com/drive/folders/1YZve_Q2orzCYysjh0-IxuN1NB6S6pZE8?usp=sharing> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/global-poverty-and-practice> .
+
+<http://data-ethics.org/syllabi/71> a ccso:Course ;
+    ccso:code "ENEE200" ;
+    ccso:csName "Technology and Consequences: Engineering, Ethics and Humanity " ;
+    ccso:description <https://ece.umd.edu/course-schedule/course/ENEE200> ;
+    ccso:hasInstructor "Nicole Mogul " ;
+    ccso:hasSyllabus <https://drive.google.com/a/umd.edu/file/d/1Fc_sw8dMXB7r1HkVr490q7mg8l7cXC7U/view?usp=sharing> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-maryland%2C-college-park-/department/electrical-and-computer-engineering-> .
+
+<http://data-ethics.org/syllabi/72> a ccso:Course ;
+    ccso:code "CS80Q" ;
+    ccso:csName "Race & Gender in Silicon Valley" ;
+    ccso:description <https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=CS+80Q&collapse=> ;
+    ccso:hasInstructor "Cynthia Lee" ;
+    ccso:hasSyllabus <https://docs.google.com/spreadsheets/d/169Hz1Jknnu_vn99URSd8MfbqBbYI9MxcqZK7Y6GzGYQ/edit?usp=sharing> ;
+    ccso:offeredBy <https://data-ethics.org/university/stanford-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/73> a ccso:Course ;
+    ccso:code "6.S978" ;
+    ccso:csName "Privacy Legislation: Law and Technology" ;
+    ccso:hasInstructor "Alvaro Bedoya",
+        "Daniel Weitzner",
+        "David Vladeck",
+        "Hal Abelson",
+        "Laura Moy" ;
+    ccso:hasSyllabus <https://docs.google.com/document/d/e/2PACX-1vQSuCOtwEb8mynxWAI4rWFiXNgXK6SLiDD9KT51CxeaOIlUw9wY5ZmWPz4AELDdO-27bPm_EbUGA8ur/pub> ;
+    ccso:offeredBy <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/74> a ccso:Course ;
+    ccso:csName "#CryptoEthics: The Ethics and Impact of Cryptocurrency and Blockchain Technology" ;
+    ccso:description <http://blockchainethics.co> ;
+    ccso:hasInstructor "Neha Narula",
+        "Rhys Lindmark" ;
+    ccso:hasSyllabus <https://docs.google.com/document/d/1l1GArujM62kfU6-a7pKan95L20GjZ3_9_ErXpEWNO5M/edit#> ;
+    ccso:offeredBy <https://data-ethics.org/university/mit/department/mit-media-lab> .
+
+<http://data-ethics.org/syllabi/75> a ccso:Course ;
+    ccso:code "S&DS 150" ;
+    ccso:csName "Data Science Ethics" ;
+    ccso:hasInstructor "Elisa Celis" ;
+    ccso:hasSyllabus <https://datascienceethics.org/syllabus/> ;
+    ccso:offeredBy <https://data-ethics.org/university/yale-university/department/statistics-%26-data-science> .
+
+<http://data-ethics.org/syllabi/76> a ccso:Course ;
+    ccso:csName "The Ethics and Governance of Artificial Intelligence" ;
+    ccso:description <https://www.media.mit.edu/courses/the-ethics-and-governance-of-artificial-intelligence/> ;
+    ccso:hasInstructor "Joi Ito",
+        "Jonathan Zittrain" ;
+    ccso:hasSyllabus <https://dam-prod.media.mit.edu/x/2018/02/07/Ethics%20and%20Governance%20of%20AI%20S18%20.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/massachusetts-institute-of-technology%2C-harvard-university/department/mit-media-lab%3B-> .
+
+<http://data-ethics.org/syllabi/77> a ccso:Course ;
+    ccso:csName "Human-in-the-loop data analytics" ;
+    ccso:description <https://cusp.sydney.edu.au/students/view-unit-page/uos_id/289913/vid/316653> ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:hasSyllabus <https://cusp.sydney.edu.au/students/view-unit-page/uos_id/289913/vid/316653> ;
+    ccso:offeredBy <https://data-ethics.org/university/the-university-of-sydney/department/computer-science> .
+
+<http://data-ethics.org/syllabi/78> a ccso:Course ;
+    ccso:csName "Ethics in Mathematics" ;
+    ccso:hasInstructor "Dr Maurice Chiodo" ;
+    ccso:hasSyllabus <https://cueims.soc.srcf.net/seminars> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-cambridge/department/mathematics> .
+
+<http://data-ethics.org/syllabi/79> a ccso:Course ;
+    ccso:csName "Ethics in Mathematics Project" ;
+    ccso:description <http://www.ethics.maths.cam.ac.uk/EiM1/> ;
+    ccso:hasInstructor "NaN"^^xsd:double ;
+    ccso:hasSyllabus <https://cueims.soc.srcf.net/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-cambridge/department/nan> .
+
+<http://data-ethics.org/syllabi/8> a ccso:Course ;
+    ccso:csName "Computer Ethics" ;
+    ccso:hasInstructor "Sara Wilford" ;
+    ccso:offeredBy <https://data-ethics.org/university/de-montfort-university/department/computer-science-and-informatics> .
+
+<http://data-ethics.org/syllabi/80> a ccso:Course ;
+    ccso:code "CS/EE 692" ;
+    ccso:csName "Ethics for CS & EE" ;
+    ccso:description <http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/courses/research.cfm> ;
+    ccso:hasInstructor "Jill Dolata",
+        "Steven Bedrick" ;
+    ccso:hasSyllabus <https://cslu.ohsu.edu/~bedricks/courses/cs692_winter_2020/> ;
+    ccso:offeredBy <https://data-ethics.org/university/oregon-health-%26-science-university/department/computer-science-and-electrical-engineering> .
+
+<http://data-ethics.org/syllabi/81> a ccso:Course ;
+    ccso:code "CS384" ;
+    ccso:csName "Perspectives on Computing" ;
+    ccso:description <https://cs.calvin.edu/courses/cs/384/> ;
+    ccso:hasInstructor "Derek Schuurman" ;
+    ccso:hasSyllabus <https://cs.calvin.edu/courses/cs/384/cs384.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/calvin-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/82> a ccso:Course ;
+    ccso:code "ICT 690" ;
+    ccso:csName "ICT Ethics" ;
+    ccso:description <https://ci.uky.edu/sis/sites/default/files/syllabi/Proferes%20-%20ICT%20690%20205%20Syllabus%20Spring%202019.pdf> ;
+    ccso:hasInstructor "Nicholas Proferes" ;
+    ccso:hasSyllabus <https://ci.uky.edu/sis/sites/default/files/syllabi/Proferes%20-%20ICT%20690%20205%20Syllabus%20Spring%202019.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-kentucky/department/school-of-information-science> .
+
+<http://data-ethics.org/syllabi/83> a ccso:Course ;
+    ccso:code "ANTH 4020" ;
+    ccso:csName "Digital Anthropology" ;
+    ccso:description <https://ce.colorado.edu/courses/explorations-in-anthropology-digital-anthropology-anth-4020/#> ;
+    ccso:hasInstructor "Timothy Webmoor" ;
+    ccso:hasSyllabus <https://ce.colorado.edu/course-details/anth-4020-explorations-in-anthropology-digital-anthropology-section-581/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-colorado-boulder/department/continuing-education> .
+
+<http://data-ethics.org/syllabi/84> a ccso:Course ;
+    ccso:csName "Professional Responsibility in Computer Science and Software Engineering" ;
+    ccso:description <https://catalog.utdallas.edu/2012/undergraduate/courses/cs3162> ;
+    ccso:hasInstructor "Various" ;
+    ccso:hasSyllabus <https://catalog.utdallas.edu/2012/undergraduate/courses/cs3162> ;
+    ccso:offeredBy <https://data-ethics.org/university/the-university-of-texas-at-dallas/department/computer-science> .
+
+<http://data-ethics.org/syllabi/85> a ccso:Course ;
+    ccso:code "191761102" ;
+    ccso:csName "Philosophy of New Technology Design" ;
+    ccso:hasInstructor "Boaz Miller" ;
+    ccso:hasSyllabus <https://boazmiller.files.wordpress.com/2017/03/philosophy-of-new-technology-design.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/interdisciplinary-center-herzliya/department/the-sammy-ofer-school-of-communications> .
+
+<http://data-ethics.org/syllabi/86> a ccso:Course ;
+    ccso:csName "Privacy and Security Lab" ;
+    ccso:description <https://bcourses.berkeley.edu/courses/1466946/> ;
+    ccso:hasInstructor "Chris Hoofnagle" ;
+    ccso:hasSyllabus <https://bcourses.berkeley.edu/courses/1466946/assignments/syllabus> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information%2C-law-school> .
+
+<http://data-ethics.org/syllabi/87> a ccso:Course ;
+    ccso:csName "Privacy Law for Technologists" ;
+    ccso:description <https://bcourses.berkeley.edu/courses/1463120/> ;
+    ccso:hasInstructor "Chris Hoofnagle" ;
+    ccso:hasSyllabus <https://bcourses.berkeley.edu/courses/1463120/assignments/syllabus> ;
+    ccso:offeredBy <https://data-ethics.org/university/uc-berkeley/department/school-of-information> .
+
+<http://data-ethics.org/syllabi/88> a ccso:Course ;
+    ccso:code "LGST 242/642" ;
+    ccso:csName "Big Data, Big Responsibilities" ;
+    ccso:hasInstructor "Kevin Werbach" ;
+    ccso:hasSyllabus <https://apps.wharton.upenn.edu/syllabi/2019C/LGST642001/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-pennsylvania---the-wharton-school/department/legal-studies-%26-business-ethics> .
+
+<http://data-ethics.org/syllabi/89> a ccso:Course ;
+    ccso:code "cs640b" ;
+    ccso:csName "Critical Internet Studies" ;
+    ccso:hasInstructor "Jeremy Hunsinger" ;
+    ccso:hasSyllabus <http://www.tmttlt.com/wp-content/uploads/2009/11/CS640B_V2_SYLLABUS_F12_JH-.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/wilfrid-laurier-university/department/communication-studies> .
+
+<http://data-ethics.org/syllabi/9> a ccso:Course ;
+    ccso:csName "Introduction to Research and Ethics" ;
+    ccso:hasInstructor "Catherine Flick" ;
+    ccso:offeredBy <https://data-ethics.org/university/de-montfort-university/department/computer-science-and-informatics> .
+
+<http://data-ethics.org/syllabi/90> a ccso:Course ;
+    ccso:code "cs213" ;
+    ccso:csName "Technology & Society" ;
+    ccso:description <https://academic-calendar.wlu.ca/course.php?c=48394&cal=1&d=1865&s=896&y=77> ;
+    ccso:hasInstructor "Jeremy Hunsinger" ;
+    ccso:hasSyllabus <http://www.tmttlt.com/wp-content/uploads/2009/11/CS213A_JH_F14_V2.pdf> ;
+    ccso:offeredBy <https://data-ethics.org/university/wilfrid-laurier-university/department/communication-studies> .
+
+<http://data-ethics.org/syllabi/91> a ccso:Course ;
+    ccso:code "EECS 395 and COMMST 395 " ;
+    ccso:csName "Algorithms and Society" ;
+    ccso:description <http://www.psacomputing.org/algsoc/> ;
+    ccso:hasInstructor "Brent Hecht",
+        "possibly more soon" ;
+    ccso:hasSyllabus <http://www.psacomputing.org/algsoc/schedule/> ;
+    ccso:offeredBy <https://data-ethics.org/university/northwestern-university/department/computer-science-and-communication-studies> .
+
+<http://data-ethics.org/syllabi/92> a ccso:Course ;
+    ccso:csName "Digital Citizenship, Open Access Course" ;
+    ccso:hasInstructor "Jason Ohler" ;
+    ccso:hasSyllabus <http://www.jasonohler.com/wordpressii/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-alaska/department/learning%2C-design-and-technology-masters> .
+
+<http://data-ethics.org/syllabi/93> a ccso:Course ;
+    ccso:csName "Professional Issues" ;
+    ccso:hasInstructor "Michael Fourman & Stuart Anderson" ;
+    ccso:hasSyllabus <http://www.inf.ed.ac.uk/teaching/courses/pi/> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-edinburgh/department/informatics> .
+
+<http://data-ethics.org/syllabi/94> a ccso:Course ;
+    ccso:csName "Politics & Technology " ;
+    ccso:description <https://www.tum.de/nc/en/studies/degree-programs/detail/politics-technology-master-of-science-msc/> ;
+    ccso:hasInstructor "Miranda Schreurs" ;
+    ccso:hasSyllabus <http://www.hfp.tum.de/en/studies/masters-program/course-content/> ;
+    ccso:offeredBy <https://data-ethics.org/university/tu-munich/department/school-of-governance> .
+
+<http://data-ethics.org/syllabi/95> a ccso:Course ;
+    ccso:csName "Ethical Foundations for Information Security" ;
+    ccso:hasInstructor "Davi Ottenheimer" ;
+    ccso:hasSyllabus <http://www.flyingpenguin.com/?p=21905> ;
+    ccso:offeredBy <https://data-ethics.org/university/fachhochschule-st.-p%C3%B6lten/department/informatik-%26-security> .
+
+<http://data-ethics.org/syllabi/96> a ccso:Course ;
+    ccso:csName "Life, Computers, and Everything " ;
+    ccso:description <http://www.eg.bucknell.edu/~csci245/> ;
+    ccso:hasInstructor "L. Felipe Perrone" ;
+    ccso:hasSyllabus <http://www.eg.bucknell.edu/~csci245/schedule/> ;
+    ccso:offeredBy <https://data-ethics.org/university/bucknell-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/97> a ccso:Course ;
+    ccso:code "CSCI 240" ;
+    ccso:csName "Computers and Society " ;
+    ccso:description <http://www.eg.bucknell.edu/~cs240/> ;
+    ccso:hasInstructor "L. Felipe Perrone" ;
+    ccso:hasSyllabus <http://www.eg.bucknell.edu/~cs240/schedule/> ;
+    ccso:offeredBy <https://data-ethics.org/university/bucknell-university/department/computer-science> .
+
+<http://data-ethics.org/syllabi/98> a ccso:Course ;
+    ccso:csName "Ethics of Artificial Intelligence" ;
+    ccso:hasInstructor "Mark Sprevak" ;
+    ccso:hasSyllabus <http://www.drps.ed.ac.uk/17-18/dpt/cxphil10167.htm> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-edinburgh/department/philosophy> .
+
+<http://data-ethics.org/syllabi/99> a ccso:Course ;
+    ccso:csName "Ethics in Data Science" ;
+    ccso:hasInstructor "Katie Shelef",
+        "Suresh Venkatasubramanian" ;
+    ccso:hasSyllabus <http://www.cs.utah.edu/~suresh/courses/ethics.html> ;
+    ccso:offeredBy <https://data-ethics.org/university/university-of-utah/department/computer-science> .
+
+<https://data-ethics.org/university/arizona-state-university/department/school-for-the-future-of-innovation-in-society> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/arizona-state-university> .
+
+<https://data-ethics.org/university/bard-college/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/bard-college> .
+
+<https://data-ethics.org/university/bauhaus-universit%C3%A4t-weimar%2C-germany/department/computing> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/bauhaus-universit%C3%A4t-weimar%2C-germany> .
+
+<https://data-ethics.org/university/bemidji-state-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/bemidji-state-university> .
+
+<https://data-ethics.org/university/brown-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/brown-university> .
+
+<https://data-ethics.org/university/bucknell-university/department/computer-science/english> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/bucknell-university> .
+
+<https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo/department/philosophy-/-computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo> .
+
+<https://data-ethics.org/university/calvin-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/calvin-university> .
+
+<https://data-ethics.org/university/carnegie-mellon-university/department/engineering-and-public-policy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/carnegie-mellon-university> .
+
+<https://data-ethics.org/university/carnegie-mellon-university/department/language-technologies-institute-%28lti%29> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/carnegie-mellon-university> .
+
+<https://data-ethics.org/university/carnegie-mellon-university/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/carnegie-mellon-university> .
+
+<https://data-ethics.org/university/center-for-technology-ethics/department/cs> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/center-for-technology-ethics> .
+
+<https://data-ethics.org/university/colorado-school-of-mines/department/computer-science%0Ahumanities%2C-arts%2C-and-social-sciences> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/colorado-school-of-mines> .
+
+<https://data-ethics.org/university/columbia-university---teachers-college/department/mathematics%2C-science-and-technology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/columbia-university---teachers-college> .
+
+<https://data-ethics.org/university/columbia-university/department/computer-science%2C-institute-for-comparative-literature-and-society> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/columbia-university> .
+
+<https://data-ethics.org/university/columbia-university/department/history-and-applied-mathematics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/columbia-university> .
+
+<https://data-ethics.org/university/cornell-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/cornell-university> .
+
+<https://data-ethics.org/university/cornell-university/department/information-science-%26-communication> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/cornell-university> .
+
+<https://data-ethics.org/university/dartmouth-college/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/dartmouth-college> .
+
+<https://data-ethics.org/university/de-montfort-university/department/graduate-school> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/de-montfort-university> .
+
+<https://data-ethics.org/university/depaul-university/department/college-of-communication> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/depaul-university> .
+
+<https://data-ethics.org/university/depaul-university/department/college-of-communication%2C-digital-communication-and-media-arts-ma-program> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/depaul-university> .
+
+<https://data-ethics.org/university/depaul-university/department/college-of-communication%2C-media-and-cinema-studies-concentration> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/depaul-university> .
+
+<https://data-ethics.org/university/drexel-university/department/information-science-%26-systems> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/drexel-university> .
+
+<https://data-ethics.org/university/duke---fuqua-school-of-business/department/management> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/duke---fuqua-school-of-business> .
+
+<https://data-ethics.org/university/duke-law-school/department/nan> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/duke-law-school> .
+
+<https://data-ethics.org/university/fielding-graduate-university/department/media-psychology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/fielding-graduate-university> .
+
+<https://data-ethics.org/university/georgetown-university/department/law> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/georgetown-university> .
+
+<https://data-ethics.org/university/georgetown-university/department/mba> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/georgetown-university> .
+
+<https://data-ethics.org/university/georgetown-university/department/science%2C-technology-and-international-afffairs> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/georgetown-university> .
+
+<https://data-ethics.org/university/georgia-institute-of-technology/department/college-of-computing> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/georgia-institute-of-technology> .
+
+<https://data-ethics.org/university/guilford-college/department/interdisciplinary-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/guilford-college> .
+
+<https://data-ethics.org/university/guilford-college/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/guilford-college> .
+
+<https://data-ethics.org/university/harvard-college/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/harvard-college> .
+
+<https://data-ethics.org/university/harvard-university/department/applied-computation> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/harvard-university> .
+
+<https://data-ethics.org/university/harvard-university/department/harvard-law-school> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/harvard-university> .
+
+<https://data-ethics.org/university/haverford-college/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/haverford-college> .
+
+<https://data-ethics.org/university/hofstra-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/hofstra-university> .
+
+<https://data-ethics.org/university/humboldt-universit%C3%A4t-zu-berlin/department/library-and-information-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/humboldt-universit%C3%A4t-zu-berlin> .
+
+<https://data-ethics.org/university/indian-institute-of-technology-delhi/department/department-of-computer-science%2C-school-of-information-technology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/indian-institute-of-technology-delhi> .
+
+<https://data-ethics.org/university/interamerican-university-of-puerto-rico/department/science-and-technology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/interamerican-university-of-puerto-rico> .
+
+<https://data-ethics.org/university/interdisciplinary-center-herzliya/department/the-sammy-ofer-school-of-communications> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/interdisciplinary-center-herzliya> .
+
+<https://data-ethics.org/university/it-university-of-copenhagen/department/bioengineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/it-university-of-copenhagen> .
+
+<https://data-ethics.org/university/it-university-of-copenhagen/department/business-it> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/it-university-of-copenhagen> .
+
+<https://data-ethics.org/university/it-university-of-copenhagen/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/it-university-of-copenhagen> .
+
+<https://data-ethics.org/university/king%27s-college-london/department/digital-humanities> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/king%27s-college-london> .
+
+<https://data-ethics.org/university/king-saud-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/king-saud-university> .
+
+<https://data-ethics.org/university/lakehead-university-/department/computer-science-> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/lakehead-university-> .
+
+<https://data-ethics.org/university/loyola-university-chicago/department/school-of-communication> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/loyola-university-chicago> .
+
+<https://data-ethics.org/university/macalester-college/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/macalester-college> .
+
+<https://data-ethics.org/university/marist-college/department/film%2C-tv%2C-games-%26-interactive-media> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/marist-college> .
+
+<https://data-ethics.org/university/marquette-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/marquette-university> .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology%2C-harvard-university/department/mit-media-lab%3B-> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/massachusetts-institute-of-technology%2C-harvard-university> .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university> .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29/department/civil-engineering%2C-cross-listed-among-several-other-departments> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29/department/electrical-engineering-and-computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29/department/engineering-systems-division> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29/department/media-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+<https://data-ethics.org/university/mcgill-university/department/gender%2C-sexuality%2C-feminist%2C-and-socil-justice-studies-of-the-institute-for-gender%2C-sexuality%2C-and-feminist-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/mcgill-university> .
+
+<https://data-ethics.org/university/michigan-technological-university/department/department-of-computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/michigan-technological-university> .
+
+<https://data-ethics.org/university/minnesota-state-university%2C-mankato/department/integrated-engineering-%28computer-science%29> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/minnesota-state-university%2C-mankato> .
+
+<https://data-ethics.org/university/mit/department/cms/w> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/mit> .
+
+<https://data-ethics.org/university/mit/department/mit-media-lab> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/mit> .
+
+<https://data-ethics.org/university/montana-state-university-/department/school-of-computing> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/montana-state-university-> .
+
+<https://data-ethics.org/university/montana-state-university/department/library/honors-college> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/montana-state-university> .
+
+<https://data-ethics.org/university/nan/department/oxford-internet-institute> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/nan> .
+
+<https://data-ethics.org/university/nan/department/sociology%2C-center-for-it-policy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/nan> .
+
+<https://data-ethics.org/university/new-york-university/department/applied-statistics-> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/new-york-university> .
+
+<https://data-ethics.org/university/new-york-university/department/data-science-department> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/new-york-university> .
+
+<https://data-ethics.org/university/new-york-university/department/gallatin-school-of-individualized-study> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/new-york-university> .
+
+<https://data-ethics.org/university/north-carolina-state-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/north-carolina-state-university> .
+
+<https://data-ethics.org/university/northeastern-university/department/college-of-computer-and-information-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/northeastern-university> .
+
+<https://data-ethics.org/university/northeastern-university/department/english> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/northeastern-university> .
+
+<https://data-ethics.org/university/northeastern-university/department/school-of-law> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/northeastern-university> .
+
+<https://data-ethics.org/university/northwestern-university/department/communication-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/northwestern-university> .
+
+<https://data-ethics.org/university/northwestern-university/department/computer-science-and-communication-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/northwestern-university> .
+
+<https://data-ethics.org/university/northwestern-university/department/school-of-communication> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/northwestern-university> .
+
+<https://data-ethics.org/university/open-access-course-materials-cte/department/nan> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/open-access-course-materials-cte> .
+
+<https://data-ethics.org/university/oregon-health-%26-science-university/department/computer-science-and-electrical-engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/oregon-health-%26-science-university> .
+
+<https://data-ethics.org/university/oregon-state-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/oregon-state-university> .
+
+<https://data-ethics.org/university/penn-state-university/department/information-sciences-and-technology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/penn-state-university> .
+
+<https://data-ethics.org/university/portland-state-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/portland-state-university> .
+
+<https://data-ethics.org/university/princeton-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/princeton-university> .
+
+<https://data-ethics.org/university/professional-development-at-facebook%2C-google%2C-etc/department/nan> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/professional-development-at-facebook%2C-google%2C-etc> .
+
+<https://data-ethics.org/university/purdue-university/department/college-of-engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/purdue-university> .
+
+<https://data-ethics.org/university/purdue-university/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/purdue-university> .
+
+<https://data-ethics.org/university/r/department/communication%2C-culture-%26-technology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/r> .
+
+<https://data-ethics.org/university/rensselaer-polytechnic-inst/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/rensselaer-polytechnic-inst> .
+
+<https://data-ethics.org/university/rensselaer-polytechnic-inst/department/computer-science--> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/rensselaer-polytechnic-inst> .
+
+<https://data-ethics.org/university/saint-louis-university/department/computer-science-and-philosophy-%28cotaught%29> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/saint-louis-university> .
+
+<https://data-ethics.org/university/sciences-po%2C-paris/department/school-of-public-affairs> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/sciences-po%2C-paris> .
+
+<https://data-ethics.org/university/sciences-po-paris---european-campus/department/interdisciplinary-studies-%28focus-on-political-and-social-sciences%29> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/sciences-po-paris---european-campus> .
+
+<https://data-ethics.org/university/sciences-po-paris/department/paris-school-of-international-affairs> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/sciences-po-paris> .
+
+<https://data-ethics.org/university/seattle-university/department/computer-science-and-software-engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/seattle-university> .
+
+<https://data-ethics.org/university/simon-fraser-university/department/computing-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/simon-fraser-university> .
+
+<https://data-ethics.org/university/st.-olaf-college/department/computing-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/st.-olaf-college> .
+
+<https://data-ethics.org/university/stanford-university/department/communication> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/stanford-university> .
+
+<https://data-ethics.org/university/stanford-university/department/computer-science%2C-public-policy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/stanford-university> .
+
+<https://data-ethics.org/university/stanford-university/department/engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/stanford-university> .
+
+<https://data-ethics.org/university/stanford-university/department/science%2C-technology%2C-%26-society> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/stanford-university> .
+
+<https://data-ethics.org/university/stanford-university/department/sociology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/stanford-university> .
+
+<https://data-ethics.org/university/stevens-institute-of-technology/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/stevens-institute-of-technology> .
+
+<https://data-ethics.org/university/swiss-federal-institute-of-technology/department/life-sciences-and-technology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/swiss-federal-institute-of-technology> .
+
+<https://data-ethics.org/university/technion%2C-univeristy-of-haifa/department/faculty-of-industrial-engineering-%26-management%2C-faculty-of-law> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/technion%2C-univeristy-of-haifa> .
+
+<https://data-ethics.org/university/tel-aviv-university/department/the-cohn-institute-for-the-history-and-philosophy-of-science-and-ideas> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/tel-aviv-university> .
+
+<https://data-ethics.org/university/texas-a%26m-university/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/texas-a%26m-university> .
+
+<https://data-ethics.org/university/the-new-school/department/natural-sciences-%26-mathematics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/the-new-school> .
+
+<https://data-ethics.org/university/the-university-of-sydney/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/the-university-of-sydney> .
+
+<https://data-ethics.org/university/the-university-of-texas-at-dallas/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/the-university-of-texas-at-dallas> .
+
+<https://data-ethics.org/university/tilburg-university%2C-the-netherlandsu/department/communication-%26-information-sciences%2C-master-track-new-media-design-%28at-tilburg-school-of-humanities-%26-digital-sciences%29> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/tilburg-university%2C-the-netherlandsu> .
+
+<https://data-ethics.org/university/tu-munich/department/school-of-governance> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/tu-munich> .
+
+<https://data-ethics.org/university/tu-wien/department/informatics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/tu-wien> .
+
+<https://data-ethics.org/university/tufts-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/tufts-university> .
+
+<https://data-ethics.org/university/tufts-university/fletcher/department/computer-science/diplomacy%2C-history%2C-and-politics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/tufts-university/fletcher> .
+
+<https://data-ethics.org/university/uc-berkeley-/department/law> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley-> .
+
+<https://data-ethics.org/university/uc-berkeley/department/berkeley-law> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-berkeley/department/engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-berkeley/department/global-poverty-and-practice> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-berkeley/department/history%2C-sts%2C-and-interdisciplinary-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-berkeley/department/interdisciplinary-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-berkeley/department/multiple> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-berkeley/department/school-of-information%2C-law-school> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-berkeley/department/sociology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-davis/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-davis> .
+
+<https://data-ethics.org/university/uc-davis/department/science-and-technology-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-davis> .
+
+<https://data-ethics.org/university/uc-san-diego/department/family-medicine-%26-public-health> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-san-diego> .
+
+<https://data-ethics.org/university/univ.-complutense-de-madrid/department/computer-science-%28dpt-ai-%26-sw-eng-%2B-dpt-comp.-arch.%29> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/univ.-complutense-de-madrid> .
+
+<https://data-ethics.org/university/universidad-de-chile/department/computer-science-department> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/universidad-de-chile> .
+
+<https://data-ethics.org/university/university-college-dublin/department/school-of-information-and-communication-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-college-dublin> .
+
+<https://data-ethics.org/university/university-of-alaska/department/learning%2C-design-and-technology-masters> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-alaska> .
+
+<https://data-ethics.org/university/university-of-bath/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-bath> .
+
+<https://data-ethics.org/university/university-of-british-columbia/department/master-of-data-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-british-columbia> .
+
+<https://data-ethics.org/university/university-of-british-columbia/department/media-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-british-columbia> .
+
+<https://data-ethics.org/university/university-of-british-columbia/department/school-of-library%2C-archival%2C-and-information-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-british-columbia> .
+
+<https://data-ethics.org/university/university-of-cambridge/department/department-of-computer-science-and-technology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-cambridge> .
+
+<https://data-ethics.org/university/university-of-cambridge/department/mathematics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-cambridge> .
+
+<https://data-ethics.org/university/university-of-cambridge/department/nan> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-cambridge> .
+
+<https://data-ethics.org/university/university-of-central-florida/department/texts-%26-technology-/-philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-central-florida> .
+
+<https://data-ethics.org/university/university-of-colorado-boulder/department/continuing-education> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-colorado-boulder> .
+
+<https://data-ethics.org/university/university-of-edinburgh/department/informatics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-edinburgh> .
+
+<https://data-ethics.org/university/university-of-edinburgh/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-edinburgh> .
+
+<https://data-ethics.org/university/university-of-hong-kong/department/faculty-of-business-%26-economics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-hong-kong> .
+
+<https://data-ethics.org/university/university-of-houston/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-houston> .
+
+<https://data-ethics.org/university/university-of-illinois-at-chicago/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-illinois-at-chicago> .
+
+<https://data-ethics.org/university/university-of-lisbon/department/computer-science-and-engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-lisbon> .
+
+<https://data-ethics.org/university/university-of-maryland%2C-college-park-/department/electrical-and-computer-engineering-> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-maryland%2C-college-park-> .
+
+<https://data-ethics.org/university/university-of-maryland---baltimore-county-%28umbc%29/department/computer-science-%26-electrical-engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-maryland---baltimore-county-%28umbc%29> .
+
+<https://data-ethics.org/university/university-of-michigan/department/school-of-information> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-michigan> .
+
+<https://data-ethics.org/university/university-of-milan/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-milan> .
+
+<https://data-ethics.org/university/university-of-new-mexico/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-new-mexico> .
+
+<https://data-ethics.org/university/university-of-north-carolina-at-chapel-hill/department/school-of-information-and-library-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-north-carolina-at-chapel-hill> .
+
+<https://data-ethics.org/university/university-of-north-georgia/department/computer-science-and-information-systems-%28mike-cottrell-college-of-business%29> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-north-georgia> .
+
+<https://data-ethics.org/university/university-of-notre-dame/department/applied-%26-computational-mathematics-%26-statistics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-notre-dame> .
+
+<https://data-ethics.org/university/university-of-notre-dame/department/reilly-center-for-science%2C-technology%2C-and-values-and-department-of-philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-notre-dame> .
+
+<https://data-ethics.org/university/university-of-ottawa/department/school-of-electrical-engineering-and-computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-ottawa> .
+
+<https://data-ethics.org/university/university-of-pennsylvania-/department/school-of-social-policy-%26-practice> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-pennsylvania-> .
+
+<https://data-ethics.org/university/university-of-southern-california/department/annenberg-school-for-communication-and-journalism> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-southern-california> .
+
+<https://data-ethics.org/university/university-of-technology-sydney/department/communications> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-technology-sydney> .
+
+<https://data-ethics.org/university/university-of-texas-at-austin/department/communication-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-texas-at-austin> .
+
+<https://data-ethics.org/university/university-of-udine-%28italy%29-and-of-klagenfurt-%28austria%29-double-degree/department/mathematics%2C-computer-science-and-physics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-udine-%28italy%29-and-of-klagenfurt-%28austria%29-double-degree> .
+
+<https://data-ethics.org/university/university-of-utah/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-utah> .
+
+<https://data-ethics.org/university/university-of-washington/department/communication> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-washington> .
+
+<https://data-ethics.org/university/university-of-washington/department/escience-institute> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-washington> .
+
+<https://data-ethics.org/university/university-of-washington/department/escience-institute/human-centered-design-%26-engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-washington> .
+
+<https://data-ethics.org/university/university-of-washington/department/linguistics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-washington> .
+
+<https://data-ethics.org/university/university-of-washington/department/school-of-law> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-washington> .
+
+<https://data-ethics.org/university/university-of-waterloo/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-waterloo> .
+
+<https://data-ethics.org/university/university-of-zurich/department/institute-of-computational-linguistics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-zurich> .
+
+<https://data-ethics.org/university/virginia-tech/department/history> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/virginia-tech> .
+
+<https://data-ethics.org/university/wellesley-college/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/wellesley-college> .
+
+<https://data-ethics.org/university/western-new-england-university/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/western-new-england-university> .
+
+<https://data-ethics.org/university/yale-university/department/statistics-%26-data-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/yale-university> .
+
+"Aaditeshwar Seth" ccso:worksFor <https://data-ethics.org/university/indian-institute-of-technology-delhi> .
+
+"Abhijeet Rao" ccso:worksFor <https://data-ethics.org/university/lakehead-university-> .
+
+"Adam D. Moore" ccso:worksFor <https://data-ethics.org/university/university-of-washington> .
+
+"Adriane Stoner" ccso:worksFor <https://data-ethics.org/university/depaul-university> .
+
+"Alan Black" ccso:worksFor <https://data-ethics.org/university/carnegie-mellon-university> .
+
+"Alan Rubel" ccso:worksFor <https://data-ethics.org/university/university-of-wisconsin---madison> .
+
+"Alison Norman - Sarah Abraham" ccso:worksFor <https://data-ethics.org/university/university-of-texas-at-austin> .
+
+"Allison Berke" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Alvaro Bedoya" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university> .
+
+"Amelia Gibson" ccso:worksFor <https://data-ethics.org/university/university-of-north-carolina-at-chapel-hill> .
+
+"Andrea Lampros" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Andrew Brightman" ccso:worksFor <https://data-ethics.org/university/purdue-university> .
+
+"Andrew Kissel" ccso:worksFor <https://data-ethics.org/university/old-dominion-university> .
+
+"Andrew Maynard" ccso:worksFor <https://data-ethics.org/university/arizona-state-university> .
+
+"Angele Christin" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Anne Goulding" ccso:worksFor <https://data-ethics.org/university/victoria-university-of-wellington> .
+
+"Anne Jonas" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Arvind Narayanan" ccso:worksFor <https://data-ethics.org/university/princeton-university> .
+
+"Ashley Shew" ccso:worksFor <https://data-ethics.org/university/virginia-tech> .
+
+"Ashley Shew or Jim Collier" ccso:worksFor <https://data-ethics.org/university/virginia-tech> .
+
+"Barbara Grosz" ccso:worksFor <https://data-ethics.org/university/harvard-college> .
+
+"Bart Selman" ccso:worksFor <https://data-ethics.org/university/cornell-university> .
+
+"Bernhardt L Trout" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+"Beth Harnick-Shapiro" ccso:worksFor <https://data-ethics.org/university/california-state-university-fullerton> .
+
+"Bill Rehg (alternating)" ccso:worksFor <https://data-ethics.org/university/saint-louis-university> .
+
+"Boaz Miller" ccso:worksFor <https://data-ethics.org/university/interdisciplinary-center-herzliya> .
+
+"Brenda Chawner" ccso:worksFor <https://data-ethics.org/university/victoria-university-of-wellington> .
+
+"Brent Hecht" ccso:worksFor <https://data-ethics.org/university/northwestern-university> .
+
+"Bryce Newell" ccso:worksFor <https://data-ethics.org/university/university-of-kentucky> .
+
+"Camille Nebeker" ccso:worksFor <https://data-ethics.org/university/uc-san-diego> .
+
+"Catherine Grevet Delcourt" ccso:worksFor <https://data-ethics.org/university/wellesley-college> .
+
+"Cathryn Carson" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Chad DeChant" ccso:worksFor <https://data-ethics.org/university/columbia-university> .
+
+"Charis Thompson" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Chris Jay Hoofnagle" ccso:worksFor <https://data-ethics.org/university/nan> .
+
+"Chris Wiggins" ccso:worksFor <https://data-ethics.org/university/columbia-university> .
+
+"Christopher Miles" ccso:worksFor <https://data-ethics.org/university/indiana-university-bloomington> .
+
+"Coye Cheshire" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Cyd Cipolla" ccso:worksFor <https://data-ethics.org/university/new-york-university> .
+
+"Cynthia Lee" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Dalla Riva" ccso:worksFor <https://data-ethics.org/university/university-of-british-columbia> .
+
+"Dan Grusky" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Dan Lockton" ccso:worksFor <https://data-ethics.org/university/carnegie-mellon-university> .
+
+"Daniel Susser" ccso:worksFor <https://data-ethics.org/university/penn-state-university> .
+
+"Dave Magnus" ccso:worksFor <https://data-ethics.org/university/it-university-of-copenhagen> .
+
+"David Bamman" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"David Bishop" ccso:worksFor <https://data-ethics.org/university/university-of-hong-kong> .
+
+"David Johnstone" ccso:worksFor <https://data-ethics.org/university/victoria-university-of-wellington> .
+
+"David Lee" ccso:worksFor <https://data-ethics.org/university/university-of-hong-kong> .
+
+"David Letscher" ccso:worksFor <https://data-ethics.org/university/saint-louis-university> .
+
+"David Robinson" ccso:worksFor <https://data-ethics.org/university/georgetown-university> .
+
+"David Vladeck" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university> .
+
+"David Wild" ccso:worksFor <https://data-ethics.org/university/indiana-university-bloomington> .
+
+"Dawn Schrader" ccso:worksFor <https://data-ethics.org/university/cornell-university> .
+
+"Derek Schuurman" ccso:worksFor <https://data-ethics.org/university/calvin-university> .
+
+"Diane Michelfelder" ccso:worksFor <https://data-ethics.org/university/macalester-college> .
+
+"Dominique Sprumont" ccso:worksFor <https://data-ethics.org/university/swiss-federal-institute-of-technology> .
+
+"Don Winiecki" ccso:worksFor <https://data-ethics.org/university/boise-state-university> .
+
+"Donal Heidenblad" ccso:worksFor <https://data-ethics.org/university/university-of-maryland---college-park> .
+
+"Dr Luciano Floridi" ccso:worksFor <https://data-ethics.org/university/nan> .
+
+"Dr Maurice Chiodo" ccso:worksFor <https://data-ethics.org/university/university-of-cambridge> .
+
+"Dr. Alex Ketchum" ccso:worksFor <https://data-ethics.org/university/mcgill-university> .
+
+"Dr. Edward Currie" ccso:worksFor <https://data-ethics.org/university/hofstra-university> .
+
+"Dr. Fran Berman" ccso:worksFor <https://data-ethics.org/university/rensselaer-polytechnic-inst> .
+
+"Dr. J. Nathan Matias" ccso:worksFor <https://data-ethics.org/university/nan> .
+
+"Dr. Melanie Smallman" ccso:worksFor <https://data-ethics.org/university/university-college-london> .
+
+"Ed Gehringer" ccso:worksFor <https://data-ethics.org/university/north-carolina-state-university> .
+
+"Ed Knorr" ccso:worksFor <https://data-ethics.org/university/university-of-british-columbia> .
+
+"Eden Medina" ccso:worksFor <https://data-ethics.org/university/indiana-university-bloomington> .
+
+"Elisa Celis" ccso:worksFor <https://data-ethics.org/university/yale-university> .
+
+"Elizabeth Maddock Dillon" ccso:worksFor <https://data-ethics.org/university/northeastern-university> .
+
+"Ellie Harmon" ccso:worksFor <https://data-ethics.org/university/portland-state-university> .
+
+"Emanuele Ratti" ccso:worksFor <https://data-ethics.org/university/university-of-notre-dame> .
+
+"Emanuelle Burton" ccso:worksFor <https://data-ethics.org/university/university-of-illinois-at-chicago> .
+
+"Emily Bender" ccso:worksFor <https://data-ethics.org/university/university-of-washington> .
+
+"Eric Stover" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Erin Chambers" ccso:worksFor <https://data-ethics.org/university/saint-louis-university> .
+
+"Ernst Leiss" ccso:worksFor <https://data-ethics.org/university/university-of-houston> .
+
+"Eva Hornecker" ccso:worksFor <https://data-ethics.org/university/bauhaus-universit%C3%A4t-weimar%2C-germany> .
+
+"Ezekiel Dixon-Román " ccso:worksFor <https://data-ethics.org/university/university-of-pennsylvania-> .
+
+"Fabian Fischer" ccso:worksFor <https://data-ethics.org/university/tu-wien> .
+
+"Farah Muhammed" ccso:worksFor <https://data-ethics.org/university/king-saud-university> .
+
+"Florence Chee" ccso:worksFor <https://data-ethics.org/university/loyola-university-chicago> .
+
+"Florian Cech" ccso:worksFor <https://data-ethics.org/university/tu-wien> .
+
+"Gabriel Grill" ccso:worksFor <https://data-ethics.org/university/tu-wien> .
+
+"Gaia Barazetti" ccso:worksFor <https://data-ethics.org/university/swiss-federal-institute-of-technology> .
+
+"George Konidaris" ccso:worksFor <https://data-ethics.org/university/brown-university> .
+
+"Giulio Valentino" ccso:worksFor <https://data-ethics.org/university/university-of-british-columbia> .
+
+"Glen Miller" ccso:worksFor <https://data-ethics.org/university/texas-a%26m-university> .
+
+"Hal Abelson" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university> .
+
+"Harold Abelson" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+"Hilda Tellioğlu" ccso:worksFor <https://data-ethics.org/university/tu-wien> .
+
+"Imane Bello" ccso:worksFor <https://data-ethics.org/university/sciences-po-paris---european-campus> .
+
+"Isabelle Zaugg" ccso:worksFor <https://data-ethics.org/university/columbia-university> .
+
+"J. Cain" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"James Herbsleb" ccso:worksFor <https://data-ethics.org/university/carnegie-mellon-university> .
+
+"James McCollum" ccso:worksFor <https://data-ethics.org/university/saint-louis-university> .
+
+"James Meese" ccso:worksFor <https://data-ethics.org/university/university-of-technology-sydney> .
+
+"James Moor" ccso:worksFor <https://data-ethics.org/university/dartmouth-college> .
+
+"Jason Millar" ccso:worksFor <https://data-ethics.org/university/university-of-ottawa> .
+
+"Javier Bustos-Jiménez" ccso:worksFor <https://data-ethics.org/university/universidad-de-chile> .
+
+"Jean-Marie John-Mathews" ccso:worksFor <https://data-ethics.org/university/sciences-po%2C-paris> .
+
+"Jeff Ward" ccso:worksFor <https://data-ethics.org/university/duke-law-school> .
+
+"Jeffrey Ullman" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Jennifer Wilson" ccso:worksFor <https://data-ethics.org/university/the-new-school> .
+
+"Jerry Kaplan" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Jesse David Dinneen" ccso:worksFor <https://data-ethics.org/university/humboldt-universit%C3%A4t-zu-berlin> .
+
+"Jianjun Yang" ccso:worksFor <https://data-ethics.org/university/university-of-north-georgia> .
+
+"Jill Dolata" ccso:worksFor <https://data-ethics.org/university/oregon-health-%26-science-university> .
+
+"Jim Hendler" ccso:worksFor <https://data-ethics.org/university/rensselaer-polytechnic-inst> .
+
+"Joanna Bryson" ccso:worksFor <https://data-ethics.org/university/university-of-bath> .
+
+"Jochen Leidner" ccso:worksFor <https://data-ethics.org/university/university-of-zurich> .
+
+"Joe Edelman" ccso:worksFor <https://data-ethics.org/university/professional-development-at-facebook%2C-google%2C-etc> .
+
+"Joey J. Lee" ccso:worksFor <https://data-ethics.org/university/columbia-university---teachers-college> .
+
+"John Edgar" ccso:worksFor <https://data-ethics.org/university/simon-fraser-university> .
+
+"John Lavagnino" ccso:worksFor <https://data-ethics.org/university/king%27s-college-london> .
+
+"Joi Ito" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology%2C-harvard-university> .
+
+"Jonathan Beever" ccso:worksFor <https://data-ethics.org/university/university-of-central-florida> .
+
+"Jonathan Morgan" ccso:worksFor <https://data-ethics.org/university/university-of-washington> .
+
+"Jonathan T. Morgan" ccso:worksFor <https://data-ethics.org/university/university-of-washington> .
+
+"Jordan Eschler" ccso:worksFor <https://data-ethics.org/university/northwestern-university> .
+
+"Joseph Halpern" ccso:worksFor <https://data-ethics.org/university/cornell-university> .
+
+"Julia Stoyanovich" ccso:worksFor <https://data-ethics.org/university/new-york-university> .
+
+"Justin Obara + additonal temporary instructors as needed." ccso:worksFor <https://data-ethics.org/university/university-of-massachusetts-amherst> .
+
+"Karen Landolt" ccso:worksFor <https://data-ethics.org/university/university-of-texas-at-austin> .
+
+"Karen Levy" ccso:worksFor <https://data-ethics.org/university/cornell-university> .
+
+"Karen Schrier" ccso:worksFor <https://data-ethics.org/university/marist-college> .
+
+"Katie Shelef" ccso:worksFor <https://data-ethics.org/university/university-of-utah> .
+
+"Katie Shilton" ccso:worksFor <https://data-ethics.org/university/university-of-maryland---college-park> .
+
+"Katy Pearce" ccso:worksFor <https://data-ethics.org/university/university-of-washington> .
+
+"Keith Abney" ccso:worksFor <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo> .
+
+"Keith O'Hara" ccso:worksFor <https://data-ethics.org/university/bard-college> .
+
+"Keith Winstein" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Kevin Brooks" ccso:worksFor <https://data-ethics.org/university/lakehead-university-> .
+
+"Laura Moy" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university> .
+
+"Laura Norén" ccso:worksFor <https://data-ethics.org/university/new-york-university> .
+
+"Laura Stanley" ccso:worksFor <https://data-ethics.org/university/montana-state-university-> .
+
+"Leah Buechley + others on a semester by semester basis" ccso:worksFor <https://data-ethics.org/university/university-of-new-mexico> .
+
+"Leo Ureel" ccso:worksFor <https://data-ethics.org/university/michigan-technological-university> .
+
+"Linda Ott" ccso:worksFor <https://data-ethics.org/university/michigan-technological-university> .
+
+"Lindsay Poirier" ccso:worksFor <https://data-ethics.org/university/uc-davis> .
+
+"Maggie Melo" ccso:worksFor <https://data-ethics.org/university/university-of-north-carolina-at-chapel-hill> .
+
+"Marco Cremonini" ccso:worksFor <https://data-ethics.org/university/university-of-milan> .
+
+"Margaret Hagan" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Margo Boenig-Liptsin" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Marguerite Barry" ccso:worksFor <https://data-ethics.org/university/university-college-dublin> .
+
+"Mark Hedges" ccso:worksFor <https://data-ethics.org/university/king%27s-college-london> .
+
+"Mark Sprevak" ccso:worksFor <https://data-ethics.org/university/university-of-edinburgh> .
+
+"Marty J. Wolf" ccso:worksFor <https://data-ethics.org/university/bemidji-state-university> .
+
+"Mate Szabo" ccso:worksFor <https://data-ethics.org/university/carnegie-mellon-university> .
+
+"Matt Jones" ccso:worksFor <https://data-ethics.org/university/columbia-university> .
+
+"Matthew Kroll" ccso:worksFor <https://data-ethics.org/university/purdue-university> .
+
+"Matthias Fassl" ccso:worksFor <https://data-ethics.org/university/tu-wien> .
+
+"Matthias Scheutz" ccso:worksFor <https://data-ethics.org/university/tufts-university> .
+
+"Michael Drexler" ccso:worksFor <https://data-ethics.org/university/bucknell-university> .
+
+"Michael Fisher" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+"Michael Fourman & Stuart Anderson" ccso:worksFor <https://data-ethics.org/university/university-of-edinburgh> .
+
+"Michael Steinmann" ccso:worksFor <https://data-ethics.org/university/stevens-institute-of-technology> .
+
+"Michael Zimmer" ccso:worksFor <https://data-ethics.org/university/university-of-wisconsin-milwaukee> .
+
+"Michal (Michele) Rapoport" ccso:worksFor <https://data-ethics.org/university/tel-aviv-university> .
+
+"Michelle Trim" ccso:worksFor <https://data-ethics.org/university/university-of-massachusetts-amherst> .
+
+"Michelle Trim (lead)" ccso:worksFor <https://data-ethics.org/university/university-of-massachusetts-amherst> .
+
+"Mike Ananny & Colin Maclay" ccso:worksFor <https://data-ethics.org/university/university-of-southern-california> .
+
+"Mike DeVito (Winter 2018)" ccso:worksFor <https://data-ethics.org/university/northwestern-university> .
+
+"Mike Smith & Jim Waldo" ccso:worksFor <https://data-ethics.org/university/harvard-university> .
+
+"Miranda Schreurs" ccso:worksFor <https://data-ethics.org/university/tu-munich> .
+
+"Morgan G. Ames" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Moritz Hardt" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Mário J Silva" ccso:worksFor <https://data-ethics.org/university/university-of-lisbon> .
+
+"Neha Narula" ccso:worksFor <https://data-ethics.org/university/mit> .
+
+"Nicolas Miailhe" ccso:worksFor <https://data-ethics.org/university/sciences-po-paris> .
+
+"Nicole Mogul " ccso:worksFor <https://data-ethics.org/university/university-of-maryland%2C-college-park-> .
+
+"Orlin Vakarelov" ccso:worksFor <https://data-ethics.org/university/university-of-british-columbia> .
+
+"Os Keyes" ccso:worksFor <https://data-ethics.org/university/university-of-washington> .
+
+"Paola Di Maio" ccso:worksFor <https://data-ethics.org/university/center-for-technology-ethics> .
+
+"Patrick Lin" ccso:worksFor <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo> .
+
+"Paul Duguid" ccso:worksFor <https://data-ethics.org/university/nan> .
+
+"Prasad Tadepalli" ccso:worksFor <https://data-ethics.org/university/oregon-state-university> .
+
+"Rajesh Veeraraghavan" ccso:worksFor <https://data-ethics.org/university/georgetown-university> .
+
+"Raquel Lugo Vecchini" ccso:worksFor <https://data-ethics.org/university/interamerican-university-of-puerto-rico> .
+
+"Rebecca Bates" ccso:worksFor <https://data-ethics.org/university/minnesota-state-university%2C-mankato> .
+
+"Reginold Royston" ccso:worksFor <https://data-ethics.org/university/university-of-wisconsin---madison> .
+
+"Rhys Lindmark" ccso:worksFor <https://data-ethics.org/university/mit> .
+
+"Richard Arias-Hernandez" ccso:worksFor <https://data-ethics.org/university/university-of-british-columbia> .
+
+"Robert McGinn" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Ross Anderson" ccso:worksFor <https://data-ethics.org/university/university-of-cambridge> .
+
+"Russ Altman" ccso:worksFor <https://data-ethics.org/university/it-university-of-copenhagen> .
+
+"Ryan Calo" ccso:worksFor <https://data-ethics.org/university/university-of-washington> .
+
+"Salman Azhar" ccso:worksFor <https://data-ethics.org/university/duke---fuqua-school-of-business> .
+
+"Samantha Close" ccso:worksFor <https://data-ethics.org/university/depaul-university> .
+
+"""Samer Hassan <samer@ucm.es>\r
+Sara Román <sroman@ucm.es>\r
+Marcos Sánchez-Elez <marcos@ucm.es>""" ccso:worksFor <https://data-ethics.org/university/univ.-complutense-de-madrid> .
+
+"Sandra Lee" ccso:worksFor <https://data-ethics.org/university/stanford-university> .
+
+"Sara Mannheimer" ccso:worksFor <https://data-ethics.org/university/montana-state-university> .
+
+"Sara Wilford" ccso:worksFor <https://data-ethics.org/university/de-montfort-university> .
+
+"Sarah Alsulaiman" ccso:worksFor <https://data-ethics.org/university/king-saud-university> .
+
+"Sarah Connell" ccso:worksFor <https://data-ethics.org/university/northeastern-university> .
+
+"Sarita Schoenebeck" ccso:worksFor <https://data-ethics.org/university/university-of-michigan> .
+
+"Sasha Costanza-Chock" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+"Scott R. Stroud" ccso:worksFor <https://data-ethics.org/university/university-of-texas-at-austin> .
+
+"Scott W. H. Young" ccso:worksFor <https://data-ethics.org/university/montana-state-university> .
+
+"Shannon Vallor" ccso:worksFor <https://data-ethics.org/university/santa-clara-university> .
+
+"Shannon Vallor with Arvind Narayanan" ccso:worksFor <https://data-ethics.org/university/santa-clara-university> .
+
+"Shion Guha" ccso:worksFor <https://data-ethics.org/university/marquette-university> .
+
+"Shreeharsh Kelkar" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Simon Chignard" ccso:worksFor <https://data-ethics.org/university/sciences-po%2C-paris> .
+
+"Smaranda Muresan" ccso:worksFor <https://data-ethics.org/university/columbia-university> .
+
+"Solon Barocas" ccso:worksFor <https://data-ethics.org/university/cornell-university> .
+
+"Sorelle Friedler" ccso:worksFor <https://data-ethics.org/university/haverford-college> .
+
+"Stephanie Croft" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Steve Jackson" ccso:worksFor <https://data-ethics.org/university/cornell-university> .
+
+"Steven Bedrick" ccso:worksFor <https://data-ethics.org/university/oregon-health-%26-science-university> .
+
+"Steven M. Bellovin" ccso:worksFor <https://data-ethics.org/university/columbia-university> .
+
+"Stuart Geiger" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Suresh Venkatasubramanian" ccso:worksFor <https://data-ethics.org/university/university-of-utah> .
+
+"T.L. Taylor" ccso:worksFor <https://data-ethics.org/university/mit> .
+
+"Taft Broome" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> .
+
+"Teresa Kouri Kissel" ccso:worksFor <https://data-ethics.org/university/old-dominion-university> .
+
+"Thomas Arnold" ccso:worksFor <https://data-ethics.org/university/tufts-university> .
+
+"Tim Gorichanaz" ccso:worksFor <https://data-ethics.org/university/drexel-university> .
+
+"Timothy Webmoor" ccso:worksFor <https://data-ethics.org/university/university-of-colorado-boulder> .
+
+"Tom Ewing" ccso:worksFor <https://data-ethics.org/university/virginia-tech> .
+
+"""Tom Williams\r
+Qin Zhu""" ccso:worksFor <https://data-ethics.org/university/colorado-school-of-mines> .
+
+"Tracy Lewis-Williams" ccso:worksFor <https://data-ethics.org/university/university-of-wisconsin---madison> .
+
+"Valerie Racine" ccso:worksFor <https://data-ethics.org/university/western-new-england-university> .
+
+"Varies; Phillip Rogaway" ccso:worksFor <https://data-ethics.org/university/uc-davis> .
+
+"Yulia Tsvetkov" ccso:worksFor <https://data-ethics.org/university/carnegie-mellon-university> .
+
+"Yvette Pearson" ccso:worksFor <https://data-ethics.org/university/old-dominion-university> .
+
+"Zach Rentz" ccso:worksFor <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo> .
+
+"colleagues" ccso:worksFor <https://data-ethics.org/university/purdue-university> .
+
+"colleagues (Massimo Mazzotti" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"multiple professors" ccso:worksFor <https://data-ethics.org/university/depaul-university> .
+
+"often adjuncts" ccso:worksFor <https://data-ethics.org/university/university-of-new-mexico> .
+
+"others)" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"others." ccso:worksFor <https://data-ethics.org/university/uc-davis> .
+
+"possibly more soon" ccso:worksFor <https://data-ethics.org/university/northwestern-university> .
+
+"various" ccso:worksFor <https://data-ethics.org/university/university-of-texas-at-austin> .
+
+<https://data-ethics.org/university/arizona-state-university> a ccso:University ;
+    owl:sameAs wikidata:Q670897 .
+
+<https://data-ethics.org/university/bard-college> a ccso:University ;
+    owl:sameAs wikidata:Q49109 .
+
+<https://data-ethics.org/university/bauhaus-universit%C3%A4t-weimar%2C-germany> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/bemidji-state-university> a ccso:University ;
+    owl:sameAs wikidata:Q816377 .
+
+<https://data-ethics.org/university/boise-state-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/boise-state-university> .
+
+<https://data-ethics.org/university/brown-university> a ccso:University ;
+    owl:sameAs wikidata:Q49114 .
+
+<https://data-ethics.org/university/bucknell-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/bucknell-university> .
+
+<https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo> .
+
+<https://data-ethics.org/university/california-state-university-fullerton/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/california-state-university-fullerton> .
+
+<https://data-ethics.org/university/calvin-university> a ccso:University ;
+    owl:sameAs wikidata:Q2698482 .
+
+<https://data-ethics.org/university/carnegie-mellon-university/department/design> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/carnegie-mellon-university> .
+
+<https://data-ethics.org/university/carnegie-mellon-university/department/english> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/carnegie-mellon-university> .
+
+<https://data-ethics.org/university/center-for-technology-ethics> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/colorado-school-of-mines> a ccso:University ;
+    owl:sameAs wikidata:Q1111367 .
+
+<https://data-ethics.org/university/columbia-university---teachers-college> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/columbia-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/columbia-university> .
+
+<https://data-ethics.org/university/cornell-university/department/information-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/cornell-university> .
+
+<https://data-ethics.org/university/dartmouth-college> a ccso:University ;
+    owl:sameAs wikidata:Q49116 .
+
+<https://data-ethics.org/university/de-montfort-university/department/computer-science-and-informatics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/de-montfort-university> .
+
+<https://data-ethics.org/university/drexel-university> a ccso:University ;
+    owl:sameAs wikidata:Q603034 .
+
+<https://data-ethics.org/university/duke---fuqua-school-of-business> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/duke-law-school> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/earlham-college> a ccso:University ;
+    owl:sameAs wikidata:Q5326502 .
+
+<https://data-ethics.org/university/fachhochschule-st.-p%C3%B6lten> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/fachhochschule-st.-p%C3%B6lten/department/informatik-%26-security> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/fachhochschule-st.-p%C3%B6lten> .
+
+<https://data-ethics.org/university/fielding-graduate-university> a ccso:University ;
+    owl:sameAs wikidata:Q5447173 .
+
+<https://data-ethics.org/university/georgetown-university/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/georgetown-university> .
+
+<https://data-ethics.org/university/georgia-institute-of-technology> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/harvard-college> a ccso:University ;
+    owl:sameAs wikidata:Q49123 .
+
+<https://data-ethics.org/university/haverford-college> a ccso:University ;
+    owl:sameAs wikidata:Q579611 .
+
+<https://data-ethics.org/university/hofstra-university> a ccso:University ;
+    owl:sameAs wikidata:Q1623314 .
+
+<https://data-ethics.org/university/humboldt-universit%C3%A4t-zu-berlin> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/indian-institute-of-technology-delhi> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/interamerican-university-of-puerto-rico> a ccso:University ;
+    owl:sameAs wikidata:Q4570802 .
+
+<https://data-ethics.org/university/interdisciplinary-center-herzliya> a ccso:University ;
+    owl:sameAs wikidata:Q2908845 .
+
+<https://data-ethics.org/university/loyola-university-chicago> a ccso:University ;
+    owl:sameAs wikidata:Q1537759 .
+
+<https://data-ethics.org/university/macalester-college> a ccso:University ;
+    owl:sameAs wikidata:Q1141571 .
+
+<https://data-ethics.org/university/marist-college> a ccso:University ;
+    owl:sameAs wikidata:Q6765664 .
+
+<https://data-ethics.org/university/marquette-university> a ccso:University ;
+    owl:sameAs wikidata:Q188370 .
+
+<https://data-ethics.org/university/mcgill-university> a ccso:University ;
+    owl:sameAs wikidata:Q201492 .
+
+<https://data-ethics.org/university/minnesota-state-university%2C-mankato> a ccso:University ;
+    owl:sameAs wikidata:Q1937387 .
+
+<https://data-ethics.org/university/montana-state-university-> a ccso:University ;
+    owl:sameAs wikidata:Q1861687 .
+
+<https://data-ethics.org/university/north-carolina-state-university> a ccso:University ;
+    owl:sameAs wikidata:Q1132346 .
+
+<https://data-ethics.org/university/northeastern-university/department/law> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/northeastern-university> .
+
+<https://data-ethics.org/university/open-access-course-materials-cte> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/oregon-state-university> a ccso:University ;
+    owl:sameAs wikidata:Q861888 .
+
+<https://data-ethics.org/university/penn-state-university> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/portland-state-university> a ccso:University ;
+    owl:sameAs wikidata:Q1771717 .
+
+<https://data-ethics.org/university/princeton-university> a ccso:University ;
+    owl:sameAs wikidata:Q21578 .
+
+<https://data-ethics.org/university/professional-development-at-facebook%2C-google%2C-etc> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/r> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/rochester-institute-of-technology> a ccso:University ;
+    owl:sameAs wikidata:Q2140778 .
+
+<https://data-ethics.org/university/rochester-institute-of-technology/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/rochester-institute-of-technology> .
+
+<https://data-ethics.org/university/santa-clara-university/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/santa-clara-university> .
+
+<https://data-ethics.org/university/sciences-po-paris> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/sciences-po-paris---european-campus> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/seattle-university> a ccso:University ;
+    owl:sameAs wikidata:Q615873 .
+
+<https://data-ethics.org/university/simon-fraser-university> a ccso:University ;
+    owl:sameAs wikidata:Q201603 .
+
+<https://data-ethics.org/university/st.-olaf-college> a ccso:University ;
+    owl:sameAs wikidata:Q1515763 .
+
+<https://data-ethics.org/university/stevens-institute-of-technology> a ccso:University ;
+    owl:sameAs wikidata:Q657222 .
+
+<https://data-ethics.org/university/technion%2C-univeristy-of-haifa> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/tel-aviv-university> a ccso:University ;
+    owl:sameAs wikidata:Q319239 .
+
+<https://data-ethics.org/university/texas-a%26m-university> a ccso:University ;
+    owl:sameAs wikidata:Q49212 .
+
+<https://data-ethics.org/university/the-new-school> a ccso:University ;
+    owl:sameAs wikidata:Q599316 .
+
+<https://data-ethics.org/university/the-university-of-sydney> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/the-university-of-texas-at-dallas> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/tilburg-university%2C-the-netherlandsu> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/tu-munich> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/tufts-university/fletcher> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/uc-berkeley-> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/uc-berkeley/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/uc-san-diego> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/univ.-complutense-de-madrid> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/universidad-de-chile> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/university-college-dublin> a ccso:University ;
+    owl:sameAs wikidata:Q1068258 .
+
+<https://data-ethics.org/university/university-of-alaska> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/university-of-bath> a ccso:University ;
+    owl:sameAs wikidata:Q1422458 .
+
+<https://data-ethics.org/university/university-of-british-columbia/department/ischool> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-british-columbia> .
+
+<https://data-ethics.org/university/university-of-central-florida> a ccso:University ;
+    owl:sameAs wikidata:Q143451 .
+
+<https://data-ethics.org/university/university-of-colorado-boulder/department/information-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-colorado-boulder> .
+
+<https://data-ethics.org/university/university-of-houston> a ccso:University ;
+    owl:sameAs wikidata:Q1472358 .
+
+<https://data-ethics.org/university/university-of-illinois-at-chicago> a ccso:University ;
+    owl:sameAs wikidata:Q955764 .
+
+<https://data-ethics.org/university/university-of-kentucky/department/school-of-information-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-kentucky> .
+
+<https://data-ethics.org/university/university-of-lisbon> a ccso:University ;
+    owl:sameAs wikidata:Q1122926 .
+
+<https://data-ethics.org/university/university-of-maryland%2C-college-park-> a ccso:University ;
+    owl:sameAs wikidata:Q503415 .
+
+<https://data-ethics.org/university/university-of-maryland---baltimore-county-%28umbc%29> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/university-of-massachusetts-amherst/department/college-of-computer-and-information-sciences> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-massachusetts-amherst> .
+
+<https://data-ethics.org/university/university-of-michigan> a ccso:University ;
+    owl:sameAs wikidata:Q230492 .
+
+<https://data-ethics.org/university/university-of-milan> a ccso:University ;
+    owl:sameAs wikidata:Q46210 .
+
+<https://data-ethics.org/university/university-of-north-georgia> a ccso:University ;
+    owl:sameAs wikidata:Q7895970 .
+
+<https://data-ethics.org/university/university-of-ottawa> a ccso:University ;
+    owl:sameAs wikidata:Q627969 .
+
+<https://data-ethics.org/university/university-of-pennsylvania-> a ccso:University ;
+    owl:sameAs wikidata:Q49117 .
+
+<https://data-ethics.org/university/university-of-pennsylvania---the-wharton-school> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/university-of-pennsylvania---the-wharton-school/department/legal-studies-%26-business-ethics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-pennsylvania---the-wharton-school> .
+
+<https://data-ethics.org/university/university-of-southern-california> a ccso:University ;
+    owl:sameAs wikidata:Q4614 .
+
+<https://data-ethics.org/university/university-of-technology-sydney> a ccso:University ;
+    owl:sameAs wikidata:Q1145731 .
+
+<https://data-ethics.org/university/university-of-udine-%28italy%29-and-of-klagenfurt-%28austria%29-double-degree> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/university-of-utah/department/entertainment-arts-%26-engineering> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-utah> .
+
+<https://data-ethics.org/university/university-of-washington-tacoma> a ccso:University ;
+    owl:sameAs wikidata:Q7896583 .
+
+<https://data-ethics.org/university/university-of-washington-tacoma/department/urban-studies-%28gis-is-housed-here%29> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-washington-tacoma> .
+
+<https://data-ethics.org/university/university-of-washington/department/the-information-school> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-washington> .
+
+<https://data-ethics.org/university/university-of-waterloo> a ccso:University ;
+    owl:sameAs wikidata:Q1049470 .
+
+<https://data-ethics.org/university/university-of-wisconsin-milwaukee/department/school-of-information-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-wisconsin-milwaukee> .
+
+<https://data-ethics.org/university/university-of-zurich> a ccso:University ;
+    owl:sameAs wikidata:Q206702 .
+
+<https://data-ethics.org/university/victoria-university-of-wellington/department/school-of-information-management> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/victoria-university-of-wellington> .
+
+<https://data-ethics.org/university/virginia-tech/department/science%2C-technology%2C-and-society> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/virginia-tech> .
+
+<https://data-ethics.org/university/wellesley-college> a ccso:University ;
+    owl:sameAs wikidata:Q49205 .
+
+<https://data-ethics.org/university/western-new-england-university> a ccso:University ;
+    owl:sameAs wikidata:Q7988102 .
+
+<https://data-ethics.org/university/wilfrid-laurier-university> a ccso:University ;
+    owl:sameAs wikidata:Q2166701 .
+
+<https://data-ethics.org/university/wilfrid-laurier-university/department/communication-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/wilfrid-laurier-university> .
+
+<https://data-ethics.org/university/yale-university> a ccso:University ;
+    owl:sameAs wikidata:Q49112 .
+
+"" ccso:worksFor <https://data-ethics.org/university/saint-louis-university>,
+        <https://data-ethics.org/university/uc-berkeley> .
+
+"Ahmed Ansari" ccso:worksFor <https://data-ethics.org/university/carnegie-mellon-university> .
+
+"Alexa Koenig" ccso:worksFor <https://data-ethics.org/university/uc-berkeley>,
+        <https://data-ethics.org/university/uc-berkeley-> .
+
+"Andrea Matwyshyn" ccso:worksFor <https://data-ethics.org/university/northeastern-university> .
+
+"Casey Fiesler" ccso:worksFor <https://data-ethics.org/university/university-of-colorado-boulder> .
+
+"Catherine Flick" ccso:worksFor <https://data-ethics.org/university/de-montfort-university> .
+
+"Chris Hoofnagle" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Christopher Warren" ccso:worksFor <https://data-ethics.org/university/carnegie-mellon-university> .
+
+"Daniel Weitzner" ccso:worksFor <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29>,
+        <https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university> .
+
+"Davi Ottenheimer" ccso:worksFor <https://data-ethics.org/university/fachhochschule-st.-p%C3%B6lten> .
+
+"Dorothea Salo" ccso:worksFor <https://data-ethics.org/university/university-of-wisconsin---madison> .
+
+"Evan Selinger" ccso:worksFor <https://data-ethics.org/university/rochester-institute-of-technology> .
+
+"Irina Shklovski" ccso:worksFor <https://data-ethics.org/university/it-university-of-copenhagen> .
+
+"Jack Stilgoe" ccso:worksFor <https://data-ethics.org/university/university-college-london> .
+
+"Jason Ohler" ccso:worksFor <https://data-ethics.org/university/fielding-graduate-university>,
+        <https://data-ethics.org/university/university-of-alaska> .
+
+"Jenna Burrell" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Jeremy Hunsinger" ccso:worksFor <https://data-ethics.org/university/wilfrid-laurier-university> .
+
+"Jim Thatcher" ccso:worksFor <https://data-ethics.org/university/university-of-washington-tacoma> .
+
+"Jonathan Zittrain" ccso:worksFor <https://data-ethics.org/university/harvard-university>,
+        <https://data-ethics.org/university/massachusetts-institute-of-technology%2C-harvard-university> .
+
+"Jose Zagal" ccso:worksFor <https://data-ethics.org/university/university-of-utah> .
+
+"Kevin Werbach" ccso:worksFor <https://data-ethics.org/university/university-of-pennsylvania---the-wharton-school> .
+
+"Khalid Kadir" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Leslie Harris" ccso:worksFor <https://data-ethics.org/university/georgetown-university> .
+
+"Maggie Little" ccso:worksFor <https://data-ethics.org/university/georgetown-university> .
+
+"Mark MacCarthy" ccso:worksFor <https://data-ethics.org/university/georgetown-university>,
+        <https://data-ethics.org/university/r> .
+
+"Morgan Ames" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Nathan Good" ccso:worksFor <https://data-ethics.org/university/uc-berkeley> .
+
+"Nicholas Proferes" ccso:worksFor <https://data-ethics.org/university/university-of-kentucky> .
+
+"Ryan Jenkins" ccso:worksFor <https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo> .
+
+"Vance Ricks" ccso:worksFor <https://data-ethics.org/university/guilford-college> .
+
+"Woodrow Hartzog" ccso:worksFor <https://data-ethics.org/university/northeastern-university> .
+
+"others" ccso:worksFor <https://data-ethics.org/university/nan>,
+        <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/boise-state-university> a ccso:University ;
+    owl:sameAs wikidata:Q891082 .
+
+<https://data-ethics.org/university/california-state-university-fullerton> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/earlham-college/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/earlham-college> .
+
+<https://data-ethics.org/university/guilford-college> a ccso:University ;
+    owl:sameAs wikidata:Q5615915 .
+
+<https://data-ethics.org/university/king%27s-college-london> a ccso:University ;
+    owl:sameAs wikidata:Q245247 .
+
+<https://data-ethics.org/university/king-saud-university> a ccso:University ;
+    owl:sameAs wikidata:Q1752043 .
+
+<https://data-ethics.org/university/lakehead-university-> a ccso:University ;
+    owl:sameAs wikidata:Q1165215 .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology%2C-harvard-university> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/michigan-technological-university> a ccso:University ;
+    owl:sameAs wikidata:Q12432 .
+
+<https://data-ethics.org/university/montana-state-university> a ccso:University ;
+    owl:sameAs wikidata:Q1861687 .
+
+<https://data-ethics.org/university/nan/department/school-of-information> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/nan> .
+
+<https://data-ethics.org/university/oregon-health-%26-science-university> a ccso:University ;
+    owl:sameAs wikidata:Q282097 .
+
+<https://data-ethics.org/university/santa-clara-university> a ccso:University ;
+    owl:sameAs wikidata:Q992830 .
+
+<https://data-ethics.org/university/sciences-po%2C-paris> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/swiss-federal-institute-of-technology> a ccso:University ;
+    owl:sameAs wikidata:Q269558 .
+
+<https://data-ethics.org/university/tufts-university> a ccso:University ;
+    owl:sameAs wikidata:Q49120 .
+
+<https://data-ethics.org/university/university-college-london> a ccso:University ;
+    owl:sameAs wikidata:Q193196 .
+
+<https://data-ethics.org/university/university-college-london/department/science-and-technology-studies> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-college-london> .
+
+<https://data-ethics.org/university/university-of-hong-kong> a ccso:University ;
+    owl:sameAs wikidata:Q15568 .
+
+<https://data-ethics.org/university/university-of-kentucky> a ccso:University ;
+    owl:sameAs wikidata:Q1360303 .
+
+<https://data-ethics.org/university/university-of-maryland---college-park/department/information-school> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-maryland---college-park> .
+
+<https://data-ethics.org/university/university-of-new-mexico> a ccso:University ;
+    owl:sameAs wikidata:Q1190812 .
+
+<https://data-ethics.org/university/university-of-north-carolina-at-chapel-hill> a ccso:University ;
+    owl:sameAs wikidata:Q192334 .
+
+<https://data-ethics.org/university/university-of-notre-dame/department/it%2C-analytics%2C-%26-operations> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-notre-dame> .
+
+<https://data-ethics.org/university/university-of-texas-at-austin/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-texas-at-austin> .
+
+<https://data-ethics.org/university/university-of-wisconsin---madison/department/information-school> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/university-of-wisconsin---madison> .
+
+<https://data-ethics.org/university/university-of-wisconsin-milwaukee> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+"Anna Lauren Hoffmann" ccso:worksFor <https://data-ethics.org/university/uc-berkeley>,
+        <https://data-ethics.org/university/university-of-washington> .
+
+"Elizabeth Edenberg" ccso:worksFor <https://data-ethics.org/university/georgetown-university> .
+
+"L. Felipe Perrone" ccso:worksFor <https://data-ethics.org/university/bucknell-university> .
+
+"Lisa Nathan" ccso:worksFor <https://data-ethics.org/university/university-of-british-columbia> .
+
+"Meg Leta Jones" ccso:worksFor <https://data-ethics.org/university/georgetown-university> .
+
+"Multiple professors" ccso:worksFor <https://data-ethics.org/university/boise-state-university>,
+        <https://data-ethics.org/university/california-state-university-fullerton>,
+        <https://data-ethics.org/university/depaul-university> .
+
+"Peter Suber" ccso:worksFor <https://data-ethics.org/university/earlham-college> .
+
+<https://data-ethics.org/university/bucknell-university> a ccso:University ;
+    owl:sameAs wikidata:Q3444679 .
+
+<https://data-ethics.org/university/de-montfort-university> a ccso:University ;
+    owl:sameAs wikidata:Q3551402 .
+
+<https://data-ethics.org/university/georgetown-university/department/communication%2C-culture-%26-technology> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/georgetown-university> .
+
+<https://data-ethics.org/university/harvard-university> a ccso:University ;
+    owl:sameAs wikidata:Q13371 .
+
+<https://data-ethics.org/university/indiana-university-bloomington/department/informatics> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/indiana-university-bloomington> .
+
+<https://data-ethics.org/university/rensselaer-polytechnic-inst> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/stanford-university/department/computer-science> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/stanford-university> .
+
+<https://data-ethics.org/university/university-of-colorado-boulder> a ccso:University ;
+    owl:sameAs wikidata:Q736674 .
+
+<https://data-ethics.org/university/university-of-edinburgh> a ccso:University ;
+    owl:sameAs wikidata:Q160302 .
+
+<https://data-ethics.org/university/university-of-maryland---college-park> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/university-of-massachusetts-amherst> a ccso:University ;
+    owl:sameAs wikidata:Q15142 .
+
+<https://data-ethics.org/university/victoria-university-of-wellington> a ccso:University ;
+    owl:sameAs wikidata:Q1150437 .
+
+"D.E. Wittkower" ccso:worksFor <https://data-ethics.org/university/old-dominion-university> .
+
+"Scott Nestler" ccso:worksFor <https://data-ethics.org/university/university-of-notre-dame> .
+
+<https://data-ethics.org/university/mit> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/old-dominion-university> a ccso:University ;
+    owl:sameAs wikidata:Q1474100 .
+
+<https://data-ethics.org/university/purdue-university> a ccso:University ;
+    owl:sameAs wikidata:Q217741 .
+
+<https://data-ethics.org/university/uc-davis> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/university-of-notre-dame> a ccso:University ;
+    owl:sameAs wikidata:Q178848 .
+
+<https://data-ethics.org/university/university-of-utah> a ccso:University ;
+    owl:sameAs wikidata:Q168515 .
+
+<https://data-ethics.org/university/university-of-wisconsin---madison> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/virginia-tech> a ccso:University ;
+    owl:sameAs wikidata:Q65379 .
+
+<https://data-ethics.org/university/california-polytechnic-state-univ.%2C-san-luis-obispo> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/indiana-university-bloomington> a ccso:University ;
+    owl:sameAs wikidata:Q1079140 .
+
+<https://data-ethics.org/university/it-university-of-copenhagen> a ccso:University ;
+    owl:sameAs wikidata:Q124882 .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29---georgetown-university> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/new-york-university> a ccso:University ;
+    owl:sameAs wikidata:Q49210 .
+
+<https://data-ethics.org/university/old-dominion-university/department/philosophy> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/old-dominion-university> .
+
+<https://data-ethics.org/university/saint-louis-university> a ccso:University ;
+    owl:sameAs wikidata:Q734774 .
+
+<https://data-ethics.org/university/tu-wien> a ccso:University ;
+    owl:sameAs wikidata:Q689400 .
+
+<https://data-ethics.org/university/university-of-cambridge> a ccso:University ;
+    owl:sameAs wikidata:Q35794 .
+
+<https://data-ethics.org/university/university-of-texas-at-austin> a ccso:University ;
+    owl:sameAs wikidata:Q49213 .
+
+"Deirdre Mulligan" ccso:worksFor <https://data-ethics.org/university/nan>,
+        <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/northwestern-university> a ccso:University ;
+    owl:sameAs wikidata:Q309350 .
+
+<https://data-ethics.org/university/depaul-university> a ccso:University ;
+    owl:sameAs wikidata:Q1179603 .
+
+<https://data-ethics.org/university/northeastern-university> a ccso:University ;
+    owl:sameAs wikidata:Q37548 .
+
+<https://data-ethics.org/university/columbia-university> a ccso:University ;
+    owl:sameAs wikidata:Q49088 .
+
+<https://data-ethics.org/university/cornell-university> a ccso:University ;
+    owl:sameAs wikidata:Q49115 .
+
+<https://data-ethics.org/university/nan> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/massachusetts-institute-of-technology-%28mit%29> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
+<https://data-ethics.org/university/university-of-british-columbia> a ccso:University ;
+    owl:sameAs wikidata:Q391028 .
+
+"Various" ccso:worksFor <https://data-ethics.org/university/depaul-university>,
+        <https://data-ethics.org/university/georgia-institute-of-technology>,
+        <https://data-ethics.org/university/indiana-university-bloomington>,
+        <https://data-ethics.org/university/seattle-university>,
+        <https://data-ethics.org/university/the-university-of-texas-at-dallas>,
+        <https://data-ethics.org/university/uc-berkeley>,
+        <https://data-ethics.org/university/university-of-maryland---baltimore-county-%28umbc%29>,
+        <https://data-ethics.org/university/university-of-maryland---college-park> .
+
+<https://data-ethics.org/university/uc-berkeley/department/school-of-information> a ccso:Department ;
+    ccso:memberOf <https://data-ethics.org/university/uc-berkeley> .
+
+<https://data-ethics.org/university/carnegie-mellon-university> a ccso:University ;
+    owl:sameAs wikidata:Q190080 .
+
+<https://data-ethics.org/university/georgetown-university> a ccso:University ;
+    owl:sameAs wikidata:Q333886 .
+
+<https://data-ethics.org/university/university-of-washington> a ccso:University ;
+    owl:sameAs wikidata:Q219563 .
+
+"NaN"^^xsd:double ccso:worksFor <https://data-ethics.org/university/indiana-university-bloomington>,
+        <https://data-ethics.org/university/open-access-course-materials-cte>,
+        <https://data-ethics.org/university/st.-olaf-college>,
+        <https://data-ethics.org/university/technion%2C-univeristy-of-haifa>,
+        <https://data-ethics.org/university/the-university-of-sydney>,
+        <https://data-ethics.org/university/tilburg-university%2C-the-netherlandsu>,
+        <https://data-ethics.org/university/tufts-university/fletcher>,
+        <https://data-ethics.org/university/uc-berkeley>,
+        <https://data-ethics.org/university/university-of-cambridge>,
+        <https://data-ethics.org/university/university-of-udine-%28italy%29-and-of-klagenfurt-%28austria%29-double-degree>,
+        <https://data-ethics.org/university/university-of-waterloo>,
+        <https://data-ethics.org/university/university-of-wisconsin-milwaukee> .
+
+<https://data-ethics.org/university/stanford-university> a ccso:University ;
+    owl:sameAs wikidata:Q41506 .
+
+<https://data-ethics.org/university/uc-berkeley> a ccso:University ;
+    owl:sameAs <https://wikidata.org/wiki/-1> .
+
