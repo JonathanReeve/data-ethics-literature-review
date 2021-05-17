@@ -1,0 +1,47 @@
+* Contributing
+
+Contributing to this project involves these steps:
+
+1. Pick [[https://github.com/JonathanReeve/data-ethics-literature-review/issues][an issue from the issue tracker]]. If an issue doesn't exist for what you want to work on, add an issue
+2. Leave a note there in the comments, saying that you're going to start work on the issue
+3. Assign yourself to the issue
+4. Work on the issue
+5. Submit a pull request with the relevant code. If it fixes the issue, make sure to write "fixes #32" or equivalent in your commit.
+
+* Stuff You Should Know (Or Learn)
+
+Here are some things to learn, in order to understand the code in this repository:
+
+** Concepts, Languages
+
+1. Semantic Web / Linked Open Data (LOD). Resources:
+
+   - [[https://www.cambridgesemantics.com/blog/semantic-university/intro-semantic-web/][An introductory article]]
+   - [[https://cs.hofstra.edu/~knarig/SemanticWeb/][A course at Hofstra]]
+   - [[https://www.w3.org/TR/turtle/][An introduction to Turtle syntax]]
+
+2. Python (programming language)
+3. SPARQL (graph query language)
+
+   - [[https://www.dataversity.net/introduction-to-sparql/][An introductory tutorial via Dataversity]]
+   - [[https://www.stardog.com/tutorials/sparql/][Tutorial on Stardog]]
+
+4. HTML / CSS / JavaScript (web markup and programming languages)
+
+** Software Libraries
+   :PROPERTIES:
+   :CUSTOM_ID: software-libraries
+   :END:
+
+1. [[https://rdflib.readthedocs.io/en/stable/][RDFLib]]
+2. [[https://click.palletsprojects.com/en/7.x/][Click]] (CLI framework)
+3. [[https://github.com/visjs/vis-network][Vis-network]]
+4. [[https://github.com/psf/requests][Requests]]
+
+** Meta / Project Management
+
+1. Git
+   - [[https://try.github.io/][GitHub's list of resources for learning Git]]
+   - [[https://duckduckgo.com/?q=git+tutorial&iax=videos&ia=videos][Git tutorial videos]]
+   - [[https://swcarpentry.github.io/git-novice/][SoftwareCarpentry's Git lessons]]
+2. GitHub
