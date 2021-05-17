@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="HNP6UPDU">
+        <res:resource rdf:resource="https://www.fema.gov/about/news-multimedia/mobile-app-text-messages"/>
+        <z:accessDate>2021-05-09 03:05:33</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.fema.gov/about/news-multimedia/mobile-app-text-messages">
+        <bibo:uri>https://www.fema.gov/about/news-multimedia/mobile-app-text-messages</bibo:uri>
+        <dcterms:title>FEMA Mobile App and Text Messages | FEMA.gov</dcterms:title>
+        <dcterms:abstract>FEMA Mobile App Text Messages</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

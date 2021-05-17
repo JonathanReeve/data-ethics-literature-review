@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="RFH4PC45">
+        <res:resource rdf:resource="https://www.blogger.com"/>
+        <z:accessDate>2021-05-09 03:39:14</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.blogger.com">
+        <dcterms:title>Blogger.com - Create a unique and beautiful blog. It’s easy and free.</dcterms:title>
+        <bibo:uri>https://www.blogger.com</bibo:uri>
+        <dcterms:abstract>Publish your passions your way. Whether you’d like to share your knowledge, experiences or the latest news, create a unique and beautiful blog for free.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

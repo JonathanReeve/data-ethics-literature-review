@@ -1,0 +1,48 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="B5RWBVF3">
+        <res:resource rdf:resource="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1110.1421"/>
+        <z:repository>pubsonline.informs.org (Atypon)</z:repository>
+        <z:accessDate>2021-05-09 03:31:09</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1110.1421">
+        <bibo:shortTitle>Creating Social Contagion Through Viral Product Design</bibo:shortTitle>
+        <dcterms:title>Creating Social Contagion Through Viral Product Design: A Randomized Trial of Peer Influence in Networks</dcterms:title>
+        <bibo:pages>1623-1639</bibo:pages>
+        <bibo:uri>https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1110.1421</bibo:uri>
+        <dcterms:abstract>We examine how firms can create word-of-mouth peer influence and social contagion by designing viral features into their products and marketing campaigns. To econometrically identify the effectiveness of different viral features in creating social contagion, we designed and conducted a randomized field experiment involving the 1.4 million friends of 9,687 experimental users on Facebook.com. We find that viral features generate econometrically identifiable peer influence and social contagion effects. More surprisingly, we find that passive-broadcast viral features generate a 246% increase in peer influence and social contagion, whereas adding active-personalized viral features generate only an additional 98% increase. Although active-personalized viral messages are more effective in encouraging adoption per message and are correlated with more user engagement and sustained product use, passive-broadcast messaging is used more often, generating more total peer adoption in the network. Our work provides a model for how randomized trials can identify peer influence in social networks.This paper was accepted by Pradeep Chintagunta and Preyas Desai, special issue editors.This paper was accepted by Pradeep Chintagunta and Preyas Desai, special issue editors.</dcterms:abstract>
+        <bibo:doi>10.1287/mnsc.1110.1421</bibo:doi>
+        <dcterms:creator rdf:nodeID="n5879"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n5879"/><rdf:li rdf:nodeID="n5881"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5881"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>August 4, 2011</dcterms:date>
+                <bibo:volume>57</bibo:volume>
+                <bibo:issue>9</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Management Science</dcterms:title>
+                        <bibo:shortTitle>Management Science</bibo:shortTitle>
+                        <bibo:issn>0025-1909</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n5879">
+       <foaf:givenName>Sinan</foaf:givenName><foaf:surname>Aral</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5881">
+       <foaf:givenName>Dylan</foaf:givenName><foaf:surname>Walker</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

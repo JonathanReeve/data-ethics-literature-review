@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="32LPWFIR">
+        <res:resource rdf:resource="https://www.stanfordlawreview.org/online/privacy-paradox-privacy-and-big-data/"/>
+        <z:accessDate>2021-05-09 03:12:43</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.stanfordlawreview.org/online/privacy-paradox-privacy-and-big-data/">
+        <dcterms:title>Privacy in the Age of Big Data</dcterms:title>
+        <bibo:uri>https://www.stanfordlawreview.org/online/privacy-paradox-privacy-and-big-data/</bibo:uri>
+        <dcterms:abstract>We live in an age of “big data.” Data has become the raw material of production, a new source of immense economic and social value. Advances in data mining and analytics and the massive increase in computing power and data storage capacity have expanded, by orders of magnitude, the scope of information available to businesses, …</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n2678"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2678"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Stanford Law Review</dcterms:title>
+                <dcterms:date>2012-02-02T20:41:56-08:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n2678">
+        <foaf:givenName>Stanford Law</foaf:givenName>
+        <foaf:surname>Review</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

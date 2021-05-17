@@ -1,0 +1,78 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="WSDI8RRV">
+        <res:resource rdf:resource="https://doi.org/10.1145/2987443.2987460"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>mixture proportion estimation</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>ad blockers</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>empirical measurement</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/2987443.2987460">
+        <dcterms:creator rdf:nodeID="n7523"/>
+        <dcterms:title>Ad Blockers: Global Prevalence and Impact</dcterms:title>
+        <dcterms:abstract>Ad blockers are a formidable threat to the vitality of the online advertising eco-system. Understanding their prevalence and impact is challenging due to the massive scale and diversity of the eco-system. In this paper, we utilize unique data gathering assets to assess the prevalence and impact of ad blockers from an Internet-wide perspective. Our study is based on (i) a 2 million person world-wide user panel that provides ground truth for ad blocker installations and (ii) telemetry from large number of publisher web pages and ads served to publishers. We describe a novel method for assessing the prevalence of ad blocker installations that is based on Mixture Proportion Estimation. We apply this method to nearly 2 trillion web transactions collected over the period of 1 month (February 2016), to derive ad blocker prevalence estimates for desktop systems in diverse geographic areas and for diverse demographic groups. Next, using deployment estimates we consider the impact of ad blockers on users and on publisher sites. Specifically, we report on the reduction of ads shown to users with ad blockers installed and show that even though a user may have an ad blocker installed, they are still exposed to a significant number of ads. We also characterize the impact of ad blockers across different categories of publisher sites including those that may be participating in whitelisting.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/2987443.2987460</bibo:uri>
+        <bibo:doi>10.1145/2987443.2987460</bibo:doi>
+        <bibo:shortTitle>Ad Blockers</bibo:shortTitle>
+        <bibo:pages>119â€“125</bibo:pages>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n7523"/>
+                <rdf:li rdf:nodeID="n7525"/>
+                <rdf:li rdf:nodeID="n7526"/>
+                <rdf:li rdf:nodeID="n7527"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n7525"/>
+        <dcterms:creator rdf:nodeID="n7526"/>
+        <dcterms:creator rdf:nodeID="n7527"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 2016 Internet Measurement Conference</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Santa Monica, California, USA</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450345262</bibo:isbn13>
+                <dcterms:date>November 14, 2016</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>IMC '16</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7523">
+       <foaf:givenName>Matthew</foaf:givenName><foaf:surname>Malloy</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7525">
+       <foaf:givenName>Mark</foaf:givenName><foaf:surname>McNamara</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7526">
+       <foaf:givenName>Aaron</foaf:givenName><foaf:surname>Cahn</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7527">
+       <foaf:givenName>Paul</foaf:givenName><foaf:surname>Barford</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

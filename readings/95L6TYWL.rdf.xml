@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="95L6TYWL">
+        <res:resource rdf:resource="https://www.courtlistener.com/opinion/784224/in-the-matter-of-the-application-of-the-united-states-for-an-order/"/>
+        <z:accessDate>2021-05-09 03:55:04</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.courtlistener.com/opinion/784224/in-the-matter-of-the-application-of-the-united-states-for-an-order/">
+        <dcterms:title>In the Matter of the Application of the United States for an Order Authorizing the Roving..., 349 F.3d 1132 – CourtListener.com</dcterms:title>
+        <bibo:uri>https://www.courtlistener.com/opinion/784224/in-the-matter-of-the-application-of-the-united-states-for-an-order/</bibo:uri>
+        <dcterms:abstract>Opinion for In the Matter of the Application of the United States for an Order Authorizing the Roving..., 349 F.3d 1132 — Brought to you by Free Law Project, a non-profit dedicated to creating high quality open legal information.</dcterms:abstract>
+        <dcterms:language>en_us</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>CourtListener</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

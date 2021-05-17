@@ -1,0 +1,24 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="D7EZJEFH">
+        <res:resource rdf:resource="https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/"/>
+        <z:repository>www.washingtonpost.com</z:repository>
+        <z:accessDate>2021-05-09 03:32:53</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/">
+        <dcterms:title>A computer program used for bail and sentencing decisions was labeled biased against blacks. Itâ€™s actually not that clear.</dcterms:title>
+        <bibo:uri>https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/</bibo:uri>
+        <dcterms:abstract>The tool called COMPAS may be biased. But it's hard to tell.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Newspaper>
+                <dcterms:title>Washington Post</dcterms:title>
+                <bibo:issn>0190-8286</bibo:issn>
+            </bibo:Newspaper>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

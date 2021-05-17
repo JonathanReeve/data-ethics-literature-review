@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:doap="http://usefulinc.com/ns/doap#"
+ xmlns:sc="http://umbel.org/umbel/sc/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="JF8F6C3N">
+        <res:resource rdf:resource="https://github.com/sorelle/dataintrocourse"/>
+        <z:repository>GitHub</z:repository>
+        <z:accessDate>2021-05-09 03:43:33</z:accessDate>
+    </z:UserItem>
+    <sc:ComputerProgram_CW rdf:about="https://github.com/sorelle/dataintrocourse">
+        <bibo:uri>https://github.com/sorelle/dataintrocourse</bibo:uri>
+        <dcterms:title>sorelle/dataintrocourse</dcterms:title>
+        <dcterms:abstract>Topics in Introductory Programming course materials, Haverford College</dcterms:abstract>
+        <doap:programming-language>Jupyter Notebook</doap:programming-language>
+        <z:extra>original-date: 2017-01-06T22:35:11Z</z:extra>
+        <dcterms:date>2020-12-21T19:23:46Z</dcterms:date>
+        <dcterms:creator rdf:nodeID="n8144"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n8144"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </sc:ComputerProgram_CW>
+    <foaf:Organization rdf:nodeID="n8144">
+       <foaf:name>sorelle</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

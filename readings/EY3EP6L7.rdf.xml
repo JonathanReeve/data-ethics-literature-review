@@ -1,0 +1,19 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="EY3EP6L7">
+        <res:resource rdf:resource="https://medium.com/m/signin?actionUrl=https%253A%252F%252Fmedium.com%252F_%252Fvote%252Fp%252Fb57134f8614e&amp;operation=register&amp;redirect=https%253A%252F%252Faansari86.medium.com%252Ftechnology-ethics-politics-b57134f8614e&amp;source=post_actions_footer-----b57134f8614e---------------------clap_footer-----------"/>
+        <z:accessDate>2021-05-09 03:52:21</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/m/signin?actionUrl=https%253A%252F%252Fmedium.com%252F_%252Fvote%252Fp%252Fb57134f8614e&amp;operation=register&amp;redirect=https%253A%252F%252Faansari86.medium.com%252Ftechnology-ethics-politics-b57134f8614e&amp;source=post_actions_footer-----b57134f8614e---------------------clap_footer-----------">
+        <bibo:uri>https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb57134f8614e&amp;operation=register&amp;redirect=https%3A%2F%2Faansari86.medium.com%2Ftechnology-ethics-politics-b57134f8614e&amp;source=post_actions_footer-----b57134f8614e---------------------clap_footer-----------</bibo:uri>
+        <dcterms:title>Medium</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Medium</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

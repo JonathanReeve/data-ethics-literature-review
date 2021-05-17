@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="GKFGCVX5">
+        <res:resource rdf:resource="http://tigerspace.princeton.edu/ClassroomSearch/View.aspx?bl_id=0085&amp;fl_id=00&amp;rm_id=0085_00_T21&amp;bc=CORWH&amp;img=0085023.JPG&amp;rn=023"/>
+        <z:accessDate>2021-05-09 03:30:29</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://tigerspace.princeton.edu/ClassroomSearch/View.aspx?bl_id=0085&amp;fl_id=00&amp;rm_id=0085_00_T21&amp;bc=CORWH&amp;img=0085023.JPG&amp;rn=023">
+        <bibo:uri>http://tigerspace.princeton.edu/ClassroomSearch/View.aspx?bl_id=0085&amp;fl_id=00&amp;rm_id=0085_00_T21&amp;bc=CORWH&amp;img=0085023.JPG&amp;rn=023</bibo:uri>
+        <dcterms:title>Classrooom Details</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

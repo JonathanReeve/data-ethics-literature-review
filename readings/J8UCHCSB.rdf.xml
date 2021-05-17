@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="J8UCHCSB">
+        <res:resource rdf:resource="https://www.forbes.com/sites/stevenbertoni/2016/11/22/exclusive-interview-how-jared-kushner-won-trump-the-white-house/"/>
+        <z:accessDate>2021-05-09 03:32:56</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.forbes.com/sites/stevenbertoni/2016/11/22/exclusive-interview-how-jared-kushner-won-trump-the-white-house/">
+        <dcterms:title>Exclusive Interview: How Jared Kushner Won Trump The White House</dcterms:title>
+        <bibo:uri>https://www.forbes.com/sites/stevenbertoni/2016/11/22/exclusive-interview-how-jared-kushner-won-trump-the-white-house/</bibo:uri>
+        <dcterms:abstract>The secret weapon of the Trump campaign: his son-in-law, Jared Kushner, who created a stealth data machine that leveraged social media and ran like a Silicon Valley startup. The inside story of the biggest upset in modern political history.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Exclusive Interview</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n6253"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6253"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Forbes</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n6253">
+       <foaf:givenName>Steven</foaf:givenName><foaf:surname>Bertoni</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

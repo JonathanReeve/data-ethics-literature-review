@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="NMWMGNQJ">
+        <res:resource rdf:resource="https://github.com/BinPro/paper-data"/>
+        <z:repository>GitHub</z:repository>
+        <z:accessDate>2021-05-09 03:12:59</z:accessDate>
+    </z:UserItem>
+    <sc:ComputerProgram_CW rdf:about="https://github.com/BinPro/paper-data">
+        <bibo:uri>https://github.com/BinPro/paper-data</bibo:uri>
+        <dcterms:title>BinPro/paper-data</dcterms:title>
+        <dcterms:abstract>Assembly and other input data for 2014 paper. Contribute to BinPro/paper-data development by creating an account on GitHub.</dcterms:abstract>
+        <z:extra>original-date: 2014-10-10T14:59:49Z</z:extra>
+        <dcterms:date>2014-10-10T14:59:49Z</dcterms:date>
+        <dcterms:publisher>
+           <foaf:Organization><foaf:name>BinPro</foaf:name></foaf:Organization>
+        </dcterms:publisher>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </sc:ComputerProgram_CW>
+</rdf:RDF>

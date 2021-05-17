@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="TKS5HSFF">
+        <res:resource rdf:resource="https://www.pcmag.com/news/amazon-alexa-data-wanted-in-murder-investigation"/>
+        <z:accessDate>2021-05-09 03:45:32</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.pcmag.com/news/amazon-alexa-data-wanted-in-murder-investigation">
+        <dcterms:title>Amazon Alexa Data Wanted in Murder Investigation</dcterms:title>
+        <bibo:uri>https://www.pcmag.com/news/amazon-alexa-data-wanted-in-murder-investigation</bibo:uri>
+        <dcterms:abstract>Amazon's voice assistant may provide clues in an Arkansas case in which a man was found dead in a hot tub.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>PCMAG</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,75 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="KKSE2UWP">
+        <res:resource rdf:resource="https://www.pnas.org/content/113/3/566"/>
+        <dcterms:rights>©  . Freely available online through the PNAS open access option.</dcterms:rights>
+        <z:repository>www.pnas.org</z:repository>
+        <z:accessDate>2021-05-09 03:31:07</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social influence</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social norms</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>bullying</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>adolescents</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social psychology</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.pnas.org/content/113/3/566">
+        <bibo:shortTitle>Changing climates of conflict</bibo:shortTitle>
+        <dcterms:title>Changing climates of conflict: A social network experiment in 56 schools</dcterms:title>
+        <dcterms:abstract>Theories of human behavior suggest that individuals attend to the behavior of certain people in their community to understand what is socially normative and adjust their own behavior in response. An experiment tested these theories by randomizing an anticonflict intervention across 56 schools with 24,191 students. After comprehensively measuring every school’s social network, randomly selected seed groups of 20–32 students from randomly selected schools were assigned to an intervention that encouraged their public stance against conflict at school. Compared with control schools, disciplinary reports of student conflict at treatment schools were reduced by 30% over 1 year. The effect was stronger when the seed group contained more “social referent” students who, as network measures reveal, attract more student attention. Network analyses of peer-to-peer influence show that social referents spread perceptions of conflict as less socially normative.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://www.pnas.org/content/113/3/566</bibo:uri>
+        <bibo:pages>566-571</bibo:pages>
+        <z:extra>PMID: 26729884</z:extra>
+        <bibo:doi>10.1073/pnas.1514483113</bibo:doi>
+        <dcterms:creator rdf:nodeID="n5865"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n5865"/>
+                <rdf:li rdf:nodeID="n5867"/>
+                <rdf:li rdf:nodeID="n5868"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5867"/>
+        <dcterms:creator rdf:nodeID="n5868"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016/01/19</dcterms:date>
+                <bibo:volume>113</bibo:volume>
+                <bibo:issue>3</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Proceedings of the National Academy of Sciences</dcterms:title>
+                        <bibo:shortTitle>PNAS</bibo:shortTitle>
+                        <bibo:issn>0027-8424, 1091-6490</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n5865">
+        <foaf:givenName>Elizabeth Levy</foaf:givenName>
+        <foaf:surname>Paluck</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5867">
+       <foaf:givenName>Hana</foaf:givenName><foaf:surname>Shepherd</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5868">
+        <foaf:givenName>Peter M.</foaf:givenName>
+        <foaf:surname>Aronow</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

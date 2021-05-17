@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="4TU7H2VV">
+        <res:resource rdf:resource="https://medium.com/mit-media-lab/the-obligation-to-experiment-83092256c3e9"/>
+        <z:accessDate>2021-05-09 02:44:52</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/mit-media-lab/the-obligation-to-experiment-83092256c3e9">
+        <dcterms:title>The Obligation To Experiment</dcterms:title>
+        <bibo:uri>https://medium.com/mit-media-lab/the-obligation-to-experiment-83092256c3e9</bibo:uri>
+        <dcterms:abstract>Tech companies should test the effects of their products on our safety and civil liberties. We should also test them ourselves.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n122"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n122"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2018-04-04T06:59:19.191Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n122">
+        <foaf:givenName>J. Nathan</foaf:givenName>
+        <foaf:surname>Matias</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

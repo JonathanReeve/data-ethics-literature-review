@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="3WI2NBMR">
+        <res:resource rdf:resource="https://www.buzzfeednews.com/article/stephaniemlee/brian-wansink-cornell-p-hacking"/>
+        <z:accessDate>2021-05-09 02:45:09</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.buzzfeednews.com/article/stephaniemlee/brian-wansink-cornell-p-hacking">
+        <dcterms:title>Sliced And Diced: The Inside Story Of How An Ivy League Food Scientist Turned Shoddy Data Into Viral Studies</dcterms:title>
+        <bibo:uri>https://www.buzzfeednews.com/article/stephaniemlee/brian-wansink-cornell-p-hacking</bibo:uri>
+        <dcterms:abstract>Brian Wansink won fame, funding, and influence for his science-backed advice on healthy eating. Now, emails show how the Cornell professor and his colleagues have hacked and massaged low-quality data into headline-friendly studies to “go virally big time.”</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Sliced And Diced</bibo:shortTitle>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>BuzzFeed News</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

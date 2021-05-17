@@ -1,0 +1,37 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="XNIUG996">
+        <res:resource rdf:resource="https://bdes.datasociety.net/council-output/case-study-the-ethics-of-using-hacked-data-patreons-data-hack-and-academic-data-standards/"/>
+        <z:accessDate>2021-05-09 03:31:52</z:accessDate>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://bdes.datasociety.net/council-output/case-study-the-ethics-of-using-hacked-data-patreons-data-hack-and-academic-data-standards/">
+        <dcterms:title>Case Study: The Ethics of Using Hacked Data: Patreonâ€™s Data Hack and Academic Data Standards</dcterms:title>
+        <dcterms:publisher>
+            <foaf:Organization>
+               <foaf:name>Council for Big Data, Ethics, and Society</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:date>2021-05-09</dcterms:date>
+        <bibo:uri>https://bdes.datasociety.net/council-output/case-study-the-ethics-of-using-hacked-data-patreons-data-hack-and-academic-data-standards/</bibo:uri>
+        <dcterms:language>English</dcterms:language>
+        <bibo:shortTitle>Case Study</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n6078"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n6078"/><rdf:li rdf:nodeID="n6080"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n6080"/>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n6078">
+       <foaf:givenName>Nathaniel</foaf:givenName><foaf:surname>Poor</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n6080">
+       <foaf:givenName>Roei</foaf:givenName><foaf:surname>Davidson</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

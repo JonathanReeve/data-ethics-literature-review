@@ -1,0 +1,24 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="9JR89REL">
+        <res:resource rdf:resource="http://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election"/>
+        <z:accessDate>2021-05-09 03:01:40</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election">
+        <dcterms:title>Revealed: 50 million Facebook profiles harvested for Cambridge Analytica in major data breach</dcterms:title>
+        <bibo:uri>http://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election</bibo:uri>
+        <dcterms:abstract>Whistleblower describes how firm linked to former Trump adviser Steve Bannon compiled user data to target American voters</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Revealed</bibo:shortTitle>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>the Guardian</dcterms:title>
+                <dcterms:date>2018-03-17T22:03:00.000Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

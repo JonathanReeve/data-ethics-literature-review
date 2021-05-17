@@ -1,0 +1,35 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="Q8R9Y9E6">
+        <res:resource rdf:resource="https://www.boisestate.edu/news/2021/04/30/enrollment-open-for-virtual-cybersecurity-summer-camps/"/>
+        <z:accessDate>2021-05-09 03:22:01</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.boisestate.edu/news/2021/04/30/enrollment-open-for-virtual-cybersecurity-summer-camps/">
+        <dcterms:title>Enrollment open for virtual cybersecurity summer camps</dcterms:title>
+        <bibo:uri>https://www.boisestate.edu/news/2021/04/30/enrollment-open-for-virtual-cybersecurity-summer-camps/</bibo:uri>
+        <dcterms:abstract>Boise State computer science faculty assistant professor Gaby Dagher and assistant professor Jidong Xiao have...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4191"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4191"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Boise State News</dcterms:title>
+                <dcterms:date>2021-04-30T20:40:21+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n4191">
+        <foaf:givenName>Boise State</foaf:givenName>
+        <foaf:surname>News</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

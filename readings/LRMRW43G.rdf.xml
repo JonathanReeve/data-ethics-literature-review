@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="LRMRW43G">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=aiKRt3-FbM0"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:33:23</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=aiKRt3-FbM0">
+        <dcterms:title>The Danger of Software Patents - Richard Stallman</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=aiKRt3-FbM0</bibo:uri>
+        <dcterms:abstract>May 18, 2005 - Calgary, Canada - Richard Stallman talks about software patents at the University of Calgary, Canada. Topics include myths about patents; what...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

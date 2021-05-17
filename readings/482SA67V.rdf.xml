@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="482SA67V">
+        <res:resource rdf:resource="https://onedrive.live.com/redir?resid=1CF7B72A58DD0B70!1113&amp;authkey=!AGADa7uBK81J9RE"/>
+        <z:accessDate>2021-05-09 03:19:50</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://onedrive.live.com/redir?resid=1CF7B72A58DD0B70!1113&amp;authkey=!AGADa7uBK81J9RE">
+        <dcterms:title>CS1410 Lectures</dcterms:title>
+        <bibo:uri>https://onedrive.live.com/redir?resid=1CF7B72A58DD0B70!1113&amp;authkey=!AGADa7uBK81J9RE</bibo:uri>
+        <dcterms:abstract>Microsoft OneNote Notebook</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

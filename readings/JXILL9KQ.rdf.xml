@@ -1,0 +1,28 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="JXILL9KQ">
+        <res:resource rdf:resource="https://www.boisestate.edu/careers/"/>
+        <z:accessDate>2021-05-09 03:22:13</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.boisestate.edu/careers/">
+        <dcterms:title>Career Opportunities</dcterms:title>
+        <bibo:uri>https://www.boisestate.edu/careers/</bibo:uri>
+        <dcterms:abstract>Apply for jobs at Boise State University.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4238"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4238"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Careers</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n4238">
+       <foaf:name>Careers</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

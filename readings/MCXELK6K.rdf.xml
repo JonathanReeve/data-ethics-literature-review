@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="MCXELK6K">
+        <res:resource rdf:resource="https://www.ftc.gov/public-statements/2015/12/commission-enforcement-policy-statement-deceptively-formatted"/>
+        <z:accessDate>2021-05-09 03:54:53</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.ftc.gov/public-statements/2015/12/commission-enforcement-policy-statement-deceptively-formatted">
+        <dcterms:title>Commission Enforcement Policy Statement on Deceptively Formatted Advertisements</dcterms:title>
+        <bibo:uri>https://www.ftc.gov/public-statements/2015/12/commission-enforcement-policy-statement-deceptively-formatted</bibo:uri>
+        <dcterms:abstract>Commission Enforcement Policy Statement on Deceptively Formatted Advertisements</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Federal Trade Commission</dcterms:title>
+                <dcterms:date>2015-12-22T09:58:18-05:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

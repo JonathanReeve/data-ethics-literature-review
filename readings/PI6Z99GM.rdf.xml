@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="PI6Z99GM">
+        <res:resource rdf:resource="http://my.boisestate.edu"/>
+        <z:accessDate>2021-05-09 03:22:09</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://my.boisestate.edu">
+        <dcterms:title>myBoiseState</dcterms:title>
+        <bibo:uri>http://my.boisestate.edu</bibo:uri>
+        <dcterms:abstract>myBoiseState provides single sign-on access to Boise State University's systems and services. Students, faculty and staff can log in with their current Boise State username and password.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

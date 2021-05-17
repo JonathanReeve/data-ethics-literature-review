@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="V99Z2AKD">
+        <res:resource rdf:resource="https://support.google.com/docs/answer/2375082?hl=en"/>
+        <z:accessDate>2021-05-09 03:20:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://support.google.com/docs/answer/2375082?hl=en">
+        <bibo:uri>https://support.google.com/docs/answer/2375082?hl=en</bibo:uri>
+        <dcterms:title>System requirements and browsers - Computer - Docs Editors Help</dcterms:title>
+        <dcterms:abstract>The latest versions of Google Drive, Docs, Sheets, Slides, and Forms &amp;nbsp;are compatible&amp;nbsp;with the following operating systems and browsers.
+Browsers
+Google Drive, Docs, Sheets, Slides, and</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

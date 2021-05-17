@@ -1,0 +1,27 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="CAJTMLYM">
+        <res:resource rdf:resource="https://socialmediacollective.org/reading-lists/critical-algorithm-studies/"/>
+        <z:accessDate>2021-05-09 03:47:06</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://socialmediacollective.org/reading-lists/critical-algorithm-studies/">
+        <dcterms:title>Critical Algorithm Studies: a Reading List</dcterms:title>
+        <bibo:uri>https://socialmediacollective.org/reading-lists/critical-algorithm-studies/</bibo:uri>
+        <dcterms:abstract>This list is an attempt to collect and categorize a growing critical literature on algorithms as social concerns. The work included spans sociology, anthropology, science and technology studies, geâ€¦</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Critical Algorithm Studies</bibo:shortTitle>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Social Media Collective</dcterms:title>
+                <dcterms:date>2015-11-05T04:01:12+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

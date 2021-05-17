@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="DLEUS6UQ">
+        <res:resource rdf:resource="https://jamesclear.com/eisenhower-box"/>
+        <z:accessDate>2021-05-09 03:10:24</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://jamesclear.com/eisenhower-box">
+        <dcterms:title>How to be More Productive by Using the “Eisenhower Box”</dcterms:title>
+        <bibo:uri>https://jamesclear.com/eisenhower-box</bibo:uri>
+        <dcterms:abstract>Learn how to be more productive by using a decision making matrix called the Eisenhower Matrix. (Plus, get a free template of the Eisenhower Box I use.)</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>James Clear</dcterms:title>
+                <dcterms:date>2014-04-07T22:16:21+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

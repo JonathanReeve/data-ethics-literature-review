@@ -1,0 +1,30 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="3W2N2XFH">
+        <res:resource rdf:resource="https://tecnico.ulisboa.pt/pt/"/>
+        <z:accessDate>2021-05-09 03:34:56</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://tecnico.ulisboa.pt/pt/">
+        <dcterms:title>Instituto Superior Técnico</dcterms:title>
+        <bibo:uri>https://tecnico.ulisboa.pt/pt/</bibo:uri>
+        <dcterms:abstract>O Instituto Superior Técnico é hoje a maior escola de engenharia, arquitetura, ciência e tecnologia em Portugal.</dcterms:abstract>
+        <dcterms:language>pt-PT</dcterms:language>
+        <dcterms:creator rdf:nodeID="n6629"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6629"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Técnico Lisboa</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n6629">
+       <foaf:givenName>Técnico</foaf:givenName><foaf:surname>Lisboa</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

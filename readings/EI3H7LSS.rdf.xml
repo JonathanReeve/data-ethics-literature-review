@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="EI3H7LSS">
+        <res:resource rdf:resource="https://www.google.com/maps/place/Gaines+Hall/@45.496104,-122.6880023,17z/data=!4m5!3m4!1s0x54950a45ee5169d5:0x73a0e714ebc12766!8m2!3d45.4963043!4d-122.6890697?shorturl=1"/>
+        <z:accessDate>2021-05-09 03:18:04</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.google.com/maps/place/Gaines+Hall/@45.496104,-122.6880023,17z/data=!4m5!3m4!1s0x54950a45ee5169d5:0x73a0e714ebc12766!8m2!3d45.4963043!4d-122.6890697?shorturl=1">
+        <dcterms:title>Gaines Hall</dcterms:title>
+        <dcterms:abstract>School Â· 840 S Gaines St</dcterms:abstract>
+        <bibo:uri>https://www.google.com/maps/place/Gaines+Hall/@45.496104,-122.6880023,17z/data=!4m5!3m4!1s0x54950a45ee5169d5:0x73a0e714ebc12766!8m2!3d45.4963043!4d-122.6890697?shorturl=1</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Gaines Hall</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

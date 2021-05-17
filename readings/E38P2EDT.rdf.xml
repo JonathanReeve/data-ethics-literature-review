@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="E38P2EDT">
+        <res:resource rdf:resource="https://datascienceethics.wordpress.com/elisacelis/publications/"/>
+        <z:accessDate>2021-05-09 03:08:03</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://datascienceethics.wordpress.com/elisacelis/publications/">
+        <dcterms:title>Elisa’s Publications</dcterms:title>
+        <bibo:uri>https://datascienceethics.wordpress.com/elisacelis/publications/</bibo:uri>
+        <dcterms:abstract>PEER-REVIEWED CONFERENCES AND JOURNALS Dialect Diversity in Text Summarization on TwitterVijay Keswani, L. Elisa CelisThe Web Conference (WWW), 2021 (to appear) Mitigating Bias in Set Selection wit…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Data Science Ethics</dcterms:title>
+                <dcterms:date>2019-03-02T05:18:28+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

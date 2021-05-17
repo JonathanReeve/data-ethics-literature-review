@@ -1,0 +1,44 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="HKX3CGP6">
+        <res:resource rdf:resource="https://hbr.org/2011/10/five-tips-to-break-through-you"/>
+        <z:repository>hbr.org</z:repository>
+        <z:accessDate>2021-05-09 03:40:08</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Managing yourself</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Creativity</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://hbr.org/2011/10/five-tips-to-break-through-you">
+        <dcterms:title>Five Tips to Break Through Your Filter(s)</dcterms:title>
+        <bibo:uri>https://hbr.org/2011/10/five-tips-to-break-through-you</bibo:uri>
+        <dcterms:abstract>It is no surprise that we instinctively seek out those who share our interests. This is especially true in times of increasing pressure and uncertainty. We have an understandable tendency in such times to seek out the familiar and comfortable as a buffer against the unforeseen changes around us. In so doing we can inadvertently [â€¦]</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n7262"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7262"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2011-10-10T13:08:51Z</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Magazine>
+                        <dcterms:title>Harvard Business Review</dcterms:title>
+                        <bibo:issn>0017-8012</bibo:issn>
+                    </bibo:Magazine>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7262">
+        <foaf:givenName>John Hagel III and John Seely</foaf:givenName>
+        <foaf:surname>Brown</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

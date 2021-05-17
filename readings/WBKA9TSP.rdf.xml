@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="WBKA9TSP">
+        <res:resource rdf:resource="https://www.instagram.com/boisestateuniversity/"/>
+        <z:accessDate>2021-05-09 03:22:30</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.instagram.com/boisestateuniversity/">
+        <dcterms:title>@boisestateuniversity is on Instagram â€¢ 41k people follow their account</dcterms:title>
+        <bibo:uri>https://www.instagram.com/boisestateuniversity/</bibo:uri>
+        <dcterms:abstract>41k Followers, 2,439 Following, 2,602 Posts - See Instagram photos and videos from Boise State University (@boisestateuniversity)</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

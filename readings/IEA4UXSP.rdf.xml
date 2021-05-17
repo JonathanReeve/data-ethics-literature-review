@@ -1,0 +1,94 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="IEA4UXSP">
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>constitutional law</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>papers.ssrn.com</z:repository>
+        <z:accessDate>2021-05-09 03:28:13</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>privacy</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>privacy law</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://papers.ssrn.com/abstract=2754043"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>comparative law</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>law</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>typology</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>dimensions</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>information privacy</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://papers.ssrn.com/abstract=2754043">
+        <dcterms:creator rdf:nodeID="n5295"/>
+        <dcterms:title>A Typology of Privacy</dcterms:title>
+        <bibo:uri>https://papers.ssrn.com/abstract=2754043</bibo:uri>
+        <dcterms:abstract>Despite the difficulty of capturing the nature and boundaries of privacy, it is important to conceptualize it. Some scholars develop unitary theories of privacy in the form of a unified conceptual core; others offer classifications of privacy that make meaningful distinctions between different types of privacy. We argue that the latter approach is underdeveloped and in need of improvement. In this paper, we propose a typology of privacy that is more systematic and comprehensive than any existing model.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:type>SSRN Scholarly Paper</dcterms:type>
+        <dcterms:publisher>
+            <foaf:Organization>
+                <foaf:name>Social Science Research Network</foaf:name>
+                <address:localityName>Rochester, NY</address:localityName>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <bibo:number>ID 2754043</bibo:number>
+        <dcterms:date>2016/03/24</dcterms:date>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n5295"/>
+                <rdf:li rdf:nodeID="n5297"/>
+                <rdf:li rdf:nodeID="n5298"/>
+                <rdf:li rdf:nodeID="n5299"/>
+                <rdf:li rdf:nodeID="n5300"/>
+                <rdf:li rdf:nodeID="n5301"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5297"/>
+        <dcterms:creator rdf:nodeID="n5298"/>
+        <dcterms:creator rdf:nodeID="n5299"/>
+        <dcterms:creator rdf:nodeID="n5300"/>
+        <dcterms:creator rdf:nodeID="n5301"/>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n5295">
+        <foaf:givenName>Bert-Jaap</foaf:givenName>
+        <foaf:surname>Koops</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5297">
+        <foaf:givenName>Bryce Clayton</foaf:givenName>
+        <foaf:surname>Newell</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5298">
+       <foaf:givenName>Tjerk</foaf:givenName><foaf:surname>Timan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5299">
+       <foaf:givenName>Ivan</foaf:givenName><foaf:surname>Škorvánek</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5300">
+       <foaf:givenName>Tom</foaf:givenName><foaf:surname>Chokrevski</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5301">
+       <foaf:givenName>Maša</foaf:givenName><foaf:surname>Galič</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

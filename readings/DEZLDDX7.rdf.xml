@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="DEZLDDX7">
+        <res:resource rdf:resource="https://docs.google.com/document/d/1gbRriOP1aMHVVJgiGdFplU_A6pAG6hu3ysrBPdLxnEE/edit?usp=embed_facebook"/>
+        <z:accessDate>2021-05-09 03:29:20</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/document/d/1gbRriOP1aMHVVJgiGdFplU_A6pAG6hu3ysrBPdLxnEE/edit?usp=embed_facebook">
+        <dcterms:title>Project Guidelines Spring 2020</dcterms:title>
+        <bibo:uri>https://docs.google.com/document/d/1gbRriOP1aMHVVJgiGdFplU_A6pAG6hu3ysrBPdLxnEE/edit?usp=embed_facebook</bibo:uri>
+        <dcterms:abstract>CS181/W Project Guidelines  The goal of the CS181/181W project is to engage with the outside world regarding an issue of ethics or public policy related to computers. Your project should have an effect outside Stanford, and should concern an issue that is not Stanford-specific. The project is exp...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,30 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="WP3AAAU4">
+        <res:resource rdf:resource="https://www.elsevier.com/connect/how-to-give-a-dynamic-scientific-presentation"/>
+        <z:accessDate>2021-05-09 03:14:23</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.elsevier.com/connect/how-to-give-a-dynamic-scientific-presentation">
+        <dcterms:title>How to give a dynamic scientific presentation</dcterms:title>
+        <bibo:uri>https://www.elsevier.com/connect/how-to-give-a-dynamic-scientific-presentation</bibo:uri>
+        <dcterms:abstract>Convey your ideas and enthusiasm â€“ and avoid the pitfalls that put audiences to sleep</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n2993"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2993"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Elsevier Connect</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n2993">
+       <foaf:name>Elsevier</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

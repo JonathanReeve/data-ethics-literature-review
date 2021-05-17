@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="CWGIKDX4">
+        <res:resource rdf:resource="https://www.vice.com/en/article/z43xw3/the-history-of-twitters-rules"/>
+        <z:accessDate>2021-05-09 03:34:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.vice.com/en/article/z43xw3/the-history-of-twitters-rules">
+        <dcterms:title>The History of Twitter's Rules</dcterms:title>
+        <bibo:uri>https://www.vice.com/en/article/z43xw3/the-history-of-twitters-rules</bibo:uri>
+        <dcterms:abstract>With the newest change to its rules, Twitter rewrites itself and its relationship to free speech.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

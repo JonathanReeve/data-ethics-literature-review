@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="4T8ZP3D5">
+        <res:resource rdf:resource="https://www.it.tuwien.ac.at/"/>
+        <z:accessDate>2021-05-09 02:52:38</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.it.tuwien.ac.at/">
+        <bibo:uri>https://www.it.tuwien.ac.at/</bibo:uri>
+        <dcterms:title>TU.it | TU.it</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

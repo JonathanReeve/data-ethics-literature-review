@@ -1,0 +1,87 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="I9KADMUM">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>human values</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>July 1996</z:repository>
+        <z:accessDate>2021-05-09 03:53:19</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>universal design</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>computers and society</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>bias</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>design methods</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://doi.org/10.1145/230538.230561"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social impact</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>system design</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>computer ethics</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>values</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social computing</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>standards</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>ethics</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1145/230538.230561">
+        <dcterms:title>Bias in computer systems</dcterms:title>
+        <bibo:pages>330–347</bibo:pages>
+        <dcterms:abstract>From an analysis of actual cases, three categories of bias in computer systems have been developed: preexisting, technical, and emergent. Preexisting bias has its roots in social institutions, practices, and attitudes. Technical bias arises from technical constraints of considerations. Emergent bias arises in a context of use. Although others have pointed to bias inparticular computer systems and have noted the general problem, we know of no comparable work that examines this phenomenon comprehensively and which offers a framework for understanding and remedying it. We conclude by suggesting that freedom from bias should by counted amoung the select set of criteria—including reliability, accuracy, and efficiency—according to which the quality of systems in use in society should be judged.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/230538.230561</bibo:uri>
+        <bibo:doi>10.1145/230538.230561</bibo:doi>
+        <dcterms:creator rdf:nodeID="n9651"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n9651"/><rdf:li rdf:nodeID="n9653"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n9653"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>14</bibo:volume>
+                <bibo:issue>3</bibo:issue>
+                <dcterms:date>July 1, 1996</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>ACM Transactions on Information Systems</dcterms:title>
+                        <bibo:issn>1046-8188</bibo:issn>
+                        <bibo:shortTitle>ACM Trans. Inf. Syst.</bibo:shortTitle>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n9651">
+       <foaf:givenName>Batya</foaf:givenName><foaf:surname>Friedman</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9653">
+        <foaf:givenName>Helen</foaf:givenName>
+        <foaf:surname>Nissenbaum</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

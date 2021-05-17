@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="MDZZPWUS">
+        <res:resource rdf:resource="https://statmodeling.stat.columbia.edu/2015/04/28/whats-important-thing-statistics-thats-not-textbooks/"/>
+        <z:accessDate>2021-05-09 03:54:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://statmodeling.stat.columbia.edu/2015/04/28/whats-important-thing-statistics-thats-not-textbooks/">
+        <bibo:uri>https://statmodeling.stat.columbia.edu/2015/04/28/whats-important-thing-statistics-thats-not-textbooks/</bibo:uri>
+        <dcterms:title>What’s the most important thing in statistics that’s not in the textbooks? « Statistical Modeling, Causal Inference, and Social Science</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

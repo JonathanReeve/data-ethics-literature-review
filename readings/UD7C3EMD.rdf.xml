@@ -1,0 +1,47 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="UD7C3EMD">
+        <res:resource rdf:resource="https://csrc.nist.gov/publications/detail/white-paper/2014/02/19/summary-of-nist-sp-800-53-rev-4-security--privacy-controls/final"/>
+        <z:repository>csrc.nist.gov</z:repository>
+        <z:accessDate>2021-05-09 03:55:00</z:accessDate>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://csrc.nist.gov/publications/detail/white-paper/2014/02/19/summary-of-nist-sp-800-53-rev-4-security--privacy-controls/final">
+        <z:extra>DOI: 10.6028/NIST.CSWP.02192014</z:extra>
+        <dcterms:title>Summary of NIST SP 800-53, Revision 4: Security and Privacy Controls for Federal Information Systems and Organizations</dcterms:title>
+        <bibo:uri>https://csrc.nist.gov/publications/detail/white-paper/2014/02/19/summary-of-nist-sp-800-53-rev-4-security--privacy-controls/final</bibo:uri>
+        <dcterms:abstract>This white paper provides an overview of NIST Special Publication (SP) 800-53, Revision 4: Security and Privacy Controls for Federal Information Systems and Organizations, which was published April 30, 2013.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:publisher>
+            <foaf:Organization>
+                <foaf:name>National Institute of Standards and Technology</foaf:name>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <bibo:pages>13-13</bibo:pages>
+        <dcterms:date>2014/02/19</dcterms:date>
+        <bibo:shortTitle>Summary of NIST SP 800-53, Revision 4</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n10154"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n10154"/>
+                <rdf:li rdf:nodeID="n10156"/>
+                <rdf:li rdf:nodeID="n10157"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n10156"/>
+        <dcterms:creator rdf:nodeID="n10157"/>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n10154">
+       <foaf:givenName>Kelley</foaf:givenName><foaf:surname>Dempsey</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n10156">
+       <foaf:givenName>Gregory</foaf:givenName><foaf:surname>Witte</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n10157">
+       <foaf:givenName>Doug</foaf:givenName><foaf:surname>Rike</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

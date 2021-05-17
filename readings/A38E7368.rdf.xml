@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="A38E7368">
+        <res:resource rdf:resource="https://anildash.com/2011/07/20/if_your_websites_full_of_assholes_its_your_fault-2/"/>
+        <z:accessDate>2021-05-09 03:29:54</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://anildash.com/2011/07/20/if_your_websites_full_of_assholes_its_your_fault-2/">
+        <dcterms:title>If your website's full of assholes, it's your fault</dcterms:title>
+        <bibo:uri>https://anildash.com/2011/07/20/if_your_websites_full_of_assholes_its_your_fault-2/</bibo:uri>
+        <dcterms:abstract>We’re twenty years in to this world wide web thing. Today, I myself celebrate twelve years of writing this blog. And yet those of us who love this medium, who’ve had our lives changed by the possibility of publishing our words to the world without having to ask</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5648"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n5648"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Anil Dash</dcterms:title>
+                <dcterms:date>2011-07-20T17:13:33.000Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n5648">
+       <foaf:givenName>Anil</foaf:givenName><foaf:surname>Dash</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

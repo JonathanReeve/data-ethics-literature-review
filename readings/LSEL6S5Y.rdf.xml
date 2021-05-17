@@ -1,0 +1,34 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="LSEL6S5Y">
+        <res:resource rdf:resource="http://situationlab.org/project/the-thing-from-the-future/"/>
+        <z:accessDate>2021-05-09 03:10:33</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="http://situationlab.org/project/the-thing-from-the-future/">
+        <dcterms:title>The Thing From The Future</dcterms:title>
+        <bibo:uri>http://situationlab.org/project/the-thing-from-the-future/</bibo:uri>
+        <dcterms:abstract>The Thing From The Future is an award-winning imagination game that challenges players to collaboratively and competitively describe objects from a range of alternative futures.
+We are currently sold out of this edition of The Thing From The Future. Stay tuned for more updates about future releases. In the meantime, check out</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n2232"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2232"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Situation Lab</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n2232">
+       <foaf:givenName>Situation</foaf:givenName><foaf:surname>Lab</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

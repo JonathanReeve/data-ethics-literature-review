@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="HYVJELVI">
+        <res:resource rdf:resource="https://nlpers.blogspot.com/2016/11/bias-in-ml-and-teaching-ai.html"/>
+        <z:accessDate>2021-05-09 03:45:04</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://nlpers.blogspot.com/2016/11/bias-in-ml-and-teaching-ai.html">
+        <dcterms:title>Bias in ML, and Teaching AI</dcterms:title>
+        <bibo:uri>https://nlpers.blogspot.com/2016/11/bias-in-ml-and-teaching-ai.html</bibo:uri>
+        <dcterms:abstract>Yesterday I gave a super duper high level 12 minutes presentation about some issues of bias in AI. I should emphasize (if it's not clear)...</dcterms:abstract>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </sioct:BlogPost>
+</rdf:RDF>

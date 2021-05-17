@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="XGASEV59">
+        <res:resource rdf:resource="https://www.bloomberg.com/tosv2.html?vid=&amp;uuid=ef9ed4e0-b078-11eb-b49f-ad8608cd0b04&amp;url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNi0yMy9hcnRpZmljaWFsLWludGVsbGlnZW5jZS1oYXMtYS1zZWEtb2YtZHVkZXMtcHJvYmxlbQ=="/>
+        <z:accessDate>2021-05-09 03:45:02</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.bloomberg.com/tosv2.html?vid=&amp;uuid=ef9ed4e0-b078-11eb-b49f-ad8608cd0b04&amp;url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNi0yMy9hcnRpZmljaWFsLWludGVsbGlnZW5jZS1oYXMtYS1zZWEtb2YtZHVkZXMtcHJvYmxlbQ==">
+        <bibo:uri>https://www.bloomberg.com/tosv2.html?vid=&amp;uuid=ef9ed4e0-b078-11eb-b49f-ad8608cd0b04&amp;url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNi0yMy9hcnRpZmljaWFsLWludGVsbGlnZW5jZS1oYXMtYS1zZWEtb2YtZHVkZXMtcHJvYmxlbQ==</bibo:uri>
+        <dcterms:title>Bloomberg - Are you a robot?</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

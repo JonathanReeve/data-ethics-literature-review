@@ -1,0 +1,76 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="8C4SVWSL">
+        <res:resource rdf:resource="https://doi.org/10.1145/2645710.2645737"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>recommender systems</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>user study</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/2645710.2645737">
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n2888"/>
+                <rdf:li rdf:nodeID="n2890"/>
+                <rdf:li rdf:nodeID="n2891"/>
+                <rdf:li rdf:nodeID="n2892"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:title>User perception of differences in recommender algorithms</dcterms:title>
+        <dcterms:abstract>Recent developments in user evaluation of recommender systems have brought forth powerful new tools for understanding what makes recommendations effective and useful. We apply these methods to understand how users evaluate recommendation lists for the purpose of selecting an algorithm for finding movies. This paper reports on an experiment in which we asked users to compare lists produced by three common collaborative filtering algorithms on the dimensions of novelty, diversity, accuracy, satisfaction, and degree of personalization, and to select a recommender that they would like to use in the future. We find that satisfaction is negatively dependent on novelty and positively dependent on diversity in this setting, and that satisfaction predicts the user's final selection. We also compare users' subjective perceptions of recommendation properties with objective measures of those same characteristics. To our knowledge, this is the first study that applies modern survey design and analysis techniques to a within-subjects, direct comparison study of recommender algorithms.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/2645710.2645737</bibo:uri>
+        <bibo:doi>10.1145/2645710.2645737</bibo:doi>
+        <dcterms:creator rdf:nodeID="n2888"/>
+        <bibo:pages>161â€“168</bibo:pages>
+        <dcterms:creator rdf:nodeID="n2890"/>
+        <dcterms:creator rdf:nodeID="n2891"/>
+        <dcterms:creator rdf:nodeID="n2892"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 8th ACM Conference on Recommender systems</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Foster City, Silicon Valley, California, USA</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450326681</bibo:isbn13>
+                <dcterms:date>October 6, 2014</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>RecSys '14</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n2888">
+        <foaf:givenName>Michael D.</foaf:givenName>
+        <foaf:surname>Ekstrand</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2890">
+        <foaf:givenName>F. Maxwell</foaf:givenName>
+        <foaf:surname>Harper</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2891">
+        <foaf:givenName>Martijn C.</foaf:givenName>
+        <foaf:surname>Willemsen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2892">
+        <foaf:givenName>Joseph A.</foaf:givenName>
+        <foaf:surname>Konstan</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

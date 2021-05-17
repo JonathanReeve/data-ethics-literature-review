@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="THCPPR7Z">
+        <res:resource rdf:resource="https://www.philosophytalk.org/blog/ethics-whistleblowing"/>
+        <z:accessDate>2021-05-09 03:34:28</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.philosophytalk.org/blog/ethics-whistleblowing">
+        <dcterms:title>The Ethics of Whistleblowing</dcterms:title>
+        <bibo:uri>https://www.philosophytalk.org/blog/ethics-whistleblowing</bibo:uri>
+        <dcterms:abstract>There can be no denying that whistleblowers may sometimes have the potential to do us all a great service. Whistleblowers are willing to stand up, sometimes at great cost to themselves, and shine the light of truth into the dark corners where governments and corporations operate in secret.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Philosophy Talk</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

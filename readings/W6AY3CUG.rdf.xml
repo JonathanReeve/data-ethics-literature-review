@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="W6AY3CUG">
+        <res:resource rdf:resource="https://login.ezproxy.uas.alaska.edu/login?url=http://eds.a.ebscohost.com/ehost/detail/detail?vid=0&amp;sid=99339172-8527-42c1-92a5-6a4701d6f997%2540sessionmgr4008&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%253d%253d"/>
+        <z:accessDate>2021-05-09 03:18:21</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://login.ezproxy.uas.alaska.edu/login?url=http://eds.a.ebscohost.com/ehost/detail/detail?vid=0&amp;sid=99339172-8527-42c1-92a5-6a4701d6f997%2540sessionmgr4008&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%253d%253d">
+        <bibo:uri>https://login.ezproxy.uas.alaska.edu/login?url=http://eds.a.ebscohost.com/ehost/detail/detail?vid=0&amp;sid=99339172-8527-42c1-92a5-6a4701d6f997%40sessionmgr4008&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d</bibo:uri>
+        <dcterms:title>Egan Library Remote Access</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

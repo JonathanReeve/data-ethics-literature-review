@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="JRWEVWC2">
+        <res:resource rdf:resource="http://www.studentsystems.is.ed.ac.uk/staff/Support/User_Guides/CCAM//Teaching_Learning.htm"/>
+        <z:accessDate>2021-05-09 03:34:11</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.studentsystems.is.ed.ac.uk/staff/Support/User_Guides/CCAM//Teaching_Learning.htm">
+        <bibo:uri>http://www.studentsystems.is.ed.ac.uk/staff/Support/User_Guides/CCAM//Teaching_Learning.htm</bibo:uri>
+        <dcterms:title>Student Systems: CCAM User Guide</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

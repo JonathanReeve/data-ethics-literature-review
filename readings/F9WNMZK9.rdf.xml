@@ -1,0 +1,43 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="F9WNMZK9">
+        <res:resource rdf:resource="https://doi.org/10.1007/s11109-016-9373-5"/>
+        <z:repository>Springer Link</z:repository>
+        <z:accessDate>2021-05-09 02:45:34</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1007/s11109-016-9373-5">
+        <dcterms:language>en</dcterms:language>
+        <dcterms:title>Tweetment Effects on the Tweeted: Experimentally Reducing Racist Harassment</dcterms:title>
+        <dcterms:abstract>I conduct an experiment which examines the impact of group norm promotion and social sanctioning on racist online harassment. Racist online harassment de-mobilizes the minorities it targets, and the open, unopposed expression of racism in a public forum can legitimize racist viewpoints and prime ethnocentrism. I employ an intervention designed to reduce the use of anti-black racist slurs by white men on Twitter. I collect a sample of Twitter users who have harassed other users and use accounts I control (“bots”) to sanction the harassers. By varying the identity of the bots between in-group (white man) and out-group (black man) and by varying the number of Twitter followers each bot has, I find that subjects who were sanctioned by a high-follower white male significantly reduced their use of a racist slur. This paper extends findings from lab experiments to a naturalistic setting using an objective, behavioral outcome measure and a continuous 2-month data collection period. This represents an advance in the study of prejudiced behavior.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1007/s11109-016-9373-5</bibo:uri>
+        <bibo:doi>10.1007/s11109-016-9373-5</bibo:doi>
+        <bibo:pages>629-649</bibo:pages>
+        <bibo:shortTitle>Tweetment Effects on the Tweeted</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n321"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n321"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017-09-01</dcterms:date>
+                <bibo:volume>39</bibo:volume>
+                <bibo:issue>3</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <bibo:shortTitle>Polit Behav</bibo:shortTitle>
+                        <bibo:issn>1573-6687</bibo:issn>
+                        <dcterms:title>Political Behavior</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n321">
+       <foaf:givenName>Kevin</foaf:givenName><foaf:surname>Munger</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

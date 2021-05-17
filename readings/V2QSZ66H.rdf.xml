@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="V2QSZ66H">
+        <res:resource rdf:resource="https://perma.cc/QZW7-LNJR"/>
+        <z:accessDate>2021-05-09 03:26:20</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/QZW7-LNJR">
+        <dcterms:title>whitecollar.thenewinquiry.com</dcterms:title>
+        <bibo:uri>https://perma.cc/QZW7-LNJR</bibo:uri>
+        <dcterms:abstract>This is an archive of https://whitecollar.thenewinquiry.com/static/whitepaper.pdf from Monday 22, January 2018</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="LZC9PXCK">
+        <res:resource rdf:resource="https://ethics.acm.org/code-of-ethics/software-engineering-code/"/>
+        <z:accessDate>2021-05-09 03:34:25</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://ethics.acm.org/code-of-ethics/software-engineering-code/">
+        <dcterms:title>Software Engineering Code</dcterms:title>
+        <bibo:uri>https://ethics.acm.org/code-of-ethics/software-engineering-code/</bibo:uri>
+        <dcterms:abstract>The joint ACM/IEEE-CS Software Engineering Code was published as: Don Gotterbarn, Keith Miller, and Simon Rogerson. 1997. Software engineering code of ethics. Commun. ACM 40, 11 (November 1997), 11…</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>ACM Ethics</dcterms:title>
+                <dcterms:date>2016-06-27T13:37:35+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

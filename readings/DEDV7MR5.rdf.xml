@@ -1,0 +1,30 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="DEDV7MR5">
+        <res:resource rdf:resource="https://www.boisestate.edu/publicsafety-transportation/"/>
+        <z:accessDate>2021-05-09 03:22:17</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.boisestate.edu/publicsafety-transportation/">
+        <dcterms:title>Home</dcterms:title>
+        <bibo:uri>https://www.boisestate.edu/publicsafety-transportation/</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4251"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4251"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Transportation and Parking</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n4251">
+        <foaf:givenName>Transportation and</foaf:givenName>
+        <foaf:surname>Parking</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="P8TZJRSL">
+        <res:resource rdf:resource="https://twitter.com/mitocw"/>
+        <z:accessDate>2021-05-09 03:35:38</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://twitter.com/mitocw">
+        <bibo:uri>https://twitter.com/mitocw</bibo:uri>
+        <dcterms:title>https://twitter.com/mitocw</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>https</bibo:shortTitle>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Twitter</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

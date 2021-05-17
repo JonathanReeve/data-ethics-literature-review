@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="4RNGPIVH">
+        <res:resource rdf:resource="https://uxdesign.cc/how-to-facilitate-citizen-experience-research-in-public-organisations-1151dbb46f69"/>
+        <z:accessDate>2021-05-09 03:52:35</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://uxdesign.cc/how-to-facilitate-citizen-experience-research-in-public-organisations-1151dbb46f69">
+        <dcterms:title>How to facilitate citizen experience research in public organisations</dcterms:title>
+        <bibo:uri>https://uxdesign.cc/how-to-facilitate-citizen-experience-research-in-public-organisations-1151dbb46f69</bibo:uri>
+        <dcterms:abstract>Public organisations (POs) in Europe are low paced with a bureaucratic style due to the influence of southern European history andâ€¦</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n9504"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9504"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2020-11-25T09:02:22.051Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n9504">
+       <foaf:givenName>Zoe</foaf:givenName><foaf:surname>Zindrou</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

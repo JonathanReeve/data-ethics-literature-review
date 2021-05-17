@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="T4IR2KHK">
+        <res:resource rdf:resource="https://www.humanetech.com/what-we-do"/>
+        <z:accessDate>2021-05-09 03:44:02</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.humanetech.com/what-we-do">
+        <dcterms:title>What We Do</dcterms:title>
+        <bibo:uri>https://www.humanetech.com/what-we-do</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

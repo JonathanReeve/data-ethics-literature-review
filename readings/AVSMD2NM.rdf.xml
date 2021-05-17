@@ -1,0 +1,61 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="AVSMD2NM">
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>competition</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>papers.ssrn.com</z:repository>
+        <z:accessDate>2021-05-09 03:54:18</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>copyright</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://papers.ssrn.com/abstract=3024938"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>fair use</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>artificial intelligence</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>machine learning</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>algorithms</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>bias</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://papers.ssrn.com/abstract=3024938">
+        <dcterms:type>SSRN Scholarly Paper</dcterms:type>
+        <dcterms:title>How Copyright Law Can Fix Artificial Intelligence's Implicit Bias Problem</dcterms:title>
+        <bibo:uri>https://papers.ssrn.com/abstract=3024938</bibo:uri>
+        <dcterms:abstract>As the use of artificial intelligence (AI) continues to spread, we have seen an increase in examples of AI systems reflecting or exacerbating societal bias, from racist facial recognition to sexist natural language processing. These biases threaten to overshadow AIâ€™s technological gains and potential benefits. While legal and computer science scholars have analyzed many sources of bias, including the unexamined assumptions of its often-homogenous creators, flawed algorithms, and incomplete datasets, the role of the law itself has been largely ignored. Yet just as code and culture play significant roles in how AI agents learn about and act in the world, so too do the laws that govern them. This Article is the first to examine perhaps the most powerful law impacting AI bias: copyright.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:date>2017/07/24</dcterms:date>
+        <dcterms:publisher>
+            <foaf:Organization>
+                <foaf:name>Social Science Research Network</foaf:name>
+                <address:localityName>Rochester, NY</address:localityName>
+            </foaf:Organization>
+        </dcterms:publisher>
+        <bibo:number>ID 3024938</bibo:number>
+        <dcterms:creator rdf:nodeID="n10006"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n10006"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n10006">
+        <foaf:givenName>Amanda</foaf:givenName>
+        <foaf:surname>Levendowski</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

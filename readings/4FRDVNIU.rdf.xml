@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="4FRDVNIU">
+        <res:resource rdf:resource="https://www.theatlantic.com/science/archive/2018/04/golden-state-killer-east-area-rapist-dna-genealogy/559070/"/>
+        <z:accessDate>2021-05-09 03:43:59</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.theatlantic.com/science/archive/2018/04/golden-state-killer-east-area-rapist-dna-genealogy/559070/">
+        <dcterms:title>How a Genealogy Website Led to the Alleged Golden State Killer</dcterms:title>
+        <bibo:uri>https://www.theatlantic.com/science/archive/2018/04/golden-state-killer-east-area-rapist-dna-genealogy/559070/</bibo:uri>
+        <dcterms:abstract>Powerful tools are now available to anyone who wants to look for a DNA match, which has troubling privacy implications.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n8246"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n8246"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>The Atlantic</dcterms:title>
+                <dcterms:date>2018-04-27T14:16:53Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n8246">
+       <foaf:givenName>Sarah</foaf:givenName><foaf:surname>Zhang</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

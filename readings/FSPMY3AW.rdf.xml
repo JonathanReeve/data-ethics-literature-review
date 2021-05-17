@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="FSPMY3AW">
+        <res:resource rdf:resource="https://www.npr.org/templates/story/story.php?storyId=92292747"/>
+        <z:accessDate>2021-05-09 03:39:57</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.npr.org/templates/story/story.php?storyId=92292747">
+        <dcterms:title>'The Big Sort': Red and Blue Divide Neighbors, Too</dcterms:title>
+        <bibo:uri>https://www.npr.org/templates/story/story.php?storyId=92292747</bibo:uri>
+        <dcterms:abstract>Look around your neighborhood. Chances are the people you live near are an awful lot like you â€” the same politics, same values, same way of life. The consequences of all this, argues author Bill Bishop, are dire.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>'The Big Sort'</bibo:shortTitle>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>NPR.org</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

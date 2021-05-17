@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="CVKNNTBT">
+        <res:resource rdf:resource="https://www.lightspeedmagazine.com/fiction/the-ones-who-stay-and-fight/"/>
+        <z:accessDate>2021-05-09 03:29:24</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.lightspeedmagazine.com/fiction/the-ones-who-stay-and-fight/">
+        <dcterms:title>The Ones Who Stay and Fight</dcterms:title>
+        <bibo:uri>https://www.lightspeedmagazine.com/fiction/the-ones-who-stay-and-fight/</bibo:uri>
+        <dcterms:abstract>Itâ€™s the Day of Good Birds in the city of Um-Helat! The Day is a local custom, silly and random as so many local customs can be, and yet beautiful by the same token. It has little to do with birds---a fact about which locals cheerfully laugh, because that, too, is how local customs work. It is a day of fluttering and flight regardless, where pennants of brightly dyed silk plume forth from every window, and delicate drones of copperwire and featherglass---made for this day, and flown on no other!---waft and buzz on the wind.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Lightspeed Magazine</dcterms:title>
+                <dcterms:date>2020-01-23T11:01:32+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

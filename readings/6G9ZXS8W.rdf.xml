@@ -1,0 +1,30 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="6G9ZXS8W">
+        <res:resource rdf:resource="https://www.newyorker.com/magazine/2007/05/14/what-else-is-new"/>
+        <z:accessDate>2021-05-09 03:41:33</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.newyorker.com/magazine/2007/05/14/what-else-is-new">
+        <dcterms:title>What Else Is New?</dcterms:title>
+        <bibo:uri>https://www.newyorker.com/magazine/2007/05/14/what-else-is-new</bibo:uri>
+        <dcterms:abstract>How uses, not innovations, drive human technology.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n7598"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7598"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>The New Yorker</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n7598">
+       <foaf:givenName>Steven</foaf:givenName><foaf:surname>Shapin</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

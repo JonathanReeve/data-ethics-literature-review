@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="SJ7FC2MZ">
+        <res:resource rdf:resource="https://www.jupyter.org"/>
+        <z:accessDate>2021-05-09 03:12:19</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.jupyter.org">
+        <dcterms:title>Project Jupyter</dcterms:title>
+        <bibo:uri>https://www.jupyter.org</bibo:uri>
+        <dcterms:abstract>The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, visualizations, interactive dashboards and other media.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

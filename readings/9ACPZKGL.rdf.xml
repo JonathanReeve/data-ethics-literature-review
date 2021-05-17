@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="9ACPZKGL">
+        <res:resource rdf:resource="http://www.purdue.edu"/>
+        <z:accessDate>2021-05-09 03:48:16</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.purdue.edu">
+        <dcterms:title>Purdue University - Indiana's Land Grant University</dcterms:title>
+        <bibo:uri>http://www.purdue.edu</bibo:uri>
+        <dcterms:abstract>Learn about Purdue University, a major research university located in Lafayette, Indiana known for discoveries in science, technology, engineering and more.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n9002"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9002"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n9002">
+        <foaf:givenName>Purdue</foaf:givenName>
+        <foaf:surname>University</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

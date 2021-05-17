@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="SE5XBI8K">
+        <res:resource rdf:resource="https://perma.cc/S8HB-9DNL"/>
+        <z:accessDate>2021-05-09 03:26:45</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/S8HB-9DNL">
+        <dcterms:title>Transparent, explainable, and accountable AI for robotics | Science Robotics</dcterms:title>
+        <bibo:uri>https://perma.cc/S8HB-9DNL</bibo:uri>
+        <dcterms:abstract>This is an archive of http://robotics.sciencemag.org/content/2/6/eaan6080.full?ijkey=oUId0Q01ajAt2&amp;keytype=ref&amp;siteid=robotics from Monday 22, January 2018</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

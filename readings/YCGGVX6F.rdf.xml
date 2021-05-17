@@ -1,0 +1,89 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="YCGGVX6F">
+        <res:resource rdf:resource="https://doi.org/10.1145/2566486.2568012"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>filter bubble</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>user experience</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>longitudinal data</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>recommender systems</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>content diversity</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/2566486.2568012">
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n7228"/>
+                <rdf:li rdf:nodeID="n7230"/>
+                <rdf:li rdf:nodeID="n7231"/>
+                <rdf:li rdf:nodeID="n7232"/>
+                <rdf:li rdf:nodeID="n7233"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:title>Exploring the filter bubble: the effect of using recommender systems on content diversity</dcterms:title>
+        <dcterms:abstract>Eli Pariser coined the term 'filter bubble' to describe the potential for online personalization to effectively isolate people from a diversity of viewpoints or content. Online recommender systems - built on algorithms that attempt to predict which items users will most enjoy consuming - are one family of technologies that potentially suffers from this effect. Because recommender systems have become so prevalent, it is important to investigate their impact on users in these terms. This paper examines the longitudinal impacts of a collaborative filtering-based recommender system on users. To the best of our knowledge, it is the first paper to measure the filter bubble effect in terms of content diversity at the individual level. We contribute a novel metric to measure content diversity based on information encoded in user-generated tags, and we present a new set of methods to examine the temporal effect of recommender systems on the user experience. We do find that recommender systems expose users to a slightly narrowing set of items over time. However, we also see evidence that users who actually consume the items recommended to them experience lessened narrowing effects and rate items more positively.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/2566486.2568012</bibo:uri>
+        <bibo:doi>10.1145/2566486.2568012</bibo:doi>
+        <bibo:shortTitle>Exploring the filter bubble</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n7228"/>
+        <bibo:pages>677â€“686</bibo:pages>
+        <dcterms:creator rdf:nodeID="n7230"/>
+        <dcterms:creator rdf:nodeID="n7231"/>
+        <dcterms:creator rdf:nodeID="n7232"/>
+        <dcterms:creator rdf:nodeID="n7233"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 23rd international conference on World wide web</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Seoul, Korea</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450327442</bibo:isbn13>
+                <dcterms:date>April 7, 2014</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>WWW '14</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7228">
+       <foaf:givenName>Tien T.</foaf:givenName><foaf:surname>Nguyen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7230">
+       <foaf:givenName>Pik-Mai</foaf:givenName><foaf:surname>Hui</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7231">
+        <foaf:givenName>F. Maxwell</foaf:givenName>
+        <foaf:surname>Harper</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7232">
+       <foaf:givenName>Loren</foaf:givenName><foaf:surname>Terveen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7233">
+        <foaf:givenName>Joseph A.</foaf:givenName>
+        <foaf:surname>Konstan</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

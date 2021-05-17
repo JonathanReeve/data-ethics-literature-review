@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="ZNEG6P4K">
+        <res:resource rdf:resource="https://stuartgeiger.com/year-archive/"/>
+        <z:accessDate>2021-05-09 03:41:11</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://stuartgeiger.com/year-archive/">
+        <dcterms:title>Blog posts</dcterms:title>
+        <bibo:uri>https://stuartgeiger.com/year-archive/</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>R. Stuart Geiger</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

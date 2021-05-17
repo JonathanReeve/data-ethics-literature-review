@@ -1,0 +1,19 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="J625W49P">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=In14zA1XAVk"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:19:36</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=In14zA1XAVk">
+        <dcterms:title>AAAI-20 AI History Panel: Advancing AI by Playing Games</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=In14zA1XAVk</bibo:uri>
+        <dcterms:abstract>AAAI-20 AI History Panel: Advancing AI by Playing GamesSubscribe and hit ðŸ”” to be in notification squad :)No ADS!Continue to support the channel: https://pay...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>AAAI-20 AI History Panel</bibo:shortTitle>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

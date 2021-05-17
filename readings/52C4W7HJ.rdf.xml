@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="52C4W7HJ">
+        <res:resource rdf:resource="https://www.freecodecamp.org/news/the-code-im-still-ashamed-of-e4c021dff55e/"/>
+        <z:accessDate>2021-05-09 03:44:48</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.freecodecamp.org/news/the-code-im-still-ashamed-of-e4c021dff55e/">
+        <dcterms:title>The code I’m still ashamed of</dcterms:title>
+        <bibo:uri>https://www.freecodecamp.org/news/the-code-im-still-ashamed-of-e4c021dff55e/</bibo:uri>
+        <dcterms:abstract>If you write code for a living, there’s a chance that at some point in your career, someone will ask you to code something a little deceitful – if not outright unethical. This happened to me back in the year 2000. And it’s something I’ll never be able</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>freeCodeCamp.org</dcterms:title>
+                <dcterms:date>2016-11-13T18:12:42.000Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

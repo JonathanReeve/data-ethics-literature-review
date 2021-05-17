@@ -1,0 +1,57 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="SQ67LWCE">
+        <res:resource rdf:resource="https://science.sciencemag.org/content/187/4175/398"/>
+        <dcterms:rights>1975 by the American Association for the Advancement of Science</dcterms:rights>
+        <z:repository>science.sciencemag.org</z:repository>
+        <z:accessDate>2021-05-09 03:53:24</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://science.sciencemag.org/content/187/4175/398">
+        <bibo:shortTitle>Sex Bias in Graduate Admissions</bibo:shortTitle>
+        <dcterms:title>Sex Bias in Graduate Admissions: Data from Berkeley</dcterms:title>
+        <dcterms:abstract>Examination of aggregate data on graduate admissions to the University of California, Berkeley, for fall 1973 shows a clear but misleading pattern of bias against female applicants. Examination of the disaggregated data reveals few decision-making units that show statistically significant departures from expected frequencies of female admissions, and about as many units appear to favor women as to favor men. If the data are properly pooled, taking into account the autonomy of departmental decision making, thus correcting for the tendency of women to apply to graduate departments that are more difficult for applicants of either sex to enter, there is a small but statistically significant bias in favor of women. The graduate departments that are easier to enter tend to be those that require more mathematics in the undergraduate preparatory curriculum. The bias in the aggregated data stems not from any pattern of discrimination on the part of admissions committees, which seem quite fair on the whole, but apparently from prior screening at earlier levels of the educational system. Women are shunted by their socialization and education toward fields of graduate study that are generally more crowded, less productive of completed degrees, and less well funded, and that frequently offer poorer professional employment prospects.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://science.sciencemag.org/content/187/4175/398</bibo:uri>
+        <bibo:pages>398-404</bibo:pages>
+        <z:extra>PMID: 17835295</z:extra>
+        <bibo:doi>10.1126/science.187.4175.398</bibo:doi>
+        <dcterms:creator rdf:nodeID="n9713"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n9713"/>
+                <rdf:li rdf:nodeID="n9715"/>
+                <rdf:li rdf:nodeID="n9716"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n9715"/>
+        <dcterms:creator rdf:nodeID="n9716"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>1975/02/07</dcterms:date>
+                <bibo:volume>187</bibo:volume>
+                <bibo:issue>4175</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Science</dcterms:title>
+                        <bibo:issn>0036-8075, 1095-9203</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n9713">
+       <foaf:givenName>P. J.</foaf:givenName><foaf:surname>Bickel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9715">
+       <foaf:givenName>E. A.</foaf:givenName><foaf:surname>Hammel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9716">
+        <foaf:givenName>J. W.</foaf:givenName>
+        <foaf:surname>O'Connell</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

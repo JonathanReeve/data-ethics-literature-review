@@ -1,0 +1,35 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="5NCQ5EM7">
+        <res:resource rdf:resource="https://www.boisestate.edu/news/2021/04/29/faculty-to-register-in-advance-for-spring-commencement-ceremonies/"/>
+        <z:accessDate>2021-05-09 03:22:02</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.boisestate.edu/news/2021/04/29/faculty-to-register-in-advance-for-spring-commencement-ceremonies/">
+        <dcterms:title>Faculty to register by May 5 for spring commencement ceremonies</dcterms:title>
+        <bibo:uri>https://www.boisestate.edu/news/2021/04/29/faculty-to-register-in-advance-for-spring-commencement-ceremonies/</bibo:uri>
+        <dcterms:abstract>Ahead of Boise State’s three commencement ceremonies May 7-8, faculty interested in participating must register by...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n4196"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4196"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Boise State News</dcterms:title>
+                <dcterms:date>2021-04-29T17:00:17+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n4196">
+        <foaf:givenName>Boise State</foaf:givenName>
+        <foaf:surname>News</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="S8SNKQBJ">
+        <res:resource rdf:resource="https://perma.cc/2RE9-2LK9"/>
+        <z:accessDate>2021-05-09 03:27:04</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/2RE9-2LK9">
+        <dcterms:title>Where machines could replace humans--and where they canâ€™t (yet) | McKinsey &amp; Company</dcterms:title>
+        <bibo:uri>https://perma.cc/2RE9-2LK9</bibo:uri>
+        <dcterms:abstract>The technical potential for automation differs dramatically across sectors and activities.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

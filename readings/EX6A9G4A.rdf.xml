@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="EX6A9G4A">
+        <res:resource rdf:resource="https://medium.com/membership"/>
+        <z:accessDate>2021-05-09 03:51:59</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/membership">
+        <dcterms:title>Membership - Fuel great thinking.</dcterms:title>
+        <dcterms:abstract>Upgrade to membership to get unlimited access to every story and support the voices you want to hear more from.</dcterms:abstract>
+        <bibo:uri>https://medium.com/membership</bibo:uri>
+    </bibo:Webpage>
+</rdf:RDF>

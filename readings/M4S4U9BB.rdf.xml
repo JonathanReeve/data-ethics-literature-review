@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="M4S4U9BB">
+        <res:resource rdf:resource="https://www.facebook.com/boisestateengineering/"/>
+        <z:accessDate>2021-05-09 03:22:08</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.facebook.com/boisestateengineering/">
+        <dcterms:title>Boise State College of Engineering</dcterms:title>
+        <bibo:uri>https://www.facebook.com/boisestateengineering/</bibo:uri>
+        <dcterms:abstract>Boise State College of Engineering, Boise, ID. 1,902 likes · 964 talking about this · 1,128 were here. Ranked as 13th among top Undergraduate Engineering Programs in the nation by US News and World...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

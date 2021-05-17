@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="QIU9TAFD">
+        <res:resource rdf:resource="https://perma.cc/LYH2-EYH5"/>
+        <z:accessDate>2021-05-09 03:25:39</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/LYH2-EYH5">
+        <dcterms:title>www.wkiri.com</dcterms:title>
+        <bibo:uri>https://perma.cc/LYH2-EYH5</bibo:uri>
+        <dcterms:abstract>This is an archive of http://www.wkiri.com/research/papers/wagstaff-MLmatters-12.pdf from Tuesday 02, January 2018</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

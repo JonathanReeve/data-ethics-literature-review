@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="A344XJGW">
+        <res:resource rdf:resource="https://www.facebook.com/geomblog"/>
+        <z:accessDate>2021-05-09 03:31:50</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.facebook.com/geomblog">
+        <dcterms:title>Suresh Venkatasubramanian</dcterms:title>
+        <dcterms:abstract>Suresh Venkatasubramanian is on Facebook. Join Facebook to connect with Suresh Venkatasubramanian and others you may know. Facebook gives people the power to share and makes the world more open and...</dcterms:abstract>
+        <bibo:uri>https://www.facebook.com/geomblog</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

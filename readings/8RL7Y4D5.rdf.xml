@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="8RL7Y4D5">
+        <res:resource rdf:resource="https://www.eff.org/deeplinks/2017/08/fighting-neo-nazis-future-free-expression"/>
+        <z:accessDate>2021-05-09 03:34:00</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.eff.org/deeplinks/2017/08/fighting-neo-nazis-future-free-expression">
+        <dcterms:title>Fighting Neo-Nazis and the Future of Free Expression</dcterms:title>
+        <bibo:uri>https://www.eff.org/deeplinks/2017/08/fighting-neo-nazis-future-free-expression</bibo:uri>
+        <dcterms:abstract>In the wake of Charlottesville, both GoDaddy and Google have refused to manage the domain registration for the Daily Stormer, a neo-Nazi website that, in the words of the Southern Poverty Law Center, is “dedicated to spreading anti-Semitism, neo-Nazism, and white nationalism.” Subsequently...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n6463"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6463"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Electronic Frontier Foundation</dcterms:title>
+                <dcterms:date>2017-08-17T16:23:33-07:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n6463">
+        <foaf:givenName>Jeremy Malcolm, Cindy Cohn, and Danny</foaf:givenName>
+        <foaf:surname>O&amp;#039;Brien</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

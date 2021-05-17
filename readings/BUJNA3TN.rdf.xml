@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="BUJNA3TN">
+        <res:resource rdf:resource="https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2"/>
+        <z:accessDate>2021-05-09 03:52:17</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2">
+        <dcterms:title>Something is wrong on the internet</dcterms:title>
+        <bibo:uri>https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2</bibo:uri>
+        <dcterms:abstract>I’m James Bridle. I’m a writer and artist concerned with technology and culture. I usually write on my own blog, but frankly I don’t want…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n9447"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9447"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2018-06-21T11:58:14.653Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n9447">
+       <foaf:givenName>James</foaf:givenName><foaf:surname>Bridle</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

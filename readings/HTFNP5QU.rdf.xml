@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="HTFNP5QU">
+        <res:resource rdf:resource="https://www.hcde.washington.edu/policies/plagiarism-and-academic-conduct"/>
+        <z:accessDate>2021-05-09 03:14:34</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.hcde.washington.edu/policies/plagiarism-and-academic-conduct">
+        <dcterms:title>Plagiarism and Academic Conduct Policy</dcterms:title>
+        <bibo:uri>https://www.hcde.washington.edu/policies/plagiarism-and-academic-conduct</bibo:uri>
+        <dcterms:abstract>Engineering Academic Integrity and Misconduct The HCDE department adheres to the College of Engineering's and the UW academic misconduct policies with regard to plagiarism. View the College of Engineering statement of principles of academic honesty, integrity, and responsibility. HCDE's Standards of Conduct The following expectations complement the UW Student Conduct Code. All students in HCDE classes must demonstrate the following behaviors and abilities: Communication: All students must communicate effectively with other students, faculty, and staff in HCDE.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Human Centered Design &amp; Engineering</dcterms:title>
+                <dcterms:date>2009-08-25T18:27:06-07:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

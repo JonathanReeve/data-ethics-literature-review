@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="2I8LYPNU">
+        <res:resource rdf:resource="https://perma.cc/3KAC-7CQV"/>
+        <z:accessDate>2021-05-09 03:26:07</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/3KAC-7CQV">
+        <dcterms:title>Technology Is Biased Too. How Do We Fix It? | FiveThirtyEight</dcterms:title>
+        <bibo:uri>https://perma.cc/3KAC-7CQV</bibo:uri>
+        <dcterms:abstract>Algorithms were supposed to free us from our unconscious mistakes. But now thereâ€™s a new set of problems to solve.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+        <bibo:shortTitle>Technology Is Biased Too. How Do We Fix It?</bibo:shortTitle>
+    </bibo:Webpage>
+</rdf:RDF>

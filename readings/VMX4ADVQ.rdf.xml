@@ -1,0 +1,19 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="VMX4ADVQ">
+        <res:resource rdf:resource="https://linoxide.com/linux-commands-cheat-sheet/"/>
+        <z:accessDate>2021-05-09 03:28:07</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://linoxide.com/linux-commands-cheat-sheet/">
+        <bibo:uri>https://linoxide.com/linux-commands-cheat-sheet/</bibo:uri>
+        <dcterms:title>Linux Cheat Sheet Commands - PDF Download &amp; Printable</dcterms:title>
+        <dcterms:abstract>Linux command line cheat sheet in a well formatted image and pdf file. Command are categorized in different sections for the ease of better understanding.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </sioct:BlogPost>
+</rdf:RDF>

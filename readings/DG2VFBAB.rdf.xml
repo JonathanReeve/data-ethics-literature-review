@@ -1,0 +1,80 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="DG2VFBAB">
+        <res:resource rdf:resource="https://doi.org/10.1145/2998181.2998273"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social computing</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>privacy</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>risk</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>wikipedia</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>identity</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>tor</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/2998181.2998273">
+        <dcterms:creator rdf:nodeID="n2830"/>
+        <dcterms:title>Privacy, Anonymity, and Perceived Risk in Open Collaboration: A Study of Tor Users and Wikipedians</dcterms:title>
+        <dcterms:abstract>This qualitative study examines privacy practices and concerns among contributors to open collaboration projects. We collected interview data from people who use the anonymity network Tor who also contribute to online projects and from Wikipedia editors who are concerned about their privacy to better understand how privacy concerns impact participation in open collaboration projects. We found that risks perceived by contributors to open collaboration projects include threats of surveillance, violence, harassment, opportunity loss, reputation loss, and fear for loved ones. We explain participants' operational and technical strategies for mitigating these risks and how these strategies affect their contributions. Finally, we discuss chilling effects associated with privacy loss, the need for open collaboration projects to go beyond attracting and educating participants to consider their privacy, and some of the social and technical approaches that could be explored to mitigate risk at a project or community level.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/2998181.2998273</bibo:uri>
+        <bibo:doi>10.1145/2998181.2998273</bibo:doi>
+        <bibo:shortTitle>Privacy, Anonymity, and Perceived Risk in Open Collaboration</bibo:shortTitle>
+        <bibo:pages>1800â€“1811</bibo:pages>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n2830"/>
+                <rdf:li rdf:nodeID="n2832"/>
+                <rdf:li rdf:nodeID="n2833"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n2832"/>
+        <dcterms:creator rdf:nodeID="n2833"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Portland, Oregon, USA</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450343350</bibo:isbn13>
+                <dcterms:date>February 25, 2017</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>CSCW '17</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n2830">
+       <foaf:givenName>Andrea</foaf:givenName><foaf:surname>Forte</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2832">
+        <foaf:givenName>Nazanin</foaf:givenName>
+        <foaf:surname>Andalibi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2833">
+        <foaf:givenName>Rachel</foaf:givenName>
+        <foaf:surname>Greenstadt</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

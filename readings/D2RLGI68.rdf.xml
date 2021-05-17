@@ -1,0 +1,36 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:z="http://www.zotero.org/namespaces/export#">
+    <z:UserItem rdf:about="D2RLGI68">
+        <res:resource>
+            <bibo:Article>
+                <dcterms:title>Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods</dcterms:title>
+                <bibo:pages>61â€“74</bibo:pages>
+                <dcterms:abstract>The output of a classifier should be a calibrated posterior probability to enable post-processing. Standard SVMs do not provide such probabilities. One method to create probabilities is to directly train a kernel classifier with a logit link function and a regularized maximum likelihood score. However, training with a maximum likelihood score will produce non-sparse kernel machines. Instead, we train an SVM, then train the parameters of an additional sigmoid function to map the SVM outputs into probabilities. This chapter compares classification error rate and likelihood scores for an SVM plus sigmoid versus a kernel method trained with a regularized likelihood error function. These methods are tested on three data-mining-style data sets. The SVM+sigmoid yields probabilities of comparable quality to the regularized maximum likelihood kernel method, while still retaining the sparseness of the SVM.</dcterms:abstract>
+                <dcterms:creator rdf:nodeID="n9790"/>
+                <bibo:authorList>
+                   <rdf:Seq><rdf:li rdf:nodeID="n9790"/></rdf:Seq>
+                </bibo:authorList>
+                <dcterms:isPartOf>
+                    <bibo:Proceedings>
+                        <dcterms:title>Advances in Large Margin Classifiers</dcterms:title>
+                        <dcterms:date>1999</dcterms:date>
+                        <dcterms:publisher>
+                            <foaf:Organization>
+                               <foaf:name>MIT Press</foaf:name>
+                            </foaf:Organization>
+                        </dcterms:publisher>
+                    </bibo:Proceedings>
+                </dcterms:isPartOf>
+            </bibo:Article>
+        </res:resource>
+        <z:repository>CiteSeer</z:repository>
+    </z:UserItem>
+    <foaf:Person rdf:nodeID="n9790">
+       <foaf:givenName>John C.</foaf:givenName><foaf:surname>Platt</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

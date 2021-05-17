@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="946J9TPY">
+        <res:resource rdf:resource="https://www.eccouncil.org/code-of-ethics/"/>
+        <z:accessDate>2021-05-09 03:28:05</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.eccouncil.org/code-of-ethics/">
+        <dcterms:title>Code Of Ethics</dcterms:title>
+        <bibo:uri>https://www.eccouncil.org/code-of-ethics/</bibo:uri>
+        <dcterms:abstract>The Principles based on the organization Keeping Private and Confidential information gained in your professional Work.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>EC-Council</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

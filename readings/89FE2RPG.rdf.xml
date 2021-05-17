@@ -1,0 +1,39 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="89FE2RPG">
+        <res:resource rdf:resource="https://www.jstor.org/stable/3109916"/>
+        <z:repository>JSTOR</z:repository>
+        <z:accessDate>2021-05-09 02:45:27</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.jstor.org/stable/3109916">
+        <dcterms:title>The Many Meanings of Research Utilization</dcterms:title>
+        <bibo:doi>10.2307/3109916</bibo:doi>
+        <bibo:pages>426-431</bibo:pages>
+        <bibo:uri>https://www.jstor.org/stable/3109916</bibo:uri>
+        <dcterms:creator rdf:nodeID="n272"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n272"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:issue>5</bibo:issue>
+                <bibo:volume>39</bibo:volume>
+                <dcterms:date>1979</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <bibo:issn>0033-3352</bibo:issn>
+                        <dcterms:title>Public Administration Review</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n272">
+       <foaf:givenName>Carol H.</foaf:givenName><foaf:surname>Weiss</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

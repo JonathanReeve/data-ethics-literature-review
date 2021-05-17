@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="2JM9W3GI">
+        <res:resource rdf:resource="https://informationecosystems.wordpress.com/assignments/"/>
+        <z:accessDate>2021-05-09 03:44:13</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://informationecosystems.wordpress.com/assignments/">
+        <dcterms:title>Assignments</dcterms:title>
+        <bibo:uri>https://informationecosystems.wordpress.com/assignments/</bibo:uri>
+        <dcterms:abstract>Note: Assignments will initially be underspecified, but they will be explained in class no later than two weeks before any assignment is due. Individual Assignments Assignment #1: Digital Ethnograp…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>INFO 2131</dcterms:title>
+                <dcterms:date>2017-08-29T16:44:22+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

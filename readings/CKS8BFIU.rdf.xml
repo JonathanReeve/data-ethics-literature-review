@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="CKS8BFIU">
+        <res:resource rdf:resource="https://shopping.google.com/?nord=1"/>
+        <z:accessDate>2021-05-09 03:39:10</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://shopping.google.com/?nord=1">
+        <bibo:uri>https://shopping.google.com/?nord=1</bibo:uri>
+        <dcterms:title>Google Shopping | Find the best prices and places to buy.</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

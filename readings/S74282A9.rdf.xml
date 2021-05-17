@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="S74282A9">
+        <res:resource rdf:resource="https://openlearning.mit.edu/"/>
+        <z:accessDate>2021-05-09 03:35:43</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://openlearning.mit.edu/">
+        <bibo:uri>https://openlearning.mit.edu/</bibo:uri>
+        <dcterms:title>MIT Open Learning brings Online Learning to MIT and the world</dcterms:title>
+        <dcterms:abstract>MIT Open Learning works with MIT faculty, industry experts, students, and others to improve teaching and learning through digital technologies on campus and globally.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

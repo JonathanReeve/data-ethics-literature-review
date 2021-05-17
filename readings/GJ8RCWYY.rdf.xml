@@ -1,0 +1,88 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="GJ8RCWYY">
+        <res:resource rdf:resource="http://arxiv.org/abs/1607.00133"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-05-09 03:45:30</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Statistics - Machine Learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+                <ctag:label>Computer Science - Cryptography and Security</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Machine Learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1607.00133">
+        <dcterms:creator rdf:nodeID="n8559"/>
+        <dcterms:title>Deep Learning with Differential Privacy</dcterms:title>
+        <bibo:uri>http://arxiv.org/abs/1607.00133</bibo:uri>
+        <bibo:doi>10.1145/2976749.2978318</bibo:doi>
+        <z:extra>arXiv: 1607.00133
+version: 2</z:extra>
+        <bibo:pages>308-318</bibo:pages>
+        <dcterms:creator rdf:nodeID="n8557"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n8557"/>
+                <rdf:li rdf:nodeID="n8559"/>
+                <rdf:li rdf:nodeID="n8560"/>
+                <rdf:li rdf:nodeID="n8561"/>
+                <rdf:li rdf:nodeID="n8562"/>
+                <rdf:li rdf:nodeID="n8563"/>
+                <rdf:li rdf:nodeID="n8564"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:abstract>Machine learning techniques based on neural networks are achieving remarkable results in a wide variety of domains. Often, the training of models requires large, representative datasets, which may be crowdsourced and contain sensitive information. The models should not expose private information in these datasets. Addressing this goal, we develop new algorithmic techniques for learning and a refined analysis of privacy costs within the framework of differential privacy. Our implementation and experiments demonstrate that we can train deep neural networks with non-convex objectives, under a modest privacy budget, and at a manageable cost in software complexity, training efficiency, and model quality.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n8560"/>
+        <dcterms:creator rdf:nodeID="n8561"/>
+        <dcterms:creator rdf:nodeID="n8562"/>
+        <dcterms:creator rdf:nodeID="n8563"/>
+        <dcterms:creator rdf:nodeID="n8564"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-10-24</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n8557">
+       <foaf:givenName>MartÃ­n</foaf:givenName><foaf:surname>Abadi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8559">
+       <foaf:givenName>Andy</foaf:givenName><foaf:surname>Chu</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8560">
+       <foaf:givenName>Ian</foaf:givenName><foaf:surname>Goodfellow</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8561">
+        <foaf:givenName>H. Brendan</foaf:givenName>
+        <foaf:surname>McMahan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8562">
+       <foaf:givenName>Ilya</foaf:givenName><foaf:surname>Mironov</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8563">
+       <foaf:givenName>Kunal</foaf:givenName><foaf:surname>Talwar</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8564">
+       <foaf:givenName>Li</foaf:givenName><foaf:surname>Zhang</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

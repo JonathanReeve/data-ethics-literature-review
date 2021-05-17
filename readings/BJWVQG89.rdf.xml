@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="BJWVQG89">
+        <res:resource rdf:resource="https://www.northeastern.edu/"/>
+        <z:accessDate>2021-05-09 03:19:20</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.northeastern.edu/">
+        <dcterms:title>Northeastern University - A University Like No Other</dcterms:title>
+        <bibo:uri>https://www.northeastern.edu/</bibo:uri>
+        <dcterms:abstract>Founded in 1898, Northeastern is a global, experiential, research university built on a tradition of engagement with the world, creating a distinctive approach to education and research. The university offers a comprehensive range of undergraduate and graduate programs leading to degrees through the doctorate in nine colleges and schools, and select advanced degrees at graduate campuses in Charlotte, North Carolina, Seattle, Silicon Valley, and Toronto.</dcterms:abstract>
+        <dcterms:language>english</dcterms:language>
+        <dcterms:creator rdf:nodeID="n3715"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n3715"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>Northeastern University</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n3715">
+        <foaf:givenName>Northeastern University</foaf:givenName>
+        <foaf:surname>http://www.northeastern.edu</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

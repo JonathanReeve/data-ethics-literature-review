@@ -1,0 +1,42 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="272A7JGH">
+        <res:resource rdf:resource="https://doi.org/10.1177/0011128700046003004"/>
+        <z:repository>SAGE Journals</z:repository>
+        <z:accessDate>2021-05-09 02:44:57</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1177/0011128700046003004">
+        <dcterms:title>A Historical Perspective on the Use of Randomized Trials in Social Science Settings</dcterms:title>
+        <bibo:doi>10.1177/0011128700046003004</bibo:doi>
+        <bibo:pages>315-329</bibo:pages>
+        <dcterms:abstract>Similar to medicine, social science has historically grappled with controlling for chance and bias in assessing the effectiveness of interventions. Questions about what works and how to evaluate the evidence underlie all areas of policy intervention. In the early years of the 20th century, social science in North America developed an established tradition of quantitative sociology that included experimental studies. This was followed by a number of social experiments from the 1960s to the 1980s. The history of prospective experimental studies with control groups applied to the social domain contains important lessons for experimental social science in the 21st century.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1177/0011128700046003004</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n163"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n163"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>July 1, 2000</dcterms:date>
+                <bibo:volume>46</bibo:volume>
+                <bibo:issue>3</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Crime &amp; Delinquency</dcterms:title>
+                        <bibo:shortTitle>Crime &amp; Delinquency</bibo:shortTitle>
+                        <bibo:issn>0011-1287</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n163">
+       <foaf:givenName>Ann</foaf:givenName><foaf:surname>Oakley</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

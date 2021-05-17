@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="ASASMNIS">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=lh1M8mRvpa8"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:09:34</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=lh1M8mRvpa8">
+        <dcterms:title>Guiding Principles of Interaction Design derived from Heidegger - Video 2</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=lh1M8mRvpa8</bibo:uri>
+        <dcterms:abstract>Learn UX design and advance your career: Take self-paced online courses and gain industry-recognized Course Certificates: https://bit.ly/2Fwp6BlThe Interacti...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

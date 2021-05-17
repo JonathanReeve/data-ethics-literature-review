@@ -1,0 +1,48 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="P9RH3WD6">
+        <res:resource rdf:resource="https://doi.org/10.1093/ser/mww033"/>
+        <z:repository>Silverchair</z:repository>
+        <z:accessDate>2021-05-09 03:29:30</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1093/ser/mww033">
+        <dcterms:title>Seeing like a market</dcterms:title>
+        <bibo:doi>10.1093/ser/mww033</bibo:doi>
+        <bibo:pages>9-29</bibo:pages>
+        <dcterms:abstract>What do markets see when they look at people? Information dragnets increasingly yield huge quantities of individual-level data, which are analyzed to sort and slot people into categories of taste, riskiness or worth. These tools deepen the reach of the market and define new strategies of profit-making. We present a new theoretical framework for understanding their development. We argue that (a) modern organizations follow an institutional data imperative to collect as much data as possible; (b) as a result of the analysis and use of this data, individuals accrue a form of capital flowing from their positions as measured by various digital scoring and ranking methods; and (c) the facticity of these scoring methods makes them organizational devices with potentially stratifying effects. They offer firms new opportunities to structure and price offerings to consumers. For individuals, they create classification situations that identify shared life-chances in product and service markets. We discuss the implications of these processes and argue that they tend toward a new economy of moral judgment, where outcomes are experienced as morally deserved positions based on prior good actions and good tastes, as measured and classified by this new infrastructure of data collection and analysis.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1093/ser/mww033</bibo:uri>
+        <dcterms:creator rdf:nodeID="n5542"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n5542"/><rdf:li rdf:nodeID="n5544"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5544"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>January 1, 2017</dcterms:date>
+                <bibo:volume>15</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <bibo:shortTitle>Socio-Economic Review</bibo:shortTitle>
+                        <bibo:issn>1475-1461</bibo:issn>
+                        <dcterms:title>Socio-Economic Review</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n5542">
+        <foaf:givenName>Marion</foaf:givenName>
+        <foaf:surname>Fourcade</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5544">
+       <foaf:givenName>Kieran</foaf:givenName><foaf:surname>Healy</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

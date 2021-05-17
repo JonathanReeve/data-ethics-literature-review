@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="5VS3P3VB">
+        <res:resource rdf:resource="https://zeykes.medium.com/is-the-social-construction-of-identity-a-performance-f82b33bedd6f"/>
+        <z:accessDate>2021-05-09 03:52:48</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://zeykes.medium.com/is-the-social-construction-of-identity-a-performance-f82b33bedd6f">
+        <dcterms:title>Is the social construction of identity a ‘performance’?</dcterms:title>
+        <bibo:uri>https://zeykes.medium.com/is-the-social-construction-of-identity-a-performance-f82b33bedd6f</bibo:uri>
+        <dcterms:abstract>The notion of identity is commonly contested in the disciplines of sociology and psychology and due to its subjective nature there is no…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n9554"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9554"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2019-03-25T13:12:42.762Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n9554">
+       <foaf:givenName>Zeynep</foaf:givenName><foaf:surname>Kesici</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

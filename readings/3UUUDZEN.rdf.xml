@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="3UUUDZEN">
+        <res:resource rdf:resource="https://www.academia.edu/Documents/in/Health_Sciences"/>
+        <z:accessDate>2021-05-09 02:55:45</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.academia.edu/Documents/in/Health_Sciences">
+        <bibo:uri>https://www.academia.edu/Documents/in/Health_Sciences</bibo:uri>
+        <dcterms:title>Health Sciences Research Papers - Academia.edu</dcterms:title>
+        <dcterms:abstract>View Health Sciences Research Papers on Academia.edu for free.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

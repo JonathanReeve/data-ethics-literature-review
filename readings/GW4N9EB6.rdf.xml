@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="GW4N9EB6">
+        <res:resource rdf:resource="https://orcid.org/0000-0001-7215-0532"/>
+        <z:accessDate>2021-05-09 03:41:25</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://orcid.org/0000-0001-7215-0532">
+        <dcterms:title>R.Stuart Geiger (0000-0001-7215-0532)</dcterms:title>
+        <dcterms:abstract>ORCID record for R.Stuart Geiger. ORCID provides an identifier for individuals to use with their name as they engage in research, scholarship, and innovation activities.</dcterms:abstract>
+        <bibo:uri>https://orcid.org/0000-0001-7215-0532</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n7570"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7570"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n7570">
+       <foaf:name>ORCID</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

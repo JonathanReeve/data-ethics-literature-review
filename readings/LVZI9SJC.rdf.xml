@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="LVZI9SJC">
+        <res:resource rdf:resource="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing?token=Gg58888u2U5db3W3CsuKrD0LD_VQJReQ"/>
+        <z:accessDate>2021-05-09 03:53:29</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing?token=Gg58888u2U5db3W3CsuKrD0LD_VQJReQ">
+        <dcterms:title>Machine Bias</dcterms:title>
+        <bibo:uri>https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing?token=Gg58888u2U5db3W3CsuKrD0LD_VQJReQ</bibo:uri>
+        <dcterms:abstract>There’s software used across the country to predict future criminals. And it’s biased against blacks.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n9748"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n9748"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>ProPublica</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n9748">
+        <foaf:givenName>Julia Angwin,Jeff Larson,Lauren Kirchner,Surya</foaf:givenName>
+        <foaf:surname>Mattu</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

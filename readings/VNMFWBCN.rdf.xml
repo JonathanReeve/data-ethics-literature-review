@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="VNMFWBCN">
+        <res:resource rdf:resource="https://docs.google.com/document/d/17cbHIwRvRq_PBzuOdJaZNX4y3Ta-fqzKTY09-xVfsWs/edit?usp=embed_facebook"/>
+        <z:accessDate>2021-05-09 02:48:59</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/document/d/17cbHIwRvRq_PBzuOdJaZNX4y3Ta-fqzKTY09-xVfsWs/edit?usp=embed_facebook">
+        <dcterms:title>A list of possible lab problems and what can be done about them</dcterms:title>
+        <bibo:uri>https://docs.google.com/document/d/17cbHIwRvRq_PBzuOdJaZNX4y3Ta-fqzKTY09-xVfsWs/edit?usp=embed_facebook</bibo:uri>
+        <dcterms:abstract>If you are having trouble in with lab software, check this list for possible solutions, and also the language-specific list for the language you're using (e.g., C++, Racket).  Since this list is long, you may want to use &quot;find in page&quot; (control-F) to search for words involving your problem.  ECLI...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

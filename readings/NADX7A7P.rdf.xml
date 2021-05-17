@@ -1,0 +1,45 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="NADX7A7P">
+        <res:resource rdf:resource="https://www.wired.com/2016/09/inside-googles-internet-justice-league-ai-powered-war-trolls/"/>
+        <z:repository>www.wired.com</z:repository>
+        <z:accessDate>2021-05-09 03:45:45</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>security</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>longreads</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>magazine-24.10</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>magazine</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.wired.com/2016/09/inside-googles-internet-justice-league-ai-powered-war-trolls/">
+        <dcterms:title>Inside Googleâ€™s Internet Justice League and Its AI-Powered War on Trolls</dcterms:title>
+        <bibo:uri>https://www.wired.com/2016/09/inside-googles-internet-justice-league-ai-powered-war-trolls/</bibo:uri>
+        <dcterms:abstract>The company's Jigsaw offshoot is on a mission to protect the Internet's most vulnerable. Trouble is, doing good is a lot harder than &quot;Don't be evil.&quot;</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n8611"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n8611"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Magazine>
+                <dcterms:title>Wired</dcterms:title>
+                <bibo:issn>1059-1028</bibo:issn>
+            </bibo:Magazine>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n8611">
+       <foaf:givenName>Andy</foaf:givenName><foaf:surname>Greenberg</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

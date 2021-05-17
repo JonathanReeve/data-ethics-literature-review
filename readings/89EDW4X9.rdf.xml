@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="89EDW4X9">
+        <res:resource rdf:resource="https://www.dailylobo.com/article/2019/09/cia-strengthens-relationship-with-unm"/>
+        <z:accessDate>2021-05-09 03:44:00</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.dailylobo.com/article/2019/09/cia-strengthens-relationship-with-unm">
+        <dcterms:title>CIA funds professor at UNM</dcterms:title>
+        <bibo:uri>https://www.dailylobo.com/article/2019/09/cia-strengthens-relationship-with-unm</bibo:uri>
+        <dcterms:abstract>The University of New Mexico is building upon its relationship with the Central Intelligence Agency through a Memorandum of Understanding (MOU).
+The memorandum allows the agency to station an active-duty CIA operative on campus. UNM alumnus and CIA agent David Berg arrived on campus earlier this fall.
+Berg will be stationed at the University for two years, teaching classes and serving as a resource for students seeking career opportunities within the CIA. His classes will begin next semester and include Ethics in Cyber Intelligence, Technology, and Social Media for National Security, and Introduction to Global and National Security.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>New Mexico Daily Lobo</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

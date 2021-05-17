@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="6JXH25WQ">
+        <res:resource rdf:resource="https://www.academia.edu/41184484/Ethnography_of_New_Media_Winter_2020"/>
+        <z:repository>www.academia.edu</z:repository>
+        <z:accessDate>2021-05-09 03:09:00</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.academia.edu/41184484/Ethnography_of_New_Media_Winter_2020">
+        <dcterms:title>Ethnography of New Media Winter 2020</dcterms:title>
+        <bibo:uri>https://www.academia.edu/41184484/Ethnography_of_New_Media_Winter_2020</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n2042"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n2042"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n2042">
+       <foaf:givenName>Meg</foaf:givenName><foaf:surname>Stalcup</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

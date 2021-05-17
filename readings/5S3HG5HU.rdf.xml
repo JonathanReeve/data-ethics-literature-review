@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="5S3HG5HU">
+        <res:resource rdf:resource="https://www.theverge.com/2020/5/12/21255870/facebook-content-moderator-settlement-scola-ptsd-mental-health"/>
+        <z:accessDate>2021-05-09 03:29:52</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.theverge.com/2020/5/12/21255870/facebook-content-moderator-settlement-scola-ptsd-mental-health">
+        <dcterms:title>Facebook will pay $52 million in settlement with moderators who developed PTSD on the job</dcterms:title>
+        <bibo:uri>https://www.theverge.com/2020/5/12/21255870/facebook-content-moderator-settlement-scola-ptsd-mental-health</bibo:uri>
+        <dcterms:abstract>Current and former moderators will all be paid a minimum of $1,000. Selena Scola filed the case in California.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5637"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n5637"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>The Verge</dcterms:title>
+                <dcterms:date>2020-05-12T15:39:23-04:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n5637">
+       <foaf:givenName>Casey</foaf:givenName><foaf:surname>Newton</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

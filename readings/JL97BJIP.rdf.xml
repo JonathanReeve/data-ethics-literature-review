@@ -1,0 +1,30 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="JL97BJIP">
+        <res:resource rdf:resource="https://en.wikipedia.org/w/index.php?title=Robot_%2526_Frank&amp;oldid=1020921858"/>
+        <dcterms:rights>Creative Commons Attribution-ShareAlike License</dcterms:rights>
+        <z:repository>Wikipedia</z:repository>
+        <z:accessDate>2021-05-09 03:21:26</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://en.wikipedia.org/w/index.php?title=Robot_%2526_Frank&amp;oldid=1020921858">
+        <dcterms:title>&lt;i&gt;Robot &amp;amp; Frank&lt;/i&gt;</dcterms:title>
+        <bibo:uri>https://en.wikipedia.org/w/index.php?title=Robot_%26_Frank&amp;oldid=1020921858</bibo:uri>
+        <z:extra>Page Version ID: 1020921858</z:extra>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:abstract>Robot &amp; Frank is a 2012 American science fiction comedy-drama film directed by Jake Schreier and screenplay by Christopher Ford. Set in the near future, it focuses on Frank Weld, an aging jewel thief, played by Frank Langella, whose son buys him a domestic robot. Resistant at first, Frank warms up to the robot when he realizes he can use it to restart his career as a cat burglar.
+Robot &amp; Frank was the first feature film for both Schreier and Ford, and received critical acclaim for its writing, production, and acting. It won the Alfred P. Sloan Prize at the 2012 Sundance Film Festival, tying with the Kashmiri film Valley of Saints by Musa Syeed.
+The robot was created by Tony Gardner's special effects company Alterian, Inc.</dcterms:abstract>
+        <dcterms:isPartOf>
+            <sc:Encyclopedia>
+                <dcterms:title>Wikipedia</dcterms:title>
+                <dcterms:date>2021-05-01T20:58:49Z</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/ReferenceSource"/>
+            </sc:Encyclopedia>
+        </dcterms:isPartOf>
+    </bibo:Article>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="CV343PMJ">
+        <res:resource rdf:resource="https://docs.google.com/forms/d/e/1FAIpQLSc9cXs9pTcmvOeKSLE7XyLmdS1mE0Rp0Wc1ufnwsEVFpSHYMw/viewform?usp=embed_facebook"/>
+        <z:accessDate>2021-05-09 03:18:08</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/forms/d/e/1FAIpQLSc9cXs9pTcmvOeKSLE7XyLmdS1mE0Rp0Wc1ufnwsEVFpSHYMw/viewform?usp=embed_facebook">
+        <dcterms:title>S&amp;DS 150b Registration: Data Science Ethics</dcterms:title>
+        <bibo:uri>https://docs.google.com/forms/d/e/1FAIpQLSc9cXs9pTcmvOeKSLE7XyLmdS1mE0Rp0Wc1ufnwsEVFpSHYMw/viewform?usp=embed_facebook</bibo:uri>
+        <bibo:shortTitle>S&amp;DS 150b Registration</bibo:shortTitle>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

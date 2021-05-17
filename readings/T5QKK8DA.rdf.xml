@@ -1,0 +1,35 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="T5QKK8DA">
+        <res:resource rdf:resource="https://hackaday.com/2015/10/26/killed-by-a-machine-the-therac-25/"/>
+        <z:accessDate>2021-05-09 03:32:38</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://hackaday.com/2015/10/26/killed-by-a-machine-the-therac-25/">
+        <dcterms:title>Killed By A Machine: The Therac-25</dcterms:title>
+        <bibo:uri>https://hackaday.com/2015/10/26/killed-by-a-machine-the-therac-25/</bibo:uri>
+        <dcterms:abstract>The Therac-25 was not a device anyone was happy to see. It was a radiation therapy machine. In layman’s terms it was a “cancer zapper”; a linear accelerator with a human as its target. Using …</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:shortTitle>Killed By A Machine</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n6193"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6193"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Hackaday</dcterms:title>
+                <dcterms:date>2015-10-26T14:00:39+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Organization rdf:nodeID="n6193">
+       <foaf:name>By</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

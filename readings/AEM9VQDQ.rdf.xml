@@ -1,0 +1,111 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="AEM9VQDQ">
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>intelligent systems</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>cscw</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>work assignment</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>performance evaluation</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>algorithm</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://doi.org/10.1145/2702123.2702548"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>sensemaking</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>algorithmic management</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>human-centered algorithms</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>on-demand work</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>data-driven metrics</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>dynamic pricing</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>sharing economies</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/2702123.2702548">
+        <dcterms:creator rdf:nodeID="n7403"/>
+        <dcterms:title>Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers</dcterms:title>
+        <dcterms:abstract>Software algorithms are changing how people work in an ever-growing number of fields, managing distributed human workers at a large scale. In these work settings, human jobs are assigned, optimized, and evaluated through algorithms and tracked data. We explore the impact of this algorithmic, data-driven management on human workers and work practices in the context of Uber and Lyft, new ridesharing services. Our findings from a qualitative study describe how drivers responded when algorithms assigned work, provided informational support, and evaluated their performance, and how drivers used online forums to socially make sense of the algorithm features. Implications and future work are discussed.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/2702123.2702548</bibo:uri>
+        <bibo:doi>10.1145/2702123.2702548</bibo:doi>
+        <bibo:shortTitle>Working with Machines</bibo:shortTitle>
+        <bibo:pages>1603â€“1612</bibo:pages>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n7403"/>
+                <rdf:li rdf:nodeID="n7405"/>
+                <rdf:li rdf:nodeID="n7406"/>
+                <rdf:li rdf:nodeID="n7407"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n7405"/>
+        <dcterms:creator rdf:nodeID="n7406"/>
+        <dcterms:creator rdf:nodeID="n7407"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Seoul, Republic of Korea</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450331456</bibo:isbn13>
+                <dcterms:date>April 18, 2015</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>CHI '15</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7403">
+       <foaf:givenName>Min Kyung</foaf:givenName><foaf:surname>Lee</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7405">
+       <foaf:givenName>Daniel</foaf:givenName><foaf:surname>Kusbit</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7406">
+       <foaf:givenName>Evan</foaf:givenName><foaf:surname>Metsky</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7407">
+       <foaf:givenName>Laura</foaf:givenName><foaf:surname>Dabbish</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

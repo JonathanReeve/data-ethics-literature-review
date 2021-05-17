@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="XVZ93BC9">
+        <res:resource rdf:resource="https://datascienceethics.wordpress.com/elisacelis/contact/"/>
+        <z:accessDate>2021-05-09 03:18:06</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://datascienceethics.wordpress.com/elisacelis/contact/">
+        <dcterms:title>Contact</dcterms:title>
+        <bibo:uri>https://datascienceethics.wordpress.com/elisacelis/contact/</bibo:uri>
+        <dcterms:abstract>Email: for questions related to the blog or course: first.last@datascienceethics.org for students registered in S&amp;DS150: spring2019@datascienceethics.org for all other academic queries: first.l…</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Data Science Ethics</dcterms:title>
+                <dcterms:date>2018-12-07T19:54:34+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

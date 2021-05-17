@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="YLV64L65">
+        <res:resource rdf:resource="https://www.google.com/maps/place/William+R.+Hewlett+Teaching+Center,+370+Serra+Mall,+Stanford+University,+Stanford,+CA+94305/@37.428945,-122.1728377,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbb2ae177cc91:0x5351ffed56456da8?hl=en"/>
+        <z:accessDate>2021-05-09 03:03:03</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.google.com/maps/place/William+R.+Hewlett+Teaching+Center,+370+Serra+Mall,+Stanford+University,+Stanford,+CA+94305/@37.428945,-122.1728377,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbb2ae177cc91:0x5351ffed56456da8?hl=en">
+        <dcterms:title>William R. Hewlett Teaching Center</dcterms:title>
+        <dcterms:abstract>Building Â· 370 Serra Mall</dcterms:abstract>
+        <bibo:uri>https://www.google.com/maps/place/William+R.+Hewlett+Teaching+Center,+370+Serra+Mall,+Stanford+University,+Stanford,+CA+94305/@37.428945,-122.1728377,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbb2ae177cc91:0x5351ffed56456da8?hl=en</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>William R. Hewlett Teaching Center</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

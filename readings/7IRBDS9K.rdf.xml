@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="7IRBDS9K">
+        <res:resource rdf:resource="https://blog.cryptographyengineering.com/2019/09/24/looking-back-at-the-snowden-revelations/"/>
+        <z:accessDate>2021-05-09 03:30:08</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://blog.cryptographyengineering.com/2019/09/24/looking-back-at-the-snowden-revelations/">
+        <dcterms:title>Looking back at the Snowden revelations</dcterms:title>
+        <bibo:uri>https://blog.cryptographyengineering.com/2019/09/24/looking-back-at-the-snowden-revelations/</bibo:uri>
+        <dcterms:abstract>Edward Snowden recently released his memoirs. In some parts of the Internet, this has rekindled an ancient debate: namely, was it all worth it? Did Snowden’s leaks make us better off, or did …</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>A Few Thoughts on Cryptographic Engineering</dcterms:title>
+                <dcterms:date>2019-09-24T20:12:37+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

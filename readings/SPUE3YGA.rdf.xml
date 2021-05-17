@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="SPUE3YGA">
+        <res:resource rdf:resource="https://support.academia.edu/hc/en-us"/>
+        <z:accessDate>2021-05-09 03:49:41</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://support.academia.edu/hc/en-us">
+        <bibo:uri>https://support.academia.edu/hc/en-us</bibo:uri>
+        <dcterms:title>Academia</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

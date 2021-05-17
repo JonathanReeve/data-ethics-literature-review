@@ -1,0 +1,56 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="UGTWNK3T">
+        <res:resource rdf:resource="https://doi.org/10.1080/01972243.2011.583819"/>
+        <z:repository>Taylor and Francis+NEJM</z:repository>
+        <z:accessDate>2021-05-09 03:46:55</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>information technology</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>innovation</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>making</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social theory</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1080/01972243.2011.583819">
+        <dcterms:title>Critical Making: Conceptual and Material Studies in Technology and Social Life</dcterms:title>
+        <bibo:pages>252-260</bibo:pages>
+        <bibo:doi>10.1080/01972243.2011.583819</bibo:doi>
+        <bibo:uri>https://doi.org/10.1080/01972243.2011.583819</bibo:uri>
+        <dcterms:abstract>This article provides an overview of a series of experiments in what the author calls critical making, a mode of materially productive engagement that is intended to bridge the gap between creative physical and conceptual exploration. Although they share much in common with forms of design and art practice, the goal of these events is primarily focused on using material production—making things—as part of an explicit practice of concept elaboration within the social study of technology.</dcterms:abstract>
+        <bibo:shortTitle>Critical Making</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n8753"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n8753"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>27</bibo:volume>
+                <bibo:issue>4</bibo:issue>
+                <dcterms:date>July 1, 2011</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>The Information Society</dcterms:title>
+                        <bibo:issn>0197-2243</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n8753">
+       <foaf:givenName>Matt</foaf:givenName><foaf:surname>Ratto</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

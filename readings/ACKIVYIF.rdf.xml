@@ -1,0 +1,78 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="ACKIVYIF">
+        <res:resource rdf:resource="http://arxiv.org/abs/1701.08230"/>
+        <z:repository>arXiv.org</z:repository>
+        <z:accessDate>2021-05-09 03:53:42</z:accessDate>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Computer Science - Computers and Society</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Statistics - Applications</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://arxiv.org/abs/1701.08230">
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n9826"/>
+                <rdf:li rdf:nodeID="n9828"/>
+                <rdf:li rdf:nodeID="n9829"/>
+                <rdf:li rdf:nodeID="n9830"/>
+                <rdf:li rdf:nodeID="n9831"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:title>Algorithmic decision making and the cost of fairness</dcterms:title>
+        <bibo:uri>http://arxiv.org/abs/1701.08230</bibo:uri>
+        <bibo:doi>10.1145/3097983.309809</bibo:doi>
+        <z:extra>arXiv: 1701.08230</z:extra>
+        <dcterms:creator rdf:nodeID="n9826"/>
+        <dcterms:abstract>Algorithms are now regularly used to decide whether defendants awaiting trial are too dangerous to be released back into the community. In some cases, black defendants are substantially more likely than white defendants to be incorrectly classified as high risk. To mitigate such disparities, several techniques recently have been proposed to achieve algorithmic fairness. Here we reformulate algorithmic fairness as constrained optimization: the objective is to maximize public safety while satisfying formal fairness constraints designed to reduce racial disparities. We show that for several past definitions of fairness, the optimal algorithms that result require detaining defendants above race-specific risk thresholds. We further show that the optimal unconstrained algorithm requires applying a single, uniform threshold to all defendants. The unconstrained algorithm thus maximizes public safety while also satisfying one important understanding of equality: that all individuals are held to the same standard, irrespective of race. Because the optimal constrained and unconstrained algorithms generally differ, there is tension between improving public safety and satisfying prevailing notions of algorithmic fairness. By examining data from Broward County, Florida, we show that this trade-off can be large in practice. We focus on algorithms for pretrial release decisions, but the principles we discuss apply to other domains, and also to human decision makers carrying out structured decision rules.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n9828"/>
+        <dcterms:creator rdf:nodeID="n9829"/>
+        <dcterms:creator rdf:nodeID="n9830"/>
+        <dcterms:creator rdf:nodeID="n9831"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017-06-09</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>arXiv:1701.08230 [cs, stat]</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n9826">
+        <foaf:givenName>Sam</foaf:givenName>
+        <foaf:surname>Corbett-Davies</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9828">
+       <foaf:givenName>Emma</foaf:givenName><foaf:surname>Pierson</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9829">
+       <foaf:givenName>Avi</foaf:givenName><foaf:surname>Feller</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9830">
+       <foaf:givenName>Sharad</foaf:givenName><foaf:surname>Goel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9831">
+       <foaf:givenName>Aziz</foaf:givenName><foaf:surname>Huq</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="#item_2">
+        <res:resource>
+            <bibo:Note>
+               <z:note>Comment: To appear in Proceedings of KDD'17</z:note>
+            </bibo:Note>
+        </res:resource>
+    </z:UserItem>
+</rdf:RDF>

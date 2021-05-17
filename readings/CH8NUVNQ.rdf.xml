@@ -1,0 +1,120 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="CH8NUVNQ">
+        <res:resource rdf:resource="https://doi.org/10.1145/3287560.3287572"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>compounding injustices</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>online recruiting</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>gender bias</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>automated hiring</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>algorithmic fairness</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Supervised learning</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/3287560.3287572">
+        <dcterms:creator rdf:nodeID="n1100"/>
+        <dcterms:title>Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting</dcterms:title>
+        <dcterms:abstract>We present a large-scale study of gender bias in occupation classification, a task where the use of machine learning may lead to negative outcomes on peoples' lives. We analyze the potential allocation harms that can result from semantic representation bias. To do so, we study the impact on occupation classification of including explicit gender indicators---such as first names and pronouns---in different semantic representations of online biographies. Additionally, we quantify the bias that remains when these indicators are &quot;scrubbed,&quot; and describe proxy behavior that occurs in the absence of explicit gender indicators. As we demonstrate, differences in true positive rates between genders are correlated with existing gender imbalances in occupations, which may compound these imbalances.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/3287560.3287572</bibo:uri>
+        <bibo:doi>10.1145/3287560.3287572</bibo:doi>
+        <bibo:shortTitle>Bias in Bios</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n1097"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n1097"/>
+                <rdf:li rdf:nodeID="n1099"/>
+                <rdf:li rdf:nodeID="n1100"/>
+                <rdf:li rdf:nodeID="n1101"/>
+                <rdf:li rdf:nodeID="n1102"/>
+                <rdf:li rdf:nodeID="n1103"/>
+                <rdf:li rdf:nodeID="n1104"/>
+                <rdf:li rdf:nodeID="n1105"/>
+                <rdf:li rdf:nodeID="n1106"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n1099"/>
+        <bibo:pages>120â€“128</bibo:pages>
+        <dcterms:creator rdf:nodeID="n1101"/>
+        <dcterms:creator rdf:nodeID="n1102"/>
+        <dcterms:creator rdf:nodeID="n1103"/>
+        <dcterms:creator rdf:nodeID="n1104"/>
+        <dcterms:creator rdf:nodeID="n1105"/>
+        <dcterms:creator rdf:nodeID="n1106"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the Conference on Fairness, Accountability, and Transparency</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Atlanta, GA, USA</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450361255</bibo:isbn13>
+                <dcterms:date>January 29, 2019</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>FAT* '19</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n1097">
+        <foaf:givenName>Maria</foaf:givenName>
+        <foaf:surname>De-Arteaga</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1099">
+       <foaf:givenName>Alexey</foaf:givenName><foaf:surname>Romanov</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1100">
+       <foaf:givenName>Hanna</foaf:givenName><foaf:surname>Wallach</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1101">
+        <foaf:givenName>Jennifer</foaf:givenName>
+        <foaf:surname>Chayes</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1102">
+        <foaf:givenName>Christian</foaf:givenName>
+        <foaf:surname>Borgs</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1103">
+        <foaf:givenName>Alexandra</foaf:givenName>
+        <foaf:surname>Chouldechova</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1104">
+       <foaf:givenName>Sahin</foaf:givenName><foaf:surname>Geyik</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1105">
+        <foaf:givenName>Krishnaram</foaf:givenName>
+        <foaf:surname>Kenthapadi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1106">
+        <foaf:givenName>Adam Tauman</foaf:givenName>
+        <foaf:surname>Kalai</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

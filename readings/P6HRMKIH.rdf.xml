@@ -1,0 +1,31 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="P6HRMKIH">
+        <res:resource rdf:resource="https://blog.interviewing.io/we-ran-the-numbers-and-there-really-is-a-pipeline-problem-in-eng-hiring/"/>
+        <z:accessDate>2021-05-09 03:29:48</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://blog.interviewing.io/we-ran-the-numbers-and-there-really-is-a-pipeline-problem-in-eng-hiring/">
+        <dcterms:title>We ran the numbers, and there really is a pipeline problem in eng hiring.</dcterms:title>
+        <bibo:uri>https://blog.interviewing.io/we-ran-the-numbers-and-there-really-is-a-pipeline-problem-in-eng-hiring/</bibo:uri>
+        <dcterms:abstract>There really aren't enough women engineers in the pool, based on how we hire now, and all the bias training in the world won't help.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5616"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n5616"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>interviewing.io blog</dcterms:title>
+                <dcterms:date>2019-12-03T17:19:41+00:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n5616">
+       <foaf:givenName>Aline</foaf:givenName><foaf:surname>Lerner</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

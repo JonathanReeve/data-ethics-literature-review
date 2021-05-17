@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="9ZYRTP7N">
+        <res:resource rdf:resource="http://www.theguardian.com/technology/2017/apr/13/ai-programs-exhibit-racist-and-sexist-biases-research-reveals"/>
+        <z:accessDate>2021-05-09 03:38:53</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.theguardian.com/technology/2017/apr/13/ai-programs-exhibit-racist-and-sexist-biases-research-reveals">
+        <dcterms:title>AI programs exhibit racial and gender biases, research reveals</dcterms:title>
+        <bibo:uri>http://www.theguardian.com/technology/2017/apr/13/ai-programs-exhibit-racist-and-sexist-biases-research-reveals</bibo:uri>
+        <dcterms:abstract>Machine learning algorithms are picking up deeply ingrained race and gender prejudices concealed within the patterns of language use, scientists say</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>the Guardian</dcterms:title>
+                <dcterms:date>2017-04-13T18:00:11.000Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

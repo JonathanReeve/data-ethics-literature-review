@@ -1,0 +1,24 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="B84BCEDV">
+        <res:resource rdf:resource="https://www.ftc.gov/tips-advice/business-center/guidance/childrens-online-privacy-protection-rule-six-step-compliance"/>
+        <z:accessDate>2021-05-09 03:55:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.ftc.gov/tips-advice/business-center/guidance/childrens-online-privacy-protection-rule-six-step-compliance">
+        <dcterms:title>Children’s Online Privacy Protection Rule: A Six-Step Compliance Plan for Your Business</dcterms:title>
+        <bibo:uri>https://www.ftc.gov/tips-advice/business-center/guidance/childrens-online-privacy-protection-rule-six-step-compliance</bibo:uri>
+        <dcterms:abstract>The official website of the Federal Trade Commission, protecting America’s consumers for over 100 years.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Children’s Online Privacy Protection Rule</bibo:shortTitle>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Federal Trade Commission</dcterms:title>
+                <dcterms:date>2013-06-30T10:02:05-04:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

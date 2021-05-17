@@ -1,0 +1,44 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="WSQG6WJW">
+        <res:resource rdf:resource="https://engineering.stanford.edu/students-academics/technical-communication-program"/>
+        <z:accessDate>2021-05-09 03:28:58</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://engineering.stanford.edu/students-academics/technical-communication-program">
+        <dcterms:title>Technical Communication Program</dcterms:title>
+        <bibo:uri>https://engineering.stanford.edu/students-academics/technical-communication-program</bibo:uri>
+        <dcterms:abstract>The Technical Communication Program (TCP), in Huang Engineering 049, is a writing and public speaking resource center for Stanford students of all levels. Founded in 1976, the TCP offers individual consulting and coaching in addition to a range of courses to help Stanford students become more effective and confident writers and presenters.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5427"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n5427"/>
+                <rdf:li rdf:nodeID="n5429"/>
+                <rdf:li rdf:nodeID="n5430"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5429"/>
+        <dcterms:creator rdf:nodeID="n5430"/>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Stanford School of Engineering</dcterms:title>
+                <dcterms:date>2016-05-02T16:01:47-07:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n5427">
+        <foaf:givenName>Â© Stanford</foaf:givenName>
+        <foaf:surname>University</foaf:surname>
+    </foaf:Person>
+    <foaf:Organization rdf:nodeID="n5429">
+       <foaf:name>Stanford</foaf:name>
+    </foaf:Organization>
+    <foaf:Organization rdf:nodeID="n5430">
+       <foaf:name>California 94305</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

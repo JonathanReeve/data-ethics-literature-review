@@ -1,0 +1,36 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="CUS3A6LJ">
+        <res:resource rdf:resource="https://www.boisestate.edu/news/2021/05/05/new-programs-in-the-college-of-innovation-and-design-request-for-proposals/"/>
+        <z:accessDate>2021-05-09 03:21:59</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.boisestate.edu/news/2021/05/05/new-programs-in-the-college-of-innovation-and-design-request-for-proposals/">
+        <dcterms:title>New programs in the College of Innovation and Design: Request for proposals</dcterms:title>
+        <bibo:uri>https://www.boisestate.edu/news/2021/05/05/new-programs-in-the-college-of-innovation-and-design-request-for-proposals/</bibo:uri>
+        <dcterms:abstract>The College of Innovation and Design seeks proposals for new degrees, certificates, and courses. The...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>New programs in the College of Innovation and Design</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n4181"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n4181"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Boise State News</dcterms:title>
+                <dcterms:date>2021-05-05T20:11:23+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n4181">
+        <foaf:givenName>Boise State</foaf:givenName>
+        <foaf:surname>News</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

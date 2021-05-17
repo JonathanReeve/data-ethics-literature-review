@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="4799B5EE">
+        <res:resource rdf:resource="https://accounts.google.com/ServiceLogin?service=wise&amp;passive=1209600&amp;continue=https://drive.google.com/file/d/1a8jKBU9mUVg_nBQlcAYr4Y8ofexPPHOG/view?usp%253Dsharing&amp;followup=https://drive.google.com/file/d/1a8jKBU9mUVg_nBQlcAYr4Y8ofexPPHOG/view?usp%253Dsharing"/>
+        <z:accessDate>2021-05-09 03:01:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://accounts.google.com/ServiceLogin?service=wise&amp;passive=1209600&amp;continue=https://drive.google.com/file/d/1a8jKBU9mUVg_nBQlcAYr4Y8ofexPPHOG/view?usp%253Dsharing&amp;followup=https://drive.google.com/file/d/1a8jKBU9mUVg_nBQlcAYr4Y8ofexPPHOG/view?usp%253Dsharing">
+        <bibo:uri>https://accounts.google.com/ServiceLogin?service=wise&amp;passive=1209600&amp;continue=https://drive.google.com/file/d/1a8jKBU9mUVg_nBQlcAYr4Y8ofexPPHOG/view?usp%3Dsharing&amp;followup=https://drive.google.com/file/d/1a8jKBU9mUVg_nBQlcAYr4Y8ofexPPHOG/view?usp%3Dsharing</bibo:uri>
+        <dcterms:title>Google Drive: Sign-in</dcterms:title>
+        <dcterms:abstract>Access Google Drive with a free Google account (for personal use) or Google Workspace account (for business use).</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

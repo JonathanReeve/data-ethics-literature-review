@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="7WGD8SCG">
+        <res:resource rdf:resource="https://hackmd.io"/>
+        <z:accessDate>2021-05-09 03:02:19</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://hackmd.io">
+        <dcterms:title>HackMD - Collaborative Markdown Knowledge Base</dcterms:title>
+        <bibo:uri>https://hackmd.io</bibo:uri>
+        <dcterms:abstract>Best way to write and share your knowledge in markdown.</dcterms:abstract>
+        <dcterms:language>dev</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>HackMD</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

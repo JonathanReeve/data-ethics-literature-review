@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="QG8DNIEI">
+        <res:resource rdf:resource="http://tech.mit.edu/V124/N20/valentiintervie.20f.html"/>
+        <z:accessDate>2021-05-09 03:30:05</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://tech.mit.edu/V124/N20/valentiintervie.20f.html">
+        <bibo:uri>http://tech.mit.edu/V124/N20/valentiintervie.20f.html</bibo:uri>
+        <dcterms:title>Real Dialogue: The Tech interviews Jack Valenti - The Tech</dcterms:title>
+        <dcterms:abstract>An article from the Friday, April 16, 2004 issue of The Tech - MIT's oldest and largest newspaper and the first newspaper published on the Internet.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

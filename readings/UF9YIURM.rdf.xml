@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="UF9YIURM">
+        <res:resource rdf:resource="https://www.facebook.com/CUContinuingEd/"/>
+        <z:accessDate>2021-05-09 03:36:16</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.facebook.com/CUContinuingEd/">
+        <dcterms:title>CU Boulder Continuing Education</dcterms:title>
+        <bibo:uri>https://www.facebook.com/CUContinuingEd/</bibo:uri>
+        <dcterms:abstract>CU Boulder Continuing Education, Boulder, CO. 1,884 likes · 28 talking about this · 59 were here. Providing flexible educational opportunities to the Boulder community and students of University of...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

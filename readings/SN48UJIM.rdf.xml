@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="SN48UJIM">
+        <res:resource rdf:resource="http://www.eg.bucknell.edu/~csci245/wp-login.php"/>
+        <z:accessDate>2021-05-09 03:34:37</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://www.eg.bucknell.edu/~csci245/wp-login.php">
+        <bibo:uri>http://www.eg.bucknell.edu/~csci245/wp-login.php</bibo:uri>
+        <dcterms:title>Log In ‹ CSCI 245 Life, Computers, and Everything — WordPress</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

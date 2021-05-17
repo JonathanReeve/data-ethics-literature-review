@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="AI5EEU96">
+        <res:resource rdf:resource="https://prd-nusso.it.northwestern.edu/nusso/XUI/?realm=%252Fnorthwestern&amp;goto=https%253A%252F%252Fprd-nusso.it.northwestern.edu%253A443%252Fnusso%252Foauth2%252Fauthorize%253Fresponse_mode%253Dform_post%2526state%253D54d09bab-9e67-2b7a-2007-0d7aa5ae9e65%2526redirect_uri%253Dhttps%25253A%25252F%25252Fsesame1.library.northwestern.edu%25253A443%25252Fagent%25252Fcdsso-oauth2%2526response_type%253Did_token%2526scope%253Dopenid%2526client_id%253Dlibrary-sesame%2526agent_provider%253Dtrue%2526agent_realm%253D%25252Fnorthwestern%2526nonce%253D689643AAD988A2541209B8A13ABE6EE8#login/"/>
+        <z:accessDate>2021-05-09 03:40:03</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://prd-nusso.it.northwestern.edu/nusso/XUI/?realm=%252Fnorthwestern&amp;goto=https%253A%252F%252Fprd-nusso.it.northwestern.edu%253A443%252Fnusso%252Foauth2%252Fauthorize%253Fresponse_mode%253Dform_post%2526state%253D54d09bab-9e67-2b7a-2007-0d7aa5ae9e65%2526redirect_uri%253Dhttps%25253A%25252F%25252Fsesame1.library.northwestern.edu%25253A443%25252Fagent%25252Fcdsso-oauth2%2526response_type%253Did_token%2526scope%253Dopenid%2526client_id%253Dlibrary-sesame%2526agent_provider%253Dtrue%2526agent_realm%253D%25252Fnorthwestern%2526nonce%253D689643AAD988A2541209B8A13ABE6EE8#login/">
+        <bibo:uri>https://prd-nusso.it.northwestern.edu/nusso/XUI/?realm=%2Fnorthwestern&amp;goto=https%3A%2F%2Fprd-nusso.it.northwestern.edu%3A443%2Fnusso%2Foauth2%2Fauthorize%3Fresponse_mode%3Dform_post%26state%3D54d09bab-9e67-2b7a-2007-0d7aa5ae9e65%26redirect_uri%3Dhttps%253A%252F%252Fsesame1.library.northwestern.edu%253A443%252Fagent%252Fcdsso-oauth2%26response_type%3Did_token%26scope%3Dopenid%26client_id%3Dlibrary-sesame%26agent_provider%3Dtrue%26agent_realm%3D%252Fnorthwestern%26nonce%3D689643AAD988A2541209B8A13ABE6EE8#login/</bibo:uri>
+        <dcterms:title>Northwestern SSO</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

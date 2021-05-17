@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="T9LH8K3M">
+        <res:resource rdf:resource="https://my.northeastern.edu/"/>
+        <z:accessDate>2021-05-09 03:19:20</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://my.northeastern.edu/">
+        <bibo:uri>https://my.northeastern.edu/</bibo:uri>
+        <dcterms:title>Welcome - myNortheastern</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

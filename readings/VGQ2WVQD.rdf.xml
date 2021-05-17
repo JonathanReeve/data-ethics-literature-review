@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="VGQ2WVQD">
+        <res:resource rdf:resource="https://docs.google.com/presentation/d/1jNpZy2lhIn1eMXpHO8hSKf9lN0hx76guuFB_xexcVF0/edit?usp=sharing&amp;usp=embed_facebook"/>
+        <z:accessDate>2021-05-09 02:56:15</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/presentation/d/1jNpZy2lhIn1eMXpHO8hSKf9lN0hx76guuFB_xexcVF0/edit?usp=sharing&amp;usp=embed_facebook">
+        <dcterms:title>S21.1 - Intro to JavaScript</dcterms:title>
+        <bibo:uri>https://docs.google.com/presentation/d/1jNpZy2lhIn1eMXpHO8hSKf9lN0hx76guuFB_xexcVF0/edit?usp=sharing&amp;usp=embed_facebook</bibo:uri>
+        <dcterms:abstract>CS106S Introduction to CS+SG and JavaScript Download the starter code here</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

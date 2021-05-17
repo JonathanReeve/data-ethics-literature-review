@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="UGGK76S9">
+        <res:resource rdf:resource="https://stanford.zoom.us/"/>
+        <z:accessDate>2021-05-09 03:28:52</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://stanford.zoom.us/">
+        <bibo:uri>https://stanford.zoom.us/</bibo:uri>
+        <dcterms:title>Stanford | Zoom Video and Web Conferencing</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

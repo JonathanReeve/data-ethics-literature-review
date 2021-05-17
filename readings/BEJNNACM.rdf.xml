@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="BEJNNACM">
+        <res:resource rdf:resource="https://perma.cc/R35T-E9A7"/>
+        <z:accessDate>2021-05-09 03:26:51</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/R35T-E9A7">
+        <dcterms:title>arxiv.org</dcterms:title>
+        <bibo:uri>https://perma.cc/R35T-E9A7</bibo:uri>
+        <dcterms:abstract>This is an archive of https://arxiv.org/pdf/1711.08037.pdf from Monday 22, January 2018</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

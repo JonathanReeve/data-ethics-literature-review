@@ -1,0 +1,33 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="W22YNG68">
+        <res:resource rdf:resource="https://cs.ucdavis.edu/graduate/our-programs"/>
+        <z:accessDate>2021-05-09 03:55:22</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://cs.ucdavis.edu/graduate/our-programs">
+        <dcterms:title>Our Programs</dcterms:title>
+        <bibo:uri>https://cs.ucdavis.edu/graduate/our-programs</bibo:uri>
+        <dcterms:abstract>Find Out About Our Graduate-DegreeÂ Programs
+
+Our B.S.-to-M.S., our M.S. and our Ph.D. programs provide students with a personal experience within a large research university.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n10220"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n10220"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Computer Science</dcterms:title>
+                <dcterms:date>2020-01-16T08:02:12-08:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n10220">
+       <foaf:name>Anonymous</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

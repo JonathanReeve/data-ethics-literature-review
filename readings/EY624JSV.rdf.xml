@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="EY624JSV">
+        <res:resource rdf:resource="https://www.quantcast.com/products/measure-audience-insights/"/>
+        <z:accessDate>2021-05-09 03:05:43</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.quantcast.com/products/measure-audience-insights/">
+        <dcterms:title>Unlock the power of your audience. Audience insights that help you tell better stories</dcterms:title>
+        <bibo:uri>https://www.quantcast.com/products/measure-audience-insights/</bibo:uri>
+        <dcterms:abstract>Quantcast Measure, one of the leading audience intelligence solutions for the open internet. Get started today and know and grow your audiences.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Quantcast</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

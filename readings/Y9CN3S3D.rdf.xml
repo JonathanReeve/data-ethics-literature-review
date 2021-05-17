@@ -1,0 +1,23 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="Y9CN3S3D">
+        <res:resource rdf:resource="https://www.uts.edu.au/about"/>
+        <z:accessDate>2021-05-09 03:23:31</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.uts.edu.au/about">
+        <dcterms:title>About UTS</dcterms:title>
+        <bibo:uri>https://www.uts.edu.au/about</bibo:uri>
+        <dcterms:abstract>UTS is the top-ranked young university in Australia. Our vision is to be a leading public university of technology recognised for our global impact. We’re known for our innovative teaching. We’re committed to practical innovation and research that benefits industry and society. We believe in social change to create a more just and equal world.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>University of Technology Sydney</dcterms:title>
+                <dcterms:date>2012-09-18T12:00:00+1000</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

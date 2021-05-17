@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="ZXFJ9SB8">
+        <res:resource rdf:resource="https://perma.cc/QS2X-4GDL"/>
+        <z:accessDate>2021-05-09 03:25:45</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/QS2X-4GDL">
+        <dcterms:title>mike.ananny.org</dcterms:title>
+        <bibo:uri>https://perma.cc/QS2X-4GDL</bibo:uri>
+        <dcterms:abstract>This is an archive of http://mike.ananny.org/papers/ananny_towardAnEthicsOfAlgorithms_2015.pdf from Tuesday 02, January 2018</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

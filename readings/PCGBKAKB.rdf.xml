@@ -1,0 +1,13 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="PCGBKAKB">
+        <res:resource rdf:resource="https://www.surveymonkey.com/survey-closed/?sm=sCY_2BeXF6ZCRxWhC_2FFNUM2YKzY8rvYqzRXO7FreaWqLxgzXbbqiou0cmarnan2oHd_2Fata261RfXqiitwRJVuvvAmGfc9G0beY_2F1vQiAWPLp4_3D"/>
+        <z:accessDate>2021-05-09 03:28:57</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.surveymonkey.com/survey-closed/?sm=sCY_2BeXF6ZCRxWhC_2FFNUM2YKzY8rvYqzRXO7FreaWqLxgzXbbqiou0cmarnan2oHd_2Fata261RfXqiitwRJVuvvAmGfc9G0beY_2F1vQiAWPLp4_3D">
+        <bibo:uri>https://www.surveymonkey.com/survey-closed/?sm=sCY_2BeXF6ZCRxWhC_2FFNUM2YKzY8rvYqzRXO7FreaWqLxgzXbbqiou0cmarnan2oHd_2Fata261RfXqiitwRJVuvvAmGfc9G0beY_2F1vQiAWPLp4_3D</bibo:uri>
+    </bibo:Webpage>
+</rdf:RDF>

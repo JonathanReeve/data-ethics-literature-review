@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="A55X9SX8">
+        <res:resource rdf:resource="https://engineering.purdue.edu/podcast/purdue-engineering-podcast"/>
+        <z:accessDate>2021-05-09 03:48:13</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://engineering.purdue.edu/podcast/purdue-engineering-podcast">
+        <dcterms:title>All Episodes</dcterms:title>
+        <bibo:uri>https://engineering.purdue.edu/podcast/purdue-engineering-podcast</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:title>podcast - Purdue University</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

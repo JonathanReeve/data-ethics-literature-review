@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="39VED7A7">
+        <res:resource rdf:resource="https://drive.google.com/drive/folders/0B2f-m9PyvOWjMFVyZG9VN1Z0TXc?usp=sharing"/>
+        <z:accessDate>2021-05-09 02:48:53</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://drive.google.com/drive/folders/0B2f-m9PyvOWjMFVyZG9VN1Z0TXc?usp=sharing">
+        <bibo:uri>https://drive.google.com/drive/folders/0B2f-m9PyvOWjMFVyZG9VN1Z0TXc?usp=sharing</bibo:uri>
+        <dcterms:title>Slides - Google Drive</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,4 +1,14 @@
-with import <nixpkgs> {};
+# with import <nixpkgs> {};
+
+with import (builtins.fetchGit {
+  # Descriptive name to make the store path easier to identify
+  # name = "nixos-unstable-2021-05-17";
+  url = "https://github.com/nixos/nixpkgs/";
+  # Commit hash for nixos-unstable as of 2021-05-17
+  # `git ls-remote https://github.com/nixos/nixpkgs nixos-unstable`
+  ref = "refs/heads/nixos-unstable";
+  rev = "83d907fd760d9ee4f49b4b7e4b1c6682f137b573";
+}) {};
 
 ( let
     newPlotly = pkgs.python3Packages.buildPythonPackage rec {
@@ -107,18 +117,53 @@ with import <nixpkgs> {};
         html2text
         lxml
         pycurl
+        filelock
       ];
-      propogatedBuildInputs = with pkgs.python38Packages; [
+      propagatedBuildInputs = with pkgs.python38Packages; [
         certifi
         html2text
         lxml
         pycurl
+        filelock
       ];
+	    doCheck = false;
+    };
+    urlextract = pkgs.python38Packages.buildPythonPackage rec {
+	    pname = "urlextract";
+	    version = "1.2.0";
+	    src = pkgs.python38Packages.fetchPypi {
+	      inherit version; inherit pname;
+	      sha256 = "0xg2jwjyqb42fnxw41g3zznyi9b27j4iikf8l8byj2sycp6qh51q";
+	    };
+      buildInputs = with pkgs.python38Packages; [
+        idna
+        uritools
+        appdirs
+        dnspython
+        filelock
+      ];
+      propagatedBuildInputs = with pkgs.python38Packages; [
+        idna
+        uritools
+        appdirs
+        dnspython
+        filelock
+      ];
+	    doCheck = false;
+    };
+
+    docx2txt = pkgs.python38Packages.buildPythonPackage rec {
+	    pname = "docx2txt";
+	    version = "0.8";
+	    src = pkgs.python38Packages.fetchPypi {
+	      inherit version; inherit pname;
+	      sha256 = "1r9nj80ff8irf8vqg71pbds0gzz34kcmf2knwm3kjbgygj6xj1ic";
+	    };
 	    doCheck = false;
     };
     customPython = pkgs.python38.buildEnv.override rec {
 	    extraLibs = with pkgs.python38Packages; [
-	      pkgs.chromedriver
+	      # pkgs.chromedriver
 	      matplotlib
 	      pandas
 	      jupyter
@@ -135,9 +180,9 @@ with import <nixpkgs> {};
 	      toolz
 	      rdflib
 	      beautifulsoup4
-	      requestsHtml
-	      selenium
-	      etudier
+	      # requestsHtml
+	      # selenium
+	      # etudier
 	      networkx
         jsonpickle
         docker
@@ -145,10 +190,15 @@ with import <nixpkgs> {};
         pyvis
         pycurl
         html2text
+        pdftotext
         wptools
+        urlextract
+        filelock
+        pytest
+        docx2txt
 	    ];
     };
     in 
     pkgs.mkShell { 
-      buildInputs = [ customPython chromedriver docker ];
+      buildInputs = [ customPython docker anystyle-cli ];
     })

@@ -1,0 +1,52 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="QPVPSTFC">
+        <res:resource rdf:resource="https://www.aclweb.org/anthology/W12-1008"/>
+        <z:repository>ACLWeb</z:repository>
+        <z:accessDate>2021-05-09 03:45:20</z:accessDate>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.aclweb.org/anthology/W12-1008">
+        <dcterms:title>Distributional techniques for philosophical enquiry</dcterms:title>
+        <bibo:uri>https://www.aclweb.org/anthology/W12-1008</bibo:uri>
+        <bibo:pages>45–54</bibo:pages>
+        <dcterms:creator rdf:nodeID="n8518"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n8518"/>
+                <rdf:li rdf:nodeID="n8520"/>
+                <rdf:li rdf:nodeID="n8521"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n8520"/>
+        <dcterms:creator rdf:nodeID="n8521"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 6th Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities</dcterms:title>
+                <dcterms:date>2012-04</dcterms:date>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <address:localityName>Avignon, France</address:localityName>
+                        <foaf:name>Association for Computational Linguistics</foaf:name>
+                    </foaf:Organization>
+                </dcterms:publisher>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n8518">
+        <foaf:givenName>Aurélie</foaf:givenName>
+        <foaf:surname>Herbelot</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8520">
+        <foaf:givenName>Eva</foaf:givenName>
+        <foaf:surname>von Redecker</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8521">
+       <foaf:givenName>Johanna</foaf:givenName><foaf:surname>Müller</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

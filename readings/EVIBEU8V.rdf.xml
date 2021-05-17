@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="EVIBEU8V">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=rE3j_RHkqJc"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:33:02</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=rE3j_RHkqJc">
+        <dcterms:title>This Video Will Make You Angry</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=rE3j_RHkqJc</bibo:uri>
+        <dcterms:abstract>Join the Grey email list: http://www.cgpgrey.com/emailGrey Hoodie: http://www.cgpgrey.com/hoodieCGP Grey on Patreon: https://www.patreon.com/cgpgrey&quot;What Mak...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

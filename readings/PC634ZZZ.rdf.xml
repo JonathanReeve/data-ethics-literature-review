@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="PC634ZZZ">
+        <res:resource rdf:resource="https://perma.cc/ZAW8-9DE4"/>
+        <z:accessDate>2021-05-09 03:27:10</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/ZAW8-9DE4">
+        <dcterms:title>Basic Income: A Sellout of the American Dream - MIT Technology Review</dcterms:title>
+        <bibo:uri>https://perma.cc/ZAW8-9DE4</bibo:uri>
+        <dcterms:abstract>Schemes for giving everyone a guaranteed income are gaining momentum in Silicon Valley and throughout Western Europe. Itâ€™s a great idea, until you look closely.</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+        <bibo:shortTitle>Basic Income</bibo:shortTitle>
+    </bibo:Webpage>
+</rdf:RDF>

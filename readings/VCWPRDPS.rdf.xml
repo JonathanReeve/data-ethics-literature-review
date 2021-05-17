@@ -1,0 +1,34 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="VCWPRDPS">
+        <res:resource rdf:resource="https://fivethirtyeight.com/features/trump-noncitizen-voters/"/>
+        <z:accessDate>2021-05-09 02:45:27</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://fivethirtyeight.com/features/trump-noncitizen-voters/">
+        <dcterms:title>The Tangled Story Behind Trumpâ€™s False Claims Of Voter Fraud</dcterms:title>
+        <bibo:uri>https://fivethirtyeight.com/features/trump-noncitizen-voters/</bibo:uri>
+        <dcterms:abstract>The analysis hinged on a single, easy-to-make data error that can completely upend attempts to understand the behavior of minority groups.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n277"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n277"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>FiveThirtyEight</dcterms:title>
+                <dcterms:date>2017-05-11T17:00:14+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n277">
+       <foaf:givenName>Maggie</foaf:givenName><foaf:surname>Koerth</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

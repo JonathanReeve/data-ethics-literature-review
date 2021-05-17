@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="XG6QLFPE">
+        <res:resource rdf:resource="https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html"/>
+        <z:accessDate>2021-05-09 03:10:18</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html">
+        <bibo:uri>https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html</bibo:uri>
+        <dcterms:title>Design in the Era of the Algorithm | Big Medium</dcterms:title>
+        <dcterms:abstract>Machine learning is technologyâ€™s new frontier, and designers have a crucial part to play. Josh Clark explores our new roles and responsibilities when we design for the machines.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

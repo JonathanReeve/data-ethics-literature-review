@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="WQCE9VX8">
+        <res:resource rdf:resource="https://idp.u.washington.edu/idp/profile/SAML2/Redirect/SSO;jsessionid=58FBEE31B025A2E832C77BA27928BBF5.idp07?execution=e1s1"/>
+        <z:accessDate>2021-05-09 03:12:16</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://idp.u.washington.edu/idp/profile/SAML2/Redirect/SSO;jsessionid=58FBEE31B025A2E832C77BA27928BBF5.idp07?execution=e1s1">
+        <bibo:uri>https://idp.u.washington.edu/idp/profile/SAML2/Redirect/SSO;jsessionid=58FBEE31B025A2E832C77BA27928BBF5.idp07?execution=e1s1</bibo:uri>
+        <dcterms:title>UW NetID sign-in</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

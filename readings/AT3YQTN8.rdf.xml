@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="AT3YQTN8">
+        <res:resource rdf:resource="https://haystack.mobi/wordpress/index.php/2017/01/12/monkey-business-in-childrens-apps/"/>
+        <z:accessDate>2021-05-09 03:28:28</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://haystack.mobi/wordpress/index.php/2017/01/12/monkey-business-in-childrens-apps/">
+        <bibo:uri>https://haystack.mobi/wordpress/index.php/2017/01/12/monkey-business-in-childrens-apps/</bibo:uri>
+        <dcterms:title>Monkey business in childrenâ€™s apps | The ICSI Haystack Project Blog</dcterms:title>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </sioct:BlogPost>
+</rdf:RDF>

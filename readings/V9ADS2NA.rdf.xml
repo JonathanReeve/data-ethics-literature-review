@@ -1,0 +1,46 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="V9ADS2NA">
+        <res:resource rdf:resource="http://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805"/>
+        <z:repository>www.nature.com</z:repository>
+        <z:accessDate>2021-05-09 03:44:37</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805">
+        <dcterms:language>en</dcterms:language>
+        <dcterms:title>There is a blind spot in AI research</dcterms:title>
+        <dcterms:abstract>Fears about the future impacts of artificial intelligence are distracting researchers from the real risks of deployed systems, argue Kate Crawford and Ryan Calo.</dcterms:abstract>
+        <bibo:doi>10.1038/538311a</bibo:doi>
+        <bibo:pages>311</bibo:pages>
+        <bibo:uri>http://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805</bibo:uri>
+        <dcterms:creator rdf:nodeID="n8361"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n8361"/><rdf:li rdf:nodeID="n8363"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n8363"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-10-20</dcterms:date>
+                <bibo:volume>538</bibo:volume>
+                <bibo:issue>7625</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>Nature News</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n8361">
+       <foaf:givenName>Kate</foaf:givenName><foaf:surname>Crawford</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n8363">
+       <foaf:givenName>Ryan</foaf:givenName><foaf:surname>Calo</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

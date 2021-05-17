@@ -1,0 +1,69 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="UXM6ZNUS">
+        <res:resource rdf:resource="https://doi.org/10.1145/2090236.2090255"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/2090236.2090255">
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n7313"/>
+                <rdf:li rdf:nodeID="n7315"/>
+                <rdf:li rdf:nodeID="n7316"/>
+                <rdf:li rdf:nodeID="n7317"/>
+                <rdf:li rdf:nodeID="n7318"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:title>Fairness through awareness</dcterms:title>
+        <dcterms:abstract>We study fairness in classification, where individuals are classified, e.g., admitted to a university, and the goal is to prevent discrimination against individuals based on their membership in some group, while maintaining utility for the classifier (the university). The main conceptual contribution of this paper is a framework for fair classification comprising (1) a (hypothetical) task-specific metric for determining the degree to which individuals are similar with respect to the classification task at hand; (2) an algorithm for maximizing utility subject to the fairness constraint, that similar individuals are treated similarly. We also present an adaptation of our approach to achieve the complementary goal of &quot;fair affirmative action,&quot; which guarantees statistical parity (i.e., the demographics of the set of individuals receiving any classification are the same as the demographics of the underlying population), while treating similar individuals as similarly as possible. Finally, we discuss the relationship of fairness to privacy: when fairness implies privacy, and how tools developed in the context of differential privacy may be applied to fairness.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/2090236.2090255</bibo:uri>
+        <bibo:doi>10.1145/2090236.2090255</bibo:doi>
+        <dcterms:creator rdf:nodeID="n7313"/>
+        <bibo:pages>214â€“226</bibo:pages>
+        <dcterms:creator rdf:nodeID="n7315"/>
+        <dcterms:creator rdf:nodeID="n7316"/>
+        <dcterms:creator rdf:nodeID="n7317"/>
+        <dcterms:creator rdf:nodeID="n7318"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 3rd Innovations in Theoretical Computer Science Conference</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Cambridge, Massachusetts</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450311151</bibo:isbn13>
+                <dcterms:date>January 8, 2012</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>ITCS '12</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7313">
+       <foaf:givenName>Cynthia</foaf:givenName><foaf:surname>Dwork</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7315">
+       <foaf:givenName>Moritz</foaf:givenName><foaf:surname>Hardt</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7316">
+        <foaf:givenName>Toniann</foaf:givenName>
+        <foaf:surname>Pitassi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7317">
+       <foaf:givenName>Omer</foaf:givenName><foaf:surname>Reingold</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7318">
+       <foaf:givenName>Richard</foaf:givenName><foaf:surname>Zemel</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

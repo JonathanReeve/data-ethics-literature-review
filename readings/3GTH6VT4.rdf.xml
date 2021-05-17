@@ -1,0 +1,51 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="3GTH6VT4">
+        <res:resource rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4125322/"/>
+        <z:repository>PubMed Central</z:repository>
+        <z:accessDate>2021-05-09 03:53:48</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4125322/">
+        <bibo:uri>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4125322/</bibo:uri>
+        <dcterms:abstract>We consider several possible interpretations of the “effect of race” when regressions are run with race as an exposure variable, controlling also for various confounding and mediating variables. When adjustment is made for socioeconomic status early in a person’s life, we discuss under what contexts the regression coefficients for race can be interpreted as corresponding to the extent to which a racial inequality would remain if various socioeconomic distributions early in life across racial groups could be equalized. When adjustment is also made for adult socioeconomic status, we note how the overall racial inequality can be decomposed into the portion that would be eliminated by equalizing adult socioeconomic status across racial groups and the portion of the inequality that would remain even if adult socioeconomic status across racial groups were equalized. We also discuss a stronger interpretation of the “effect of race” (stronger in terms of assumptions) involving the joint effects of race-associated physical phenotype (e.g. skin color), parental physical phenotype, genetic background and cultural context when such variables are thought to be hypothetically manipulable and if adequate control for confounding were possible. We discuss some of the challenges with such an interpretation. Further discussion is given as to how the use of selected populations in examining racial disparities can additionally complicate the interpretation of the effects.</dcterms:abstract>
+        <z:extra>PMID: 24887159
+PMCID: PMC4125322</z:extra>
+        <dcterms:title>On causal interpretation of race in regressions adjusting for confounding and mediating variables</dcterms:title>
+        <bibo:pages>473-484</bibo:pages>
+        <bibo:doi>10.1097/EDE.0000000000000105</bibo:doi>
+        <dcterms:creator rdf:nodeID="n9854"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n9854"/><rdf:li rdf:nodeID="n9856"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n9856"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>25</bibo:volume>
+                <bibo:issue>4</bibo:issue>
+                <dcterms:date>2014-7</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <bibo:shortTitle>Epidemiology</bibo:shortTitle>
+                        <dcterms:title>Epidemiology (Cambridge, Mass.)</dcterms:title>
+                        <bibo:issn>1044-3983</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n9854">
+        <foaf:givenName>Tyler J.</foaf:givenName>
+        <foaf:surname>VanderWeele</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n9856">
+        <foaf:givenName>Whitney R.</foaf:givenName>
+        <foaf:surname>Robinson</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

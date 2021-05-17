@@ -1,0 +1,76 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="MHAFZPMD">
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Stanley, Jason (1969- )</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <z:repository>NYTimes.com</z:repository>
+        <z:accessDate>2021-05-09 03:40:33</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Kakutani, Michiko</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>How Propaganda Works (Book)</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://www.nytimes.com/2016/12/26/books/how-propaganda-works-is-a-timely-reminder-for-a-post-truth-age.html"/>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Propaganda</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Presidential Election of 2016</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Books and Literature</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>Rumors and Misinformation</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>News and News Media</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://www.nytimes.com/2016/12/26/books/how-propaganda-works-is-a-timely-reminder-for-a-post-truth-age.html">
+        <dcterms:title>‘How Propaganda Works’ Is a Timely Reminder for a Post-Truth Age</dcterms:title>
+        <bibo:section>Books</bibo:section>
+        <bibo:uri>https://www.nytimes.com/2016/12/26/books/how-propaganda-works-is-a-timely-reminder-for-a-post-truth-age.html</bibo:uri>
+        <dcterms:abstract>Jason Stanley analyzes how modern propaganda can pose a grave danger to democracies by undermining reasoned deliberation.</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n7347"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7347"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016-12-26</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Newspaper>
+                        <dcterms:title>The New York Times</dcterms:title>
+                        <bibo:issn>0362-4331</bibo:issn>
+                    </bibo:Newspaper>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7347">
+        <foaf:givenName>Michiko</foaf:givenName>
+        <foaf:surname>Kakutani</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

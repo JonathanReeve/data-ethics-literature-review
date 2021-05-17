@@ -1,0 +1,121 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="QZSYUXQ6">
+        <res:resource rdf:resource="https://doi.org/10.1145/2675133.2675285"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>user studies</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>cultural communities</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>semantic relatedness</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>natural language processing</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>amazon mechanical turk</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>gold standard datasets</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/2675133.2675285">
+        <dcterms:creator rdf:nodeID="n2860"/>
+        <dcterms:title>Turkers, Scholars, &quot;Arafat&quot; and &quot;Peace&quot;: Cultural Communities and Algorithmic Gold Standards</dcterms:title>
+        <dcterms:abstract>In just a few years, crowdsourcing markets like Mechanical Turk have become the dominant mechanism for for building &quot;gold standard&quot; datasets in areas of computer science ranging from natural language processing to audio transcription. The assumption behind this sea change - an assumption that is central to the approaches taken in hundreds of research projects - is that crowdsourced markets can accurately replicate the judgments of the general population for knowledge-oriented tasks. Focusing on the important domain of semantic relatedness algorithms and leveraging Clark's theory of common ground as a framework, we demonstrate that this assumption can be highly problematic. Using 7,921 semantic relatedness judgements from 72 scholars and 39 crowdworkers, we show that crowdworkers on Mechanical Turk produce significantly different semantic relatedness gold standard judgements than people from other communities. We also show that algorithms that perform well against Mechanical Turk gold standard datasets do significantly worse when evaluated against other communities' gold standards. Our results call into question the broad use of Mechanical Turk for the development of gold standard datasets and demonstrate the importance of understanding these datasets from a human-centered point-of-view. More generally, our findings problematize the notion that a universal gold standard dataset exists for all knowledge tasks.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/2675133.2675285</bibo:uri>
+        <bibo:doi>10.1145/2675133.2675285</bibo:doi>
+        <bibo:shortTitle>Turkers, Scholars, &quot;Arafat&quot; and &quot;Peace&quot;</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n2857"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n2857"/>
+                <rdf:li rdf:nodeID="n2859"/>
+                <rdf:li rdf:nodeID="n2860"/>
+                <rdf:li rdf:nodeID="n2861"/>
+                <rdf:li rdf:nodeID="n2862"/>
+                <rdf:li rdf:nodeID="n2863"/>
+                <rdf:li rdf:nodeID="n2864"/>
+                <rdf:li rdf:nodeID="n2865"/>
+                <rdf:li rdf:nodeID="n2866"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n2859"/>
+        <bibo:pages>826â€“838</bibo:pages>
+        <dcterms:creator rdf:nodeID="n2861"/>
+        <dcterms:creator rdf:nodeID="n2862"/>
+        <dcterms:creator rdf:nodeID="n2863"/>
+        <dcterms:creator rdf:nodeID="n2864"/>
+        <dcterms:creator rdf:nodeID="n2865"/>
+        <dcterms:creator rdf:nodeID="n2866"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work &amp; Social Computing</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Vancouver, BC, Canada</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450329224</bibo:isbn13>
+                <dcterms:date>February 28, 2015</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>CSCW '15</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n2857">
+       <foaf:givenName>Shilad</foaf:givenName><foaf:surname>Sen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2859">
+        <foaf:givenName>Margaret E.</foaf:givenName>
+        <foaf:surname>Giesel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2860">
+       <foaf:givenName>Rebecca</foaf:givenName><foaf:surname>Gold</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2861">
+        <foaf:givenName>Benjamin</foaf:givenName>
+        <foaf:surname>Hillmann</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2862">
+       <foaf:givenName>Matt</foaf:givenName><foaf:surname>Lesicko</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2863">
+       <foaf:givenName>Samuel</foaf:givenName><foaf:surname>Naden</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2864">
+       <foaf:givenName>Jesse</foaf:givenName><foaf:surname>Russell</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2865">
+        <foaf:givenName>Zixiao (Ken)</foaf:givenName>
+        <foaf:surname>Wang</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2866">
+       <foaf:givenName>Brent</foaf:givenName><foaf:surname>Hecht</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

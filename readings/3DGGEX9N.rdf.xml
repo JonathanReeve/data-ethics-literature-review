@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="3DGGEX9N">
+        <res:resource rdf:resource="https://www.uts.edu.au/news"/>
+        <z:accessDate>2021-05-09 02:59:42</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.uts.edu.au/news">
+        <dcterms:title>News</dcterms:title>
+        <bibo:uri>https://www.uts.edu.au/news</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>University of Technology Sydney</dcterms:title>
+                <dcterms:date>2019-05-08T14:08:45+1000</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="4WUPGW95">
+        <res:resource rdf:resource="https://pages.stolaf.edu/csci-263-fall19/basic-concepts/free-speech/"/>
+        <z:accessDate>2021-05-09 03:38:34</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://pages.stolaf.edu/csci-263-fall19/basic-concepts/free-speech/">
+        <bibo:uri>https://pages.stolaf.edu/csci-263-fall19/basic-concepts/free-speech/</bibo:uri>
+        <dcterms:title>Free Speech | 2019 Fall Computer Science 263</dcterms:title>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </sioct:BlogPost>
+</rdf:RDF>

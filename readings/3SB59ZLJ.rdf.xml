@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="3SB59ZLJ">
+        <res:resource rdf:resource="https://openlearning.mit.edu/mit-faculty/residential-digital-innovations"/>
+        <z:accessDate>2021-05-09 03:35:40</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://openlearning.mit.edu/mit-faculty/residential-digital-innovations">
+        <bibo:uri>https://openlearning.mit.edu/mit-faculty/residential-digital-innovations</bibo:uri>
+        <dcterms:title>View Digital Tools used by MIT Faculty to foster learning</dcterms:title>
+        <dcterms:abstract>Take a look at some of the digital and online tools that MIT faculty are using to improve learning at MIT â€“ utilize some of these tools for your classroom today!</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

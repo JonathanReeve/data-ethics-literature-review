@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="JXFVLEKX">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=ZlsCGnA-vao"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:38:50</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=ZlsCGnA-vao">
+        <dcterms:title>Dan Weld, &quot;Challenges for Socially-Beneficial Artificial Intelligence&quot;</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=ZlsCGnA-vao</bibo:uri>
+        <dcterms:abstract>Daniel S. WeldUniversity of WashingtonStephen Hawking, Bill Gates, and other luminaries warn that an “intelligence explosion” may lead to the extinction of h...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

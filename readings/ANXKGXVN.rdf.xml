@@ -1,0 +1,13 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="ANXKGXVN">
+        <res:resource rdf:resource="https://chalk-radio.simplecast.com/"/>
+        <z:accessDate>2021-05-09 03:35:41</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://chalk-radio.simplecast.com/">
+       <bibo:uri>https://chalk-radio.simplecast.com/</bibo:uri>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="3DMNSMV7">
+        <res:resource rdf:resource="https://accounts.google.com/ServiceLogin?passive=1209600&amp;osid=1&amp;continue=https://plus.google.com/communities/100179666177057289662&amp;followup=https://plus.google.com/communities/100179666177057289662"/>
+        <z:accessDate>2021-05-09 03:18:19</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://accounts.google.com/ServiceLogin?passive=1209600&amp;osid=1&amp;continue=https://plus.google.com/communities/100179666177057289662&amp;followup=https://plus.google.com/communities/100179666177057289662">
+        <bibo:uri>https://accounts.google.com/ServiceLogin?passive=1209600&amp;osid=1&amp;continue=https://plus.google.com/communities/100179666177057289662&amp;followup=https://plus.google.com/communities/100179666177057289662</bibo:uri>
+        <dcterms:title>Sign in - Google Accounts</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

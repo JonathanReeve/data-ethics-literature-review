@@ -1,0 +1,40 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="BTZ3CQVJ">
+        <res:resource rdf:resource="http://www.nature.com/news/can-randomized-trials-eliminate-global-poverty-1.18176"/>
+        <z:repository>www.nature.com</z:repository>
+        <z:accessDate>2021-05-09 03:30:47</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://www.nature.com/news/can-randomized-trials-eliminate-global-poverty-1.18176">
+        <dcterms:title>Can randomized trials eliminate global poverty?</dcterms:title>
+        <bibo:uri>http://www.nature.com/news/can-randomized-trials-eliminate-global-poverty-1.18176</bibo:uri>
+        <dcterms:abstract>A new generation of economists is trying to transform global development policy through the power of randomized controlled trials.</dcterms:abstract>
+        <bibo:doi>10.1038/524150a</bibo:doi>
+        <bibo:pages>150</bibo:pages>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5806"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n5806"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2015-08-13</dcterms:date>
+                <bibo:volume>524</bibo:volume>
+                <bibo:issue>7564</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                       <dcterms:title>Nature News</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n5806">
+       <foaf:givenName>Jeff</foaf:givenName><foaf:surname>Tollefson</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="EMK76QGL">
+        <res:resource rdf:resource="https://deanattali.com/beautiful-jekyll/"/>
+        <z:accessDate>2021-05-09 03:14:49</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://deanattali.com/beautiful-jekyll/">
+        <bibo:uri>https://deanattali.com/beautiful-jekyll/</bibo:uri>
+        <dcterms:title>Beautiful Jekyll</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

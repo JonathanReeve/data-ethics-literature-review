@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="4MD39GY8">
+        <res:resource rdf:resource="https://www.srcf.net"/>
+        <z:accessDate>2021-05-09 03:02:51</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.srcf.net">
+        <bibo:uri>https://www.srcf.net</bibo:uri>
+        <dcterms:abstract>The Student-Run Computing Facility is a volunteer-run student society that provides free, useful and flexible computing and network services for University of Cambridge staff and students of all degrees of ability.</dcterms:abstract>
+        <dcterms:title>Home - Student-Run Computing Facility (SRCF)</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="5NPD46BB">
+        <res:resource rdf:resource="https://www.google.com/finance"/>
+        <z:accessDate>2021-05-09 03:39:11</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.google.com/finance">
+        <dcterms:title>Google Finance - Stock Market Prices, Real-time Quotes &amp; Business News</dcterms:title>
+        <bibo:uri>https://www.google.com/finance</bibo:uri>
+        <dcterms:abstract>Google Finance provides real-time market quotes, international exchanges, up-to-date financial news, and analytics to help you make more informed trading and investment decisions.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

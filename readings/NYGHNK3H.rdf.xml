@@ -1,0 +1,37 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="NYGHNK3H">
+        <res:resource rdf:resource="https://slatestarcodex.com/2018/10/30/sort-by-controversial/"/>
+        <z:accessDate>2021-05-09 03:29:53</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://slatestarcodex.com/2018/10/30/sort-by-controversial/">
+        <dcterms:title>Sort By Controversial</dcterms:title>
+        <bibo:uri>https://slatestarcodex.com/2018/10/30/sort-by-controversial/</bibo:uri>
+        <dcterms:abstract>[Epistemic status: fiction] Thanks for letting me put my story on your blog. Mainstream media is crap and no one would have believed me anyway. This starts in September 2017. I was working for a smâ€¦</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <dcterms:creator rdf:nodeID="n5642"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n5642"/><rdf:li rdf:nodeID="n5644"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5644"/>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Slate Star Codex</dcterms:title>
+                <dcterms:date>2018-10-31T05:39:08+00:00</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n5642">
+       <foaf:givenName>Scott</foaf:givenName><foaf:surname>Alex</foaf:surname>
+    </foaf:Person>
+    <foaf:Organization rdf:nodeID="n5644">
+       <foaf:name>er</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

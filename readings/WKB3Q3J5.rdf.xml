@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="WKB3Q3J5">
+        <res:resource rdf:resource="https://www.facebook.com/ubcmasterofdatascience/"/>
+        <z:accessDate>2021-05-09 03:14:47</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.facebook.com/ubcmasterofdatascience/">
+        <dcterms:title>UBC Master of Data Science</dcterms:title>
+        <bibo:uri>https://www.facebook.com/ubcmasterofdatascience/</bibo:uri>
+        <dcterms:abstract>UBC Master of Data Science, Vancouver, British Columbia. 2,551 likes Â· 17 talking about this. UBC Master of Data Science (MDS) is a 10-month, full-time, and accelerated program offered at both our...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

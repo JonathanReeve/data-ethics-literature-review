@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="WZ5V6RR7">
+        <res:resource rdf:resource="https://digital-forensics.sans.org/certification/ethics"/>
+        <z:accessDate>2021-05-09 03:28:01</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://digital-forensics.sans.org/certification/ethics">
+        <bibo:uri>https://digital-forensics.sans.org/certification/ethics</bibo:uri>
+        <dcterms:title>The GIAC Code of Ethics</dcterms:title>
+        <dcterms:abstract>GIAC is committed to upholding these code of ethics and fostering them within the information security community.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

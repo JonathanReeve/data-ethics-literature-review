@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="EKZDF23X">
+        <res:resource rdf:resource="https://communication.ucdavis.edu/"/>
+        <z:accessDate>2021-05-09 03:55:33</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://communication.ucdavis.edu/">
+        <dcterms:type>Front Page</dcterms:type>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://communication.ucdavis.edu/</bibo:uri>
+        <dcterms:title>Discover Communication â€” Communication</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

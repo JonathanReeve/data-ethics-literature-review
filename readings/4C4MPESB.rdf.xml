@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="4C4MPESB">
+        <res:resource rdf:resource="https://netflixtechblog.com/artwork-personalization-c589f074ad76"/>
+        <z:accessDate>2021-05-09 02:45:25</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://netflixtechblog.com/artwork-personalization-c589f074ad76">
+        <dcterms:title>Artwork Personalization at Netflix</dcterms:title>
+        <bibo:uri>https://netflixtechblog.com/artwork-personalization-c589f074ad76</bibo:uri>
+        <dcterms:abstract>Artwork is the first instance of personalizing not just what we recommend but also how we recommend.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n260"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n260"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>Medium</dcterms:title>
+                <dcterms:date>2017-12-07T16:24:02.287Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n260">
+        <foaf:givenName>Netflix Technology</foaf:givenName>
+        <foaf:surname>Blog</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

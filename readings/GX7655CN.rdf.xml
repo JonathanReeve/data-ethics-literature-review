@@ -1,0 +1,35 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="GX7655CN">
+        <res:resource rdf:resource="https://msalganik.wordpress.com/2013/12/16/mediators-and-moderators-making-experiments-interesting/"/>
+        <z:accessDate>2021-05-09 03:31:12</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://msalganik.wordpress.com/2013/12/16/mediators-and-moderators-making-experiments-interesting/">
+        <dcterms:title>mediators and moderators: making experiments interesting</dcterms:title>
+        <bibo:uri>https://msalganik.wordpress.com/2013/12/16/mediators-and-moderators-making-experiments-interesting/</bibo:uri>
+        <dcterms:abstract>Although experiments can be extremely clean, they are also limited in what they can teach us about the world.  By itself a single experiment often does not tell us why the observed effect happened …</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>mediators and moderators</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n5893"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n5893"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>Wheels on the bus</dcterms:title>
+                <dcterms:date>2013-12-16T20:54:14+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Organization rdf:nodeID="n5893">
+       <foaf:name>msalganik</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

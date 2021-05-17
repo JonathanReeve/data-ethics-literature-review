@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="8MBZGE7U">
+        <res:resource rdf:resource="https://publish.illinois.edu/responsible-research-with-computational-models/publications/"/>
+        <z:accessDate>2021-05-09 03:47:12</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://publish.illinois.edu/responsible-research-with-computational-models/publications/">
+        <bibo:uri>https://publish.illinois.edu/responsible-research-with-computational-models/publications/</bibo:uri>
+        <dcterms:title>Publications | The Responsible Conduct of Computational Modeling and Research - University of Illinois at Urbana-Champaign</dcterms:title>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </sioct:BlogPost>
+</rdf:RDF>

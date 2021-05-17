@@ -1,0 +1,43 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="Y3SPN4DC">
+        <res:resource rdf:resource="https://hbr.org/2013/07/the-right-way-to-tap-the-crowd"/>
+        <z:repository>hbr.org</z:repository>
+        <z:accessDate>2021-05-09 03:40:51</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Innovation</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Social enterprise</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://hbr.org/2013/07/the-right-way-to-tap-the-crowd">
+        <dcterms:title>Create a Crowd Competition That Works</dcterms:title>
+        <bibo:uri>https://hbr.org/2013/07/the-right-way-to-tap-the-crowd</bibo:uri>
+        <dcterms:abstract>Open-ended challenges are rarely successful.</dcterms:abstract>
+        <dcterms:creator rdf:nodeID="n7454"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7454"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2013-07-25T13:00:12Z</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Magazine>
+                        <dcterms:title>Harvard Business Review</dcterms:title>
+                        <bibo:issn>0017-8012</bibo:issn>
+                    </bibo:Magazine>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7454">
+       <foaf:givenName>Ahmad</foaf:givenName><foaf:surname>Ashkar</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

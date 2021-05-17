@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="7M5PPG7C">
+        <res:resource rdf:resource="https://www.academia.edu/35676622/UGS_302_Art_Criticism_and_Society_Syllabus_Undergraduate_Spring_2018_"/>
+        <z:repository>www.academia.edu</z:repository>
+        <z:accessDate>2021-05-09 03:47:36</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.academia.edu/35676622/UGS_302_Art_Criticism_and_Society_Syllabus_Undergraduate_Spring_2018_">
+        <dcterms:title>UGS 302 Art, Criticism, and Society Syllabus [Undergraduate; Spring 2018]</dcterms:title>
+        <bibo:uri>https://www.academia.edu/35676622/UGS_302_Art_Criticism_and_Society_Syllabus_Undergraduate_Spring_2018_</bibo:uri>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n8866"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n8866"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n8866">
+        <foaf:givenName>Scott R.</foaf:givenName>
+        <foaf:surname>Stroud</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

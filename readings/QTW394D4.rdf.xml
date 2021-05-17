@@ -1,0 +1,46 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="QTW394D4">
+        <res:resource rdf:resource="https://www.jstor.org/stable/3132220"/>
+        <z:repository>JSTOR</z:repository>
+        <z:accessDate>2021-05-09 03:30:47</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.jstor.org/stable/3132220">
+        <bibo:pages>175-179</bibo:pages>
+        <dcterms:title>Libertarian Paternalism</dcterms:title>
+        <bibo:uri>https://www.jstor.org/stable/3132220</bibo:uri>
+        <dcterms:creator rdf:nodeID="n5798"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n5798"/><rdf:li rdf:nodeID="n5800"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n5800"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:issue>2</bibo:issue>
+                <bibo:volume>93</bibo:volume>
+                <dcterms:date>2003</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <bibo:issn>0002-8282</bibo:issn>
+                        <dcterms:title>The American Economic Review</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n5798">
+        <foaf:givenName>Richard H.</foaf:givenName>
+        <foaf:surname>Thaler</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n5800">
+        <foaf:givenName>Cass R.</foaf:givenName>
+        <foaf:surname>Sunstein</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

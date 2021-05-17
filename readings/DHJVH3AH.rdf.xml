@@ -1,0 +1,25 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="DHJVH3AH">
+        <res:resource rdf:resource="https://social.techcrunch.com/2018/05/10/duplex-shows-google-failing-at-ethical-and-creative-ai-design/"/>
+        <z:accessDate>2021-05-09 02:45:32</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://social.techcrunch.com/2018/05/10/duplex-shows-google-failing-at-ethical-and-creative-ai-design/">
+        <dcterms:title>Duplex shows Google failing at ethical and creative AI design</dcterms:title>
+        <bibo:uri>https://social.techcrunch.com/2018/05/10/duplex-shows-google-failing-at-ethical-and-creative-ai-design/</bibo:uri>
+        <dcterms:abstract>Google CEO Sundar Pichai milked the woos from a clappy, home-turf developer crowd at its I/O conference in Mountain View this week with a demo of an in-the-works voice assistant feature that will enable the AI to make telephone calls on behalf of its human owner. The so-called ‘Duplex’ …</dcterms:abstract>
+        <dcterms:language>en-US</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>TechCrunch</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

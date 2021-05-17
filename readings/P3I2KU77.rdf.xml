@@ -1,0 +1,29 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="P3I2KU77">
+        <res:resource rdf:resource="https://www.nbcnews.com/mach/technology/princeton-study-exposes-weird-new-ways-sites-are-spying-you-n622391"/>
+        <z:accessDate>2021-05-09 03:33:58</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.nbcnews.com/mach/technology/princeton-study-exposes-weird-new-ways-sites-are-spying-you-n622391">
+        <dcterms:title>Sites Spying on You in Weird New Ways, Princeton Study Exposes</dcterms:title>
+        <bibo:uri>https://www.nbcnews.com/mach/technology/princeton-study-exposes-weird-new-ways-sites-are-spying-you-n622391</bibo:uri>
+        <dcterms:abstract>New website trackers are snooping on you using everything from your battery level to your fonts, delivering targeted ads and raising privacy concerns.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n6448"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n6448"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>NBC News</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n6448">
+        <foaf:givenName>Ben PopkenBen Popken is a senior business reporter for NBC</foaf:givenName>
+        <foaf:surname>News</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

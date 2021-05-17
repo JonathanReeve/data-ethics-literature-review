@@ -1,0 +1,26 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="6ZGJ25RS">
+        <res:resource rdf:resource="https://informationethicspolicy.wordpress.com/reading-list/"/>
+        <z:accessDate>2021-05-09 03:11:25</z:accessDate>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://informationethicspolicy.wordpress.com/reading-list/">
+        <dcterms:title>Reading List</dcterms:title>
+        <bibo:uri>https://informationethicspolicy.wordpress.com/reading-list/</bibo:uri>
+        <dcterms:abstract>This is just a short excerpt for the contactÂ page.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:title>INFO 4601</dcterms:title>
+                <dcterms:date>2016-08-17T00:46:32+00:00</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+</rdf:RDF>

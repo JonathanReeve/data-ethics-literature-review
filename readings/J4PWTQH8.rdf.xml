@@ -1,0 +1,32 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="J4PWTQH8">
+        <res:resource rdf:resource="https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/"/>
+        <z:accessDate>2021-05-09 03:42:10</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/">
+        <dcterms:title>How Netflix Reverse-Engineered Hollywood</dcterms:title>
+        <bibo:uri>https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/</bibo:uri>
+        <dcterms:abstract>To understand how people look for movies, the video service created 76,897 micro-genres. We took the genre descriptions, broke them down to their key words â€¦ and built our own new-genre generator.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:creator rdf:nodeID="n7658"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7658"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:title>The Atlantic</dcterms:title>
+                <dcterms:date>2014-01-02T16:58:42Z</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Person rdf:nodeID="n7658">
+        <foaf:givenName>Alexis C.</foaf:givenName>
+        <foaf:surname>Madrigal</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

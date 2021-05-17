@@ -1,0 +1,86 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="L4KW3KAF">
+        <res:resource rdf:resource="https://doi.org/10.1145/3018661.3018703"/>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>opposing views</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>polarization</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>echo chambers</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>filter bubble</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>controversy</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>social media</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/3018661.3018703">
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n7246"/>
+                <rdf:li rdf:nodeID="n7248"/>
+                <rdf:li rdf:nodeID="n7249"/>
+                <rdf:li rdf:nodeID="n7250"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:title>Reducing Controversy by Connecting Opposing Views</dcterms:title>
+        <dcterms:abstract>Society is often polarized by controversial issues that split the population into groups with opposing views. When such issues emerge on social media, we often observe the creation of `echo chambers', i.e., situations where like-minded people reinforce each other's opinion, but do not get exposed to the views of the opposing side. In this paper we study algorithmic techniques for bridging these chambers, and thus reduce controversy. Specifically, we represent the discussion on a controversial issue with an endorsement graph, and cast our problem as an edge-recommendation problem on this graph. The goal of the recommendation is to reduce the controversy score of the graph, which is measured by a recently-developed metric based on random walks. At the same time, we take into account the acceptance probability of the recommended edge, which represents how likely the edge is to materialize in the endorsement graph. We propose a simple model based on a recently-developed user-level controversy score, that is competitive with state-of-the-art link-prediction algorithms. Our goal then becomes finding the edges that produce the largest reduction in the controversy score, in expectation. To solve this problem, we propose an efficient algorithm that considers only a fraction of all the possible combinations of edges. Experimental results show that our algorithm is more efficient than a simple greedy heuristic, while producing comparable score reduction. Finally, a comparison with other state-of-the-art edge-addition algorithms shows that this problem is fundamentally different from what has been studied in the literature.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/3018661.3018703</bibo:uri>
+        <bibo:doi>10.1145/3018661.3018703</bibo:doi>
+        <dcterms:creator rdf:nodeID="n7246"/>
+        <bibo:pages>81â€“90</bibo:pages>
+        <dcterms:creator rdf:nodeID="n7248"/>
+        <dcterms:creator rdf:nodeID="n7249"/>
+        <dcterms:creator rdf:nodeID="n7250"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the Tenth ACM International Conference on Web Search and Data Mining</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Cambridge, United Kingdom</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781450346757</bibo:isbn13>
+                <dcterms:date>February 2, 2017</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>WSDM '17</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n7246">
+        <foaf:givenName>Kiran</foaf:givenName>
+        <foaf:surname>Garimella</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7248">
+        <foaf:givenName>Gianmarco</foaf:givenName>
+        <foaf:surname>De Francisci Morales</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7249">
+        <foaf:givenName>Aristides</foaf:givenName>
+        <foaf:surname>Gionis</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n7250">
+        <foaf:givenName>Michael</foaf:givenName>
+        <foaf:surname>Mathioudakis</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

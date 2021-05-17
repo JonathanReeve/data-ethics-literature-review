@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="DMDSWRK3">
+        <res:resource rdf:resource="https://informationethicspolicy.wordpress.com/"/>
+        <z:accessDate>2021-05-09 03:11:24</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://informationethicspolicy.wordpress.com/">
+        <dcterms:title>INFO 4601</dcterms:title>
+        <bibo:uri>https://informationethicspolicy.wordpress.com/</bibo:uri>
+        <dcterms:abstract>Ethical and Policy Dimensions of Information, Technology, and New Media</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>INFO 4601</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

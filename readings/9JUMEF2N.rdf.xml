@@ -1,0 +1,42 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="9JUMEF2N">
+        <res:resource rdf:resource="https://doi.org/10.1145/2844110"/>
+        <z:repository>February 2016</z:repository>
+        <z:accessDate>2021-05-09 03:40:57</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1145/2844110">
+        <dcterms:title>Accountability in algorithmic decision making</dcterms:title>
+        <bibo:pages>56â€“62</bibo:pages>
+        <dcterms:abstract>A view from computational journalism.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/2844110</bibo:uri>
+        <bibo:doi>10.1145/2844110</bibo:doi>
+        <dcterms:creator rdf:nodeID="n7472"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n7472"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>59</bibo:volume>
+                <bibo:issue>2</bibo:issue>
+                <dcterms:date>January 25, 2016</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Communications of the ACM</dcterms:title>
+                        <bibo:issn>0001-0782</bibo:issn>
+                        <bibo:shortTitle>Commun. ACM</bibo:shortTitle>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n7472">
+        <foaf:givenName>Nicholas</foaf:givenName>
+        <foaf:surname>Diakopoulos</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

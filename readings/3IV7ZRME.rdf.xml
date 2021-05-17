@@ -1,0 +1,17 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="3IV7ZRME">
+        <res:resource rdf:resource="https://perma.cc/C64Z-JJMD"/>
+        <z:accessDate>2021-05-09 03:25:57</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://perma.cc/C64Z-JJMD">
+        <dcterms:title>www.mlandthelaw.org</dcterms:title>
+        <bibo:uri>https://perma.cc/C64Z-JJMD</bibo:uri>
+        <dcterms:abstract>This is an archive of http://www.mlandthelaw.org/papers/burri.pdf from Monday 07, August 2017</dcterms:abstract>
+        <dcterms:language>en-us</dcterms:language>
+    </bibo:Webpage>
+</rdf:RDF>

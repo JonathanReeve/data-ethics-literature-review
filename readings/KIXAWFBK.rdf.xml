@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="KIXAWFBK">
+        <res:resource rdf:resource="https://docs.google.com/forms/d/e/1FAIpQLSe81gxZ-TB1esu3Oeye3wD_iKVe0IlmxTca5WXd_Z1UH1H7LQ/viewform?usp=embed_facebook"/>
+        <z:accessDate>2021-05-09 02:56:27</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/forms/d/e/1FAIpQLSe81gxZ-TB1esu3Oeye3wD_iKVe0IlmxTca5WXd_Z1UH1H7LQ/viewform?usp=embed_facebook">
+        <dcterms:title>Check Off: Covid-19 Matching</dcterms:title>
+        <bibo:uri>https://docs.google.com/forms/d/e/1FAIpQLSe81gxZ-TB1esu3Oeye3wD_iKVe0IlmxTca5WXd_Z1UH1H7LQ/viewform?usp=embed_facebook</bibo:uri>
+        <dcterms:abstract>Matching volunteers with seniors and immunocompromised individuals</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Check Off</bibo:shortTitle>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>Google Docs</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>

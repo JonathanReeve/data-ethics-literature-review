@@ -1,0 +1,44 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:sioct="http://rdfs.org/sioc/types#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="MAU8QA2Q">
+        <res:resource rdf:resource="https://joyfulpublicspeaking.blogspot.com/2010/08/power-of-brief-speeches-world-war-i-and.html"/>
+        <z:accessDate>2021-05-09 03:14:32</z:accessDate>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Ignite</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Lightning Talks</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>Pecha Kucha</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://joyfulpublicspeaking.blogspot.com/2010/08/power-of-brief-speeches-world-war-i-and.html">
+        <dcterms:title>Joyful Public Speaking (from fear to joy): The power of brief speeches: World War I and the Four Minute Men</dcterms:title>
+        <bibo:uri>https://joyfulpublicspeaking.blogspot.com/2010/08/power-of-brief-speeches-world-war-i-and.html</bibo:uri>
+        <bibo:shortTitle>Joyful Public Speaking (from fear to joy)</bibo:shortTitle>
+        <dcterms:creator rdf:nodeID="n3024"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n3024"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:date>Monday, August 9, 2010</dcterms:date>
+                <dcterms:title>Joyful Public Speaking (from fear to joy)</dcterms:title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Person rdf:nodeID="n3024">
+        <foaf:givenName>Richard I.</foaf:givenName>
+        <foaf:surname>Garber</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

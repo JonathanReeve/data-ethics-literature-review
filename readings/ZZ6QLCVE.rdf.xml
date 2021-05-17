@@ -1,0 +1,93 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:address="http://schemas.talis.com/2005/address/schema#">
+    <z:UserItem rdf:about="ZZ6QLCVE">
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>recommender systems</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <z:accessDate>2021-05-08 00:00:00</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>information seeking</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <res:resource rdf:resource="https://doi.org/10.1145/1180875.1180903"/>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>content-based filtering</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>collaborative filtering</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:AutoTag>
+               <ctag:label>human-recommender interaction</ctag:label>
+            </ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>personalization</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:AutoTag><ctag:label>digital libraries</ctag:label></ctag:AutoTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Article rdf:about="https://doi.org/10.1145/1180875.1180903">
+        <dcterms:creator rdf:nodeID="n3010"/>
+        <dcterms:title>Don't look stupid: avoiding pitfalls when recommending research papers</dcterms:title>
+        <dcterms:abstract>If recommenders are to help people be more productive, they need to support a wide variety of real-world information seeking tasks, such as those found when seeking research papers in a digital library. There are many potential pitfalls, including not knowing what tasks to support, generating recommendations for the wrong task, or even failing to generate any meaningful recommendations whatsoever. We posit that different recommender algorithms are better suited to certain information seeking tasks. In this work, we perform a detailed user study with over 130 users to understand these differences between recommender algorithms through an online survey of paper recommendations from the ACM Digital Library. We found that pitfalls are hard to avoid. Two of our algorithms generated 'atypical' recommendations recommendations that were unrelated to their input baskets. Users reacted accordingly, providing strong negative results for these algorithms. Results from our 'typical' algorithms show some qualitative differences, but since users were exposed to two algorithms, the results may be biased. We present a wide variety of results, teasing out differences between algorithms. Finally, we succinctly summarize our most striking results as &quot;Don't Look Stupid&quot; in front of users.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1145/1180875.1180903</bibo:uri>
+        <bibo:doi>10.1145/1180875.1180903</bibo:doi>
+        <bibo:shortTitle>Don't look stupid</bibo:shortTitle>
+        <bibo:pages>171â€“180</bibo:pages>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n3010"/>
+                <rdf:li rdf:nodeID="n3012"/>
+                <rdf:li rdf:nodeID="n3013"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n3012"/>
+        <dcterms:creator rdf:nodeID="n3013"/>
+        <dcterms:isPartOf>
+            <bibo:Proceedings>
+                <dcterms:title>Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work</dcterms:title>
+                <dcterms:publisher>
+                    <foaf:Organization>
+                        <foaf:name>Association for Computing Machinery</foaf:name>
+                        <address:localityName>Banff, Alberta, Canada</address:localityName>
+                    </foaf:Organization>
+                </dcterms:publisher>
+                <bibo:isbn13>9781595932495</bibo:isbn13>
+                <dcterms:date>November 4, 2006</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Series>
+                       <dcterms:title>CSCW '06</dcterms:title>
+                    </bibo:Series>
+                </dcterms:isPartOf>
+            </bibo:Proceedings>
+        </dcterms:isPartOf>
+    </bibo:Article>
+    <foaf:Person rdf:nodeID="n3010">
+       <foaf:givenName>Sean M.</foaf:givenName><foaf:surname>McNee</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n3012">
+        <foaf:givenName>Nishikant</foaf:givenName>
+        <foaf:surname>Kapoor</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n3013">
+        <foaf:givenName>Joseph A.</foaf:givenName>
+        <foaf:surname>Konstan</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

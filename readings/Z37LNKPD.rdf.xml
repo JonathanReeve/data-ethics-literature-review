@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="Z37LNKPD">
+        <res:resource rdf:resource="https://www.purdue.edu/wiep/"/>
+        <z:accessDate>2021-05-09 03:48:07</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.purdue.edu/wiep/">
+        <bibo:uri>https://www.purdue.edu/wiep/</bibo:uri>
+        <dcterms:title>Homepage Women in Engineering Program - Women in Engineering Program - Purdue University</dcterms:title>
+        <dcterms:abstract>Homepage for the Women in Engineering Program at Purdue University.</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

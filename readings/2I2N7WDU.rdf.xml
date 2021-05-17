@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="2I2N7WDU">
+        <res:resource rdf:resource="https://www.cs.utexas.edu/users/ear/"/>
+        <z:accessDate>2021-05-09 03:34:03</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.cs.utexas.edu/users/ear/">
+        <bibo:uri>https://www.cs.utexas.edu/users/ear/</bibo:uri>
+        <dcterms:title>Elaine Rich - Computer Scientist</dcterms:title>
+        <dcterms:abstract>Elaine Rich Computer Science</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

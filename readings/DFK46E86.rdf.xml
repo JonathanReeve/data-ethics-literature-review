@@ -1,0 +1,16 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="DFK46E86">
+        <res:resource rdf:resource="http://blog.mrtz.org/2016/09/06/approaching-fairness.html"/>
+        <z:accessDate>2021-05-09 03:53:28</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="http://blog.mrtz.org/2016/09/06/approaching-fairness.html">
+        <bibo:uri>http://blog.mrtz.org/2016/09/06/approaching-fairness.html</bibo:uri>
+        <dcterms:title>Approaching fairness in machine learning</dcterms:title>
+        <dcterms:abstract>As machine learning increasingly affects domains protected by anti-discrimination law, there is much interest in the problem of algorithmically measuring and...</dcterms:abstract>
+    </bibo:Webpage>
+</rdf:RDF>

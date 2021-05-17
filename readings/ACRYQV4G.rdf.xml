@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="ACRYQV4G">
+        <res:resource rdf:resource="https://vimeo.com/36579366"/>
+        <z:repository>vimeo.com</z:repository>
+        <z:accessDate>2021-05-09 03:30:22</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://vimeo.com/36579366">
+        <dcterms:title>Bret Victor - Inventing on Principle</dcterms:title>
+        <bibo:uri>https://vimeo.com/36579366</bibo:uri>
+        <dcterms:abstract>Bio: Bret Victor invents tools that enable people to understand and create. He has designed experimental UI concepts at Apple, interactive data graphics for Al Gore,â€¦</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="XP56EZPJ">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=qXQA6D4JC0A"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:40:26</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=qXQA6D4JC0A">
+        <dcterms:title>Bias? In My Algorithms? A Facebook News Story</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=qXQA6D4JC0A</bibo:uri>
+        <dcterms:abstract>Viewers like you help make PBS (Thank you ðŸ˜ƒ) . Support your local PBS Member Station here: https://to.pbs.org/donateideaWhy Facebook News Canâ€™t Escape Bias ...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>Bias?</bibo:shortTitle>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

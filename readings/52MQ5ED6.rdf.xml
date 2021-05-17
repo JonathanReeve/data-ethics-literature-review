@@ -1,0 +1,18 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="52MQ5ED6">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=fMym_BKWQzk"/>
+        <z:repository>www.youtube.com</z:repository>
+        <z:accessDate>2021-05-09 03:26:04</z:accessDate>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=fMym_BKWQzk">
+        <dcterms:title>The Trouble with Bias - NIPS 2017 Keynote - Kate Crawford #NIPS2017</dcterms:title>
+        <bibo:uri>https://www.youtube.com/watch?v=fMym_BKWQzk</bibo:uri>
+        <dcterms:abstract>Kate Crawford is a leading researcher, academic and author who has spent the last decade studying the social implications of data systems, machine learning a...</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+    </bibo:AudioVisualDocument>
+</rdf:RDF>

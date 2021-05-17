@@ -1,0 +1,15 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <z:UserItem rdf:about="GYPTC87K">
+        <res:resource rdf:resource="https://auth.berkeley.edu/cas/login?service=https://www.law.berkeley.edu/php-programs/tevals-admin/tevalChoose.php"/>
+        <z:accessDate>2021-05-09 03:28:44</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://auth.berkeley.edu/cas/login?service=https://www.law.berkeley.edu/php-programs/tevals-admin/tevalChoose.php">
+        <bibo:uri>https://auth.berkeley.edu/cas/login?service=https://www.law.berkeley.edu/php-programs/tevals-admin/tevalChoose.php</bibo:uri>
+        <dcterms:title>Login - CAS â€“ Central Authentication Service</dcterms:title>
+    </bibo:Webpage>
+</rdf:RDF>

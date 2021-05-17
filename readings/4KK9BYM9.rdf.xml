@@ -1,0 +1,47 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="4KK9BYM9">
+        <res:resource rdf:resource="http://www.liebertpub.com/doi/10.1089/big.2013.1508"/>
+        <z:repository>DOI.org (Crossref)</z:repository>
+        <z:accessDate>2021-05-09 03:12:29</z:accessDate>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://www.liebertpub.com/doi/10.1089/big.2013.1508">
+        <dcterms:language>en</dcterms:language>
+        <bibo:pages>51-59</bibo:pages>
+        <bibo:doi>10.1089/big.2013.1508</bibo:doi>
+        <bibo:uri>http://www.liebertpub.com/doi/10.1089/big.2013.1508</bibo:uri>
+        <dcterms:title>Data Science and its Relationship to Big Data and Data-Driven Decision Making</dcterms:title>
+        <dcterms:creator rdf:nodeID="n2627"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n2627"/><rdf:li rdf:nodeID="n2629"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n2629"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <bibo:volume>1</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:date>03/2013</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Big Data</dcterms:title>
+                        <bibo:shortTitle>Big Data</bibo:shortTitle>
+                        <bibo:issn>2167-6461, 2167-647X</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n2627">
+       <foaf:givenName>Foster</foaf:givenName><foaf:surname>Provost</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n2629">
+       <foaf:givenName>Tom</foaf:givenName><foaf:surname>Fawcett</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

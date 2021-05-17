@@ -1,0 +1,20 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/">
+    <z:UserItem rdf:about="PGSUE8WB">
+        <res:resource rdf:resource="https://informationecosystems.wordpress.com/"/>
+        <z:accessDate>2021-05-09 03:44:11</z:accessDate>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://informationecosystems.wordpress.com/">
+        <dcterms:title>INFO 2131</dcterms:title>
+        <bibo:uri>https://informationecosystems.wordpress.com/</bibo:uri>
+        <dcterms:abstract>Information Ecosystems Studio</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:title>INFO 2131</dcterms:title></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+</rdf:RDF>
