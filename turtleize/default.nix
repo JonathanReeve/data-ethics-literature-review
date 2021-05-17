@@ -1,4 +1,14 @@
-with import <nixpkgs> {};
+# with import <nixpkgs> {};
+
+with import (builtins.fetchGit {
+  # Descriptive name to make the store path easier to identify
+  # name = "nixos-unstable-2021-05-17";
+  url = "https://github.com/nixos/nixpkgs/";
+  # Commit hash for nixos-unstable as of 2021-05-17
+  # `git ls-remote https://github.com/nixos/nixpkgs nixos-unstable`
+  ref = "refs/heads/nixos-unstable";
+  rev = "83d907fd760d9ee4f49b4b7e4b1c6682f137b573";
+}) {};
 
 ( let
     newPlotly = pkgs.python3Packages.buildPythonPackage rec {
@@ -153,7 +163,7 @@ with import <nixpkgs> {};
     };
     customPython = pkgs.python38.buildEnv.override rec {
 	    extraLibs = with pkgs.python38Packages; [
-	      pkgs.chromedriver
+	      # pkgs.chromedriver
 	      matplotlib
 	      pandas
 	      jupyter
@@ -170,9 +180,9 @@ with import <nixpkgs> {};
 	      toolz
 	      rdflib
 	      beautifulsoup4
-	      requestsHtml
-	      selenium
-	      etudier
+	      # requestsHtml
+	      # selenium
+	      # etudier
 	      networkx
         jsonpickle
         docker
@@ -190,5 +200,5 @@ with import <nixpkgs> {};
     };
     in 
     pkgs.mkShell { 
-      buildInputs = [ customPython chromedriver docker anystyle-cli ];
+      buildInputs = [ customPython docker anystyle-cli ];
     })
