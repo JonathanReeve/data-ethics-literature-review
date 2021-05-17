@@ -1,4 +1,5 @@
 import sys
+import os
 import docker
 import requests
 from time import sleep
@@ -26,7 +27,6 @@ $ python toRDF.py book "Weapons of Math Destruction"
 
 $ python toRDF.py identifier 10.1177/2053951714559253
 
-TODO
 $ python toRDF.py bibtex references.bib
 """
 
@@ -172,6 +172,24 @@ def downloadFile(url, destDir, courseID):
             logging.error("Received error: {resp.status_code} when trying to get file {url}")
             return
 
+def extractHTMLBib(html):
+    """
+    Extract bibliographic data from HTML, using anystyle.
+    First we'll need to convert to text.
+    """
+    soup = BeautifulSoup(html, features='lxml')
+    text = soup.getText()
+    return extractPlainTextBib(text)
+
+def extractPlainTextBib(text):
+    """
+    Try to get citations from plain text, using anystyle.
+    """
+    tempfile = "/tmp/syllabus.txt"
+    with open(tempfile, 'w') as f:
+        f.write(text)
+    os.system('anystyle find ' + tempfile)
+    return
 
 def extractHTMLLinks(html):
     soup = BeautifulSoup(html, features='lxml')
@@ -275,6 +293,10 @@ def processSyllabus(url, courseID):
     else: # Catches .html but also bare urls
         html = getHTMLSyllabus(url, courseID)
         if html is not None:
+            # First try to get data from anystyle
+            bibtex = extractHTMLBib(html)
+            click.echo(bibtex)
+            # Then just extract the links
             links = extractHTMLLinks(html)
             if links is None:
                 # Try it this way instead, if the first way didn't work
@@ -293,7 +315,7 @@ def processSyllabus(url, courseID):
 def syllabus(url):
     """Download a syllabus from a URL, extract links from it,
     and create RDF from those links."""
-    processSyllabus(url)
+    processSyllabus(url, 0)
 
 @cli.command()
 @click.argument('query', nargs=1)
