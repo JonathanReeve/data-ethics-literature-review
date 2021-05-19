@@ -1,0 +1,60 @@
+deUniversity:columbia-university a ccso:University ;
+    owl:sameAs wikidata:Q49088 ;
+    ccso:legalName "Columbia University" .
+    
+deUniversity:carnegie-mellon-university a ccso:University ;
+    owl:sameAs wikidata:Q190080 ;
+    ccso:legalName "Carnegie Mellon University" .
+
+deUniversity:georgetown-university a ccso:University ;
+    owl:sameAs wikidata:Q333886 ;
+    ccso:legalName "Georgetown University" .
+
+deUniversity:university-of-washington a ccso:University ;
+    owl:sameAs wikidata:Q219563 ;
+    ccso:legalName "University of Washington" .
+
+deUniversity:stanford-university a ccso:University ;
+    owl:sameAs wikidata:Q41506 ;
+    ccso:legalName "Stanford University" .
+
+deCourse:102 a ccso:Course ;
+    ccso:code "COMS W 3995-001" ;
+    ccso:csName "AI Safety, Ethics, and Policy" ;
+    ccso:description <http://www.cs.columbia.edu/education/courses/course/COMSW3995-1/24855/> ;
+    ccso:hasInstructor dePerson:chad-dechant ;
+    ccso:hasLM deText:77E6P4LX,
+        deText:AAQL8VD6,
+        deText:D89AF4IT,
+        deText:H99JMQCT,
+        deText:HZL292YQ,
+        deText:MXHCYCBL,
+        deText:WXEKEDUB ;
+    ccso:hasSyllabus <http://www.cs.columbia.edu/~dechant/aisafety18/index.html> ;
+    ccso:language "en" ;
+    ccso:offeredBy <https://data-ethics.tech/university/columbia-university/department/computer-science> .
+
+deCourse:104 a ccso:Course ;
+    ccso:code "W2901" ;
+    ccso:csName "Data: Past, Present, and Future" ;
+    ccso:description <http://scienceandsociety.columbia.edu/the-courses/hsam-2901-data-past-present-future-m-jones-c-wiggins/> ;
+    ccso:hasInstructor dePerson:chris-wiggins,
+        dePerson:matt-jones ;
+    ccso:hasSyllabus <http://www.columbia.edu/itc/applied/wiggins/ppf.pdf> ;
+    ccso:language "en" ;
+    ccso:offeredBy <https://data-ethics.tech/university/columbia-university/department/history-and-applied-mathematics> .
+
+deCourse:272 a ccso:Course ;
+    ccso:code "SOC 141P" ;
+    ccso:csName "Public Interest Tech: Case Studies" ;
+    ccso:description <https://explorecourses.stanford.edu/search?q=SOC+141P%3a+Public+Interest+Tech%3a+Case+Studies&view=catalog&filter-coursestatus-Active=on&academicYear=20202021> ;
+    ccso:hasInstructor dePerson:dan-grusky,
+        dePerson:margaret-hagan ;
+    ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/sociology> .
+
+deCourse:273 a ccso:Course ;
+    ccso:code "CS 184/PUBLPOL 170" ;
+    ccso:csName "Bridging Policy and Tech Through Design" ;
+    ccso:description <https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=20202021&q=cs184&collapse=> ;
+    ccso:hasInstructor dePerson:jeffrey-ullman ;
+    ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/computer-science%2C-public-policy> .
