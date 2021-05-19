@@ -3,31 +3,8 @@
 @prefix dePerson: <https://data-ethics.tech/person/> .
 @prefix deText: <https://data-ethics.tech/text/> .
 @prefix deUniversity: <https://data-ethics.tech/university/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <https://w3id.org/reproduceme#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix wikidata: <https://wikidata.org/wiki/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-deUniversity:columbia-university a ccso:University ;
-    owl:sameAs wikidata:Q49088 ;
-    ccso:legalName "Columbia University" .
-    
-deUniversity:carnegie-mellon-university a ccso:University ;
-    owl:sameAs wikidata:Q190080 ;
-    ccso:legalName "Carnegie Mellon University" .
-
-deUniversity:georgetown-university a ccso:University ;
-    owl:sameAs wikidata:Q333886 ;
-    ccso:legalName "Georgetown University" .
-
-deUniversity:university-of-washington a ccso:University ;
-    owl:sameAs wikidata:Q219563 ;
-    ccso:legalName "University of Washington" .
-
-deUniversity:stanford-university a ccso:University ;
-    owl:sameAs wikidata:Q41506 ;
-    ccso:legalName "Stanford University" .
 
 deCourse:102 a ccso:Course ;
     ccso:code "COMS W 3995-001" ;
@@ -64,26 +41,41 @@ deCourse:272 a ccso:Course ;
     ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/sociology> .
 
 deCourse:273 a ccso:Course ;
-    ccso:code "CS 184/PUBLPOL 170" ;
-    ccso:csName "Bridging Policy and Tech Through Design" ;
+    ccso:code "CS 184/PUBLPOL 170",
+        "CS 184/PUBLPOL 180" ;
+    ccso:csName "Bridging Policy and Tech 2",
+        "Bridging Policy and Tech Through Design" ;
     ccso:description <https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=20202021&q=cs184&collapse=> ;
     ccso:hasInstructor dePerson:jeffrey-ullman ;
     ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/computer-science%2C-public-policy> .
 
-deCourse:273 a ccso:Course ;
-    ccso:code "CS 184/PUBLPOL 180" ;
-    ccso:csName "Bridging Policy and Tech 2" ;
-    ccso:description <https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=20202021&q=cs184&collapse=> ;
-    ccso:hasInstructor dePerson:jeffrey-ullman ;
-    ccso:offeredBy <https://data-ethics.tech/university/stanford-university/department/computer-science%2C-public-policy> .
+deUniversity:carnegie-mellon-university a ccso:University ;
+    owl:sameAs wikidata:Q190080 ;
+    ccso:legalName "Carnegie Mellon University" .
 
 <https://data-ethics.tech/university/columbia-university/department/computer-science%2C-institute-for-comparative-literature-and-society> a ccso:Department ;
     ccso:belongsTo deUniversity:columbia-university ;
-    ccso:csName "Computer Science, Institute for Comparative Literature and Society";
+    ccso:csName "Computer Science, Institute for Comparative Literature and Society" ;
     ccso:legalName "Columbia University" .
 
+deUniversity:georgetown-university a ccso:University ;
+    owl:sameAs wikidata:Q333886 ;
+    ccso:legalName "Georgetown University" .
+
+deUniversity:stanford-university a ccso:University ;
+    owl:sameAs wikidata:Q41506 ;
+    ccso:legalName "Stanford University" .
+
+deUniversity:university-of-washington a ccso:University ;
+    owl:sameAs wikidata:Q219563 ;
+    ccso:legalName "University of Washington" .
 
 <https://data-ethics.tech/university/columbia-university/department/history-and-applied-mathematics> a ccso:Department ;
     ccso:belongsTo deUniversity:columbia-university ;
-    ccso:csName "History and Applied Mathematics";
+    ccso:csName "History and Applied Mathematics" ;
     ccso:legalName "Columbia University" .
+
+deUniversity:columbia-university a ccso:University ;
+    owl:sameAs wikidata:Q49088 ;
+    ccso:legalName "Columbia University" .
+
