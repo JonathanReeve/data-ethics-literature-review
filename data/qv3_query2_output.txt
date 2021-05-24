@@ -1,0 +1,13 @@
+@prefix ccso: <https://w3id.org/ccso/ccso/> .
+@prefix deUniversity: <https://data-ethics.tech/university/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikidata: <https://wikidata.org/wiki/> .
+
+deUniversity:columbia-university a ccso:University ;
+    owl:sameAs wikidata:Q49088 ;
+    ccso:legalName "Columbia University" .
+
+deUniversity:columbia-university---teachers-college a ccso:University ;
+    owl:sameAs wikidata:Q49088 ;
+    ccso:legalName "Columbia University - Teachers College" .
+
