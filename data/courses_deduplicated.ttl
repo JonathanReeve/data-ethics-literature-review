@@ -6231,8 +6231,8 @@ deUniversity:colorado-school-of-mines a ccso:University ;
     ccso:legalName "Colorado School of Mines" .
 
 deUniversity:columbia-university---teachers-college a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Columbia University - Teachers College" .
+    owl:sameAs <https://wikidata.org/wiki/Q49088> ;
+    ccso:legalName "Columbia University" .
 
 <https://data-ethics.tech/university/columbia-university/department/computer-science> a ccso:Department ;
     ccso:belongsTo deUniversity:columbia-university ;
@@ -6255,20 +6255,20 @@ deUniversity:drexel-university a ccso:University ;
     ccso:legalName "Drexel University" .
 
 deUniversity:duke---fuqua-school-of-business a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Duke - Fuqua School of Business" .
+    owl:sameAs <https://wikidata.org/wiki/Q168751> ;
+    ccso:legalName "Duke University" .
 
 deUniversity:duke-law-school a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Duke Law School" .
+    owl:sameAs <https://wikidata.org/wiki/Q168751> ;
+    ccso:legalName "Duke University" .
 
 deUniversity:earlham-college a ccso:University ;
     owl:sameAs wikidata:Q5326502 ;
     ccso:legalName "Earlham College" .
 
 <https://data-ethics.tech/university/fachhochschule-st.-p%C3%B6lten> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Fachhochschule St. Pölten" .
+    owl:sameAs <https://wikidata.org/wiki/Q1391228> ;
+    ccso:legalName "St. Pölten University of Applied Sciences" .
 
 <https://data-ethics.tech/university/fachhochschule-st.-p%C3%B6lten/department/informatik-%26-security> a ccso:Department ;
     ccso:belongsTo <https://data-ethics.tech/university/fachhochschule-st.-p%C3%B6lten> ;
@@ -6284,7 +6284,7 @@ deUniversity:fielding-graduate-university a ccso:University ;
     ccso:legalName "Philosophy" .
 
 deUniversity:georgia-institute-of-technology a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
+    owl:sameAs <https://wikidata.org/wiki/Q864855> ;
     ccso:legalName "Georgia Institute of Technology" .
 
 deUniversity:harvard-college a ccso:University ;
@@ -6300,11 +6300,11 @@ deUniversity:hofstra-university a ccso:University ;
     ccso:legalName "Hofstra University" .
 
 <https://data-ethics.tech/university/humboldt-universit%C3%A4t-zu-berlin> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Humboldt-Universität zu Berlin" .
+    owl:sameAs <https://wikidata.org/wiki/Q152087> ;
+    ccso:legalName "Humboldt University of Berlin" .
 
 deUniversity:indian-institute-of-technology-delhi a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
+    owl:sameAs <https://wikidata.org/wiki/Q7010782> ;
     ccso:legalName "Indian Institute of Technology Delhi" .
 
 deUniversity:interamerican-university-of-puerto-rico a ccso:University ;
@@ -6352,8 +6352,8 @@ deUniversity:north-carolina-state-university a ccso:University ;
     ccso:legalName "Law" .
 
 deUniversity:open-access-course-materials-cte a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Open Access Course Materials CTE" .
+    owl:sameAs <https://wikidata.org/wiki/Q5061634> ;
+    ccso:legalName "Central Penn College" .
 
 deUniversity:oregon-state-university a ccso:University ;
     owl:sameAs wikidata:Q861888 ;
@@ -6392,12 +6392,12 @@ deUniversity:rochester-institute-of-technology a ccso:University ;
     ccso:legalName "Philosophy" .
 
 deUniversity:sciences-po-paris a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Sciences Po Paris" .
+    owl:sameAs <https://wikidata.org/wiki/Q859363> ;
+    ccso:legalName "Sciences Po" .
 
 deUniversity:sciences-po-paris---european-campus a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Sciences Po Paris - European Campus" .
+    owl:sameAs <https://wikidata.org/wiki/Q859363> ;
+    ccso:legalName "Sciences Po" .
 
 deUniversity:seattle-university a ccso:University ;
     owl:sameAs wikidata:Q615873 ;
@@ -6416,8 +6416,8 @@ deUniversity:stevens-institute-of-technology a ccso:University ;
     ccso:legalName "Stevens Institute of Technology" .
 
 <https://data-ethics.tech/university/technion%2C-univeristy-of-haifa> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Technion, Univeristy of Haifa" .
+    owl:sameAs <https://wikidata.org/wiki/Q333705> ;
+    ccso:legalName "Technion – Israel Institute of Technology" .
 
 deUniversity:tel-aviv-university a ccso:University ;
     owl:sameAs wikidata:Q319239 ;
@@ -6440,36 +6440,36 @@ deUniversity:the-university-of-texas-at-dallas a ccso:University ;
     ccso:legalName "The University of Texas at Dallas" .
 
 <https://data-ethics.tech/university/tilburg-university%2C-the-netherlandsu> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Tilburg University, The Netherlandsu" .
+    owl:sameAs <https://wikidata.org/wiki/Q595668> ;
+    ccso:legalName "Tilburg University" .
 
 deUniversity:tu-munich a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "TU Munich" .
+    owl:sameAs <https://wikidata.org/wiki/Q157808> ;
+    ccso:legalName "Technical University of Munich" .
 
 <https://data-ethics.tech/university/tufts-university/fletcher> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Tufts University/Fletcher" .
+    owl:sameAs <https://wikidata.org/wiki/Q49120> ;
+    ccso:legalName "Tufts University" .
 
 deUniversity:uc-berkeley- a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "UC Berkeley " .
+    owl:sameAs <https://wikidata.org/wiki/Q168756> ;
+    ccso:legalName "University of California, Berkeley " .
 
 <https://data-ethics.tech/university/uc-berkeley/department/computer-science> a ccso:Department ;
     ccso:belongsTo deUniversity:uc-berkeley ;
     ccso:legalName "Computer Science" .
 
 deUniversity:uc-san-diego a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "UC San Diego" .
+    owl:sameAs <https://wikidata.org/wiki/Q622664> ;
+    ccso:legalName "University of California, San Diego" .
 
 deUniversity:univ.-complutense-de-madrid a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Univ. Complutense de Madrid" .
+    owl:sameAs <https://wikidata.org/wiki/Q219694> ;
+    ccso:legalName "Complutense University of Madrid" .
 
 deUniversity:universidad-de-chile a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Universidad de Chile" .
+    owl:sameAs <https://wikidata.org/wiki/Q232141> ;
+    ccso:legalName "University of Chile" .
 
 deUniversity:university-college-dublin a ccso:University ;
     owl:sameAs wikidata:Q1068258 ;
@@ -6513,11 +6513,11 @@ deUniversity:university-of-lisbon a ccso:University ;
 
 <https://data-ethics.tech/university/university-of-maryland%2C-college-park-> a ccso:University ;
     owl:sameAs wikidata:Q503415 ;
-    ccso:legalName "University of Maryland, College Park " .
+    ccso:legalName "University of Maryland" .
 
 <https://data-ethics.tech/university/university-of-maryland---baltimore-county-%28umbc%29> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "University of Maryland - Baltimore County (UMBC)" .
+    owl:sameAs <https://wikidata.org/wiki/Q4119470> ;
+    ccso:legalName "University of Maryland, Baltimore" .
 
 <https://data-ethics.tech/university/university-of-massachusetts-amherst/department/college-of-computer-and-information-sciences> a ccso:Department ;
     ccso:belongsTo deUniversity:university-of-massachusetts-amherst ;
@@ -6544,8 +6544,8 @@ deUniversity:university-of-pennsylvania- a ccso:University ;
     ccso:legalName "University of Pennsylvania " .
 
 deUniversity:university-of-pennsylvania---the-wharton-school a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "University of Pennsylvania - The Wharton School" .
+    owl:sameAs <https://wikidata.org/wiki/Q1329269>;
+    ccso:legalName "The Wharton School" .
 
 <https://data-ethics.tech/university/university-of-pennsylvania---the-wharton-school/department/legal-studies-%26-business-ethics> a ccso:Department ;
     ccso:belongsTo deUniversity:university-of-pennsylvania---the-wharton-school ;
@@ -6652,8 +6652,8 @@ deUniversity:boise-state-university a ccso:University ;
     ccso:legalName "Boise State University" .
 
 deUniversity:california-state-university-fullerton a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "California State University Fullerton" .
+    owl:sameAs <https://wikidata.org/wiki/Q1026925> ;
+    ccso:legalName "California State University, Fullerton" .
 
 <https://data-ethics.tech/university/earlham-college/department/philosophy> a ccso:Department ;
     ccso:belongsTo deUniversity:earlham-college ;
@@ -6700,8 +6700,8 @@ deUniversity:santa-clara-university a ccso:University ;
     ccso:legalName "Santa Clara University" .
 
 <https://data-ethics.tech/university/sciences-po%2C-paris> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Sciences Po, Paris" .
+    owl:sameAs <https://wikidata.org/wiki/Q859363> ;
+    ccso:legalName "Sciences Po" .
 
 deUniversity:swiss-federal-institute-of-technology a ccso:University ;
     owl:sameAs wikidata:Q269558 ;
@@ -6752,8 +6752,8 @@ deUniversity:university-of-north-carolina-at-chapel-hill a ccso:University ;
     ccso:legalName "Information School" .
 
 deUniversity:university-of-wisconsin-milwaukee a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "University of Wisconsin Milwaukee" .
+    owl:sameAs <https://wikidata.org/wiki/Q1755318> ;
+    ccso:legalName "University of Wisconsin–Milwaukee" .
 
 dePerson:d.e.-wittkower foaf:familyName "Wittkower" ;
     foaf:givenName "D.E." ;
@@ -6792,8 +6792,8 @@ deUniversity:harvard-university a ccso:University ;
     ccso:legalName "Informatics" .
 
 deUniversity:rensselaer-polytechnic-inst a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Rensselaer Polytechnic Inst" .
+    owl:sameAs <https://wikidata.org/wiki/Q49211> ;
+    ccso:legalName "Rensselaer Polytechnic Institute" .
 
 <https://data-ethics.tech/university/stanford-university/department/computer-science> a ccso:Department ;
     ccso:belongsTo deUniversity:stanford-university ;
@@ -6808,8 +6808,8 @@ deUniversity:university-of-edinburgh a ccso:University ;
     ccso:legalName "University of Edinburgh" .
 
 deUniversity:university-of-maryland---college-park a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "University of Maryland - College Park" .
+    owl:sameAs <https://wikidata.org/wiki/Q503415> ;
+    ccso:legalName "University of Maryland" .
 
 deUniversity:university-of-massachusetts-amherst a ccso:University ;
     owl:sameAs wikidata:Q15142 ;
@@ -6820,8 +6820,8 @@ deUniversity:victoria-university-of-wellington a ccso:University ;
     ccso:legalName "Victoria University of Wellington" .
 
 deUniversity:mit a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "MIT" .
+    owl:sameAs <https://wikidata.org/wiki/Q49108> ;
+    ccso:legalName "Massachusetts Institute of Technology" .
 
 deUniversity:old-dominion-university a ccso:University ;
     owl:sameAs wikidata:Q1474100 ;
@@ -6832,8 +6832,8 @@ deUniversity:purdue-university a ccso:University ;
     ccso:legalName "Purdue University" .
 
 deUniversity:uc-davis a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "UC Davis" .
+    owl:sameAs <https://wikidata.org/wiki/Q129421> ;
+    ccso:legalName "University of California, Davis" .
 
 deUniversity:university-of-notre-dame a ccso:University ;
     owl:sameAs wikidata:Q178848 ;
@@ -6844,8 +6844,8 @@ deUniversity:university-of-utah a ccso:University ;
     ccso:legalName "University of Utah" .
 
 deUniversity:university-of-wisconsin---madison a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "University of Wisconsin - Madison" .
+    owl:sameAs <https://wikidata.org/wiki/Q838330> ;
+    ccso:legalName "University of Wisconsin-Madison" .
 
 deUniversity:virginia-tech a ccso:University ;
     owl:sameAs wikidata:Q65379 ;
@@ -6857,8 +6857,8 @@ dePerson:deirdre-mulligan foaf:familyName "Mulligan" ;
         deUniversity:uc-berkeley .
 
 <https://data-ethics.tech/university/california-polytechnic-state-univ.%2C-san-luis-obispo> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "California Polytechnic State Univ., San Luis Obispo" .
+    owl:sameAs <https://wikidata.org/wiki/Q1026846> ;
+    ccso:legalName "California Polytechnic State University" .
 
 deUniversity:indiana-university-bloomington a ccso:University ;
     owl:sameAs wikidata:Q1079140 ;
@@ -6921,8 +6921,8 @@ deUniversity:nan a ccso:University ;
     ccso:legalName "NaN"^^xsd:double .
 
 <https://data-ethics.tech/university/massachusetts-institute-of-technology-%28mit%29> a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "Massachusetts Institute of Technology (MIT)" .
+    owl:sameAs <https://wikidata.org/wiki/Q49108> ;
+    ccso:legalName "Massachusetts Institute of Technology" .
 
 deUniversity:university-of-british-columbia a ccso:University ;
     owl:sameAs wikidata:Q391028 ;
@@ -6972,6 +6972,6 @@ deUniversity:stanford-university a ccso:University ;
     ccso:legalName "Stanford University" .
 
 deUniversity:uc-berkeley a ccso:University ;
-    owl:sameAs <https://wikidata.org/wiki/-1> ;
-    ccso:legalName "UC Berkeley" .
+    owl:sameAs <https://wikidata.org/wiki/Q168756> ;
+    ccso:legalName "University of California, Berkeley" .
 
