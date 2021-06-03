@@ -1,0 +1,5 @@
+O'NEIL Cathy, Weapons of math destructions, Crown, 2016
+RIEKE Aaron, BOGEN Miranda, ROBINSON David, Public scrutiny of automated decisions, New-York, Upturn, 2018
+CHIGNARD Simon, PENICAUC Soizic, With great power comes great responsibility: keeping public sector algorithms accountable (working paper), Paris, Etalab, 2019
+VALLOR Shannon, An introduction to data ethics, Santa Clara University, 2018
+KITCHIN Rob, The data revolution: Big data, open data, data infrastructures and their consequences, London, SAGE publications, 2014

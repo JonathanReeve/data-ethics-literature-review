@@ -1,0 +1,113 @@
+Amblard, M. (2016). Pour un TAL responsable. Traitement Automatique des Langues, 57 (2), 21-45.
+Crawford, K., & Calo, R. (2016). There is a blind spot in AI research. Nature, 538 (7625), 311.
+Executive Office of the President National Science and Technology Council Committee on Technology. (2016). Preparing for the future of artificial intelligence.
+Fort, K., Adda, G., & Cohen, K. B. (2016). Ethique et traitement automatique des langues et de la parole : entre truismes et tabous. Traitement Automatique des Langues, 57 (2), 7-19.
+Hovy, D., & Spruit, S. L. (2016). The social impact of natural language processing. In Proceedings of the 54th annual meeting of the association for computational linguistics (volume 2: Short papers) (pp. 591-598). Berlin, Germany: Association for Computational Linguistics.
+Another presentation by Hovy on related material
+Lefeuvre-Halftermeyer, A., Govaere, V., Antoine, J.-Y., Allegre, W., Pouplin, S., Departe, J.-P., et al. (2016). Typologie des risques pour une analyse éthique de l'impact des technologies du TAL. Traitement Automatique des Langues, 57 (2), 47-71.
+Markham, A. (May 18, 2016). OKCupid data release fiasco: It's time to rethink ethics education. Data & Society: Points.
+O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. NY: Crown Publishing Group.
+Rogaway, P. (2015). The moral character of cryptographic work.
+Shneiderman, B. (2016). Opinion: The dangers of faulty, biased, or malicious algorithms requires independent oversight. Proceedings of the National Academy of Sciences, 113 (48), 13538-13540.
+Sourour, B. (Nov 13, 2016). The code I'm still ashamed of. Medium.com.
+
+Bartky, S. L. (2002). "Sympathy and solidarity" and other essays (Vol. 32). Rowman & Littlefield.
+Bryson, J. J. (2015). Artificial intelligence and pro-social behaviour. In C. Misselhorn (Ed.), Collective agency and cooperation in natural and artificial systems: Explanation, implementation and simulation (pp. 281-306). Cham: Springer International Publishing.
+Butler, J. (2005). Giving an account of oneself. Oxford University Press. (Available online, through UW libraries)
+DeLaTorre, M. A. (2013). Ethics: A liberative approach. Fortress Press. (Available online through UW Libraries; read intro + chapter of choice)
+Edgar, S. L. (2003). Morality and machines: Perspectives on computer ethics. Jones & Bartlett Learning. (Available online through UW libraries)
+Fieser, J., & Dowden, B. (Eds.). (2016). Internet encyclopedia of philosophy: Entries on Ethics
+Liamputtong, P. (2006). Researching the vulnerable: A guide to sensitive research methods. Sage. (Available online, through UW libraries)
+Quinn, M. J. (2014). Ethics for the information age. Pearson.
+Zalta, E. N. (Ed.). (2016). The Stanford encyclopedia of philosophy (Winter 2016 Edition ed.): Entries on Ethics
+
+Angwin, J., & Larson, J. (Dec 30, 2016). Bias in criminal risk scores is mathematically inevitable, researchers say. ProPublica.
+boyd, d. (2015). What world are we building? (Everett C Parker Lecture. Washington, DC, October 20)
+Brennan, M. (2015). Can computers be racist? big data, inequality, and discrimination. (online; Ford Foundation)
+Clark, J. (Jun 23, 2016). Artificial intelligence has a `sea of dudes' problem. Bloomberg Technology.
+Crawford, K. (Apr 1, 2013). The hidden biases in big data. Harvard Business Review.
+Daumé III, H. (Nov 8, 2016). Bias in ML, and teaching AI. (Blog post, accessed 1/17/17)
+Emspak, J. (Dec 29, 2016). How a machine learns prejudice: Artificial intelligence picks up bias from human creators--not from hard, cold logic. Scientific American.
+Friedman, B., & Nissenbaum, H. (1996). Bias in computer systems. ACM Transactions on Information Systems (TOIS), 14(3), 330-347.
+Guynn, J. (Jun 10, 2016). `Three black teenagers' Google search sparks outrage. USA Today.
+Hardt, M. (Sep 26, 2014). How big data is unfair: Understanding sources of unfairness in data driven decision making. Medium.
+Jacob. (May 8, 2016). Deep learning racial bias: The avenue Q theory of ubiquitous racism. Medium.
+Larson, J., Angwin, J., & Parris Jr., T. (Oct 19, 2016). Breaking the black box: How machines learn to be racist. ProPublica.
+Morrison, L. (Jan 9, 2017). Speech analysis could now land you a promotion. BBC capital.
+Rao, D. (n.d.). Fairness in machine learning. (slides)
+Sweeney, L. (May 1, 2013). Discrimination in online ad delivery. Communications of the ACM, 56 (5), 44-54.
+Zliobaite, I. (2015). On the relation between accuracy and fairness in binary classification. CoRR, abs/1505.05723.
+
+Bolukbasi, T., Chang, K., Zou, J. Y., Saligrama, V., & Kalai, A. (2016). Man is to computer programmer as woman is to homemaker? Debiasing word embeddings. CoRR, abs/1607.06520.
+Caliskan-Islam, A., Bryson, J., & Narayanan, A. (2016). A story of discrimination and unfairness. (Talk presented at HotPETS 2016)
+Video of presentation
+33c3 talk on similar topic
+Daumé III, H. (2016). Language bias and black sheep. (Blog post, accessed 12/29/16)
+Herbelot, A., Redecker, E. von, & Müller, J. (2012, April). Distributional techniques for philosophical enquiry. In Proceedings of the 6th workshop on language technology for cultural heritage, social sciences, and humanities (pp. 45-54). Avignon, France: Association for Computational Linguistics.
+Schmidt, B. (2015). Rejecting the gender binary: A vector-space operation. (Blog post, accessed 12/29/16)
+
+Fessler, Leah. (Feb 22, 2017). SIRI, DEFINE PATRIARCHY: We tested bots like Siri and Alexa to see who would stand up to sexual harassment. Quartz.
+Fung, P. (Dec 3, 2015). Can robots slay sexism? World Economic Forum.
+Mott, N. (Jun 8, 2016). Why you should think twice before spilling your guts to a chatbot. Passcode.
+Paolino, J. (Jan 4, 2017). Google home vs Alexa: Two simple user experience design gestures that delighted a female user. Medium.
+Seaman Cook, J. (Apr 8, 2016). From Siri to sexbots: Female AI reinforces a toxic desire for passive, agreeable and easily dominated women. Salon.
+Twitter. (Apr 7, 2016). Automation rules and best practices. (Web page, accessed 12/29/16)
+Yao, M. (n.d.). Can bots manipulate public opinion? (Web page, accessed 12/29/16)
+
+Abadi, M., Chu, A., Goodfellow, I., Brendan McMahan, H., Mironov, I., Talwar, K., et al. (2016). Deep Learning with Differential Privacy. ArXiv e-prints.
+Amazon.com. 2017. Memorandum of Law in Support of Amazon's Motion to Quash Search Warrant
+Brant, T. (Dec 27, 2016). Amazon Alexa data wanted in murder investigation. PC Mag.
+Friedman, B., Kahn Jr, P. H., Hagman, J., Severson, R. L., & Gill, B. (2006). The watcher and the watched: Social judgments about privacy in a public place. Human-Computer Interaction, 21(2), 235-272.
+Golbeck, J., & Mauriello, M. L. (2016). User perception of facebook app data access: A comparison of methods and privacy concerns. Future Internet, 8(2), 9.
+Narayanan, A., & Shmatikov, V. (2010). Myths and fallacies of "personally identifiable information". Communications of the ACM, 53 (6), 24-26.
+Nissenbaum, H. (2009). Privacy in context: Technology, policy, and the integrity of social life. Stanford: Stanford University Press.
+Solove, D. J. (2007). 'I've got nothing to hide' and other misunderstandings of privacy. San Diego Law Review, 44 (4), 745-772.
+Steel, E., & Angwin, J. (Aug 4, 2010). On the Web's cutting edge, anonymity in name only. The Wall Street Journal.
+Tene, O., & Polonetsky, J. (2012). Big data for all: Privacy and user control in the age of analytics. Northwestern Journal of Technology and Intellectual Property, 11(45), 239-273.
+Vitak, J., Shilton, K., & Ashktorab, Z. (2016). Beyond the Belmont principles: Ethical challenges, practices, and beliefs in the online data research community. In Proceedings of the 19th ACM conference on computer-supported cooperative work & social computing (pp. 941-953).
+Fokkens, A. (2016). Reading between the lines. (Slides presented at Language Analysis Portal Launch event, University of Oslo, Sept 2016)
+Gershgorn, D. (Feb 27, 2017). NOT THERE YET: Alphabet's hate-fighting AI doesn’t understand hate yet. Quartz.
+Google.com. (2017). The women missing from the silver screen and the technology used to find them. Blog post, accessed March 1, 2017.
+Greenberg, A. (2016). Inside Google'S Internet Justice League and Its AI-Powered War on Trolls. Wired.
+Kellion, L. (Mar 1, 2017) Facebook artificial intelligence spots suicidal users. BBC News.
+Munger, K. (2016). Tweetment effects on the tweeted: Experimentally reducing racist harassment. Political Behavior, 1-21.
+Munger, K. (Nov 17, 2016). This researcher programmed bots to fight racism on twitter. It worked. Washington Post.
+Murgia, M. (Feb 23, 2017). Google launches robo-tool to flag hate speech online. Financial Times.
+The times is partnering with jigsaw to expand comment capabilities. (Sep 20, 2016). The New York Times.
+
+Hosseini, H, S. Kannan, B. Zhang and R. Poovendran. 2017. Deceiving Google's Perspective API Built for Detecting Toxic Comments. ArXiv.
+
+Bederson, B. B., & Quinn, A. J. (2011). Web workers unite! Addressing challenges of online laborers. In CHI'11 extended abstracts on human factors in computing systems (pp. 97-106).
+Callison-Burch, C. (2016). Crowd workers. (Slides from Crowdsoucing and Human Computation, accessed online 12/30/16)
+Callison-Burch, C. (2016). Ethics of crowdsourcing. (Slides from Crowdsoucing and Human Computation, accessed online 12/30/16)
+Fort, K., Adda, G., & Cohen, K. B. (2011). Amazon mechanical turk: Gold mine or coal mine? Computational Linguistics, 37 (2), 413-420.
+Snyder, J. (2010). Exploitation and sweatshop labor: Perspectives and issues. Business Ethics Quarterly, 20 (2), 187-213.
+
+Cohen, K. B., Pestian, J., & Fort, K. (2015). Annotateurs volontaires investis et éthique de l'annotation de lettres de suicidés. In ETeRNAL (ethique et traitement automatique des langues).
+Fort, K., & Couillault, A. (2016). Yes, we care! results of the ethics and natural language processing surveys. In Proceedings of the tenth interna- tional conference on language resources and evaluation (LREC 2016). Paris, France: European Language Resources Association (ELRA).
+Gillespie, T. (2014). The relevance of algorithms. In T. Gillespie, P. J. Boczkowski, & K. A. Foot (Eds.), Media technologies: Essays on communication, materiality, and society (pp. 167-194). MIT Press.
+Hardt, M., Price, E., & Srebro, N. (2016). Equality of opportunity in supervised learning. (Accessed online, 12/30/16)
+Related blog post
+Kleinberg, J. M., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores. CoRR, abs/1609.05807.
+Metcalf, J., Keller, E. F., & boyd, d. (2016). Perspectives on big data, ethics, and society. (Accessed 12/30/16)
+Meyer, M. N. (2015). Two cheers for corporate experimentation: The A/B illusion and the virtues of data-driven innovation. Colo. Tech. L.J., 13, 273.
+Wallach, H. (Dec 19, 2014). Big data, machine learning, and the social sciences: Fairness, accountability, and transparency. Medium.
+Wattenberg, M., Viégas, F., & Hardt, M. (Oct 7, 2016). Attacking discrimination with smarter machine learning.
+
+Borning, A., & Muller, M. (2012). Next steps for value sensitive design. In Proceedings of the SIGCHI conference on human factors in computing systems (pp. 1125-1134).
+Friedman, B. (1996). Value-sensitive design. ACM Interactions, 3 (6), 17-23.
+Friedman, B., & Hendry, D. (To appear). Value Sensitive Design: a twenty-year synthesis and retrospective. In Foundations and trends in human computer interaction. [Now available on "Files" tab of the course canvas]
+Friedman, B., & Kahn Jr., P. H. (2008). Human values, ethics, and design. In J. A. Jacko & A. Sears (Eds.), The human-computer interaction handbook (Revised second ed., pp. 1241-1266). Mahwah, NJ.
+Nathan, L. P., Klasnja, P. V., & Friedman, B. (2007). Value scenarios: a technique for envisioning systemic effects of new technologies. In CHI'07 extended abstracts on human factors in computing systems (pp. 2585-2590).
+
+ACM Ethics Task Force. (2016). Code 2018 | ACM ethics. (Web page, accessed 1/5/17)
+The IEEE Global Initiative for Ethical Considerations in Artificial Intelligence and Autonomous Systems. (2016). Ethically aligned design: A vision for prioritizing human wellbeing with artificial intelligence and autonomous systems (AI/AS) (Version 1 -- For Public Discussion).
+Etlinger, S., & Groopman, J. (2015). The trust imperative: A framework for ethical data use.
+Daumé III, H. (Dec 12, 2016). Should the NLP and ML Communities have a Code of Ethics? (Blog post, accessed 12/30/16)
+
+Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete problems in AI safety. CoRR, abs/1606.06565.
+Markham, A. (2012). Fabrication as ethical practice: Qualitative inquiry in ambiguous Internet contexts. Information, Communication & Society, 15(3), 334-353.
+Ratto, M. (2011). Critical making: Conceptual and material studies in technology and social life. The Information Society, 27 (4), 252-260.
+Russell, S., Dewey, D., & Tegmark, M. (2015). Research priorities for robust and benefcial artifcial intelligence. AI Magainze.
+Shilton, K., & Anderson, S. (2016). Blended, not bossy: Ethics roles, responsibilities and expertise in design. Interacting with Computers.
+Shilton, K., & Sayles, S. (2016). "We aren't all going to be on the same page about ethics": Ethical practices and challenges in research on digital and social media. In 2016 49th Hawaii international conference on system sciences (HICSS) (pp. 1909-1918).
