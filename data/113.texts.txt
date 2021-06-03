@@ -1,0 +1,35 @@
+Aguera y Arcas et al (2017) Physiognomy’s New Clothes on Medium.
+
+Winner, L. (1999). Do Artifacts Have Politics? In D. MacKenzie & J. Wajcman (Eds.), The Social Shaping of Technology. Buckingham, UK: Open University Press: 22-40.
+Fischer, C. (1992). America Calling: a social history of the telephone to 1940. Berkeley: University of California Press. (chapter 1).
+
+Fischer, C. (1992). America Calling: a social history of the telephone to 1940. Berkeley: University of California Press. (chapter 3, chapter 6, bibliographic essay).
+
+Bijker, W. (1995) “King of the Road: The Social Construction of the Safety Bicycle” In W. Bijker, Of Bicycles, Bakelites and Bulbs: Toward a Theory of Sociotechnical Change. Cambridge, MA: The MIT Press.
+
+Ackerman, M. (2001). The Intellectual Challenge of CSCW: The Gap between Social Requirements and Technical Feasibility Human-Computer Interaction, 15(2-3), 181-205.
+
+Ju and Leifer (2007) The Design of Implicit Interactions: Making Interactive Systems Less Obnoxious
+Ars Technica: Death by GPS: why do we follow digital maps into dodgy places? – https://arstechnica.com/cars/2016/05/death-by-gps/
+
+Novek, J. (2002). “IT, Gender, and Professional Practice: Or, Why an Automated Drug Distribution system was Sent Back to the Manufacturer.” Science, Technology & Human Values, 27 (3), 379-403.
+Mukherjee (2017) AI vs. MD. The New Yorker
+How technology led a hospital to give a patient 38 times his dosage
+
+Lee et al (2015) Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers (a study of Uber and Lyft drivers)
+
+‘Working Anything but 9 to 5: Scheduling Technology Leaves Low-Income Parents With Hours of Chaos’ (2014) [NYTimes] and addendum – ‘Starbucks to Revise Policies to End Irregular Schedules for its 130,000 Baristas’ (2014) [NYTimes].
+
+Boyd, d. (2010) “Social Network Sites as Networked Publics: Affordances, Dynamics, and Implications.” In Networked Self: Identity, Community, and Culture on Social Network Sites (ed. Zizi Paparharissi), pp. 39-58.
+Tufekci (2017) Chapter 6: Platforms and Algorithms, from Twitter and Tear Gas: The Power and Fragility of Networked Protest.
+
+Tufekci (2017) Chapter 7: Names and Connections, from Twitter and Tear Gas: The Power and Fragility of Networked Protest
+Bernstein, M. et al (2011) 4chan and /b/: An Analysis of Online Anonymity and Ephemerality in a Large Online Community. In Proceedings of the ICWSM-11. Fifth International AAAI Conference on Weblog and Social Media. Barcelona, Spain.
+
+Kriplean et al (2008) Articulations of WikiWork: Uncovering Valued Work in Wikipedia Through Barnstars
+Geiger R. S. and D. Ribes, (2010) The Work of Sustaining Order in Wikipedia: The Banning of a Vandal. In Proceedings ofthe 2010 ACM conference on Computer Supported Cooperative Work. Savannah, GA.
+
+Lampe and Resnick (2004) Slash(dot) and Burn: Distributed Moderation in a Large Online Conversation Space
+Chandrasekaran et al (2017) You Can’t Stay Here: The Efficacy of Reddit’s 2015 Ban Examined Through Hate Speech
+OPTIONAL: Chen, (2014) “The Laborers who Keep Dick Pics and Beheadings Out of Your Facebook Feed” Wired.com.
+
