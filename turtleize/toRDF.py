@@ -137,6 +137,9 @@ def getHTMLSyllabus(url, courseID):
         # Download HTML syllabus.
         resp = requests.get(url)
         if resp.ok:
+            syllabusHtml = resp.text
+            with open(cacheFilename, 'w') as f:
+                f.write(syllabusHtml)
             return resp.text
         else:
             logging.error(f"Couldn't download syllabus html. Response: {resp.status_code}")
@@ -156,6 +159,8 @@ def downloadFile(url, destDir, courseID):
     # First, do we have this already?
     fn = url.split('/')[-1]
     ext = fn.split('.')[-1] # Maintain file extension
+    if ext not in ['.pdf', '.htm', '.doc', '.docx']:
+        ext = ".html" # Handle bare URLs that are actually HTML
     outPath = f"{destDir}/{courseID}.{ext}"
     if exists(outPath):
         f = open(outPath)
@@ -169,8 +174,8 @@ def downloadFile(url, destDir, courseID):
                 f.write(content)
                 return f, content
         else:
-            logging.error("Received error: {resp.status_code} when trying to get file {url}")
-            return
+            logging.error(f"Received error: {resp.status_code} when trying to get file {url}")
+            return None, None
 
 def extractHTMLBib(html):
     """

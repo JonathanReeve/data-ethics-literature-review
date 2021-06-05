@@ -1,0 +1,49 @@
+Ong, W. (1982) Writing Restructures Consciousness. Chapter 4 of Orality & Literacy: The Technologizing of the World
+
+Licklider, J. C. (1960). Man-computer symbiosis. IRE
+Transactions on Human Factors in Electronics, (1), 4-
+11
+
+Gillespie, Tarleton. 2014. “The Relevance of Algorithms.” In Media Technologies: Essays on Communication, Materiality, and Society, edited by Tarleton Gillespie, Pablo Boczkowski, and Kirsten Foot, 167-194. Cambridge, MA: MIT Press. http://culturedigitally.org/2012/11/the- relevance-of-algorithms
+
+
+Eli Pariser Ted Talk http://ed.ted.com/lessons/beware-online-filter- bubbles-eli-pariser
+
+Bucher, T. (2012). Want to be on the top? Algorithmic power and the threat of invisibility on Facebook. New Media & Society, 14(7), 1164-1180.
+
+DeVito, M.A. (2016) From Editors to Algorithms: A Values-Based Approach to Understanding Story Selection in the Facebook News Feed. Digital Journalism, ahead-of-print
+
+Friedman, B., & Kahn Jr, P. H. (2003). Human values, ethics, and design. The Human-Computer Interaction Handbook, 1177-1201.
+
+Friedman, B., & Nissenbaum, H. (1996). Bias in computer systems. ACM Transactions on Information Systems, 14(3), 330-347.
+
+Bozdag, E. (2013). Bias in algorithmic filtering and personalization. Ethics and information technology, 15(3), 209.
+
+Napoli, P. M. (2014). Automated media: An institutional theory perspective on algorithmic media production and consumption. Communication Theory, 24(3), 340-360.
+
+Hallinan, B., & Striphas, T. (2014). Recommended for you: The Netflix Prize and the production of algorithmic culture. New Media & Society.
+Mager, A. (2012). Algorithmic ideology: How capitalist society shapes search engines. Information, Communication & Society, 15(5), 769-787.
+
+CHI 2017 Workshop Intro by Marco Gillies: What Is
+Human-Centered Machine Learning?
+
+Baumer, E. P. (2017). Toward human-centered
+algorithm design. Big Data & Society, 4(2).
+Choose a Chapter: Digital Research Confidential
+USC Guide: The Methodology
+http://libguides.usc.edu/writingguide/methodology
+
+Ananny, M., & Crawford, K. (2016). Seeing without
+knowing: Limitations of the transparency ideal and its
+application to algorithmic accountability. new media &
+society, 1461444816676645.
+Diakopoulos, Nicholas. "Accountability in algorithmic
+decision making." Communications of the ACM 59.2
+(2016): 56-62.
+
+DeVito, M. A., Gergle, D., & Birnholtz, J. (2017, May). Algorithms ruin everything: #RIPTwitter, Folk Theories, and Resistance to Algorithmic Change in Social Media. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (pp. 3163-3174). ACM.
+
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm aversion: People erroneously avoid algorithms after seeing them err. Journal of Experimental Psychology: General, 144(1), 114. Kramer, A. D., Guillory, J. E., & Hancock, J. T. (2014). Experimental evidence of massive-scale emotional contagion through social networks. Proceedings of the National Academy of Sciences, 111(24), 8788-8790. Editorial Expression of Concern: http://www.pnas.org/content/111/29/10779.1.full
+
+
+Harvard Law Case Study: Algorithmic Allegories

@@ -1,0 +1,71 @@
+Baeyer, Hans Christian von. 2003. Information: the new language of science. London: Weidenfeld & Nicolson.
+Baggini, Julian, and Peter S. Fosl. 2010. The philosopher's toolkit: a compendium of philosophical concepts and methods. 2nd ed. Oxford: Wiley-Blackwell.
+Barocas, Solon and Andrew D Selbst. 2016. Big Data's Disparate Impact. California Law Review Vol 104:671. https://pdfs.semanticscholar.org/1d17/4f0e3c391368d0f3384a144a6c7487f2a143.pdf
+Benn, Piers. 1998. Ethics. London: UCL Press.
+Berdichevsky, D., & Neuenschwander, E. 1999. Toward an ethics of persuasive technology. Communications of the ACM, 42(5), 51-58.
+Bolter, J. David. 1984. Turing's man: Western culture in the computer age. London: Duckworth.
+Boolos, George, John P. Burgess, and Richard C. Jeffrey. 2007. Computability and logic. 5th ed. Cambridge: Cambridge University Press.
+Bremer, Manuel Eugen, and Daniel Cohnitz. 2004. Information and information flow: an introduction. Frankfurt, Lancaster: Ontos Verlag; Gazelle Books.
+Broadbent, S., & Lobet-Maris, C. 2015. Towards a Grey Ecology. In The Onlife Manifesto (pp. 111- 124). Springer International Publishing.
+Brown, John Seely, and Paul Duguid. 2002. The Social Life of Information. Boston: Harvard Business School Press.
+Bynum, Terrell Ward, and James Moor. 1998. The digital phoenix: how computers are changing philosophy. Oxford: Blackwell.
+Chief Medical Officer annual report 2016: Generation Genome, Chapter 1 Chief Medical Officer‘s summary (pp.1-23) https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/624628/CMO_annual_r
+eport_generation_genome.pdf
+Copeland, B. Jack. 1993. Artificial intelligence: a philosophical introduction. Oxford: Blackwell.
+Craig, Edward. 1998. Routledge encyclopedia of philosophy. 10 vols. London: Routledge.
+Deigh, John. 2010. An introduction to ethics. Cambridge: Cambridge University Press.
+Driver, Julia. 2007. Ethics: the fundamentals. Oxford: Blackwell.
+Flew, Antony, and Stephen Priest. 2002. A dictionary of philosophy. New ed. London: Pan.
+Floridi, Luciano, ed. 2003. The Blackwell Guide to the Philosophy of Computing and Information. Oxford, New York: Blackwell.
+Floridi, Luciano, ed. 2010a. The Cambridge Handbook of Information and Computer Ethics. Cambridge: Cambridge University Press.
+Floridi, Luciano. 2010b. Information : a very short introduction. Oxford: Oxford University Press.
+Floridi, Luciano. 2011. The Philosophy of Information. Oxford: Oxford University Press.
+Floridi, Luciano. 2013. The Ethics of Information. Oxford: Oxford University Press.
+Floridi, Luciano. 2014a. The Fourth Revolution - How the infosphere is reshaping human reality. Oxford: Oxford University Press.
+Floridi, Luciano, ed. 2014b. The Onlife Manifesto - Being Human in a Hyperconnected Era. New York: Springer.
+Floridi, Luciano, ed. 2016. The Routledge Handbook of Philosophy of Information. London: Routledge.
+Friedler, Sorelle A., Carlos Scheidegger, and Suresh Venkatasubramanian. 2016. ‗On the (Im) Possibility of Fairness‘. ArXiv Preprint ArXiv:1609.07236. https://arxiv.org/abs/1609.07236.
+Gleick, James. 2011. The information: a history, a theory, a flood. London: Fourth Estate.
+Goldstine, Herman H. 1972. The computer from Pascal to von Neumann. Princeton, N.J.: Princeton University Press.
+Hodges, Wilfrid. 2001. Logic. 2nd ed. London: Penguin.
+Huth, Michael, and Mark Ryan. 2004. Logic in computer science: modelling and reasoning about systems. 2nd ed. Cambridge: Cambridge University Press.
+Jeffrey, Richard C., and John P. Burgess. 2006. Formal logic: its scope and limits. 4th ed. Indianapolis: Hackett Pub. Co.
+8Loveland, Donald W., Richard E. Hodel, and Susan G. Sterrett. 2014. Three views of logic : mathematics, philosophy, and computer science. Princeton: Princeton University Press.
+Nolt, John, Dennis A. Rohatyn, and Achille C. Varzi. 2011. Outline of Logic. 2nd ed. New York: Schaum; London: McGraw-Hill.
+Nolt, John, Dennis A. Rohatyn, Achille C. Varzi, and Alex M. McAllister. 2012. Easy Outline of Logic. New York; London: McGraw-Hill.
+Nuffield Council on Bioethics, Guide to the Report: ―The collection, linking and use of data in biomedical research and health care. ‖http://nuffieldbioethics.org/wp-content/uploads/Biodata-a-guide-to-the-report-PDF.pdf
+Mittelstadt, B.D. and Floridi, L. 2016. "The Ethics of Big Data: Current and Foreseeable Issues in Biomedical Contexts.", Science and engineering ethics. 22 (2) 303-341.
+Mittelstadt, Brent, Patrick Allo, Mariarosaria Taddeo, Sandra Wachter, and Luciano Floridi. 2016. ‗The Ethics of Algorithms: Mapping the Debate‘. Big Data & Society 3 (2). doi:10.1177/2053951716679679.
+Papineau, David. 2012. Philosophical devices: proofs, probabilities, possibilities, and sets. Oxford: Oxford University Press.
+Pierce, John Robinson. 1980. An introduction to information theory: symbols, signals & noise. 2nd ed. New York: Dover Publications.
+Priest, Graham. 2000. Logic: a very short introduction. Oxford: Oxford University Press.
+Romei, Andrea, and Salvatore Ruggieri. 2014. ‗A Multidisciplinary Survey on Discrimination Analysis‘. The Knowledge Engineering Review 29 (05): 582–638. doi:10.1017/S0269888913000039.
+Ryan, N. J. 2017. ―Five Kinds of Cyber Deterrence.‖ Philosophy & Technology, January. doi:10.1007/s13347-016-0251-1.
+Russell, Bertrand. 2001. The problems of philosophy. 2nd ed. Oxford: Oxford University Press.
+Russell, Stuart J., and Peter Norvig. 2010. Artificial intelligence: a modern approach. 3rd ed. Boston, Mass.: Pearson.
+Ryberg, Jesper, Thomas S. Petersen, and Clark Wolf. 2007. New waves in applied ethics. Basingstoke: Palgrave Macmillan.
+Sandvig, Christian, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. ‗Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms‘. Data and Discrimination: Converting Critical Concerns into Productive Inquiry. http://social.cs.uiuc.edu/papers/pdfs/ICA2014-Sandvig.pdf.
+Schmitt, M. 2013. ―Cyberspace and International Law: The Penumbral Mist of Uncertainty.‖ Harvard 126 (176): 176–80.
+Shannon, Claude Elwood, and Warren Weaver. 1949 rep. 1998. The mathematical theory of communication. Urbana: University of Illinois Press.
+Simon, H. (1971). Designing Organizations for an Information-Rich World. Computers, Communications, and the Public Interest, pp. 37-72
+Simon, Herbert A. 1996. The sciences of the artificial. 3rd ed. Cambridge, Mass.: MIT Press.
+Sipser, Michael. 2012. Introduction to the theory of computation. 3rd ed. Boston, MA: Cengage Learning.
+Smullyan, Raymond M. 2014. A beginner's guide to mathematical logic. Mineola: Dover Publications.
+St. Amant, Robert. 2013. Computing for ordinary mortals. New York, NY: Oxford University Press.
+Taddeo, Mariarosaria. 2014. ―Just Information Warfare.‖ Topoi, April, 1–12. doi:10.1007/s11245-014-9245-8.
+———. 2016. ―On the Risks of Relying on Analogies to Understand Cyber Conflicts.‖ Minds and Machines 26 (4): 317–21. doi:10.1007/s11023-016-9408-z.
+Turing, Alan Mathison. 1936. "On Computable Numbers, with an Application to the Entscheidungsproblem." Proceedings of the London Mathematics Society, 2nd series 42:
+230-65.
+Turing, Alan Mathison. 1950. "Computing machinery and intelligence." Mind 59 (236): 433-460.
+Turing, Alan Mathison. 2004. The essential Turing: seminal writings in computing, logic, philosophy, artificial intelligence and artificial life, plus the secrets of Enigma. Oxford: Clarendon Press.
+Verbeek, P. P. (2009). Ambient intelligence and persuasive technology: the blurring boundaries between human and technology. Nanoethics, 3(3), 231-242.
+Vayena, Effy and Urs Gasser. Between Openness and Privacy in Genomics. PLoS Med 13(1): e1001937 http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001937
+9Wachter, Mittelstadt, B. and Floridi, L. (2017) "Transparent, explainable, and accountable AI for
+robotics", Science Robotics. 2 (6). http://digitalethicslab.oii.ox.ac.uk/sandra-wachter/#tab-7456a56b194183e7f18
+Wachter, S., Mittelstadt, B. and Floridi, L. (2016) Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation. https://academic.oup.com/idpl/article/doi/10.1093/idpl/ipx005/3860948/Why-a-Right-to-Explanation-of- Automated-Decision
+Walmsley, Joel. 2012. Mind and machine. Basingstoke: Palgrave Macmillan.
+Weizenbaum, Joseph. 1976. Computer power and human reason: from judgment to calculation. San Francisco: W.H. Freeman.
+Wiener, Norbert. 1954. The human use of human beings: cybernetics and society. 2d ed. Garden City, New York: Doubleday.
+Wiener, Norbert. 1961. Cybernetics or Control and Communication in the Animal and the Machine. 2nd ed. Cambridge, Mass.: MIT Press.
+Wiener, Norbert. 1964. God and Golem, inc.; a comment on certain points where cybernetics impinges on religion. Cambridge, Mass.: M.I.T. Press.
+Williams, J. (2016) Why It‘s OK to Block Ads. In Philosophers Take on the World (pp. 223-226). Oxford University Press

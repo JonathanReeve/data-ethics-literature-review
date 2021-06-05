@@ -1,0 +1,192 @@
+Psalm 8
+Shaping a Digital World, preface and ch. 1
+James Huggins, “The Assumptions of Computing”
+John Whittle, “Is Your Software Valueless?”,
+Computing Edge, Jan. 2021, pp. 51-54.
+Charles Adams, “Values and Things”, Exercising
+our Worldview, Dordt Press, 2014.
+Genesis 1:28; Psalm 19
+Shaping a Digital World, ch. 2
+Al Wolters, Creation Regained, pp. 24-27,41-48.
+James Smith, “In the Beginning... was Technology”,
+The Banner, March 2016.
+Romans 8:22-30
+Shaping a Digital World, ch. 3
+Noah Kulwin, “The Internet Apologizes”,
+Intelligencer, April 2018.
+Matthew Dickerson, “Wendell Berry, C.S. Lewis,
+J.R.R. Tolkien and the Dangers of a Technological
+Mindset”
+Neil Postman, “Five Things We Need to Know
+About Technological Change”
+Col. 1:15-20; 2 Cor. 5:18-21
+Shaping a Digital World, ch. 4
+Charlie Adams, “Guiding Principles for an Office of
+Information Services”, CEEC, 2002, pp. 6-10.
+Al Wolters, “Structure and Direction”, from
+Creation Regained pp. 87-95.
+Jacques Ellul's “76 Reasonable Questions to Ask
+About Any Technology”
+2 Peter 3:10; Rev. 21:22-27; Isaiah 60
+Shaping a Digital World, ch. 5
+Richard Mouw, When the Kings Come Marching In,
+pp. 17-42.
+Nick Bostrom, “Transhumanist Values”
+Andy Crouch, “The Bionic Man and the Body of
+Christ”, Christianity Today
+Matthew 22:36-40
+Lee Hardy, The Fabric of This World, pp. 93-118.
+ACM Code of Ethics
+“Would You Let a Robot Take Care of Your
+Mother?” NY Times, Dec. 2019.
+N. Leveson, “The Therac-25: 30 Years Later”,
+Computer, November 2017.
+“Engineers, Ethics, and the VW Scandal”, IEEE
+Spectrum.
+“How the Boeing 737 Max Disaster Looks to a
+Software Developer”, IEEE Spectrum.
+•
+•
+•
+•
+Psalm 121
+James Smith, “Alternative liturgy: social media as
+ritual”, The Christian Century, 2013.
+Jean Twenge, “Have Smartphones Destroyed a
+Generation?”, The Atlantic, Sep. 2017.
+Nicholas Carr, “Is Google Making Us Stupid?”, The
+Atlantic, July/Aug 2008.
+Cathy O’Neil, “The era of blind faith in big data
+must end”, TED talk
+“Many Tech Experts Say Digital Disruption Will
+Hurt Democracy”, Pew Research
+David Lyon, “Surveillance and Trust”, Comment,
+2017
+Psalm 139:13-18
+Schuurman, “Artificial Intelligence: Discerning a
+Christian Response”
+AI: An Evangelical Statement of Principles
+Mark Harris, “Inside the First Church of Artificial
+Intelligence, Wired, Nov. 2017.
+“Malevolent Machine Learning”, CACM, December
+2019, pp. 13-15.
+Nicolas Carr, “All Can Be Lost: The Risk of Putting Our Knowledge in the Hands of Machines”, The Atlantic, Nov. 2013.
+Exodus 20:15
+Intellectual Property Law: A Brief Introduction
+“The patent system is broken” Electronic Frontier
+Foundation
+“What is Free software?”, Free Software
+Foundation
+KD Crisman, “Open Source Software and Christian
+Thought” PSCF, 2015.
+Eric S. Raymond, The Cathedral and the Bazaar,
+(selected sections)
+Jeremiah 29:5-7
+Shaping a Digital World, ch. 6
+Technology and the church, God and Nature
+Online Communion Can Still Be Sacramental,
+Christianity Today
+How Technology Is Changing the Future of Higher
+Education, NY Times, Feb. 20, 2020.
+Introducing Open Source and the Raspberry Pi to
+Schools in Developing Nations, PSCF
+Letter to a Young Engineer, Christian Courier
+Letter to a Young IT worker, Christian Courier
+Abbate, Janet, Recoding Gender: Women's Changing Participation in Computing, MIT Press, 2012.
+Ames, Morgan, The Charisma Machine: The Life, Death, and Legacy of One Laptop per Child, MIT Press, 2019.
+Borgmann, Albert, 2003, Power Failure: Christianity in the Culture of Technology, Brazos Press.
+Brynjolfsson, Erik and McAfee, Andrew, The Second Machine Age: Work, Progress and Prosperity in a Time of
+Brilliant Technologies, Norton, 2014.
+Campbell, Heidi and Garner, Stephen, Networked Theology: Negotiating Faith in Digital Culture, Baker Academic,
+2016.
+Carr, Nicholas. The Glass Cage, W. W. Norton & Company, 2014.
+Carr, Nicholas. The Shallows. W. W. Norton & Company, 2010.
+Challies, Tim, The Next Story: Life and Faith after the Digital Explosion, Zondervan, 2011.
+Mark Coeckelbergh, AI Ethics, MIT Press, 2020.
+Cusveller, Bart et al., The Matrix Reformed: Science Fiction, Technology, and Christian Philosophy, Dordt College
+Press, 2011.
+Danaher, John, Automation and Utopia: Human Flourishing in a World without Work, Harvard University Press,
+2019.
+Deibert, Ronald, Reset: Reclaiming the Internet for Civil Society, House of Anansi Press, 2020.
+Dickerson, Matthew, The Mind and the Machine, Cascade Books, 2016.
+Dormehl, Luke, Thinking Machines: The Quest for Artificial Intelligence and Where It's Taking Us Next,
+TarcherPerigee, 2017.
+Dyer, John, From the Garden to the City: the redeeming and corrupting power of technology, Kregel Publications,
+2011.
+Early, Justin, The Common Rule: Habits of Purpose for an Age of Distraction, InterVarsity Press, 2019.
+Ellul, Jacques, The Technological Society, Vintage Books, 1964.
+Eubanks, Virginia, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor, St. Martin's
+Press, 2018.
+Page 5 of 7Luke Fernandez and Susan J. Matt, Bored, Lonely, Angry, Stupid: Changing Feelings about Technology, from the
+Telegraph to Twitter, Harvard University Press, 2019.
+Ford, Martin, Rise of the Robots: Technology and the Threat of a Jobless Future, Basic Books, 2016.
+Frischmann, Brett and Evan Selinger, Re-Engineering Humanity, Cambridge University Press, 2018.
+Fry, Hannah, Hello World: Being Human in the Age of Algorithms, W. W. Norton & Company, 2018.
+Gay, Craig, Modern Technology and the Human Future: A Christian Appraisal, InterVarsity Press, 2018.
+Grant, George, Technology and Justice, Anansi, 1986.
+Harrari, Yuval Noah, Homo Deus: A brief history of tomorrow, Harper, 2017.
+Hipps, Shane, Flickering Pixels: how technology shapes your faith, Zondervan, 2009.
+Eric O. Jacobsen, Three Pieces of Glass: Why We Feel Lonely in a World Mediated by Screens, Brazos, 2020.
+Jardine, Murray, The Making and Unmaking of Technological Society: how Christianity can save modernity from
+itself, Brazos Press, 2004.
+Kallenberg, Brad, God and Gadgets: Following Jesus in a Technological Age, Cascade Books 2011.
+Kearns, Michael and Aaron Roth, The Ethical Algorithm: The Science of Socially Aware Algorithm Design, Oxford
+University Press, 2020.
+Kleeman, Jenny, Sex Robots and Vegan Meat: Adventures at the Frontier of Birth, Food, Sex, and Death, Picador,
+2020.
+Klemens, Ben, Math You Can't Use: Patents, Copyright, and Software, Brookings Institution Press, 2005.
+Kurweil, Ray, The Singularity is Near: When Humans Transcend Biology, Penguin, 2006.
+Lanier, Jaron, Ten Arguments for Deleting Your Social Media Accounts Right Now, Henry Holt and Co., 2018.
+Lanier, Jaron, You are Not a Gadget: a manifesto, Alfred A. Knopf, 2010.
+Lennox, John, 2084: Artificial Intelligence and the Future of Humanity, Zondervan, 2020.
+Leonhard, Gerd, Technology vs. Humanity: The Coming Clash between Man and Machine, Fast Future Publishing,
+2016.
+Margolis, Jane, Stuck in the Shallow End: Education, Race, and Computing, MIT Press, 2010.
+Markoff, John, Machines of Loving Grace: The Quest for Common Ground between Humans and Robots, Harper
+Collins, 2015.
+Mayer-Schönberger, Viktor and Kenneth Cukier, Big Data: A revolution that will transform how we live, work, and
+think, Houghton Mifflin Harcourt, 2013.
+McLuhan, Marshall, Understanding Media: The Extensions of Man, MIT Press, 1994.
+Mitcham, Carl, Thinking Through Technology: The Path Between Engineering and Philosophy, University of
+Chicago Press, 1994.
+Noble, Safiya Umoja, Algorithms of Oppression: How Search Engines Reinforce Racism, New York University
+Press, 2018.
+O’Connell, Mark, To Be a Machine: Adventures Among Cyborgs, Utopians, Hackers and the Futurists Solving the
+Modest Problem of Death, Anchor Books, 2017.
+O’Neil, Cathy, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy,
+Crown, 2016.
+Postman, Neil, Amusing Ourselves to Death: Public Discourse in the Age of Show Business, Penguin, 1986.
+Postman, Neil, Technopoly: The Surrender of Culture to Technology, Vintage Books, 1993.
+Richards, Jay, The Human Advantage: The Future of American Work in an Age of Smart Machines, Crown Forum,
+2018.
+Robinson, Brett, Appletopia: media technology and the religious imagination of Steve Jobs, Baylor University
+Press, 2013.
+Page 6 of 7Schultze, Quentin, Habits of the High-Tech Heart: Living Virtuously in the Information Age, Baker Academic,
+2002.
+Shatzer, Jacob, Transhumanism and the Image of God: Today's Technology and the Future of Christian
+Discipleship, InterVarsity Press, 2019.
+Singer, P. W., Wired for War: The Robotics Revolution and Conflict in the 21st Century, Penguin Press, 2009.
+Small, Gary, iBrain: Surviving the Technological Alteration of the Modern Mind, William Morrow, 2008.
+Smith, Brad, Tools and Weapons: The Promise and the Peril of the Digital Age, Penguin, 2019.
+Solove, Daniel J., Nothing to Hide: The False Tradeoff between Privacy and Security, Yale University Press, 2011.
+Strate, Lance, Amazing Ourselves to Death: Neil Postman's Brave New World Revisited, Peter Lang International
+Academic Publishers, 2014.
+Susskind, Daniel, A World Without Work: Technology, Automation, and How We Should Respond, Metropolitan
+Books, 2020.
+Tegmark, Max, Life 3.0: Being Human in the Age of Artificial Intelligence, Vintage, 2017.
+Thacker, Jason, The Age of AI: Artificial Intelligence and the Future of Humanity, Zondervan, 2020.
+Toyama, Kentaro, Geek Heresy: Rescuing Social Change from the Cult of Technology, Public Affairs, 2015.
+Turkle, Sherry, Alone Together: Why We Expect More from Technology and Less from Each Other, Basic Books,
+2011.
+Turkle, Sherry, Reclaiming Conversation: The Power of Talk in a Digital Age, Penguin, 2015.
+Vallor, Shannon, Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting, Oxford, 2016.
+Weizenbaum, Joseph, Computer Power and Human Reason: From Judgment To Calculation, W.H. Freeman &
+Company, 1976.
+Williams, Sarah, Data Action: Using Data for Public Good, MIT Press, 2020.
+Winner, Langdon, The Whale and the Reactor: A Search for Limits in an Age of High Technology, University of
+Chicago Press, 1989.
+Wu, Tom, The Attention Merchants: The Epic Scramble to Get Inside Our Heads, Knopf, 2016.
+Yonck, Richard, The Heart of the Machine: Our Future in a World of Artificial Intelligence, Arcade Publishing,
+2017.
+Zuboff, Shoshana, The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of
+Power, PublicAffairs, 2020.
