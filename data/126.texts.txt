@@ -1,0 +1,4 @@
+Code: The Hidden Language of Computer Hardware and Software. Charles Petzold. Microsoft Press. 2000. ISBN: 0735611319.
+The Human Use of Human Beings: Cybernetics and Society. Norbert Wiener. Da Capo Press. 1988.
+Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion. Hal Abelson, Ken Ledeen, and Harry Lewis. Addison-Wesley. 2008. ISBN: 0137135599.
+Adafruit ARDX - v1.3 Experimentation Kit for Arduino (Uno R3) - v1.3. Adafruit.

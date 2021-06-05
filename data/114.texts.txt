@@ -1,0 +1,65 @@
+William R. Shadish, Thomas D. Cook, and Donald T. Campbell. Experimental and Quasi-Experimental Designs for Generalized Causal Inference. Boston: Houghton-Mifflin, 2002. (chapter 1)
+Salganik, M. J., & Watts, D. J. (2009). Web-Based Experiments for the Study of Collective Social Dynamics in Cultural Markets. Topics in Cognitive Science, 1 (3), 439–468.
+
+Kohavi, R., Deng, A., Frasca, B., Walker, T., Xu, Y., & Pohlmann, N. (2013). Online controlled experiments at large scale. In Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 1168–1176). ACM.
+Matias, J. N. (2016, December 12). The Obligation To Experiment. MIT Media Lab.
+
+Grimmelmann, J. (2015). The law and ethics of experiments on social media users. 13 Colo. Tech. L.J. 219, 2015
+Kramer, A. D., Guillory, J. E., & Hancock, J. T. (2014). Experimental evidence of massive-scale emotional contagion through social networks. Proceedings of the National Academy of Sciences, 111(24), 8788-8790.
+
+Matias, J. Nathan, Mou Merry. Community-Led Experiments in Platform Governance. ACM Conference on Human Computer Interaction 2018.
+Scheiber, N. (2017, April 2). How Uber Uses Psychological Tricks to Push Its Drivers’ Buttons. The New York Times. Retrieved from.
+
+Oakley, A. (2000). A historical perspective on the use of randomized trials in social science settings. Crime & Delinquency, 46(3), 315-329.
+This workshop outlines statistical work involved in designing an experiment, introducing core assumptions of experiment design, including excludability and non-interference.
+
+Thaler, R. H., & Sunstein, C. R. (2003). Libertarian paternalism. American economic review, 93(2), 175-179.
+
+Tollefson, J. (2015). Can randomized trials eliminate global poverty? Nature, 524, 150-153.
+
+Desposato, S. (2014, November 3). Ethics and research in comparative politics. Washington Post.
+
+Lee, Stephanie M. (2018) Sliced & Diced: The Inside Story of How an Ivy League Food Scientist Turned Shoddy Data into Viral Studies. Buzzfeed
+Pettingill, L. M. (2017, March 21). 4 Principles for Making Experimentation Count. Airbnb Engineering and Data Science.
+We will also begin the process of matching student teams with community partners to develop experiment ideas together.
+
+Bavel, J. V. (2016, May 27). Why Do So Many Studies Fail to Replicate? The New York Times.
+Chalwa, Dalmeet Singh. (2017, Nov 8) A new ‘accelerator’ aims to bring big science to psychology. Science Magazine
+
+Glennerster, R. (2017). The practicalities of running randomized evaluations: partnerships, measurement, ethics, and transparency. Handbook of Economic Field Experiments, 1, 175-243. (pages 1-18)
+Cousins, J. B., & Whitmore, E. (1998). Framing participatory evaluation. New Directions for Evaluation, 1998 (80), 5–23.
+
+Mortensen, C. R., & Cialdini, R. B. (2010). Full-Cycle Social Psychology for Theory and Application. Social and Personality Psychology Compass, 4 (1), 53–63.
+
+Paluck, E. L., Shepherd, H., & Aronow, P. M. (2016). Changing climates of conflict: A social network experiment in 56 schools. Proceedings of the National Academy of Sciences, 113 (3), 566-571.
+Aral, S., & Walker, D. (2011). Creating social contagion through viral product design: A randomized trial of peer influence in networks. Management science, 57 (9), 1623-1639.
+TBA: Example or reading on using multiple arms to identify mediators or test rival hypotheses
+
+Glynn, P., and Prabhakar, D., (2018) Your Client Engagement Program Isn't Doing What You Think It Is. StitchFix
+
+Ashok Chandrashekar, Fernando Amat, Justin Basilico and Tony Jebara (2017) Artwork personalization at Netflix. Netflix
+Salganik, Matt (2019)Mediators and Moderators: Making Experiments Interesting.
+
+Weiss, C. H. (1979). The many meanings of research utilization. Public Administration Review, 39 (5), 426–431.
+
+Koerth-Baker, M. (2017, May 11). The Tangled Story Behind Trump’s False Claims Of Voter Fraud.
+Miller, J. E. (2015). The Chicago guide to writing about numbers. University of Chicago Press. Chicago. (just the section on Presenting statistical results to non-statistical audiences)
+Batley, Paul. Kill Or Cure. http://kill-or-cure.herokuapp.com/
+Contandriopoulos, D., Lemire, M., Denis, J.-L., & Tremblay, É. (2010). Knowledge Exchange Processes in Organizations and Policy Arenas: A Narrative Systematic Review of the Literature. Milbank Quarterly, 88(4), 444–483. https://doi.org/10.1111/j.1468-0009.2010.00608.x
+
+Desposato, S. (2014). Ethical Challenges and Some Solutions for Field Experiments.
+Gray, M. L. (2014, July 8). When Science, Customer Service, and Human Subjects Research Collide. Now What? marylgray.org
+
+Lomas, N. (2018). Duplex shows Google failing at ethical and creative AI design. TechCrunch.
+
+Munger, K. (2017). Tweetment effects on the tweeted: Experimentally reducing racist harassment. Political Behavior, 39 (3), 629-649.
+Krafft, P. M., Macy, M., & Pentland, A. (2016). Bots as Virtual Confederates: Design and Ethics. CSCW 2017
+
+Wager, S., & Athey, S. (2017). Estimation and inference of heterogeneous treatment effects using random forests. Journal of the American Statistical Association.
+Eckles, D., Karrer, B., & Ugander, J. (2017). Design and analysis of experiments in networks: Reducing bias from interference. Journal of Causal Inference, 5 (1).
+Allcott, H. (2015). Site selection bias in program evaluation. The Quarterly Journal of Economics, 130 (3), 1117–1165.
+Yong, E. (2017, January 5). An Ingenious Experiment of Jungle Bats and Evolving Artificial Flowers. The Atlantic.
+
+
+
+

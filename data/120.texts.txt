@@ -1,0 +1,42 @@
+Barnet, B. (2013). The magical place of literary memory: Xanadu. In Memory machines: The evolution of hypertext (pp. 65–89). Anthem
+Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D. I., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. Nature, 489(7415), 295–298.
+Cairo, A. (2016). What we talk about when we talk about visualization. In The truthful art: Data, charts, and maps for communication. New Riders.
+Crawford, K., & Joler, V. (2018). Anatomy of an AI System.
+Dastin, J. (2018, October 10). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters.
+Ford, P. (2015, June 11). What is code? Bloomberg Business Week.
+Kennedy, J., Meese, J., & Nagel, E. van der. (2016). Regulation and social practice online. Continuum, 30(2), 146–157.
+Kittler, F. A. (1997). There is no software. In J. Johnston (Ed.), Literature, media, information systems: Essays (pp. 147–155). G+B Arts.
+Lessig, L. (2003). Law regulating code regulating law. Loyola University Chicago Law Journal, 35(1), 1–14.
+Li, S. (2018, March 7). How does the Internet work? Medium.
+Light, J. S. (1999). When computers were women. Technology and Culture, 40(3), 455–483.
+Mittelstadt, B. D., Allo, P., Taddeo, M., Wachter, S., & Floridi, L. (2016). The ethics of algorithms: Mapping the debate. Big Data & Society, 3(2), 1–2.
+Streeter, T. (2005). The Moment of Wired. Critical Inquiry, 31(4), 755–779. JSTOR.
+Striphas, T. (2015). Algorithmic culture. European Journal of Cultural Studies, 18(4–5), 395–412.
+
+Aggarwal, C. C. (2016). Recommender systems: The textbook. Springer.
+Barba, L. A., Lecia J. Barker, Douglas S. Blank, Jed Brown, Allen B. Downey, Timothy George, Lindsey J. Heagy, Kyle T. Mandli, Jason K. Moore, David Lippert, Kyle E. Niemeyer, Ryan R. Watkins, Richard H. West, Elizabeth Wickes, Carol Willing, & Michael Zingale. (2019). Teaching and learning with Jupyter. Self-published.
+Berry, D. M. (2011). The philosophy of software: Code and mediation in the digital age. Palgrave Macmillan.
+Bratton, B. H. (2014). The Black Stack. E-Flux, 53.
+Casemajor, N. (2015). Digital materialisms: Frameworks for digital media studies. Westminster Papers in Communication and Culture, 10, 4–17.
+Clark, D. (1988). The design philosophy of the DARPA Internet protocols. Symposium Proceedings on Communications Architectures and Protocols, 106–114.
+Domingos, P. (2015). The master algorithm: How the quest for the ultimate learning machine will remake our world. Penguin UK.
+Edwards, P. N. (1996). The closed world: Computers and the politics of discourse in Cold War America. The MIT Press.
+Feigelfeld, P. (2013). Kittler is a liar! Metaphora. Journal for Literary Theory and Media. EV 1: Was Waren Aufschreibesysteme?
+Gaddis, T. (2019). Starting out with Python. Pearson.
+Gates, B. (1995). The road ahead. Viking.
+Hallinan, B., & Striphas, T. (2016). Recommended for you: The Netflix prize and the production of algorithmic culture. New Media & Society, 18(1), 117–137.
+Hayles, N. K. (1999). How we became posthuman. Chicago University Press.
+Heim, M. (1994). Metaphysics of virtual reality. Oxford University Press.
+Hill, R. K. (2016). What an algorithm is. Philosophy & Technology, 29(1), 35–59.
+Howard, P. N., Ganesh, B., Liotsiou, D., Kelly, J., & François, C. (2018). The IRA, social media and political polarization in the United States, 2012-2018. University of Oxford.
+Kramer, A. D. I., Guillory, J. E., & Hancock, J. T. (2014). Experimental evidence of massive-scale emotional contagion through social networks. Proceedings of the National Academy of Sciences, 111(24), 8788–8790.
+Lessig, L. (2006). Code and other laws of cyberspace. Basic Books.
+Manoff, M. (2006). The materiality of digital collections: Theoretical and historical perspectives. MIT Press.
+Montfort, N., Baudoin, P., Bell, J., Bogost, I., Douglass, J., Marino, M. C., Mateas, M., Reas, C., Sample, M., & Vawter, N. (2012). 10 PRINT CHR$(205.5+RND(1));: GOTO 10. MIT Press.
+Morris, J. W. (2015). Curation by code: Infomediaries and the data mining of taste. European Journal of Cultural Studies, 18(4–5), 446–463.
+Mosco, V. (2004). The digital sublime: Myth, power, and cyberspace. MIT Press.
+Perry, B., John. (1996). A Declaration of the Independence of Cyberspace.
+Rosheim, M. E. (2006). Leonardo’s lost robots. Springer.
+Shevinsky, E. (Ed.). (2015). Lean out: The struggle for gender equality in tech and start-up culture. OR Books.
+Spiegelhalter, D. (2019). The art of statistics: Learning from data. Pelican.
+Zuboff, S. (2020, January 24). You are now remotely controlled. The New York Times.

@@ -1,0 +1,16 @@
+Hovy & Spruit (2016), Barocas & Selbst (2016), Big Data's Disparate Impact.
+Joy Buolamwini, Timnit Gebru, Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification.
+
+Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, Noah A. Smith, The Risk of Racial Bias in Hate Speech Detection.
+
+William Warner, Julia Hirschberg, Detecting Hate Speech on the World Wide Web.
+Justine Zhang, Jonathan Chang, Cristian Danescu-Niculescu-Mizil, Lucas Dixon, Yiqing Hua, Dario Taraborelli, Nithum Thain, Conversations Gone Awry: Detecting Early Signs of Conversational Failure.
+
+GARY KING, JENNIFER PAN, MARGARET E. ROBERTS, How the Chinese Government Fabricates Social Media Posts for Strategic Distraction, Not Engaged Argument.
+
+Kate Starbird, A First Glimpse through the Data Window onto the Internet Research Agency’s Twitter Operations.
+
+Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi, Defending Against Neural Fake News.
+
+Revealed: 50 million Facebook profiles harvested for Cambridge Analytica in major data breach.
+

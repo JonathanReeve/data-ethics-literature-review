@@ -1,0 +1,73 @@
+Kind, Amy, "Qualia", up to the end of section 1 (The Hard Problem of Consciousness).
+
+Harris, Sam, "Can we build AI without losing control over it?"
+Bostrom, Nick, "What happens when our computers get smarter than we are?"
+
+Brooks, Rodney, "The Seven Deadly Sins of Predicting the Future of AI"
+
+Brooks, Rodney, "What is it like to be a robot?" 
+Harris, Mark, "Inside the first church of artificial intelligence"
+
+wenge, "Have Smartphones Destroyed a Generation?"
+
+Brooks, Dalai Lama, "Behind Our Anxiety, the Fear of Being Unneeded"
+
+Becker, Rachel, "Why calling screen time 'digital heroin' is digital garbage"
+
+Alter, "Do the Poor Have More Meaningful Lives?"
+Lil B, "The Age of Information"
+
+Fabio, "Killed by a Machine: The Therac-25"
+Angwin, "Make Algorithms Accountable."
+Davies, Pierson, Feller, Goel, "A computer program used for bail and sentencing decisions was labeled biased against blacks. It's actually not that clear."
+
+Tufekci, "Zuckerberg's Preposterous Defense of Facebook"
+
+Kolbert, "Why Facts Don't Change Our Minds"
+
+Bertoni, "How Jared Kushner Won Trump The White House"
+
+Garrett, Resnick, "Resisting Political Fragmentation on the Internet" 
+
+CGP Grey, "This Video Will Make You Angry"
+
+Heath, Bell, Sternberg, "Emotional selection in memes: the case of urban legends" 
+
+Shullenberger, "Mimesis, Violence, and Facebook: Peter Thiel's French Connection" 
+
+Alexander, "The Toxoplasma of Rage" 
+
+Bershidskey, Leonid "Scariest Thing About Cyberwarfare: No Rules of Engagement"
+
+Walzer, Michael "Just & Unjust Targeted Killing & Drone Warfare"
+
+CGP Grey, "Humans Need Not Apply"
+
+Bernstein, Raman "The Great Decoupling: An Interview with Erik Brynjolfsson and Andrew McAfee"
+
+Cardenas, "Patent vs. Copyright Protection for Computer Software" (very short, read first)
+
+Stallman, "Misinterpreting Copyright"
+
+Mullin, ""Your criticisms are completely wrong": Stallman on software patents, 20 years in"
+
+Times Editorial Board, "No more secret surveillance technology in local law enforcement"
+
+Rainie, Maniam "Americans feel the tensions between privacy and security concerns"
+
+Kayyali, "FBI's "Suicide Letter" to Dr. Martin Luther King, Jr., and the Dangers of Unchecked Surveillance" and Gage, "What an Uncensored Letter to M.L.K. Reveals"
+
+Grabmeier, "Why many Russians have gladly agreed to online censorship"
+
+Hug, "A Stock Market Primer (draft)"
+
+Uzzi, "How AI Machines Could Save Wall Street Brokers' Jobs"
+
+Homayoun, "The Secret Social Media Lives of Teenagers"
+
+Moody, "Can an employee be fired for activities outside the workplace?"
+
+Popken, "Sites Spying on You in Weird New Ways, Princeton Study Exposes"
+
+Powazek, "I'm Not The Product, But I Play One On The Internet"
+

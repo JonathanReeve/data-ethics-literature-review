@@ -1,0 +1,53 @@
+The Thinker’s Guide to Ethical Reasoning (Paul & Elder, 2013).
+The Circle, by Dave Eggers (2013).
+Mastin, L. (2008). Ethics. The basics of philosophy. Available at http://www.philosophybasics.com/ branch_ethics.html
+Floridi, L. (2013). Ethics after the information revolution. In The ethics of information (pp. 1–18). Oxford, UK: Oxford University Press.
+United Nations. (1948). Universal declaration of human rights. Available at http://www.un.org/en/ documents/udhr/index.shtml
+Skim: Floridi, L. (2013). What is information ethics? In The ethics of information (pp. 19–28). Oxford, UK: Oxford University Press.
+Skim: Unesco. (2014). WSIS+10 outcome documents (pp. 9–48). Geneva, Switzerland: International Telecommunication Union. Available at http://www.itu.int/net/wsis/implementation/2014/ forum/inc/doc/outcome/362828V2E.pdf.
+
+Brey, P. (2018). The strategic role of technology in a good society. Technology in Society, 52(1), 39–45. Fallis, D. (2007). Information ethics for twenty-first century library professionals. Library Hi Tech,
+25(1), 23–36.
+Floridi, L. (2018). Soft ethics and the governance of the digital. Philosophy & Technology, 31(1), 1–8. Skim: Capurro, R. (2000). Ethical challenges of the information society in the 21st century. The
+International Information & Library Review, 32, 257–276.
+
+Paul, R., & Elder, L. (2013). The thinker’s guide to ethical reasoning. Tomales, CA: Foundations for Critical Thinking Press.
+Nagel, T. (1979). The fragmentation of value. In Mortal questions (pp. 128–141). Cambridge, UK: Cambridge University Press.
+
+Ess, C. (2010). The embodied self in a digital age. Nordicom Information, 32(2–3), 105–118. Frankfurt, H. (1986/2005). On bullshit. Princeton, NJ: Princeton University Press. Available at
+http://www5.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf
+Lanchester, J. (2017, August 17). You are the product. London Review of Books, 39(16). Available at https://www.lrb.co.uk/v39/n16/john-lanchester/you-are-the-product
+Parrish, J. L., Jr. (2010). PAPA knows best: Principles for the ethical sharing of information on social networking sites. Ethics and Information Technology, 12(2), 187-193.
+Optional: Capurro, R. (1996). Information technology and technologies of the self. Journal of Information Ethics, 5(2), 19–28.
+
+Eggers, D. (2013). The circle. New York, NY: Random House.
+
+Warren, S. D., & Brandeis, L. D. (1890/2005). The right to privacy. In Moore, A.D. (Ed.). Information ethics: Privacy, property, and power (pp. 209-225). Seattle: University of Washington Press.
+Tirosh, N. (2017). Reconsidering the ‘Right to be Forgotten’ – memory rights and the right to memory in the new media era. Media, Culture & Society, 39(5), 644–660.
+Jayakar, K. (2017). Universal broadband: Option, right or obligation? Journal of Human Values, 24(1), 11–24.
+
+Lessig, L. (2010, January 26). For the love of culture. The New Republic. Available at http:// www.tnr.com/article/the-love-culture
+Barry, C. (2015, April 13). Is downloading really stealing? The ethics of digital piracy. The Conversation. Available at https://theconversation.com/is-downloading-really-stealing-the- ethics-of-digital-piracy-39930
+Orozco, D., & Poonamallee, L. (2014). The role of ethics in the commercialization of indigenous knowledge. Journal of Business Ethics, 119(2), 275–286.
+Harley, D. (2013, October 4). Scholarly communication: Cultural contexts, evolving models. Science, 342(6154), 80–82.
+Skim: Liu, L. G., & Gee, H. (2017). Determining whether commercial publishers overcharge libraries for scholarly journals in the fields of science, technology, and medicine, with a semilogarithmic econometric model. The Library Quarterly, 87(2), 150–172.
+
+
+Burrell, J. (2016). How the machine “thinks”: Understanding opacity in machine learning algorithms. Big Data & Society, 3(1), 1–12.
+Pichai, S. (2018, June 7). AI at Google: Our principles. The Keyword. Available at https://blog.google/ topics/ai/ai-principles.
+
+Sullivan, M. C. (2018). Why librarians can’t fight fake news. Journal of Librarianship and Information Science, OnlineFirst. doi: 10.1177/0961000618764258
+Zwitter, A. (2014). Big data ethics. Big Data & Society, 1(2), 1–6. Available at http://doi.org/ 10.1177/2053951714559253
+Skim: Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.
+
+Albrechtslund, A. (2007). Ethics and technology design. Ethics and Information Technology, 9(1), 63– 72.
+Ricks, T.E. (2012). What ever happened to accountability? Harvard Business Review, 90(10), 93–100. Zimmer, M. (2010). “But the data is already public”: On the ethics of research in Facebook. Ethics
+and Information Technology, 12(4), 313-325.
+Optional: van de Poel, I. (2013). Translating values into design requirements. In D. Michelfelder, N.
+McCarthy, & D. Goldberg (Eds.), Philosophy and engineering: Reflections on practice, principles and process (pp. 253–266). Dordrecht, Netherlands: Springer.
+
+Brey, P. (2007). Is information ethics culture-relative? International Journal of Technology and Human Interaction, 3(3), 12–24.
+Britz, J. J. (2008). Making the global information society good: A social justice perspective on the ethical dimensions of the global information society. Journal of the American Society for Information Science and Technology, 59(7), 1171–1183.
+Floridi, L. (2013). Global information ethics. In The ethics of information (pp. 292–304). Oxford, UK: Oxford University Press.
+Pohle, J. (2015). Unesco and Infoethics: Seeking global ethical values in the information society. Telematics and Informatics, 32(2), 381–390.
+
