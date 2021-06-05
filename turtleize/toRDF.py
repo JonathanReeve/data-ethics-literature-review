@@ -81,6 +81,16 @@ def translateJSON(zoteroJSON):
     if response.ok:
         return response.text
 
+def bibtex2rdf(bibtexFile):
+    """
+    Convert a bibtex file into Bibliontology RDF.
+    """
+    response = requests.post('http://127.0.0.1:1969/import',
+                             data=bibtexFile,
+                             params={"format": "bibtex"},
+                             headers={"Content-Type": "text/plain"})
+    if response.ok:
+        return response.text
 
 def ident2rdf(ident):
     """
@@ -335,10 +345,17 @@ def book(query):
     click.echo(writeRDF(rdf))
 
 @cli.command()
-@click.argument('file', nargs=1)
+@click.argument('bibtexFile', nargs=1)
 def bibtex(bibtexFile):
     """ Convert Bibtex to RDF."""
-    pass
+    if not bibtexFile.endswith('.bib') or bibtexFile.endswith('.bibtex'):
+        logging.error(f"File extension of {bibtexFile} not supported. Must be .bib or .bibtex.")
+        exit()
+    with open(bibtexFile) as fn:
+        bib = fn.read()
+    rdf = bibtex2rdf(bib)
+    click.echo(rdf)
+    click.echo(writeRDF(rdf))
 
 if __name__== "__main__":
     cli()

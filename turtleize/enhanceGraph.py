@@ -13,6 +13,7 @@ from rdflib import Namespace
 import logging
 import rdflib
 import toRDF
+from os.path import exists
 
 g = rdflib.Graph()
 
@@ -55,6 +56,11 @@ for courseID, syllabus in coursesWithSyllabi:
     logging.info(f"Course ID: {courseID}")
     logging.info(f"Syllabus URL: {syllabus}")
     courseIDStr = str(courseID).split('/')[-1]
+    if exists(f"../data/texts/bib/{courseIDStr}.texts.txt.bib"):
+        logging.info(f"Adding texts for course {courseIDStr}")
+
+    else:
+        logging.info(f"No bibliography found for course {courseIDStr}")
     try:
         textIDs = toRDF.processSyllabus(str(syllabus), courseIDStr)
         logging.info(f"Found texts: {textIDs}")
