@@ -1,0 +1,37 @@
+Safiya Sinclair, Cannibal
+M. Nourbese Philip, Zong!
+William Shakespeare, The Tempest, Internet Shakespeare Editions
+William Davenant and John Dryden The Tempest; or, The Enchanted Isle, EEBO-TCP edition
+Steele, Richard, “Story of Inkle and Yarico,” Early Caribbean Digital Archive
+Richard Ligon, Yarico account from A True and Exact History of the Island of Barbados, digital edition edited by David Chan Smith
+George Colman, Inkle and Yarico, Project Gutenberg edition
+Data Feminism, Catherine D’Ignazio and Lauren F. Klein
+Leah Marcus, “The Blue-Eyed Witch”
+http://quod.lib.umich.edu/e/eebogroup/
+Thomas Jefferson, Notes on the State of Virginia
+Paul Dingman, “Tagging Manuscripts: How Much is Too Much?”
+Women Writers Vector Toolkit, http://lab.wwp.northeastern.edu/wwvt/
+Ryan Heuser, “Word Vectors in the Eighteenth Century, Episode 1: Concepts”, "Episode 2:Methods"
+Women Writers Online
+Women Writers in Review
+DocSouth
+Visualizing English Print (several corpora, fifteenth through eighteenth centuries)
+Project Gutenberg
+Victorian Women Writers Project
+Civil War Governors
+Becky Standard “A Most Illustrious and Distinctive Career“
+James Clawson, “A Word Embedding Model of One’s Own: Modern Fiction from Imperialism to Spiritualism”
+Benjamin M. Schmidt, “Vector Space Models for the Digital Humanities”
+Benjamin M. Schmidt, “Introductory Vignette” and “Exploratory Vignette“
+Laura K. Nelson, “Leveraging the alignment between machine learning and intersectionality: Using word embeddings to measure intersectional experiences of the nineteenth century U.S. South”
+Ted Underwood, “The Gender Balance of Fiction, 1800–2007” and explore the interactive visualization
+Sandeep Soni, Lauren F. Klein and, and Jacob Eisenstein, “Abolitionist Networks: Modeling Language Change in Nineteenth-Century Activist Newspapers
+Catherine D’Ignazio and Lauren F. Klein, Data Feminism, chapt. 4, “What Gets Counted Counts“
+Saidiya Hartman, “Venus in Two Acts”
+Early Caribbean Digital Archive
+Colored Conventions Project
+Slave Revolt in Jamaica, 1760–1761
+Jessica Marie Johnson, “Markup Bodies: Black [Life] Studies and Slavery [Death] Studies at the Digital Crossroads”
+Elizabeth Maddock Dillon, “Translatio Studii and the Poetics of the Digital Archive: Early American Literature, Caribbean Assemblages, and Freedom Dreams”
+Lauren F. Klein, “The Image of Absence: Archival Silence, Data Visualization, and James Hemings”
+Catherine D’Ignazio and Lauren F. Klein, Data Feminism, chapt. 5, “Unicorns, Janitors, Ninjas, Wizards, and Rock Stars“

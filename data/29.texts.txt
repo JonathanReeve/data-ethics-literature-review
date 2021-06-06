@@ -1,0 +1,23 @@
+Ethics for the Information Age by Michael Quinn
+Ahmed, Sara. 2013. “Making Feminist Points.” feministkilljoys. feministkilljoys.com/2013/09/11/making-feminist-points/
+Frank, Will. 2015. “IP-rimer: A Basic Explanation of Intellectual Property.”
+(Medium), medium.com/@scifantasy/ip-rimer-a-basic-explanation-of-intellectual-property-9be6f0ce6711.
+https://meta.stackexchange.com/questions/272956/a-new-code-license-the-mit-this-time-with-attribution-required?cb=1
+Ian Bogost. 2015. ”Programmers: Stop Calling Yourselves Engineers” The Atlantic, <theatlantic.com/technology/archive/2015/11/programmers-should-not-call-themselves-engineers/414271/>
+Jarmul, Katherine. 2017. “If Ethics Is Not None.” At EuroPython Conference. <youtu.be/FtRbAePXUoI?t=1m26s>
+Warren, Samuel D., and Louis D. Brandeis. 1890. “The Right to Privacy.” Harvard Law Review, vol. 4, no. 5. pp. 193–220. <jstor.org/stable/1321160>, <groups.csail.mit.edu/mac/classes/6.805/articles/privacy/Privacy_brand_warr2.html>
+Tufekci, Zeynep. 2018. “It’s the (Democracy-Poisoning) Golden Age of Free Speech.” Wired|Business, January 16, 2018. <wired.com/story/free-speech-issue-tech-turmoil-new-censorship/>
+Will Frank. 2015. “IP-Rimer: A Basic Explanation of Intellectual Property.” Medium, November 2015, <medium.com/@scifantasy/ip-rimer-a-basic-explanation-of-intellectual-property-9be6f0ce6711>
+https://opensource.org/faq
+Lilly Irani. 2015. "Difference & Dependence Among Workers: The Case of Amazon Mechanical Turk" South Atlantic Quarterly, Winter 2015. <escholarship.org/uc/item/6xk920pj>
+Dare Obasanjo. 2016. “The Big Lie: Tech Companies and Diversity Hiring.” Don’t Panic, Just Hire / 42 Hire (Medium Blog), July 15, 2016. <42hire.com/the-big-lie-tech-companies-and-diversity-hiring-f52fb82abfbf>.
+Yonaten Zunger. 2017. “So, about This Googler’s Manifesto.” Personal Blog (Medium), August 5, 2017. <medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788>
+Safiya Noble. 2018. Introduction to Algorithms of Oppression. NYU Press. <nyupress.org/webchapters/Noble_Algorithms_Oppression_intro.pdf>
+Nancy G. Leveson. 2017. “The Therac-25: 30 Years Later.” IEEE Computer. pp. 8-11. <ieeexplore.ieee.org/iel7/2/8102264/08102762.pdf>
+Jonas Lerman. 2013. “Big Data and Its Exclusions.” Stanford Law Review 66 (September), pp. 55–63. <stanfordlawreview.org/online/privacy-and-big-data-big-data-and-its-exclusions>.
+Matt Blaze. 2017. “Cybersecurity of Voting Machines.” Testimony to US House Committee on Oversight & Government Reform, November 2017.<oversight.house.gov/wp-content/uploads/2017/11/Blaze-UPenn-Statement-Voting-Machines-11-29.pdf>
+Lou Moore. 2017. “Engineering Principles at Code for America.” Medium (Code For America Blog), July 2017. <medium.com/code-for-america/engineering-principles-at-code-for-america-bda7b99740de>.
+Michael J. Coren. 2017. “Silicon Valley Tech Workers Are Talking about Starting Their First Union in 2017 to Resist Trump.” Quartz, March 24, 2017. <qz.com/916534/silicon-valley-tech-workers-are-talking-about-starting-their-first-union-in-2017-to-resist-trump/>.
+Giancarlo Valdes. 2018. “How developers can reduce toxicity in online communities.” Rolling Stone. March 20, 2018. <rollingstone.com/glixel/features/how-devs-can-reduce-toxicity-in-online-communities-w518104>
+Alex Compolo et al. 2017. “Recommendations” and “Executive Summary” in AI Now 2017 Report, (pp 1-5) <ainowinstitute.org/AI_Now_2017_Report.pdf>
+Catherine Stinson. 2018. “Deep learning: Why it’s time for AI to get philosophical” The Globe and Mail, March 23, 2018. <theglobeandmail.com/amp/opinion/article-deep-learning-why-its-time-for-ai-to-get-philosophical/>
