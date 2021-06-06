@@ -2,6 +2,8 @@ import sys
 import os
 import docker
 import requests
+import rdflib
+import subprocess
 from time import sleep
 import json
 import click
@@ -75,22 +77,32 @@ def translateJSON(zoteroJSON):
     Convert the JSON format that translateURL() returns into Bibliontology RDF.
     """
     response = requests.post('http://127.0.0.1:1969/export',
-                             data=zoteroJSON,
+                             data=zoteroJSON.encode('utf-8'),
                              params={"format": "rdf_bibliontology"},
                              headers={"Content-Type": "application/json"})
     if response.ok:
         return response.text
 
-def bibtex2rdf(bibtexFile):
-    """
-    Convert a bibtex file into Bibliontology RDF.
-    """
+def translateBibtex(bibtex):
+    """ Given a bibtex file (really a string),
+    send that file to the Zotero translation server to translate it to RDF."""
+
+    if type(bibtex) != str:
+        try:
+            bibtex = bibtex.decode('utf-8')
+        except:
+            logging.error("I can't translate bytes or other things. You gotta give me a string!")
+            exit()
+    bibtex = bibtex.encode('utf-8')
     response = requests.post('http://127.0.0.1:1969/import',
-                             data=bibtexFile,
-                             params={"format": "bibtex"},
-                             headers={"Content-Type": "text/plain"})
+                             data=bibtex,
+                             headers={"Content-Type": "text/plain; charset=utf-8"})
     if response.ok:
-        return response.text
+        return translateJSON(response.text)
+    else:
+        logging.error("Something went wrong while trying to convert bibtex.")
+        return
+
 
 def ident2rdf(ident):
     """
@@ -234,22 +246,24 @@ def processURLs(urls):
     return allItemIDs
 
 
-def writeRDF(rdf):
+def writeRDF(rdf, courseID):
     """ Write out the RDF to readings/<ID>.rdf.xml. """
     # Find the item ID for each one
-    matches = re.finditer('<z:UserItem rdf:about="(.*?)">', rdf)
-    itemIds = [match.group(1) for match in matches if match is not None]
-    itemId = itemIds[0]
-    fn = f"../readings/{itemId}.rdf.xml"
+    fn = f"../data/texts/ttl/{courseID}.ttl"
     # Check to make sure we don't already have it
+    if type(rdf) != str:
+        logging.error("Hmmm this doesn't look like a string. I'd better not write it.")
+        exit()
     if exists(fn):
-        return itemId
         logging.info(f"Looks like we already have {fn}")
+        return
     else:
+        textGraph = rdflib.Graph()
+        textGraph.parse(data=rdf, format='xml')
+        turtleized = textGraph.serialize(format='turtle').decode('utf-8')
         with open(fn, 'w') as f:
-            f.write(rdf)
+            f.write(turtleized)
         logging.info(f"Wrote {fn}")
-        return itemId
 
 def formatIDs(itemList):
     """
@@ -282,7 +296,7 @@ def url(url):
     """Translate a URL to RDF,
     where the URL is a link to an article or book."""
     rdf = url2rdf(url)
-    writeRDF(rdf)
+    jwriteRDF(rdf)
     click.echo(rdf)
 
 
@@ -344,18 +358,53 @@ def book(query):
     click.echo(rdf)
     click.echo(writeRDF(rdf))
 
-@cli.command()
-@click.argument('bibtexFile', nargs=1)
-def bibtex(bibtexFile):
-    """ Convert Bibtex to RDF."""
-    if not bibtexFile.endswith('.bib') or bibtexFile.endswith('.bibtex'):
-        logging.error(f"File extension of {bibtexFile} not supported. Must be .bib or .bibtex.")
+def courseIDFromFilename(fn):
+    """ We have been storing course ID numbers in the filename,
+    e.g. 106.bib, 106.texts.txt, etc.
+    Now we just want to get that ID back from the filename.
+    """
+    onlyFileName = fn.split('/')[-1] # In case it has a path
+    basename = onlyFileName.split('.')[0]
+    try:
+        courseID = int(basename)
+        logging.info(f"Assuming course name is {courseID}.")
+    except:
+        logging.info(f"Can't derive integer from {basename}. Filename must start with an integer, so that we can keep track of course IDs.")
         exit()
-    with open(bibtexFile) as fn:
+    return courseID
+
+@cli.command()
+@click.argument('bibtexfile', nargs=1)
+def bibtex(bibtexfile):
+    """ Convert Bibtex files like 10.texts.txt.bib, where 10 is the course ID, to RDF."""
+    if not (bibtexfile.endswith('.bib') or bibtexfile.endswith('.bibtex')):
+        logging.error(f"File extension of {bibtexfile} not supported. Must be .bib or .bibtex.")
+        exit()
+    courseID = courseIDFromFilename(bibtexfile)
+    with open(bibtexfile, 'r', encoding='utf-8') as fn:
         bib = fn.read()
-    rdf = bibtex2rdf(bib)
+    rdf = translateBibtex(bib)
     click.echo(rdf)
-    click.echo(writeRDF(rdf))
+    click.echo(writeRDF(rdf, courseID))
+
+@cli.command()
+@click.argument('referencesfile', nargs=1)
+def references(referencesfile):
+    """ Convert a plain text file containing references / citations (Chicago, MLA, etc) to RDF.
+    Expects file to be named 10.texts.txt. Uses Anystyle, so, the executable for anystyle must be available in the PATH"""
+    if not referencesfile.endswith('.txt'):
+        logging.error(f"File extension of {referencesfile} not supported. Must be .txt.")
+        exit()
+    courseID = courseIDFromFilename(referencesfile)
+    cmd = ["anystyle", "-f", "bib", "--stdout", "parse", referencesfile]
+    process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, stderr = process.communicate()
+    bibtex = stdout.decode('utf-8')
+    logging.info(f"Here's what anystyle found: {bibtex}")
+    rdf = translateBibtex(bibtex)
+    click.echo(rdf)
+    click.echo(writeRDF(rdf, courseID))
+
 
 if __name__== "__main__":
     cli()

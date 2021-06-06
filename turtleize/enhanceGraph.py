@@ -46,34 +46,42 @@ coursesWithSyllabi = g.query("""
         ?id a ccso:Course .
         ?id ccso:hasSyllabus ?uri .
     }""")
-for line in coursesWithSyllabi:
-    print(line)
+# for line in coursesWithSyllabi:
+#     print(line)
 
 # 2. Download those syllabi
 # 3. Add syllabus readings to graph
+
 
 for courseID, syllabus in coursesWithSyllabi:
     logging.info(f"Course ID: {courseID}")
     logging.info(f"Syllabus URL: {syllabus}")
     courseIDStr = str(courseID).split('/')[-1]
-    if exists(f"../data/texts/bib/{courseIDStr}.texts.txt.bib"):
+    fn = f"../data/texts/ttl/{courseIDStr}.ttl"
+    if exists(fn):
         logging.info(f"Adding texts for course {courseIDStr}")
-
-    else:
-        logging.info(f"No bibliography found for course {courseIDStr}")
-    try:
-        textIDs = toRDF.processSyllabus(str(syllabus), courseIDStr)
-        logging.info(f"Found texts: {textIDs}")
-        # answer = input('Continue? (Y/N): ')
-        # if answer in ["n", "N", "no"]:
-        #     exit()
+        with open(fn, encoding='utf-8') as f:
+            textRDF = f.read()
+        textGraph = Graph()
+        textGraph.parse(data=textRDF, format='turtle')
+        zotNS = Namespace("http://www.zotero.org/namespaces/export#")
+        textGraph.bind('z', zotNS)
+        textIDs = textGraph.query("""select distinct ?id where { ?id a z:UserItem . }""")
+        numTextsFound = len(textIDs)
+        if numTextsFound == 0:
+            logging.error(f"Found zero texts in file {fn}. This doesn't sound right.")
+            exit()
+        else:
+            logging.info(f"Found {len(textIDs)} texts in file {fn}. Adding to graph.")
         for textID in textIDs:
-            g.add((courseID, ccso.hasLM, deText[str(textID)]))
-        # answer = input('Write out graph? : ')
-        # if answer in ["n", "N", "no"]:
-        #     exit()
-    except:
-        logging.error(f"Something went wrong while processing syllabus {syllabus}.")
+            # Rdflib seems to automatically prepend the local location of my code
+            # So we have to take it apart and put it back together again.
+            logging.info(f"Text: {textID[0]}")
+            textID = deText[textID[0].toPython().split('/')[-1]]
+            logging.info(f"Adding text with id {textID}")
+            g.add((courseID, ccso.hasLM, textID))
+    else:
+        logging.info(f"No bibliography found for course {courseIDStr} at path {fn}")
     newGraph = g.serialize(format="turtle").decode("utf-8")
-    with open('graph.ttl', 'w') as f:
+    with open('newgraph.ttl', 'w') as f:
         f.write(newGraph)
