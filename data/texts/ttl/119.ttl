@@ -1,0 +1,487 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_11> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Reading response paper #1 due in class.</p>" ] .
+
+<#item_9> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available online.</p>" ] .
+
+<2FB2P95B> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4e786860643347cca8d10c4fa2b58be6 ;
+            dcterms:title "A Gift of Fire, Chapter 4, “Intellectual Property" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4e786860643347cca8d10c4fa2b58be6 ] ] .
+
+<346826MZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4084306d817048c9a4b2728a6dd22d6d ;
+            dcterms:title "Environmental, Social, and Economic Implications of Global Reuse and Recycling" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4084306d817048c9a4b2728a6dd22d6d ] ] .
+
+<49ZBRC7R> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N94fd742942c748deae4c5af9b8cdfc37 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New Media, Ithaca, NY" ;
+                    foaf:name "Cornell University Press" ] ;
+            dcterms:title "The Breakup 2.0: Disconnecting Over" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N94fd742942c748deae4c5af9b8cdfc37 ] ;
+            bibo:numPages "1" ] .
+
+<4UF2CEUC> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ncac0fabcef3d4b4780b32e9db1a411f6 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2010-08-09" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "New Yorker" ] ] ;
+            dcterms:title "Painkiller deathstreak" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncac0fabcef3d4b4780b32e9db1a411f6 ] ] .
+
+<57PAA9VS> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nc1b92846640d494ba4ee199ac1088854 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2007-07" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ethics and Information Technology" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "9" ] ;
+            dcterms:title "Locating the wrongness in ultra-violent video games" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc1b92846640d494ba4ee199ac1088854 ] ;
+            bibo:pages "121–128" ] .
+
+<5BLLT92M> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nde128c15e6c245faaed8fee74433ab00 ;
+            dcterms:date "2007" ;
+            dcterms:title "‘’I’ve Got Nothing to Hide,’ and Other Misunderstandings of Privacy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nde128c15e6c245faaed8fee74433ab00 ] ] .
+
+<6QWDU3A6> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "3/11/2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Guardian" ] ] ;
+            dcterms:title "Facebook users unwittingly revealing intimate secrets, study finds" ] .
+
+<8LWTCSSB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "ACM Code of Ethics and Professional Conduct" ] ] .
+
+<97FV4VX2> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N65415d912e4b4c3cb95e323c23385448 ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Futurist" ] ;
+            dcterms:title "Technology’s Role in Revolution: Internet Freedom and Political Oppression" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N65415d912e4b4c3cb95e323c23385448 ] ] .
+
+<D7RXYM7Z> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N1b83a0fbabd84a9fadcac40f5d977e21,
+                _:N7a6c5cc4b2da4f1d805e94726555a68f ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "IEEE Computer" ] ;
+            dcterms:title "An Investigation of the Therac-25 Accidents" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7a6c5cc4b2da4f1d805e94726555a68f ;
+                    rdf:_2 _:N1b83a0fbabd84a9fadcac40f5d977e21 ] ;
+            bibo:pages "18–41" ] .
+
+<FLFGZIDE> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ncef8264115914589878b53646172b943 ;
+            dcterms:date "2009" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Prentice Hall" ] ;
+            dcterms:title "Computer Ethics(4th Edition" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncef8264115914589878b53646172b943 ] ] .
+
+<FLSGD5JH> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N2522e84e8bc54412be63de8386f80a32,
+                _:Nbcb551bcfa4a4212b7882d3e0270278c ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2008" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Information, Communication and Society" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "11" ] ;
+            dcterms:title "The Participation Divide: Content Creation and Sharing in the Digital Age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbcb551bcfa4a4212b7882d3e0270278c ;
+                    rdf:_2 _:N2522e84e8bc54412be63de8386f80a32 ] ] .
+
+<GID7MRI7> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N51e39b060a1e47769e6c24f748f12d7f ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2006" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Information Science and Technology" ] ;
+                    bibo:issue "6" ;
+                    bibo:volume "32" ] ;
+            dcterms:title "We live here: Games, third places, and the information architecture of the fu- ture.”Bulletin of the American Society for" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N51e39b060a1e47769e6c24f748f12d7f ] ;
+            bibo:pages "17–21" ] .
+
+<GIZTWD2A> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "11/15/2011" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Wall Street Journal" ] ] ;
+            dcterms:title "How Much Should People Worry About the Loss of Online Privacy?" ] .
+
+<GQLFVPCF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N16a47c2237724c1890a4fc5476585f99 ;
+            dcterms:title "Why Software Should Be Free" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N16a47c2237724c1890a4fc5476585f99 ] ] .
+
+<H9RE5T2X> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ndc703f6a34e0496a8c2e606292f59ffb ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Social Text" ] ;
+                    bibo:issue "20" ;
+                    bibo:volume "2" ] ;
+            dcterms:title "Race, Sex, and Nerds: From Black Geeks to Asian American Hipsters" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndc703f6a34e0496a8c2e606292f59ffb ] ;
+            bibo:pages "49–64" ] .
+
+<HLGPMJ8W> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N917a8be7d00a43dc8a2b7a582ff1b711 ;
+            dcterms:date "2001-01" ;
+            dcterms:title "Computer Professionals and the Next Culture of Democracy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N917a8be7d00a43dc8a2b7a582ff1b711 ] ] .
+
+<HYNPYAQ8> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N47092bbc9141427f9f82b7dc92c9d228 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2007-06-24" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Apophenia Blog Essay" ] ] ;
+            dcterms:title "Viewing American class divisions through Facebook and MySpace" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N47092bbc9141427f9f82b7dc92c9d228 ] ] .
+
+<JDZXCJSP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N96caed322cc3452faa2834c8d323dc0f ;
+            dcterms:title "World of Warcraft as a Playground for Feminism" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N96caed322cc3452faa2834c8d323dc0f ] ] .
+
+<JKM3SQA5> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7896f12ab6e041a99b426f7be9be99d0 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2002" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Environmental Science & Technology" ] ;
+                    bibo:issue "24" ;
+                    bibo:volume "36" ] ;
+            dcterms:title "The 1.7 Kilogram Microchip: Energy and Material Use in the Production of Semi- conductor Devices" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7896f12ab6e041a99b426f7be9be99d0 ] ;
+            bibo:pages "5504–5510" ] .
+
+<K4F5IBQM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4fb87250b4b543b184b02fbdd3a27396 ;
+            dcterms:date "2002" ;
+            dcterms:title "Playing a ‘Good’ Game: A Philosophical Approach to Understanding the Morality of Games" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4fb87250b4b543b184b02fbdd3a27396 ] ] .
+
+<MIP8WF44> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N23390275fc28438fb443a262e2186b82,
+                _:N98fe4695ef414a4fabd8935f1d3d16e8 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2007" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "New York" ;
+                            foaf:name "ACM Press" ] ;
+                    dcterms:title "Proceedings of CHI 2007" ] ;
+            dcterms:title "A game design methodology to incorporate social activist themes" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N23390275fc28438fb443a262e2186b82 ;
+                    rdf:_2 _:N98fe4695ef414a4fabd8935f1d3d16e8 ] ;
+            bibo:pages "181–190" ] .
+
+<NESMN3QJ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd140daa732d343149760cb40270d8455,
+                _:Nd8e5935603be45bc90f98317569b05a1 ;
+            dcterms:date "2006" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "Who Controls the Internet?: Illusions of a Borderless World" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd8e5935603be45bc90f98317569b05a1 ;
+                    rdf:_2 _:Nd140daa732d343149760cb40270d8455 ] ] .
+
+<NTF46J7E> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4944c327cdbe476baa1fcae75f95d6a3,
+                _:Nae9ba909ba10404298d9301179919bd8 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1996" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ACM Transactions on Information Systems" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "14" ] ;
+            dcterms:title "Bias in computer systems" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nae9ba909ba10404298d9301179919bd8 ;
+                    rdf:_2 _:N4944c327cdbe476baa1fcae75f95d6a3 ] ;
+            bibo:pages "330–347" ] .
+
+<PRAPHWWH> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nc308c50195f64f9db79723afde7df531 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2006" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "New Yorker" ] ] ;
+            dcterms:title "The Perfect Mark: How a Massachusetts psychotherapist fell for a Nigerian e-mail scam" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc308c50195f64f9db79723afde7df531 ] ] .
+
+<Q8X2GDTN> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nb1407c69c5914da997c3c5a559d9c2f8 ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "Chapman and Hall" ] ;
+            dcterms:title "Residency, Relationships and Responsibility: The Social Side of World of Warcraft" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb1407c69c5914da997c3c5a559d9c2f8 ] ;
+            bibo:editor _:N6b23ec0adac14a8b98c022b1be28265d,
+                _:Nd478c8ab1afc4fafb7198137fc72b107 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N6b23ec0adac14a8b98c022b1be28265d ;
+                    rdf:_2 _:Nd478c8ab1afc4fafb7198137fc72b107 ] ] .
+
+<RGFB4NVZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N23e856d70414449690ff95ff94b4a0ed ;
+            dcterms:title "Are e-mail attachments good for the environment?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N23e856d70414449690ff95ff94b4a0ed ] ] .
+
+<UZAKAMGS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N88ac2345b1314aceace1c2e23d6612c2 ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Vanity Fair" ] ;
+            dcterms:title "A Declaration of Cyber-War" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N88ac2345b1314aceace1c2e23d6612c2 ] ] .
+
+<VC3J5UB6> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2008" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Environmental Science & Technology" ] ;
+                    bibo:issue "17" ;
+                    bibo:volume "42" ] ;
+            dcterms:title "of Personal Computers" ;
+            bibo:pages "6446–6454" ] .
+
+<VPNTLIQ4> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4faa0f54b84844468218084858402516 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "“Ethics and Information Technology”" ] ;
+            dcterms:title "Computer Ethics, Chapter Two" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4faa0f54b84844468218084858402516 ] ] .
+
+<XEKGGV4Z> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N8623d8cecb164c23bdd4b5410e325d4e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Annals of the American Academy of Political and Social Science" ] ;
+                    bibo:volume "597" ] ;
+            dcterms:title "Digital Gambling: the Coincidence of Desire and Design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8623d8cecb164c23bdd4b5410e325d4e ] ;
+            bibo:pages "65–81" ] .
+
+<ZI55ACQJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N98363711663e45a0bd156034edb24208 ;
+            dcterms:date "2007" ;
+            dcterms:title "Secrets Revealed: How Magicians Protect Intellectual Property Without Law" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N98363711663e45a0bd156034edb24208 ] ] .
+
+_:N16a47c2237724c1890a4fc5476585f99 a foaf:Person ;
+    foaf:givenName "Richard" ;
+    foaf:surname "Stallman" .
+
+_:N1b83a0fbabd84a9fadcac40f5d977e21 a foaf:Person ;
+    foaf:givenName "Clark" ;
+    foaf:surname "Turner" .
+
+_:N23390275fc28438fb443a262e2186b82 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Flanagan" .
+
+_:N23e856d70414449690ff95ff94b4a0ed a foaf:Person ;
+    foaf:givenName "Kiera" ;
+    foaf:surname "Butler" .
+
+_:N2522e84e8bc54412be63de8386f80a32 a foaf:Person ;
+    foaf:givenName "G." ;
+    foaf:surname "Walejko" .
+
+_:N4084306d817048c9a4b2728a6dd22d6d a foaf:Organization ;
+    foaf:name "Williams" .
+
+_:N47092bbc9141427f9f82b7dc92c9d228 a foaf:Person ;
+    foaf:givenName "danah" ;
+    foaf:surname "boyd" .
+
+_:N4944c327cdbe476baa1fcae75f95d6a3 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Nissenbaum" .
+
+_:N4e786860643347cca8d10c4fa2b58be6 a foaf:Organization ;
+    foaf:name "Baase" .
+
+_:N4faa0f54b84844468218084858402516 a foaf:Organization ;
+    foaf:name "Johnson" .
+
+_:N4fb87250b4b543b184b02fbdd3a27396 a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Reynolds" .
+
+_:N51e39b060a1e47769e6c24f748f12d7f a foaf:Person ;
+    foaf:givenName "Andrew" ;
+    foaf:surname "Hinton" .
+
+_:N65415d912e4b4c3cb95e323c23385448 a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Morozov" .
+
+_:N6b23ec0adac14a8b98c022b1be28265d a foaf:Person ;
+    foaf:givenName "Z." ;
+    foaf:surname "Panayiotis" .
+
+_:N7896f12ab6e041a99b426f7be9be99d0 a foaf:Organization ;
+    foaf:name "Williams" .
+
+_:N7a6c5cc4b2da4f1d805e94726555a68f a foaf:Person ;
+    foaf:givenName "Nancy" ;
+    foaf:surname "Leveson" .
+
+_:N8623d8cecb164c23bdd4b5410e325d4e a foaf:Person ;
+    foaf:givenName "Natasha Dow" ;
+    foaf:surname "Schull" .
+
+_:N88ac2345b1314aceace1c2e23d6612c2 a foaf:Person ;
+    foaf:givenName "Michael" ;
+    foaf:surname "Gross" .
+
+_:N917a8be7d00a43dc8a2b7a582ff1b711 a foaf:Person ;
+    foaf:givenName "Doug" ;
+    foaf:surname "Schuler" .
+
+_:N94fd742942c748deae4c5af9b8cdfc37 a foaf:Person ;
+    foaf:givenName "Ilana" ;
+    foaf:surname "Gershon" .
+
+_:N96caed322cc3452faa2834c8d323dc0f a foaf:Person ;
+    foaf:givenName "Hilde G." ;
+    foaf:surname "Corneliussen" .
+
+_:N98363711663e45a0bd156034edb24208 a foaf:Person ;
+    foaf:givenName "Jacob" ;
+    foaf:surname "Loshin" .
+
+_:N98fe4695ef414a4fabd8935f1d3d16e8 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Nissenbaum" .
+
+_:Nae9ba909ba10404298d9301179919bd8 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Friedman" .
+
+_:Nb1407c69c5914da997c3c5a559d9c2f8 a foaf:Person ;
+    foaf:givenName "David" ;
+    foaf:surname "White" .
+
+_:Nbcb551bcfa4a4212b7882d3e0270278c a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Hargittai" .
+
+_:Nc1b92846640d494ba4ee199ac1088854 a foaf:Person ;
+    foaf:givenName "David" ;
+    foaf:surname "Waddington" .
+
+_:Nc308c50195f64f9db79723afde7df531 a foaf:Person ;
+    foaf:givenName "Mitchell" ;
+    foaf:surname "Zuckoff" .
+
+_:Ncac0fabcef3d4b4780b32e9db1a411f6 a foaf:Person ;
+    foaf:givenName "Nicholson" ;
+    foaf:surname "Baker" .
+
+_:Ncef8264115914589878b53646172b943 a foaf:Person ;
+    foaf:givenName "Deborah" ;
+    foaf:surname "Johnson" .
+
+_:Nd140daa732d343149760cb40270d8455 a foaf:Person ;
+    foaf:givenName "Timothy" ;
+    foaf:surname "Wu" .
+
+_:Nd478c8ab1afc4fafb7198137fc72b107 a foaf:Person ;
+    foaf:givenName "C.S." ;
+    foaf:surname "Ang" .
+
+_:Nd8e5935603be45bc90f98317569b05a1 a foaf:Person ;
+    foaf:givenName "Jack" ;
+    foaf:surname "Goldsmith" .
+
+_:Ndc703f6a34e0496a8c2e606292f59ffb a foaf:Person ;
+    foaf:givenName "Ron" ;
+    foaf:surname "Eglash" .
+
+_:Nde128c15e6c245faaed8fee74433ab00 a foaf:Person ;
+    foaf:givenName "Daniel" ;
+    foaf:surname "Solove" .
+

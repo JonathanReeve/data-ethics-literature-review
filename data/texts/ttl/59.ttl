@@ -1,0 +1,24 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<DE7NY4VX> a z:UserItem ;
+    res:resource <urn:isbn:978-1633539075> .
+
+<urn:isbn:978-1633539075> a bibo:Book ;
+    dcterms:creator _:Nce31a9f3f2af4a3f895531344c0e24dd ;
+    dcterms:date "2018" ;
+    dcterms:publisher [ a foaf:Organization ;
+            foaf:name "Mango Publishing" ] ;
+    dcterms:title "Films from the Future: The Technology and Morality of Sci-Fi Movies" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nce31a9f3f2af4a3f895531344c0e24dd ] ;
+    bibo:isbn13 "978-1633539075" .
+
+_:Nce31a9f3f2af4a3f895531344c0e24dd a foaf:Person ;
+    foaf:givenName "Andrew" ;
+    foaf:surname "Maynard" .
+

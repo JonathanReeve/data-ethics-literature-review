@@ -1,0 +1,98 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<4C4NUE5E> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N00e1031d761f454d956beaa55bb364f0,
+                _:N4d0e75fbd1a34b2baa82064e191c5ff0,
+                _:Na17f39a89f6947039a345f63381003e9 ;
+            dcterms:date "2018" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "New-York, Upturn" ] ;
+            dcterms:title "Public scrutiny of automated decisions" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N00e1031d761f454d956beaa55bb364f0 ;
+                    rdf:_2 _:N4d0e75fbd1a34b2baa82064e191c5ff0 ;
+                    rdf:_3 _:Na17f39a89f6947039a345f63381003e9 ] ] .
+
+<D632ME24> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc9ee3ae509c0495c84df248d3fbc1408 ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "SAGE publications" ] ;
+            dcterms:title "The data revolution: Big data, open data, data infrastructures and their consequences" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc9ee3ae509c0495c84df248d3fbc1408 ] ] .
+
+<R9TKCUG3> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N3c874f7f4f6c43bfaf21fb8fdcbd97e0 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Crown" ] ;
+            dcterms:title "Weapons of math destructions" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3c874f7f4f6c43bfaf21fb8fdcbd97e0 ] ] .
+
+<XS4UPKVM> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4b0c965da2c04ec4982cf0057f8de14b,
+                _:N79c373e6c8884dc1969893a1e1022e89 ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Paris" ;
+                    foaf:name "Etalab" ] ;
+            dcterms:title "With great power comes great responsibility: keeping public sector algorithms accountable (working paper" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4b0c965da2c04ec4982cf0057f8de14b ;
+                    rdf:_2 _:N79c373e6c8884dc1969893a1e1022e89 ] ] .
+
+<Z7FRTQBI> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Neaf1c1ae56c946e8ae9da328d452bcd4 ;
+            dcterms:date "2018" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Santa Clara University" ] ;
+            dcterms:title "An introduction to data ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Neaf1c1ae56c946e8ae9da328d452bcd4 ] ] .
+
+_:N00e1031d761f454d956beaa55bb364f0 a foaf:Person ;
+    foaf:givenName "R.I.E.K.E." ;
+    foaf:surname "Aaron" .
+
+_:N3c874f7f4f6c43bfaf21fb8fdcbd97e0 a foaf:Person ;
+    foaf:givenName "O.'N.E.I.L." ;
+    foaf:surname "Cathy" .
+
+_:N4b0c965da2c04ec4982cf0057f8de14b a foaf:Person ;
+    foaf:givenName "C.H.I.G.N.A.R.D." ;
+    foaf:surname "Simon" .
+
+_:N4d0e75fbd1a34b2baa82064e191c5ff0 a foaf:Person ;
+    foaf:givenName "B.O.G.E.N." ;
+    foaf:surname "Miranda" .
+
+_:N79c373e6c8884dc1969893a1e1022e89 a foaf:Person ;
+    foaf:givenName "P.E.N.I.C.A.U.C." ;
+    foaf:surname "Soizic" .
+
+_:Na17f39a89f6947039a345f63381003e9 a foaf:Person ;
+    foaf:givenName "R.O.B.I.N.S.O.N." ;
+    foaf:surname "David" .
+
+_:Nc9ee3ae509c0495c84df248d3fbc1408 a foaf:Person ;
+    foaf:givenName "K.I.T.C.H.I.N." ;
+    foaf:surname "Rob" .
+
+_:Neaf1c1ae56c946e8ae9da328d452bcd4 a foaf:Person ;
+    foaf:givenName "V.A.L.L.O.R." ;
+    foaf:surname "Shannon" .
+

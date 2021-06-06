@@ -1,0 +1,100 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<EGKDFDEU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9ebaa3364e1b41c9b015b7e2b3bb0031 ;
+            dcterms:title "Keith Abney, and George Bekey, Robot Ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9ebaa3364e1b41c9b015b7e2b3bb0031 ] ] .
+
+<G8AUI4RI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N493c76a97b6242acae04145af09993d6,
+                _:Nfa9ed02d462e4a6e8c3bbb496e28bfa5 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfa9ed02d462e4a6e8c3bbb496e28bfa5 ;
+                    rdf:_2 _:N493c76a97b6242acae04145af09993d6 ] ] .
+
+<M7SWRHJV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N02727ac3bac04de3ab72631d2510c63b,
+                _:N757218d2009c4b8c8285cd00c580dbfb,
+                _:Nabd42e3fce054422b0585674f8b97986 ;
+            dcterms:title "Robot Ethics 2.0" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N757218d2009c4b8c8285cd00c580dbfb ;
+                    rdf:_2 _:N02727ac3bac04de3ab72631d2510c63b ;
+                    rdf:_3 _:Nabd42e3fce054422b0585674f8b97986 ] ] .
+
+<MKSL7LN5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nacaa217d251242a088325548755b76df ;
+            dcterms:title "Automating Inequality" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nacaa217d251242a088325548755b76df ] ] .
+
+<PB8P9TNU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na27e864f306c42fc8860f5d02fbe7217,
+                _:Ndf3ad15dce374d7697ca3c06919719c4 ;
+            dcterms:title "Moral Machines" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na27e864f306c42fc8860f5d02fbe7217 ;
+                    rdf:_2 _:Ndf3ad15dce374d7697ca3c06919719c4 ] ] .
+
+<YPGC2TPZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N15e43ef1a6c54ca9b178f8143a99b8db,
+                _:N230c8759ea714fe1989819c45f59db0b ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N15e43ef1a6c54ca9b178f8143a99b8db ;
+                    rdf:_2 _:N230c8759ea714fe1989819c45f59db0b ] ] .
+
+_:N02727ac3bac04de3ab72631d2510c63b a foaf:Person ;
+    foaf:givenName "Ryan" ;
+    foaf:surname "Jenkins" .
+
+_:N15e43ef1a6c54ca9b178f8143a99b8db a foaf:Person ;
+    foaf:givenName "Nick" ;
+    foaf:surname "Bostrom" .
+
+_:N230c8759ea714fe1989819c45f59db0b a foaf:Organization ;
+    foaf:name "Superintelligence" .
+
+_:N493c76a97b6242acae04145af09993d6 a foaf:Person ;
+    foaf:givenName "Robot" ;
+    foaf:surname "Law" .
+
+_:N757218d2009c4b8c8285cd00c580dbfb a foaf:Person ;
+    foaf:givenName "Patrick" ;
+    foaf:surname "Lin" .
+
+_:N9ebaa3364e1b41c9b015b7e2b3bb0031 a foaf:Person ;
+    foaf:givenName "Patrick" ;
+    foaf:surname "Lin" .
+
+_:Na27e864f306c42fc8860f5d02fbe7217 a foaf:Person ;
+    foaf:givenName "Wendell" ;
+    foaf:surname "Wallach" .
+
+_:Nabd42e3fce054422b0585674f8b97986 a foaf:Person ;
+    foaf:givenName "Keith" ;
+    foaf:surname "Abney" .
+
+_:Nacaa217d251242a088325548755b76df a foaf:Person ;
+    foaf:givenName "Virginia" ;
+    foaf:surname "Eubanks" .
+
+_:Ndf3ad15dce374d7697ca3c06919719c4 a foaf:Person ;
+    foaf:givenName "Collin" ;
+    foaf:surname "Allen" .
+
+_:Nfa9ed02d462e4a6e8c3bbb496e28bfa5 a foaf:Person ;
+    foaf:givenName "Ryan" ;
+    foaf:surname "Calo" .
+

@@ -1,0 +1,734 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_17> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Information Systems (TOIS),</p>" ] .
+
+<2IM7E7S6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0d0b3d84f1b64af3805d3d5717845b0e ;
+            dcterms:date "2017" ;
+            dcterms:title "- Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0d0b3d84f1b64af3805d3d5717845b0e ] ] .
+
+<2KA5GVHA> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nc03d4f29f27b4c4bbe624607f4e69603,
+                _:Nd46903b577204aa3898700d824c7f5d9 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2008" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ACM SIGCAS Computers and Society" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "38" ] ;
+            dcterms:title "Online file sharing: resolving the tensions between privacy and property interests" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd46903b577204aa3898700d824c7f5d9 ;
+                    rdf:_2 _:Nc03d4f29f27b4c4bbe624607f4e69603 ] ;
+            bibo:pages "28–39" ] .
+
+<37HVGALG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Naa6e71dfda6b478585161052b2693005 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Naa6e71dfda6b478585161052b2693005 ] ] .
+
+<3NGZYC9R> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nb30e662518d5435cad2b95a7f1222032,
+                _:Nf2195f6d25ef46de9efc8cb44b79039c ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Data & Society" ] ;
+            dcterms:title "Media manipulation and disinformation online" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf2195f6d25ef46de9efc8cb44b79039c ;
+                    rdf:_2 _:Nb30e662518d5435cad2b95a7f1222032 ] ] .
+
+<4LAAI558> a z:UserItem ;
+    res:resource <http://www.iep.utm.edu/dist-jus/> .
+
+<4VXUKXXM> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ndba476f3f32342d5a62df923d8808e6d ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ch" ] ;
+                    bibo:volume "4" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndba476f3f32342d5a62df923d8808e6d ] ;
+            bibo:pages "101–126" ] .
+
+<5AYV9HEP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nd3c77f10de6c4c86bd0b03db67d30e60 ;
+            dcterms:date "2007" ;
+            dcterms:title "Open access overview" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd3c77f10de6c4c86bd0b03db67d30e60 ] ] .
+
+<5GI4HMIB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8e80c235379242f6b1d4d32c32b2f430,
+                _:N935a358e3b9149819602961d2e5e7d58 ;
+            dcterms:date "2009" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N935a358e3b9149819602961d2e5e7d58 ;
+                    rdf:_2 _:N8e80c235379242f6b1d4d32c32b2f430 ] ] .
+
+<6ECW2M5G> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9db0b9189c164bc98596b737c45a8b77,
+                _:Nbc6111247c3b48689b0fcda3dc08dec8 ;
+            dcterms:date "1996" ;
+            dcterms:title "Bias" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9db0b9189c164bc98596b737c45a8b77 ;
+                    rdf:_2 _:Nbc6111247c3b48689b0fcda3dc08dec8 ] ] .
+
+<6W9BR8CM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nfbcda1caf0394cadbd2b7e8641e2dfda ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfbcda1caf0394cadbd2b7e8641e2dfda ] ] .
+
+<6ZP3U32A> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Invention” - The Power of Technology" ] .
+
+<8TWPKAUN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N21f65abe4bcc425bbc33bc07e1fedbe3 ;
+            dcterms:date "2016" ;
+            dcterms:title "Can you program ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N21f65abe4bcc425bbc33bc07e1fedbe3 ] ] .
+
+<A2RXBKMY> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N662901ce1ea74cbf935f32cf069db101 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of the Association for Information Science and Technology" ] ;
+                    bibo:issue "7" ;
+                    bibo:volume "68" ] ;
+            dcterms:title "Beyond distributions and primary goods: Assessing applications of Rawls in information science and technology literature since 1990" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N662901ce1ea74cbf935f32cf069db101 ] ;
+            bibo:pages "1601–1618" ] .
+
+<A9R6XMGL> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N2a7588424b654fbcbb89e25010fbca8a,
+                _:N5a98c6dc106348c8a161596e79a73a5d ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2014" ;
+                    dcterms:title "The Cambridge 4 handbook of artificial intelligence" ] ;
+            dcterms:title "The ethics of artificial intelligence" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5a98c6dc106348c8a161596e79a73a5d ;
+                    rdf:_2 _:N2a7588424b654fbcbb89e25010fbca8a ] ;
+            bibo:pages "316–334" ] .
+
+<ACH4T4UW> a z:UserItem ;
+    res:resource <http://www.iep.utm.edu/care-eth/> .
+
+<AKMFHXCQ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N542f7c71cdfd4a13ad66aa0db6d83b9f,
+                _:N91f43df04aba4b529acfad62b5bafd3b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2008" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ACM SIGCAS Computers and Society" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "38" ] ;
+            dcterms:title "Online file sharing: resolving the tensions between privacy and property interests" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N91f43df04aba4b529acfad62b5bafd3b ;
+                    rdf:_2 _:N542f7c71cdfd4a13ad66aa0db6d83b9f ] ;
+            bibo:pages "28–39" ] .
+
+<AXP2Y5MV> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ne1f857da146348679e83eb81e8c69d05 ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Ethics and Information" ] ;
+            dcterms:title "Defending the morality of violent video games" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne1f857da146348679e83eb81e8c69d05 ] ] .
+
+<B92JY42L> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N811bb32e40a249148fcf096bab6550a8 ;
+            dcterms:date "2017" ;
+            dcterms:title "- Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N811bb32e40a249148fcf096bab6550a8 ] ] .
+
+<C9NT59ZJ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ndab4f30974f947cea9ed24e596889c0c ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Scientific American" ] ;
+                    bibo:issue "5" ;
+                    bibo:volume "319" ] ;
+            dcterms:title "Automating Bias" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndab4f30974f947cea9ed24e596889c0c ] ;
+            bibo:pages "68–71" ] .
+
+<DBYQ3SSK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nf97c30a8a31945a29a61149e52df115d ;
+            dcterms:date "2017" ;
+            dcterms:title "- Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf97c30a8a31945a29a61149e52df115d ] ] .
+
+<E2WZSJDD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Naf3f0018e68b4825a08a74b5661408b8 ;
+            dcterms:date "2017" ;
+            dcterms:title "- Technology and the Virtues" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Naf3f0018e68b4825a08a74b5661408b8 ] ] .
+
+<E9BY33XX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N132b4e45deb74537ab79e29e5da53d90,
+                _:N806eabd8242a4c6880030edaab8241ad ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N806eabd8242a4c6880030edaab8241ad ;
+                    rdf:_2 _:N132b4e45deb74537ab79e29e5da53d90 ] ] .
+
+<ELBQDQS3> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "IEEE Spectrum" ] ;
+                    bibo:issue "6" ;
+                    bibo:volume "53" ] ;
+            dcterms:title "into a self-driving car?" ] .
+
+<FKWQLESL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9b17530c4f5543bebd5841395d3987bc,
+                _:Nd7d408b7c22c447c99e26b4688d5bdb7,
+                _:Nf044aa0f868a4243a917a4b747ee4dfe ;
+            dcterms:date "2008" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Reframe, Recycle" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9b17530c4f5543bebd5841395d3987bc ;
+                    rdf:_2 _:Nf044aa0f868a4243a917a4b747ee4dfe ;
+                    rdf:_3 _:Nd7d408b7c22c447c99e26b4688d5bdb7 ] ] .
+
+<G5AMSAH5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nf78f7b31635846ee833440f1c30a3bbb ;
+            dcterms:date "2007" ;
+            dcterms:title "Open access overview" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf78f7b31635846ee833440f1c30a3bbb ] ] .
+
+<GCL8MJ8U> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N62cdbbf4f1cf416a87ddfc06995fa876 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Moot. ACM SIGCAS Computers and Society" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "43" ] ;
+            dcterms:title "The ethics of online anonymity or Zuckerberg vs" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N62cdbbf4f1cf416a87ddfc06995fa876 ] ;
+            bibo:pages "22–35" ] .
+
+<GDKL7DGD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N19bd10ade55e47828ee21dbc4442bb4a ;
+            dcterms:date "2016" ;
+            dcterms:title "Ch. 2, Ch. 3, Ch.8 from “The Final Paper Due Ethics of Invention” – Risk and Responsibility" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N19bd10ade55e47828ee21dbc4442bb4a ] ] .
+
+<GKUP7ELX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na69baf81b1964a2baf0cab76c227b245 ;
+            dcterms:date "2016" ;
+            dcterms:title "Ch. 1 from “The Ethics of" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na69baf81b1964a2baf0cab76c227b245 ] ] .
+
+<GQAW6VHR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nd2cee455cc294e8ebffe68fe466eca40 ;
+            dcterms:date "2011" ;
+            dcterms:title "Library licensing and criminal" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd2cee455cc294e8ebffe68fe466eca40 ] ] .
+
+<GR6BLY3U> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Screening: Frontline: The United States of Secrets" ] .
+
+<GSF4FH7B> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Ethical Anatomy of Disasters, Reclaiming" ] .
+
+<GY5RJFTF> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "ACM Transactions on" ] ;
+            dcterms:title "in computer systems" ] .
+
+<J99MC2UP> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N78c2ed4aed7347ea9a3030789df0a03a ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ch" ] ;
+                    bibo:volume "5" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N78c2ed4aed7347ea9a3030789df0a03a ] ;
+            bibo:pages "131–168" ] .
+
+<JEQD26BU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N72ea39350bb54c759c5f8341a2dd33cb ;
+            dcterms:date "2012" ;
+            dcterms:title "Missed Connections: What Search Engines Say About Women" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N72ea39350bb54c759c5f8341a2dd33cb ] ] .
+
+<JFSLN7IA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne3949317b3134a1cb9b4a44a39c7cdc4 ;
+            dcterms:date "2017" ;
+            dcterms:title "- Technology and the Virtues: Wanting" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne3949317b3134a1cb9b4a44a39c7cdc4 ] ] .
+
+<KAX8IMKS> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nbba81c6ed9344abebd9bd3ffb9357573 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ch" ] ;
+                    bibo:volume "11" ] ;
+            dcterms:title "7 (221-225" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbba81c6ed9344abebd9bd3ffb9357573 ] ;
+            bibo:pages "355–363" ] .
+
+<KTATQC9G> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4b520a94f8e947dab43cb613e36d069b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2011" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "College & Research Libraries News" ] ;
+                    bibo:issue "9" ;
+                    bibo:volume "72" ] ;
+            dcterms:title "Library licensing and criminal law: The Aaron Swartz case" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4b520a94f8e947dab43cb613e36d069b ] ;
+            bibo:pages "534–537" ] .
+
+<LFYNHPQL> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "College & Research Libraries News" ] ;
+                    bibo:issue "9" ;
+                    bibo:volume "72" ] ;
+            dcterms:title "law: The Aaron Swartz case" ;
+            bibo:pages "534–537" ] .
+
+<M5UMJG3R> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Information technology and moral philosophy" ] ;
+                    bibo:volume "322" ] ;
+            dcterms:title "Theory and practice" ] .
+
+<NH4S766Y> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N1ce6fef85bf54c9daae76b0eebb3d46f ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ch" ] ;
+                    bibo:volume "8 (230-242" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1ce6fef85bf54c9daae76b0eebb3d46f ] ;
+            bibo:pages "245–249" ] .
+
+<PJVETJIF> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<PZFIPAD7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nfaaeb13e93b04a2f92e6aceb91bb92c9 ;
+            dcterms:date "2013" ;
+            dcterms:title "Digital media ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfaaeb13e93b04a2f92e6aceb91bb92c9 ] ] .
+
+<QHLXJJJ6> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<RN6HQQ6E> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ncbb8d27e0e1148ae8aa3215a95196829 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ch" ] ;
+                    bibo:volume "6" ] ;
+            dcterms:title "Digital media ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncbb8d27e0e1148ae8aa3215a95196829 ] ;
+            bibo:pages "167–183 207–214" ] .
+
+<RYNA7ZYG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N61a28904d0e142dd91da664120aa1883 ;
+            dcterms:date "2016" ;
+            dcterms:title "Ch. 5 from “The Ethics of Invention” – Tinkering with Humans" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N61a28904d0e142dd91da664120aa1883 ] ] .
+
+<S4L2NVYH> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Naf39e7a68bd24b7bb62c0d83687833b1 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ch" ] ;
+                    bibo:volume "2 (33" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Naf39e7a68bd24b7bb62c0d83687833b1 ] ;
+            bibo:pages "– 70" ] .
+
+<SZI4X5S2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na3c8c2417985419495df514ffae7a845 ;
+            dcterms:date "2015" ;
+            dcterms:title "The ethics of government77-105" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na3c8c2417985419495df514ffae7a845 ] ] .
+
+<TVSJP3VJ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ncbd57cad465c4c2e9d6b5f09cbd14be5 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ethics & Global Politics" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "6" ] ;
+            dcterms:title "Is it OK to be an Anonymous?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncbd57cad465c4c2e9d6b5f09cbd14be5 ] ;
+            bibo:pages "22527" ] .
+
+<UFBMAPHW> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4f19663fb14a4048806d6e75eedb829d ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ch" ] ;
+                    bibo:volume "8 (230-242" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4f19663fb14a4048806d6e75eedb829d ] ;
+            bibo:pages "245–249" ] .
+
+<VCRBF3TG> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N3a3d2677106a41fb8ec6128c3cdbcc7e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ch" ] ;
+                    bibo:volume "3 (30" ] ;
+            dcterms:title "Digital media ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3a3d2677106a41fb8ec6128c3cdbcc7e ] ;
+            bibo:pages "–" ] .
+
+<XUZBW3XA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N37b2211fc8a1431b8f085c6e6b7152e8,
+                _:N6106b22293444f2881cf7ada0621a0ff,
+                _:Nf8e743a31eb541c7829984111fceb2b6 ;
+            dcterms:date "2008" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf8e743a31eb541c7829984111fceb2b6 ;
+                    rdf:_2 _:N6106b22293444f2881cf7ada0621a0ff ;
+                    rdf:_3 _:N37b2211fc8a1431b8f085c6e6b7152e8 ] ] .
+
+<XZQS9E7E> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "International Review of Information Ethics" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "10" ] ;
+            dcterms:title "Values and pragmatic action: The challenges of introducing ethical intelligence in technical design communities" ;
+            bibo:pages "37–45" ] .
+
+<Y9VBL8ZD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N338b150e5af94921bc59f78164c18f0d,
+                _:N77fb1bf4e4394ea9a457249f88f4cc21,
+                _:Nf8d1a4bacd2f4f53ae2e487cfd041161 ;
+            dcterms:date "2008" ;
+            dcterms:title "Embodying values in technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N338b150e5af94921bc59f78164c18f0d ;
+                    rdf:_2 _:N77fb1bf4e4394ea9a457249f88f4cc21 ;
+                    rdf:_3 _:Nf8d1a4bacd2f4f53ae2e487cfd041161 ] ] .
+
+<http://www.iep.utm.edu/care-eth/> a bibo:Document ;
+    dcterms:creator _:N18374052491e4749ac5ae6a685f79311 ;
+    dcterms:date "2014" ;
+    dcterms:title "Ethics of care" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N18374052491e4749ac5ae6a685f79311 ] ;
+    bibo:uri "http://www.iep.utm.edu/care-eth/" .
+
+<http://www.iep.utm.edu/dist-jus/> a bibo:Document ;
+    dcterms:creator _:Ne3da45a68c554a609bd7924272ff9bac ;
+    dcterms:date "2013" ;
+    dcterms:title "Distributive Justice" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne3da45a68c554a609bd7924272ff9bac ] ;
+    bibo:uri "http://www.iep.utm.edu/dist-jus/" .
+
+_:N0d0b3d84f1b64af3805d3d5717845b0e a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Vallor" .
+
+_:N132b4e45deb74537ab79e29e5da53d90 a foaf:Organization ;
+    foaf:name "Recycle" .
+
+_:N18374052491e4749ac5ae6a685f79311 a foaf:Organization ;
+    foaf:name "Sander-Staudt" .
+
+_:N19bd10ade55e47828ee21dbc4442bb4a a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Jasanoff" .
+
+_:N1ce6fef85bf54c9daae76b0eebb3d46f a foaf:Organization ;
+    foaf:name "Tavani" .
+
+_:N21f65abe4bcc425bbc33bc07e1fedbe3 a foaf:Person ;
+    foaf:givenName "N.J." ;
+    foaf:surname "Goodall" .
+
+_:N2a7588424b654fbcbb89e25010fbca8a a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Yudkowsky" .
+
+_:N338b150e5af94921bc59f78164c18f0d a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Flanagan" .
+
+_:N37b2211fc8a1431b8f085c6e6b7152e8 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Sieling" .
+
+_:N3a3d2677106a41fb8ec6128c3cdbcc7e a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Ess" .
+
+_:N4b520a94f8e947dab43cb613e36d069b a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Sims" .
+
+_:N4f19663fb14a4048806d6e75eedb829d a foaf:Organization ;
+    foaf:name "Tavani" .
+
+_:N542f7c71cdfd4a13ad66aa0db6d83b9f a foaf:Person ;
+    foaf:givenName "H.T." ;
+    foaf:surname "Tavani" .
+
+_:N5a98c6dc106348c8a161596e79a73a5d a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Bostrom" .
+
+_:N6106b22293444f2881cf7ada0621a0ff a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Jaszi" .
+
+_:N61a28904d0e142dd91da664120aa1883 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Jasanoff" .
+
+_:N62cdbbf4f1cf416a87ddfc06995fa876 a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Bodle" .
+
+_:N662901ce1ea74cbf935f32cf069db101 a foaf:Person ;
+    foaf:givenName "A.L." ;
+    foaf:surname "Hoffmann" .
+
+_:N72ea39350bb54c759c5f8341a2dd33cb a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Noble" .
+
+_:N77fb1bf4e4394ea9a457249f88f4cc21 a foaf:Person ;
+    foaf:givenName "D.C." ;
+    foaf:surname "Howe" .
+
+_:N78c2ed4aed7347ea9a3030789df0a03a a foaf:Organization ;
+    foaf:name "Tavani" .
+
+_:N806eabd8242a4c6880030edaab8241ad a foaf:Person ;
+    foaf:givenName "Reframe" ;
+    foaf:surname "Recut" .
+
+_:N811bb32e40a249148fcf096bab6550a8 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Vallor" .
+
+_:N8e80c235379242f6b1d4d32c32b2f430 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Zimmer" .
+
+_:N91f43df04aba4b529acfad62b5bafd3b a foaf:Person ;
+    foaf:givenName "F.S." ;
+    foaf:surname "Grodzinsky" .
+
+_:N935a358e3b9149819602961d2e5e7d58 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Manders-Huits" .
+
+_:N9b17530c4f5543bebd5841395d3987bc a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Aufderheide" .
+
+_:N9db0b9189c164bc98596b737c45a8b77 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Friedman" .
+
+_:Na3c8c2417985419495df514ffae7a845 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Delmas" .
+
+_:Na69baf81b1964a2baf0cab76c227b245 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Jasanoff" .
+
+_:Naa6e71dfda6b478585161052b2693005 a foaf:Person ;
+    foaf:givenName "Tavani" ;
+    foaf:surname "Ch" .
+
+_:Naf39e7a68bd24b7bb62c0d83687833b1 a foaf:Organization ;
+    foaf:name "Tavani" .
+
+_:Naf3f0018e68b4825a08a74b5661408b8 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Vallor" .
+
+_:Nb30e662518d5435cad2b95a7f1222032 a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Lewis" .
+
+_:Nbba81c6ed9344abebd9bd3ffb9357573 a foaf:Person ;
+    foaf:givenName "Ch" ;
+    foaf:surname "Tavani" .
+
+_:Nbc6111247c3b48689b0fcda3dc08dec8 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Nissenbaum" .
+
+_:Nc03d4f29f27b4c4bbe624607f4e69603 a foaf:Person ;
+    foaf:givenName "H.T." ;
+    foaf:surname "Tavani" .
+
+_:Ncbb8d27e0e1148ae8aa3215a95196829 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Ess" .
+
+_:Ncbd57cad465c4c2e9d6b5f09cbd14be5 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Serracino-Inglott" .
+
+_:Nd2cee455cc294e8ebffe68fe466eca40 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Sims" .
+
+_:Nd3c77f10de6c4c86bd0b03db67d30e60 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Suber" .
+
+_:Nd46903b577204aa3898700d824c7f5d9 a foaf:Person ;
+    foaf:givenName "F.S." ;
+    foaf:surname "Grodzinsky" .
+
+_:Nd7d408b7c22c447c99e26b4688d5bdb7 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Sieling" .
+
+_:Ndab4f30974f947cea9ed24e596889c0c a foaf:Person ;
+    foaf:givenName "V." ;
+    foaf:surname "Eubanks" .
+
+_:Ndba476f3f32342d5a62df923d8808e6d a foaf:Organization ;
+    foaf:name "Tavani" .
+
+_:Ne1f857da146348679e83eb81e8c69d05 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Schulzke" .
+
+_:Ne3949317b3134a1cb9b4a44a39c7cdc4 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Vallor" .
+
+_:Ne3da45a68c554a609bd7924272ff9bac a foaf:Organization ;
+    foaf:name "Allingham" .
+
+_:Nf044aa0f868a4243a917a4b747ee4dfe a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Jaszi" .
+
+_:Nf2195f6d25ef46de9efc8cb44b79039c a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Marwick" .
+
+_:Nf78f7b31635846ee833440f1c30a3bbb a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Suber" .
+
+_:Nf8d1a4bacd2f4f53ae2e487cfd041161 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Nissenbaum" .
+
+_:Nf8e743a31eb541c7829984111fceb2b6 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Aufderheide" .
+
+_:Nf97c30a8a31945a29a61149e52df115d a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Vallor" .
+
+_:Nfaaeb13e93b04a2f92e6aceb91bb92c9 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Ess" .
+
+_:Nfbcda1caf0394cadbd2b7e8641e2dfda a foaf:Organization ;
+    foaf:name "Wanting" .
+

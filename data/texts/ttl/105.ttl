@@ -1,0 +1,1063 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_61> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Publicity, and</p>" ] .
+
+<274C89RY> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Ndc8765878e3347fb8c4512c157411c0b ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2016" ;
+                    dcterms:title "Understanding Opacity in Machine Learning" ] ;
+            dcterms:title "How the Machine ‘Thinks" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndc8765878e3347fb8c4512c157411c0b ] ] .
+
+<2HTMAPDZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4f22be7e83354fe79dec8ce664c5347b ;
+            dcterms:date "2015" ;
+            dcterms:title "Chapter 1 and 2 in The Black Box Society: The Secret Algorithms That" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4f22be7e83354fe79dec8ce664c5347b ] ] .
+
+<4R572WR9> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Cultural Studies" ] ;
+                    bibo:issue "4-5" ;
+                    bibo:volume "18" ] ;
+            bibo:pages "479–496" ] .
+
+<4UBCAVP4> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Baltimore" ;
+                    foaf:name "John Hopkins University Press" ] ;
+            dcterms:title "Debate over Technological Unemployment, 1929-1981" ] .
+
+<4XU63NBC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5e92d7b70d6f46de9ae28cc5bba02ac6,
+                _:Nc9c7312b92e14463b6f5341cc160a2c3 ;
+            dcterms:date "2018" ;
+            dcterms:title "Refractive Surveillance. Monitoring Customers to" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc9c7312b92e14463b6f5341cc160a2c3 ;
+                    rdf:_2 _:N5e92d7b70d6f46de9ae28cc5bba02ac6 ] ] .
+
+<56ZV83JD> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N1c61e03669064f28b5ae468c544722ea,
+                _:Na508be1eb99e49f482095503660643c1 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2015" ;
+                    dcterms:title "2015" ] ;
+            dcterms:title "Algorithmic Authority: The case of Bitcoin" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1c61e03669064f28b5ae468c544722ea ;
+                    rdf:_2 _:Na508be1eb99e49f482095503660643c1 ] ] .
+
+<5M6SZ7NI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N72c30bcdd5db4b169810b31ed634da4d ;
+            dcterms:date "2008" ;
+            dcterms:title "Bitcoin: A Peer-to-Peer Electronic Cash System" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N72c30bcdd5db4b169810b31ed634da4d ] ] .
+
+<5UVET34V> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ndd84a197cded4a2b94b7884d30ec930b ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "St Martin’s Press" ] ;
+            dcterms:title "Introduction and Chapter 2 in Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndd84a197cded4a2b94b7884d30ec930b ] ] .
+
+<6C73PHAM> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Times Book" ] ;
+            dcterms:title "Freedom in a World of Relentless Surveillance" ] .
+
+<6FZQFHC8> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N9fa68dbb7882415db3e7378f93e2c14f ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2015" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "MIT Press" ] ;
+                    dcterms:title "Little Data, No Data: Scholarship in the Networked World" ] ;
+            dcterms:title "Preface and Chapter 1 in Big Data" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9fa68dbb7882415db3e7378f93e2c14f ] ] .
+
+<6ZAK8EDT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1fb91125f6334816b3b4d4e043d7d2af ;
+            dcterms:date "2017" ;
+            dcterms:title "Working Algorithms: Software Automation and the Future of" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1fb91125f6334816b3b4d4e043d7d2af ] ] .
+
+<74CH6ES8> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Chicago" ;
+                    foaf:name "The University of Chicago Press" ] ;
+            dcterms:title "in Digital Capitalism" ] .
+
+<78UW26PQ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N3207854a73194404885d9c83278e011c,
+                _:N74a71f67cbaf49c2890208accfdd896b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "A" ] ] ;
+            dcterms:title "Algorithmic Labor and Information Asymmetries" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N74a71f67cbaf49c2890208accfdd896b ;
+                    rdf:_2 _:N3207854a73194404885d9c83278e011c ] ] .
+
+<89824NNY> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N782de492add041b7a8f4ae9d3c2f7b6e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Information, Communication & Society" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "20" ] ;
+            dcterms:title "The Algorithmic Imaginary: Exploring the Ordinary Affects of Facebook Algorithms" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N782de492add041b7a8f4ae9d3c2f7b6e ] ;
+            bibo:pages "30–44" ] .
+
+<8BP96AY3> a z:UserItem ;
+    res:resource <https://motherboard.vice.com/en_us/article/ae3p7e/bitcoin-is-unsustainable> .
+
+<96MIGR94> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ndda5b7c51dbf42f0a1ada85cdee2fc54 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2011" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Daedalus" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "140" ] ;
+            dcterms:title "A Contextual Approach to Privacy Online" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndda5b7c51dbf42f0a1ada85cdee2fc54 ] ;
+            bibo:pages "32–48" ] .
+
+<98NTB5XR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6873e0af636a4cf5ad7c5e594a4de1d9 ;
+            dcterms:date "2014" ;
+            dcterms:title "The Laborers Who Keep Dick Pics and Beheadings Out of Your Facebook" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6873e0af636a4cf5ad7c5e594a4de1d9 ] ] .
+
+<A7I387U5> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N5bc36042d28f4f3fb9a54c44bddb4d69 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "American Sociological Review" ] ;
+                    bibo:issue "5" ;
+                    bibo:volume "82" ] ;
+            dcterms:title "Big Data Surveillance: The Case of Policing" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5bc36042d28f4f3fb9a54c44bddb4d69 ] ;
+            bibo:pages "977–1008" ] .
+
+<AHMGMR4Y> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "European" ] ;
+            dcterms:title "Years of Self-Tracking from the Weight Scale to the Wrist Wearable Device" ] .
+
+<ALURJ5XZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb4c31c7c04814fc995ea136026437337 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb4c31c7c04814fc995ea136026437337 ] ] .
+
+<AWHYXRGN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nfac295d76b434d9ba3743628a313445b ;
+            dcterms:date "2018" ;
+            dcterms:title "Blue Feed, Red Feed: See Liberal Facebook and Conservative Facebook" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfac295d76b434d9ba3743628a313445b ] ] .
+
+<BFRP2FXZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4ad207e5ae504e2e8b9402e21d693b31,
+                _:Na7beabcff0a84f1b82380e176b551f95 ;
+            dcterms:date "1998" ;
+            dcterms:title "Commensuration as a Social" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na7beabcff0a84f1b82380e176b551f95 ;
+                    rdf:_2 _:N4ad207e5ae504e2e8b9402e21d693b31 ] ] .
+
+<CN3FTRXB> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N9b97a83de8604ef4a210bb7f805c2f3b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Guardian" ] ] ;
+            dcterms:title "How Statistics Lost Their Power – And Why We Should Fear What Comes Next" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9b97a83de8604ef4a210bb7f805c2f3b ] ] .
+
+<D3UTFQ7W> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "International Journal of Communication" ] ;
+                    bibo:volume "10" ] ;
+            dcterms:title "Case Study of Uber Drivers" ;
+            bibo:pages "3758–3784" ] .
+
+<D7WLLGR7> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N84bb141b928a4cbd8979c87a6cbdea74,
+                _:Nf8ae5f22cdb744d5ae881cfdce687f9f ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New Media" ;
+                    foaf:name "Society" ] ;
+            dcterms:title "Seeing Without Knowing: Limitations of the Transparency Ideal and its Application to Algorithmic Accountability" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf8ae5f22cdb744d5ae881cfdce687f9f ;
+                    rdf:_2 _:N84bb141b928a4cbd8979c87a6cbdea74 ] ] .
+
+<DIA9LFBC> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016-11-17" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "MIT Technology Review" ] ] ] .
+
+<DPN9ZGRR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N38832eacf73e45939b2d0b6b88aaa504 ;
+            dcterms:date "2014" ;
+            dcterms:title "Chapter 1 and 2 in Dragnet Nation: A Quest for Privacy, Security, and" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N38832eacf73e45939b2d0b6b88aaa504 ] ] .
+
+<E24AEMIH> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N83972a68539b42529a816e7d2674de23,
+                _:Ne7f1d5f20c3049adb4c8e4e3cb712688 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2015" ;
+                    dcterms:title "Social Media + Society" ] ;
+            dcterms:title "‘Having it All’ on Social Media: Entrepreneurial Femininity and Self-Branding Among Fashion Bloggers" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N83972a68539b42529a816e7d2674de23 ;
+                    rdf:_2 _:Ne7f1d5f20c3049adb4c8e4e3cb712688 ] ;
+            bibo:pages "1–15" ] .
+
+<EVPWIH9F> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Society Online: The Internet" ;
+                    bibo:editor _:N6b1b4e0237794ccfb4ce9f3b26380134,
+                        _:Ne9492919877943f18cf94374f3a08ab5 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Ne9492919877943f18cf94374f3a08ab5 ;
+                            rdf:_2 _:N6b1b4e0237794ccfb4ce9f3b26380134 ] ] ;
+            dcterms:title "Era" ;
+            bibo:pages "173–188" ] .
+
+<EVUNF28K> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Washington Post. October" ] ;
+                    bibo:volume "17" ] ;
+            dcterms:title "Used for Bail and Sentencing Decisions Was Labeled Biased Against Blacks. It’s Actually Not That Clear" ] .
+
+<FHSUHV3T> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nf204bb5b99204eec981ed7fe467ca92c ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2009" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Sociological Theory" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "27" ] ;
+            dcterms:title "Global Labor: Algocratic Modes of Organization" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf204bb5b99204eec981ed7fe467ca92c ] ;
+            bibo:pages "347–370" ] .
+
+<FR5H3KZW> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N78968ba6c0254d42bef8d53cb44a5473 ;
+            dcterms:date "1959" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York" ;
+                    foaf:name "Doubleday" ] ;
+            dcterms:title "Pp. 1-34 in The Presentation of Self in Everyday Life" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N78968ba6c0254d42bef8d53cb44a5473 ] ] .
+
+<GH6RXD5I> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8c9e3e2e9d1f44af86c63d126c526155 ;
+            dcterms:date "2017" ;
+            dcterms:title "Beyond Opening Up the Black Box: Investigating the Role of" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8c9e3e2e9d1f44af86c63d126c526155 ] ] .
+
+<GNB4ZJUP> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The Wall Street Journal" ] ;
+            dcterms:title "Side By Side" ] .
+
+<HTQ6FSRB> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N053d5de9239a4372a1cc00ec9c8940d3,
+                _:N206309161c454ce7a7857f96adbb167f,
+                _:Nc31ce5edf23d49acb39d56468315ca41,
+                _:Nc9eb48c0904e48dcb32ad3eaec5b1079 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ProPublica" ] ] ;
+            dcterms:title "Machine Bias" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N053d5de9239a4372a1cc00ec9c8940d3 ;
+                    rdf:_2 _:N206309161c454ce7a7857f96adbb167f ;
+                    rdf:_3 _:Nc9eb48c0904e48dcb32ad3eaec5b1079 ;
+                    rdf:_4 _:Nc31ce5edf23d49acb39d56468315ca41 ] ] .
+
+<IJQN4I3M> a z:UserItem ;
+    res:resource <https://bitcoin.org/bitcoin.pdf> .
+
+<J9K839SY> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N3f47c0251a094d618270599f20b02b50 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Celebrity" ] ] ;
+            dcterms:title "Introduction and Chapter 4 in Status Update" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3f47c0251a094d618270599f20b02b50 ] ] .
+
+<JSVG56R9> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N22cbb96c46f24fdd8f0cb00945967b5a ;
+            dcterms:date "1989" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "in The Structural Transformation of the Public Sphere: An Inquiry into the Category of Bourgeois Society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N22cbb96c46f24fdd8f0cb00945967b5a ] ;
+            bibo:numPages "27–43" ] .
+
+<KKHG6549> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N70dadbb3efbd4970b01557e0ca915ba5 ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Penguin" ] ;
+            dcterms:title "Introduction and Chapter 1 in The Filter Bubble: How the New Personalized Web is Changing What We Think and How We Read" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N70dadbb3efbd4970b01557e0ca915ba5 ] ] .
+
+<KMBDZ5G5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nbd19f28f57f94ee18efe957da264ed42 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Crown" ] ;
+            dcterms:title "Conclusion in Weapons of Mass Destruction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbd19f28f57f94ee18efe957da264ed42 ] ] .
+
+<L8YC3BR8> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Harvard University Press" ] ;
+            dcterms:title "Competition in Silicon Valley and Route 128" ] .
+
+<LPXTBECT> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N5706e072f8a34be49be2fb523b995520 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Gizmodo" ] ;
+                    bibo:volume "59" ] ;
+            dcterms:title "The House that Spied on Me" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5706e072f8a34be49be2fb523b995520 ] ;
+            bibo:pages "3–7" ] .
+
+<M5UJ7G8N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Yale University Press" ] ;
+            dcterms:title "Branding in the Social Media Age" ] .
+
+<MD9E3CRJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne66c7dfe80f84f909b7443c6017c98e8 ;
+            dcterms:date "2009" ;
+            dcterms:title "Burning Man at Google: A Cultural Infrastructure for New Media" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne66c7dfe80f84f909b7443c6017c98e8 ] ] .
+
+<MHE6LZX8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N369acf1389ed46668a1e59debc658d1e,
+                _:N739de67539a64ef9af2fbf26f50403de,
+                _:Nfe2af6c9230a43939b1c66717297d6f0 ;
+            dcterms:date "2015" ;
+            dcterms:title "Our Metrics, Ourselves. A Hundred" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfe2af6c9230a43939b1c66717297d6f0 ;
+                    rdf:_2 _:N369acf1389ed46668a1e59debc658d1e ;
+                    rdf:_3 _:N739de67539a64ef9af2fbf26f50403de ] ] .
+
+<MIA4YDT4> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N017b2366e0bc4d21b371d8530859352c,
+                _:N20916d1d59dc490c8e566dd19e4699d2,
+                _:N2b8f4b5917204e31af0eeaa45ace7cf4,
+                _:N496052b371774a2293a3795f2df31a95 ;
+            dcterms:date "2016" ;
+            dcterms:title "A Computer Program" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2b8f4b5917204e31af0eeaa45ace7cf4 ;
+                    rdf:_2 _:N20916d1d59dc490c8e566dd19e4699d2 ;
+                    rdf:_3 _:N017b2366e0bc4d21b371d8530859352c ;
+                    rdf:_4 _:N496052b371774a2293a3795f2df31a95 ] ] .
+
+<MLDJ3IEZ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N6b8b6ac1b790483aaa9e28194da66f48 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Big Data & Society" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "4" ] ;
+            dcterms:title "Algorithms in Practice: Comparing Web Journalism and Criminal Justice" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6b8b6ac1b790483aaa9e28194da66f48 ] ;
+            bibo:pages "1–14" ] .
+
+<MX4WBRW8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017-02-13" ] .
+
+<N7JRA3DJ> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N8ed3386b9f25479daf0f79f7d40edff2 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2007" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "Polity" ] ;
+                    dcterms:title "Cold Intimacies: The Making of Emotional Capitalism" ] ;
+            dcterms:title "Romantic Webs" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8ed3386b9f25479daf0f79f7d40edff2 ] ] .
+
+<PEUBAV7V> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Annual Review of Sociology" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "24" ] ;
+            dcterms:title "Process" ;
+            bibo:pages "313–43" ] .
+
+<PJ3JY8D2> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "International Journal of Communication" ] ;
+                    bibo:volume "12" ] ;
+            dcterms:title "Manage Workers" ;
+            bibo:pages "1166–1188" ] .
+
+<QBK4BHHD> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N592d37e772944d4ba187bad3dfeb1e6a ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Wired" ] ;
+            dcterms:title "How to Keep Your AI from Turning into a Racist Monster" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N592d37e772944d4ba187bad3dfeb1e6a ] ] .
+
+<QYMKQCSP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N741d40b5409e4df389dcc175717a9001 ;
+            dcterms:date "2001" ;
+            dcterms:title "Prologue and Chapter 1 in Inventing Ourselves Out of Jobs? America’s" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N741d40b5409e4df389dcc175717a9001 ] ] .
+
+<RXLR96PU> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N5e25bbb03b8c4824a83b44cb25c0d415 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015-06-29" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Motherboard" ] ] ;
+            dcterms:title "Bitcoin is Unsustainable" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5e25bbb03b8c4824a83b44cb25c0d415 ] ] .
+
+<S3NVENUX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nfa556f1dd79f436cbfc53522ffd1d25b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The" ] ] ;
+            dcterms:title "Why Privacy Matters Even if You Have ‘Nothing to Hide.’" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfa556f1dd79f436cbfc53522ffd1d25b ] ] .
+
+<T446V2X7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N187a1c3ec8a949409f82d97505e10307,
+                _:N5ec5018ebe284dbcb5232700d058bd70 ;
+            dcterms:date "2003" ;
+            dcterms:title "Permanently Beta: Responsive Organization in the Internet" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5ec5018ebe284dbcb5232700d058bd70 ;
+                    rdf:_2 _:N187a1c3ec8a949409f82d97505e10307 ] ] .
+
+<T7B5XPS2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8f3243315c714d80b7e2caf194d9a53e,
+                _:Nd4b162575edb421ca4c981a314da3e0e ;
+            dcterms:date "2016" ;
+            dcterms:title "How to Hold Algorithms Accountable" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8f3243315c714d80b7e2caf194d9a53e ;
+                    rdf:_2 _:Nd4b162575edb421ca4c981a314da3e0e ] ] .
+
+<T832K6ZQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016-03-23" ] .
+
+<TEKI3IC8> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "New Media & Society" ] ;
+                    bibo:issue "1-2" ;
+                    bibo:volume "11" ] ;
+            dcterms:title "Production" ;
+            bibo:pages "73–94" ] .
+
+<TIZEY67T> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Work and Occupations" ] ;
+            dcterms:title "Work" ] .
+
+<UW82VTX3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3ed8b605be5249da95a2e63ce5bb8367 ;
+            dcterms:date "1994" ;
+            dcterms:title "Introduction and Chapter 2 in Regional Advantage: Culture and" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3ed8b605be5249da95a2e63ce5bb8367 ] ] .
+
+<VMI4B4SF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0a57ca8c952c42869ea8d0c25b9464ad ;
+            dcterms:date "2014-10-23" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0a57ca8c952c42869ea8d0c25b9464ad ] ] .
+
+<VTSKFGCU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N797cb6a6f8d54b4f81ce41d6b4820612 ;
+            dcterms:date "2015" ;
+            dcterms:title "Introduction and Chapter 6 in Pressed for Time: The Acceleration of Life" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N797cb6a6f8d54b4f81ce41d6b4820612 ] ] .
+
+<VYAEACYU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Naa9ec3837fea45cab64112d2b89df64d ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "& society" ] ;
+            dcterms:title "The Social Life of Bitcoin" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Naa9ec3837fea45cab64112d2b89df64d ] ] .
+
+<W6K5QQ2W> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Big Data & Society" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "3" ] ;
+            dcterms:title "Algorithms" ] .
+
+<WP5UVT8V> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N096b06a2fe2543a3ba63cb2f2b2e4cc7 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1990" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Social Text" ] ;
+                    bibo:issue "26" ;
+                    bibo:volume "25" ] ;
+            dcterms:title "Rethinking the Public Sphere" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N096b06a2fe2543a3ba63cb2f2b2e4cc7 ] ;
+            bibo:pages "56–80" ] .
+
+<WRSGJ3TE> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9f991094fdf84b3fbce9383ed0807b94 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "The Guardian" ] ;
+            dcterms:title "‘Fitbit For Your Periods’: The Rise of Fertility Tracking" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9f991094fdf84b3fbce9383ed0807b94 ] ] .
+
+<XGETYW7W> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N55a14a619dc54263b134c6859e3602f6 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Malden" ;
+                    foaf:name "Polity" ] ;
+            dcterms:title "Chapter 3 in The Quantified Self" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N55a14a619dc54263b134c6859e3602f6 ] ] .
+
+<XNXC4RLG> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Chronicle of Higher Education" ] ] .
+
+<Y3ZZUIQC> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N16ee0c1d89b94221821c31bc9b6a2405,
+                _:N9709a91202574b92895ed1e4151e78a4,
+                _:Nd223a15197b34fce9463db1947e5188a,
+                _:Nf4648a1d0c914513bf347b1920558866 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Economic Perspectives" ] ] ;
+            dcterms:title "Bitcoin: Economics, Technology, and Governance" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9709a91202574b92895ed1e4151e78a4 ;
+                    rdf:_2 _:N16ee0c1d89b94221821c31bc9b6a2405 ;
+                    rdf:_3 _:Nf4648a1d0c914513bf347b1920558866 ;
+                    rdf:_4 _:Nd223a15197b34fce9463db1947e5188a ] ;
+            bibo:pages "213–238" ] .
+
+<YSMCTIRQ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N988b7220789d4cfa8685fd135c9a789e,
+                _:Nf6b4d13e172b4a2a800df99e0055185e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ACM Queue" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "11" ] ;
+            dcterms:title "Discrimination in Online Ad Delivery" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf6b4d13e172b4a2a800df99e0055185e ;
+                    rdf:_2 _:N988b7220789d4cfa8685fd135c9a789e ] ;
+            bibo:pages "1–19" ] .
+
+<YYDAYH32> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N39c6d4cc59f241a6bbba99cd3bfb0fab ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Daedalus" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "109" ] ;
+            dcterms:title "Introduction and Chapter 1 in Weapons of Math Destruction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N39c6d4cc59f241a6bbba99cd3bfb0fab ] ;
+            bibo:pages "121–136" ] .
+
+<Z2E9JNHU> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nfaf2d898f186485884455cabf2e56131 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Zuckerberg" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "12" ] ;
+            dcterms:title "I Want to Share Some Thoughts on Facebook and the Election" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfaf2d898f186485884455cabf2e56131 ] ;
+            bibo:pages "347–64" ] .
+
+<ZHRPL4CD> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Harvard University Press" ] ;
+            dcterms:title "Control Money and Information" ] .
+
+<ZN3KNE8R> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Basic Books" ] ;
+            dcterms:title "Future of Work and Power" ] .
+
+<ZRD59XRY> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "IEEE" ] ;
+                    dcterms:title "Hawaii International Conference on System Sciences (HICSS): 743-752" ] ] .
+
+<ZWRDQZ65> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N37e7f5cd293845358cec5282b3acc143 ;
+            dcterms:date "1988" ;
+            dcterms:title "Introduction and Chapter 7 in In the Age of the Smart Machine: The" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N37e7f5cd293845358cec5282b3acc143 ] ] .
+
+<https://bitcoin.org/bitcoin.pdf> a bibo:AcademicArticle ;
+    dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "Big Data & Society" ] ;
+    dcterms:title "Algorithmic Systems in Wikipedian Organizational Culture" ;
+    bibo:pages "1–14" ;
+    bibo:uri "https://bitcoin.org/bitcoin.pdf" .
+
+<https://motherboard.vice.com/en_us/article/ae3p7e/bitcoin-is-unsustainable> a bibo:Document ;
+    bibo:uri "https://motherboard.vice.com/en_us/article/ae3p7e/bitcoin-is-unsustainable" .
+
+_:N017b2366e0bc4d21b371d8530859352c a foaf:Person ;
+    foaf:givenName "Avi" ;
+    foaf:surname "Feller" .
+
+_:N053d5de9239a4372a1cc00ec9c8940d3 a foaf:Person ;
+    foaf:givenName "Angwin" ;
+    foaf:surname "Julia" .
+
+_:N096b06a2fe2543a3ba63cb2f2b2e4cc7 a foaf:Person ;
+    foaf:givenName "Nancy" ;
+    foaf:surname "Fraser" .
+
+_:N0a57ca8c952c42869ea8d0c25b9464ad a foaf:Person ;
+    foaf:givenName "Feed”" ;
+    foaf:surname "Wired" .
+
+_:N16ee0c1d89b94221821c31bc9b6a2405 a foaf:Person ;
+    foaf:givenName "Nicholas" ;
+    foaf:surname "Christin" .
+
+_:N187a1c3ec8a949409f82d97505e10307 a foaf:Person ;
+    foaf:givenName "David" ;
+    foaf:surname "Stark" .
+
+_:N1c61e03669064f28b5ae468c544722ea a foaf:Person ;
+    foaf:givenName "Caitlin" ;
+    foaf:surname "Lustig" .
+
+_:N1fb91125f6334816b3b4d4e043d7d2af a foaf:Person ;
+    foaf:givenName "Benjamin" ;
+    foaf:surname "Shestakofsky" .
+
+_:N206309161c454ce7a7857f96adbb167f a foaf:Person ;
+    foaf:givenName "Larson" ;
+    foaf:surname "Jeff" .
+
+_:N20916d1d59dc490c8e566dd19e4699d2 a foaf:Person ;
+    foaf:givenName "Emma" ;
+    foaf:surname "Pierson" .
+
+_:N22cbb96c46f24fdd8f0cb00945967b5a a foaf:Person ;
+    foaf:givenName "Jurgen" ;
+    foaf:surname "Habermas" .
+
+_:N2b8f4b5917204e31af0eeaa45ace7cf4 a foaf:Person ;
+    foaf:givenName "Sam" ;
+    foaf:surname "Corbett-Davis" .
+
+_:N3207854a73194404885d9c83278e011c a foaf:Person ;
+    foaf:givenName "Luke" ;
+    foaf:surname "Stark" .
+
+_:N369acf1389ed46668a1e59debc658d1e a foaf:Person ;
+    foaf:givenName "Jessa" ;
+    foaf:surname "Lingel" .
+
+_:N37e7f5cd293845358cec5282b3acc143 a foaf:Person ;
+    foaf:givenName "Shoshana" ;
+    foaf:surname "Zuboff" .
+
+_:N38832eacf73e45939b2d0b6b88aaa504 a foaf:Person ;
+    foaf:givenName "Julia" ;
+    foaf:surname "Angwin" .
+
+_:N39c6d4cc59f241a6bbba99cd3bfb0fab a foaf:Person ;
+    foaf:givenName "Cathy" ;
+    foaf:surname "O’Neil" .
+
+_:N3ed8b605be5249da95a2e63ce5bb8367 a foaf:Person ;
+    foaf:givenName "AnnaLee" ;
+    foaf:surname "Saxenian" .
+
+_:N3f47c0251a094d618270599f20b02b50 a foaf:Person ;
+    foaf:givenName "Alice" ;
+    foaf:surname "Marwick" .
+
+_:N496052b371774a2293a3795f2df31a95 a foaf:Person ;
+    foaf:givenName "Sharad" ;
+    foaf:surname "Goel" .
+
+_:N4ad207e5ae504e2e8b9402e21d693b31 a foaf:Person ;
+    foaf:givenName "Mitchell L." ;
+    foaf:surname "Stevens" .
+
+_:N4f22be7e83354fe79dec8ce664c5347b a foaf:Person ;
+    foaf:givenName "Frank" ;
+    foaf:surname "Pasquale" .
+
+_:N55a14a619dc54263b134c6859e3602f6 a foaf:Person ;
+    foaf:givenName "Deborah" ;
+    foaf:surname "Lupton" .
+
+_:N5706e072f8a34be49be2fb523b995520 a foaf:Person ;
+    foaf:givenName "Kashmir" ;
+    foaf:surname "Hill" .
+
+_:N592d37e772944d4ba187bad3dfeb1e6a a foaf:Person ;
+    foaf:givenName "Megan" ;
+    foaf:surname "Garcia" .
+
+_:N5bc36042d28f4f3fb9a54c44bddb4d69 a foaf:Person ;
+    foaf:givenName "Sarah" ;
+    foaf:surname "Brayne" .
+
+_:N5e25bbb03b8c4824a83b44cb25c0d415 a foaf:Person ;
+    foaf:givenName "Christopher" ;
+    foaf:surname "Malmo" .
+
+_:N5e92d7b70d6f46de9ae28cc5bba02ac6 a foaf:Person ;
+    foaf:givenName "Solon" ;
+    foaf:surname "Barocas" .
+
+_:N5ec5018ebe284dbcb5232700d058bd70 a foaf:Person ;
+    foaf:givenName "Gina" ;
+    foaf:surname "Neff" .
+
+_:N6873e0af636a4cf5ad7c5e594a4de1d9 a foaf:Person ;
+    foaf:givenName "Adrian" ;
+    foaf:surname "Chen" .
+
+_:N6b1b4e0237794ccfb4ce9f3b26380134 a foaf:Person ;
+    foaf:givenName "Steve" ;
+    foaf:surname "Jones" .
+
+_:N6b8b6ac1b790483aaa9e28194da66f48 a foaf:Person ;
+    foaf:givenName "Angèle" ;
+    foaf:surname "Christin" .
+
+_:N70dadbb3efbd4970b01557e0ca915ba5 a foaf:Person ;
+    foaf:givenName "Eli" ;
+    foaf:surname "Pariser" .
+
+_:N72c30bcdd5db4b169810b31ed634da4d a foaf:Person ;
+    foaf:givenName "Satoshi" ;
+    foaf:surname "Nakamoto" .
+
+_:N739de67539a64ef9af2fbf26f50403de a foaf:Person ;
+    foaf:givenName "Tero" ;
+    foaf:surname "Karppi" .
+
+_:N741d40b5409e4df389dcc175717a9001 a foaf:Person ;
+    foaf:givenName "Amy Sue" ;
+    foaf:surname "Bix" .
+
+_:N74a71f67cbaf49c2890208accfdd896b a foaf:Person ;
+    foaf:givenName "Alex" ;
+    foaf:surname "Rosenblat" .
+
+_:N782de492add041b7a8f4ae9d3c2f7b6e a foaf:Person ;
+    foaf:givenName "Taina" ;
+    foaf:surname "Bucher" .
+
+_:N78968ba6c0254d42bef8d53cb44a5473 a foaf:Person ;
+    foaf:givenName "Erving" ;
+    foaf:surname "Goffman" .
+
+_:N797cb6a6f8d54b4f81ce41d6b4820612 a foaf:Person ;
+    foaf:givenName "Judy" ;
+    foaf:surname "Wajcman" .
+
+_:N83972a68539b42529a816e7d2674de23 a foaf:Person ;
+    foaf:givenName "Brooke Erin" ;
+    foaf:surname "Duffy" .
+
+_:N84bb141b928a4cbd8979c87a6cbdea74 a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Crawford" .
+
+_:N8c9e3e2e9d1f44af86c63d126c526155 a foaf:Person ;
+    foaf:givenName "R.Stuart" ;
+    foaf:surname "Geiger" .
+
+_:N8ed3386b9f25479daf0f79f7d40edff2 a foaf:Person ;
+    foaf:givenName "Eva" ;
+    foaf:surname "Illouz" .
+
+_:N8f3243315c714d80b7e2caf194d9a53e a foaf:Person ;
+    foaf:givenName "Nicholas" ;
+    foaf:surname "Diakopoulos" .
+
+_:N9709a91202574b92895ed1e4151e78a4 a foaf:Person ;
+    foaf:givenName "Rainer" ;
+    foaf:surname "Böhme" .
+
+_:N988b7220789d4cfa8685fd135c9a789e a foaf:Person ;
+    foaf:givenName "Mike" ;
+    foaf:surname "Ananny" .
+
+_:N9b97a83de8604ef4a210bb7f805c2f3b a foaf:Person ;
+    foaf:givenName "William" ;
+    foaf:surname "Davies" .
+
+_:N9f991094fdf84b3fbce9383ed0807b94 a foaf:Person ;
+    foaf:givenName "Moira" ;
+    foaf:surname "Weigel" .
+
+_:N9fa68dbb7882415db3e7378f93e2c14f a foaf:Person ;
+    foaf:givenName "Christine L." ;
+    foaf:surname "Borgman" .
+
+_:Na508be1eb99e49f482095503660643c1 a foaf:Person ;
+    foaf:givenName "Bonnie" ;
+    foaf:surname "Nardi" .
+
+_:Na7beabcff0a84f1b82380e176b551f95 a foaf:Person ;
+    foaf:givenName "Wendy Nelson" ;
+    foaf:surname "Espeland" .
+
+_:Naa9ec3837fea45cab64112d2b89df64d a foaf:Person ;
+    foaf:givenName "Nigel" ;
+    foaf:surname "Dodd" .
+
+_:Nb4c31c7c04814fc995ea136026437337 a foaf:Person ;
+    foaf:givenName "Sage" ;
+    foaf:surname "Context" .
+
+_:Nbd19f28f57f94ee18efe957da264ed42 a foaf:Person ;
+    foaf:givenName "Cathy" ;
+    foaf:surname "O’Neil" .
+
+_:Nc31ce5edf23d49acb39d56468315ca41 a foaf:Person ;
+    foaf:givenName "Krichner" ;
+    foaf:surname "Lauren" .
+
+_:Nc9c7312b92e14463b6f5341cc160a2c3 a foaf:Person ;
+    foaf:givenName "Karen" ;
+    foaf:surname "Levy" .
+
+_:Nc9eb48c0904e48dcb32ad3eaec5b1079 a foaf:Person ;
+    foaf:givenName "Mattu" ;
+    foaf:surname "Surya" .
+
+_:Nd223a15197b34fce9463db1947e5188a a foaf:Person ;
+    foaf:givenName "Tyler" ;
+    foaf:surname "Moore" .
+
+_:Nd4b162575edb421ca4c981a314da3e0e a foaf:Person ;
+    foaf:givenName "Sorelle" ;
+    foaf:surname "Friedler" .
+
+_:Ndc8765878e3347fb8c4512c157411c0b a foaf:Person ;
+    foaf:givenName "Jenna" ;
+    foaf:surname "Burrell" .
+
+_:Ndd84a197cded4a2b94b7884d30ec930b a foaf:Person ;
+    foaf:givenName "Virginia" ;
+    foaf:surname "Eubanks" .
+
+_:Ndda5b7c51dbf42f0a1ada85cdee2fc54 a foaf:Person ;
+    foaf:givenName "Helen" ;
+    foaf:surname "Nissenbaum" .
+
+_:Ne66c7dfe80f84f909b7443c6017c98e8 a foaf:Person ;
+    foaf:givenName "Fred" ;
+    foaf:surname "Turner" .
+
+_:Ne7f1d5f20c3049adb4c8e4e3cb712688 a foaf:Person ;
+    foaf:givenName "Emily" ;
+    foaf:surname "Hund" .
+
+_:Ne9492919877943f18cf94374f3a08ab5 a foaf:Person ;
+    foaf:givenName "Philip" ;
+    foaf:surname "Howard" .
+
+_:Nf204bb5b99204eec981ed7fe467ca92c a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Aneesh" .
+
+_:Nf4648a1d0c914513bf347b1920558866 a foaf:Person ;
+    foaf:givenName "Benjamin" ;
+    foaf:surname "Edelman" .
+
+_:Nf6b4d13e172b4a2a800df99e0055185e a foaf:Person ;
+    foaf:givenName "Latanya" ;
+    foaf:surname "Sweeney" .
+
+_:Nf8ae5f22cdb744d5ae881cfdce687f9f a foaf:Person ;
+    foaf:givenName "Mike" ;
+    foaf:surname "Ananny" .
+
+_:Nfa556f1dd79f436cbfc53522ffd1d25b a foaf:Person ;
+    foaf:givenName "Daniel J." ;
+    foaf:surname "Solove" .
+
+_:Nfac295d76b434d9ba3743628a313445b a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Keegan" .
+
+_:Nfaf2d898f186485884455cabf2e56131 a foaf:Person ;
+    foaf:givenName "Mark" ;
+    foaf:surname "Zuckerberg" .
+
+_:Nfe2af6c9230a43939b1c66717297d6f0 a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Crawford" .
+

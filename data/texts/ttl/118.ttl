@@ -1,0 +1,446 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_28> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>very short, read first</p>" ] .
+
+<3DQIABUI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1baf17a58fae40f2905073af93ef8ec1 ;
+            dcterms:title "How Jared Kushner Won Trump The White House" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1baf17a58fae40f2905073af93ef8ec1 ] ] .
+
+<3QKY6QM6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N2d65805dd1184fd0a0adb85d5cbf4cc6 ;
+            dcterms:title "Why Facts Don't Change Our Minds" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2d65805dd1184fd0a0adb85d5cbf4cc6 ] ] .
+
+<6SKW7LSU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9fa44e6025b1436cb4b1fb6b05d26047 ;
+            dcterms:title "Patent vs. Copyright Protection for Computer Software" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9fa44e6025b1436cb4b1fb6b05d26047 ] ] .
+
+<8XAN4DSN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1a8d77aeba514b54bfdc188ca8d26f6f ;
+            dcterms:title "Can an employee be fired for activities outside the workplace?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1a8d77aeba514b54bfdc188ca8d26f6f ] ] .
+
+<9LNRPBGM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ndfe1b83f5cd84936b12cb8dcd7675cbf ;
+            dcterms:title "I'm Not The Product, But I Play One On The Internet" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndfe1b83f5cd84936b12cb8dcd7675cbf ] ] .
+
+<9MYW5F6B> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ndcfd5e4dbd104e848f9d4cfbcee62162 ;
+            dcterms:title "Resisting Political Fragmentation on the Internet" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndcfd5e4dbd104e848f9d4cfbcee62162 ] ] .
+
+<AB5LGXPJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N05fde0acb25a4dd1ac1ff2b6919e8313,
+                _:N9f16977ba2c24029809bbf7e72e10a5a ;
+            dcterms:title "Emotional selection in memes: the case of urban legends" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N05fde0acb25a4dd1ac1ff2b6919e8313 ;
+                    rdf:_2 _:N9f16977ba2c24029809bbf7e72e10a5a ] ] .
+
+<B9I8P4V5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0cdcfa8315c54be8b3dbdb9ba90703f3 ;
+            dcterms:title "What is it like to be a robot?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0cdcfa8315c54be8b3dbdb9ba90703f3 ] ] .
+
+<BXND2MB9> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nf26b1aaf91a54c7881e41b8dafe82136 ;
+            dcterms:title "Make Algorithms Accountable" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf26b1aaf91a54c7881e41b8dafe82136 ] ] .
+
+<CUN7EG45> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na84eb9e24a42457da42a7ce309ee7eca ;
+            dcterms:title "Scariest Thing About Cyberwarfare: No Rules of Engagement" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na84eb9e24a42457da42a7ce309ee7eca ] ] .
+
+<CUTYUES3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N93a94902a27d453dadccfc174efebae2 ;
+            dcterms:title "Killed by a Machine: The Therac-25" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N93a94902a27d453dadccfc174efebae2 ] ] .
+
+<D54BZ7XP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N754814db01f94a008078e3744bc3a495 ;
+            dcterms:title "Do the Poor Have More Meaningful Lives?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N754814db01f94a008078e3744bc3a495 ] ] .
+
+<DGHUVHMX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8e4b32a207634ec59b238d6af12bb41b ;
+            dcterms:title "Can we build AI without losing control over it?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8e4b32a207634ec59b238d6af12bb41b ] ] .
+
+<DJYZS8M3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1703f04a4a7a42ea894f19816abc6c5c ;
+            dcterms:title "\"Your criticisms are completely wrong\": Stallman on software patents, 20 years in" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1703f04a4a7a42ea894f19816abc6c5c ] ] .
+
+<DNL6FSQN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7c63a1cfd53a4a7c8e7f99092dff7a1f ;
+            dcterms:title "This Video Will Make You Angry" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7c63a1cfd53a4a7c8e7f99092dff7a1f ] ] .
+
+<E558DSBU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nc5bc70067ac94fe89e4cfd93e518a1fa ;
+            dcterms:title "Sites Spying on You in Weird New Ways, Princeton Study Exposes" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc5bc70067ac94fe89e4cfd93e518a1fa ] ] .
+
+<FS32SLUC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N601ad5f550ab4a579734683e1fba18f5 ;
+            dcterms:title "Why calling screen time 'digital heroin' is digital garbage" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N601ad5f550ab4a579734683e1fba18f5 ] ] .
+
+<IGNYEB8A> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nbafc9c62257047a0bfcc37e767e8428d ;
+            dcterms:title "Humans Need Not Apply" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbafc9c62257047a0bfcc37e767e8428d ] ] .
+
+<IUFN7ETS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nffb5d623d8b04d08a6512f5d7fcb05bc ;
+            dcterms:title "Just & Unjust Targeted Killing & Drone Warfare" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nffb5d623d8b04d08a6512f5d7fcb05bc ] ] .
+
+<IV6UPYZJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N2851223fdf614783bfded9b2e1701cb6 ;
+            dcterms:title "What happens when our computers get smarter than we are?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2851223fdf614783bfded9b2e1701cb6 ] ] .
+
+<J9B8DFSR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne9392dc236b94dddb737217616ad8740 ;
+            dcterms:title "Inside the first church of artificial intelligence" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne9392dc236b94dddb737217616ad8740 ] ] .
+
+<JVYPUXBP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N09c890ce4b324b2a8b7922dacf8b592c ;
+            dcterms:title "Misinterpreting Copyright" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N09c890ce4b324b2a8b7922dacf8b592c ] ] .
+
+<MB27MCV3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne4b6254861074982af1a996b20b3daa3,
+                _:Nfceea8fdab25425092bba72a2b6a5ce7 ;
+            dcterms:title "A computer program used for bail and sentencing decisions was labeled biased against blacks. It's actually not that clear" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne4b6254861074982af1a996b20b3daa3 ;
+                    rdf:_2 _:Nfceea8fdab25425092bba72a2b6a5ce7 ] ] .
+
+<MECRNL4T> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N52261c83f72249d4b9f247866f4ea9a0 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "The Hard Problem of Consciousness" ] ;
+            dcterms:title "Qualia\", up to the end of section 1" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N52261c83f72249d4b9f247866f4ea9a0 ] ] .
+
+<NRUJLUI2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5f1a333ddd754693a7528a1a15f96ff3 ;
+            dcterms:title "The Secret Social Media Lives of Teenagers" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5f1a333ddd754693a7528a1a15f96ff3 ] ] .
+
+<NZ37BR4X> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nbcdb4cbacf3340958dc509c026e28200 ;
+            dcterms:title "Have Smartphones Destroyed a Generation?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbcdb4cbacf3340958dc509c026e28200 ] ] .
+
+<Q945NPDB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N055b2193633d46a5b9964e4e285f5438 ;
+            dcterms:title "A Stock Market Primer (draft" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N055b2193633d46a5b9964e4e285f5438 ] ] .
+
+<RC7TQTDQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nf5391aa8575f4b2fbee007a146a09395 ;
+            dcterms:title "The Age of Information" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf5391aa8575f4b2fbee007a146a09395 ] ] .
+
+<RJ2AGDVY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5ea2c3233bf64df58f6b29368545814a ;
+            dcterms:title "Americans feel the tensions between privacy and security concerns" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5ea2c3233bf64df58f6b29368545814a ] ] .
+
+<RJRW3VC5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N255e516b80e54103bcce758b8f1f8045 ;
+            dcterms:title "Behind Our Anxiety, the Fear of Being Unneeded" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N255e516b80e54103bcce758b8f1f8045 ] ] .
+
+<RRMDZYN6> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N163f3e86432945eaaa3478e24067b214,
+                _:Nb19e8669e58640a78d7f0dba8af70f1e,
+                _:Ne3ea44892f6d4993ba2a18a8c207426c ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Reveals\"" ] ;
+            dcterms:title "What an Uncensored Letter to M.L.K" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N163f3e86432945eaaa3478e24067b214 ;
+                    rdf:_2 _:Nb19e8669e58640a78d7f0dba8af70f1e ;
+                    rdf:_3 _:Ne3ea44892f6d4993ba2a18a8c207426c ] ] .
+
+<T3VEVCUJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne0112ed101e546c0b50078ddf750efd5 ;
+            dcterms:title "Zuckerberg's Preposterous Defense of Facebook" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne0112ed101e546c0b50078ddf750efd5 ] ] .
+
+<TGN7WWEH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ncce709e7b1ab4b95a18a6ab7faab5e84 ;
+            dcterms:title "The Seven Deadly Sins of Predicting the Future of AI" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncce709e7b1ab4b95a18a6ab7faab5e84 ] ] .
+
+<TYU3VCWH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nd6b4c1d4fb89422f8b5e46e1935fc6b0 ;
+            dcterms:title "The Toxoplasma of Rage" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd6b4c1d4fb89422f8b5e46e1935fc6b0 ] ] .
+
+<V5E7X44F> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N08ed140e702a46f3ad1b4510325992b7 ;
+            dcterms:title "No more secret surveillance technology in local law enforcement" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N08ed140e702a46f3ad1b4510325992b7 ] ] .
+
+<X8TRA7GD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N2f32d0bec66c4102992a392b393198fa ;
+            dcterms:title "Why many Russians have gladly agreed to online censorship" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2f32d0bec66c4102992a392b393198fa ] ] .
+
+<YG8G5FPD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5a8116510596409f8e8993dd8a4ea9b1 ;
+            dcterms:title "How AI Machines Could Save Wall Street Brokers' Jobs" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5a8116510596409f8e8993dd8a4ea9b1 ] ] .
+
+<Z228EQSH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nf67953f47637430fb597105a34bc14e8 ;
+            dcterms:title "Raman \"The Great Decoupling: An Interview with Erik Brynjolfsson and Andrew McAfee" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf67953f47637430fb597105a34bc14e8 ] ] .
+
+<ZZA3FYDR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb02d0af83402447b9b051221d00d01c8 ;
+            dcterms:title "Mimesis, Violence, and Facebook: Peter Thiel's French Connection" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb02d0af83402447b9b051221d00d01c8 ] ] .
+
+_:N055b2193633d46a5b9964e4e285f5438 a foaf:Organization ;
+    foaf:name "Hug" .
+
+_:N05fde0acb25a4dd1ac1ff2b6919e8313 a foaf:Person ;
+    foaf:givenName "Bell" ;
+    foaf:surname "Heath" .
+
+_:N08ed140e702a46f3ad1b4510325992b7 a foaf:Person ;
+    foaf:givenName "Times Editorial" ;
+    foaf:surname "Board" .
+
+_:N09c890ce4b324b2a8b7922dacf8b592c a foaf:Organization ;
+    foaf:name "Stallman" .
+
+_:N0cdcfa8315c54be8b3dbdb9ba90703f3 a foaf:Person ;
+    foaf:givenName "Rodney" ;
+    foaf:surname "Brooks" .
+
+_:N163f3e86432945eaaa3478e24067b214 a foaf:Person ;
+    foaf:givenName "Jr., \"FBI's \"Suicide Letter\" to Dr. Martin Luther King" ;
+    foaf:surname "Kayyali" .
+
+_:N1703f04a4a7a42ea894f19816abc6c5c a foaf:Organization ;
+    foaf:name "Mullin" .
+
+_:N1a8d77aeba514b54bfdc188ca8d26f6f a foaf:Organization ;
+    foaf:name "Moody" .
+
+_:N1baf17a58fae40f2905073af93ef8ec1 a foaf:Organization ;
+    foaf:name "Bertoni" .
+
+_:N255e516b80e54103bcce758b8f1f8045 a foaf:Person ;
+    foaf:givenName "Dalai Lama" ;
+    foaf:surname "Brooks" .
+
+_:N2851223fdf614783bfded9b2e1701cb6 a foaf:Person ;
+    foaf:givenName "Nick" ;
+    foaf:surname "Bostrom" .
+
+_:N2d65805dd1184fd0a0adb85d5cbf4cc6 a foaf:Organization ;
+    foaf:name "Kolbert" .
+
+_:N2f32d0bec66c4102992a392b393198fa a foaf:Organization ;
+    foaf:name "Grabmeier" .
+
+_:N52261c83f72249d4b9f247866f4ea9a0 a foaf:Person ;
+    foaf:givenName "Amy" ;
+    foaf:surname "Kind" .
+
+_:N5a8116510596409f8e8993dd8a4ea9b1 a foaf:Organization ;
+    foaf:name "Uzzi" .
+
+_:N5ea2c3233bf64df58f6b29368545814a a foaf:Person ;
+    foaf:givenName "Maniam" ;
+    foaf:surname "Rainie" .
+
+_:N5f1a333ddd754693a7528a1a15f96ff3 a foaf:Organization ;
+    foaf:name "Homayoun" .
+
+_:N601ad5f550ab4a579734683e1fba18f5 a foaf:Person ;
+    foaf:givenName "Rachel" ;
+    foaf:surname "Becker" .
+
+_:N754814db01f94a008078e3744bc3a495 a foaf:Organization ;
+    foaf:name "Alter" .
+
+_:N7c63a1cfd53a4a7c8e7f99092dff7a1f a foaf:Person ;
+    foaf:givenName "C.G.P." ;
+    foaf:surname "Grey" .
+
+_:N8e4b32a207634ec59b238d6af12bb41b a foaf:Person ;
+    foaf:givenName "Sam" ;
+    foaf:surname "Harris" .
+
+_:N93a94902a27d453dadccfc174efebae2 a foaf:Organization ;
+    foaf:name "Fabio" .
+
+_:N9f16977ba2c24029809bbf7e72e10a5a a foaf:Organization ;
+    foaf:name "Sternberg" .
+
+_:N9fa44e6025b1436cb4b1fb6b05d26047 a foaf:Organization ;
+    foaf:name "Cardenas" .
+
+_:Na84eb9e24a42457da42a7ce309ee7eca a foaf:Person ;
+    foaf:givenName "Leonid" ;
+    foaf:surname "Bershidskey" .
+
+_:Nb02d0af83402447b9b051221d00d01c8 a foaf:Organization ;
+    foaf:name "Shullenberger" .
+
+_:Nb19e8669e58640a78d7f0dba8af70f1e a foaf:Person ;
+    foaf:givenName "the Dangers of Unchecked" ;
+    foaf:surname "Surveillance\"" .
+
+_:Nbafc9c62257047a0bfcc37e767e8428d a foaf:Person ;
+    foaf:givenName "C.G.P." ;
+    foaf:surname "Grey" .
+
+_:Nbcdb4cbacf3340958dc509c026e28200 a foaf:Organization ;
+    foaf:name "wenge" .
+
+_:Nc5bc70067ac94fe89e4cfd93e518a1fa a foaf:Organization ;
+    foaf:name "Popken" .
+
+_:Ncce709e7b1ab4b95a18a6ab7faab5e84 a foaf:Person ;
+    foaf:givenName "Rodney" ;
+    foaf:surname "Brooks" .
+
+_:Nd6b4c1d4fb89422f8b5e46e1935fc6b0 a foaf:Organization ;
+    foaf:name "Alexander" .
+
+_:Ndcfd5e4dbd104e848f9d4cfbcee62162 a foaf:Person ;
+    foaf:givenName "Resnick" ;
+    foaf:surname "Garrett" .
+
+_:Ndfe1b83f5cd84936b12cb8dcd7675cbf a foaf:Organization ;
+    foaf:name "Powazek" .
+
+_:Ne0112ed101e546c0b50078ddf750efd5 a foaf:Organization ;
+    foaf:name "Tufekci" .
+
+_:Ne3ea44892f6d4993ba2a18a8c207426c a foaf:Organization ;
+    foaf:name "Gage" .
+
+_:Ne4b6254861074982af1a996b20b3daa3 a foaf:Person ;
+    foaf:givenName "Pierson" ;
+    foaf:surname "Davies" .
+
+_:Ne9392dc236b94dddb737217616ad8740 a foaf:Person ;
+    foaf:givenName "Mark" ;
+    foaf:surname "Harris" .
+
+_:Nf26b1aaf91a54c7881e41b8dafe82136 a foaf:Organization ;
+    foaf:name "Angwin" .
+
+_:Nf5391aa8575f4b2fbee007a146a09395 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Lil" .
+
+_:Nf67953f47637430fb597105a34bc14e8 a foaf:Organization ;
+    foaf:name "Bernstein" .
+
+_:Nfceea8fdab25425092bba72a2b6a5ce7 a foaf:Person ;
+    foaf:givenName "Goel" ;
+    foaf:surname "Feller" .
+
+_:Nffb5d623d8b04d08a6512f5d7fcb05bc a foaf:Person ;
+    foaf:givenName "Michael" ;
+    foaf:surname "Walzer" .
+

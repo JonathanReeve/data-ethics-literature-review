@@ -1,0 +1,651 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_17> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Imperial Leather: Race, Gender and Sexuality in the Colonial Conquest.</p>" ] .
+
+<#item_28> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>What Is Technology:</p>" ] .
+
+<#item_39> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>google it</p>" ] .
+
+<#item_72> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Cyborg Manifesto by Haraway (google it</p>" ] .
+
+<2EPZNXAW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne8989f18914f4dbc8cf0875c5962063f ;
+            dcterms:date "1986" ;
+            dcterms:title "The Railway Journey: Industrialization of Time and Space" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne8989f18914f4dbc8cf0875c5962063f ] ] .
+
+<2N49FVDE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na2c35e28540b445a8317f10b41162345 ;
+            dcterms:date "1993" ;
+            dcterms:title "We Have Never Been Modern" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na2c35e28540b445a8317f10b41162345 ] ] .
+
+<3HFWRDSZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Where are the missing masses? The sociology of a few mundane artifacts (google it" ] .
+
+<3X2UYKXM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Social Shaping of Technology" ] .
+
+<493VS3QC> a z:UserItem ;
+    res:resource <http://ssi.sagepub.com.libproxy.wlu.ca/content/23/1/1> .
+
+<4CXKZNKV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8a7834ff271b4355abd70846f2a7e058 ;
+            dcterms:date "1992" ;
+            dcterms:title "The Bathroom, the Kitchen, and the Aesthetics of Waste.McClintock" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8a7834ff271b4355abd70846f2a7e058 ] ] .
+
+<545YHWTT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Sleepwalking to the control society" ] .
+
+<5NK7HJEQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb4e626731036491e8989653c1a1c6985 ;
+            dcterms:date "2008" ;
+            dcterms:title "A Small World: Smart Houses and the Dream of the Perfect Day" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb4e626731036491e8989653c1a1c6985 ] ] .
+
+<65LDKA5W> a z:UserItem ;
+    res:resource <http://www.sciencedirect.com/science/article/pii/S0959802297000088> .
+
+<69BWFG4Y> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N57de4ea6b3124102be9b6fc86db037ee ;
+            dcterms:title "Technologies of the Gendered Body: Reading Cyborg Women" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N57de4ea6b3124102be9b6fc86db037ee ] ] .
+
+<6KVPEPFM> a z:UserItem ;
+    res:resource <http://litthe.oxfordjournals.org/content/16/1/65.short> .
+
+<6KYALR37> a z:UserItem ;
+    res:resource <http://www.smithsonianmag.com/history/what-the-luddites-really-fought-against-264412> .
+
+<6SSHAD5E> a z:UserItem ;
+    res:resource <http://srmo.sagepub.com.libproxy.wlu.ca/view/handbook-of-science-and-technology-studies/d32.xml> .
+
+<6X4X4W37> a z:UserItem ;
+    res:resource <http://www.jour.unr.edu/j705/RP.BANNING.LUDDITE.HTML> .
+
+<7E8LTR26> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Egg" ;
+                    foaf:name "Educational Computing and the Technology/" ] ;
+            dcterms:title "The Social Chicken and the Technological" ] .
+
+<7H5L2I66> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Postscript on the Societies of Control by Deleuze (google it" ] .
+
+<84JHCD78> a z:UserItem ;
+    res:resource <http://web.mit.edu/gtmarx/www/techandsocial.html> .
+
+<8UYN2MWE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Nietzsche gets modern: Transhumanism and the Technological Sublime" ] .
+
+<9BSLGBEY> a z:UserItem ;
+    res:resource <http://journal.media-culture.org.au/index.php/mcjournal/article/viewArticle/425> .
+
+<9PQMTJSD> a z:UserItem ;
+    res:resource <http://www.jstor.org/stable/20024652> .
+
+<ABYQMY6P> a z:UserItem ;
+    res:resource <http://www.ifla.org/publications/sleepwalking-toward-a-control-society-ten-must-know-trends> .
+
+<BEX8VXNS> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<BGIHULU4> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Human/Machine Reconsidered by Lucy Suchman (google it" ] .
+
+<BMW3IWPH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb9f758cf09a24cab8acce5bcc3a4f916 ;
+            dcterms:date "2007" ;
+            dcterms:title "Buda's Wagon: A Brief History of the Car Bomb" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb9f758cf09a24cab8acce5bcc3a4f916 ] ] .
+
+<BZCE785X> a z:UserItem ;
+    res:resource <http://srmo.sagepub.com.libproxy.wlu.ca/view/handbook-of-science-and-technology-studies/d17.xml> .
+
+<C9TG6G5C> a z:UserItem ;
+    res:resource <http://soc.sagepub.com/content/35/2/441.short> .
+
+<CW9LH4SM> a z:UserItem ;
+    res:resource <http://archive.ncsa.illinois.edu/prajlich/forster.html> .
+
+<CYXWVVFJ> a z:UserItem ;
+    res:resource <http://bst.sagepub.com/content/5/3/215.full.pdf+html> .
+
+<DDJMHZSQ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Sociohistorical Technology Studies" ] ] .
+
+<DEMGDHIW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ndd4f38abb57d421492712e8a36179f0a ;
+            dcterms:date "2001" ;
+            dcterms:title "In the Chamber of Risks: Understanding Risk Controversies" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndd4f38abb57d421492712e8a36179f0a ] ] .
+
+<DJIRHLAV> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Modern Day Luddites" ] ] .
+
+<ED4Z5HW6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Inscribing Behaviour in Information Architecture Standards" ] .
+
+<ED8C2TD9> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "1999" ;
+            dcterms:title "The Social Shaping of Technology" ;
+            bibo:editor _:N4d34a3a4490e4902b2a9004c4c94e282,
+                _:Na04b89a3c7e940168358bc0d947cb312 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N4d34a3a4490e4902b2a9004c4c94e282 ;
+                    rdf:_2 _:Na04b89a3c7e940168358bc0d947cb312 ] ] .
+
+<FFJ9RCTB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0f81a66b69934c2989f588efab726fd6 ;
+            dcterms:title "Panopticon or the Inspection House" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0f81a66b69934c2989f588efab726fd6 ] ] .
+
+<FWPY6NIZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N84c6e47ddadf4a3c8a7e1e8412050ebb ;
+            dcterms:date "1996" ;
+            dcterms:title "Aramis, or, The Love of Technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N84c6e47ddadf4a3c8a7e1e8412050ebb ] ] .
+
+<GF3ZNUNL> a z:UserItem ;
+    res:resource <http://onlinelibrary.wiley.com/doi/10.1111/j.1741-5446.1997.00051.x/full> .
+
+<GIEXG8ZS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Why The Future Doesn't Need Us?" ] .
+
+<GJTVYWPU> a z:UserItem ;
+    res:resource <http://muse.jhu.edu.libproxy.wlu.ca/journals/substance/v041/41.3.schmidgen.html> .
+
+<GRMDT95S> a z:UserItem ;
+    res:resource <http://mondediplo.com/1997/02/20luddites> .
+
+<GS4K2DQY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N350f799d62b341e1a0c880c0cc1a7b12 ;
+            dcterms:date "1988" ;
+            dcterms:title "When Old Technologies Were New" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N350f799d62b341e1a0c880c0cc1a7b12 ] ] .
+
+<HE24NZ5F> a z:UserItem ;
+    res:resource <http://cje.oxfordjournals.org/content/34/1/143.full.pdf+html> .
+
+<HVNEXSQP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Rules and Implements: Investment in Forms" ] .
+
+<I9XAWD67> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<ICJPYWGA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Ethnography of Infrastructure" ] .
+
+<IQN92N6K> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N83134ef0753c4ce1ac855fb938ccd0dd ;
+            dcterms:date "1994" ;
+            dcterms:title "Feminism and the Technological Fix" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N83134ef0753c4ce1ac855fb938ccd0dd ] ] .
+
+<IWXK34BH> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Box" ;
+                    foaf:name "Simondon's Politics of Technology" ] ;
+            dcterms:title "Inside the Black" ] .
+
+<J6ITF2JR> a z:UserItem ;
+    res:resource <http://www.sciencedirect.com/science/article/pii/0048733396008852#> .
+
+<JC3VLIJL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3ff98edf1a6b4f9492a0d9bc4265484c ;
+            dcterms:date "1983" ;
+            dcterms:title "More Work for Mother: The Ironies of Household Technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3ff98edf1a6b4f9492a0d9bc4265484c ] ] .
+
+<JE7W2YXU> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Cultural Politics of Technology" ] ] .
+
+<JF5Z8HHZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7273915eaaaf4c3997f6d5a486d6655b ;
+            dcterms:date "1994" ;
+            dcterms:title "Unstable Frontiers. Technomedicine and the Cultural Politics of “Curing" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7273915eaaaf4c3997f6d5a486d6655b ] ] .
+
+<JJ3JJ2L6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N57da9a4dbda14063b7afcbb8774aea94,
+                _:N6a5d4faf008545b4905070f230002045 ;
+            dcterms:date "2007" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Culture & Technology: A Primer" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6a5d4faf008545b4905070f230002045 ;
+                    rdf:_2 _:N57da9a4dbda14063b7afcbb8774aea94 ] ] .
+
+<JK7A8LK3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N94ed0d26434346b3837a1bdc636006a5 ;
+            dcterms:date "2007" ;
+            dcterms:title "Evocative Objects: Things We Think With" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N94ed0d26434346b3837a1bdc636006a5 ] ] .
+
+<JMQ59EW5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3288b991e8804fe1980c10f31dea7d6b ;
+            dcterms:date "1999" ;
+            dcterms:title "How We Became Posthuman" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3288b991e8804fe1980c10f31dea7d6b ] ] .
+
+<KEFWNACG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na2813fc2531a46678239e23489e24983 ;
+            dcterms:date "1972" ;
+            dcterms:title "Mythologies" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na2813fc2531a46678239e23489e24983 ] ] .
+
+<KJKLBY85> a z:UserItem ;
+    res:resource <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=31556> .
+
+<LMXJP5FY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nafb803c609f041048af86977ac1e8681 ;
+            dcterms:date "1986" ;
+            dcterms:title "The Whale and the Reactor" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nafb803c609f041048af86977ac1e8681 ] ] .
+
+<LPJBD4IK> a z:UserItem ;
+    res:resource <http://www.jstor.org/stable/689726> .
+
+<LS3MXS7G> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Technology and Social Control" ] .
+
+<LYQH74WZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nc72314dee1a94aeb80b77e401fdb42d5 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc72314dee1a94aeb80b77e401fdb42d5 ] ] .
+
+<MTPWP4XK> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2007" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Residual Media" ] ;
+            bibo:editor _:Nfb2d184289fd41b19ea2e753eca834d4 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfb2d184289fd41b19ea2e753eca834d4 ] ] .
+
+<NYSJ2HNJ> a z:UserItem ;
+    res:resource <http://muse.jhu.edu/journals/tech/summary/v044/44.1meikle.html> .
+
+<PN495ANM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N2c6e9d89e6324d6ebd8772853feb296a ;
+            dcterms:date "1991" ;
+            dcterms:title "Simians, Cyborgs and Women: The Reinvention of Nature" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2c6e9d89e6324d6ebd8772853feb296a ] ] .
+
+<QAHEGGC6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "What the Luddites Fought against" ] .
+
+<R42ZULVX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3fcc137d0dab4a4f854fef37bff1b85e ;
+            dcterms:title "Government, and the Politics of Knowledge" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3fcc137d0dab4a4f854fef37bff1b85e ] ] .
+
+<R8HEXF8H> a z:UserItem ;
+    res:resource <http://cartome.org/panopticon2.htm> .
+
+<R8KNC8BJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "United Artists" ] ;
+            dcterms:title "Watch: Things to come" ] .
+
+<S8L8WVHN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2009" ;
+            dcterms:title "Car Troubles: Studies of Automobility and Auto-Mobility" ;
+            bibo:editor _:N0eadd5ca9c494673a40c58d24d5deca5,
+                _:Nb9dc2e9e07724522b7d7576c38a3537d ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb9dc2e9e07724522b7d7576c38a3537d ;
+                    rdf:_2 _:N0eadd5ca9c494673a40c58d24d5deca5 ] ] .
+
+<TWVSCZFJ> a z:UserItem ;
+    res:resource <http://www.jstor.org/stable/10.2307/1557978?> .
+
+<UCACPM6M> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Leo Marx's The Machine in the Garden" ] .
+
+<UW3GPDG5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Upon Opening the Black Box and Finding It Empty: Social Constructivism and the Philosophy of" ] .
+
+<V536ED4U> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "America's New Luddites" ] .
+
+<VCX5TYPB> a z:UserItem ;
+    res:resource <http://abs.sagepub.com/content/43/3/377.short> .
+
+<VHW7BBEV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Socially camouflaged technologies: the case of the electromechanical vibrator" ] .
+
+<WQR9BLGF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ndedc8609a440454782b3cdfe91ecf2a0 ;
+            dcterms:title "Forster The Machine Stops" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndedc8609a440454782b3cdfe91ecf2a0 ] ] .
+
+<X8VYSSPA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2009" ;
+            dcterms:title "Technology & Society: Building our Sociotechnical Future" ;
+            bibo:editor _:N2c591bcfeb2f48219910afec224ecc2a,
+                _:Ncdba962788a24fabaf92df68ece1857d ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N2c591bcfeb2f48219910afec224ecc2a ;
+                    rdf:_2 _:Ncdba962788a24fabaf92df68ece1857d ] ] .
+
+<XVFM97JT> a z:UserItem ;
+    res:resource <http://archive.org/details/ClaCinOnl_ThingsToCome.> .
+
+<Y5R638EJ> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Interzoning In after Zoning Out on Infrastructure" ] ] .
+
+<YFGULBEU> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Technology and Culture" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "5" ] ;
+            dcterms:title "Authoritarian and democratic technics" ;
+            bibo:pages "1 – 8" ] .
+
+<YIU6PU4H> a z:UserItem ;
+    res:resource <http://archive.wired.com/wired/archive/8.04/joy_pr.html> .
+
+<YPXPAVFG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N810812b54af04e10b4cc17b71788f604,
+                _:N9d26d9714ff84ea0bf52d0fbc0ff3c5e ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N810812b54af04e10b4cc17b71788f604 ;
+                    rdf:_2 _:N9d26d9714ff84ea0bf52d0fbc0ff3c5e ] ] .
+
+<YQZ37NZP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2000" ;
+            dcterms:title "Race in Cyberspace" ;
+            bibo:editor _:N0d51855b280a4da78180ef2d6436d556,
+                _:Na736f62e27fb44bcb084e91d25cd99da ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N0d51855b280a4da78180ef2d6436d556 ;
+                    rdf:_2 _:Na736f62e27fb44bcb084e91d25cd99da ] ] .
+
+<ZZDLJCP6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Feminist Theories of Technology" ] ] .
+
+<ZZFFFVPW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Mixing humans and non-humans together: Sociology of a Door Closer (google it" ] .
+
+<http://abs.sagepub.com/content/43/3/377.short> a bibo:Document ;
+    bibo:uri "http://abs.sagepub.com/content/43/3/377.short" .
+
+<http://archive.ncsa.illinois.edu/prajlich/forster.html> a bibo:Document ;
+    bibo:uri "http://archive.ncsa.illinois.edu/prajlich/forster.html" .
+
+<http://archive.org/details/ClaCinOnl_ThingsToCome.> a bibo:Document ;
+    bibo:uri "http://archive.org/details/ClaCinOnl_ThingsToCome." .
+
+<http://archive.wired.com/wired/archive/8.04/joy_pr.html> a bibo:Document ;
+    bibo:uri "http://archive.wired.com/wired/archive/8.04/joy_pr.html" .
+
+<http://bst.sagepub.com/content/5/3/215.full.pdf+html> a bibo:Document ;
+    bibo:uri "http://bst.sagepub.com/content/5/3/215.full.pdf+html" .
+
+<http://cartome.org/panopticon2.htm> a bibo:Document ;
+    bibo:uri "http://cartome.org/panopticon2.htm" .
+
+<http://cje.oxfordjournals.org/content/34/1/143.full.pdf+html> a bibo:Document ;
+    bibo:uri "http://cje.oxfordjournals.org/content/34/1/143.full.pdf+html" .
+
+<http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=31556> a bibo:Document ;
+    bibo:uri "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=31556" .
+
+<http://journal.media-culture.org.au/index.php/mcjournal/article/viewArticle/425> a bibo:Document ;
+    bibo:uri "http://journal.media-culture.org.au/index.php/mcjournal/article/viewArticle/425" .
+
+<http://litthe.oxfordjournals.org/content/16/1/65.short> a bibo:Document ;
+    bibo:uri "http://litthe.oxfordjournals.org/content/16/1/65.short" .
+
+<http://mondediplo.com/1997/02/20luddites> a bibo:Document ;
+    bibo:uri "http://mondediplo.com/1997/02/20luddites" .
+
+<http://muse.jhu.edu.libproxy.wlu.ca/journals/substance/v041/41.3.schmidgen.html> a bibo:Document ;
+    bibo:uri "http://muse.jhu.edu.libproxy.wlu.ca/journals/substance/v041/41.3.schmidgen.html" .
+
+<http://muse.jhu.edu/journals/tech/summary/v044/44.1meikle.html> a bibo:Document ;
+    bibo:uri "http://muse.jhu.edu/journals/tech/summary/v044/44.1meikle.html" .
+
+<http://onlinelibrary.wiley.com/doi/10.1111/j.1741-5446.1997.00051.x/full> a bibo:Document ;
+    bibo:uri "http://onlinelibrary.wiley.com/doi/10.1111/j.1741-5446.1997.00051.x/full" .
+
+<http://soc.sagepub.com/content/35/2/441.short> a bibo:Document ;
+    bibo:uri "http://soc.sagepub.com/content/35/2/441.short" .
+
+<http://srmo.sagepub.com.libproxy.wlu.ca/view/handbook-of-science-and-technology-studies/d17.xml> a bibo:Document ;
+    bibo:uri "http://srmo.sagepub.com.libproxy.wlu.ca/view/handbook-of-science-and-technology-studies/d17.xml" .
+
+<http://srmo.sagepub.com.libproxy.wlu.ca/view/handbook-of-science-and-technology-studies/d32.xml> a bibo:Document ;
+    bibo:uri "http://srmo.sagepub.com.libproxy.wlu.ca/view/handbook-of-science-and-technology-studies/d32.xml" .
+
+<http://ssi.sagepub.com.libproxy.wlu.ca/content/23/1/1> a bibo:Document ;
+    bibo:uri "http://ssi.sagepub.com.libproxy.wlu.ca/content/23/1/1" .
+
+<http://web.mit.edu/gtmarx/www/techandsocial.html> a bibo:Document ;
+    bibo:uri "http://web.mit.edu/gtmarx/www/techandsocial.html" .
+
+<http://www.ifla.org/publications/sleepwalking-toward-a-control-society-ten-must-know-trends> a bibo:Document ;
+    bibo:uri "http://www.ifla.org/publications/sleepwalking-toward-a-control-society-ten-must-know-trends" .
+
+<http://www.jour.unr.edu/j705/RP.BANNING.LUDDITE.HTML> a bibo:Document ;
+    bibo:uri "http://www.jour.unr.edu/j705/RP.BANNING.LUDDITE.HTML" .
+
+<http://www.jstor.org/stable/10.2307/1557978?> a bibo:Document ;
+    bibo:uri "http://www.jstor.org/stable/10.2307/1557978?" .
+
+<http://www.jstor.org/stable/20024652> a bibo:Document ;
+    dcterms:title "Do Artifacts have Politics?" ;
+    bibo:uri "http://www.jstor.org/stable/20024652" .
+
+<http://www.jstor.org/stable/689726> a bibo:Document ;
+    bibo:uri "http://www.jstor.org/stable/689726" .
+
+<http://www.sciencedirect.com/science/article/pii/0048733396008852#> a bibo:Document ;
+    bibo:uri "http://www.sciencedirect.com/science/article/pii/0048733396008852#" .
+
+<http://www.sciencedirect.com/science/article/pii/S0959802297000088> a bibo:Document ;
+    bibo:uri "http://www.sciencedirect.com/science/article/pii/S0959802297000088" .
+
+<http://www.smithsonianmag.com/history/what-the-luddites-really-fought-against-264412> a bibo:Document ;
+    bibo:uri "http://www.smithsonianmag.com/history/what-the-luddites-really-fought-against-264412" .
+
+_:N0d51855b280a4da78180ef2d6436d556 a foaf:Person ;
+    foaf:givenName "Nakamura" ;
+    foaf:surname "Kolko" .
+
+_:N0eadd5ca9c494673a40c58d24d5deca5 a foaf:Organization ;
+    foaf:name "McLaren" .
+
+_:N0f81a66b69934c2989f588efab726fd6 a foaf:Organization ;
+    foaf:name "Bentham" .
+
+_:N2c591bcfeb2f48219910afec224ecc2a a foaf:Organization ;
+    foaf:name "Johnson" .
+
+_:N2c6e9d89e6324d6ebd8772853feb296a a foaf:Organization ;
+    foaf:name "Haraway" .
+
+_:N3288b991e8804fe1980c10f31dea7d6b a foaf:Organization ;
+    foaf:name "Hayles" .
+
+_:N350f799d62b341e1a0c880c0cc1a7b12 a foaf:Organization ;
+    foaf:name "Marvin" .
+
+_:N3fcc137d0dab4a4f854fef37bff1b85e a foaf:Organization ;
+    foaf:name "Science" .
+
+_:N3ff98edf1a6b4f9492a0d9bc4265484c a foaf:Organization ;
+    foaf:name "Cowan" .
+
+_:N4d34a3a4490e4902b2a9004c4c94e282 a foaf:Organization ;
+    foaf:name "Mackenzie" .
+
+_:N57da9a4dbda14063b7afcbb8774aea94 a foaf:Organization ;
+    foaf:name "Wise" .
+
+_:N57de4ea6b3124102be9b6fc86db037ee a foaf:Organization ;
+    foaf:name "Balsamo1996" .
+
+_:N6a5d4faf008545b4905070f230002045 a foaf:Organization ;
+    foaf:name "Slack" .
+
+_:N7273915eaaaf4c3997f6d5a486d6655b a foaf:Organization ;
+    foaf:name "Erni" .
+
+_:N810812b54af04e10b4cc17b71788f604 a foaf:Person ;
+    foaf:givenName "Texts" ;
+    foaf:surname "Technologies" .
+
+_:N83134ef0753c4ce1ac855fb938ccd0dd a foaf:Organization ;
+    foaf:name "Stabile" .
+
+_:N84c6e47ddadf4a3c8a7e1e8412050ebb a foaf:Organization ;
+    foaf:name "Latour" .
+
+_:N8a7834ff271b4355abd70846f2a7e058 a foaf:Organization ;
+    foaf:name "Lupton" .
+
+_:N94ed0d26434346b3837a1bdc636006a5 a foaf:Organization ;
+    foaf:name "Turkle" .
+
+_:N9d26d9714ff84ea0bf52d0fbc0ff3c5e a foaf:Organization ;
+    foaf:name "Affordances" .
+
+_:Na04b89a3c7e940168358bc0d947cb312 a foaf:Organization ;
+    foaf:name "Wajcman" .
+
+_:Na2813fc2531a46678239e23489e24983 a foaf:Organization ;
+    foaf:name "Barthes" .
+
+_:Na2c35e28540b445a8317f10b41162345 a foaf:Organization ;
+    foaf:name "Latour" .
+
+_:Na736f62e27fb44bcb084e91d25cd99da a foaf:Organization ;
+    foaf:name "Rodman" .
+
+_:Nafb803c609f041048af86977ac1e8681 a foaf:Organization ;
+    foaf:name "Winner" .
+
+_:Nb4e626731036491e8989653c1a1c6985 a foaf:Organization ;
+    foaf:name "Heckman" .
+
+_:Nb9dc2e9e07724522b7d7576c38a3537d a foaf:Organization ;
+    foaf:name "Conley" .
+
+_:Nb9f758cf09a24cab8acce5bcc3a4f916 a foaf:Organization ;
+    foaf:name "Davis" .
+
+_:Nc72314dee1a94aeb80b77e401fdb42d5 a foaf:Person ;
+    foaf:givenName "Society" ;
+    foaf:surname "Divide" .
+
+_:Ncdba962788a24fabaf92df68ece1857d a foaf:Organization ;
+    foaf:name "Wetmore" .
+
+_:Ndd4f38abb57d421492712e8a36179f0a a foaf:Organization ;
+    foaf:name "Leiss" .
+
+_:Ndedc8609a440454782b3cdfe91ecf2a0 a foaf:Organization ;
+    foaf:name "E.M." .
+
+_:Ne8989f18914f4dbc8cf0875c5962063f a foaf:Organization ;
+    foaf:name "Schivelbusch" .
+
+_:Nfb2d184289fd41b19ea2e753eca834d4 a foaf:Organization ;
+    foaf:name "Acland" .
+

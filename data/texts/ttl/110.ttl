@@ -1,0 +1,486 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<2CQHHL5H> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nc4f30935d416487988d990ac4a23c7f0 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1994" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "American Anthropologist" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "96" ] ;
+            dcterms:title "Professional Vision" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc4f30935d416487988d990ac4a23c7f0 ] ;
+            bibo:pages "606–633" ] .
+
+<36MICLHP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N006764011153497896ea8709c6041a70,
+                _:N254d69a68c6c4576a3e265e4149345ba,
+                _:N627fba8dbf044aa8b9d36cc4f92b6ddb ;
+            dcterms:date "2013" ;
+            dcterms:title "Beyond the Grave: Facebook as a Sitefor the Expansion of Death and Mourning.\"The Information Society 29" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N627fba8dbf044aa8b9d36cc4f92b6ddb ;
+                    rdf:_2 _:N006764011153497896ea8709c6041a70 ;
+                    rdf:_3 _:N254d69a68c6c4576a3e265e4149345ba ] ] .
+
+<62ID3YXB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3dff09ced64244e9aa98ca8de6a4e784 ;
+            dcterms:date "1984" ;
+            dcterms:title "Imagined Communities" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3dff09ced64244e9aa98ca8de6a4e784 ] ] .
+
+<65QZW2W4> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N674fbec05e7b4ea5a45209f47a137683 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1992" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "October" ] ;
+                    bibo:volume "59" ] ;
+            dcterms:title "Postscript on the Societies of Control" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N674fbec05e7b4ea5a45209f47a137683 ] ;
+            bibo:pages "3–7" ] .
+
+<6V4QH2QI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N508ea5d2947f4582a958e31b9be64aa9 ;
+            dcterms:date "1975" ;
+            dcterms:title "Television: Technology and Cultural Form" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N508ea5d2947f4582a958e31b9be64aa9 ] ] .
+
+<BABT4PG5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0153c66377024e7b896ad848816257d1 ;
+            dcterms:date "2006" ;
+            dcterms:title "The Postal Age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0153c66377024e7b896ad848816257d1 ] ] .
+
+<BNFJJEX5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7c77636483af4a51aacf154a716b9ad1,
+                _:N8e265eff60f743f1b8b5806f4d8ba4bd ;
+            dcterms:date "2010" ;
+            dcterms:title "The Work of Sustaining Order in Wikipedia: The Banning of a Vandal.\"Proceedings of CSCW" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7c77636483af4a51aacf154a716b9ad1 ;
+                    rdf:_2 _:N8e265eff60f743f1b8b5806f4d8ba4bd ] ] .
+
+<C5H773SJ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4667b9a686594f768ba3e5794daf7e43,
+                _:N93e8afc0b1d04b409912aaf816136c11 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "New Media & Society" ] ;
+                    bibo:issue "8" ;
+                    bibo:volume "15" ] ;
+            dcterms:title "The Like Economy: Social Buttons and the Data-Intensive Web" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4667b9a686594f768ba3e5794daf7e43 ;
+                    rdf:_2 _:N93e8afc0b1d04b409912aaf816136c11 ] ;
+            bibo:pages "1348–1365" ] .
+
+<C7DYEFIQ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nb777a2c1d9e5460aa285084fab43ce28,
+                _:Nf4d7f8c9b92349f4a7ce7c58e397d78d ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Information, Communication & Society" ] ;
+                    bibo:issue "5" ;
+                    bibo:volume "15" ] ;
+            dcterms:title "The Logic of Connective Action: Digital Media and the Personalization of Contentious Politics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb777a2c1d9e5460aa285084fab43ce28 ;
+                    rdf:_2 _:Nf4d7f8c9b92349f4a7ce7c58e397d78d ] ] .
+
+<C8S8MEJW> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7bf8a905324049279318d43b0a776964 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The New Inquiry" ] ] ;
+            dcterms:title "The IRL Fetish" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7bf8a905324049279318d43b0a776964 ] ] .
+
+<DE54U6NV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0374dc2e0c8649eba8b63cc94776e700 ;
+            dcterms:date "1979" ;
+            dcterms:title "Video Killed the Radio Star" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0374dc2e0c8649eba8b63cc94776e700 ] ] .
+
+<DNAA2V4H> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N891c68a0f6704175ba1da832bb20ad32 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Wikipedia" ;
+                    foaf:name "A Critical Point of View" ] ;
+            dcterms:title "The Lives of Bots" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N891c68a0f6704175ba1da832bb20ad32 ] ;
+            bibo:numPages "78–93" ] .
+
+<DU4RUR9W> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ndd754b77290d4641bc5b241be10741b8 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2011" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Poetics" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "39" ] ;
+            dcterms:title "The digital production gap: The digital divide and Web 2.0 collide" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndd754b77290d4641bc5b241be10741b8 ] ;
+            bibo:pages "145–68" ] .
+
+<FS2JZSCU> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Nf876bbc069e74bf1a3a5c849318e7b9e ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "1989" ;
+                    dcterms:title "Be sure to read the annotations on Rap Genius" ] ;
+            dcterms:title "Beepers" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf876bbc069e74bf1a3a5c849318e7b9e ] ] .
+
+<GKZGQRD8> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N2edb00fc8c414624980be83bdef8c3fa,
+                _:Na3f68de4dd574b7790e47c17f4da22fa ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Youth Studies" ] ] ;
+            dcterms:title "The Drama! Teen Conflict, Gossip, and Bullying in Networked Publics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2edb00fc8c414624980be83bdef8c3fa ;
+                    rdf:_2 _:Na3f68de4dd574b7790e47c17f4da22fa ] ] .
+
+<GQZ2YVXA> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nf8844c71621e41b18d9cf420384d63f0 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2008" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Social Studies of Science" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "38" ] ;
+            dcterms:title "Mind the Gap: The London Underground Map and Users' Representations of Urban Space" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf8844c71621e41b18d9cf420384d63f0 ] ;
+            bibo:pages "7–33" ] .
+
+<GYNFZVJ9> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nad93309d28ac491085d153a577f7119b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1988" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Technology and Culture" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "29" ] ;
+            dcterms:title "'Touch Someone': The Telephone Industry Discovers Sociability" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nad93309d28ac491085d153a577f7119b ] ;
+            bibo:pages "32–61" ] .
+
+<I87VANYM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Neadabeba7fe44db18cc193ce30c3d121 ;
+            dcterms:date "2014" ;
+            dcterms:title "How Netflix Reverse-Engineered Hollywood.\"The Atlantic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Neadabeba7fe44db18cc193ce30c3d121 ] ] .
+
+<IZXZWIER> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N5c88727284dd421d9ec7f1d1130a4479 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2010" ;
+                    dcterms:title "Networked Self: Identity, Community, and Culture on Social Network Sites (ed. Zizi Papacharissi" ] ;
+            dcterms:title "Social Network Sites as Networked Publics: Affordances, Dynamics, and Implications" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5c88727284dd421d9ec7f1d1130a4479 ] ;
+            bibo:pages "39–58" ] .
+
+<JK4MZ46S> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N537e9d54920e475facbea6615045de4d ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2007" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The New Yorker" ] ] ;
+            dcterms:title "What Else Is New?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N537e9d54920e475facbea6615045de4d ] ] .
+
+<JMVVHJRM> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N5fa59c9072f84145ab16988336e9b8c1 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2011" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ch" ] ;
+                    bibo:volume "1" ] ;
+            dcterms:title "Good Faith Collaboration: The Culture of Wikipedia" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5fa59c9072f84145ab16988336e9b8c1 ] ;
+            bibo:pages "4" ] .
+
+<P5JF3GJ9> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4cefcbc27f404f72ad1fa8748cfc3fde ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2006" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Code" ] ;
+                    bibo:issue "0" ;
+                    bibo:volume "2" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4cefcbc27f404f72ad1fa8748cfc3fde ] ;
+            bibo:pages "83–110" ] .
+
+<PPJVS5EX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7af4a02dea7a40b3be3d0dcd1e11b4b1 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The New York Times" ] ] ;
+            dcterms:title "The Flight from Conversation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7af4a02dea7a40b3be3d0dcd1e11b4b1 ] ] .
+
+<RDCL6JGA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N335df45eebe0410d88e46f3e4ffdb47b ;
+            dcterms:date "1968" ;
+            dcterms:title "Send a Picture of Mother" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N335df45eebe0410d88e46f3e4ffdb47b ] ] .
+
+<RWTUT7YS> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N23617a85137447688ee9f8c1f3f7eca6,
+                _:Nd894ae7cb92c4ca688d5f23642f58ccc ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2013" ;
+                    dcterms:title "Proceedings of CSCW" ] ;
+            dcterms:title "SELECT * FROM USER: Infrastructure and Socio-Technical Representation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd894ae7cb92c4ca688d5f23642f58ccc ;
+                    rdf:_2 _:N23617a85137447688ee9f8c1f3f7eca6 ] ;
+            bibo:pages "369–378" ] .
+
+<T9IHAAKN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N38786d417fbe419bbca2b2b93cb76fbe ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2006" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Code" ] ;
+                    bibo:issue "0" ;
+                    bibo:volume "2" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N38786d417fbe419bbca2b2b93cb76fbe ] ;
+            bibo:pages "120–128" ] .
+
+<TG57ZZ7G> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N626adb8be217458faa0853eca0e45ac0 ;
+            dcterms:date "2014" ;
+            dcterms:title "A Brief Primer on Human Social Networks, or How to Keep $16 Billion in Your Pocket.\"Medium" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N626adb8be217458faa0853eca0e45ac0 ] ] .
+
+<VBWI4K4M> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N684f3a2ef0a34a91bd112590359c6202,
+                _:N78c40a320bf14d81991a1001bd9431b2 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "New Literary History" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "27" ] ;
+            dcterms:title "The City is a Medium" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N684f3a2ef0a34a91bd112590359c6202 ;
+                    rdf:_2 _:N78c40a320bf14d81991a1001bd9431b2 ] ;
+            bibo:pages "717–729" ] .
+
+<YVBBWNCN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ndccaeff93cca4e3abd15edbba2baa657 ;
+            dcterms:date "2014" ;
+            dcterms:title "Our Numbered Days: The Evolution of the Area Code.\"The Atlantic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndccaeff93cca4e3abd15edbba2baa657 ] ] .
+
+_:N006764011153497896ea8709c6041a70 a foaf:Person ;
+    foaf:givenName "Gillian" ;
+    foaf:surname "Hayes" .
+
+_:N0153c66377024e7b896ad848816257d1 a foaf:Person ;
+    foaf:givenName "David" ;
+    foaf:surname "Henkin" .
+
+_:N0374dc2e0c8649eba8b63cc94776e700 a foaf:Person ;
+    foaf:givenName "The" ;
+    foaf:surname "Buggles" .
+
+_:N23617a85137447688ee9f8c1f3f7eca6 a foaf:Person ;
+    foaf:givenName "Gillian" ;
+    foaf:surname "Hayes" .
+
+_:N254d69a68c6c4576a3e265e4149345ba a foaf:Person ;
+    foaf:givenName "Paul" ;
+    foaf:surname "Dourish" .
+
+_:N2edb00fc8c414624980be83bdef8c3fa a foaf:Person ;
+    foaf:givenName "Alice" ;
+    foaf:surname "Marwick" .
+
+_:N335df45eebe0410d88e46f3e4ffdb47b a foaf:Person ;
+    foaf:givenName "Johnny" ;
+    foaf:surname "Cash" .
+
+_:N38786d417fbe419bbca2b2b93cb76fbe a foaf:Person ;
+    foaf:givenName "Lawrence" ;
+    foaf:surname "Lessig" .
+
+_:N3dff09ced64244e9aa98ca8de6a4e784 a foaf:Person ;
+    foaf:givenName "Benedict" ;
+    foaf:surname "Anderson" .
+
+_:N4667b9a686594f768ba3e5794daf7e43 a foaf:Person ;
+    foaf:givenName "Carolin" ;
+    foaf:surname "Gerlitz" .
+
+_:N4cefcbc27f404f72ad1fa8748cfc3fde a foaf:Person ;
+    foaf:givenName "Lawrence" ;
+    foaf:surname "Lessig" .
+
+_:N508ea5d2947f4582a958e31b9be64aa9 a foaf:Person ;
+    foaf:givenName "Raymond" ;
+    foaf:surname "Williams" .
+
+_:N537e9d54920e475facbea6615045de4d a foaf:Person ;
+    foaf:givenName "Steven" ;
+    foaf:surname "Shapin" .
+
+_:N5c88727284dd421d9ec7f1d1130a4479 a foaf:Person ;
+    foaf:givenName "danah" ;
+    foaf:surname "boyd" .
+
+_:N5fa59c9072f84145ab16988336e9b8c1 a foaf:Person ;
+    foaf:givenName "Joseph" ;
+    foaf:surname "Reagle" .
+
+_:N626adb8be217458faa0853eca0e45ac0 a foaf:Person ;
+    foaf:givenName "Zeynep" ;
+    foaf:surname "Tufekci" .
+
+_:N627fba8dbf044aa8b9d36cc4f92b6ddb a foaf:Person ;
+    foaf:givenName "Jed" ;
+    foaf:surname "Brubaker" .
+
+_:N674fbec05e7b4ea5a45209f47a137683 a foaf:Person ;
+    foaf:givenName "Gilles" ;
+    foaf:surname "Deleuze" .
+
+_:N684f3a2ef0a34a91bd112590359c6202 a foaf:Person ;
+    foaf:givenName "Friedrich" ;
+    foaf:surname "Kittler" .
+
+_:N78c40a320bf14d81991a1001bd9431b2 a foaf:Person ;
+    foaf:givenName "Matthew" ;
+    foaf:surname "Griffin" .
+
+_:N7af4a02dea7a40b3be3d0dcd1e11b4b1 a foaf:Person ;
+    foaf:givenName "Sherry" ;
+    foaf:surname "Turkle" .
+
+_:N7bf8a905324049279318d43b0a776964 a foaf:Person ;
+    foaf:givenName "Nathan" ;
+    foaf:surname "Jurgenson" .
+
+_:N7c77636483af4a51aacf154a716b9ad1 a foaf:Person ;
+    foaf:givenName "RStuart" ;
+    foaf:surname "Geiger" .
+
+_:N891c68a0f6704175ba1da832bb20ad32 a foaf:Person ;
+    foaf:givenName "RStuart" ;
+    foaf:surname "Geiger" .
+
+_:N8e265eff60f743f1b8b5806f4d8ba4bd a foaf:Person ;
+    foaf:givenName "David" ;
+    foaf:surname "Ribes" .
+
+_:N93e8afc0b1d04b409912aaf816136c11 a foaf:Person ;
+    foaf:givenName "Anne" ;
+    foaf:surname "Helmond" .
+
+_:Na3f68de4dd574b7790e47c17f4da22fa a foaf:Organization ;
+    foaf:name "boyd" .
+
+_:Nad93309d28ac491085d153a577f7119b a foaf:Person ;
+    foaf:givenName "Claude" ;
+    foaf:surname "Fischer" .
+
+_:Nb777a2c1d9e5460aa285084fab43ce28 a foaf:Person ;
+    foaf:givenName "Lance" ;
+    foaf:surname "Bennet" .
+
+_:Nc4f30935d416487988d990ac4a23c7f0 a foaf:Person ;
+    foaf:givenName "Charles" ;
+    foaf:surname "Goodwin" .
+
+_:Nd894ae7cb92c4ca688d5f23642f58ccc a foaf:Person ;
+    foaf:givenName "Jed" ;
+    foaf:surname "Brubaker" .
+
+_:Ndccaeff93cca4e3abd15edbba2baa657 a foaf:Person ;
+    foaf:givenName "Megan" ;
+    foaf:surname "Garber" .
+
+_:Ndd754b77290d4641bc5b241be10741b8 a foaf:Person ;
+    foaf:givenName "Jen" ;
+    foaf:surname "Schradie" .
+
+_:Neadabeba7fe44db18cc193ce30c3d121 a foaf:Person ;
+    foaf:givenName "Alexis" ;
+    foaf:surname "Madrigal" .
+
+_:Nf4d7f8c9b92349f4a7ce7c58e397d78d a foaf:Person ;
+    foaf:givenName "Alexandra" ;
+    foaf:surname "Segerberg" .
+
+_:Nf876bbc069e74bf1a3a5c849318e7b9e a foaf:Person ;
+    foaf:givenName "Sir" ;
+    foaf:surname "Mix-a-lot" .
+
+_:Nf8844c71621e41b18d9cf420384d63f0 a foaf:Person ;
+    foaf:givenName "Janet" ;
+    foaf:surname "Vertesi" .
+

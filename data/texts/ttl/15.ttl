@@ -1,0 +1,323 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_10> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_13> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Letter to Google (Feb. 4, 2016).</p>" ] .
+
+<#item_15> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Robot Speech (Room 116</p>" ] .
+
+<#item_17> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_19> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_2> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_21> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_25> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_28> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_4> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_6> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<#item_8> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>available online at</p>" ] .
+
+<22AQLF59> a z:UserItem ;
+    res:resource <http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=1007&context=clrcircuit.> .
+
+<3ATQWV24> a z:UserItem ;
+    res:resource <http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=2067&context=facpubs.> .
+
+<4C5FL53B> a z:UserItem ;
+    res:resource <http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2749375.Patrick> .
+
+<4P5LUSSX> a z:UserItem ;
+    res:resource <http://www.stanfordlawreview.org/online/drone-privacy-catalyst.> .
+
+<A2YIUQXX> a z:UserItem ;
+    res:resource <http://firstmonday.org/ojs/index.php/fm/article/view/6161/5300.> .
+
+<CM9ZDBX8> a z:UserItem ;
+    res:resource <http://www.uoltj.ca/articles/vol1.1-2/2003-> .
+
+<FZ8H2PDN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "National Highway Transportation Safety Administration (NHTSA" ] .
+
+<KFCJYJZ6> a z:UserItem ;
+    res:resource <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2504325.> .
+
+<MZXPMMNX> a z:UserItem ;
+    res:resource <http://web.law.columbia.edu/sites/default/files/microsites/kernochan/09.materials-Bridy.pdf> .
+
+<PGKEQ7B5> a z:UserItem ;
+    res:resource <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2602452.Friday,> .
+
+<PUF42Q8G> a z:UserItem ;
+    res:resource <http://ssrn.com/abstract=1108671.> .
+
+<QHUWPFG3> a z:UserItem ;
+    res:resource <http://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805.> .
+
+<UYVX8NP2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nc830bcb16d9d4a38a1e4c112d3bd1b0e ;
+            dcterms:title "Legal Personhood for Artificial Intelligences, 70 North Carolina Law" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc830bcb16d9d4a38a1e4c112d3bd1b0e ] ] .
+
+<WDVPN554> a z:UserItem ;
+    res:resource <http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2586570.> .
+
+<WK8DW5H4> a z:UserItem ;
+    res:resource <http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2402972.> .
+
+<XI54YJNN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N41be7322a5d64ee5aaf979e6d1ff49f3,
+                _:N893e6780668c4671ad0ee320ba00cd3b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2003" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Technology Journal" ] ;
+                    bibo:volume "285" ] ;
+            dcterms:title "Babes, and the Californication of Commerce, 1 University of Ottawa Law and" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N893e6780668c4671ad0ee320ba00cd3b ;
+                    rdf:_2 _:N41be7322a5d64ee5aaf979e6d1ff49f3 ] ] .
+
+<http://firstmonday.org/ojs/index.php/fm/article/view/6161/5300.> a bibo:Document ;
+    dcterms:creator _:N03b1a1feca5b49798fba5d3b9ac7ea9c ;
+    dcterms:title "Automating power: Social bot interference in global politics, 21 First" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N03b1a1feca5b49798fba5d3b9ac7ea9c ] ;
+    bibo:uri "http://firstmonday.org/ojs/index.php/fm/article/view/6161/5300." .
+
+<http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2402972.> a bibo:AcademicArticle ;
+    dcterms:creator _:Nbca55ef10cef43979d4dfb4c11c4eb9a ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2015" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "California Law Review" ] ;
+            bibo:volume "513" ] ;
+    dcterms:title "Robotics and the Lessons of Cyberlaw, 103" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbca55ef10cef43979d4dfb4c11c4eb9a ] ;
+    bibo:uri "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2402972." .
+
+<http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2586570.> a bibo:AcademicArticle ;
+    dcterms:creator _:N7deb925ea3f34c86b68e6a554546f1f7 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2015" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "California Law Review Circuit" ] ;
+            bibo:volume "45" ] ;
+    dcterms:title "The Path of Robotics Law, 5" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N7deb925ea3f34c86b68e6a554546f1f7 ] ;
+    bibo:uri "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2586570." .
+
+<http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2749375.Patrick> a bibo:BookSection ;
+    dcterms:creator _:Nc1b653bc90494b6686b013ee4492d23c ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:date "2015" ;
+            dcterms:title "Lin, Why Ethics Matters for Autonomous Cars, in AUTONOMES FAHREN" ] ;
+    dcterms:title "How Governments Can Promote Automated Driving, available online at" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc1b653bc90494b6686b013ee4492d23c ] ;
+    bibo:uri "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2749375.Patrick" .
+
+<http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=1007&context=clrcircuit.> a bibo:AcademicArticle ;
+    dcterms:creator _:Nb183526f52564f89bb5bc929dd14fff5 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2013" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "California Law Review Circuit" ] ;
+            bibo:volume "57" ] ;
+    dcterms:title "Drone Federalism: Civilian Drones and the Things They Carry, 4" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb183526f52564f89bb5bc929dd14fff5 ] ;
+    bibo:uri "http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=1007&context=clrcircuit." .
+
+<http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=2067&context=facpubs.> a bibo:AcademicArticle ;
+    dcterms:creator _:Nb36d520e020e476cbd6531e1d8e752be ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1986" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Law Review" ] ;
+            bibo:volume "47" ] ;
+    dcterms:title "Allocating Ownership Rights in Computer-Generated Works, 1185 University of Pittsburgh" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb36d520e020e476cbd6531e1d8e752be ] ;
+    bibo:uri "http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=2067&context=facpubs." .
+
+<http://ssrn.com/abstract=1108671.> a bibo:AcademicArticle ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1992" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Review" ] ;
+            bibo:volume "1231" ] ;
+    bibo:uri "http://ssrn.com/abstract=1108671." .
+
+<http://web.law.columbia.edu/sites/default/files/microsites/kernochan/09.materials-Bridy.pdf> a bibo:AcademicArticle ;
+    dcterms:creator _:Nb457b11cd6054d34aab01dea5b8c3752 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2012" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Stanford Technology Law Review" ] ;
+            bibo:volume "5" ] ;
+    dcterms:title "Coding Creativity: Copyright and the Artificially Intelligent Author, 2012" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb457b11cd6054d34aab01dea5b8c3752 ] ;
+    bibo:uri "http://web.law.columbia.edu/sites/default/files/microsites/kernochan/09.materials-Bridy.pdf" .
+
+<http://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805.> a bibo:AcademicArticle ;
+    dcterms:creator _:N4267e36527364c64b5c3d224f99de880,
+        _:Nee4c0dd42ee947deaa54552fa83d11b1 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2016" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Nature (Oct" ] ;
+            bibo:volume "13" ] ;
+    dcterms:title "There is a blind spot in AI research" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N4267e36527364c64b5c3d224f99de880 ;
+            rdf:_2 _:Nee4c0dd42ee947deaa54552fa83d11b1 ] ;
+    bibo:uri "http://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805." .
+
+<http://www.stanfordlawreview.org/online/drone-privacy-catalyst.> a bibo:AcademicArticle ;
+    dcterms:creator _:Na8487cdb794e4696811ad1141b61017b ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2011" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Stanford Law Review Online" ] ;
+            bibo:volume "29" ] ;
+    dcterms:title "The Drone as Privacy Catalyst, 64" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Na8487cdb794e4696811ad1141b61017b ] ;
+    bibo:uri "http://www.stanfordlawreview.org/online/drone-privacy-catalyst." .
+
+<http://www.uoltj.ca/articles/vol1.1-2/2003-> a bibo:Document ;
+    dcterms:date "2004" ;
+    bibo:uri "http://www.uoltj.ca/articles/vol1.1-2/2003-" .
+
+<https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2504325.> a bibo:AcademicArticle ;
+    dcterms:creator _:Na6d0d6f7ac394d2ca98685b4fb4a7064,
+        _:Neff96d688b73414495f76066df9b9a71 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2015" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Connecticut Law Review" ] ;
+            bibo:volume "1" ] ;
+    dcterms:title "Self-Defense Against Robots and Drones, 48" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Neff96d688b73414495f76066df9b9a71 ;
+            rdf:_2 _:Na6d0d6f7ac394d2ca98685b4fb4a7064 ] ;
+    bibo:uri "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2504325." .
+
+<https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2602452.Friday,> a bibo:AcademicArticle ;
+    dcterms:creator _:N83106380136f4670997035e6e99e669c ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2015" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Maryland Law Review" ] ;
+            bibo:volume "785" ] ;
+    dcterms:title "Unfair and Deceptive Robots, 74" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N83106380136f4670997035e6e99e669c ] ;
+    bibo:uri "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2602452.Friday," .
+
+_:N03b1a1feca5b49798fba5d3b9ac7ea9c a foaf:Person ;
+    foaf:givenName "Samuel C." ;
+    foaf:surname "Woolley" .
+
+_:N41be7322a5d64ee5aaf979e6d1ff49f3 a foaf:Organization ;
+    foaf:name "Bots" .
+
+_:N4267e36527364c64b5c3d224f99de880 a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Crawford" .
+
+_:N7deb925ea3f34c86b68e6a554546f1f7 a foaf:Person ;
+    foaf:givenName "Jack" ;
+    foaf:surname "Balkin" .
+
+_:N83106380136f4670997035e6e99e669c a foaf:Person ;
+    foaf:givenName "Woodrow" ;
+    foaf:surname "Hartzog" .
+
+_:N893e6780668c4671ad0ee320ba00cd3b a foaf:Person ;
+    foaf:givenName "Ian R." ;
+    foaf:surname "Kerr" .
+
+_:Na6d0d6f7ac394d2ca98685b4fb4a7064 a foaf:Person ;
+    foaf:givenName "Zak" ;
+    foaf:surname "Colangelo" .
+
+_:Na8487cdb794e4696811ad1141b61017b a foaf:Person ;
+    foaf:givenName "Ryan" ;
+    foaf:surname "Calo" .
+
+_:Nb183526f52564f89bb5bc929dd14fff5 a foaf:Person ;
+    foaf:givenName "Margot" ;
+    foaf:surname "Kaminski" .
+
+_:Nb36d520e020e476cbd6531e1d8e752be a foaf:Person ;
+    foaf:givenName "Pamela" ;
+    foaf:surname "Samuelson" .
+
+_:Nb457b11cd6054d34aab01dea5b8c3752 a foaf:Person ;
+    foaf:givenName "Annemarie" ;
+    foaf:surname "Bridy" .
+
+_:Nbca55ef10cef43979d4dfb4c11c4eb9a a foaf:Person ;
+    foaf:givenName "Ryan" ;
+    foaf:surname "Calo" .
+
+_:Nc1b653bc90494b6686b013ee4492d23c a foaf:Person ;
+    foaf:givenName "Bryant Walker" ;
+    foaf:surname "Smith" .
+
+_:Nc830bcb16d9d4a38a1e4c112d3bd1b0e a foaf:Person ;
+    foaf:givenName "Lawrence" ;
+    foaf:surname "Solum" .
+
+_:Nee4c0dd42ee947deaa54552fa83d11b1 a foaf:Person ;
+    foaf:givenName "Ryan" ;
+    foaf:surname "Calo" .
+
+_:Neff96d688b73414495f76066df9b9a71 a foaf:Person ;
+    foaf:givenName "A.Michael" ;
+    foaf:surname "Froomkin" .
+

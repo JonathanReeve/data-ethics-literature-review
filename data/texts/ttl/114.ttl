@@ -1,0 +1,798 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_10> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Retrieved from.</p>" ] .
+
+<#item_2> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>chapter 1</p>" ] .
+
+<#item_33> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>just the section on Presenting statistical results to non-statistical audiences</p>" ] .
+
+<2YFCRTKB> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N60b744fe5af242ceadf4d05b3845e588,
+                _:Na5a1e2f466064dfb9d23a05f28ddaa72,
+                _:Nfcfac49afcdc4d8b8c0e4f03c2bf2688 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "CSCW" ] ] ;
+            dcterms:title "Bots as Virtual Confederates: Design and Ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na5a1e2f466064dfb9d23a05f28ddaa72 ;
+                    rdf:_2 _:N60b744fe5af242ceadf4d05b3845e588 ;
+                    rdf:_3 _:Nfcfac49afcdc4d8b8c0e4f03c2bf2688 ] ] .
+
+<36LLLYZG> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9013e182bccd44c48798d0e1da9284d7 ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "and Moderators" ;
+                    foaf:name "Making Experiments Interesting" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9013e182bccd44c48798d0e1da9284d7 ] ] .
+
+<3AQI5DWG> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N201d86f1f35f4ede804eb555d4eac1a1,
+                _:N6431fea95089423a852fc36a7ccc5e3a,
+                _:N951636db20ca41d3af8a7f3e568b8ef0,
+                _:N96ace3a9b8a448f89ae3775b2e8cbd0d ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Netflix" ] ] ;
+            dcterms:title "Artwork personalization at Netflix" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N201d86f1f35f4ede804eb555d4eac1a1 ;
+                    rdf:_2 _:N951636db20ca41d3af8a7f3e568b8ef0 ;
+                    rdf:_3 _:N96ace3a9b8a448f89ae3775b2e8cbd0d ;
+                    rdf:_4 _:N6431fea95089423a852fc36a7ccc5e3a ] ] .
+
+<3W3PCJ7B> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7714f6cb42c34ed2a3423e71c0a3ec85 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Quarterly Journal of Economics" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "130" ] ;
+            dcterms:title "Site selection bias in program evaluation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7714f6cb42c34ed2a3423e71c0a3ec85 ] ;
+            bibo:pages "1117–1165" ] .
+
+<48HQYJG8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N07e79ef3a0894378a58c6c79260f2331 ;
+            dcterms:date "2018" ;
+            dcterms:title "Sliced & Diced: The Inside Story of How an Ivy League Food Scientist Turned Shoddy Data into Viral Studies" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N07e79ef3a0894378a58c6c79260f2331 ] ] .
+
+<4M5D2C6G> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8cb67cbfac5c4a28950dae62016e7824 ;
+            dcterms:date "2017-05-11" ;
+            dcterms:title "The Tangled Story Behind Trump’s False Claims Of Voter Fraud" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8cb67cbfac5c4a28950dae62016e7824 ] ] .
+
+<6RJ6MQBT> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N3e4f47ec00c24a93a7806db2dac91336,
+                _:N4f3d003cfba84b8b937e68d21eb84ab1 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2010" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Social and Personality Psychology Compass" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "4" ] ;
+            dcterms:title "Full-Cycle Social Psychology for Theory and Application" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4f3d003cfba84b8b937e68d21eb84ab1 ;
+                    rdf:_2 _:N3e4f47ec00c24a93a7806db2dac91336 ] ;
+            bibo:pages "53–63" ] .
+
+<8GQX79ME> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nb5a8a08d9c1e4534946569cc34ed5928 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2000" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Crime & Delinquency" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "46" ] ;
+            dcterms:title "A historical perspective on the use of randomized trials in social science settings" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb5a8a08d9c1e4534946569cc34ed5928 ] ;
+            bibo:pages "315–329" ] .
+
+<8PRYTM44> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4a9f21ee845241b19fa268bb102a1f4b ;
+            dcterms:date "2017-03-21" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Airbnb Engineering and Data Science" ] ;
+            dcterms:title "4 Principles for Making Experimentation Count" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4a9f21ee845241b19fa268bb102a1f4b ] ] .
+
+<8YMAB9RN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N01d751cdc9ca4aa9b81f200c205f8577 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Political Behavior" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "39" ] ;
+            dcterms:title "Tweetment effects on the tweeted: Experimentally reducing racist harassment" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N01d751cdc9ca4aa9b81f200c205f8577 ] ;
+            bibo:pages "629–649" ] .
+
+<9DI3NJJN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N1bf635eb162b4a53854ce0a196d8222d,
+                _:Nd4a32dccefe34023bad32a24beb0b90d ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2003" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "American economic review" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "93" ] ;
+            dcterms:title "Libertarian paternalism" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd4a32dccefe34023bad32a24beb0b90d ;
+                    rdf:_2 _:N1bf635eb162b4a53854ce0a196d8222d ] ;
+            bibo:pages "175–179" ] .
+
+<9M3TN54J> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N0db7bbe95fe44c98a0dbf4b2a6a665ed,
+                _:N3202a2dabdd3449c8a101092acef7228,
+                _:N68404e6ee6294276b5bc0aa083483671,
+                _:N9ab7146d8dc341ba9ddb6b458645ee80,
+                _:Nd021bd86fbca4c8786d6d75b25e1b155,
+                _:Nebdee68c237d44179efa5a139dd5c7f7 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2013" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "ACM" ] ;
+                    dcterms:title "Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining" ] ;
+            dcterms:title "Online controlled experiments at large scale" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0db7bbe95fe44c98a0dbf4b2a6a665ed ;
+                    rdf:_2 _:N9ab7146d8dc341ba9ddb6b458645ee80 ;
+                    rdf:_3 _:N3202a2dabdd3449c8a101092acef7228 ;
+                    rdf:_4 _:N68404e6ee6294276b5bc0aa083483671 ;
+                    rdf:_5 _:Nebdee68c237d44179efa5a139dd5c7f7 ;
+                    rdf:_6 _:Nd021bd86fbca4c8786d6d75b25e1b155 ] ;
+            bibo:pages "1168–1176" ] .
+
+<9R5JF7GA> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N14bf3d7635bb47a5a6f051582bf9fd4d,
+                _:N4ea10caf9ada49d1bd37a7e813cc7b23 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:title "ACM Conference on Human Computer Interaction 2018" ] ;
+            dcterms:title "Community-Led Experiments in Platform Governance" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N14bf3d7635bb47a5a6f051582bf9fd4d ;
+                    rdf:_2 _:N4ea10caf9ada49d1bd37a7e813cc7b23 ] ] .
+
+<A526BYGX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N097df11a570347ffa8991be2f754a43e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1979" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Public Administration Review" ] ;
+                    bibo:issue "5" ;
+                    bibo:volume "39" ] ;
+            dcterms:title "The many meanings of research utilization" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N097df11a570347ffa8991be2f754a43e ] ;
+            bibo:pages "426–431" ] .
+
+<AG6YTWVH> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Na37a59e3d1d44ea991d4e7eaea2a74bb,
+                _:Nb131886f062540519136674cbac7bc13,
+                _:Nbfd38e181a89460c9abd8302627355fe ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Proceedings of the National Academy of Sciences" ] ;
+                    bibo:issue "24" ;
+                    bibo:volume "111" ] ;
+            dcterms:title "Experimental evidence of massive-scale emotional contagion through social networks" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb131886f062540519136674cbac7bc13 ;
+                    rdf:_2 _:Na37a59e3d1d44ea991d4e7eaea2a74bb ;
+                    rdf:_3 _:Nbfd38e181a89460c9abd8302627355fe ] ;
+            bibo:pages "8788–8790" ] .
+
+<BHFRP9JF> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7627f05eb519409d9f5eeec45250d10b,
+                _:Nd6bf2c52fcf74bd4bcf3d8b98fe36bfb,
+                _:Ne86cbb49b15a4d3482d7553635f4f017 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Proceedings of the National Academy of Sciences" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "113" ] ;
+            dcterms:title "Changing climates of conflict: A social network experiment in 56 schools" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne86cbb49b15a4d3482d7553635f4f017 ;
+                    rdf:_2 _:Nd6bf2c52fcf74bd4bcf3d8b98fe36bfb ;
+                    rdf:_3 _:N7627f05eb519409d9f5eeec45250d10b ] ;
+            bibo:pages "566–571" ] .
+
+<BKZJLYLX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N37d5007339ee4e2087a708c76c7ccaa8,
+                _:N68d25171bde346058d3834c3cc279367 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1998" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "New Directions for Evaluation" ] ;
+                    bibo:volume "80" ] ;
+            dcterms:title "Framing participatory evaluation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N68d25171bde346058d3834c3cc279367 ;
+                    rdf:_2 _:N37d5007339ee4e2087a708c76c7ccaa8 ] ;
+            bibo:pages "5–23" ] .
+
+<EHGT4LKF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nd40469ab0cf142b1872f44dfe3263125 ;
+            dcterms:date "2014" ;
+            dcterms:title "Ethical Challenges and Some Solutions for Field Experiments" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd40469ab0cf142b1872f44dfe3263125 ] ] .
+
+<FSN96RFP> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N492da91f642d4911b977a80d0cdfbf09 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Nature" ] ;
+                    bibo:volume "524" ] ;
+            dcterms:title "Can randomized trials eliminate global poverty?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N492da91f642d4911b977a80d0cdfbf09 ] ;
+            bibo:pages "150–153" ] .
+
+<GY8GX72Y> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nd727d793c2fd47f2b142a271e7503b07,
+                _:Nf13a48016e894b78bd27925c7c29ccac ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2011" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Management science" ] ;
+                    bibo:issue "9" ;
+                    bibo:volume "57" ] ;
+            dcterms:title "Creating social contagion through viral product design: A randomized trial of peer influence in networks" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd727d793c2fd47f2b142a271e7503b07 ;
+                    rdf:_2 _:Nf13a48016e894b78bd27925c7c29ccac ] ;
+            bibo:pages "1623–1639" ] .
+
+<HE55FDQB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "This workshop outlines statistical work involved in designing an experiment, introducing core assumptions of experiment design, including excludability and non-interference" ] .
+
+<I6B3EQ3V> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N45de457d4cdf46cbbea27f2747430614 ;
+            dcterms:date "2014-11-03" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Washington Post" ] ;
+            dcterms:title "Ethics and research in comparative politics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N45de457d4cdf46cbbea27f2747430614 ] ] .
+
+<IDUF6LXH> a z:UserItem ;
+    res:resource <http://kill-or-cure.herokuapp.com/> .
+
+<J5TINZF9> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ndf23a8453531486db14a4ad094dbbd8e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017-04-02" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The New York Times" ] ] ;
+            dcterms:title "How Uber Uses Psychological Tricks to Push Its Drivers’ Buttons" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndf23a8453531486db14a4ad094dbbd8e ] ] .
+
+<JZVLUAFJ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N8cae0430e01c4d6987ea7be3ce09ac5d ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014-07-08" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Now What? marylgray.org" ] ] ;
+            dcterms:title "When Science, Customer Service, and Human Subjects Research Collide" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8cae0430e01c4d6987ea7be3ce09ac5d ] ] .
+
+<LBYQ6ZEK> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N087ca825889e49adb902f1ed400a1bbd,
+                _:N8239d2e8fb9641809cc3980ec6981049 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "StitchFix" ] ] ;
+            dcterms:title "Your Client Engagement Program Isn't Doing What You Think It Is" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8239d2e8fb9641809cc3980ec6981049 ;
+                    rdf:_2 _:N087ca825889e49adb902f1ed400a1bbd ] ] .
+
+<LJ6JJ6CX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "We will also begin the process of matching student teams with community partners to develop experiment ideas together" ] .
+
+<LT7N5SM7> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N313ca896db894cd5afbfa709849dc2ab,
+                _:N37b73f5d06fd4287aeb216b6cd950ece,
+                _:Nd4c50f9686364f75979ed748f3cb3e72 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Causal Inference" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "5" ] ;
+            dcterms:title "Design and analysis of experiments in networks: Reducing bias from interference" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd4c50f9686364f75979ed748f3cb3e72 ;
+                    rdf:_2 _:N313ca896db894cd5afbfa709849dc2ab ;
+                    rdf:_3 _:N37b73f5d06fd4287aeb216b6cd950ece ] ] .
+
+<M79FWMVJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5f1c611e69164826adcea20ca356d5cd,
+                _:N8f51c331379c4f93827d42f3ba24c9ef,
+                _:N9944d0bb01b9435ba6da60ab1d6e34c1 ;
+            dcterms:date "2002" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Houghton-Mifflin" ] ;
+            dcterms:title "Experimental and Quasi-Experimental Designs for Generalized Causal Inference" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9944d0bb01b9435ba6da60ab1d6e34c1 ;
+                    rdf:_2 _:N8f51c331379c4f93827d42f3ba24c9ef ;
+                    rdf:_3 _:N5f1c611e69164826adcea20ca356d5cd ] ] .
+
+<MIRJ42SN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4af9cecc485d4970865ff4bce0023bb5 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Handbook of Economic Field Experiments" ] ;
+                    bibo:volume "1" ] ;
+            dcterms:title "The practicalities of running randomized evaluations: partnerships, measurement, ethics, and transparency" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4af9cecc485d4970865ff4bce0023bb5 ] ;
+            bibo:pages "175–243 1–18" ] .
+
+<MT3MA484> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N6613840a61c5488d8678100e68f14b7a,
+                _:N7b682bb8814344788238b3aed1011816 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2009" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Topics in Cognitive Science" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "1" ] ;
+            dcterms:title "Web-Based Experiments for the Study of Collective Social Dynamics in Cultural Markets" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7b682bb8814344788238b3aed1011816 ;
+                    rdf:_2 _:N6613840a61c5488d8678100e68f14b7a ] ;
+            bibo:pages "439–468" ] .
+
+<MTP6JZV5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N0aca5b06e793433192764cc1fe6ae837 ;
+            dcterms:date "2018" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "TechCrunch" ] ;
+            dcterms:title "Duplex shows Google failing at ethical and creative AI design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0aca5b06e793433192764cc1fe6ae837 ] ] .
+
+<NFDWFEJS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nd6e3768e32e34215b64ac371d38181a8 ;
+            dcterms:date "2015" ;
+            dcterms:title "The law and ethics of experiments on social media users. 13 Colo" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd6e3768e32e34215b64ac371d38181a8 ] ] .
+
+<NKZX2FFE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N913b8d007ee24ff4a6bc86ae1ddd06b6 ;
+            dcterms:date "2017-01-05" ;
+            dcterms:title "An Ingenious Experiment of Jungle Bats and Evolving Artificial Flowers" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N913b8d007ee24ff4a6bc86ae1ddd06b6 ] ] .
+
+<RGXYYU4N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nee127e979de7477892c6b33506515163 ;
+            dcterms:date "2016-12-12" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Media Lab" ] ;
+            dcterms:title "The Obligation To Experiment" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nee127e979de7477892c6b33506515163 ] ] .
+
+<SZPWB26T> a z:UserItem ;
+    res:resource <https://doi.org/10.1111/j.1468-0009.2010.00608.x> .
+
+<T7WTKY4W> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N779423eab0034ff69d319b903222b514,
+                _:Nbc8640ed299a4148986c0a1885cc1ae6 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of the American Statistical Association" ] ] ;
+            dcterms:title "Estimation and inference of heterogeneous treatment effects using random forests" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbc8640ed299a4148986c0a1885cc1ae6 ;
+                    rdf:_2 _:N779423eab0034ff69d319b903222b514 ] ] .
+
+<XVBEXZX8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "TBA: Example or reading on using multiple arms to identify mediators or test rival hypotheses" ] .
+
+<Y4W4ZKYE> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N97449a5cbb0146c49682e367fdd611a3 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017-11-08" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Science Magazine" ] ] ;
+            dcterms:title "A new ‘accelerator’ aims to bring big science to psychology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N97449a5cbb0146c49682e367fdd611a3 ] ] .
+
+<YCHUNI7G> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N323aadc4dcb64573be80dc05afed1da8 ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "University of Chicago Press. Chicago" ] ;
+            dcterms:title "The Chicago guide to writing about numbers" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N323aadc4dcb64573be80dc05afed1da8 ] ] .
+
+<Z9CT4G4K> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N0fb98dd6c6db4ebe884e87099e396d5c ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016-05-27" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The New York Times" ] ] ;
+            dcterms:title "Why Do So Many Studies Fail to Replicate?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0fb98dd6c6db4ebe884e87099e396d5c ] ] .
+
+<http://kill-or-cure.herokuapp.com/> a bibo:Document ;
+    dcterms:creator _:N0181b50429b546ada8c802c7abea81cc ;
+    dcterms:title "Kill Or Cure" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0181b50429b546ada8c802c7abea81cc ] ;
+    bibo:uri "http://kill-or-cure.herokuapp.com/" .
+
+<https://doi.org/10.1111/j.1468-0009.2010.00608.x> a bibo:AcademicArticle ;
+    dcterms:creator _:N6ba23329e3cc4d30a99ea6fbe55af6a8,
+        _:N6ea000a4527640978b20bf23c565aa2c,
+        _:N93d557f52ab74bd5b34e822e8870376b,
+        _:Nb828cc73a85b4fb08304354cf4615bb0 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2010" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Milbank Quarterly" ] ;
+            bibo:issue "4" ;
+            bibo:volume "88" ] ;
+    dcterms:title "Knowledge Exchange Processes in Organizations and Policy Arenas: A Narrative Systematic Review of the Literature" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N93d557f52ab74bd5b34e822e8870376b ;
+            rdf:_2 _:Nb828cc73a85b4fb08304354cf4615bb0 ;
+            rdf:_3 _:N6ea000a4527640978b20bf23c565aa2c ;
+            rdf:_4 _:N6ba23329e3cc4d30a99ea6fbe55af6a8 ] ;
+    bibo:doi "10.1111/j.1468-0009.2010.00608.x" ;
+    bibo:pages "444–483" ;
+    bibo:uri "https://doi.org/10.1111/j.1468-0009.2010.00608.x" .
+
+_:N0181b50429b546ada8c802c7abea81cc a foaf:Person ;
+    foaf:givenName "Paul" ;
+    foaf:surname "Batley" .
+
+_:N01d751cdc9ca4aa9b81f200c205f8577 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Munger" .
+
+_:N07e79ef3a0894378a58c6c79260f2331 a foaf:Person ;
+    foaf:givenName "Stephanie M." ;
+    foaf:surname "Lee" .
+
+_:N087ca825889e49adb902f1ed400a1bbd a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Prabhakar" .
+
+_:N097df11a570347ffa8991be2f754a43e a foaf:Person ;
+    foaf:givenName "C.H." ;
+    foaf:surname "Weiss" .
+
+_:N0aca5b06e793433192764cc1fe6ae837 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Lomas" .
+
+_:N0db7bbe95fe44c98a0dbf4b2a6a665ed a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Kohavi" .
+
+_:N0fb98dd6c6db4ebe884e87099e396d5c a foaf:Person ;
+    foaf:givenName "J.V." ;
+    foaf:surname "Bavel" .
+
+_:N14bf3d7635bb47a5a6f051582bf9fd4d a foaf:Person ;
+    foaf:givenName "J.Nathan" ;
+    foaf:surname "Matias" .
+
+_:N1bf635eb162b4a53854ce0a196d8222d a foaf:Person ;
+    foaf:givenName "C.R." ;
+    foaf:surname "Sunstein" .
+
+_:N201d86f1f35f4ede804eb555d4eac1a1 a foaf:Person ;
+    foaf:givenName "Ashok" ;
+    foaf:surname "Chandrashekar" .
+
+_:N313ca896db894cd5afbfa709849dc2ab a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Karrer" .
+
+_:N3202a2dabdd3449c8a101092acef7228 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Frasca" .
+
+_:N323aadc4dcb64573be80dc05afed1da8 a foaf:Person ;
+    foaf:givenName "J.E." ;
+    foaf:surname "Miller" .
+
+_:N37b73f5d06fd4287aeb216b6cd950ece a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Ugander" .
+
+_:N37d5007339ee4e2087a708c76c7ccaa8 a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Whitmore" .
+
+_:N3e4f47ec00c24a93a7806db2dac91336 a foaf:Person ;
+    foaf:givenName "R.B." ;
+    foaf:surname "Cialdini" .
+
+_:N45de457d4cdf46cbbea27f2747430614 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Desposato" .
+
+_:N492da91f642d4911b977a80d0cdfbf09 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Tollefson" .
+
+_:N4a9f21ee845241b19fa268bb102a1f4b a foaf:Person ;
+    foaf:givenName "L.M." ;
+    foaf:surname "Pettingill" .
+
+_:N4af9cecc485d4970865ff4bce0023bb5 a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Glennerster" .
+
+_:N4ea10caf9ada49d1bd37a7e813cc7b23 a foaf:Person ;
+    foaf:givenName "Mou" ;
+    foaf:surname "Merry" .
+
+_:N4f3d003cfba84b8b937e68d21eb84ab1 a foaf:Person ;
+    foaf:givenName "C.R." ;
+    foaf:surname "Mortensen" .
+
+_:N5f1c611e69164826adcea20ca356d5cd a foaf:Person ;
+    foaf:givenName "Donald T." ;
+    foaf:surname "Campbell" .
+
+_:N60b744fe5af242ceadf4d05b3845e588 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Macy" .
+
+_:N6431fea95089423a852fc36a7ccc5e3a a foaf:Person ;
+    foaf:givenName "Tony" ;
+    foaf:surname "Jebara" .
+
+_:N6613840a61c5488d8678100e68f14b7a a foaf:Person ;
+    foaf:givenName "D.J." ;
+    foaf:surname "Watts" .
+
+_:N68404e6ee6294276b5bc0aa083483671 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Walker" .
+
+_:N68d25171bde346058d3834c3cc279367 a foaf:Person ;
+    foaf:givenName "J.B." ;
+    foaf:surname "Cousins" .
+
+_:N6ba23329e3cc4d30a99ea6fbe55af6a8 a foaf:Person ;
+    foaf:givenName "É." ;
+    foaf:surname "Tremblay" .
+
+_:N6ea000a4527640978b20bf23c565aa2c a foaf:Person ;
+    foaf:givenName "J.-L." ;
+    foaf:surname "Denis" .
+
+_:N7627f05eb519409d9f5eeec45250d10b a foaf:Person ;
+    foaf:givenName "P.M." ;
+    foaf:surname "Aronow" .
+
+_:N7714f6cb42c34ed2a3423e71c0a3ec85 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Allcott" .
+
+_:N779423eab0034ff69d319b903222b514 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Athey" .
+
+_:N7b682bb8814344788238b3aed1011816 a foaf:Person ;
+    foaf:givenName "M.J." ;
+    foaf:surname "Salganik" .
+
+_:N8239d2e8fb9641809cc3980ec6981049 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Glynn" .
+
+_:N8cae0430e01c4d6987ea7be3ce09ac5d a foaf:Person ;
+    foaf:givenName "M.L." ;
+    foaf:surname "Gray" .
+
+_:N8cb67cbfac5c4a28950dae62016e7824 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Koerth-Baker" .
+
+_:N8f51c331379c4f93827d42f3ba24c9ef a foaf:Person ;
+    foaf:givenName "Thomas D." ;
+    foaf:surname "Cook" .
+
+_:N9013e182bccd44c48798d0e1da9284d7 a foaf:Person ;
+    foaf:givenName "Matt" ;
+    foaf:surname "Salganik" .
+
+_:N913b8d007ee24ff4a6bc86ae1ddd06b6 a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Yong" .
+
+_:N93d557f52ab74bd5b34e822e8870376b a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Contandriopoulos" .
+
+_:N951636db20ca41d3af8a7f3e568b8ef0 a foaf:Person ;
+    foaf:givenName "Fernando" ;
+    foaf:surname "Amat" .
+
+_:N96ace3a9b8a448f89ae3775b2e8cbd0d a foaf:Person ;
+    foaf:givenName "Justin" ;
+    foaf:surname "Basilico" .
+
+_:N97449a5cbb0146c49682e367fdd611a3 a foaf:Person ;
+    foaf:givenName "Dalmeet Singh" ;
+    foaf:surname "Chalwa" .
+
+_:N9944d0bb01b9435ba6da60ab1d6e34c1 a foaf:Person ;
+    foaf:givenName "William R." ;
+    foaf:surname "Shadish" .
+
+_:N9ab7146d8dc341ba9ddb6b458645ee80 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Deng" .
+
+_:Na37a59e3d1d44ea991d4e7eaea2a74bb a foaf:Person ;
+    foaf:givenName "J.E." ;
+    foaf:surname "Guillory" .
+
+_:Na5a1e2f466064dfb9d23a05f28ddaa72 a foaf:Person ;
+    foaf:givenName "P.M." ;
+    foaf:surname "Krafft" .
+
+_:Nb131886f062540519136674cbac7bc13 a foaf:Person ;
+    foaf:givenName "A.D." ;
+    foaf:surname "Kramer" .
+
+_:Nb5a8a08d9c1e4534946569cc34ed5928 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Oakley" .
+
+_:Nb828cc73a85b4fb08304354cf4615bb0 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Lemire" .
+
+_:Nbc8640ed299a4148986c0a1885cc1ae6 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Wager" .
+
+_:Nbfd38e181a89460c9abd8302627355fe a foaf:Person ;
+    foaf:givenName "J.T." ;
+    foaf:surname "Hancock" .
+
+_:Nd021bd86fbca4c8786d6d75b25e1b155 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Pohlmann" .
+
+_:Nd40469ab0cf142b1872f44dfe3263125 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Desposato" .
+
+_:Nd4a32dccefe34023bad32a24beb0b90d a foaf:Person ;
+    foaf:givenName "R.H." ;
+    foaf:surname "Thaler" .
+
+_:Nd4c50f9686364f75979ed748f3cb3e72 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Eckles" .
+
+_:Nd6bf2c52fcf74bd4bcf3d8b98fe36bfb a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Shepherd" .
+
+_:Nd6e3768e32e34215b64ac371d38181a8 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Grimmelmann" .
+
+_:Nd727d793c2fd47f2b142a271e7503b07 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Aral" .
+
+_:Ndf23a8453531486db14a4ad094dbbd8e a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Scheiber" .
+
+_:Ne86cbb49b15a4d3482d7553635f4f017 a foaf:Person ;
+    foaf:givenName "E.L." ;
+    foaf:surname "Paluck" .
+
+_:Nebdee68c237d44179efa5a139dd5c7f7 a foaf:Person ;
+    foaf:givenName "Y." ;
+    foaf:surname "Xu" .
+
+_:Nee127e979de7477892c6b33506515163 a foaf:Person ;
+    foaf:givenName "J.N." ;
+    foaf:surname "Matias" .
+
+_:Nf13a48016e894b78bd27925c7c29ccac a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Walker" .
+
+_:Nfcfac49afcdc4d8b8c0e4f03c2bf2688 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Pentland" .
+

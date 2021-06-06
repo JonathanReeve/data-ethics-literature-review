@@ -1,0 +1,23 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_2> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Digital Community, Digital Citizen (Ohler</p>" ] .
+
+<#item_4> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Mass Media Ethics (Wilkins, Christians</p>" ] .
+
+<JTAVIRB7> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<W2MIVPJU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Medium is the Massage: An Inventory of Effects by McLuhan" ] .
+
+<XYGXPYB2> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+

@@ -1,0 +1,577 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_22> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Elish (We Robot, 2016).</p>" ] .
+
+<#item_27> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>The New Yorker, 2017</p>" ] .
+
+<#item_29> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>by Madeleine Claire Elish and Tim Hwang (Quartz, 2015</p>" ] .
+
+<#item_3> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Up to “Open Peer Commentary”</p>" ] .
+
+<#item_32> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Kate Crawford #NIPS2017</p>" ] .
+
+<#item_35> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Fairness, Accountability, and Transparency in Machine Learning</p>" ] .
+
+<#item_38> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Ben Casselman and Dana Goldstein (FiveThirtyEight, 2015</p>" ] .
+
+<#item_42> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Emma Pierson, Sam Corbett-Davies and Sharad Goel (Washington Post, 2016</p>" ] .
+
+<#item_45> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>by David Robinson &amp; Logan Koepke (Upturn, 2017</p>" ] .
+
+<#item_47> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>by Brian Clifton, Sam Lavigne, &amp; Francis Tseng (The New Inquiry). See</p>" ] .
+
+<#item_5> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Mitchell, and Todorov (Medium, 2017</p>" ] .
+
+<#item_51> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>image recognition</p>" ] .
+
+<#item_53> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Wired Magazine, August 21st, 2017</p>" ] .
+
+<#item_58> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>“Million-dollar babies”​ (The Economist, 2016</p>" ] .
+
+<#item_61> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>James Cham (O’Reilly, 2017</p>" ] .
+
+<#item_68> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>OECD, 2017</p>" ] .
+
+<#item_70> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>The Conversation, 2016</p>" ] .
+
+<#item_73> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>and, Maybe, the World’s”​ by Jessi Hempel (Wired, 2017</p>" ] .
+
+<#item_80> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>by John Danaher (Philosophical Disquistions 2015). 6</p>" ] .
+
+<#item_85> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>by Jason Furman, (expanded remarks from the AI Now expert workshop, 2016</p>" ] .
+
+<#item_87> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>We Robot, 2014</p>" ] .
+
+<#item_9> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Wagstaff (JPL</p>" ] .
+
+<#item_92> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>yet)”​ by Michael Chui, James Manyika, and Mehdi Miremadi (McKinsey Quarterly, 2016</p>" ] .
+
+<#item_96> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>The Guardian, 2017</p>" ] .
+
+<27EQ4IIN> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "New York Times" ] ;
+            dcterms:title "Why Stanford Researchers Tried to Create a ‘Gaydar’ Machine”​ by Heather Murphy" ] .
+
+<2A6V9ZH3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "End of the Road: Will automation put an end to the American trucker?”​ by Dominic Rushe" ] .
+
+<2AAB3VT9> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "HBR" ] ;
+            dcterms:title "Data Monopolists Like Google Are Threatening the Economy”​ by Kira Radinsky" ] .
+
+<2AVWSIW7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nfa54bae391934c91a1f937bbbc112e2a ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfa54bae391934c91a1f937bbbc112e2a ] ] .
+
+<2DG4VTQH> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Guardian" ] ;
+            dcterms:title "Computer says no: why making AIs fair, accountable and transparent is crucial”​ by Ian Sample" ] .
+
+<2P8WFUAH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "How Facebook’s Algorithm Suppresses Content Diversity (Modestly) and How the" ] .
+
+<2QGYL4FM> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "​Big Data and Society" ] ;
+            dcterms:title "How the machine “thinks”: Understanding Opacity in Machine Learning Algorithms”​ by Jenna Burrell" ] .
+
+<3H4FT2D6> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<4YFA8ZKC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Machine Learning that Matters”​ by Kiri L" ] .
+
+<5JYFZC8K> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Principles for Accountable Algorithms and a Social Impact Statement for Algorithms”​ by Nicholas Diakopoulos et al" ] .
+
+<5K3B2N5B> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2017" ;
+                    dcterms:title "Five Theses”​ by Thomas Burri (Machine Learning and the Law Conference" ] ;
+            dcterms:title "Machine Learning and the Law" ] .
+
+<7IYT57T6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "1980" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Behavioral and Brain Sciences" ] ;
+            dcterms:title "Minds, Brains, and Programs”​ by John Searle" ] .
+
+<7VW4EUJ3> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "New York Times" ] ;
+            dcterms:title "Beijing Wants A.I. to Be Made in China by 2030”​ by Paul Mozur" ] .
+
+<8CKQY8EP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Threat of Algocracy: Reality, Resistance and Accommodation”​ by John Danaher (Philosophy and Technology, 2016" ] .
+
+<8FB9EPMI> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Freedman (MIT Technology Review" ] ;
+            dcterms:title "10 Breakthrough Technologies: Self-Driving Trucks”​ by David H" ] .
+
+<98X4GUQD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "A computer program used for bail and sentencing decisions was labeled biased against blacks. It’s actually not that clear\"​ by Avi Feller" ] .
+
+<9IE726FJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Big Data: Bringing Competition Policy to the Digital Era - Executive Summary”" ] .
+
+<9LH2TVBP> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<9T6QHX2J> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017" ;
+            dcterms:title "Our Machines Now Have Knowledge We’ll Never Understand”​ by David Weinberger" ] .
+
+<9YMW4ICW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "How AI Startups Must Compete with Google”" ] .
+
+<A3YP6SA9> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Science, Technology, and Human Values" ] ;
+            dcterms:title "Toward an ethics of algorithms: Convening, observation, probability, and timeliness​ by Ananny, M" ] .
+
+<AGR6T458> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N94808edc821c4cb89c648656145e668f ;
+            dcterms:date "2016" ;
+            dcterms:title "Supreme Court of Wisconsin" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N94808edc821c4cb89c648656145e668f ] ] .
+
+<BC7BAIY6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "A Few Useful Things to Know about Machine Learning”​ by Pedro Domingos" ] .
+
+<BSANX9A6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016" ;
+            dcterms:title "Whose Life Should Your Car Save?”​ by Azim Shariff et al" ] .
+
+<CWJEST9W> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Credit Scoring in the Era of Big Data”​ by Hurley and Adebayo Media" ] .
+
+<CZSUBUSV> a z:UserItem ;
+    res:resource <https://www.youtube.com/watch?v=fMym_BKWQzk> .
+
+<DPM8N2XZ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N283e80a3ca454dfe914fa9e9f6d857ea ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Data & Society). Reference ​“To Predict and Serve?”​ by Kristian Lum and William Isaac" ] ;
+            dcterms:title "90 – Kristian Lum: Predictive Policing" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N283e80a3ca454dfe914fa9e9f6d857ea ] ] .
+
+<E8CRJR54> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Medium" ] ;
+            dcterms:title "Newsfeed Rules Your Clicks”​ by Zeynep Tufekci" ] .
+
+<EEYBPA8M> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Technology Review" ] ;
+            dcterms:title "The Relentless Pace of Automation”​ by David Rotman" ] .
+
+<EPAMUA7X> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6f73e8eb8c7547be9bb8d99a05088a78 ;
+            dcterms:date "2016" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6f73e8eb8c7547be9bb8d99a05088a78 ] ] .
+
+<F74N9Y8T> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015-09-21" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "York Times" ] ] ;
+            dcterms:title "How I learned to Stop Worrying and Love A.I.”​ by Robert Burton (The New" ] .
+
+<F7UL2SCD> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N1550e938b7264cdab9ae4dbb9a8c9777 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York" ;
+                    foaf:name "Crown" ] ;
+            dcterms:title "​Weapons Of Math Destruction : How Big Data Increases Inequality And Threatens Democracy​ [e-book" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1550e938b7264cdab9ae4dbb9a8c9777 ] ] .
+
+<FMJKH2II> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Current State of Machine Intelligence 3.0”​ by Shivon Zilis and" ] .
+
+<G33U8QC8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Information Operations and Facebook”​ by Facebook Newsroom" ] .
+
+<GYQ3I84T> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017-07-20" ;
+            dcterms:title "Technology is Biased too. How do we Fix it?”​ By Laura Hudson (Five Thirty Eight" ] .
+
+<H6UHLDTC> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "of Washington" ] ] .
+
+<HPTQRFUL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Harvard Journal of Law and Technology" ] ;
+            dcterms:title "Robots as Legal Metaphors”​ by Ryan Calo" ;
+            bibo:numPages "3" ] .
+
+<HRV7RPCB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "New York Times" ] ;
+            dcterms:title "Full Tilt: When 100% of Cars are Autonomous”" ] .
+
+<HU7AJU8N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Bloomberg BNA" ] ;
+            dcterms:title "Artificial Intelligence Pushes the Anti-Trust Envelope”​ by Michaela Ross" ] .
+
+<HX9T99K6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Bornstein (Nautilus" ] ;
+            dcterms:title "Is Artificial Intelligence Permanently Inscrutable?”​ by Aaron M" ] .
+
+<I8UGLG4U> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction”​ by M.C" ] .
+
+<ISX7EIN5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Robinson and Yu" ] ;
+            dcterms:title "Knowing the Score: New Data, Underwriting, and Marketing in the Consumer Credit Marketplace\"" ] .
+
+<ITF7ULBB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Society-in-the-Loop: Programming the Algorithmic Social Contract”​ by Iyad Rahwan" ] .
+
+<KH7FPCZ6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016" ;
+            dcterms:title "How we Analyzed the COMPAS Recidivism Algorithm”​ by Jeff Larson" ;
+            bibo:editor _:N6adbf9ab82184453af1c701f8eefae3a,
+                _:Nd390ad34c4324bd289bf9c47e45a21d1,
+                _:Necfa0550fd674a808242e906afcb48a7 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Necfa0550fd674a808242e906afcb48a7 ;
+                    rdf:_2 _:Nd390ad34c4324bd289bf9c47e45a21d1 ;
+                    rdf:_3 _:N6adbf9ab82184453af1c701f8eefae3a ] ] .
+
+<KQ54P89R> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017-07-27" ;
+            dcterms:title "Why Zuckerberg and Musk are Fighting About the Robot Future”​ by Ian Bogost (The Atlantic" ] .
+
+<KYQNR65X> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4a316df7e1314b0bac99b2b4f6effe9c ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4a316df7e1314b0bac99b2b4f6effe9c ] ] .
+
+<LNNSIWBE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Predicting Financial Crime: Augmenting the Predictive Policing Arsenal" ] .
+
+<LZPYS94I> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017" ;
+            dcterms:title "The Race For AI: Google, Baidu, Intel, Apple In A Rush To Grab Artificial Intelligence Startups”" ] .
+
+<M5HF9MFN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Regulating the Loop: Ironies of Automation Law”​ by Meg Leta Ambrose" ] .
+
+<MC7DQI2V> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:title "Lipton (NIPS 2017 Interpretable ML Symposium" ] ;
+            dcterms:title "The Doctor Just Won't Accept That!”​ by Zachary C" ] .
+
+<NEPE5WVD> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Science" ] ;
+            dcterms:title "Transparent, explainable, and accountable AI for robotics\"​ by Sandra Wachter,Brent Mittelstadt, and Luciano Floridi" ] .
+
+<NZQPUFDD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Thinking Machines: The Search for Artificial Intelligence”​ by Jacob Roberts (Chemical" ] .
+
+<P4XYBEKF> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "New Yorker" ] ;
+            dcterms:title "The Doomsday Invention”​ by Raffi Khatchadourian" ] .
+
+<PGX2LZBX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017-08-01" ;
+            dcterms:title "​“China’s Plan to ‘Lead’ in AI: Purpose, Prospects, and Problems”​ by Graham Webster, Rogier Creemers, Paul Triolo and Elsa Kania" ] .
+
+<QHXNYXYU> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Vladeck (Washington Law Review" ] ] ;
+            dcterms:title "Machines without Principals (sic): Liability Rules and Artificial Intelligence”​ by David C" ] .
+
+<QLF58BCU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Stuck in a Pattern: Early evidence on ‘predictive policing’ and civil rights" ] .
+
+<RU8TJM24> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Should Prison Sentences Be Based On Crimes That Haven’t Been Committed Yet?”​ by Anna Maria Barry-Jester" ] .
+
+<RUL7DNLN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017" ;
+            dcterms:title "AI Now 2017 Report”​ by Crawford et al" ] .
+
+<SDJ9WW5U> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "New Media and Society" ] ;
+            dcterms:title "Seeing without knowing: Limitations of the transparency ideal and its application to algorithmic accountability”​ by Mike Ananny and Kate Crawford" ] .
+
+<SKA32GK4> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Is This Time Different? The Opportunities and Challenges of Artificial Intelligence" ] .
+
+<TU79WRZU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017" ;
+            dcterms:title "Everything You Need To Know About Sophia, The World's First Robot Citizen\"​ by Zara Stone" ] .
+
+<TZ69KJMB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Where machines could replace humans, and where they can’t" ] .
+
+<U56VASNS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Is Effective Regulation of AI Possible? Eight Potential Regulatory Problems”" ] .
+
+<UHR5HSXG> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "And Won’t Tell Me How”​ by Kashmir Hill" ] ;
+            dcterms:title "Facebook Figured Out My Family Secrets" ] .
+
+<VCTD5DQC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Physiognomy’s New Clothes”​ by Agüera y Arcas" ] .
+
+<VJ4TQ5LU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Resisting Reduction: A Manifesto”​ by Joi Ito" ] .
+
+<VUQJUNJT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N217b45857a01406b9dea4aa01879974e ;
+            dcterms:date "2017" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N217b45857a01406b9dea4aa01879974e ] ] .
+
+<VWLK9DWQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "How Baidu Will Win China’s AI Race" ] .
+
+<WEBWMWUU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "When your self-driving car crashes, you could still be the one who gets sued”" ] .
+
+<X6Q55QIH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Ethics of Artificial Intelligence: Mapping the Debate”​ by Brent Daniel Mittelstadt et" ] .
+
+<XQNRCPRZ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N5962ec00a11f48e3a75104a0f6015048 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Big Data & Society" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5962ec00a11f48e3a75104a0f6015048 ] ] .
+
+<XRYR69MS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Freedman" ] ;
+            dcterms:title "Basic Income: A Sellout of the American Dream”​ by David H" ] .
+
+<YNHB6ZJI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Why big tech companies are open-sourcing their AI systems”​ by Patrick Shafto" ] .
+
+<Z9GUG7LQ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Goodman (Yale Journal of Law and Technology" ] ] ;
+            dcterms:title "Algorithmic Transparency for the Smart City”​ by Robert Brauneis and Ellen P" ] .
+
+<ZBWILN9E> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Machines Taught by Photos to Learn a Sexist View of Women”​ by Tom Simonite" ] .
+
+<ZLMCLEFA> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "IEEE" ] ;
+            dcterms:title "Executive Summary: The IEEE Global Initiative for Ethical Considerations in Artificial Intelligence and Autonomous Systems”" ] .
+
+<https://www.youtube.com/watch?v=fMym_BKWQzk> a bibo:Document ;
+    dcterms:title "The Trouble with Bias - NIPS 2017 Keynote" ;
+    bibo:uri "https://www.youtube.com/watch?v=fMym_BKWQzk" .
+
+_:N1550e938b7264cdab9ae4dbb9a8c9777 a foaf:Person ;
+    foaf:givenName "Cathy" ;
+    foaf:surname "O’Neil" .
+
+_:N217b45857a01406b9dea4aa01879974e a foaf:Organization ;
+    foaf:name "Gizmodo" .
+
+_:N283e80a3ca454dfe914fa9e9f6d857ea a foaf:Person ;
+    foaf:givenName "Databite" ;
+    foaf:surname "No" .
+
+_:N4a316df7e1314b0bac99b2b4f6effe9c a foaf:Person ;
+    foaf:givenName "AIVersus M.D.​ By Siddhartha" ;
+    foaf:surname "Mukherjee" .
+
+_:N5962ec00a11f48e3a75104a0f6015048 a foaf:Organization ;
+    foaf:name "al" .
+
+_:N6adbf9ab82184453af1c701f8eefae3a a foaf:Person ;
+    foaf:givenName "Julia" ;
+    foaf:surname "Angwin" .
+
+_:N6f73e8eb8c7547be9bb8d99a05088a78 a foaf:Person ;
+    foaf:givenName "Heritage" ;
+    foaf:surname "Foundation" .
+
+_:N94808edc821c4cb89c648656145e668f a foaf:Person ;
+    foaf:givenName "State" ;
+    foaf:surname "Eric L. Loomis​" .
+
+_:Nd390ad34c4324bd289bf9c47e45a21d1 a foaf:Person ;
+    foaf:givenName "Lauren" ;
+    foaf:surname "Kirchner" .
+
+_:Necfa0550fd674a808242e906afcb48a7 a foaf:Person ;
+    foaf:givenName "Surya" ;
+    foaf:surname "Mattu" .
+
+_:Nfa54bae391934c91a1f937bbbc112e2a a foaf:Organization ;
+    foaf:name "also ​https://whitecollar.thenewinquiry.com" .
+

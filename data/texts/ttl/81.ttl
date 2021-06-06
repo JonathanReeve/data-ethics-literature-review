@@ -1,0 +1,1958 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_2> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Psalm 8</p>" ] .
+
+<#item_28> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>from</p>" ] .
+
+<#item_86> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>selected sections</p>" ] .
+
+<#item_96> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Schools in Developing Nations, PSCF</p>" ] .
+
+<26G89T34> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ne7acef5e4db14eec82b0124a718ce5bd ;
+            dcterms:date "2018" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "W. Norton & Company" ] ;
+            dcterms:title "Hello World: Being Human in the Age of Algorithms, W" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne7acef5e4db14eec82b0124a718ce5bd ] ] .
+
+<2AMH9LZK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Shaping a Digital World, ch" ] .
+
+<2CIBPCXF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4c18edfb09fe4a769793f0204a7cbc45 ;
+            dcterms:date "2020" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4c18edfb09fe4a769793f0204a7cbc45 ] ] .
+
+<2KBZ4VJV> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N0d07dfc14c154dd39e137194a6df8faf ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013-11" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Atlantic" ] ] ;
+            dcterms:title "All Can Be Lost: The Risk of Putting Our Knowledge in the Hands of Machines”" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0d07dfc14c154dd39e137194a6df8faf ] ] .
+
+<2RMCVHEV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The patent system is broken” Electronic Frontier" ] .
+
+<392YDLMD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5d7c184a69fc4e399c8bc24f7b31f80c ;
+            dcterms:title "The Cathedral and the Bazaar" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5d7c184a69fc4e399c8bc24f7b31f80c ] ] .
+
+<39GXBZ79> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nf8828a7f831a4873a7f117dc1d21a3d3 ;
+            dcterms:date "2009" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Zondervan" ] ;
+            dcterms:title "Flickering Pixels: how technology shapes your faith" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf8828a7f831a4873a7f117dc1d21a3d3 ] ] .
+
+<3AQZLEPC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2002" ] .
+
+<3HFIYZMR> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N80ed34142c4847218c91a948ba84d342 ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Exercising" ] ;
+            dcterms:title "Values and Things”" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N80ed34142c4847218c91a948ba84d342 ] ] .
+
+<3HM25CAL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N71b3111891634ef6977752b90aeb7451 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "University of" ] ;
+            dcterms:title "Thinking Through Technology: The Path Between Engineering and Philosophy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N71b3111891634ef6977752b90aeb7451 ] ] .
+
+<3IB83JX5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6949ba0f68324ad6b35b071ffa09f847 ;
+            dcterms:title "Surveillance and Trust”" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6949ba0f68324ad6b35b071ffa09f847 ] ] .
+
+<3SENJUPZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0ccb4bc976774388bff11bd17eab8828 ;
+            dcterms:date "2017" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0ccb4bc976774388bff11bd17eab8828 ] ] .
+
+<3YTGIYXJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Shaping a Digital World, ch" ] .
+
+<3YW3R4JB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9252e501cf9f4f2b8c3f39fdcc9c3ec4 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Peter Lang International" ] ;
+            dcterms:title "Amazing Ourselves to Death: Neil Postman's Brave New World Revisited" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9252e501cf9f4f2b8c3f39fdcc9c3ec4 ] ] .
+
+<47VKB33M> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc7e0f4621aae4d78ac388fa2413a1130 ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Penguin" ] ;
+            dcterms:title "Reclaiming Conversation: The Power of Talk in a Digital Age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc7e0f4621aae4d78ac388fa2413a1130 ] ] .
+
+<4BZ7ULYN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0b1f55dfe885465d8238beb56e9babc3 ;
+            dcterms:date "2002" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0b1f55dfe885465d8238beb56e9babc3 ] ] .
+
+<4BZ8KRYB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd6a6e8218e074a41bb0d2b8e185ba30b ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Baylor University" ] ;
+            dcterms:title "Appletopia: media technology and the religious imagination of Steve Jobs" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd6a6e8218e074a41bb0d2b8e185ba30b ] ] .
+
+<4C4GDY9K> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4d15937bc53c4ad786b799d2bf239c04 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Cascade Books" ] ;
+            dcterms:title "The Mind and the Machine" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4d15937bc53c4ad786b799d2bf239c04 ] ] .
+
+<4P968CSP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N023b35f26a05497b86e86b6c50f465a7 ;
+            dcterms:title "A World Without Work: Technology, Automation, and How We Should Respond, Metropolitan" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N023b35f26a05497b86e86b6c50f465a7 ] ] .
+
+<4QJMD3FT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Christian Response" ] .
+
+<4R9X4I66> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6cc13cee9ee34df0b4ead3e0bf3541bc ;
+            dcterms:title "Inside the First Church of Artificial" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6cc13cee9ee34df0b4ead3e0bf3541bc ] ] .
+
+<4U7Z9IKW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8f96519a810749d3aea6fb81787d49e5 ;
+            dcterms:title "The Fabric of This World" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8f96519a810749d3aea6fb81787d49e5 ] ] .
+
+<4YS4KHHA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N28eb5a78f1764134b36ecf9fa20f28fd ;
+            dcterms:date "2013" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N28eb5a78f1764134b36ecf9fa20f28fd ] ] .
+
+<53TP87TM> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Jeremiah" ] ;
+                    bibo:volume "29" ] ;
+            bibo:pages "5–7" ] .
+
+<56TFP5BR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N789b53715e9248feb3114a3ee3df6779 ;
+            dcterms:date "2018" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N789b53715e9248feb3114a3ee3df6779 ] ] .
+
+<575GB56S> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2019" ] .
+
+<57TYXJSM> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ndf05425c241c4b0a8b259df47ec32f77 ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "InterVarsity Press" ] ;
+            dcterms:title "The Common Rule: Habits of Purpose for an Age of Distraction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndf05425c241c4b0a8b259df47ec32f77 ] ] .
+
+<5CI2EZJ8> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N3cbd667c0d9643b5af6c04735f3fde93 ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "The Charisma Machine: The Life, Death, and Legacy of One Laptop per Child" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3cbd667c0d9643b5af6c04735f3fde93 ] ] .
+
+<5D9IPFXG> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N6d5e511dc5514aef8240000172995b2e ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Fast Future Publishing" ] ;
+            dcterms:title "Technology vs. Humanity: The Coming Clash between Man and Machine" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6d5e511dc5514aef8240000172995b2e ] ] .
+
+<5UQKMKNY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Shaping a Digital World, preface and ch" ] .
+
+<5X7GEUYE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nc19d5e53cd5d4684a1d0346544d562e8 ;
+            dcterms:date "2018" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc19d5e53cd5d4684a1d0346544d562e8 ] ] .
+
+<5XMXYIQY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Shaping a Digital World" ] .
+
+<67DA8BD5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Many Tech Experts Say Digital Disruption Will" ] .
+
+<67WAPJQB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N555dbb0125584421975b5cdbb985ea8f ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "W. Norton & Company" ] ;
+            dcterms:title "The Glass Cage, W" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N555dbb0125584421975b5cdbb985ea8f ] ] .
+
+<6KCX28RU> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<73BCDAIT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N48eec9a2dde84a9285de122435836e7c ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N48eec9a2dde84a9285de122435836e7c ] ] .
+
+<75HN82SW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016" ] .
+
+<77AQP88D> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Harvard University Press" ] ;
+            dcterms:title "Telegraph to Twitter" ] .
+
+<79IWQTVM> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N29afa830a6394217b1e74ccc8fc9afc3 ;
+            dcterms:date "2009" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Penguin Press" ] ;
+            dcterms:title "Wired for War: The Robotics Revolution and Conflict in the 21st Century" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N29afa830a6394217b1e74ccc8fc9afc3 ] ] .
+
+<7N2LIDHA> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N7bad32c3a97546718503ffcd7b9a915a ;
+            dcterms:date "2018" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "InterVarsity Press" ] ;
+            dcterms:title "Modern Technology and the Human Future: A Christian Appraisal" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7bad32c3a97546718503ffcd7b9a915a ] ] .
+
+<7YSAB9GP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N619e7a04ec5242b9829b1b8186c45826 ;
+            dcterms:title "Christianity Today" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N619e7a04ec5242b9829b1b8186c45826 ] ] .
+
+<7ZXHCV64> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N6b17fc6c4082446ba3b33139fb281571 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Knopf" ] ;
+            dcterms:title "The Attention Merchants: The Epic Scramble to Get Inside Our Heads" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6b17fc6c4082446ba3b33139fb281571 ] ] .
+
+<82TIUIHZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1ce84f7db58e4d01bc0264d9e914c1a6,
+                _:Nc646ec694afb4afdb93b62026bc71000 ;
+            dcterms:title "Networked Theology: Negotiating Faith in Digital Culture" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc646ec694afb4afdb93b62026bc71000 ;
+                    rdf:_2 _:N1ce84f7db58e4d01bc0264d9e914c1a6 ] ] .
+
+<87CAMYRT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nae44ca4466434adb8360972b25374ebf ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nae44ca4466434adb8360972b25374ebf ] ] .
+
+<88SD2PCJ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nb9a3c73cd5dd482c9599945da710553a ;
+            dcterms:date "1993" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Vintage Books" ] ;
+            dcterms:title "Technopoly: The Surrender of Culture to Technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb9a3c73cd5dd482c9599945da710553a ] ] .
+
+<8CH5HNT6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ndf519506034f4666a95dc5785dbfabb8 ;
+            dcterms:title "The Internet Apologizes”" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndf519506034f4666a95dc5785dbfabb8 ] ] .
+
+<8FVJJS49> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Matthew" ] ;
+                    bibo:volume "22" ] ;
+            bibo:pages "36–40" ] .
+
+<8IIZ9LRM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N124e558affbd4cf28b7bbc2f2abccd79,
+                _:N81212e2982f14a39901600e14a574118 ;
+            dcterms:date "2017" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N124e558affbd4cf28b7bbc2f2abccd79 ;
+                    rdf:_2 _:N81212e2982f14a39901600e14a574118 ] ] .
+
+<8L2DR9L3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne2abbfd3049a462890eb288ab5a655c0 ;
+            dcterms:title "The Bionic Man and the Body of" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne2abbfd3049a462890eb288ab5a655c0 ] ] .
+
+<8Y97TPZI> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Genesis" ] ;
+                    bibo:issue "28" ;
+                    bibo:volume "1" ] ] .
+
+<9DWEYLZV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N11cbd66ea184405d88d5c11a52b46f6f ;
+            dcterms:title "To Be a Machine: Adventures Among Cyborgs, Utopians, Hackers and the Futurists Solving the" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N11cbd66ea184405d88d5c11a52b46f6f ] ] .
+
+<9S8T35VR> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Col" ] ;
+                    bibo:volume "1" ] ;
+            bibo:pages "15–20" ] .
+
+<9SEQSSJ6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nb2e8ba9411ee40299d8c78e136607380 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Crown Forum" ] ;
+            dcterms:title "The Human Advantage: The Future of American Work in an Age of Smart Machines" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb2e8ba9411ee40299d8c78e136607380 ] ] .
+
+<A2BJ7NVH> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N7682efe564ab4d158f8800e0efe7a918 ;
+            dcterms:date "2006" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Penguin" ] ;
+            dcterms:title "The Singularity is Near: When Humans Transcend Biology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7682efe564ab4d158f8800e0efe7a918 ] ] .
+
+<A3RWWACY> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N079c027ab85c454e8b5a782fef1dfeed ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Kregel Publications" ] ;
+            dcterms:title "From the Garden to the City: the redeeming and corrupting power of technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N079c027ab85c454e8b5a782fef1dfeed ] ] .
+
+<AEAGAYZA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6648461e26604f9c842f0c3edc30154f ;
+            dcterms:title "The Making and Unmaking of Technological Society: how Christianity can save modernity from" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6648461e26604f9c842f0c3edc30154f ] ] .
+
+<AIHUTN78> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017" ] .
+
+<AUDQXQXL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "AI: An Evangelical Statement of Principles" ] .
+
+<AZWIDBV2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4c0a158075a744488edd7ea3a158f584 ;
+            dcterms:date "2016" ;
+            dcterms:title "Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4c0a158075a744488edd7ea3a158f584 ] ] .
+
+<B587XZXQ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N49522b4d5831437688955d769fee618b ;
+            dcterms:date "2018" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Henry Holt and Co" ] ;
+            dcterms:title "Ten Arguments for Deleting Your Social Media Accounts Right Now" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N49522b4d5831437688955d769fee618b ] ] .
+
+<BLYHU7ES> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Psalm" ] ;
+                    bibo:volume "139" ] ;
+            bibo:pages "13–18" ] .
+
+<CC6CNI3R> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N5c9f9a8610d8489e84e29d42f626993b ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Basic Books" ] ;
+            dcterms:title "Alone Together: Why We Expect More from Technology and Less from Each Other" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5c9f9a8610d8489e84e29d42f626993b ] ] .
+
+<CHPDGW82> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5f394ebf4e064332bcceb2e60346f68a ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5f394ebf4e064332bcceb2e60346f68a ] ] .
+
+<CIKBKDZP> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<CJMZVWNW> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "God and Nature" ] ;
+            dcterms:title "Technology and the church" ] .
+
+<CKBDJIQ4> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "1989" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Chicago Press" ] ] .
+
+<CMYUUGYM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "About Technological Change" ] .
+
+<D5A7MQQS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "1994" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Chicago Press" ] ] .
+
+<D6WN8M2C> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N09b7b256983747b68d24214d147a304b,
+                _:N9097c335570b4accb3f94e7a561849b6 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9097c335570b4accb3f94e7a561849b6 ;
+                    rdf:_2 _:N09b7b256983747b68d24214d147a304b ] ] .
+
+<D8V3B6CW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5a5d3fd60c9d4b04926524809e10b453,
+                _:Ne5dfa13ccfb94eb7bf6d91ce04d91930 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne5dfa13ccfb94eb7bf6d91ce04d91930 ;
+                    rdf:_2 _:N5a5d3fd60c9d4b04926524809e10b453 ] ] .
+
+<DIW7HQ6N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017-11" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Computer" ] ] .
+
+<DTVS4LH7> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<DUPZYDZL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N0b9fa694b98548d496926cdd826dee37 ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "W. W. Norton & Company" ] ;
+            dcterms:title "The Shallows" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0b9fa694b98548d496926cdd826dee37 ] ] .
+
+<E9N7DVVE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2020" ] .
+
+<EBF8IQFB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nefd99458c8994a968da22c8b937b77f1 ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Public Affairs" ] ;
+            dcterms:title "Geek Heresy: Rescuing Social Change from the Cult of Technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nefd99458c8994a968da22c8b937b77f1 ] ] .
+
+<ECIDDP8T> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb4d07e2dc83546babc0bf03c54648448 ;
+            dcterms:title "Structure and Direction”" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb4d07e2dc83546babc0bf03c54648448 ] ] .
+
+<EE7Q6L56> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc9b47030607342abaa4f1b4c103f749b ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "was Technology”" ] ;
+            dcterms:title "In the Beginning" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc9b47030607342abaa4f1b4c103f749b ] ] .
+
+<EGAQ56H3> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N7ae0b7cdcf4d406b963adc774f9410eb ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "Stuck in the Shallow End: Education, Race, and Computing" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7ae0b7cdcf4d406b963adc774f9410eb ] ] .
+
+<F22QRYGY> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2020" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "University Press" ] ] .
+
+<F66SFNFU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8014e6e38d8c4e1a88765ac015d97ca7 ;
+            dcterms:date "2015" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8014e6e38d8c4e1a88765ac015d97ca7 ] ] .
+
+<F9V38KZT> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nfc9d0889e5964322b00030fc753df0bd ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2020" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "NY Times, Feb" ] ;
+                    bibo:volume "20" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfc9d0889e5964322b00030fc753df0bd ] ] .
+
+<FHI779N8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "How Technology Is Changing the Future of Higher" ] .
+
+<FJZU3RYQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8c710efea3f44abe989741dc9f5a4831 ;
+            dcterms:date "2004" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8c710efea3f44abe989741dc9f5a4831 ] ] .
+
+<FLHGKYRF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9c464000fa8d461a81e68a32050f72b5 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9c464000fa8d461a81e68a32050f72b5 ] ] .
+
+<G49FGGPZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2017" ] .
+
+<GDA74QN8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6d87e2b472bb40e4ad22b22473849753 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6d87e2b472bb40e4ad22b22473849753 ] ] .
+
+<GDG4E9H8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Would You Let a Robot Take Care of Your" ] .
+
+<GJVL49KN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6fd3d13d698b49eeb6feb0523133e397 ;
+            dcterms:title "Machines of Loving Grace: The Quest for Common Ground between Humans and Robots" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6fd3d13d698b49eeb6feb0523133e397 ] ] .
+
+<GN33PPUV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N56a62c33ae7d4d5abd5c50d7fe788502 ;
+            dcterms:date "2017-09" ;
+            dcterms:title "The Atlantic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N56a62c33ae7d4d5abd5c50d7fe788502 ] ] .
+
+<GTBYC2QL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Shaping a Digital World" ] .
+
+<GTZFFSER> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N547936754243420ab3e254b2099ea48b ;
+            dcterms:date "2020" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "Data Action: Using Data for Public Good" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N547936754243420ab3e254b2099ea48b ] ] .
+
+<HANDQWHW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7761e8d0e6234550bdfccaf65432e791 ;
+            dcterms:date "2011" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7761e8d0e6234550bdfccaf65432e791 ] ] .
+
+<HZCM58WG> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ne2182e8fb2e24afbb32915c6e3d2114b ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Arcade Publishing" ] ;
+            dcterms:title "The Heart of the Machine: Our Future in a World of Artificial Intelligence" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne2182e8fb2e24afbb32915c6e3d2114b ] ] .
+
+<I3A495SF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016" ] .
+
+<I9VZY3FM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3a1434864ebd4ff6a93c97c93e2c41d6 ;
+            dcterms:title "Five Things We Need to Know" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3a1434864ebd4ff6a93c97c93e2c41d6 ] ] .
+
+<ICT57YSP> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Christian Courier" ] ;
+            dcterms:title "Letter to a Young IT worker" ] .
+
+<IEUJHUNX> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N62e430e7009b4b3cacc9b8a5726355ef ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Zondervan" ] ;
+            dcterms:title "The Next Story: Life and Faith after the Digital Explosion" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N62e430e7009b4b3cacc9b8a5726355ef ] ] .
+
+<IYNJWPTS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb79ec76fc67f42d58cfeca025e5cc867 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb79ec76fc67f42d58cfeca025e5cc867 ] ] .
+
+<IZSTB2IJ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc6a9cb404bdc4b1980a3728ef5980ff5 ;
+            dcterms:date "2020" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "AI Ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc6a9cb404bdc4b1980a3728ef5980ff5 ] ] .
+
+<J6AE9W2P> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018-04" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Intelligencer" ] ] ] .
+
+<JC2QSB6X> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N256434ebfda148fab768cef35d5dedd5 ;
+            dcterms:title "When the Kings Come Marching In" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N256434ebfda148fab768cef35d5dedd5 ] ] .
+
+<JDEYE4KY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1fb5ced840c14e4d82acb05e6cfec880,
+                _:N922f8a32ea9349379ff28ee00849ed92,
+                _:N9ea3615cbcf74448a27e178b7a05b520 ;
+            dcterms:title "Page 5 of 7Luke Fernandez and" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1fb5ced840c14e4d82acb05e6cfec880 ;
+                    rdf:_2 _:N922f8a32ea9349379ff28ee00849ed92 ;
+                    rdf:_3 _:N9ea3615cbcf74448a27e178b7a05b520 ] ] .
+
+<JDZBVLQ3> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "IEEE" ] ;
+            dcterms:title "Engineers, Ethics, and the VW Scandal”" ] .
+
+<JJE43KL6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nbb08b9642ae84393b1c468a0e8eb82ff ;
+            dcterms:date "2020" ;
+            dcterms:title "Three Pieces of Glass: Why We Feel Lonely in a World Mediated by Screens" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbb08b9642ae84393b1c468a0e8eb82ff ] ] .
+
+<JJWEWH5N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd80c7b45578345c1abe802df842ecd94 ;
+            dcterms:date "1994" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "Understanding Media: The Extensions of Man" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd80c7b45578345c1abe802df842ecd94 ] ] .
+
+<JPFIKADG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8185225ecd1e446ea48ef5c7e44a4336 ;
+            dcterms:title "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8185225ecd1e446ea48ef5c7e44a4336 ] ] .
+
+<JSJZQT3N> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N089c0d442acf4e26a596a1003dc11ca9,
+                _:N864e3bfb2469449fa6e37b70ae94923a,
+                _:Nc4ca1ebf756444a7a8ca93c4a3930ac5 ;
+            dcterms:date "1986" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N089c0d442acf4e26a596a1003dc11ca9 ;
+                    rdf:_2 _:Nc4ca1ebf756444a7a8ca93c4a3930ac5 ;
+                    rdf:_3 _:N864e3bfb2469449fa6e37b70ae94923a ] ] .
+
+<JTY5TCUT> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<K2JIV9FP> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N3477d8ec23fe44a28e2bc3c82b217f53 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Lewis" ] ;
+            dcterms:title "Wendell Berry, C.S" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3477d8ec23fe44a28e2bc3c82b217f53 ] ] .
+
+<K9E7NK68> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "must end”" ] .
+
+<KPYW8PJ5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N1ee999d585ae43e88cf8c7758fda93f8 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Martin's" ] ;
+            dcterms:title "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor, St" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1ee999d585ae43e88cf8c7758fda93f8 ] ] .
+
+<LEMST7AI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2011" ] .
+
+<LR5B6JFP> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Christian Courier" ] ;
+            dcterms:title "Letter to a Young Engineer" ] .
+
+<LVYZIIP5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2019" ] .
+
+<LXD7Q57P> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N77801c2ce6214c83bf59f0a984c6e356 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "New York University" ] ;
+            dcterms:title "Algorithms of Oppression: How Search Engines Reinforce Racism" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N77801c2ce6214c83bf59f0a984c6e356 ] ] .
+
+<LXWMCZRG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na2799c87784d4dce8f514d51eb8145e4 ;
+            dcterms:title "Transhumanist Values" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na2799c87784d4dce8f514d51eb8145e4 ] ] .
+
+<MCZTKTG2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5f7f1075b4b54dd7b34740d13bf0d558,
+                _:Ne6b435321de247239a8d271fb08fbcd5 ;
+            dcterms:title "Big Data: A revolution that will transform how we live, work, and" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne6b435321de247239a8d271fb08fbcd5 ;
+                    rdf:_2 _:N5f7f1075b4b54dd7b34740d13bf0d558 ] ] .
+
+<ML5JD6ML> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc3fd8097ace2469ebb3749bd34aff5fe ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Dordt College" ;
+                    foaf:name "Technology, and Christian Philosophy" ] ;
+            dcterms:title "The Matrix Reformed: Science Fiction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc3fd8097ace2469ebb3749bd34aff5fe ] ] .
+
+<MNYLIJJM> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N7f5c8f94a8394b25b8570f3693a33baf ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Cascade Books" ] ;
+            dcterms:title "God and Gadgets: Following Jesus in a Technological Age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7f5c8f94a8394b25b8570f3693a33baf ] ] .
+
+<NK62ZXG2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2018" ] .
+
+<NKXZFYMC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Jacques Ellul's “76 Reasonable Questions to Ask" ] .
+
+<NN65RJFA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Introducing Open Source and the Raspberry Pi to" ] .
+
+<NY8V8LT2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N13b13c7e6b5d4631a4b5bb65e74016b4 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N13b13c7e6b5d4631a4b5bb65e74016b4 ] ] .
+
+<P52942K5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N6fc5ce64709d46c5b442aea3b2b7e8d5,
+                _:Ncbe54aafea014bcea367a176031a7321 ;
+            dcterms:date "2018" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Cambridge University Press" ] ;
+            dcterms:title "Re-Engineering Humanity" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6fc5ce64709d46c5b442aea3b2b7e8d5 ;
+                    rdf:_2 _:Ncbe54aafea014bcea367a176031a7321 ] ] .
+
+<P8997WLY> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Christianity Today" ] ] .
+
+<P9TZWG3C> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N93b105ed86b64e72909bd03c83c8ed5d ;
+            dcterms:title "Transhumanism and the Image of God: Today's Technology and the Future of Christian" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N93b105ed86b64e72909bd03c83c8ed5d ] ] .
+
+<PCCQ57NQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N142a55fb35e94f22b89f116af6b87a26,
+                _:N2376f113977444008a56d20c22a93e02 ;
+            dcterms:date "2021" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N142a55fb35e94f22b89f116af6b87a26 ;
+                    rdf:_2 _:N2376f113977444008a56d20c22a93e02 ] ] .
+
+<PFR8HNI7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N696d1e7b9325423eaaf6eaa332bb1e8b ;
+            dcterms:title "Open Source Software and Christian" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N696d1e7b9325423eaaf6eaa332bb1e8b ] ] .
+
+<PP85EQ4B> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Free Software" ] ;
+            dcterms:title "What is Free software?”" ] .
+
+<PQGSZR5X> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9b838696ab2947c7b55de282923f71ad ;
+            dcterms:date "1964" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Vintage Books" ] ;
+            dcterms:title "The Technological Society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9b838696ab2947c7b55de282923f71ad ] ] .
+
+<PU86NBXE> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nb0eb54785d344e6da35cef76bc2a0a41 ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Penguin" ] ;
+            dcterms:title "Tools and Weapons: The Promise and the Peril of the Digital Age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb0eb54785d344e6da35cef76bc2a0a41 ] ] .
+
+<PZDWTAF5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N209c304eaa2d4ec595d8ccc519d8c444 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Basic Books" ] ;
+            dcterms:title "Rise of the Robots: Technology and the Threat of a Jobless Future" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N209c304eaa2d4ec595d8ccc519d8c444 ] ] .
+
+<PZF8TA87> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N2e88cab58fc74d4b9dc0e00ab88ff61c ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Freeman &" ] ;
+            dcterms:title "Computer Power and Human Reason: From Judgment To Calculation, W.H" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2e88cab58fc74d4b9dc0e00ab88ff61c ] ] .
+
+<PZQVZWFX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "IEEE Spectrum" ] ;
+            dcterms:title "Software Developer”" ] .
+
+<Q3QER8E8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4547c4c9cfdc4937a8a37e5be406e8cd ;
+            dcterms:title "Alternative liturgy: social media as" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4547c4c9cfdc4937a8a37e5be406e8cd ] ] .
+
+<QEVVN7NA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Intellectual Property Law: A Brief Introduction" ] .
+
+<QG7DUGW4> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Romans" ] ;
+                    bibo:volume "8" ] ;
+            bibo:pages "22–30" ] .
+
+<QKNVGWLP> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N2d1875ae21cd4232b408453fc3dd193e ;
+            dcterms:date "2084" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Zondervan" ] ;
+            dcterms:title "Artificial Intelligence and the Future of Humanity" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2d1875ae21cd4232b408453fc3dd193e ] ] .
+
+<QVCXTYIH> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "The Christian Century" ] ;
+            dcterms:title "ritual”" ] .
+
+<QW5WJ6X6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Page 6 of 7Schultze, Quentin, Habits of the High-Tech Heart: Living Virtuously in the Information Age" ] .
+
+<QXQ29HKJ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Anchor Books" ] ;
+            dcterms:title "Modest Problem of Death" ] .
+
+<R2868BKY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N37bc5ed55b6e4086badbe43f778b2401 ;
+            dcterms:date "2020" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N37bc5ed55b6e4086badbe43f778b2401 ] ] .
+
+<R96JPS2B> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Shaping a Digital World" ] .
+
+<RDA954FV> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N3858fdbf215e4e3f8b3646c66925d78f ;
+            dcterms:date "2003" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Brazos Press" ] ;
+            dcterms:title "Power Failure: Christianity in the Culture of Technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3858fdbf215e4e3f8b3646c66925d78f ] ] .
+
+<RHNDETY4> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "ACM Code of Ethics" ] ] .
+
+<RJVRT6FV> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Rev" ] ;
+                    bibo:issue "aiah 60" ;
+                    bibo:volume "27" ] ;
+            dcterms:title "Peter 3:10" ] .
+
+<RPKKATNQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Naf7c0ec50d1f4d76abe254ca88a80476 ;
+            dcterms:title "Guiding Principles for an Office of" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Naf7c0ec50d1f4d76abe254ca88a80476 ] ] .
+
+<RV7TM52Z> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Online Communion Can Still Be Sacramental" ] .
+
+<RZ3DDJ78> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N668184344e7c48208d5953f4ed0500a4 ;
+            dcterms:title "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N668184344e7c48208d5953f4ed0500a4 ] ] .
+
+<S4DVARL5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nd5796953aaa84578b6cbb0a0b8907daa ;
+            dcterms:date "2017" ;
+            dcterms:title "Homo Deus: A brief history of tomorrow" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd5796953aaa84578b6cbb0a0b8907daa ] ] .
+
+<SDAF89ZF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N54b8462c29404ae58d858964fe7a6bc7 ;
+            dcterms:date "2016" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N54b8462c29404ae58d858964fe7a6bc7 ] ] .
+
+<SGL54HPM> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N1d3f8d7de34648e4b0eab83dd3a5d9b7 ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Vintage" ] ;
+            dcterms:title "Life 3.0: Being Human in the Age of Artificial Intelligence" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1d3f8d7de34648e4b0eab83dd3a5d9b7 ] ] .
+
+<SJHLAEVL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N959bd1b72cf9405ab245d435cbe63d81 ;
+            dcterms:date "2013" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N959bd1b72cf9405ab245d435cbe63d81 ] ] .
+
+<SLDNR4W2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5f2a483d437840b9845e6abe49044c0a ;
+            dcterms:title "Have Smartphones Destroyed a" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5f2a483d437840b9845e6abe49044c0a ] ] .
+
+<SN6ZBSNC> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd3f50ff7b95c479dbd5af283c3b67acb ;
+            dcterms:date "2012" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "Recoding Gender: Women's Changing Participation in Computing" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd3f50ff7b95c479dbd5af283c3b67acb ] ] .
+
+<SZQG5R8P> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N2e40f4d2405f44fd99610c72da83829b ;
+            dcterms:title "The era of blind faith in big data" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2e40f4d2405f44fd99610c72da83829b ] ] .
+
+<T2XF568S> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "How the Boeing 737 Max Disaster Looks to a" ] .
+
+<TB5H2J4W> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1ba0e2d4258f43a0831e2435e1715673 ;
+            dcterms:title "Thinking Machines: The Quest for Artificial Intelligence and Where It's Taking Us Next" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1ba0e2d4258f43a0831e2435e1715673 ] ] .
+
+<TII8ZHRW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1280909513924120abc1307071445a8c,
+                _:N6db783767149494f995f26d054523786 ;
+            dcterms:date "2014" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1280909513924120abc1307071445a8c ;
+                    rdf:_2 _:N6db783767149494f995f26d054523786 ] ] .
+
+<TSCV7MNQ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9721aed123264253932633b92f846e5c ;
+            dcterms:date "2020" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "House of Anansi Press" ] ;
+            dcterms:title "Reset: Reclaiming the Internet for Civil Society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9721aed123264253932633b92f846e5c ] ] .
+
+<U5JZIBA8> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nf304674e96364d8d9578fa528508d999 ;
+            dcterms:date "1986" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Penguin" ] ;
+            dcterms:title "Amusing Ourselves to Death: Public Discourse in the Age of Show Business" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf304674e96364d8d9578fa528508d999 ] ] .
+
+<U6FJRI4C> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016-03" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "The Banner" ] ] .
+
+<U859QT7D> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N64917933119340f5a04e37ff4ebdf82a ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The" ] ;
+            dcterms:title "Is Google Making Us Stupid?”" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N64917933119340f5a04e37ff4ebdf82a ] ] .
+
+<UCN4UXSU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nac889bb326324c2d92b60ccea43c6d2b ;
+            dcterms:title "Is Your Software Valueless?”" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nac889bb326324c2d92b60ccea43c6d2b ] ] .
+
+<UNLSTIJ8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nac28e0aa61d047659bf6914946646d68 ;
+            dcterms:date "2005" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "and Software, Brookings Institution Press" ] ;
+            dcterms:title "Math You Can't Use: Patents" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nac28e0aa61d047659bf6914946646d68 ] ] .
+
+<UNP7YUWS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N1e70469e0a4440ed946eb42021f6792a ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Harvard University Press" ] ;
+            dcterms:title "Automation and Utopia: Human Flourishing in a World without Work" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1e70469e0a4440ed946eb42021f6792a ] ] .
+
+<USRDR4GH> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nf6318c485dba494b9fdca555436a76ca ;
+            dcterms:date "2020" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Zondervan" ] ;
+            dcterms:title "The Age of AI: Artificial Intelligence and the Future of Humanity" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf6318c485dba494b9fdca555436a76ca ] ] .
+
+<UUWHZZ8I> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<UY4FRBDI> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N44afe99ce11a440aaec9a57338ec58c0,
+                _:Nd22307ae6266437b9ff6a5c739fca77d ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Progress and Prosperity in a Time of" ] ;
+            dcterms:title "The Second Machine Age: Work" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd22307ae6266437b9ff6a5c739fca77d ;
+                    rdf:_2 _:N44afe99ce11a440aaec9a57338ec58c0 ] ] .
+
+<V74CP7PE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N24b8ca01a88045e08013bf8e46390c7a,
+                _:Nb211a982e76b431bb6687254a4f964c3 ;
+            dcterms:date "2008" ;
+            dcterms:title "Surviving the Technological Alteration of the Modern Mind" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N24b8ca01a88045e08013bf8e46390c7a ;
+                    rdf:_2 _:Nb211a982e76b431bb6687254a4f964c3 ] ] .
+
+<V99DXNZR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2011" ] .
+
+<VE2M53R3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4210dac77950449a82f3717f615d1611,
+                _:Nd500f20caa86462cb4fd30b007a9dd3e ;
+            dcterms:title "The Ethical Algorithm: The Science of Socially Aware Algorithm Design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd500f20caa86462cb4fd30b007a9dd3e ;
+                    rdf:_2 _:N4210dac77950449a82f3717f615d1611 ] ] .
+
+<VE4557AN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "About Any Technology" ] .
+
+<VIRM2397> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N496f8f5f938d40ae86983788817ba961 ;
+            dcterms:title "Tolkien and the Dangers of a Technological" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N496f8f5f938d40ae86983788817ba961 ] ] .
+
+<VKFHM8DQ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N8f42b474453f4e6db71ef49565f18881 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Age of High Technology, University of" ] ;
+            dcterms:title "The Whale and the Reactor: A Search for Limits in an" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8f42b474453f4e6db71ef49565f18881 ] ] .
+
+<VX9RNS5L> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Academic Publishers" ] ] .
+
+<W9J3B5DU> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc95f7bc17e004c068cd7b8d1bf2484da ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Yale University Press" ] ;
+            dcterms:title "Nothing to Hide: The False Tradeoff between Privacy and Security" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc95f7bc17e004c068cd7b8d1bf2484da ] ] .
+
+<WTDJ39VP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ndc5baf98f6d64f9da07f037316a8a470 ;
+            dcterms:title "Artificial Intelligence: Discerning a" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndc5baf98f6d64f9da07f037316a8a470 ] ] .
+
+<XH95CURS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9ce387ab4f704987969418d577a64f2a ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9ce387ab4f704987969418d577a64f2a ] ] .
+
+<XM34PN2N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N81365c88d0cd41f0b4c9a8f26e017ea3 ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Knopf" ] ;
+            dcterms:title "You are Not a Gadget: a manifesto, Alfred A" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N81365c88d0cd41f0b4c9a8f26e017ea3 ] ] .
+
+<XRGDVY5B> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2019-12" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "NY Times" ] ] ;
+            dcterms:title "Mother?" ] .
+
+<XTJ8UTNH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb21b296c9a614e3aaa1de7342ef74ba3 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb21b296c9a614e3aaa1de7342ef74ba3 ] ] .
+
+<XYMH4ZMG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4bf447eb032e42a2bbe6ebd63be97f79 ;
+            dcterms:title "The Assumptions of Computing" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4bf447eb032e42a2bbe6ebd63be97f79 ] ] .
+
+<YG3I4YW3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nbd5f2390b2dd40dd9dc53bed81f998e5 ;
+            dcterms:date "1976" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbd5f2390b2dd40dd9dc53bed81f998e5 ] ] .
+
+<YIHG86NB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4cff8d72e4934117824c9a3591593eb8 ;
+            dcterms:title "The Therac-25: 30 Years Later”" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4cff8d72e4934117824c9a3591593eb8 ] ] .
+
+<YL5BG9TE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N2628d82613a8477ba930a5b5ac985aa3,
+                _:N6e9ddef4e36143eeba527f0a6a044a3d ;
+            dcterms:date "2014" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6e9ddef4e36143eeba527f0a6a044a3d ;
+                    rdf:_2 _:N2628d82613a8477ba930a5b5ac985aa3 ] ] .
+
+<YPLACZW5> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Exodus" ] ;
+                    bibo:issue "15" ;
+                    bibo:volume "20" ] ] .
+
+<YT472MLY> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ne0472ec5b0184c2e92c1233b998df1d3 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Picador" ] ;
+            dcterms:title "Sex Robots and Vegan Meat: Adventures at the Frontier of Birth, Food, Sex, and Death" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne0472ec5b0184c2e92c1233b998df1d3 ] ] .
+
+<Z5QR7MWI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nbe166d50186949308d1fb37eb269bf26 ;
+            dcterms:date "2019" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbe166d50186949308d1fb37eb269bf26 ] ] .
+
+<Z8BAQX6I> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "July/Aug 2008" ] .
+
+<ZI9XR95U> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "December" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "CACM" ] ;
+            dcterms:title "Malevolent Machine Learning”" ] .
+
+<ZRJYMTSD> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Thought" ;
+                    foaf:name "PSCF" ] ] .
+
+_:N023b35f26a05497b86e86b6c50f465a7 a foaf:Person ;
+    foaf:givenName "Daniel" ;
+    foaf:surname "Susskind" .
+
+_:N079c027ab85c454e8b5a782fef1dfeed a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Dyer" .
+
+_:N089c0d442acf4e26a596a1003dc11ca9 a foaf:Person ;
+    foaf:givenName "George" ;
+    foaf:surname "Grant" .
+
+_:N09b7b256983747b68d24214d147a304b a foaf:Person ;
+    foaf:givenName "Creation" ;
+    foaf:surname "Regained" .
+
+_:N0b1f55dfe885465d8238beb56e9babc3 a foaf:Person ;
+    foaf:givenName "C.E.E.C." ;
+    foaf:surname "Information Services”" .
+
+_:N0b9fa694b98548d496926cdd826dee37 a foaf:Person ;
+    foaf:givenName "Nicholas" ;
+    foaf:surname "Carr" .
+
+_:N0ccb4bc976774388bff11bd17eab8828 a foaf:Organization ;
+    foaf:name "TarcherPerigee" .
+
+_:N0d07dfc14c154dd39e137194a6df8faf a foaf:Person ;
+    foaf:givenName "Nicolas" ;
+    foaf:surname "Carr" .
+
+_:N11cbd66ea184405d88d5c11a52b46f6f a foaf:Person ;
+    foaf:givenName "Mark" ;
+    foaf:surname "O’Connell" .
+
+_:N124e558affbd4cf28b7bbc2f2abccd79 a foaf:Person ;
+    foaf:givenName "Wired" ;
+    foaf:surname "Intelligence" .
+
+_:N1280909513924120abc1307071445a8c a foaf:Organization ;
+    foaf:name "Worldview" .
+
+_:N13b13c7e6b5d4631a4b5bb65e74016b4 a foaf:Organization ;
+    foaf:name "•" .
+
+_:N142a55fb35e94f22b89f116af6b87a26 a foaf:Person ;
+    foaf:givenName "Computing" ;
+    foaf:surname "Edge" .
+
+_:N1ba0e2d4258f43a0831e2435e1715673 a foaf:Person ;
+    foaf:givenName "Luke" ;
+    foaf:surname "Dormehl" .
+
+_:N1ce84f7db58e4d01bc0264d9e914c1a6 a foaf:Person ;
+    foaf:givenName "Stephen" ;
+    foaf:surname "Garner" .
+
+_:N1d3f8d7de34648e4b0eab83dd3a5d9b7 a foaf:Person ;
+    foaf:givenName "Max" ;
+    foaf:surname "Tegmark" .
+
+_:N1e70469e0a4440ed946eb42021f6792a a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Danaher" .
+
+_:N1ee999d585ae43e88cf8c7758fda93f8 a foaf:Person ;
+    foaf:givenName "Virginia" ;
+    foaf:surname "Eubanks" .
+
+_:N1fb5ced840c14e4d82acb05e6cfec880 a foaf:Person ;
+    foaf:givenName "Susan J." ;
+    foaf:surname "Matt" .
+
+_:N209c304eaa2d4ec595d8ccc519d8c444 a foaf:Person ;
+    foaf:givenName "Martin" ;
+    foaf:surname "Ford" .
+
+_:N2376f113977444008a56d20c22a93e02 a foaf:Organization ;
+    foaf:name "Jan" .
+
+_:N24b8ca01a88045e08013bf8e46390c7a a foaf:Person ;
+    foaf:givenName "Gary" ;
+    foaf:surname "Small" .
+
+_:N256434ebfda148fab768cef35d5dedd5 a foaf:Person ;
+    foaf:givenName "Richard" ;
+    foaf:surname "Mouw" .
+
+_:N2628d82613a8477ba930a5b5ac985aa3 a foaf:Organization ;
+    foaf:name "Norton" .
+
+_:N28eb5a78f1764134b36ecf9fa20f28fd a foaf:Organization ;
+    foaf:name "Press" .
+
+_:N29afa830a6394217b1e74ccc8fc9afc3 a foaf:Person ;
+    foaf:givenName "P.W." ;
+    foaf:surname "Singer" .
+
+_:N2d1875ae21cd4232b408453fc3dd193e a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Lennox" .
+
+_:N2e40f4d2405f44fd99610c72da83829b a foaf:Person ;
+    foaf:givenName "Cathy" ;
+    foaf:surname "O’Neil" .
+
+_:N2e88cab58fc74d4b9dc0e00ab88ff61c a foaf:Person ;
+    foaf:givenName "Joseph" ;
+    foaf:surname "Weizenbaum" .
+
+_:N3477d8ec23fe44a28e2bc3c82b217f53 a foaf:Person ;
+    foaf:givenName "Matthew" ;
+    foaf:surname "Dickerson" .
+
+_:N37bc5ed55b6e4086badbe43f778b2401 a foaf:Person ;
+    foaf:givenName "PublicAffairs" ;
+    foaf:surname "Power" .
+
+_:N3858fdbf215e4e3f8b3646c66925d78f a foaf:Person ;
+    foaf:givenName "Albert" ;
+    foaf:surname "Borgmann" .
+
+_:N3a1434864ebd4ff6a93c97c93e2c41d6 a foaf:Person ;
+    foaf:givenName "Neil" ;
+    foaf:surname "Postman" .
+
+_:N3cbd667c0d9643b5af6c04735f3fde93 a foaf:Person ;
+    foaf:givenName "Morgan" ;
+    foaf:surname "Ames" .
+
+_:N4210dac77950449a82f3717f615d1611 a foaf:Person ;
+    foaf:givenName "Aaron" ;
+    foaf:surname "Roth" .
+
+_:N44afe99ce11a440aaec9a57338ec58c0 a foaf:Person ;
+    foaf:givenName "Andrew" ;
+    foaf:surname "McAfee" .
+
+_:N4547c4c9cfdc4937a8a37e5be406e8cd a foaf:Person ;
+    foaf:givenName "James" ;
+    foaf:surname "Smith" .
+
+_:N48eec9a2dde84a9285de122435836e7c a foaf:Organization ;
+    foaf:name "•" .
+
+_:N49522b4d5831437688955d769fee618b a foaf:Person ;
+    foaf:givenName "Jaron" ;
+    foaf:surname "Lanier" .
+
+_:N496f8f5f938d40ae86983788817ba961 a foaf:Organization ;
+    foaf:name "J.R.R." .
+
+_:N4bf447eb032e42a2bbe6ebd63be97f79 a foaf:Person ;
+    foaf:givenName "James" ;
+    foaf:surname "Huggins" .
+
+_:N4c0a158075a744488edd7ea3a158f584 a foaf:Person ;
+    foaf:givenName "Shannon" ;
+    foaf:surname "Vallor" .
+
+_:N4c18edfb09fe4a769793f0204a7cbc45 a foaf:Organization ;
+    foaf:name "Books" .
+
+_:N4cff8d72e4934117824c9a3591593eb8 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Leveson" .
+
+_:N4d15937bc53c4ad786b799d2bf239c04 a foaf:Person ;
+    foaf:givenName "Matthew" ;
+    foaf:surname "Dickerson" .
+
+_:N547936754243420ab3e254b2099ea48b a foaf:Person ;
+    foaf:givenName "Sarah" ;
+    foaf:surname "Williams" .
+
+_:N54b8462c29404ae58d858964fe7a6bc7 a foaf:Organization ;
+    foaf:name "Crown" .
+
+_:N555dbb0125584421975b5cdbb985ea8f a foaf:Person ;
+    foaf:givenName "Nicholas" ;
+    foaf:surname "Carr" .
+
+_:N56a62c33ae7d4d5abd5c50d7fe788502 a foaf:Organization ;
+    foaf:name "Generation?”" .
+
+_:N5a5d3fd60c9d4b04926524809e10b453 a foaf:Person ;
+    foaf:givenName "Pew" ;
+    foaf:surname "Research" .
+
+_:N5c9f9a8610d8489e84e29d42f626993b a foaf:Person ;
+    foaf:givenName "Sherry" ;
+    foaf:surname "Turkle" .
+
+_:N5d7c184a69fc4e399c8bc24f7b31f80c a foaf:Person ;
+    foaf:givenName "Eric S." ;
+    foaf:surname "Raymond" .
+
+_:N5f2a483d437840b9845e6abe49044c0a a foaf:Person ;
+    foaf:givenName "Jean" ;
+    foaf:surname "Twenge" .
+
+_:N5f394ebf4e064332bcceb2e60346f68a a foaf:Organization ;
+    foaf:name "Spectrum" .
+
+_:N5f7f1075b4b54dd7b34740d13bf0d558 a foaf:Person ;
+    foaf:givenName "Kenneth" ;
+    foaf:surname "Cukier" .
+
+_:N619e7a04ec5242b9829b1b8186c45826 a foaf:Organization ;
+    foaf:name "Christ”" .
+
+_:N62e430e7009b4b3cacc9b8a5726355ef a foaf:Person ;
+    foaf:givenName "Tim" ;
+    foaf:surname "Challies" .
+
+_:N64917933119340f5a04e37ff4ebdf82a a foaf:Person ;
+    foaf:givenName "Nicholas" ;
+    foaf:surname "Carr" .
+
+_:N6648461e26604f9c842f0c3edc30154f a foaf:Person ;
+    foaf:givenName "Murray" ;
+    foaf:surname "Jardine" .
+
+_:N668184344e7c48208d5953f4ed0500a4 a foaf:Person ;
+    foaf:givenName "Shoshana" ;
+    foaf:surname "Zuboff" .
+
+_:N6949ba0f68324ad6b35b071ffa09f847 a foaf:Person ;
+    foaf:givenName "David" ;
+    foaf:surname "Lyon" .
+
+_:N696d1e7b9325423eaaf6eaa332bb1e8b a foaf:Person ;
+    foaf:givenName "K.D." ;
+    foaf:surname "Crisman" .
+
+_:N6b17fc6c4082446ba3b33139fb281571 a foaf:Person ;
+    foaf:givenName "Tom" ;
+    foaf:surname "Wu" .
+
+_:N6cc13cee9ee34df0b4ead3e0bf3541bc a foaf:Person ;
+    foaf:givenName "Mark" ;
+    foaf:surname "Harris" .
+
+_:N6d5e511dc5514aef8240000172995b2e a foaf:Person ;
+    foaf:givenName "Gerd" ;
+    foaf:surname "Leonhard" .
+
+_:N6d87e2b472bb40e4ad22b22473849753 a foaf:Organization ;
+    foaf:name "•" .
+
+_:N6db783767149494f995f26d054523786 a foaf:Person ;
+    foaf:givenName "Dordt" ;
+    foaf:surname "Press" .
+
+_:N6e9ddef4e36143eeba527f0a6a044a3d a foaf:Person ;
+    foaf:givenName "Brilliant" ;
+    foaf:surname "Technologies" .
+
+_:N6fc5ce64709d46c5b442aea3b2b7e8d5 a foaf:Person ;
+    foaf:givenName "Brett" ;
+    foaf:surname "Frischmann" .
+
+_:N6fd3d13d698b49eeb6feb0523133e397 a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Markoff" .
+
+_:N71b3111891634ef6977752b90aeb7451 a foaf:Person ;
+    foaf:givenName "Carl" ;
+    foaf:surname "Mitcham" .
+
+_:N7682efe564ab4d158f8800e0efe7a918 a foaf:Person ;
+    foaf:givenName "Ray" ;
+    foaf:surname "Kurweil" .
+
+_:N7761e8d0e6234550bdfccaf65432e791 a foaf:Organization ;
+    foaf:name "Press" .
+
+_:N77801c2ce6214c83bf59f0a984c6e356 a foaf:Person ;
+    foaf:givenName "Safiya Umoja" ;
+    foaf:surname "Noble" .
+
+_:N789b53715e9248feb3114a3ee3df6779 a foaf:Organization ;
+    foaf:name "Press" .
+
+_:N7ae0b7cdcf4d406b963adc774f9410eb a foaf:Person ;
+    foaf:givenName "Jane" ;
+    foaf:surname "Margolis" .
+
+_:N7bad32c3a97546718503ffcd7b9a915a a foaf:Person ;
+    foaf:givenName "Craig" ;
+    foaf:surname "Gay" .
+
+_:N7f5c8f94a8394b25b8570f3693a33baf a foaf:Person ;
+    foaf:givenName "Brad" ;
+    foaf:surname "Kallenberg" .
+
+_:N8014e6e38d8c4e1a88765ac015d97ca7 a foaf:Organization ;
+    foaf:name "Collins" .
+
+_:N80ed34142c4847218c91a948ba84d342 a foaf:Person ;
+    foaf:givenName "Charles" ;
+    foaf:surname "Adams" .
+
+_:N81212e2982f14a39901600e14a574118 a foaf:Organization ;
+    foaf:name "Nov" .
+
+_:N81365c88d0cd41f0b4c9a8f26e017ea3 a foaf:Person ;
+    foaf:givenName "Jaron" ;
+    foaf:surname "Lanier" .
+
+_:N8185225ecd1e446ea48ef5c7e44a4336 a foaf:Person ;
+    foaf:givenName "Cathy" ;
+    foaf:surname "O’Neil" .
+
+_:N864e3bfb2469449fa6e37b70ae94923a a foaf:Person ;
+    foaf:givenName "Anansi" ;
+    foaf:surname "Justice" .
+
+_:N8c710efea3f44abe989741dc9f5a4831 a foaf:Person ;
+    foaf:givenName "Brazos Press" ;
+    foaf:surname "itself" .
+
+_:N8f42b474453f4e6db71ef49565f18881 a foaf:Person ;
+    foaf:givenName "Langdon" ;
+    foaf:surname "Winner" .
+
+_:N8f96519a810749d3aea6fb81787d49e5 a foaf:Person ;
+    foaf:givenName "Lee" ;
+    foaf:surname "Hardy" .
+
+_:N9097c335570b4accb3f94e7a561849b6 a foaf:Person ;
+    foaf:givenName "Al" ;
+    foaf:surname "Wolters" .
+
+_:N922f8a32ea9349379ff28ee00849ed92 a foaf:Person ;
+    foaf:givenName "Lonely" ;
+    foaf:surname "Bored" .
+
+_:N9252e501cf9f4f2b8c3f39fdcc9c3ec4 a foaf:Person ;
+    foaf:givenName "Lance" ;
+    foaf:surname "Strate" .
+
+_:N93b105ed86b64e72909bd03c83c8ed5d a foaf:Person ;
+    foaf:givenName "Jacob" ;
+    foaf:surname "Shatzer" .
+
+_:N959bd1b72cf9405ab245d435cbe63d81 a foaf:Person ;
+    foaf:givenName "Houghton Mifflin Harcourt" ;
+    foaf:surname "think" .
+
+_:N9721aed123264253932633b92f846e5c a foaf:Person ;
+    foaf:givenName "Ronald" ;
+    foaf:surname "Deibert" .
+
+_:N9b838696ab2947c7b55de282923f71ad a foaf:Person ;
+    foaf:givenName "Jacques" ;
+    foaf:surname "Ellul" .
+
+_:N9c464000fa8d461a81e68a32050f72b5 a foaf:Person ;
+    foaf:givenName "Creation" ;
+    foaf:surname "Regained" .
+
+_:N9ce387ab4f704987969418d577a64f2a a foaf:Organization ;
+    foaf:name "•" .
+
+_:N9ea3615cbcf74448a27e178b7a05b520 a foaf:Organization ;
+    foaf:name "Angry" .
+
+_:Na2799c87784d4dce8f514d51eb8145e4 a foaf:Person ;
+    foaf:givenName "Nick" ;
+    foaf:surname "Bostrom" .
+
+_:Nac28e0aa61d047659bf6914946646d68 a foaf:Person ;
+    foaf:givenName "Ben" ;
+    foaf:surname "Klemens" .
+
+_:Nac889bb326324c2d92b60ccea43c6d2b a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Whittle" .
+
+_:Nae44ca4466434adb8360972b25374ebf a foaf:Organization ;
+    foaf:name "Foundation" .
+
+_:Naf7c0ec50d1f4d76abe254ca88a80476 a foaf:Person ;
+    foaf:givenName "Charlie" ;
+    foaf:surname "Adams" .
+
+_:Nb0eb54785d344e6da35cef76bc2a0a41 a foaf:Person ;
+    foaf:givenName "Brad" ;
+    foaf:surname "Smith" .
+
+_:Nb211a982e76b431bb6687254a4f964c3 a foaf:Organization ;
+    foaf:name "iBrain" .
+
+_:Nb21b296c9a614e3aaa1de7342ef74ba3 a foaf:Organization ;
+    foaf:name "Mindset”" .
+
+_:Nb2e8ba9411ee40299d8c78e136607380 a foaf:Person ;
+    foaf:givenName "Jay" ;
+    foaf:surname "Richards" .
+
+_:Nb4d07e2dc83546babc0bf03c54648448 a foaf:Person ;
+    foaf:givenName "Al" ;
+    foaf:surname "Wolters" .
+
+_:Nb79ec76fc67f42d58cfeca025e5cc867 a foaf:Organization ;
+    foaf:name "Foundation" .
+
+_:Nb9a3c73cd5dd482c9599945da710553a a foaf:Person ;
+    foaf:givenName "Neil" ;
+    foaf:surname "Postman" .
+
+_:Nbb08b9642ae84393b1c468a0e8eb82ff a foaf:Person ;
+    foaf:givenName "Eric O." ;
+    foaf:surname "Jacobsen" .
+
+_:Nbd5f2390b2dd40dd9dc53bed81f998e5 a foaf:Organization ;
+    foaf:name "Company" .
+
+_:Nbe166d50186949308d1fb37eb269bf26 a foaf:Person ;
+    foaf:givenName "InterVarsity Press" ;
+    foaf:surname "Discipleship" .
+
+_:Nc19d5e53cd5d4684a1d0346544d562e8 a foaf:Organization ;
+    foaf:name "Press" .
+
+_:Nc3fd8097ace2469ebb3749bd34aff5fe a foaf:Person ;
+    foaf:givenName "Bart" ;
+    foaf:surname "Cusveller" .
+
+_:Nc4ca1ebf756444a7a8ca93c4a3930ac5 a foaf:Organization ;
+    foaf:name "Technology" .
+
+_:Nc646ec694afb4afdb93b62026bc71000 a foaf:Person ;
+    foaf:givenName "Heidi" ;
+    foaf:surname "Campbell" .
+
+_:Nc6a9cb404bdc4b1980a3728ef5980ff5 a foaf:Person ;
+    foaf:givenName "Mark" ;
+    foaf:surname "Coeckelbergh" .
+
+_:Nc7e0f4621aae4d78ac388fa2413a1130 a foaf:Person ;
+    foaf:givenName "Sherry" ;
+    foaf:surname "Turkle" .
+
+_:Nc95f7bc17e004c068cd7b8d1bf2484da a foaf:Person ;
+    foaf:givenName "Daniel J." ;
+    foaf:surname "Solove" .
+
+_:Nc9b47030607342abaa4f1b4c103f749b a foaf:Person ;
+    foaf:givenName "James" ;
+    foaf:surname "Smith" .
+
+_:Ncbe54aafea014bcea367a176031a7321 a foaf:Person ;
+    foaf:givenName "Evan" ;
+    foaf:surname "Selinger" .
+
+_:Nd22307ae6266437b9ff6a5c739fca77d a foaf:Person ;
+    foaf:givenName "Erik" ;
+    foaf:surname "Brynjolfsson" .
+
+_:Nd3f50ff7b95c479dbd5af283c3b67acb a foaf:Person ;
+    foaf:givenName "Janet" ;
+    foaf:surname "Abbate" .
+
+_:Nd500f20caa86462cb4fd30b007a9dd3e a foaf:Person ;
+    foaf:givenName "Michael" ;
+    foaf:surname "Kearns" .
+
+_:Nd5796953aaa84578b6cbb0a0b8907daa a foaf:Person ;
+    foaf:givenName "Yuval Noah" ;
+    foaf:surname "Harrari" .
+
+_:Nd6a6e8218e074a41bb0d2b8e185ba30b a foaf:Person ;
+    foaf:givenName "Brett" ;
+    foaf:surname "Robinson" .
+
+_:Nd80c7b45578345c1abe802df842ecd94 a foaf:Person ;
+    foaf:givenName "Marshall" ;
+    foaf:surname "McLuhan" .
+
+_:Ndc5baf98f6d64f9da07f037316a8a470 a foaf:Organization ;
+    foaf:name "Schuurman" .
+
+_:Ndf05425c241c4b0a8b259df47ec32f77 a foaf:Person ;
+    foaf:givenName "Justin" ;
+    foaf:surname "Early" .
+
+_:Ndf519506034f4666a95dc5785dbfabb8 a foaf:Person ;
+    foaf:givenName "Noah" ;
+    foaf:surname "Kulwin" .
+
+_:Ne0472ec5b0184c2e92c1233b998df1d3 a foaf:Person ;
+    foaf:givenName "Jenny" ;
+    foaf:surname "Kleeman" .
+
+_:Ne2182e8fb2e24afbb32915c6e3d2114b a foaf:Person ;
+    foaf:givenName "Richard" ;
+    foaf:surname "Yonck" .
+
+_:Ne2abbfd3049a462890eb288ab5a655c0 a foaf:Person ;
+    foaf:givenName "Andy" ;
+    foaf:surname "Crouch" .
+
+_:Ne5dfa13ccfb94eb7bf6d91ce04d91930 a foaf:Person ;
+    foaf:givenName "Hurt" ;
+    foaf:surname "Democracy”" .
+
+_:Ne6b435321de247239a8d271fb08fbcd5 a foaf:Person ;
+    foaf:givenName "Viktor" ;
+    foaf:surname "Mayer-Schönberger" .
+
+_:Ne7acef5e4db14eec82b0124a718ce5bd a foaf:Person ;
+    foaf:givenName "Hannah" ;
+    foaf:surname "Fry" .
+
+_:Nefd99458c8994a968da22c8b937b77f1 a foaf:Person ;
+    foaf:givenName "Kentaro" ;
+    foaf:surname "Toyama" .
+
+_:Nf304674e96364d8d9578fa528508d999 a foaf:Person ;
+    foaf:givenName "Neil" ;
+    foaf:surname "Postman" .
+
+_:Nf6318c485dba494b9fdca555436a76ca a foaf:Person ;
+    foaf:givenName "Jason" ;
+    foaf:surname "Thacker" .
+
+_:Nf8828a7f831a4873a7f117dc1d21a3d3 a foaf:Person ;
+    foaf:givenName "Shane" ;
+    foaf:surname "Hipps" .
+
+_:Nfc9d0889e5964322b00030fc753df0bd a foaf:Organization ;
+    foaf:name "Education" .
+

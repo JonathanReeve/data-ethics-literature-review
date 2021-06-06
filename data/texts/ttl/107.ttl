@@ -1,0 +1,81 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<4EBUPV8D> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2003" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Cynthia Breazeal and Rodney Brooks" ] ;
+            dcterms:title "Robot Emotion: A Functional Perspective\"" ] .
+
+<BPTYLNIG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N2b8e5a53814f4f5097ff0b91f030ef81 ;
+            dcterms:title "His Master’s Voice, Redstone Science Fiction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2b8e5a53814f4f5097ff0b91f030ef81 ] ] .
+
+<F77ECMPS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N62ac8750d1f24eeea3b03d2612716daa ;
+            dcterms:title "What Your Computer Can't Know" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N62ac8750d1f24eeea3b03d2612716daa ] ] .
+
+<H9T5CJQ3> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Heather Knight" ] ;
+            dcterms:title "How Humans Respond to Robots: Building Public Policy Through Good Design\"" ] .
+
+<HNH3ZRAB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Neil M.Richards and William Smart" ] ;
+            dcterms:title "How Should the Law Think About Robots?\"" ] .
+
+<K9M322WC> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nc993abddeeef4c4585ff21e33d663a18 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1980" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Behavioral and Brain Sciences" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "3" ] ;
+            dcterms:title "Minds, brains, and programs" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc993abddeeef4c4585ff21e33d663a18 ] ;
+            bibo:pages "417–457" ] .
+
+<KL9LCJG7> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2012" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Bradley Jay Strawser and \"The Robotics Revolution\", Peter Singer" ] ;
+            dcterms:title "Moral Predators: The Duty to Employ Uninhabited Aerial Vehicles\"" ] .
+
+<LHPFV4ZL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Omohundro" ] ;
+            dcterms:title "Autonomous technology and the greater human good\"" ] .
+
+_:N2b8e5a53814f4f5097ff0b91f030ef81 a foaf:Person ;
+    foaf:givenName "Hannu" ;
+    foaf:surname "Rajaniemi" .
+
+_:N62ac8750d1f24eeea3b03d2612716daa a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Searle" .
+
+_:Nc993abddeeef4c4585ff21e33d663a18 a foaf:Person ;
+    foaf:givenName "John R." ;
+    foaf:surname "Searle" .
+

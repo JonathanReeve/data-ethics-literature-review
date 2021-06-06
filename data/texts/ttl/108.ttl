@@ -1,0 +1,43 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<5MKAARA2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Caves of Steel, Isaac Asimov" ] .
+
+<BT4WZ5M3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7d7b09d123494a0f8b870204ac0ef47a,
+                _:N8d51de7b2f474729ba20a09994d51d33 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7d7b09d123494a0f8b870204ac0ef47a ;
+                    rdf:_2 _:N8d51de7b2f474729ba20a09994d51d33 ] ] .
+
+<CZPKFHHW> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Mark Twain" ] ;
+            dcterms:title "A Connecticut Yankee in King Arthurâ€™s Court" ] .
+
+<EYAE9GJA> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Kazuo Ishiguro" ] ;
+            dcterms:title "The Buried Giant" ] .
+
+<U8XGIVQI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Stars in My Pocket Like Grains of Sand, Samuel Delany" ] .
+
+_:N7d7b09d123494a0f8b870204ac0ef47a a foaf:Person ;
+    foaf:givenName "Red Badge" ;
+    foaf:surname "Courage" .
+
+_:N8d51de7b2f474729ba20a09994d51d33 a foaf:Person ;
+    foaf:givenName "Stephen" ;
+    foaf:surname "Crane" .
+

@@ -1,0 +1,1338 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_28> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>ArXiv Preprint ArXiv:1609.07236.</p>" ] .
+
+<26XVCQRA> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N0307299a98e643b79e78d63c0694531b,
+                _:N7b21ecc0e89f436294b49ad0a4c5efb0 ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Wiley-Blackwell" ] ;
+            dcterms:title "The philosopher's toolkit: a compendium of philosophical concepts and methods" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0307299a98e643b79e78d63c0694531b ;
+                    rdf:_2 _:N7b21ecc0e89f436294b49ad0a4c5efb0 ] ;
+            bibo:edition "2nd" ] .
+
+<2JMJZTZC> a z:UserItem ;
+    res:resource <info:doi/10.1017/S0269888913000039.> .
+
+<2NY2M6PH> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge" ;
+                    foaf:name "Cambridge University Press" ] ;
+            dcterms:title "The Cambridge Handbook of Information and Computer Ethics" ;
+            bibo:editor _:Nba4145b16d1b47a0ae82052716bbff90 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Nba4145b16d1b47a0ae82052716bbff90 ] ] .
+
+<343LMF5C> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nf926b085f4d841f6985b5d210e14e3a6 ;
+            dcterms:date "1976" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "San Francisco" ;
+                    foaf:name "W.H. Freeman" ] ;
+            dcterms:title "Computer power and human reason: from judgment to calculation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf926b085f4d841f6985b5d210e14e3a6 ] ] .
+
+<3NVMZK68> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nbe411513c1694068b698fda62d057121 ;
+            dcterms:date "1972" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Princeton, N.J" ;
+                    foaf:name "Princeton University Press" ] ;
+            dcterms:title "The computer from Pascal to von Neumann" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbe411513c1694068b698fda62d057121 ] ] .
+
+<3RU7IBCU> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nd234085fa2854cfba00d3721ed7a0e3b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2009" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Nanoethics" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "3" ] ;
+            dcterms:title "Ambient intelligence and persuasive technology: the blurring boundaries between human and technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd234085fa2854cfba00d3721ed7a0e3b ] ;
+            bibo:pages "231–242" ] .
+
+<3SS9DW6N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N6220181beee54dd7ab8eeeac0d207bbf,
+                _:Ncd9d8f608cc344f49a9d5bf302f630d6 ;
+            dcterms:date "2004" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge" ;
+                    foaf:name "Cambridge University Press" ] ;
+            dcterms:title "Logic in computer science: modelling and reasoning about systems" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncd9d8f608cc344f49a9d5bf302f630d6 ;
+                    rdf:_2 _:N6220181beee54dd7ab8eeeac0d207bbf ] ;
+            bibo:edition "2nd" ] .
+
+<4MFTEYZK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N37aa574f24ef4b159fb0073464eb4aa8,
+                _:N9d9dd08ffb534389abaaaa7b2966a2ec ;
+            dcterms:date "2017" ;
+            dcterms:title "Transparent, explainable, and accountable AI for" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9d9dd08ffb534389abaaaa7b2966a2ec ;
+                    rdf:_2 _:N37aa574f24ef4b159fb0073464eb4aa8 ] ] .
+
+<4X9PUZ2E> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York" ;
+                    foaf:name "Springer" ] ;
+            dcterms:title "The Onlife Manifesto - Being Human in a Hyperconnected Era" ;
+            bibo:editor _:N77e6c95e923f46538f1b336541e4ea2f ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N77e6c95e923f46538f1b336541e4ea2f ] ] .
+
+<5F6RXBVB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N05107b6baccb454c80d4bb3afe79175b ;
+            dcterms:date "1998" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "Routledge" ] ;
+            dcterms:title "Routledge encyclopedia of philosophy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N05107b6baccb454c80d4bb3afe79175b ] ;
+            bibo:volume "10" ] .
+
+<5RTBN7SB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2003" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford, New York" ;
+                    foaf:name "Blackwell" ] ;
+            dcterms:title "The Blackwell Guide to the Philosophy of Computing and Information" ;
+            bibo:editor _:Nd48ae7d07cff4bc9b0c2d21c25f53311 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd48ae7d07cff4bc9b0c2d21c25f53311 ] ] .
+
+<623PGBE9> a z:UserItem ;
+    res:resource <https://pdfs.semanticscholar.org/1d17/4f0e3c391368d0f3384a144a6c7487f2a143.pdf> .
+
+<656LPXSX> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nec6b7aad9fba4760a926df611764b803 ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "The Philosophy of Information" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nec6b7aad9fba4760a926df611764b803 ] ] .
+
+<6BP3GJXX> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "Routledge" ] ;
+            dcterms:title "The Routledge Handbook of Philosophy of Information" ;
+            bibo:editor _:N181d94269c1d4ae2b5549ef67762b561 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N181d94269c1d4ae2b5549ef67762b561 ] ] .
+
+<7KLTHR5V> a z:UserItem ;
+    res:resource <https://arxiv.org/abs/1609.07236.> .
+
+<7TR6PHRW> a z:UserItem ;
+    res:resource <info:doi/10.1007/s11245-014-9245-8.> .
+
+<9GW3WZW2> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N7f44466a7a79462ab2bbc2289d7dffd7 ;
+            dcterms:date "2004" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Clarendon Press" ] ;
+            dcterms:title "The essential Turing: seminal writings in computing, logic, philosophy, artificial intelligence and artificial life, plus the secrets of Enigma" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7f44466a7a79462ab2bbc2289d7dffd7 ] ] .
+
+<9LA65F4E> a z:UserItem ;
+    res:resource <http://nuffieldbioethics.org/wp-content/uploads/Biodata-a-guide-to-the-report-PDF.pdf> .
+
+<ABEWFWQ2> a z:UserItem ;
+    res:resource <http://digitalethicslab.oii.ox.ac.uk/sandra-wachter/#tab-7456a56b194183e7f18> .
+
+<AEWV9J8C> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N8ecb59cdfc0a48abbc332577493441ed ;
+            dcterms:date "1964" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge, Mass" ;
+                    foaf:name "M.I.T. Press" ] ;
+            dcterms:title "God and Golem, inc.; a comment on certain points where cybernetics impinges on religion" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8ecb59cdfc0a48abbc332577493441ed ] ] .
+
+<ATIHLCFL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nbcf47ab906d74526b2299c2b99db0d3f ;
+            dcterms:date "1998" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "UCL Press" ] ;
+            dcterms:title "Ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbcf47ab906d74526b2299c2b99db0d3f ] ] .
+
+<AUPX6H3Y> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N0e914cf285ff4241a6c4e4f44fa02dcc ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2016" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "Oxford University Press" ] ;
+                    dcterms:title "Philosophers Take on the World" ] ;
+            dcterms:title "Why It‘s OK to Block Ads" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0e914cf285ff4241a6c4e4f44fa02dcc ] ;
+            bibo:pages "223–226" ] .
+
+<B48QDMDV> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd81d09a1c69040e7831ce0d0d0597e9d ;
+            dcterms:date "2001" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "Penguin" ] ;
+            dcterms:title "Logic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd81d09a1c69040e7831ce0d0d0597e9d ] ;
+            bibo:edition "2nd" ] .
+
+<BR35CT37> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N0b9429815c174f42b22554ca1e1d6670,
+                _:Nb1de4d3f37764d8cab581a1b400d29fb ;
+            dcterms:date "2002" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Boston" ;
+                    foaf:name "Harvard Business School Press" ] ;
+            dcterms:title "The Social Life of Information" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0b9429815c174f42b22554ca1e1d6670 ;
+                    rdf:_2 _:Nb1de4d3f37764d8cab581a1b400d29fb ] ] .
+
+<C694NDEE> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N41c6882bcde54be2b6fc6568d216127c,
+                _:N8a80e5e0e2a84647adae7dbf05e3cdc4,
+                _:Ne15bfd87854d418ba3c70d337e8e7c27,
+                _:Nf0efcda112f544ec8a6578f76421fb99 ;
+            dcterms:date "2012" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York; London" ;
+                    foaf:name "McGraw-Hill" ] ;
+            dcterms:title "Easy Outline of Logic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne15bfd87854d418ba3c70d337e8e7c27 ;
+                    rdf:_2 _:Nf0efcda112f544ec8a6578f76421fb99 ;
+                    rdf:_3 _:N8a80e5e0e2a84647adae7dbf05e3cdc4 ;
+                    rdf:_4 _:N41c6882bcde54be2b6fc6568d216127c ] ] .
+
+<CTBCNGFH> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Nd1c400bb189748bdb85f340f8c6134ba ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "1971" ;
+                    dcterms:title "Computers, Communications, and the Public Interest" ] ;
+            dcterms:title "Designing Organizations for an Information-Rich World" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd1c400bb189748bdb85f340f8c6134ba ] ;
+            bibo:pages "37–72" ] .
+
+<DH2SFT9V> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N56490f7de238406b8440c27e10a310b3 ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Philosophy & Technology" ] ;
+            dcterms:title "―Five Kinds of Cyber Deterrence.‖" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N56490f7de238406b8440c27e10a310b3 ] ;
+            z:extra "DOI: 10.1007/s13347-016-0251-1" ] .
+
+<DZSD4VTA> a z:UserItem ;
+    res:resource <info:doi/10.1007/s11023-016-9408-z.> .
+
+<EF6FZFSV> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N083e94693aa2443a81c0ba138ba86384,
+                _:N23842a0c1b1c40fbb0359bdd3018546f,
+                _:N80975409fd67404f8fb7406c671ceb3f ;
+            dcterms:date "2007" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge" ;
+                    foaf:name "Cambridge University Press" ] ;
+            dcterms:title "Computability and logic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N23842a0c1b1c40fbb0359bdd3018546f ;
+                    rdf:_2 _:N80975409fd67404f8fb7406c671ceb3f ;
+                    rdf:_3 _:N083e94693aa2443a81c0ba138ba86384 ] ;
+            bibo:edition "5th" ] .
+
+<EQ378FG7> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N3b1b43fd586a43a8b45f1c58401fe8c4,
+                _:Nf3c79c9bbc9c43629f215bce8b0b5849 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2015" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "Springer International Publishing" ] ;
+                    dcterms:title "The Onlife Manifesto" ] ;
+            dcterms:title "Towards a Grey Ecology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3b1b43fd586a43a8b45f1c58401fe8c4 ;
+                    rdf:_2 _:Nf3c79c9bbc9c43629f215bce8b0b5849 ] ;
+            bibo:pages "111– 124" ] .
+
+<EXBSH4PI> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4fc4f217aff34064bd0c62e2315f5d4d,
+                _:Nafd30301dacb41098b34f2b3d802fd10 ;
+            dcterms:date "1949" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Urbana" ;
+                    foaf:name "University of Illinois Press" ] ;
+            dcterms:title "The mathematical theory of communication" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nafd30301dacb41098b34f2b3d802fd10 ;
+                    rdf:_2 _:N4fc4f217aff34064bd0c62e2315f5d4d ] ] .
+
+<F6QQSTUL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N050175d57e224ab4bd88bc2dc61c6a18 ;
+            dcterms:date "1980" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York" ;
+                    foaf:name "Dover Publications" ] ;
+            dcterms:title "An introduction to information theory: symbols, signals & noise" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N050175d57e224ab4bd88bc2dc61c6a18 ] ;
+            bibo:edition "2nd" ] .
+
+<F89ZQKWU> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7426fe903d694ec591685e97e8d6a13d ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1950" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Mind" ] ;
+                    bibo:issue "236" ;
+                    bibo:volume "59" ] ;
+            dcterms:title "Computing machinery and intelligence" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7426fe903d694ec591685e97e8d6a13d ] ;
+            bibo:pages "433–460" ] .
+
+<FFTTDSFC> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nf4ebffa43b014ff2a68dd29b6da08b75 ;
+            dcterms:date "1996" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge, Mass" ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "The sciences of the artificial" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf4ebffa43b014ff2a68dd29b6da08b75 ] ;
+            bibo:edition "3rd" ] .
+
+<FN5NHQ7P> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd4e85757087142808f920f1614f19132 ;
+            dcterms:date "2000" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "Logic: a very short introduction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd4e85757087142808f920f1614f19132 ] ] .
+
+<G5B8L9MS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9487d047a6584c68a249e4d1ac97dd63 ;
+            dcterms:date "2012" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "Philosophical devices: proofs, probabilities, possibilities, and sets" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9487d047a6584c68a249e4d1ac97dd63 ] ] .
+
+<GGV2HFI3> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N144258bce13d49cba6331aa087cea589,
+                _:N211718bdfd0e4b42b103fe0db9f6f5ef ;
+            dcterms:date "2004" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Frankfurt, Lancaster" ;
+                    foaf:name "Ontos Verlag; Gazelle Books" ] ;
+            dcterms:title "Information and information flow: an introduction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N144258bce13d49cba6331aa087cea589 ;
+                    rdf:_2 _:N211718bdfd0e4b42b103fe0db9f6f5ef ] ] .
+
+<H2KKINN6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nefbe614b9e37414dbd6365e2141eb0b7 ;
+            dcterms:date "1984" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "Duckworth" ] ;
+            dcterms:title "Turing's man: Western culture in the computer age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nefbe614b9e37414dbd6365e2141eb0b7 ] ] .
+
+<H86499GZ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nab75fe23ba6f436b8c9ca354ceba52c5 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Harvard" ] ;
+                    bibo:issue "176" ;
+                    bibo:volume "126" ] ;
+            dcterms:title "―Cyberspace and International Law: The Penumbral Mist of Uncertainty.‖" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nab75fe23ba6f436b8c9ca354ceba52c5 ] ;
+            bibo:pages "176–80" ] .
+
+<HAGE6UB2> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<HBTB353P> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4e25006bbd5e43c99d43db79131d4388,
+                _:Na31bb12996f143fca19f5b6c3b527d9f,
+                _:Nfdec8e0e1c414b17917789cf85d7ad3b ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York" ;
+                    foaf:name "Schaum" ] ;
+            dcterms:title "Outline of Logic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfdec8e0e1c414b17917789cf85d7ad3b ;
+                    rdf:_2 _:Na31bb12996f143fca19f5b6c3b527d9f ;
+                    rdf:_3 _:N4e25006bbd5e43c99d43db79131d4388 ] ;
+            bibo:edition "2nd" ] .
+
+<HM5LSTPF> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N84cdb702b9cc4d7ba17a4d79bf68fa89,
+                _:Nb6c335a9ddf84da5b88e3d490431b4f1 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Science and engineering ethics" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "22" ] ;
+            dcterms:title "The Ethics of Big Data: Current and Foreseeable Issues in Biomedical Contexts.\"" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb6c335a9ddf84da5b88e3d490431b4f1 ;
+                    rdf:_2 _:N84cdb702b9cc4d7ba17a4d79bf68fa89 ] ;
+            bibo:pages "303–341" ] .
+
+<I3EJVX6D> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nae37d893ba2b42ecb125fe271c8c1168,
+                _:Ne24cbf68cace4e30980a0af15fa31e03 ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Boston, Mass" ;
+                    foaf:name "Pearson" ] ;
+            dcterms:title "Artificial intelligence: a modern approach" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne24cbf68cace4e30980a0af15fa31e03 ;
+                    rdf:_2 _:Nae37d893ba2b42ecb125fe271c8c1168 ] ;
+            bibo:edition "3rd" ] .
+
+<I55YZSZD> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N6246dd7a6f1e4deb846c027f60d656d0 ;
+            dcterms:date "1993" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Blackwell" ] ;
+            dcterms:title "Artificial intelligence: a philosophical introduction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6246dd7a6f1e4deb846c027f60d656d0 ] ] .
+
+<I9K2FCRQ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc00e414134dd4f86a8365e17c8348f48,
+                _:Nc104aede48cd4b79acd7640220626c4d ;
+            dcterms:date "2006" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Indianapolis" ;
+                    foaf:name "Hackett Pub. Co" ] ;
+            dcterms:title "Formal logic: its scope and limits" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc104aede48cd4b79acd7640220626c4d ;
+                    rdf:_2 _:Nc00e414134dd4f86a8365e17c8348f48 ] ;
+            bibo:edition "4th" ] .
+
+<IYPAHYQS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N725fa22a2c0042979eca0c461fe0080d ;
+            dcterms:date "2007" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Blackwell" ] ;
+            dcterms:title "Ethics: the fundamentals" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N725fa22a2c0042979eca0c461fe0080d ] ] .
+
+<J7ZH4Q2N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N11b0e4cb397a4bf7b1d20c9ca2b22251,
+                _:N45d920dabfd24428b6bd0b756209aeb7,
+                _:N7368c23a8a534005892f3efdc264e429 ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Princeton" ;
+                    foaf:name "Princeton University Press" ] ;
+            dcterms:title "Three views of logic : mathematics, philosophy, and computer science" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7368c23a8a534005892f3efdc264e429 ;
+                    rdf:_2 _:N45d920dabfd24428b6bd0b756209aeb7 ;
+                    rdf:_3 _:N11b0e4cb397a4bf7b1d20c9ca2b22251 ] ] .
+
+<JET6LUG5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N638f567a065d4edb8beed231469294d9 ;
+            dcterms:date "2012" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Boston, MA" ;
+                    foaf:name "Cengage Learning" ] ;
+            dcterms:title "Introduction to the theory of computation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N638f567a065d4edb8beed231469294d9 ] ;
+            bibo:edition "3rd" ] .
+
+<JF2AIIMA> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nfe3252abfec74ca180423425180b4cd2 ;
+            dcterms:date "2001" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "The problems of philosophy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfe3252abfec74ca180423425180b4cd2 ] ;
+            bibo:edition "2nd" ] .
+
+<KHXA56DS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd75895b981cc415f8ceb007f9a5af138 ;
+            dcterms:date "2012" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Basingstoke" ;
+                    foaf:name "Palgrave Macmillan" ] ;
+            dcterms:title "Mind and machine" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd75895b981cc415f8ceb007f9a5af138 ] ] .
+
+<LC5D9KVV> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ncc287e01016f49c498fbd8a10af6ea1d ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "The Ethics of Information" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncc287e01016f49c498fbd8a10af6ea1d ] ] .
+
+<M7ISR7FY> a z:UserItem ;
+    res:resource <http://social.cs.uiuc.edu/papers/pdfs/ICA2014-Sandvig.pdf.> .
+
+<MV8SC72A> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd24661ed14754781b8703facebd3f51a ;
+            dcterms:date "1961" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge, Mass" ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "Cybernetics or Control and Communication in the Animal and the Machine" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd24661ed14754781b8703facebd3f51a ] ;
+            bibo:edition "2nd" ] .
+
+<N69N3JKS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4070da3bc4ef44678160e9240a44ffac ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "Information : a very short introduction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4070da3bc4ef44678160e9240a44ffac ] ] .
+
+<NPK4NJW7> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N2eef5dc470fb4509943f2dd0b4559d5d,
+                _:N8e73132397474b1ea269ef0cb0b16e96 ;
+            dcterms:date "2002" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "Pan" ] ;
+            dcterms:title "A dictionary of philosophy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8e73132397474b1ea269ef0cb0b16e96 ;
+                    rdf:_2 _:N2eef5dc470fb4509943f2dd0b4559d5d ] ;
+            bibo:edition "New" ] .
+
+<P53E2CGE> a z:UserItem ;
+    res:resource <https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/624628/CMO_annual_r> .
+
+<P649KEM3> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N978c5c94f3364fa78c0c4ef9c7cf5cc2 ;
+            dcterms:date "2003" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "Weidenfeld & Nicolson" ] ;
+            dcterms:title "Information: the new language of science" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N978c5c94f3364fa78c0c4ef9c7cf5cc2 ] ] .
+
+<PC4N9UZ3> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ncca91a31a353478589ed7cf4de58c6b2 ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "London" ;
+                    foaf:name "Fourth Estate" ] ;
+            dcterms:title "The information: a history, a theory, a flood" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncca91a31a353478589ed7cf4de58c6b2 ] ] .
+
+<PM6E2H6T> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N805fc4910a794562b5c81ea9e356f52f,
+                _:Nb69827b4863f48a2ac0195f875b46b3f ;
+            dcterms:date "1998" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Blackwell" ] ;
+            dcterms:title "The digital phoenix: how computers are changing philosophy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N805fc4910a794562b5c81ea9e356f52f ;
+                    rdf:_2 _:Nb69827b4863f48a2ac0195f875b46b3f ] ] .
+
+<Q62C2YJS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N733b7b389f4446b2af93651d54436e02 ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Oxford" ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "The Fourth Revolution - How the infosphere is reshaping human reality" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N733b7b389f4446b2af93651d54436e02 ] ] .
+
+<R9A4FBB2> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N908d8c9a235b46e8a232d4d357eb4c52 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "1936" ;
+                    dcterms:title "Proceedings of the London Mathematics Society" ;
+                    bibo:volume "2nd series 42" ] ;
+            dcterms:title "On Computable Numbers, with an Application to the Entscheidungsproblem" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N908d8c9a235b46e8a232d4d357eb4c52 ] ] .
+
+<RKQCGKQI> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9c3216cca7a44a3a8eb182bf12fe9824 ;
+            dcterms:date "1954" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York" ;
+                    foaf:name "Garden City" ] ;
+            dcterms:title "The human use of human beings: cybernetics and society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9c3216cca7a44a3a8eb182bf12fe9824 ] ;
+            bibo:edition "2d" ] .
+
+<RPADQ43Y> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N7775dd30e00f47a98d374d2e80f5f4c9 ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Mineola" ;
+                    foaf:name "Dover Publications" ] ;
+            dcterms:title "A beginner's guide to mathematical logic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7775dd30e00f47a98d374d2e80f5f4c9 ] ] .
+
+<S6ZHAKN8> a z:UserItem ;
+    res:resource <http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001937> .
+
+<SBVZMMGE> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N3264fedbfabc41b1aa75427407692f00,
+                _:Na32c0a436feb47279a9d056345b89c93 ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York, NY" ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "Computing for ordinary mortals" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3264fedbfabc41b1aa75427407692f00 ;
+                    rdf:_2 _:Na32c0a436feb47279a9d056345b89c93 ] ] .
+
+<T5M9NEA4> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<T7FN5C2E> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N0f0466c104fe40098aa09ca5607105a3,
+                _:N5c6a25d37fc94044954688968b3022b8,
+                _:N8ef4457998b04b17ad67bf7fe40a3209 ;
+            dcterms:date "2007" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Basingstoke" ;
+                    foaf:name "Palgrave Macmillan" ] ;
+            dcterms:title "New waves in applied ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0f0466c104fe40098aa09ca5607105a3 ;
+                    rdf:_2 _:N8ef4457998b04b17ad67bf7fe40a3209 ;
+                    rdf:_3 _:N5c6a25d37fc94044954688968b3022b8 ] ] .
+
+<TDWTAPYF> a z:UserItem ;
+    res:resource <info:doi/10.1177/2053951716679679.> .
+
+<TG2SIAGL> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N1b9313fd8bc549caae8133a7626d8eaf,
+                _:N67a9da6c34354909b5e1956292b732a3 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1999" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Communications of the ACM" ] ;
+                    bibo:issue "5" ;
+                    bibo:volume "42" ] ;
+            dcterms:title "Toward an ethics of persuasive technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1b9313fd8bc549caae8133a7626d8eaf ;
+                    rdf:_2 _:N67a9da6c34354909b5e1956292b732a3 ] ;
+            bibo:pages "51–58" ] .
+
+<W652J3F4> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nabec45bd42f14e7983827e9da288a8bc ;
+            dcterms:date "2010" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge" ;
+                    foaf:name "Cambridge University Press" ] ;
+            dcterms:title "An introduction to ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nabec45bd42f14e7983827e9da288a8bc ] ] .
+
+<XTXYDVA6> a z:UserItem ;
+    res:resource <https://academic.oup.com/idpl/article/doi/10.1093/idpl/ipx005/3860948/Why-a-Right-to-Explanation-of-> .
+
+<http://digitalethicslab.oii.ox.ac.uk/sandra-wachter/#tab-7456a56b194183e7f18> a bibo:AcademicArticle ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Science Robotics" ] ;
+            bibo:issue "6" ;
+            bibo:volume "2" ] ;
+    dcterms:title "robotics\"" ;
+    bibo:uri "http://digitalethicslab.oii.ox.ac.uk/sandra-wachter/#tab-7456a56b194183e7f18" .
+
+<http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001937> a bibo:AcademicArticle ;
+    dcterms:creator _:Nadc724b760bf47fd801818aa0af3084e,
+        _:Nf7a534d0335b40d18be0c04b35fa79c9 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "PLoS Med" ] ;
+            bibo:issue "1" ;
+            bibo:volume "13" ] ;
+    dcterms:title "Between Openness and Privacy in Genomics" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf7a534d0335b40d18be0c04b35fa79c9 ;
+            rdf:_2 _:Nadc724b760bf47fd801818aa0af3084e ] ;
+    bibo:pages "1001937" ;
+    bibo:uri "http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001937" .
+
+<http://nuffieldbioethics.org/wp-content/uploads/Biodata-a-guide-to-the-report-PDF.pdf> a bibo:Document ;
+    dcterms:creator _:Nd24d9a9ceabb431292dd1818ff0fabe7 ;
+    dcterms:title "Guide to the Report: ―The collection, linking and use of data in biomedical research and health care" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd24d9a9ceabb431292dd1818ff0fabe7 ] ;
+    bibo:uri "http://nuffieldbioethics.org/wp-content/uploads/Biodata-a-guide-to-the-report-PDF.pdf" .
+
+<http://social.cs.uiuc.edu/papers/pdfs/ICA2014-Sandvig.pdf.> a bibo:BookSection ;
+    dcterms:creator _:N1cdf7470a4a44f88ac4381daaf0259b6,
+        _:N4a67f81ff4bc4d019a8a962c7d6db5cc,
+        _:Nf6818004e127488ea0e0108ffa73d768,
+        _:Nfd0176b38cc947d5832cd27e8e895065 ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:date "2014" ;
+            dcterms:title "Data and Discrimination: Converting Critical Concerns into Productive Inquiry" ] ;
+    dcterms:title "̳Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms‘" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N1cdf7470a4a44f88ac4381daaf0259b6 ;
+            rdf:_2 _:Nf6818004e127488ea0e0108ffa73d768 ;
+            rdf:_3 _:N4a67f81ff4bc4d019a8a962c7d6db5cc ;
+            rdf:_4 _:Nfd0176b38cc947d5832cd27e8e895065 ] ;
+    bibo:uri "http://social.cs.uiuc.edu/papers/pdfs/ICA2014-Sandvig.pdf." .
+
+<https://academic.oup.com/idpl/article/doi/10.1093/idpl/ipx005/3860948/Why-a-Right-to-Explanation-of-> a bibo:Document ;
+    dcterms:creator _:N1b932467c0664c6fa91ecfa92fc8b87e,
+        _:N29f55201c0fa4209a0b276e21f66d798,
+        _:Ndda89b2ebe1f4f01a6e21dde918f9946 ;
+    dcterms:date "2016" ;
+    dcterms:title "Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N1b932467c0664c6fa91ecfa92fc8b87e ;
+            rdf:_2 _:N29f55201c0fa4209a0b276e21f66d798 ;
+            rdf:_3 _:Ndda89b2ebe1f4f01a6e21dde918f9946 ] ;
+    bibo:uri "https://academic.oup.com/idpl/article/doi/10.1093/idpl/ipx005/3860948/Why-a-Right-to-Explanation-of-" .
+
+<https://arxiv.org/abs/1609.07236.> a bibo:Document ;
+    dcterms:creator _:N1ba632b798a74a8481ccd03202eaecfc,
+        _:N858e1b6856d24b5893d4875183ee2106,
+        _:Nf3fd8502073e4208a069c1d8d4447b7d ;
+    dcterms:date "2016" ;
+    dcterms:title "̳On the (Im) Possibility of Fairness‘" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N1ba632b798a74a8481ccd03202eaecfc ;
+            rdf:_2 _:Nf3fd8502073e4208a069c1d8d4447b7d ;
+            rdf:_3 _:N858e1b6856d24b5893d4875183ee2106 ] ;
+    bibo:uri "https://arxiv.org/abs/1609.07236." .
+
+<https://pdfs.semanticscholar.org/1d17/4f0e3c391368d0f3384a144a6c7487f2a143.pdf> a bibo:AcademicArticle ;
+    dcterms:creator _:N24a9ed26206b40d9b10d7b94e2a70ac4,
+        _:N68ae566190504d07843ad45c96cd8353 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2016" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "California Law Review" ] ;
+            bibo:issue "671" ;
+            bibo:volume "104" ] ;
+    dcterms:title "Big Data's Disparate Impact" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N68ae566190504d07843ad45c96cd8353 ;
+            rdf:_2 _:N24a9ed26206b40d9b10d7b94e2a70ac4 ] ;
+    bibo:uri "https://pdfs.semanticscholar.org/1d17/4f0e3c391368d0f3384a144a6c7487f2a143.pdf" .
+
+<https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/624628/CMO_annual_r> a bibo:Document ;
+    dcterms:title "Chief Medical Officer annual report 2016: Generation Genome, Chapter 1 Chief Medical Officer‘s summary (pp.1-23" ;
+    bibo:uri "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/624628/CMO_annual_r" .
+
+<info:doi/10.1007/s11023-016-9408-z.> a bibo:AcademicArticle ;
+    dcterms:creator _:N15eeef5cb7f34c6cb8633c1bd9123b67 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2016" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Minds and Machines" ] ;
+            bibo:issue "4" ;
+            bibo:volume "26" ] ;
+    dcterms:title "―On the Risks of Relying on Analogies to Understand Cyber Conflicts.‖" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N15eeef5cb7f34c6cb8633c1bd9123b67 ] ;
+    bibo:doi "10.1007/s11023-016-9408-z." ;
+    bibo:pages "317–21" .
+
+<info:doi/10.1007/s11245-014-9245-8.> a bibo:AcademicArticle ;
+    dcterms:creator _:N0616e9c89eda4d6f9e9fbd80410b842e ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2014" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Topoi" ] ] ;
+    dcterms:title "―Just Information Warfare.‖" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0616e9c89eda4d6f9e9fbd80410b842e ] ;
+    bibo:doi "10.1007/s11245-014-9245-8." ;
+    bibo:pages "1–12" .
+
+<info:doi/10.1017/S0269888913000039.> a bibo:AcademicArticle ;
+    dcterms:creator _:N1745837aa5074c6aa665f3d891751bc0,
+        _:Neb4fc1d5894f40c38c46f8590177e736 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2014" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The Knowledge Engineering Review" ] ;
+            bibo:issue "05" ;
+            bibo:volume "29" ] ;
+    dcterms:title "̳A Multidisciplinary Survey on Discrimination Analysis‘" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Neb4fc1d5894f40c38c46f8590177e736 ;
+            rdf:_2 _:N1745837aa5074c6aa665f3d891751bc0 ] ;
+    bibo:doi "10.1017/S0269888913000039." ;
+    bibo:pages "582–638" .
+
+<info:doi/10.1177/2053951716679679.> a bibo:AcademicArticle ;
+    dcterms:creator _:N4fd0bb8729524e6b84f186ede3eaf163,
+        _:N67fbfde78278433a85b783f14f102c19,
+        _:N802c8ca6174c4b23880c14228f310250,
+        _:N9bfc316593ef45ada4aa7b216362133a,
+        _:Nb7f9e9b56d1e4cc8ba6a7743f9842912 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2016" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Big Data & Society" ] ;
+            bibo:issue "2" ;
+            bibo:volume "3" ] ;
+    dcterms:title "̳The Ethics of Algorithms: Mapping the Debate‘" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N4fd0bb8729524e6b84f186ede3eaf163 ;
+            rdf:_2 _:Nb7f9e9b56d1e4cc8ba6a7743f9842912 ;
+            rdf:_3 _:N9bfc316593ef45ada4aa7b216362133a ;
+            rdf:_4 _:N802c8ca6174c4b23880c14228f310250 ;
+            rdf:_5 _:N67fbfde78278433a85b783f14f102c19 ] ;
+    bibo:doi "10.1177/2053951716679679." .
+
+_:N0307299a98e643b79e78d63c0694531b a foaf:Person ;
+    foaf:givenName "Julian" ;
+    foaf:surname "Baggini" .
+
+_:N050175d57e224ab4bd88bc2dc61c6a18 a foaf:Person ;
+    foaf:givenName "John Robinson" ;
+    foaf:surname "Pierce" .
+
+_:N05107b6baccb454c80d4bb3afe79175b a foaf:Person ;
+    foaf:givenName "Edward" ;
+    foaf:surname "Craig" .
+
+_:N0616e9c89eda4d6f9e9fbd80410b842e a foaf:Person ;
+    foaf:givenName "Mariarosaria" ;
+    foaf:surname "Taddeo" .
+
+_:N083e94693aa2443a81c0ba138ba86384 a foaf:Person ;
+    foaf:givenName "Richard C." ;
+    foaf:surname "Jeffrey" .
+
+_:N0b9429815c174f42b22554ca1e1d6670 a foaf:Person ;
+    foaf:givenName "John Seely" ;
+    foaf:surname "Brown" .
+
+_:N0e914cf285ff4241a6c4e4f44fa02dcc a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Williams" .
+
+_:N0f0466c104fe40098aa09ca5607105a3 a foaf:Person ;
+    foaf:givenName "Jesper" ;
+    foaf:surname "Ryberg" .
+
+_:N11b0e4cb397a4bf7b1d20c9ca2b22251 a foaf:Person ;
+    foaf:givenName "Susan G." ;
+    foaf:surname "Sterrett" .
+
+_:N144258bce13d49cba6331aa087cea589 a foaf:Person ;
+    foaf:givenName "Manuel Eugen" ;
+    foaf:surname "Bremer" .
+
+_:N15eeef5cb7f34c6cb8633c1bd9123b67 a foaf:Person ;
+    foaf:givenName "Mariarosaria" ;
+    foaf:surname "Taddeo" .
+
+_:N1745837aa5074c6aa665f3d891751bc0 a foaf:Person ;
+    foaf:givenName "Salvatore" ;
+    foaf:surname "Ruggieri" .
+
+_:N181d94269c1d4ae2b5549ef67762b561 a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:N1b9313fd8bc549caae8133a7626d8eaf a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Berdichevsky" .
+
+_:N1b932467c0664c6fa91ecfa92fc8b87e a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Wachter" .
+
+_:N1ba632b798a74a8481ccd03202eaecfc a foaf:Person ;
+    foaf:givenName "Sorelle A." ;
+    foaf:surname "Friedler" .
+
+_:N1cdf7470a4a44f88ac4381daaf0259b6 a foaf:Person ;
+    foaf:givenName "Christian" ;
+    foaf:surname "Sandvig" .
+
+_:N211718bdfd0e4b42b103fe0db9f6f5ef a foaf:Person ;
+    foaf:givenName "Daniel" ;
+    foaf:surname "Cohnitz" .
+
+_:N23842a0c1b1c40fbb0359bdd3018546f a foaf:Person ;
+    foaf:givenName "George" ;
+    foaf:surname "Boolos" .
+
+_:N24a9ed26206b40d9b10d7b94e2a70ac4 a foaf:Person ;
+    foaf:givenName "Andrew D." ;
+    foaf:surname "Selbst" .
+
+_:N29f55201c0fa4209a0b276e21f66d798 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Mittelstadt" .
+
+_:N2eef5dc470fb4509943f2dd0b4559d5d a foaf:Person ;
+    foaf:givenName "Stephen" ;
+    foaf:surname "Priest" .
+
+_:N3264fedbfabc41b1aa75427407692f00 a foaf:Person ;
+    foaf:givenName "St" ;
+    foaf:surname "Amant" .
+
+_:N37aa574f24ef4b159fb0073464eb4aa8 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Floridi" .
+
+_:N3b1b43fd586a43a8b45f1c58401fe8c4 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Broadbent" .
+
+_:N4070da3bc4ef44678160e9240a44ffac a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:N41c6882bcde54be2b6fc6568d216127c a foaf:Person ;
+    foaf:givenName "Alex M." ;
+    foaf:surname "McAllister" .
+
+_:N45d920dabfd24428b6bd0b756209aeb7 a foaf:Person ;
+    foaf:givenName "Richard E." ;
+    foaf:surname "Hodel" .
+
+_:N4a67f81ff4bc4d019a8a962c7d6db5cc a foaf:Person ;
+    foaf:givenName "Karrie" ;
+    foaf:surname "Karahalios" .
+
+_:N4e25006bbd5e43c99d43db79131d4388 a foaf:Person ;
+    foaf:givenName "Achille C." ;
+    foaf:surname "Varzi" .
+
+_:N4fc4f217aff34064bd0c62e2315f5d4d a foaf:Person ;
+    foaf:givenName "Warren" ;
+    foaf:surname "Weaver" .
+
+_:N4fd0bb8729524e6b84f186ede3eaf163 a foaf:Person ;
+    foaf:givenName "Brent" ;
+    foaf:surname "Mittelstadt" .
+
+_:N56490f7de238406b8440c27e10a310b3 a foaf:Person ;
+    foaf:givenName "N.J." ;
+    foaf:surname "Ryan" .
+
+_:N5c6a25d37fc94044954688968b3022b8 a foaf:Person ;
+    foaf:givenName "Clark" ;
+    foaf:surname "Wolf" .
+
+_:N6220181beee54dd7ab8eeeac0d207bbf a foaf:Person ;
+    foaf:givenName "Mark" ;
+    foaf:surname "Ryan" .
+
+_:N6246dd7a6f1e4deb846c027f60d656d0 a foaf:Person ;
+    foaf:givenName "B.Jack" ;
+    foaf:surname "Copeland" .
+
+_:N638f567a065d4edb8beed231469294d9 a foaf:Person ;
+    foaf:givenName "Michael" ;
+    foaf:surname "Sipser" .
+
+_:N67a9da6c34354909b5e1956292b732a3 a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Neuenschwander" .
+
+_:N67fbfde78278433a85b783f14f102c19 a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:N68ae566190504d07843ad45c96cd8353 a foaf:Person ;
+    foaf:givenName "Solon" ;
+    foaf:surname "Barocas" .
+
+_:N725fa22a2c0042979eca0c461fe0080d a foaf:Person ;
+    foaf:givenName "Julia" ;
+    foaf:surname "Driver" .
+
+_:N733b7b389f4446b2af93651d54436e02 a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:N7368c23a8a534005892f3efdc264e429 a foaf:Person ;
+    foaf:givenName "Donald" ;
+    foaf:surname "W." .
+
+_:N7426fe903d694ec591685e97e8d6a13d a foaf:Person ;
+    foaf:givenName "Alan Mathison" ;
+    foaf:surname "Turing" .
+
+_:N7775dd30e00f47a98d374d2e80f5f4c9 a foaf:Person ;
+    foaf:givenName "Raymond M." ;
+    foaf:surname "Smullyan" .
+
+_:N77e6c95e923f46538f1b336541e4ea2f a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:N7b21ecc0e89f436294b49ad0a4c5efb0 a foaf:Person ;
+    foaf:givenName "Peter S." ;
+    foaf:surname "Fosl" .
+
+_:N7f44466a7a79462ab2bbc2289d7dffd7 a foaf:Person ;
+    foaf:givenName "Alan Mathison" ;
+    foaf:surname "Turing" .
+
+_:N802c8ca6174c4b23880c14228f310250 a foaf:Person ;
+    foaf:givenName "Sandra" ;
+    foaf:surname "Wachter" .
+
+_:N805fc4910a794562b5c81ea9e356f52f a foaf:Person ;
+    foaf:givenName "Terrell Ward" ;
+    foaf:surname "Bynum" .
+
+_:N80975409fd67404f8fb7406c671ceb3f a foaf:Person ;
+    foaf:givenName "John P." ;
+    foaf:surname "Burgess" .
+
+_:N84cdb702b9cc4d7ba17a4d79bf68fa89 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Floridi" .
+
+_:N858e1b6856d24b5893d4875183ee2106 a foaf:Person ;
+    foaf:givenName "Suresh" ;
+    foaf:surname "Venkatasubramanian" .
+
+_:N8a80e5e0e2a84647adae7dbf05e3cdc4 a foaf:Person ;
+    foaf:givenName "Achille C." ;
+    foaf:surname "Varzi" .
+
+_:N8e73132397474b1ea269ef0cb0b16e96 a foaf:Person ;
+    foaf:givenName "Antony" ;
+    foaf:surname "Flew" .
+
+_:N8ecb59cdfc0a48abbc332577493441ed a foaf:Person ;
+    foaf:givenName "Norbert" ;
+    foaf:surname "Wiener" .
+
+_:N8ef4457998b04b17ad67bf7fe40a3209 a foaf:Person ;
+    foaf:givenName "Thomas S." ;
+    foaf:surname "Petersen" .
+
+_:N908d8c9a235b46e8a232d4d357eb4c52 a foaf:Person ;
+    foaf:givenName "Alan Mathison" ;
+    foaf:surname "Turing" .
+
+_:N9487d047a6584c68a249e4d1ac97dd63 a foaf:Person ;
+    foaf:givenName "David" ;
+    foaf:surname "Papineau" .
+
+_:N978c5c94f3364fa78c0c4ef9c7cf5cc2 a foaf:Person ;
+    foaf:givenName "Hans Christian von" ;
+    foaf:surname "Baeyer" .
+
+_:N9bfc316593ef45ada4aa7b216362133a a foaf:Person ;
+    foaf:givenName "Mariarosaria" ;
+    foaf:surname "Taddeo" .
+
+_:N9c3216cca7a44a3a8eb182bf12fe9824 a foaf:Person ;
+    foaf:givenName "Norbert" ;
+    foaf:surname "Wiener" .
+
+_:N9d9dd08ffb534389abaaaa7b2966a2ec a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Mittelstadt" .
+
+_:Na31bb12996f143fca19f5b6c3b527d9f a foaf:Person ;
+    foaf:givenName "Dennis A." ;
+    foaf:surname "Rohatyn" .
+
+_:Na32c0a436feb47279a9d056345b89c93 a foaf:Organization ;
+    foaf:name "Robert" .
+
+_:Nab75fe23ba6f436b8c9ca354ceba52c5 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Schmitt" .
+
+_:Nabec45bd42f14e7983827e9da288a8bc a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Deigh" .
+
+_:Nadc724b760bf47fd801818aa0af3084e a foaf:Person ;
+    foaf:givenName "Urs" ;
+    foaf:surname "Gasser" .
+
+_:Nae37d893ba2b42ecb125fe271c8c1168 a foaf:Person ;
+    foaf:givenName "Peter" ;
+    foaf:surname "Norvig" .
+
+_:Nafd30301dacb41098b34f2b3d802fd10 a foaf:Person ;
+    foaf:givenName "Claude Elwood" ;
+    foaf:surname "Shannon" .
+
+_:Nb1de4d3f37764d8cab581a1b400d29fb a foaf:Person ;
+    foaf:givenName "Paul" ;
+    foaf:surname "Duguid" .
+
+_:Nb69827b4863f48a2ac0195f875b46b3f a foaf:Person ;
+    foaf:givenName "James" ;
+    foaf:surname "Moor" .
+
+_:Nb6c335a9ddf84da5b88e3d490431b4f1 a foaf:Person ;
+    foaf:givenName "B.D." ;
+    foaf:surname "Mittelstadt" .
+
+_:Nb7f9e9b56d1e4cc8ba6a7743f9842912 a foaf:Person ;
+    foaf:givenName "Patrick" ;
+    foaf:surname "Allo" .
+
+_:Nba4145b16d1b47a0ae82052716bbff90 a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:Nbcf47ab906d74526b2299c2b99db0d3f a foaf:Person ;
+    foaf:givenName "Piers" ;
+    foaf:surname "Benn" .
+
+_:Nbe411513c1694068b698fda62d057121 a foaf:Person ;
+    foaf:givenName "Herman H." ;
+    foaf:surname "Goldstine" .
+
+_:Nc00e414134dd4f86a8365e17c8348f48 a foaf:Person ;
+    foaf:givenName "John P." ;
+    foaf:surname "Burgess" .
+
+_:Nc104aede48cd4b79acd7640220626c4d a foaf:Person ;
+    foaf:givenName "Richard C." ;
+    foaf:surname "Jeffrey" .
+
+_:Ncc287e01016f49c498fbd8a10af6ea1d a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:Ncca91a31a353478589ed7cf4de58c6b2 a foaf:Person ;
+    foaf:givenName "James" ;
+    foaf:surname "Gleick" .
+
+_:Ncd9d8f608cc344f49a9d5bf302f630d6 a foaf:Person ;
+    foaf:givenName "Michael" ;
+    foaf:surname "Huth" .
+
+_:Nd1c400bb189748bdb85f340f8c6134ba a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Simon" .
+
+_:Nd234085fa2854cfba00d3721ed7a0e3b a foaf:Person ;
+    foaf:givenName "P.P." ;
+    foaf:surname "Verbeek" .
+
+_:Nd24661ed14754781b8703facebd3f51a a foaf:Person ;
+    foaf:givenName "Norbert" ;
+    foaf:surname "Wiener" .
+
+_:Nd24d9a9ceabb431292dd1818ff0fabe7 a foaf:Person ;
+    foaf:givenName "Nuffield Council" ;
+    foaf:surname "Bioethics" .
+
+_:Nd48ae7d07cff4bc9b0c2d21c25f53311 a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:Nd4e85757087142808f920f1614f19132 a foaf:Person ;
+    foaf:givenName "Graham" ;
+    foaf:surname "Priest" .
+
+_:Nd75895b981cc415f8ceb007f9a5af138 a foaf:Person ;
+    foaf:givenName "Joel" ;
+    foaf:surname "Walmsley" .
+
+_:Nd81d09a1c69040e7831ce0d0d0597e9d a foaf:Person ;
+    foaf:givenName "Wilfrid" ;
+    foaf:surname "Hodges" .
+
+_:Ndda89b2ebe1f4f01a6e21dde918f9946 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Floridi" .
+
+_:Ne15bfd87854d418ba3c70d337e8e7c27 a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Nolt" .
+
+_:Ne24cbf68cace4e30980a0af15fa31e03 a foaf:Person ;
+    foaf:givenName "Stuart J." ;
+    foaf:surname "Russell" .
+
+_:Neb4fc1d5894f40c38c46f8590177e736 a foaf:Person ;
+    foaf:givenName "Andrea" ;
+    foaf:surname "Romei" .
+
+_:Nec6b7aad9fba4760a926df611764b803 a foaf:Person ;
+    foaf:givenName "Luciano" ;
+    foaf:surname "Floridi" .
+
+_:Nefbe614b9e37414dbd6365e2141eb0b7 a foaf:Person ;
+    foaf:givenName "J.David" ;
+    foaf:surname "Bolter" .
+
+_:Nf0efcda112f544ec8a6578f76421fb99 a foaf:Person ;
+    foaf:givenName "Dennis A." ;
+    foaf:surname "Rohatyn" .
+
+_:Nf3c79c9bbc9c43629f215bce8b0b5849 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Lobet-Maris" .
+
+_:Nf3fd8502073e4208a069c1d8d4447b7d a foaf:Person ;
+    foaf:givenName "Carlos" ;
+    foaf:surname "Scheidegger" .
+
+_:Nf4ebffa43b014ff2a68dd29b6da08b75 a foaf:Person ;
+    foaf:givenName "Herbert A." ;
+    foaf:surname "Simon" .
+
+_:Nf6818004e127488ea0e0108ffa73d768 a foaf:Person ;
+    foaf:givenName "Kevin" ;
+    foaf:surname "Hamilton" .
+
+_:Nf7a534d0335b40d18be0c04b35fa79c9 a foaf:Person ;
+    foaf:givenName "Effy" ;
+    foaf:surname "Vayena" .
+
+_:Nf926b085f4d841f6985b5d210e14e3a6 a foaf:Person ;
+    foaf:givenName "Joseph" ;
+    foaf:surname "Weizenbaum" .
+
+_:Nfd0176b38cc947d5832cd27e8e895065 a foaf:Person ;
+    foaf:givenName "Cedric" ;
+    foaf:surname "Langbort" .
+
+_:Nfdec8e0e1c414b17917789cf85d7ad3b a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Nolt" .
+
+_:Nfe3252abfec74ca180423425180b4cd2 a foaf:Person ;
+    foaf:givenName "Bertrand" ;
+    foaf:surname "Russell" .
+

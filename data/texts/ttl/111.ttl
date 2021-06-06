@@ -1,0 +1,72 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_3> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Library:</p>" ] .
+
+<#item_6> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>danah boyd – It’s Complicated (Yale, 2014). Free pdf at</p>" ] .
+
+<7MBWNN64> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8f3165eded9d4f6b8d28f1ea4c3817ab ;
+            dcterms:date "2018" ;
+            dcterms:title "Custodians of the Internet (NYU" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8f3165eded9d4f6b8d28f1ea4c3817ab ] ] .
+
+<IE2CV3IW> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Yale" ] ;
+            dcterms:title "Zeynep Tufekci – Twitter and Tear Gas" ] .
+
+<L4QU82UK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8b0b0bf178814ca89cf9fcaf5de5c554 ;
+            dcterms:date "2018" ;
+            dcterms:title "Purchase" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8b0b0bf178814ca89cf9fcaf5de5c554 ] ] .
+
+<NKYPNR4Q> a z:UserItem ;
+    res:resource <http://www.danah.org/books/ItsComplicated.pdf.> .
+
+<PUNTXH74> a z:UserItem ;
+    res:resource <http://library.mit.edu/item/002311227.> .
+
+<QNWKE6SR> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N1f30f65e38cc4c2d9bfca4cd73d6ccea ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "This Is Why We Can’t Have Nice Things" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1f30f65e38cc4c2d9bfca4cd73d6ccea ] ] .
+
+<http://library.mit.edu/item/002311227.> a bibo:Document ;
+    bibo:uri "http://library.mit.edu/item/002311227." .
+
+<http://www.danah.org/books/ItsComplicated.pdf.> a bibo:Document ;
+    bibo:uri "http://www.danah.org/books/ItsComplicated.pdf." .
+
+_:N1f30f65e38cc4c2d9bfca4cd73d6ccea a foaf:Person ;
+    foaf:givenName "Whitney" ;
+    foaf:surname "Phillips" .
+
+_:N8b0b0bf178814ca89cf9fcaf5de5c554 a foaf:Person ;
+    foaf:givenName "Safiya Umoja Noble – Algorithms" ;
+    foaf:surname "of Oppression (NYU" .
+
+_:N8f3165eded9d4f6b8d28f1ea4c3817ab a foaf:Person ;
+    foaf:givenName "Tarleton" ;
+    foaf:surname "Gillespie" .
+

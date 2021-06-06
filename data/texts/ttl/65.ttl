@@ -1,0 +1,1633 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_111> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>please read all sections</p>" ] .
+
+<#item_133> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>skimming the glossary encouraged!</p>" ] .
+
+<#item_143> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Sections 1, 4</p>" ] .
+
+<#item_17> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>try this on the same sites!</p>" ] .
+
+<#item_175> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>privacy</p>" ] .
+
+<#item_188> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>reading the rest encouraged!</p>" ] .
+
+<#item_194> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>ars technica.</p>" ] .
+
+<#item_2> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>please read all subsections</p>" ] .
+
+<#item_24> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>and “More detail on ‘relevance ranking’”</p>" ] .
+
+<#item_29> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>content warning: adult, possibly not-safe-for-work language</p>" ] .
+
+<#item_36> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Periodic-Table-of-SEO-2015.pdf (Read all the descriptions, please.</p>" ] .
+
+<#item_60> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>read the whole thing!</p>" ] .
+
+<23K3ER26> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<24KY4VZE> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<2ACQWYC3> a z:UserItem ;
+    res:resource <https://www.eff.org/deeplinks/2016/02/> .
+
+<2I6M3HXI> a z:UserItem ;
+    res:resource <http://www.theguardian.com/technology/> .
+
+<2L9HJWVP> a z:UserItem ;
+    res:resource <http://blog.librarything.com/thingology/> .
+
+<2PEQ5L6P> a z:UserItem ;
+    res:resource <https://www.lynda.com/Access-tutorials/Structuring-WHERE-clause/412845/438443-4.html?org=wisc.edu> .
+
+<2PQFN3IJ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<2QSZUFBI> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<2RYX7TSZ> a z:UserItem ;
+    res:resource <http://www.asis.org/Bulletin/Oct-07/> .
+
+<33DQJUFG> a z:UserItem ;
+    res:resource <http://simsjd.com/copyrightlibn/2013/05/21/copyright-in-your-> .
+
+<3BS39CGP> a z:UserItem ;
+    res:resource <https://www.bostonglobe.com/ideas/2015/05/16/the-race-> .
+
+<3MNAFK2K> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<3NUJIGLV> a z:UserItem ;
+    res:resource <http://bibwild.wordpress.com/2011/03/28/> .
+
+<3PJY5R6A> a z:UserItem ;
+    res:resource <http://news.harvard.edu/gazette/story/2011/10/you%25E2%2580%2599re-not-so-> .
+
+<3UMQLRBM> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<43K2K4KN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N51503f8231654895a555af3fe550e913 ;
+            dcterms:title "Make a note of any fields you don’t understand; we’ll clear them up in" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N51503f8231654895a555af3fe550e913 ] ] .
+
+<47K2IWV3> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<4AU3J32U> a z:UserItem ;
+    res:resource <http://www.securityweek.com/> .
+
+<4BWPR59H> a z:UserItem ;
+    res:resource <https://www.lynda.com/Access-tutorials/> .
+
+<4Q2XBPPR> a z:UserItem ;
+    res:resource <https://iapp.org/news/a/on-why-we-need-to-> .
+
+<4SAMJSF2> a z:UserItem ;
+    res:resource <http://www.wimp.com/howencryption/> .
+
+<53JZ6PRQ> a z:UserItem ;
+    res:resource <http://www.oclc.org/> .
+
+<5A6FHPJ2> a z:UserItem ;
+    res:resource <https://web.archive.org/web/20150419065324/https://> .
+
+<5W3KZJB8> a z:UserItem ;
+    res:resource <http://www.theguardian.com/media/2015/jul/19/ad-tech-online-> .
+
+<5WZY55QV> a z:UserItem ;
+    res:resource <http://www.wired.com/2010/03/netflix-> .
+
+<64NXWFBA> a z:UserItem ;
+    res:resource <http://www.atutor.ca/achecker/demo.php> .
+
+<659DKGPG> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<6EAF3XIM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N12c7f04b140b48a2bf39ad21e3cf4cd1,
+                _:N3d1101810a8b47e7bd145a401e49cac1 ;
+            dcterms:title "Deconstructing recommender systems: how Amazon and Netflix predict your preferences and prod you" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N12c7f04b140b48a2bf39ad21e3cf4cd1 ;
+                    rdf:_2 _:N3d1101810a8b47e7bd145a401e49cac1 ] ] .
+
+<6IH2C6TN> a z:UserItem ;
+    res:resource <http://dublincore.org/documents/usageguide/> .
+
+<6TZMCUCT> a z:UserItem ;
+    res:resource <http://arstechnica.com/information-technology/2014/11/where-have-you-been-your-smartphones-wi-fi-is-telling-everyone/> .
+
+<6UQD9Z2A> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<6YN3C7UB> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<73VAMKLQ> a z:UserItem ;
+    res:resource <https://medium.com/@jpom/thanks-to-> .
+
+<7N9TTJDS> a z:UserItem ;
+    res:resource <http://adexchanger.com/> .
+
+<7TW82HVR> a z:UserItem ;
+    res:resource <http://boingboing.net/2013/01/09/soundofsilence.html> .
+
+<7UL4XAEB> a z:UserItem ;
+    res:resource <http://mashable.com/2011/11/24/google-search-infographic/> .
+
+<87JI44FX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2015/10/29/451981811/ok-google-where-do-you-store-recordings-of-my-commands?sc=tw" ] .
+
+<884Z6BE4> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N833a57d353cf4324879375e0df2c91c8 ;
+            dcterms:title "Facebook is using your phone’s location to suggest new friends—which could be a privacy disaster" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N833a57d353cf4324879375e0df2c91c8 ] ;
+            bibo:uri "http://" ] .
+
+<88ILWC2V> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<8EN9PUQB> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<8GVIS5QF> a z:UserItem ;
+    res:resource <http://searchengineland.com/download/seotable/SearchEngineLand-> .
+
+<8VJXUFLQ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<942S7YQX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9b85af0854544bdb8ea163ba7c245c0f ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9b85af0854544bdb8ea163ba7c245c0f ] ] .
+
+<9FD9DINJ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<9G3PLXXZ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<9IGUG32P> a z:UserItem ;
+    res:resource <https://www.youtube.com/watch?v=JWII85UlzKw> .
+
+<9JBPU67D> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<9MDLBXEY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Just the introduction, not the game plan" ] .
+
+<9R53H3ZS> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<9TD8G3AX> a z:UserItem ;
+    res:resource <https://www.lynda.com/Access-tutorials/Choosing-primary-keys/412845/438427-4.html?org=wisc.edu> .
+
+<9WL46QGP> a z:UserItem ;
+    res:resource <https://www.lynda.com/Access-tutorials/Identifying-columns-selecting-data-types/412845/438426-4.html?org=wisc.edu> .
+
+<9XLWJ8AS> a z:UserItem ;
+    res:resource <http://www.webstyleguide.com/wsg3/4-interface-design/2-navigation.html> .
+
+<A898UGPE> a z:UserItem ;
+    res:resource <https://www.eff.org/deeplinks/2015/12/how-tpp-will-> .
+
+<AE76FQJC> a z:UserItem ;
+    res:resource <http://www.lynda.com/> .
+
+<AIVPQJYL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Joining tables” in Allardice, “Foundations of programming: databases" ;
+            bibo:uri "https://www.lynda.com/Access-tutorials/Structuring-WHERE-clause/412845/438443-4.html?org=wisc.edu" ] .
+
+<APKATEHU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N974b8f4af4ed4cb780375ad8e91b0dcf ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N974b8f4af4ed4cb780375ad8e91b0dcf ] ] .
+
+<ASG5C2A9> a z:UserItem ;
+    res:resource <http://everybodyslibraries.com/2013/04/29/> .
+
+<BBAJS59I> a z:UserItem ;
+    res:resource <https://web.archive.org/> .
+
+<BBQNDIZK> a z:UserItem ;
+    res:resource <http://www.wired.com/brandlab/2015/05/bruce-schneier-> .
+
+<BL2EPM7T> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<CSY7S7VY> a z:UserItem ;
+    res:resource <http://pro.europeana.eu/> .
+
+<CUCHWAQA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2007/02/when-tags-work-and-when-they-dont-amazon-and-librarything/" ] .
+
+<CUUYSA2V> a z:UserItem ;
+    res:resource <http://www.usability.gov/how-to-and-tools/methods/card-sorting.html> .
+
+<CZIUYKHE> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<CZSSEPTM> a z:UserItem ;
+    res:resource <http://www.thedigitalshift.com/2014/02/k-12/cipa-10-> .
+
+<D5QNJZES> a z:UserItem ;
+    res:resource <http://searchengineland.com/how-search-engines-work-really-171556> .
+
+<DAKM53I7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "programmers-believe-about-names/ (Read this for why names are very, very poor identifiers" ] .
+
+<DDHRG63P> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<DH73GVAJ> a z:UserItem ;
+    res:resource <https://www.google.com/insidesearch/howsearchworks/crawling-indexing.html> .
+
+<DMENRZCJ> a z:UserItem ;
+    res:resource <http://arstechnica.com/security/2013/01/keep-it-secret-> .
+
+<DPY3PKLL> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<DRMA8ZN9> a z:UserItem ;
+    res:resource <https://www.lynda.com/FileMaker-Pro-tutorials/Diagramming-relationships-entity-relationship-ER-> .
+
+<DS78EIUV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "information-retrieval-and-relevance-ranking-for-librarians/ (only the following sections: “Recall, precision" ] .
+
+<E32DDC2T> a z:UserItem ;
+    res:resource <http://fusion.net/story/175594/erasing-> .
+
+<E562PHNE> a z:UserItem ;
+    res:resource <http://slwa.wa.gov.au/__data/assets/pdf_file/0015/12048/> .
+
+<EKRDFPMS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0a1ae90831884fbd8b9bf0b6d597af01 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0a1ae90831884fbd8b9bf0b6d597af01 ] ] .
+
+<EMJPCFMK> a z:UserItem ;
+    res:resource <http://schoolofdata.org/2013/11/07/sql-databases-vs-excel/> .
+
+<EXRMEPCI> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<FGVA3JBA> a z:UserItem ;
+    res:resource <http://centerformediajustice.org/wp-> .
+
+<FHEJKR8T> a z:UserItem ;
+    res:resource <http://fusion.net/story/312527/google-image-search-algorithm-three-black-teenagers-vs-three-white-teenagers/> .
+
+<FL5DQ3KJ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<FN3DZEXP> a z:UserItem ;
+    res:resource <http://webaim.org/techniques/aria/> .
+
+<FVJL9NAV> a z:UserItem ;
+    res:resource <http://qz.com/451051/should-search-algorithms-be-moral-a-conversation-with-googles-in-house-philosopher/> .
+
+<G84EC7YD> a z:UserItem ;
+    res:resource <http://www.independent.co.uk/life-style/gadgets-and-tech/news/google-search-history-can-now-be-downloaded-in-its-entirety-mass-embarrassment-expected-10189834.html> .
+
+<GB92MQ7V> a z:UserItem ;
+    res:resource <http://www.kalzumeus.com/2010/06/17/falsehoods-> .
+
+<GEWCG23M> a z:UserItem ;
+    res:resource <http://medicalxpress.com/news/2015-03-> .
+
+<GI448SSU> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<GNJWD5CV> a z:UserItem ;
+    res:resource <http://www.techrepublic.com/blog/it-> .
+
+<GWVG57FE> a z:UserItem ;
+    res:resource <http://www.thewire.com/> .
+
+<GWZWKZST> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<HBQGFV9Q> a z:UserItem ;
+    res:resource <https://www.eff.org/encrypt-the-web-report> .
+
+<HDWGRQCY> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<HH3HUDV5> a z:UserItem ;
+    res:resource <https://medium.com/message/things-that-make-the-librarian-> .
+
+<HHSZ29C9> a z:UserItem ;
+    res:resource <https://> .
+
+<HPK85UHV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Understanding relationship rules and referential integrity” in Allardice, “Foundations of programming: databases" ;
+            bibo:uri "https://" ] .
+
+<HVJQPXRN> a z:UserItem ;
+    res:resource <http://www.npr.org/blogs/> .
+
+<IPGFHDR4> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<IQM6SPNB> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<IX2V9BYL> a z:UserItem ;
+    res:resource <http://www.webstyleguide.com/wsg3/2-universal-usability/index.html> .
+
+<J5DDWZDE> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<J7V3GHYM> a z:UserItem ;
+    res:resource <http://www.theresamaynard.com/DPF%2520Usability%2520Testing%2520Report.pdf> .
+
+<J8A368TF> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<JIM3BCVU> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The study" ] ;
+            dcterms:title "No shame to you if this article describes you—but it’s important not to accept search-engine results uncritically" ] .
+
+<JKFFLJT8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Diagramming relationships with entity-relationship (ER) diagrams” in Ippolite “FileMaker Pro 13 essential training" ] .
+
+<JPNFGMML> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<JPZRWLLN> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<JXBWZVBW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N318637704d48492cbf0b72b18da61e67 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N318637704d48492cbf0b72b18da61e67 ] ] .
+
+<JXG2NUF3> a z:UserItem ;
+    res:resource <http://io9.com/the-dmca-how-it-works-and-how-its-> .
+
+<K5TSWC3F> a z:UserItem ;
+    res:resource <https://the-pastry-box-project.net/anne-gibson/2014-July-31> .
+
+<K9KNRUPA> a z:UserItem ;
+    res:resource <http://library.osu.edu/blogs/copyright/2015/07/29/> .
+
+<KHCH6SRZ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<KJRS24I3> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<KS8VS55S> a z:UserItem ;
+    res:resource <http://www.interpares.org/ip2/> .
+
+<KUV7DQ2V> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<KVUZBYQC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Creating SQL queries” in Allardice, “Foundations of programming: databases" ;
+            bibo:uri "https://www.lynda.com/Access-" ] .
+
+<L2CSE4CJ> a z:UserItem ;
+    res:resource <https://www.eff.org//deeplinks/> .
+
+<L3CYPAJF> a z:UserItem ;
+    res:resource <http://lj.libraryjournal.com/2013/02/opinion/peer-to-peer-review/> .
+
+<LNN5445K> a z:UserItem ;
+    res:resource <http://recode.net/2014/05/15/net-neutrality-qa/> .
+
+<LYB5YR5P> a z:UserItem ;
+    res:resource <http://boxesandarrows.com/what-is-a-controlled-> .
+
+<LZY7UAHP> a z:UserItem ;
+    res:resource <http://linguistech.ca/dl2087> .
+
+<M239RT5X> a z:UserItem ;
+    res:resource <http://arstechnica.com/tech-> .
+
+<M6LFGHWI> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<M79AI3A2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Using aggregate functions” in Allardice, “Foundations of programming: databases" ;
+            bibo:uri "https://www.lynda.com/Access-tutorials/Structuring-WHERE-clause/412845/438443-4.html?org=wisc.edu" ] .
+
+<MFF93MVT> a z:UserItem ;
+    res:resource <https://it.wisc.edu/news/can-i-just-repost-that-photo-> .
+
+<MQHFN2GH> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<MXGUBLDY> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<MZIJPLUX> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<MZUV5UT4> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<N2AEG3GZ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<N32NG6GK> a z:UserItem ;
+    res:resource <http://www.digitalnz.org/make-it-digital/creating-digital-> .
+
+<N87B74NA> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<NMCGNV3M> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<PFBK9CEV> a z:UserItem ;
+    res:resource <http://www.jiscdigitalmedia.ac.uk/infokit/metadata/> .
+
+<PI4CHEQ4> a z:UserItem ;
+    res:resource <https://www.schneier.com/blog/> .
+
+<PPII9UC6> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<QD96UBMJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Read through Google’s Advanced Search http://www.google.com/advanced_search and Advanced Image Search" ;
+            bibo:uri "http://" ] .
+
+<QDVU2I25> a z:UserItem ;
+    res:resource <https://www.lynda.com/FileMaker-> .
+
+<QGMNA8PU> a z:UserItem ;
+    res:resource <http://spectrum.ieee.org/> .
+
+<QLUPVXK3> a z:UserItem ;
+    res:resource <http://readwrite.com/2010/07/29/so-> .
+
+<QPXSF9UV> a z:UserItem ;
+    res:resource <https://www.lynda.com/> .
+
+<R5KL8Q3A> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "lecture and/or on the help forums" ] .
+
+<R8ITLGII> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<RCYTBT7M> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<REID3GAB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2015/08/phone-and-laptop-encryption-guide-protect-your-stuff-and-yourself/" ] .
+
+<RYB2MW84> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<RZE5ZEIH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2013/12/why-are-glasses-perceived-differently-than-hearing-aids/282005/" ] .
+
+<SDNX6NKV> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<SIDS8FZI> a z:UserItem ;
+    res:resource <http://dontbubble.us/> .
+
+<SKTEHFUP> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<SLXD6J55> a z:UserItem ;
+    res:resource <http://www.theatlantic.com/technology/archive/> .
+
+<SYR46EQ5> a z:UserItem ;
+    res:resource <http://www.doit.wisc.edu/network/vpn/)> .
+
+<T553EJ6J> a z:UserItem ;
+    res:resource <http://blogs.library.duke.edu/scholcomm/2015/08/17/> .
+
+<TAKQUD7N> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "by the way, is available from http://ijoc.org/index.php/ijoc/article/view/636 and has been very widely cited" ] .
+
+<THARWB45> a z:UserItem ;
+    res:resource <http://alistapart.com/article/usability-testing-demystifiedSharma,> .
+
+<TM829FKT> a z:UserItem ;
+    res:resource <https://www.lib.umn.edu/copyright/basics> .
+
+<TQX6NHQ9> a z:UserItem ;
+    res:resource <http://fusion.net/> .
+
+<TTNKV6ZG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2015/03/26/passphrases-can-memorize-attackers-cant-guess/" ] .
+
+<TYFSPCW2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "and ‘too many results’" ] .
+
+<UD8DHGXW> a z:UserItem ;
+    res:resource <http://www.webstyleguide.com/wsg3/5-site-structure/4-> .
+
+<UXFR59GH> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<UYIUUT3Y> a z:UserItem ;
+    res:resource <http://ppcblog.com/how-google-works/> .
+
+<UZXA8CLT> a z:UserItem ;
+    res:resource <https://askleo.com/> .
+
+<V97TEBIX> a z:UserItem ;
+    res:resource <http://spectrum.ieee.org/computing/software/deconstructing-recommender-systems> .
+
+<V9VGR825> a z:UserItem ;
+    res:resource <http://discovery-grindstone.blogspot.com/2011/12/stopwords-> .
+
+<VIGU8XLG> a z:UserItem ;
+    res:resource <http://moz.com/beginners-guide-to-seo> .
+
+<VZX9UCE8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ncdb1f31108e04b66a562182e92da917f ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncdb1f31108e04b66a562182e92da917f ] ] .
+
+<W53DW4NS> a z:UserItem ;
+    res:resource <http://solveforinteresting.com/big-data-is-> .
+
+<W8AI3LL6> a z:UserItem ;
+    res:resource <https://www.lynda.com/Access-tutorials/Defining-one-many-relationships/412845/438431-4.html?org=wisc.edu> .
+
+<W98CTYSX> a z:UserItem ;
+    res:resource <http://www.theatlantic.com/technology/archive/2015/07/the-> .
+
+<WCSJ9Q45> a z:UserItem ;
+    res:resource <http://newsoffice.mit.edu/2015/identify-from-credit-card-metadata-0129> .
+
+<WCYECGM6> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<WPFFI95K> a z:UserItem ;
+    res:resource <https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html> .
+
+<WT7QI477> a z:UserItem ;
+    res:resource <http://> .
+
+<WTMPWQ2X> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<X53QNUVQ> a z:UserItem ;
+    res:resource <http://www.npr.org/sections/alltechconsidered/> .
+
+<X8J3WP2X> a z:UserItem ;
+    res:resource <http://arstechnica.com/gadgets/> .
+
+<XAFUA2JV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "security/the-basics-of-using-a-proxy-server-for-privacy-and-security/ (UW-Madison has its own VPN! It’s" ] .
+
+<XC74T6PD> a z:UserItem ;
+    res:resource <http://www.webstyleguide.com/wsg3/4-interface-design/3-interface-design.html> .
+
+<XD6UEL5F> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<XNMND6HX> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<Y374JS9T> a z:UserItem ;
+    res:resource <https://firstlook.org/theintercept/> .
+
+<Y4RPLIN4> a z:UserItem ;
+    res:resource <http://www.usertesting.com/blog/2014/10/08/> .
+
+<Y57LYSCQ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<YI5S3QL4> a z:UserItem ;
+    res:resource <https://howdns.works/> .
+
+<YTJ8K43D> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nbd849ff57ce641c98d03750bd2d22d1e ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbd849ff57ce641c98d03750bd2d22d1e ] ] .
+
+<YXITM8QA> a z:UserItem ;
+    res:resource <https://www.youtube.com/watch?v=CJn_jC4FNDo> .
+
+<YXU8PNX2> a z:UserItem ;
+    res:resource <http://webaim.org/intro> .
+
+<Z46KWPPS> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<Z5TWCSHH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "called_digital_natives_not_media_savvy_new_study_shows/ (This is the reason for much of this week’s content" ] .
+
+<Z9FUKT75> a z:UserItem ;
+    res:resource <https://www.lynda.com/Access-> .
+
+<ZAKM9XB2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Read this for what happens when a system models metadata" ] .
+
+<ZBMZNFF5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Understanding primary and foreign keys” in Wilbert “Office 365: Access essential training" ;
+            bibo:uri "https://www.lynda.com/" ] .
+
+<ZJAPHNDF> a z:UserItem ;
+    res:resource <http://www.buzzfeed.com/joeflood/what-happens-> .
+
+<ZT9KXELZ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<http://> a bibo:Document ;
+    dcterms:creator _:N15837b85b24945848f117b3c0fff36e5 ;
+    dcterms:title "Disability, human rights, and social justice: the ongoing struggle for online accessibility and equality" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N15837b85b24945848f117b3c0fff36e5 ] ;
+    bibo:uri "http://" .
+
+<http://adexchanger.com/> a bibo:Document ;
+    dcterms:creator _:Nb2f4a92184e9446694f22941be0f8cb5 ;
+    dcterms:title "In privacy policy refresh, Facebook tells people what its ‘people-based’ ID can do" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb2f4a92184e9446694f22941be0f8cb5 ] ;
+    bibo:uri "http://adexchanger.com/" .
+
+<http://alistapart.com/article/usability-testing-demystifiedSharma,> a bibo:Document ;
+    dcterms:creator _:N9616ecce12954659935472bb016ef662 ;
+    dcterms:title "Usability testing demystified" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9616ecce12954659935472bb016ef662 ] ;
+    bibo:uri "http://alistapart.com/article/usability-testing-demystifiedSharma," .
+
+<http://arstechnica.com/gadgets/> a bibo:Document ;
+    dcterms:creator _:N53f5129c2c07493793867f2bf87d43ea ;
+    dcterms:title "Phone and laptop encryption guide: protect your stuff and yourself" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N53f5129c2c07493793867f2bf87d43ea ] ;
+    bibo:uri "http://arstechnica.com/gadgets/" .
+
+<http://arstechnica.com/information-technology/2014/11/where-have-you-been-your-smartphones-wi-fi-is-telling-everyone/> a bibo:Document ;
+    dcterms:creator _:Na2b48f97a18d44ad8ad82241d9a886fb ;
+    dcterms:title "Where’ve you been? Your smartphone’s wi-fi is telling everyone" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Na2b48f97a18d44ad8ad82241d9a886fb ] ;
+    bibo:uri "http://arstechnica.com/information-technology/2014/11/where-have-you-been-your-smartphones-wi-fi-is-telling-everyone/" .
+
+<http://arstechnica.com/security/2013/01/keep-it-secret-> a bibo:Document ;
+    dcterms:creator _:Ne094cbad52e545c7ade1f69a551b8153 ;
+    dcterms:title "Keep it secret, keep it safe" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne094cbad52e545c7ade1f69a551b8153 ] ;
+    bibo:uri "http://arstechnica.com/security/2013/01/keep-it-secret-" .
+
+<http://arstechnica.com/tech-> a bibo:Document ;
+    dcterms:creator _:N6c3daedea25f4ceaa7ef85fb46be9847 ;
+    dcterms:title "Hollywood v. Goliath: inside the aggressive studio effort to bring Google to heel" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6c3daedea25f4ceaa7ef85fb46be9847 ] ;
+    bibo:uri "http://arstechnica.com/tech-" .
+
+<http://bibwild.wordpress.com/2011/03/28/> a bibo:Document ;
+    dcterms:creator _:N353a2709a855422cb266de42329ab2e2 ;
+    dcterms:title "Information Retrieval and Relevance Ranking for Librarians" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N353a2709a855422cb266de42329ab2e2 ] ;
+    bibo:uri "http://bibwild.wordpress.com/2011/03/28/" .
+
+<http://blog.librarything.com/thingology/> a bibo:Document ;
+    dcterms:title "When tags work and when they don’t: Amazon and LibraryThing" ;
+    bibo:uri "http://blog.librarything.com/thingology/" .
+
+<http://blogs.library.duke.edu/scholcomm/2015/08/17/> a bibo:Document ;
+    dcterms:creator _:N6b11371ed3964326ab5e38800709b491 ;
+    dcterms:title "Conspiracy theories, copyright term, and the TPP" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6b11371ed3964326ab5e38800709b491 ] ;
+    bibo:uri "http://blogs.library.duke.edu/scholcomm/2015/08/17/" .
+
+<http://boingboing.net/2013/01/09/soundofsilence.html> a bibo:Document ;
+    dcterms:creator _:N837711e91dca447cbe27daf7d15dad29 ;
+    dcterms:title "The sound of silence in the National Library" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N837711e91dca447cbe27daf7d15dad29 ] ;
+    bibo:uri "http://boingboing.net/2013/01/09/soundofsilence.html" .
+
+<http://boxesandarrows.com/what-is-a-controlled-> a bibo:Document ;
+    dcterms:creator _:Ndd3c7533b2de4824a70113f5d6e85673 ;
+    dcterms:title "What is a controlled vocabulary?” Boxes and Arrows" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ndd3c7533b2de4824a70113f5d6e85673 ] ;
+    bibo:uri "http://boxesandarrows.com/what-is-a-controlled-" .
+
+<http://centerformediajustice.org/wp-> a bibo:Document ;
+    dcterms:creator _:N6187ca2c3bc94de4b8a9d9531435af11 ;
+    dcterms:title "The digital culture shift: from scale to power" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6187ca2c3bc94de4b8a9d9531435af11 ] ;
+    bibo:uri "http://centerformediajustice.org/wp-" .
+
+<http://discovery-grindstone.blogspot.com/2011/12/stopwords-> a bibo:Document ;
+    dcterms:title "Stopwords in SearchWorks — to be or not to be?" ;
+    bibo:uri "http://discovery-grindstone.blogspot.com/2011/12/stopwords-" .
+
+<http://dontbubble.us/> a bibo:Document ;
+    dcterms:creator _:Na219b4e71c094dd4991b87f051f3a2ec ;
+    dcterms:title "Escape your search engine’s filter bubble" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Na219b4e71c094dd4991b87f051f3a2ec ] ;
+    bibo:uri "http://dontbubble.us/" .
+
+<http://dublincore.org/documents/usageguide/> a bibo:Document ;
+    dcterms:creator _:N697943b896b746328dafc0164fcbf132 ;
+    dcterms:title "Using Dublin Core" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N697943b896b746328dafc0164fcbf132 ] ;
+    bibo:uri "http://dublincore.org/documents/usageguide/" .
+
+<http://everybodyslibraries.com/2013/04/29/> a bibo:Document ;
+    dcterms:creator _:Ne08db2a66e1840f09e2fc0395965ed49 ;
+    dcterms:title "Categorizing people without marginalizing them" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne08db2a66e1840f09e2fc0395965ed49 ] ;
+    bibo:uri "http://everybodyslibraries.com/2013/04/29/" .
+
+<http://fusion.net/> a bibo:Document ;
+    dcterms:creator _:N7a2d1a97838648b3a74dffa32218a981 ;
+    dcterms:title "Meet the undocumented students who got the Library of Congress to ditch ‘illegal aliens’" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N7a2d1a97838648b3a74dffa32218a981 ] ;
+    bibo:uri "http://fusion.net/" .
+
+<http://fusion.net/story/175594/erasing-> a bibo:Document ;
+    dcterms:creator _:N52a27caa62b04031aeb95274e5f67b8a ;
+    dcterms:title "Erasing yourself from the Internet is really, really hard" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N52a27caa62b04031aeb95274e5f67b8a ] ;
+    bibo:uri "http://fusion.net/story/175594/erasing-" .
+
+<http://fusion.net/story/312527/google-image-search-algorithm-three-black-teenagers-vs-three-white-teenagers/> a bibo:Document ;
+    dcterms:creator _:Nc0e530b2b9c44ac5bd270ab365dfd979 ;
+    dcterms:title "‘Black teenagers’ vs ‘white teenagers’: why Google’s algorithm displays racist results" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc0e530b2b9c44ac5bd270ab365dfd979 ] ;
+    bibo:uri "http://fusion.net/story/312527/google-image-search-algorithm-three-black-teenagers-vs-three-white-teenagers/" .
+
+<http://io9.com/the-dmca-how-it-works-and-how-its-> a bibo:Document ;
+    dcterms:creator _:N36a6bdeff05d4eb386a4b09d602e78b0 ;
+    dcterms:title "The DMCA: how it works and how it’s abused" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N36a6bdeff05d4eb386a4b09d602e78b0 ] ;
+    bibo:uri "http://io9.com/the-dmca-how-it-works-and-how-its-" .
+
+<http://library.osu.edu/blogs/copyright/2015/07/29/> a bibo:Document ;
+    dcterms:creator _:Nb90b1063b46f4fe3a961f59149c40b79 ;
+    dcterms:title "Copyright as an instrument for censorship?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb90b1063b46f4fe3a961f59149c40b79 ] ;
+    bibo:uri "http://library.osu.edu/blogs/copyright/2015/07/29/" .
+
+<http://linguistech.ca/dl2087> a bibo:Document ;
+    dcterms:creator _:N7189bcd7712a4c2ea76be85a2aeb73b3 ;
+    dcterms:title "Accessibility Guidelines: The Checklist” http://accessibility.voxmedia.com/ LinguisTech, “Precision and Recall Explained" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N7189bcd7712a4c2ea76be85a2aeb73b3 ] ;
+    bibo:uri "http://linguistech.ca/dl2087" .
+
+<http://lj.libraryjournal.com/2013/02/opinion/peer-to-peer-review/> a bibo:Document ;
+    dcterms:creator _:Nadee770251b74df8874d3064e2f4d14f ;
+    dcterms:title "Metadata and copyright" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nadee770251b74df8874d3064e2f4d14f ] ;
+    bibo:uri "http://lj.libraryjournal.com/2013/02/opinion/peer-to-peer-review/" .
+
+<http://mashable.com/2011/11/24/google-search-infographic/> a bibo:Document ;
+    dcterms:creator _:N8f97392ead7d4b8fa79652f4e87434c3 ;
+    dcterms:title "How to use Google Search more effectively" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N8f97392ead7d4b8fa79652f4e87434c3 ] ;
+    bibo:uri "http://mashable.com/2011/11/24/google-search-infographic/" .
+
+<http://medicalxpress.com/news/2015-03-> a bibo:Document ;
+    dcterms:title "Internet searches create illusion of personal knowledge, research finds" ;
+    bibo:uri "http://medicalxpress.com/news/2015-03-" .
+
+<http://moz.com/beginners-guide-to-seo> a bibo:Document ;
+    dcterms:creator _:N472d71cac0f14c1e8ff034299737eded ;
+    dcterms:date "chapters 1" ;
+    dcterms:title "Beginners Guide to SEO" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N472d71cac0f14c1e8ff034299737eded ] ;
+    bibo:uri "http://moz.com/beginners-guide-to-seo" .
+
+<http://news.harvard.edu/gazette/story/2011/10/you%25E2%2580%2599re-not-so-> a bibo:Document ;
+    dcterms:creator _:Nf41058251ba94934ada3d778d982efe9 ;
+    dcterms:title "You’re not so anonymous" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf41058251ba94934ada3d778d982efe9 ] ;
+    bibo:uri "http://news.harvard.edu/gazette/story/2011/10/you%E2%80%99re-not-so-" .
+
+<http://newsoffice.mit.edu/2015/identify-from-credit-card-metadata-0129> a bibo:Document ;
+    dcterms:creator _:N90bfc4966d8e4a2993409db736db9f0c ;
+    dcterms:title "Privacy challenges" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N90bfc4966d8e4a2993409db736db9f0c ] ;
+    bibo:uri "http://newsoffice.mit.edu/2015/identify-from-credit-card-metadata-0129" .
+
+<http://ppcblog.com/how-google-works/> a bibo:Document ;
+    dcterms:title "Learn how Google works: in gory detail" ;
+    bibo:uri "http://ppcblog.com/how-google-works/" .
+
+<http://pro.europeana.eu/> a bibo:Document ;
+    dcterms:creator _:N3c75da613651401bb24f22a52d966f61,
+        _:Ne2551380edf44ed992a0ab273f94d9bf ;
+    dcterms:title "The missing decades: the 20th century black hole in Europeana" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne2551380edf44ed992a0ab273f94d9bf ;
+            rdf:_2 _:N3c75da613651401bb24f22a52d966f61 ] ;
+    bibo:uri "http://pro.europeana.eu/" .
+
+<http://qz.com/451051/should-search-algorithms-be-moral-a-conversation-with-googles-in-house-philosopher/> a bibo:Document ;
+    dcterms:creator _:N496a150f64bc496a893b8c3bf18b6c0f ;
+    dcterms:title "Should search engines be moral?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N496a150f64bc496a893b8c3bf18b6c0f ] ;
+    bibo:uri "http://qz.com/451051/should-search-algorithms-be-moral-a-conversation-with-googles-in-house-philosopher/" .
+
+<http://readwrite.com/2010/07/29/so-> a bibo:Document ;
+    dcterms:creator _:Neddef57b23b64372aefead5cdd09fb46 ;
+    dcterms:title "So-called ‘digital natives’ not media-savvy, new study shows" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Neddef57b23b64372aefead5cdd09fb46 ] ;
+    bibo:uri "http://readwrite.com/2010/07/29/so-" .
+
+<http://recode.net/2014/05/15/net-neutrality-qa/> a bibo:Document ;
+    dcterms:creator _:Nae4ffc36f50b48069e2799e34c10990c ;
+    dcterms:title "Everything you wanted to know about net neutrality" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nae4ffc36f50b48069e2799e34c10990c ] ;
+    bibo:uri "http://recode.net/2014/05/15/net-neutrality-qa/" .
+
+<http://schoolofdata.org/2013/11/07/sql-databases-vs-excel/> a bibo:Document ;
+    dcterms:creator _:Nbefc54a95fa64e398882b3aebdebcc30 ;
+    dcterms:title "SQL: The Prequel (Excel vs. Databases" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbefc54a95fa64e398882b3aebdebcc30 ] ;
+    bibo:uri "http://schoolofdata.org/2013/11/07/sql-databases-vs-excel/" .
+
+<http://searchengineland.com/download/seotable/SearchEngineLand-> a bibo:Document ;
+    dcterms:title "The periodic table of SEO success factors" ;
+    bibo:uri "http://searchengineland.com/download/seotable/SearchEngineLand-" .
+
+<http://searchengineland.com/how-search-engines-work-really-171556> a bibo:Document ;
+    dcterms:creator _:Nb9a06090271d4f11ac49b8f674821c23 ;
+    dcterms:title "How Search Engines Work – Really" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb9a06090271d4f11ac49b8f674821c23 ] ;
+    bibo:uri "http://searchengineland.com/how-search-engines-work-really-171556" .
+
+<http://simsjd.com/copyrightlibn/2013/05/21/copyright-in-your-> a bibo:Document ;
+    dcterms:creator _:N0603b11345aa41948bc4cf93867ede5e ;
+    dcterms:title "Copyright in your personal life" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0603b11345aa41948bc4cf93867ede5e ] ;
+    bibo:uri "http://simsjd.com/copyrightlibn/2013/05/21/copyright-in-your-" .
+
+<http://slwa.wa.gov.au/__data/assets/pdf_file/0015/12048/> a bibo:Document ;
+    bibo:uri "http://slwa.wa.gov.au/__data/assets/pdf_file/0015/12048/" .
+
+<http://solveforinteresting.com/big-data-is-> a bibo:Document ;
+    dcterms:title "Big Data is our generation’s civil rights issue, and we don’t know it" ;
+    bibo:uri "http://solveforinteresting.com/big-data-is-" .
+
+<http://spectrum.ieee.org/> a bibo:Document ;
+    dcterms:creator _:N3c40fce06f684990aa3099a17cdced58,
+        _:Na8bf16bc3f034f6a816be34ef4cd9d5b ;
+    dcterms:title "Browser Fingerprinting and the Online-Tracking Arms Race" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Na8bf16bc3f034f6a816be34ef4cd9d5b ;
+            rdf:_2 _:N3c40fce06f684990aa3099a17cdced58 ] ;
+    bibo:uri "http://spectrum.ieee.org/" .
+
+<http://spectrum.ieee.org/computing/software/deconstructing-recommender-systems> a bibo:Document ;
+    dcterms:title "to purchase" ;
+    bibo:uri "http://spectrum.ieee.org/computing/software/deconstructing-recommender-systems" .
+
+<http://webaim.org/intro> a bibo:Document ;
+    dcterms:creator _:Ne0cf6330e9ee475db04d15aa784e258b ;
+    dcterms:title "Introduction to Web Accessibility" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne0cf6330e9ee475db04d15aa784e258b ] ;
+    bibo:uri "http://webaim.org/intro" .
+
+<http://webaim.org/techniques/aria/> a bibo:Document ;
+    dcterms:creator _:N04f1e74e60e6493f86c67926e2366c4f ;
+    dcterms:title "Accessibility of Rich Internet Applications" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N04f1e74e60e6493f86c67926e2366c4f ] ;
+    bibo:uri "http://webaim.org/techniques/aria/" .
+
+<http://www.asis.org/Bulletin/Oct-07/> a bibo:AcademicArticle ;
+    dcterms:creator _:N2204f3941eb242e4941be585ec0e562f ;
+    dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "ASIST Bulletin" ] ;
+    dcterms:title "Folksonomies and image tagging: seeing the future?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N2204f3941eb242e4941be585ec0e562f ] ;
+    bibo:uri "http://www.asis.org/Bulletin/Oct-07/" .
+
+<http://www.atutor.ca/achecker/demo.php> a bibo:Document ;
+    dcterms:title "AChecker accessibility testing tool" ;
+    bibo:uri "http://www.atutor.ca/achecker/demo.php" .
+
+<http://www.buzzfeed.com/joeflood/what-happens-> a bibo:Document ;
+    dcterms:creator _:N6429e0971ef044be959800947fb66e2e ;
+    dcterms:title "What happens when Google doesn’t think you’re a human" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6429e0971ef044be959800947fb66e2e ] ;
+    bibo:uri "http://www.buzzfeed.com/joeflood/what-happens-" .
+
+<http://www.digitalnz.org/make-it-digital/creating-digital-> a bibo:Document ;
+    dcterms:title "For reference: Digital NZ. “Creating digital content" ;
+    bibo:uri "http://www.digitalnz.org/make-it-digital/creating-digital-" .
+
+<http://www.doit.wisc.edu/network/vpn/)> a bibo:Document ;
+    dcterms:title "free to students, faculty, and staff! You should use it!" ;
+    bibo:uri "http://www.doit.wisc.edu/network/vpn/)" .
+
+<http://www.independent.co.uk/life-style/gadgets-and-tech/news/google-search-history-can-now-be-downloaded-in-its-entirety-mass-embarrassment-expected-10189834.html> a bibo:Document ;
+    dcterms:creator _:Nae43d2cc1d8e4550a7010d38cc997f78 ;
+    dcterms:title "Google search history can now be downloaded in its entirety, mass embarrassment expected" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nae43d2cc1d8e4550a7010d38cc997f78 ] ;
+    bibo:uri "http://www.independent.co.uk/life-style/gadgets-and-tech/news/google-search-history-can-now-be-downloaded-in-its-entirety-mass-embarrassment-expected-10189834.html" .
+
+<http://www.interpares.org/ip2/> a bibo:Document ;
+    dcterms:creator _:N7b34d97afada45408c578b88e3c81239 ;
+    dcterms:title "Making and maintaining digital materials: guidelines for individuals" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N7b34d97afada45408c578b88e3c81239 ] ;
+    bibo:uri "http://www.interpares.org/ip2/" .
+
+<http://www.jiscdigitalmedia.ac.uk/infokit/metadata/> a bibo:Document ;
+    dcterms:creator _:Ne7c06abee4d14523a80181cc77ce63c6 ;
+    dcterms:title "An introduction to metadata" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne7c06abee4d14523a80181cc77ce63c6 ] ;
+    bibo:uri "http://www.jiscdigitalmedia.ac.uk/infokit/metadata/" .
+
+<http://www.kalzumeus.com/2010/06/17/falsehoods-> a bibo:Document ;
+    dcterms:creator _:Nbd05b8fcdbeb4be391223e8092f5ed11 ;
+    dcterms:title "Falsehoods programmers believe about names" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbd05b8fcdbeb4be391223e8092f5ed11 ] ;
+    bibo:uri "http://www.kalzumeus.com/2010/06/17/falsehoods-" .
+
+<http://www.lynda.com/> a bibo:Document ;
+    dcterms:title "Section 1 “Understanding Databases” in Allardice, “Foundations of programming: databases" ;
+    bibo:uri "http://www.lynda.com/" .
+
+<http://www.npr.org/blogs/> a bibo:Document ;
+    dcterms:creator _:Nc2e41ebedbb64e1e80443ba9fdb7249f ;
+    dcterms:title "What parents need to know about big data and student privacy" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc2e41ebedbb64e1e80443ba9fdb7249f ] ;
+    bibo:uri "http://www.npr.org/blogs/" .
+
+<http://www.npr.org/sections/alltechconsidered/> a bibo:Document ;
+    dcterms:title "OK Google: where do you store recordings of my commands?" ;
+    bibo:uri "http://www.npr.org/sections/alltechconsidered/" .
+
+<http://www.oclc.org/> a bibo:Document ;
+    dcterms:title "Well-intentioned practice for putting digitized collections of unpublished materials online" ;
+    bibo:uri "http://www.oclc.org/" .
+
+<http://www.securityweek.com/> a bibo:Document ;
+    dcterms:creator _:Nb519c1866031440bbbf0ae99ab3987f2 ;
+    dcterms:title "Surveillance is the business model of the Internet: Bruce Schneier" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb519c1866031440bbbf0ae99ab3987f2 ] ;
+    bibo:uri "http://www.securityweek.com/" .
+
+<http://www.techrepublic.com/blog/it-> a bibo:Document ;
+    dcterms:creator _:N577312bed0cb45fdaf1946835b48299f ;
+    dcterms:title "The basics of using a proxy server [VPN] for privacy and security" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N577312bed0cb45fdaf1946835b48299f ] ;
+    bibo:uri "http://www.techrepublic.com/blog/it-" .
+
+<http://www.theatlantic.com/technology/archive/> a bibo:Document ;
+    dcterms:creator _:N0bbb6537f81f4de7a0d7409fa7aafedb ;
+    dcterms:title "Why are glasses perceived differently than hearing aids?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0bbb6537f81f4de7a0d7409fa7aafedb ] ;
+    bibo:uri "http://www.theatlantic.com/technology/archive/" .
+
+<http://www.theatlantic.com/technology/archive/2015/07/the-> a bibo:Document ;
+    dcterms:creator _:N403477b88b9d414887a4e1d6d60521a6 ;
+    dcterms:title "The tragedy of iTunes and classical music" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N403477b88b9d414887a4e1d6d60521a6 ] ;
+    bibo:uri "http://www.theatlantic.com/technology/archive/2015/07/the-" .
+
+<http://www.thedigitalshift.com/2014/02/k-12/cipa-10-> a bibo:Document ;
+    dcterms:creator _:Neb705fea5bb1494491aaf9b80a951925 ;
+    dcterms:title "CIPA at 10: Internet filtering excessive, study finds" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Neb705fea5bb1494491aaf9b80a951925 ] ;
+    bibo:uri "http://www.thedigitalshift.com/2014/02/k-12/cipa-10-" .
+
+<http://www.theguardian.com/media/2015/jul/19/ad-tech-online-> a bibo:Document ;
+    dcterms:creator _:N1a0cea689aed4f92aa3472a52ece031c ;
+    dcterms:title "Ad tech is killing the online experience" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N1a0cea689aed4f92aa3472a52ece031c ] ;
+    bibo:uri "http://www.theguardian.com/media/2015/jul/19/ad-tech-online-" .
+
+<http://www.theguardian.com/technology/> a bibo:Document ;
+    dcterms:creator _:N0b0bdf35a7414548a4cd569f7c2db605 ;
+    dcterms:title "What happens with digital rights management in the real world?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0b0bdf35a7414548a4cd569f7c2db605 ] ;
+    bibo:uri "http://www.theguardian.com/technology/" .
+
+<http://www.theresamaynard.com/DPF%2520Usability%2520Testing%2520Report.pdf> a bibo:Document ;
+    dcterms:creator _:Nd45fa311bc504c45b04535d4145569f1 ;
+    dcterms:title "Usability testing report" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd45fa311bc504c45b04535d4145569f1 ] ;
+    bibo:uri "http://www.theresamaynard.com/DPF%20Usability%20Testing%20Report.pdf" .
+
+<http://www.thewire.com/> a bibo:Document ;
+    dcterms:creator _:Nddb683ea76d14e9b89817f15fb1bff29 ;
+    dcterms:title "Inside the New Museum’s vast, beautiful, and totally insane digitization project" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nddb683ea76d14e9b89817f15fb1bff29 ] ;
+    bibo:uri "http://www.thewire.com/" .
+
+<http://www.usability.gov/how-to-and-tools/methods/card-sorting.html> a bibo:Document ;
+    dcterms:title "Card Sorting" ;
+    bibo:uri "http://www.usability.gov/how-to-and-tools/methods/card-sorting.html" .
+
+<http://www.usertesting.com/blog/2014/10/08/> a bibo:Document ;
+    dcterms:creator _:N2663f1a2f0424dc4aac65dde4cae52ce,
+        _:Nd288007926d946259b72d9aff4b0b6f5 ;
+    dcterms:title "Designing better keyboard experiences" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd288007926d946259b72d9aff4b0b6f5 ;
+            rdf:_2 _:N2663f1a2f0424dc4aac65dde4cae52ce ] ;
+    bibo:uri "http://www.usertesting.com/blog/2014/10/08/" .
+
+<http://www.webstyleguide.com/wsg3/2-universal-usability/index.html> a bibo:Document ;
+    dcterms:creator _:Nc083b98f937f46d288b861d998212c2a ;
+    dcterms:title "Chapter 2: Universal Usability" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc083b98f937f46d288b861d998212c2a ] ;
+    bibo:uri "http://www.webstyleguide.com/wsg3/2-universal-usability/index.html" .
+
+<http://www.webstyleguide.com/wsg3/4-interface-design/2-navigation.html> a bibo:Document ;
+    dcterms:creator _:N3cf76cbf236546d8b66593a325beb477 ;
+    dcterms:title "Navigation and wayfinding" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N3cf76cbf236546d8b66593a325beb477 ] ;
+    bibo:uri "http://www.webstyleguide.com/wsg3/4-interface-design/2-navigation.html" .
+
+<http://www.webstyleguide.com/wsg3/4-interface-design/3-interface-design.html> a bibo:Document ;
+    dcterms:creator _:N07a3a137fdd24fe59552c8476bc70f62 ;
+    dcterms:title "Interface design" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N07a3a137fdd24fe59552c8476bc70f62 ] ;
+    bibo:uri "http://www.webstyleguide.com/wsg3/4-interface-design/3-interface-design.html" .
+
+<http://www.webstyleguide.com/wsg3/5-site-structure/4-> a bibo:Document ;
+    dcterms:creator _:Na7bcdd2028d44ee2b8b834d94389b710 ;
+    dcterms:title "Chapter 5: Search engine optimization" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Na7bcdd2028d44ee2b8b834d94389b710 ] ;
+    bibo:uri "http://www.webstyleguide.com/wsg3/5-site-structure/4-" .
+
+<http://www.wimp.com/howencryption/> a bibo:Document ;
+    dcterms:title "How encryption works in your web browser" ;
+    bibo:uri "http://www.wimp.com/howencryption/" .
+
+<http://www.wired.com/2010/03/netflix-> a bibo:Document ;
+    dcterms:creator _:N50b5d78c7b3c4a9883348941eabcba37 ;
+    dcterms:title "Netflix cancels recommendation contest after privacy lawsuit" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N50b5d78c7b3c4a9883348941eabcba37 ] ;
+    bibo:uri "http://www.wired.com/2010/03/netflix-" .
+
+<http://www.wired.com/brandlab/2015/05/bruce-schneier-> a bibo:Document ;
+    dcterms:title "Bruce Schneier on privacy and the data free-for-all" ;
+    bibo:uri "http://www.wired.com/brandlab/2015/05/bruce-schneier-" .
+
+<https://> a bibo:Document ;
+    dcterms:creator _:N70ab20cc959b43aeaa250a7339764fbb ;
+    dcterms:title "You’ll never believe how recommended stories are generated on otherwise serious news sites" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N70ab20cc959b43aeaa250a7339764fbb ] ;
+    bibo:uri "https://" .
+
+<https://askleo.com/> a bibo:Document ;
+    dcterms:creator _:Nb6fa81fa019d472887379255e3c405cc ;
+    dcterms:title "What’s the difference between a MAC address and an IP address?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb6fa81fa019d472887379255e3c405cc ] ;
+    bibo:uri "https://askleo.com/" .
+
+<https://firstlook.org/theintercept/> a bibo:Document ;
+    dcterms:creator _:N45ec188873f64c08aebf5c3a9e03abd8 ;
+    dcterms:title "Passphrases that you can memorize but that even the NSA can’t guess" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N45ec188873f64c08aebf5c3a9e03abd8 ] ;
+    bibo:uri "https://firstlook.org/theintercept/" .
+
+<https://howdns.works/> a bibo:Document ;
+    dcterms:title "How DNS works" ;
+    bibo:uri "https://howdns.works/" .
+
+<https://iapp.org/news/a/on-why-we-need-to-> a bibo:Document ;
+    dcterms:creator _:N35931f480cf14944a2a74ddee722c4df ;
+    dcterms:title "On why we need to map the de-identification middle ground" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N35931f480cf14944a2a74ddee722c4df ] ;
+    bibo:uri "https://iapp.org/news/a/on-why-we-need-to-" .
+
+<https://it.wisc.edu/news/can-i-just-repost-that-photo-> a bibo:Document ;
+    dcterms:creator _:N0800d728ebfd49cfaa844048cfb09a72 ;
+    dcterms:title "Can I just repost that photo online? Probably not" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0800d728ebfd49cfaa844048cfb09a72 ] ;
+    bibo:uri "https://it.wisc.edu/news/can-i-just-repost-that-photo-" .
+
+<https://medium.com/@jpom/thanks-to-> a bibo:Document ;
+    dcterms:creator _:Nf8c8978348304fc09c868033f0a3fe88 ;
+    dcterms:title "Thanks to the NSA, the legal definition of ‘metadata’ will change" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf8c8978348304fc09c868033f0a3fe88 ] ;
+    bibo:uri "https://medium.com/@jpom/thanks-to-" .
+
+<https://medium.com/message/things-that-make-the-librarian-> a bibo:Document ;
+    dcterms:creator _:N475d2988ac1e4442b6087e67b4a4ef3d ;
+    dcterms:title "Things that make the librarian angry" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N475d2988ac1e4442b6087e67b4a4ef3d ] ;
+    bibo:uri "https://medium.com/message/things-that-make-the-librarian-" .
+
+<https://the-pastry-box-project.net/anne-gibson/2014-July-31> a bibo:Document ;
+    dcterms:creator _:N5c8e9744773146ce8bdbf48480a59d39 ;
+    dcterms:title "An alphabet of accessibility issues" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N5c8e9744773146ce8bdbf48480a59d39 ] ;
+    bibo:uri "https://the-pastry-box-project.net/anne-gibson/2014-July-31" .
+
+<https://web.archive.org/> a bibo:Document ;
+    dcterms:creator _:Ne8b84187eaab4a1b9d13d11836c67f44 ;
+    dcterms:title "Creating and keeping your digital treasures: a user guide" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne8b84187eaab4a1b9d13d11836c67f44 ] ;
+    bibo:uri "https://web.archive.org/" .
+
+<https://web.archive.org/web/20150419065324/https://> a bibo:Document ;
+    dcterms:title "What does net neutrality mean to the UW?" ;
+    bibo:uri "https://web.archive.org/web/20150419065324/https://" .
+
+<https://www.bostonglobe.com/ideas/2015/05/16/the-race-> a bibo:Document ;
+    dcterms:creator _:N1375be54083f4b6b8bc78b4282c31a6b ;
+    dcterms:title "The race to preserve disappearing data" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N1375be54083f4b6b8bc78b4282c31a6b ] ;
+    bibo:uri "https://www.bostonglobe.com/ideas/2015/05/16/the-race-" .
+
+<https://www.eff.org//deeplinks/> a bibo:Document ;
+    dcterms:creator _:N6c65e93924854e95a03c7eaba05a407a ;
+    dcterms:title "EFF’s game plan for ending global mass surveillance" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6c65e93924854e95a03c7eaba05a407a ] ;
+    bibo:uri "https://www.eff.org//deeplinks/" .
+
+<https://www.eff.org/deeplinks/2015/12/how-tpp-will-> a bibo:Document ;
+    dcterms:creator _:Nbcc826809b6747f6877869037a3eacd3 ;
+    dcterms:title "How the TPP will affect you and your digital rights" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbcc826809b6747f6877869037a3eacd3 ] ;
+    bibo:uri "https://www.eff.org/deeplinks/2015/12/how-tpp-will-" .
+
+<https://www.eff.org/deeplinks/2016/02/> a bibo:Document ;
+    dcterms:creator _:N0426a8c3d8d94ff7bbda6c5e3a908965 ;
+    dcterms:title "Sneaky change to the TPP drastically extends criminal penalties" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0426a8c3d8d94ff7bbda6c5e3a908965 ] ;
+    bibo:uri "https://www.eff.org/deeplinks/2016/02/" .
+
+<https://www.eff.org/encrypt-the-web-report> a bibo:Document ;
+    dcterms:creator _:N6789007db18243b2973a66fde8480036 ;
+    dcterms:title "Encrypt-the-web report" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6789007db18243b2973a66fde8480036 ] ;
+    bibo:uri "https://www.eff.org/encrypt-the-web-report" .
+
+<https://www.google.com/insidesearch/howsearchworks/crawling-indexing.html> a bibo:Document ;
+    dcterms:creator _:N858269d9b35e473e910e4df55979f6fd ;
+    dcterms:title "Crawling and Indexing" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N858269d9b35e473e910e4df55979f6fd ] ;
+    bibo:uri "https://www.google.com/insidesearch/howsearchworks/crawling-indexing.html" .
+
+<https://www.lib.umn.edu/copyright/basics> a bibo:Document ;
+    dcterms:creator _:N28aab88e8e364f95bce4ab58636c088e ;
+    dcterms:title "Copyright Basics" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N28aab88e8e364f95bce4ab58636c088e ] ;
+    bibo:uri "https://www.lib.umn.edu/copyright/basics" .
+
+<https://www.lynda.com/> a bibo:Document ;
+    dcterms:title "The features of a relational database” in Allardice, “Foundations of programming: databases" ;
+    bibo:uri "https://www.lynda.com/" .
+
+<https://www.lynda.com/Access-> a bibo:Document ;
+    dcterms:title "Planning your database” in Allardice, “Foundations of programming: databases" ;
+    bibo:uri "https://www.lynda.com/Access-" .
+
+<https://www.lynda.com/Access-tutorials/> a bibo:Document ;
+    dcterms:title "Creating junction tables” in Wilbert “Relational database fundamentals" ;
+    bibo:uri "https://www.lynda.com/Access-tutorials/" .
+
+<https://www.lynda.com/Access-tutorials/Choosing-primary-keys/412845/438427-4.html?org=wisc.edu> a bibo:Document ;
+    dcterms:title "Choosing primary keys” in Allardice, “Foundations of programming: databases" ;
+    bibo:uri "https://www.lynda.com/Access-tutorials/Choosing-primary-keys/412845/438427-4.html?org=wisc.edu" .
+
+<https://www.lynda.com/Access-tutorials/Defining-one-many-relationships/412845/438431-4.html?org=wisc.edu> a bibo:Document ;
+    dcterms:title "Defining one-to-many relationships” in Allardice, “Foundations of programming: databases" ;
+    bibo:uri "https://www.lynda.com/Access-tutorials/Defining-one-many-relationships/412845/438431-4.html?org=wisc.edu" .
+
+<https://www.lynda.com/Access-tutorials/Identifying-columns-selecting-data-types/412845/438426-4.html?org=wisc.edu> a bibo:Document ;
+    dcterms:title "Identifying columns and selecting data types” in Allardice, “Foundations of programming: databases" ;
+    bibo:uri "https://www.lynda.com/Access-tutorials/Identifying-columns-selecting-data-types/412845/438426-4.html?org=wisc.edu" .
+
+<https://www.lynda.com/Access-tutorials/Structuring-WHERE-clause/412845/438443-4.html?org=wisc.edu> a bibo:Document ;
+    dcterms:title "Structuring the WHERE clause” in Allardice, “Foundations of programming: databases" ;
+    bibo:uri "https://www.lynda.com/Access-tutorials/Structuring-WHERE-clause/412845/438443-4.html?org=wisc.edu" .
+
+<https://www.lynda.com/FileMaker-> a bibo:Document ;
+    dcterms:title "Understanding relationship types” in Ippolite “FileMaker Pro 13 Essential Training" ;
+    bibo:uri "https://www.lynda.com/FileMaker-" .
+
+<https://www.lynda.com/FileMaker-Pro-tutorials/Diagramming-relationships-entity-relationship-ER-> a bibo:Document ;
+    bibo:uri "https://www.lynda.com/FileMaker-Pro-tutorials/Diagramming-relationships-entity-relationship-ER-" .
+
+<https://www.schneier.com/blog/> a bibo:Document ;
+    dcterms:creator _:N3d07d849692844a5ada015c11135d2c8 ;
+    dcterms:title "Finding people’s locations based on their activities in cyberspace" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N3d07d849692844a5ada015c11135d2c8 ] ;
+    bibo:uri "https://www.schneier.com/blog/" .
+
+<https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html> a bibo:Document ;
+    dcterms:title "System Usability Scale" ;
+    bibo:uri "https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html" .
+
+<https://www.youtube.com/watch?v=CJn_jC4FNDo> a bibo:Document ;
+    dcterms:title "A Fair(y) Use Tale" ;
+    bibo:uri "https://www.youtube.com/watch?v=CJn_jC4FNDo" .
+
+<https://www.youtube.com/watch?v=JWII85UlzKw> a bibo:Document ;
+    dcterms:creator _:N436b1213f7b0498fb0dcbb9d1f94eb8e ;
+    dcterms:title "Tor Animation" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N436b1213f7b0498fb0dcbb9d1f94eb8e ] ;
+    bibo:uri "https://www.youtube.com/watch?v=JWII85UlzKw" .
+
+_:N0426a8c3d8d94ff7bbda6c5e3a908965 a foaf:Organization ;
+    foaf:name "E.F.F." .
+
+_:N04f1e74e60e6493f86c67926e2366c4f a foaf:Organization ;
+    foaf:name "WebAIM" .
+
+_:N0603b11345aa41948bc4cf93867ede5e a foaf:Organization ;
+    foaf:name "Sims" .
+
+_:N07a3a137fdd24fe59552c8476bc70f62 a foaf:Organization ;
+    foaf:name "Lynch/Horton" .
+
+_:N0800d728ebfd49cfaa844048cfb09a72 a foaf:Organization ;
+    foaf:name "DoIT" .
+
+_:N0a1ae90831884fbd8b9bf0b6d597af01 a foaf:Organization ;
+    foaf:name "nealhtml" .
+
+_:N0b0bdf35a7414548a4cd569f7c2db605 a foaf:Organization ;
+    foaf:name "Doctorow" .
+
+_:N0bbb6537f81f4de7a0d7409fa7aafedb a foaf:Organization ;
+    foaf:name "Rosen" .
+
+_:N12c7f04b140b48a2bf39ad21e3cf4cd1 a foaf:Organization ;
+    foaf:name "Konstan" .
+
+_:N1375be54083f4b6b8bc78b4282c31a6b a foaf:Organization ;
+    foaf:name "Venkataraman" .
+
+_:N15837b85b24945848f117b3c0fff36e5 a foaf:Organization ;
+    foaf:name "Jaeger" .
+
+_:N1a0cea689aed4f92aa3472a52ece031c a foaf:Organization ;
+    foaf:name "Salmon" .
+
+_:N2204f3941eb242e4941be585ec0e562f a foaf:Organization ;
+    foaf:name "Neal" .
+
+_:N2663f1a2f0424dc4aac65dde4cae52ce a foaf:Organization ;
+    foaf:name "Horton" .
+
+_:N28aab88e8e364f95bce4ab58636c088e a foaf:Organization ;
+    foaf:name "Sims" .
+
+_:N318637704d48492cbf0b72b18da61e67 a foaf:Organization ;
+    foaf:name "poorly" .
+
+_:N353a2709a855422cb266de42329ab2e2 a foaf:Organization ;
+    foaf:name "Rochkind" .
+
+_:N35931f480cf14944a2a74ddee722c4df a foaf:Organization ;
+    foaf:name "Jerome" .
+
+_:N36a6bdeff05d4eb386a4b09d602e78b0 a foaf:Organization ;
+    foaf:name "Trendacosta" .
+
+_:N3c40fce06f684990aa3099a17cdced58 a foaf:Organization ;
+    foaf:name "Acar" .
+
+_:N3c75da613651401bb24f22a52d966f61 a foaf:Organization ;
+    foaf:name "Keller" .
+
+_:N3cf76cbf236546d8b66593a325beb477 a foaf:Organization ;
+    foaf:name "Lynch/Horton" .
+
+_:N3d07d849692844a5ada015c11135d2c8 a foaf:Organization ;
+    foaf:name "Schneier" .
+
+_:N3d1101810a8b47e7bd145a401e49cac1 a foaf:Organization ;
+    foaf:name "Riedl" .
+
+_:N403477b88b9d414887a4e1d6d60521a6 a foaf:Organization ;
+    foaf:name "Meyer" .
+
+_:N436b1213f7b0498fb0dcbb9d1f94eb8e a foaf:Person ;
+    foaf:givenName "Tor" ;
+    foaf:surname "Project" .
+
+_:N45ec188873f64c08aebf5c3a9e03abd8 a foaf:Organization ;
+    foaf:name "Lee" .
+
+_:N472d71cac0f14c1e8ff034299737eded a foaf:Organization ;
+    foaf:name "Moz" .
+
+_:N475d2988ac1e4442b6087e67b4a4ef3d a foaf:Organization ;
+    foaf:name "West" .
+
+_:N496a150f64bc496a893b8c3bf18b6c0f a foaf:Organization ;
+    foaf:name "Webber" .
+
+_:N50b5d78c7b3c4a9883348941eabcba37 a foaf:Organization ;
+    foaf:name "Singel" .
+
+_:N51503f8231654895a555af3fe550e913 a foaf:Organization ;
+    foaf:name "forms" .
+
+_:N52a27caa62b04031aeb95274e5f67b8a a foaf:Organization ;
+    foaf:name "Peterson" .
+
+_:N53f5129c2c07493793867f2bf87d43ea a foaf:Organization ;
+    foaf:name "Cunningham" .
+
+_:N577312bed0cb45fdaf1946835b48299f a foaf:Organization ;
+    foaf:name "Lambert" .
+
+_:N5c8e9744773146ce8bdbf48480a59d39 a foaf:Organization ;
+    foaf:name "Gibson" .
+
+_:N6187ca2c3bc94de4b8a9d9531435af11 a foaf:Person ;
+    foaf:givenName "Center" ;
+    foaf:surname "Media Justice" .
+
+_:N6429e0971ef044be959800947fb66e2e a foaf:Organization ;
+    foaf:name "Flood" .
+
+_:N6789007db18243b2973a66fde8480036 a foaf:Person ;
+    foaf:givenName "Electronic Frontier" ;
+    foaf:surname "Foundation" .
+
+_:N697943b896b746328dafc0164fcbf132 a foaf:Organization ;
+    foaf:name "Hillmann" .
+
+_:N6b11371ed3964326ab5e38800709b491 a foaf:Organization ;
+    foaf:name "Smith" .
+
+_:N6c3daedea25f4ceaa7ef85fb46be9847 a foaf:Organization ;
+    foaf:name "Mullin" .
+
+_:N6c65e93924854e95a03c7eaba05a407a a foaf:Person ;
+    foaf:givenName "Electronic Frontier" ;
+    foaf:surname "Foundation" .
+
+_:N70ab20cc959b43aeaa250a7339764fbb a foaf:Organization ;
+    foaf:name "Farhi" .
+
+_:N7189bcd7712a4c2ea76be85a2aeb73b3 a foaf:Organization ;
+    foaf:name "Vox" .
+
+_:N7a2d1a97838648b3a74dffa32218a981 a foaf:Organization ;
+    foaf:name "Rivas" .
+
+_:N7b34d97afada45408c578b88e3c81239 a foaf:Organization ;
+    foaf:name "InterPARES" .
+
+_:N833a57d353cf4324879375e0df2c91c8 a foaf:Organization ;
+    foaf:name "Hill" .
+
+_:N837711e91dca447cbe27daf7d15dad29 a foaf:Organization ;
+    foaf:name "Fleishman" .
+
+_:N858269d9b35e473e910e4df55979f6fd a foaf:Organization ;
+    foaf:name "Google" .
+
+_:N8f97392ead7d4b8fa79652f4e87434c3 a foaf:Organization ;
+    foaf:name "Catone" .
+
+_:N90bfc4966d8e4a2993409db736db9f0c a foaf:Organization ;
+    foaf:name "Hardesty" .
+
+_:N9616ecce12954659935472bb016ef662 a foaf:Organization ;
+    foaf:name "Chisnell" .
+
+_:N974b8f4af4ed4cb780375ad8e91b0dcf a foaf:Organization ;
+    foaf:name "online-advertising/in-privacy-policy-refresh-facebook-tells-people-what-its-people-based-id-can-" .
+
+_:N9b85af0854544bdb8ea163ba7c245c0f a foaf:Organization ;
+    foaf:name "vocabulary/" .
+
+_:Na219b4e71c094dd4991b87f051f3a2ec a foaf:Organization ;
+    foaf:name "DuckDuckGo" .
+
+_:Na2b48f97a18d44ad8ad82241d9a886fb a foaf:Organization ;
+    foaf:name "Gallagher" .
+
+_:Na7bcdd2028d44ee2b8b834d94389b710 a foaf:Person ;
+    foaf:givenName "Web Style" ;
+    foaf:surname "Guide" .
+
+_:Na8bf16bc3f034f6a816be34ef4cd9d5b a foaf:Organization ;
+    foaf:name "Nikiforakis" .
+
+_:Nadee770251b74df8874d3064e2f4d14f a foaf:Organization ;
+    foaf:name "Coyle" .
+
+_:Nae43d2cc1d8e4550a7010d38cc997f78 a foaf:Organization ;
+    foaf:name "Griffin" .
+
+_:Nae4ffc36f50b48069e2799e34c10990c a foaf:Organization ;
+    foaf:name "Schatz" .
+
+_:Nb2f4a92184e9446694f22941be0f8cb5 a foaf:Organization ;
+    foaf:name "Rodgers" .
+
+_:Nb519c1866031440bbbf0ae99ab3987f2 a foaf:Organization ;
+    foaf:name "Rashid" .
+
+_:Nb6fa81fa019d472887379255e3c405cc a foaf:Organization ;
+    foaf:name "Notenboom" .
+
+_:Nb90b1063b46f4fe3a961f59149c40b79 a foaf:Organization ;
+    foaf:name "Scheid" .
+
+_:Nb9a06090271d4f11ac49b8f674821c23 a foaf:Organization ;
+    foaf:name "Halasz" .
+
+_:Nbcc826809b6747f6877869037a3eacd3 a foaf:Organization ;
+    foaf:name "E.F.F." .
+
+_:Nbd05b8fcdbeb4be391223e8092f5ed11 a foaf:Organization ;
+    foaf:name "McKenzie" .
+
+_:Nbd849ff57ce641c98d03750bd2d22d1e a foaf:Organization ;
+    foaf:name "do/" .
+
+_:Nbefc54a95fa64e398882b3aebdebcc30 a foaf:Organization ;
+    foaf:name "Veltman" .
+
+_:Nc083b98f937f46d288b861d998212c2a a foaf:Organization ;
+    foaf:name "Lynch/Horton" .
+
+_:Nc0e530b2b9c44ac5bd270ab365dfd979 a foaf:Organization ;
+    foaf:name "Chiel" .
+
+_:Nc2e41ebedbb64e1e80443ba9fdb7249f a foaf:Organization ;
+    foaf:name "Kamenetz" .
+
+_:Ncdb1f31108e04b66a562182e92da917f a foaf:Organization ;
+    foaf:name "anonymous/" .
+
+_:Nd288007926d946259b72d9aff4b0b6f5 a foaf:Organization ;
+    foaf:name "Sloan" .
+
+_:Nd45fa311bc504c45b04535d4145569f1 a foaf:Organization ;
+    foaf:name "Maynard" .
+
+_:Ndd3c7533b2de4824a70113f5d6e85673 a foaf:Organization ;
+    foaf:name "Leise" .
+
+_:Nddb683ea76d14e9b89817f15fb1bff29 a foaf:Organization ;
+    foaf:name "Schonfeld" .
+
+_:Ne08db2a66e1840f09e2fc0395965ed49 a foaf:Organization ;
+    foaf:name "Ockerbloom" .
+
+_:Ne094cbad52e545c7ade1f69a551b8153 a foaf:Organization ;
+    foaf:name "Cunningham" .
+
+_:Ne0cf6330e9ee475db04d15aa784e258b a foaf:Organization ;
+    foaf:name "WebAIM" .
+
+_:Ne2551380edf44ed992a0ab273f94d9bf a foaf:Organization ;
+    foaf:name "Gómez" .
+
+_:Ne7c06abee4d14523a80181cc77ce63c6 a foaf:Person ;
+    foaf:givenName "J.I.S.C.Digital" ;
+    foaf:surname "Media" .
+
+_:Ne8b84187eaab4a1b9d13d11836c67f44 a foaf:Person ;
+    foaf:givenName "State Library" ;
+    foaf:surname "Western Australia" .
+
+_:Neb705fea5bb1494491aaf9b80a951925 a foaf:Organization ;
+    foaf:name "Bayliss" .
+
+_:Neddef57b23b64372aefead5cdd09fb46 a foaf:Organization ;
+    foaf:name "Perez" .
+
+_:Nf41058251ba94934ada3d778d982efe9 a foaf:Organization ;
+    foaf:name "Perry" .
+
+_:Nf8c8978348304fc09c868033f0a3fe88 a foaf:Organization ;
+    foaf:name "Pomerantz" .
+

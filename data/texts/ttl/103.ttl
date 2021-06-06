@@ -1,0 +1,17 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<XYLJUC3R> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne632cafa56f9461eae841a063c5394af ;
+            dcterms:title "How Silicon Valley Utopianism Brought You the Dystopian Trump Presidency" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne632cafa56f9461eae841a063c5394af ] ] .
+
+_:Ne632cafa56f9461eae841a063c5394af a foaf:Organization ;
+    foaf:name "Tanz" .
+

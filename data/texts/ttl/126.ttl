@@ -1,0 +1,43 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_2> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>ISBN: 0735611319.</p>" ] .
+
+<#item_5> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>ISBN: 0137135599.</p>" ] .
+
+<76CVUSHF> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "1988" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Norbert Wiener. Da Capo Press" ] ;
+            dcterms:title "The Human Use of Human Beings: Cybernetics and Society" ] .
+
+<GWRN5YXB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "Uno R3" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Adafruit" ] ;
+            dcterms:title "Adafruit ARDX - v1.3 Experimentation Kit for Arduino" ;
+            bibo:numPages "â€“ 1 3" ] .
+
+<S89IJF3K> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2000" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Charles Petzold. Microsoft Press" ] ;
+            dcterms:title "Code: The Hidden Language of Computer Hardware and Software" ] .
+
+<YYDNKMEK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2008" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Hal Abelson, Ken Ledeen, and Harry Lewis. Addison-Wesley" ] ;
+            dcterms:title "Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion" ] .
+

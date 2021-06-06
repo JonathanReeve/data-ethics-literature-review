@@ -1,0 +1,543 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_12> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_14> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_16> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_18> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_20> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_22> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_25> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_27> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_29> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_3> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_31> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available online at:</p>" ] .
+
+<#item_33> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_35> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available online at:</p>" ] .
+
+<#item_6> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<#item_8> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at:</p>" ] .
+
+<2I5MZNY6> a z:UserItem ;
+    res:resource <https://link.springer.com/content/pdf/10.1007%252F978-3-540-75829-7_2.pdf> .
+
+<43WRREIE> a z:UserItem ;
+    res:resource <http://doi.org/10.2307/1394914.> .
+
+<4V57Z2KU> a z:UserItem ;
+    res:resource <http://www.jstor.org/stable/1511985> .
+
+<692XG99U> a z:UserItem ;
+    res:resource <https://link.springer.com/content/pdf/10.1007%252F978-94-007-7844-> .
+
+<7LUCZ55A> a z:UserItem ;
+    res:resource <http://doi.org/10.1086/684147> .
+
+<84Z6PKNV> a z:UserItem ;
+    res:resource <http://www.digitalhumanities.org/dhq/vol/9/2/000201/000201.html> .
+
+<DV44HNCG> a z:UserItem ;
+    res:resource <http://www.inthelibrarywiththeleadpipe.org/2015/lis-diversity/> .
+
+<FEGLP3CC> a z:UserItem ;
+    res:resource <http://jlis.lis.ntu.edu.tw/article/v13-2-s1.pdf> .
+
+<GPGTWJHG> a z:UserItem ;
+    res:resource <https://www.washingtonpost.com/local/education/unequal-shelves-in-dc-school-libraries-benefit-> .
+
+<GZF7PG9G> a z:UserItem ;
+    res:resource <https://www.washingtonpost.com/lifestyle/magazine/as-libraries-embrace-maker-rooms-are-the-> .
+
+<LW74XRUS> a z:UserItem ;
+    res:resource <https://www.washingtonpost.com/local/dc-> .
+
+<M5YDMSXV> a z:UserItem ;
+    res:resource <https://innovate.ucsb.edu/wp-content/uploads/2010/02/Winner-Do-Artifacts-Have-Politics-> .
+
+<MHRCXYZB> a z:UserItem ;
+    res:resource <https://link.springer.com/content/pdf/10.1007%252F978-94-007-6350-0_11.pdf> .
+
+<MLCSRP34> a z:UserItem ;
+    res:resource <https://www.nyu.edu/projects/nissenbaum/papers/Latour_Mixing.pdf> .
+
+<NAHMTPXH> a z:UserItem ;
+    res:resource <https://link.springer.com/content/pdf/10.1007%252F978-0-387-35309-> .
+
+<P88ZLN9F> a z:UserItem ;
+    res:resource <http://doi.org/10.1080/01639374.2014.882465> .
+
+<QXKWDZ2X> a z:UserItem ;
+    res:resource <http://www.ihs.uw.edu.pl/wp-> .
+
+<RM8S6UP2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9023d795ade6472e8791b10de671bc2c ;
+            dcterms:date "2014" ;
+            dcterms:title "D.C. adds a social worker to library system to work with homeless patron" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9023d795ade6472e8791b10de671bc2c ] ] .
+
+<TB25D3RV> a z:UserItem ;
+    res:resource <http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001100> .
+
+<ZW5E8PZL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0b6d2a29caf945c1894371ba5801dd63,
+                _:Nec4c5f9c75284c5caf1601ce0be3787a ;
+            dcterms:date "2014" ;
+            dcterms:title "Theories of the information society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0b6d2a29caf945c1894371ba5801dd63 ;
+                    rdf:_2 _:Nec4c5f9c75284c5caf1601ce0be3787a ] ] .
+
+<http://doi.org/10.1080/01639374.2014.882465> a bibo:AcademicArticle ;
+    dcterms:creator _:N3bd045ec0d6a4b089f3dff4c9caf15c3,
+        _:Na0975dabaf8943e39901c217c5e11756,
+        _:Ndbab9a3e4f844ce49fe288de86910f6e ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2014" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Cataloging & Classification Quarterly" ] ;
+            bibo:issue "4" ;
+            bibo:volume "52" ] ;
+    dcterms:title "What’s Gender Got to Do with It? A Critique of RDA 9.7" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ndbab9a3e4f844ce49fe288de86910f6e ;
+            rdf:_2 _:N3bd045ec0d6a4b089f3dff4c9caf15c3 ;
+            rdf:_3 _:Na0975dabaf8943e39901c217c5e11756 ] ;
+    bibo:doi "10.1080/01639374.2014.882465" ;
+    bibo:pages "412–421" ;
+    bibo:uri "http://doi.org/10.1080/01639374.2014.882465" .
+
+<http://doi.org/10.1086/684147> a bibo:AcademicArticle ;
+    dcterms:creator _:N03355b5b8f5e48b8b6673d0562b46238,
+        _:N47550e98f9fb4118a12f7326c0b00cbc,
+        _:N6b42450934a146d3b781ad804a07f64d ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2016" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The Library Quarterly" ] ;
+            bibo:issue "1" ;
+            bibo:volume "86" ] ;
+    dcterms:title "Social Justice as Topic and Tool: An Attempt to Transform an LIS Curriculum and Culture" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N03355b5b8f5e48b8b6673d0562b46238 ;
+            rdf:_2 _:N47550e98f9fb4118a12f7326c0b00cbc ;
+            rdf:_3 _:N6b42450934a146d3b781ad804a07f64d ] ;
+    bibo:doi "10.1086/684147" ;
+    bibo:pages "107–124" ;
+    bibo:uri "http://doi.org/10.1086/684147" .
+
+<http://doi.org/10.2307/1394914.> a bibo:AcademicArticle ;
+    dcterms:creator _:N61d6a2ce95cf4b47a0ac7b8030e14563 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1981" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Feminist Review" ] ;
+            bibo:volume "9" ] ;
+    dcterms:title "The Material of Male Power" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N61d6a2ce95cf4b47a0ac7b8030e14563 ] ;
+    bibo:doi "10.2307/1394914." ;
+    bibo:pages "41" ;
+    bibo:uri "http://doi.org/10.2307/1394914." .
+
+<http://jlis.lis.ntu.edu.tw/article/v13-2-s1.pdf> a bibo:AcademicArticle ;
+    dcterms:creator _:N0e5be2b90ef940b1a11347fab901a6bd,
+        _:N6cae6a83ca1842ddaf4e92966fa03776,
+        _:Ne2a440b8f33943c5b33805fcd3f3347a ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2015" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of Library and Information Studies" ] ;
+            bibo:issue "2" ;
+            bibo:volume "13" ] ;
+    dcterms:title "Indigenization of knowledge organization at the Xwi7Xxwa Library" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0e5be2b90ef940b1a11347fab901a6bd ;
+            rdf:_2 _:N6cae6a83ca1842ddaf4e92966fa03776 ;
+            rdf:_3 _:Ne2a440b8f33943c5b33805fcd3f3347a ] ;
+    bibo:pages "107–134" ;
+    bibo:uri "http://jlis.lis.ntu.edu.tw/article/v13-2-s1.pdf" .
+
+<http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001100> a bibo:AcademicArticle ;
+    dcterms:creator _:Nd5e241fe8ad24f4c8b9262ac219fe478,
+        _:Nf0834416ccf142b6a4ec86eaa60f6629 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2011" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "PLoS Med" ] ;
+            bibo:issue "10" ;
+            bibo:volume "8" ] ;
+    dcterms:title "Do Health and Forensic DNA Databases Increase Racial Disparities?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd5e241fe8ad24f4c8b9262ac219fe478 ;
+            rdf:_2 _:Nf0834416ccf142b6a4ec86eaa60f6629 ] ;
+    bibo:uri "http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001100" .
+
+<http://www.digitalhumanities.org/dhq/vol/9/2/000201/000201.html> a bibo:AcademicArticle ;
+    dcterms:creator _:N9ffaf04e5f0b47919431b0ca4c331856 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2015" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Digital Humanities Quarterly" ] ;
+            bibo:issue "2" ;
+            bibo:volume "9" ] ;
+    dcterms:title "The Shock of the Familiar: Three Timelines about gender and Technology in the Library" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9ffaf04e5f0b47919431b0ca4c331856 ] ;
+    bibo:uri "http://www.digitalhumanities.org/dhq/vol/9/2/000201/000201.html" .
+
+<http://www.ihs.uw.edu.pl/wp-> a bibo:AcademicArticle ;
+    dcterms:creator _:Nddf237a009ed4e4aa06e5eafe972696f,
+        _:Nf6996682d4664ac4914a642f0336c8f3 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1984" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Social Studies of Science" ] ;
+            bibo:issue "3" ;
+            bibo:volume "14" ] ;
+    dcterms:title "The Social Construction of Facts and Artefacts: or How the Sociology of Science and the Sociology of Technology might Benefit Each Other" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nddf237a009ed4e4aa06e5eafe972696f ;
+            rdf:_2 _:Nf6996682d4664ac4914a642f0336c8f3 ] ;
+    bibo:pages "399–441" ;
+    bibo:uri "http://www.ihs.uw.edu.pl/wp-" .
+
+<http://www.inthelibrarywiththeleadpipe.org/2015/lis-diversity/> a bibo:BookSection ;
+    dcterms:creator _:Nfa7db57f8104401f89c17e16194e7517 ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:date "2015" ;
+            dcterms:title "Library With the Lead Pipe" ] ;
+    dcterms:title "White Librarianship in Blackface: Diversity Initiatives in LIS" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nfa7db57f8104401f89c17e16194e7517 ] ;
+    bibo:uri "http://www.inthelibrarywiththeleadpipe.org/2015/lis-diversity/" .
+
+<http://www.jstor.org/stable/1511985> a bibo:AcademicArticle ;
+    dcterms:creator _:N62f02e74067a4ea5a113a0927a896b0d ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2004" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Design Issues" ] ;
+            bibo:issue "3" ;
+            bibo:volume "20" ] ;
+    dcterms:title "Alternative Design Scholarship: Working Toward Appropriate Design" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N62f02e74067a4ea5a113a0927a896b0d ] ;
+    bibo:pages "13–24" ;
+    bibo:uri "http://www.jstor.org/stable/1511985" .
+
+<https://innovate.ucsb.edu/wp-content/uploads/2010/02/Winner-Do-Artifacts-Have-Politics-> a bibo:AcademicArticle ;
+    dcterms:creator _:N8f66aa53a942427ba185a6fc860b2dae ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1980" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Modern Technology: Problem or Opportunity?" ] ;
+            bibo:issue "1" ;
+            bibo:volume "109" ] ;
+    dcterms:title "Do Artifacts Have Politics?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N8f66aa53a942427ba185a6fc860b2dae ] ;
+    bibo:pages "121–136" ;
+    bibo:uri "https://innovate.ucsb.edu/wp-content/uploads/2010/02/Winner-Do-Artifacts-Have-Politics-" .
+
+<https://link.springer.com/content/pdf/10.1007%252F978-0-387-35309-> a bibo:BookSection ;
+    dcterms:creator _:Ncf94917aa0fa4efe947136d37266f896 ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:date "1997" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Boston, MA" ;
+                    foaf:name "Springer US" ] ;
+            dcterms:title "Information Systems and Qualitative Research" ] ;
+    dcterms:title "Actor-Network Theory and IS Research: Current Status and Future Prospects" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ncf94917aa0fa4efe947136d37266f896 ] ;
+    bibo:pages "466–480" ;
+    bibo:uri "https://link.springer.com/content/pdf/10.1007%2F978-0-387-35309-" .
+
+<https://link.springer.com/content/pdf/10.1007%252F978-3-540-75829-7_2.pdf> a bibo:Document ;
+    dcterms:creator _:N4ba1b020695d4aa783fbfd4349520cea ;
+    dcterms:date "2008" ;
+    dcterms:publisher [ a foaf:Organization ;
+            foaf:name "Springer" ] ;
+    dcterms:title "Through the Google Goggles: Sociopolitical Bias in Search Engine Design" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N4ba1b020695d4aa783fbfd4349520cea ] ;
+    bibo:uri "https://link.springer.com/content/pdf/10.1007%2F978-3-540-75829-7_2.pdf" .
+
+<https://link.springer.com/content/pdf/10.1007%252F978-94-007-6350-0_11.pdf> a bibo:BookSection ;
+    dcterms:creator _:N831a25c5353b431295a6ce1347649f6d ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:date "2013" ;
+            dcterms:title "Engineering Education for Social Justice" ;
+            bibo:editor _:N4c74e59c9ead4c81a2fb7471566c66fb ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N4c74e59c9ead4c81a2fb7471566c66fb ] ] ;
+    dcterms:title "Exceptional Engineering: Challenges and Opportunities for Socially Just Engineering in Non-governmental Organizations in Colombia" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N831a25c5353b431295a6ce1347649f6d ] ;
+    bibo:pages "227–242" ;
+    bibo:uri "https://link.springer.com/content/pdf/10.1007%2F978-94-007-6350-0_11.pdf" .
+
+<https://link.springer.com/content/pdf/10.1007%252F978-94-007-7844-> a bibo:BookSection ;
+    dcterms:creator _:N01c33e2f2e994e289288e8ffc00b4bec,
+        _:Nb36446baa99e4be8ae1df9c57c2bf119,
+        _:Nd386e62d71ab4828802e59f99f569a4c,
+        _:Ne7afa0e0d82943b281ffc269c86aaecd ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Springer Netherlands" ] ;
+            dcterms:title "Early engagement and new technologies: Opening up the laboratory" ;
+            bibo:editor _:N0d4474dfab204892b61e4013b57e90ae,
+                _:N76dcfb6a0f3c4c76a249b7d3c0432664,
+                _:Na9f424995431434b832a5a65d4e2d44e,
+                _:Nc89e5f199ac5445685e769d31d83e173 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Na9f424995431434b832a5a65d4e2d44e ;
+                    rdf:_2 _:N0d4474dfab204892b61e4013b57e90ae ;
+                    rdf:_3 _:N76dcfb6a0f3c4c76a249b7d3c0432664 ;
+                    rdf:_4 _:Nc89e5f199ac5445685e769d31d83e173 ] ] ;
+    dcterms:title "Value Sensitive Design and Information Systems" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N01c33e2f2e994e289288e8ffc00b4bec ;
+            rdf:_2 _:Nb36446baa99e4be8ae1df9c57c2bf119 ;
+            rdf:_3 _:Ne7afa0e0d82943b281ffc269c86aaecd ;
+            rdf:_4 _:Nd386e62d71ab4828802e59f99f569a4c ] ;
+    bibo:pages "55–95" ;
+    bibo:uri "https://link.springer.com/content/pdf/10.1007%2F978-94-007-7844-" .
+
+<https://www.nyu.edu/projects/nissenbaum/papers/Latour_Mixing.pdf> a bibo:AcademicArticle ;
+    dcterms:creator _:Nd6f77649df2b4a62a8d90d1bc7a8bdad ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1988" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Social Problems" ] ;
+            bibo:issue "3" ;
+            bibo:volume "35" ] ;
+    dcterms:title "Mixing Humans and Nonhumans Together: The Sociology of a Door-Closer" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd6f77649df2b4a62a8d90d1bc7a8bdad ] ;
+    bibo:uri "https://www.nyu.edu/projects/nissenbaum/papers/Latour_Mixing.pdf" .
+
+<https://www.washingtonpost.com/lifestyle/magazine/as-libraries-embrace-maker-rooms-are-the-> a bibo:AcademicArticle ;
+    dcterms:creator _:N461f209c79624dfabaa323af30b55fdf ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2016" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The Washington Post" ] ] ;
+    dcterms:title "As public libraries embrace maker rooms, are the poorest users being left behind?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N461f209c79624dfabaa323af30b55fdf ] ;
+    bibo:pages "– – – – 2016 03 30 49 0 530– 50–11 5–891 – 4 04 4213 8 909 01 4" ;
+    bibo:uri "https://www.washingtonpost.com/lifestyle/magazine/as-libraries-embrace-maker-rooms-are-the-" .
+
+<https://www.washingtonpost.com/local/dc-> a bibo:Document ;
+    dcterms:date "2014-08-27" ;
+    dcterms:title "The Washington Post" ;
+    bibo:uri "https://www.washingtonpost.com/local/dc-" .
+
+<https://www.washingtonpost.com/local/education/unequal-shelves-in-dc-school-libraries-benefit-> a bibo:AcademicArticle ;
+    dcterms:creator _:Neec9be5ad56c4da5845d682ad4664460 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2015" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The Washington Post" ] ] ;
+    dcterms:title "Unequal shelves in D.C. school libraries benefit wealthier students" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Neec9be5ad56c4da5845d682ad4664460 ] ;
+    bibo:pages "– 2015 03 09 548 96– 1 –11 4–8668– 4 7 8439 6 85022807" ;
+    bibo:uri "https://www.washingtonpost.com/local/education/unequal-shelves-in-dc-school-libraries-benefit-" .
+
+_:N01c33e2f2e994e289288e8ffc00b4bec a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Friedman" .
+
+_:N03355b5b8f5e48b8b6673d0562b46238 a foaf:Person ;
+    foaf:givenName "N.A." ;
+    foaf:surname "Cooke" .
+
+_:N0b6d2a29caf945c1894371ba5801dd63 a foaf:Person ;
+    foaf:givenName "F." ;
+    foaf:surname "Webster" .
+
+_:N0d4474dfab204892b61e4013b57e90ae a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Schuurbiers" .
+
+_:N0e5be2b90ef940b1a11347fab901a6bd a foaf:Person ;
+    foaf:givenName "A.M." ;
+    foaf:surname "Doyle" .
+
+_:N3bd045ec0d6a4b089f3dff4c9caf15c3 a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Drabinski" .
+
+_:N461f209c79624dfabaa323af30b55fdf a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Godfrey" .
+
+_:N47550e98f9fb4118a12f7326c0b00cbc a foaf:Person ;
+    foaf:givenName "M.E." ;
+    foaf:surname "Sweeney" .
+
+_:N4ba1b020695d4aa783fbfd4349520cea a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Diaz" .
+
+_:N4c74e59c9ead4c81a2fb7471566c66fb a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Lucena" .
+
+_:N61d6a2ce95cf4b47a0ac7b8030e14563 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Cockburn" .
+
+_:N62f02e74067a4ea5a113a0927a896b0d a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Nieusma" .
+
+_:N6b42450934a146d3b781ad804a07f64d a foaf:Person ;
+    foaf:givenName "S.U." ;
+    foaf:surname "Noble" .
+
+_:N6cae6a83ca1842ddaf4e92966fa03776 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Lawson" .
+
+_:N76dcfb6a0f3c4c76a249b7d3c0432664 a foaf:Person ;
+    foaf:givenName "I." ;
+    foaf:surname "Poel" .
+
+_:N831a25c5353b431295a6ce1347649f6d a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Arias-Hernandez" .
+
+_:N8f66aa53a942427ba185a6fc860b2dae a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Winner" .
+
+_:N9023d795ade6472e8791b10de671bc2c a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Jenkins" .
+
+_:N9ffaf04e5f0b47919431b0ca4c331856 a foaf:Person ;
+    foaf:givenName "G." ;
+    foaf:surname "Dean" .
+
+_:Na0975dabaf8943e39901c217c5e11756 a foaf:Person ;
+    foaf:givenName "K.R." ;
+    foaf:surname "Roberto" .
+
+_:Na9f424995431434b832a5a65d4e2d44e a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Doorn" .
+
+_:Nb36446baa99e4be8ae1df9c57c2bf119 a foaf:Person ;
+    foaf:givenName "P.H." ;
+    foaf:surname "Kahn" .
+
+_:Nc89e5f199ac5445685e769d31d83e173 a foaf:Person ;
+    foaf:givenName "M.E." ;
+    foaf:surname "Gorman" .
+
+_:Ncf94917aa0fa4efe947136d37266f896 a foaf:Person ;
+    foaf:givenName "G." ;
+    foaf:surname "Walsham" .
+
+_:Nd386e62d71ab4828802e59f99f569a4c a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Huldtgren" .
+
+_:Nd5e241fe8ad24f4c8b9262ac219fe478 a foaf:Person ;
+    foaf:givenName "P.A." ;
+    foaf:surname "Chow-White" .
+
+_:Nd6f77649df2b4a62a8d90d1bc7a8bdad a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Latour" .
+
+_:Ndbab9a3e4f844ce49fe288de86910f6e a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Billey" .
+
+_:Nddf237a009ed4e4aa06e5eafe972696f a foaf:Person ;
+    foaf:givenName "T.J." ;
+    foaf:surname "Pinch" .
+
+_:Ne2a440b8f33943c5b33805fcd3f3347a a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "DUpont" .
+
+_:Ne7afa0e0d82943b281ffc269c86aaecd a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Borning" .
+
+_:Nec4c5f9c75284c5caf1601ce0be3787a a foaf:Organization ;
+    foaf:name "Routledge" .
+
+_:Neec9be5ad56c4da5845d682ad4664460 a foaf:Person ;
+    foaf:givenName "M.A." ;
+    foaf:surname "Chandler" .
+
+_:Nf0834416ccf142b6a4ec86eaa60f6629 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Duster" .
+
+_:Nf6996682d4664ac4914a642f0336c8f3 a foaf:Person ;
+    foaf:givenName "W.E." ;
+    foaf:surname "Bijker" .
+
+_:Nfa7db57f8104401f89c17e16194e7517 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Hathcock" .
+

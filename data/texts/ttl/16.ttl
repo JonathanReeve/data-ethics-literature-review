@@ -1,0 +1,97 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_12> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Ley de Propiedad Intelectual</p>" ] .
+
+<3HNMHAPZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Association for Computing Machinery: Privacy, security, and the information processing" ] .
+
+<AZVZZB7P> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N5fba4b3d5a1f44d993096190c961a158 ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Biblioteca" ] ;
+            dcterms:title "Manual de Ética Profesional. Textos Docencia Universitaria UDP" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5fba4b3d5a1f44d993096190c961a158 ] ] .
+
+<CFYHSLQS> a z:UserItem ;
+    res:resource <http://www.ieee.org/about/corporate/governance/p7-8.html> .
+
+<CJ3ZDIUT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N73551ec9ebbb4e13a5e9b664652d3e23 ;
+            dcterms:date "1976" ;
+            dcterms:title "Biblioteca Central FCFM Catálogo 005.8, Ac64 SIGSAC" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N73551ec9ebbb4e13a5e9b664652d3e23 ] ] .
+
+<DA657TLC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "1992" ;
+            dcterms:title "Central FCFM Catálogo 346.048, W64" ] .
+
+<FMJQ4ZC8> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nb0c899e52cb24ec584b6e685a269eeec,
+                _:Ne1fc8f2067ae4a35ad86c0e847506d26 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Colección “Acceso al Saber”" ] ;
+            dcterms:title "Ética e Ingeniería" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb0c899e52cb24ec584b6e685a269eeec ;
+                    rdf:_2 _:Ne1fc8f2067ae4a35ad86c0e847506d26 ] ] .
+
+<K3JMI2K6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2010" ;
+            dcterms:title "Biblioteca Central FCFM Catálogo 174.962, B436" ] .
+
+<KSK2QLQB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2000" ;
+            dcterms:title "Central FCFM Catálogo 174, F478" ] .
+
+<NJTVFF7D> a z:UserItem ;
+    res:resource <https://www.acm.org/about/code-of-ethics> .
+
+<UATBUGFK> a z:UserItem ;
+    res:resource <http://www.leychile.cl/Navegar?idNorma=28933> .
+
+<WJGWDK7W> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Biblioteca" ] ;
+            dcterms:title "Jeroen van Wijk: Intellectual property protection of advanced technology" ] .
+
+<http://www.ieee.org/about/corporate/governance/p7-8.html> a bibo:Document ;
+    bibo:uri "http://www.ieee.org/about/corporate/governance/p7-8.html" .
+
+<http://www.leychile.cl/Navegar?idNorma=28933> a bibo:Document ;
+    bibo:uri "http://www.leychile.cl/Navegar?idNorma=28933" .
+
+<https://www.acm.org/about/code-of-ethics> a bibo:Document ;
+    bibo:uri "https://www.acm.org/about/code-of-ethics" .
+
+_:N5fba4b3d5a1f44d993096190c961a158 a foaf:Person ;
+    foaf:givenName "Emilio" ;
+    foaf:surname "Filippi" .
+
+_:N73551ec9ebbb4e13a5e9b664652d3e23 a foaf:Organization ;
+    foaf:name "industry" .
+
+_:Nb0c899e52cb24ec584b6e685a269eeec a foaf:Person ;
+    foaf:givenName "Juan Bautista" ;
+    foaf:surname "Bengoetxea" .
+
+_:Ne1fc8f2067ae4a35ad86c0e847506d26 a foaf:Person ;
+    foaf:givenName "Carl" ;
+    foaf:surname "Mitcham" .
+

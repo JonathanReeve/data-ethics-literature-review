@@ -1,0 +1,918 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<3934WUN2> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N234042b0a0c74266a0b8700bf2fafd3b,
+                _:N636fefd380f8467c87429927214a0bc7,
+                _:Nca40da627d5141e2b18404f2cb9bffc0 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Proceedings of the National Academy of Sciences" ] ;
+                    bibo:issue "24" ;
+                    bibo:volume "111" ] ;
+            dcterms:title "Experimental evidence of massive-scale emotional contagion through social networks" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N636fefd380f8467c87429927214a0bc7 ;
+                    rdf:_2 _:N234042b0a0c74266a0b8700bf2fafd3b ;
+                    rdf:_3 _:Nca40da627d5141e2b18404f2cb9bffc0 ] ;
+            bibo:pages "8788–8790" ] .
+
+<3EFI6N5B> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N685407bf49604d94a4d09e6bea73a36e,
+                _:Nad6e6a5e1eac4a9c8924ad977ef5e36b,
+                _:Nfaac1bc4a80a4d58a4374217a8405cab ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Continuum" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "30" ] ;
+            dcterms:title "Regulation and social practice online" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfaac1bc4a80a4d58a4374217a8405cab ;
+                    rdf:_2 _:N685407bf49604d94a4d09e6bea73a36e ;
+                    rdf:_3 _:Nad6e6a5e1eac4a9c8924ad977ef5e36b ] ;
+            bibo:pages "146–157" ] .
+
+<3UPJULZX> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ne50f9e736e634093b638eda58d371fb4 ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Pelican" ] ;
+            dcterms:title "The art of statistics: Learning from data" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne50f9e736e634093b638eda58d371fb4 ] ] .
+
+<3WBKWY8Q> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N03c8c15a50cb42ca9db535d70bc200fe,
+                _:N23b33b18972042c3a506357c442fa71f,
+                _:N689ca61e07fc4387b5ece70ba8866bbc,
+                _:N703d8da4468747ed901428ee10bce569,
+                _:N7879bab2d516490caa665d6b0c770d5c,
+                _:N905f1d8d39154d599dc58e1264915b75,
+                _:Na98cd857400045628dbc3c3140503f8a ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Nature" ] ;
+                    bibo:issue "7415" ;
+                    bibo:volume "489" ] ;
+            dcterms:title "A 61-million-person experiment in social influence and political mobilization" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na98cd857400045628dbc3c3140503f8a ;
+                    rdf:_2 _:N905f1d8d39154d599dc58e1264915b75 ;
+                    rdf:_3 _:N03c8c15a50cb42ca9db535d70bc200fe ;
+                    rdf:_4 _:N703d8da4468747ed901428ee10bce569 ;
+                    rdf:_5 _:N23b33b18972042c3a506357c442fa71f ;
+                    rdf:_6 _:N7879bab2d516490caa665d6b0c770d5c ;
+                    rdf:_7 _:N689ca61e07fc4387b5ece70ba8866bbc ] ;
+            bibo:pages "295–298" ] .
+
+<4XCEH87R> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "OR Books" ] ;
+            dcterms:title "Lean out: The struggle for gender equality in tech and start-up culture" ;
+            bibo:editor _:Nd6d9d9f9dd1a446690b56ba104fc28e9 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd6d9d9f9dd1a446690b56ba104fc28e9 ] ] .
+
+<7HFEV3JC> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N0ede3128a80b415682b2d6cce40a9617 ;
+            dcterms:date "2018-10-10" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Reuters" ] ;
+            dcterms:title "Amazon scraps secret AI recruiting tool that showed bias against women" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0ede3128a80b415682b2d6cce40a9617 ] ] .
+
+<7HN9Y5UQ> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Nda8683af80d1445391c0118d1cb7da74 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2016" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "New Riders" ] ;
+                    dcterms:title "The truthful art: Data, charts, and maps for communication" ] ;
+            dcterms:title "What we talk about when we talk about visualization" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nda8683af80d1445391c0118d1cb7da74 ] ] .
+
+<8TKPKS6Y> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ncd12cedada9e4c58b332d7f59770b4b6 ;
+            dcterms:date "2006" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "The materiality of digital collections: Theoretical and historical perspectives" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncd12cedada9e4c58b332d7f59770b4b6 ] ] .
+
+<8ZKYJEJH> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N32ab492379664d9baec6321fdf28159e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "European Journal of Cultural Studies" ] ;
+                    bibo:issue "4–5" ;
+                    bibo:volume "18" ] ;
+            dcterms:title "Algorithmic culture" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N32ab492379664d9baec6321fdf28159e ] ;
+            bibo:pages "395–412" ] .
+
+<B74M55QX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N64141a88d4614efda9ba473904fae6ba ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Philosophy & Technology" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "29" ] ;
+            dcterms:title "What an algorithm is" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N64141a88d4614efda9ba473904fae6ba ] ;
+            bibo:pages "35–59" ] .
+
+<BCHVDSLX> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4dd3afa1f4c4434c9a0eec2cbbacc20a ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Penguin UK" ] ;
+            dcterms:title "The master algorithm: How the quest for the ultimate learning machine will remake our world" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4dd3afa1f4c4434c9a0eec2cbbacc20a ] ] .
+
+<C3LLVA6R> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N35e9de12d27c4e978ff1b62286b0dca0 ;
+            dcterms:date "2006" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Basic Books" ] ;
+            dcterms:title "Code and other laws of cyberspace" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N35e9de12d27c4e978ff1b62286b0dca0 ] ] .
+
+<CKJZT3DI> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nf3eccc08ad224d16bd5ca69c2735b8dc ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "E-Flux" ] ;
+                    bibo:volume "53" ] ;
+            dcterms:title "The Black Stack" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf3eccc08ad224d16bd5ca69c2735b8dc ] ] .
+
+<CKK66C9X> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N373d6e87d8be4c86aa7e5ccac67f4d73,
+                _:N7afdc0708ec740ebb826bcd07c008ed5,
+                _:N9e1bfd7be0ec4a278f2fe304ff3f7012,
+                _:Ncb5adbf44a8b4eab9286a0f0db355099,
+                _:Nec9b3733c5384c03b60a0ef74136f228 ;
+            dcterms:date "2018" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "University of Oxford" ] ;
+            dcterms:title "The IRA, social media and political polarization in the United States, 2012-2018" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9e1bfd7be0ec4a278f2fe304ff3f7012 ;
+                    rdf:_2 _:Ncb5adbf44a8b4eab9286a0f0db355099 ;
+                    rdf:_3 _:N7afdc0708ec740ebb826bcd07c008ed5 ;
+                    rdf:_4 _:Nec9b3733c5384c03b60a0ef74136f228 ;
+                    rdf:_5 _:N373d6e87d8be4c86aa7e5ccac67f4d73 ] ] .
+
+<F7CEWSUJ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N051fa7d3037348fb956c5d9314558e6a,
+                _:N4d2d96d470234403a3f9aafc140df778,
+                _:Nb7d5102275d9431cb292639df6df0990,
+                _:Nd7f591cef40a4d68bd7674296463ae3d,
+                _:Nf69d80c1723b425e9b55c74098d1a19f ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Big Data & Society" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "3" ] ;
+            dcterms:title "The ethics of algorithms: Mapping the debate" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd7f591cef40a4d68bd7674296463ae3d ;
+                    rdf:_2 _:N051fa7d3037348fb956c5d9314558e6a ;
+                    rdf:_3 _:Nf69d80c1723b425e9b55c74098d1a19f ;
+                    rdf:_4 _:N4d2d96d470234403a3f9aafc140df778 ;
+                    rdf:_5 _:Nb7d5102275d9431cb292639df6df0990 ] ;
+            bibo:pages "1–2" ] .
+
+<FM2GPWMS> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nf06946a367af4d57b0e568b69f031eb5 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018-03-07" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Medium" ] ] ;
+            dcterms:title "How does the Internet work?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf06946a367af4d57b0e568b69f031eb5 ] ] .
+
+<GBU7P3WS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N85726c3e19f34ebe8b0892e276d71504 ;
+            dcterms:date "1994" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "Metaphysics of virtual reality" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N85726c3e19f34ebe8b0892e276d71504 ] ] .
+
+<I85SCCUW> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N69d02b6130a4436ab023051ff89b32b8 ;
+            dcterms:date "1999" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Chicago University Press" ] ;
+            dcterms:title "How we became posthuman" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N69d02b6130a4436ab023051ff89b32b8 ] ] .
+
+<IM9ZZYRV> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N90d0c02aa60b496793c1c7d44a2f14b5 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2020-01-24" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The New York Times" ] ] ;
+            dcterms:title "You are now remotely controlled" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N90d0c02aa60b496793c1c7d44a2f14b5 ] ] .
+
+<IP6H93FE> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N81975dcc7bf64fd189a18a8c69faac6e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal for Literary Theory and Media. EV" ] ;
+                    bibo:volume "1" ] ;
+            dcterms:title "Kittler is a liar! Metaphora" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N81975dcc7bf64fd189a18a8c69faac6e ] ] .
+
+<J9H4GIBF> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N44da6145b0064121bfcfc2265b2260d4 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2003" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Loyola University Chicago Law Journal" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "35" ] ;
+            dcterms:title "Law regulating code regulating law" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N44da6145b0064121bfcfc2265b2260d4 ] ;
+            bibo:pages "1–14" ] .
+
+<L5YKUNLG> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N4ced250ec14340b18ac83bf959fba8d9 ;
+            dcterms:date "2011" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Palgrave Macmillan" ] ;
+            dcterms:title "The philosophy of software: Code and mediation in the digital age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4ced250ec14340b18ac83bf959fba8d9 ] ] .
+
+<L8RJIUQA> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N6871c547b8314e1aacb527628c183060 ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Pearson" ] ;
+            dcterms:title "Starting out with Python" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6871c547b8314e1aacb527628c183060 ] ] .
+
+<M4IPTNI5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc902650c7517450abe03fe8e2a2e5160 ;
+            dcterms:date "2006" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Springer" ] ;
+            dcterms:title "Leonardo’s lost robots" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc902650c7517450abe03fe8e2a2e5160 ] ] .
+
+<M5HPNGBG> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N054bbeb768af4fa3af2012f58bbf52c1,
+                _:Necee5d2441f846c8bfb104e2b75e47b6 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "New Media & Society" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "18" ] ;
+            dcterms:title "Recommended for you: The Netflix prize and the production of algorithmic culture" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Necee5d2441f846c8bfb104e2b75e47b6 ;
+                    rdf:_2 _:N054bbeb768af4fa3af2012f58bbf52c1 ] ;
+            bibo:pages "117–137" ] .
+
+<MASE7ZWB> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N32111c769a454236bbc0db75e89a9705 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1999" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Technology and Culture" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "40" ] ;
+            dcterms:title "When computers were women" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N32111c769a454236bbc0db75e89a9705 ] ;
+            bibo:pages "455–483" ] .
+
+<NKZYZQNY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N05f4349cb9e74b9790e02435f48e3010,
+                _:Ne8f30c616f12402b845c87e656f312ae ;
+            dcterms:date "2018" ;
+            dcterms:title "Anatomy of an AI System" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne8f30c616f12402b845c87e656f312ae ;
+                    rdf:_2 _:N05f4349cb9e74b9790e02435f48e3010 ] ] .
+
+<PHYPC9TM> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N2864890802c24049bacc18f04dcb2e32,
+                _:N2c44b2f3a2e948a8aad1d825db5da27a,
+                _:N377e3c98a2bf429aaac6469e8f2c7b0b,
+                _:N399e963cb13f49a49ed3b114b1e4dcfa,
+                _:N466f092df11f473288ea73b5ebbe17e8,
+                _:N53dbc21d9ffc493ab70b7cf2d09b5c90,
+                _:N5eb96c9be1194ad59e6b793494d99da6,
+                _:N647e54aa1c764c3bbf85bf23a6553997,
+                _:N6a9d4c9f455d4739844fc0718834cd1e,
+                _:N6e158b9007694ccdbd7c6fc27ae519da,
+                _:Nca9064b22b9443b3a5c95e7ac1e2c4b5,
+                _:Nd219bb5401e244bbb606db5e442aad8a,
+                _:Nd6e958f1cdbf4664b65cd6029b592701,
+                _:Nd97715a334f34a3683c6ce1907edda40,
+                _:Nf2d9ed0ccdca4922b88a962b812c9235,
+                _:Nfcf56a22ffc64b35831b4418c69f33a1 ;
+            dcterms:date "2019" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Self-published" ] ;
+            dcterms:title "Teaching and learning with Jupyter" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5eb96c9be1194ad59e6b793494d99da6 ;
+                    rdf:_10 _:Nf2d9ed0ccdca4922b88a962b812c9235 ;
+                    rdf:_11 _:N2864890802c24049bacc18f04dcb2e32 ;
+                    rdf:_12 _:N377e3c98a2bf429aaac6469e8f2c7b0b ;
+                    rdf:_13 _:N466f092df11f473288ea73b5ebbe17e8 ;
+                    rdf:_14 _:N647e54aa1c764c3bbf85bf23a6553997 ;
+                    rdf:_15 _:Nd6e958f1cdbf4664b65cd6029b592701 ;
+                    rdf:_16 _:N2c44b2f3a2e948a8aad1d825db5da27a ;
+                    rdf:_2 _:N6a9d4c9f455d4739844fc0718834cd1e ;
+                    rdf:_3 _:Nca9064b22b9443b3a5c95e7ac1e2c4b5 ;
+                    rdf:_4 _:Nd97715a334f34a3683c6ce1907edda40 ;
+                    rdf:_5 _:Nfcf56a22ffc64b35831b4418c69f33a1 ;
+                    rdf:_6 _:N53dbc21d9ffc493ab70b7cf2d09b5c90 ;
+                    rdf:_7 _:N6e158b9007694ccdbd7c6fc27ae519da ;
+                    rdf:_8 _:N399e963cb13f49a49ed3b114b1e4dcfa ;
+                    rdf:_9 _:Nd219bb5401e244bbb606db5e442aad8a ] ] .
+
+<PNXRGCTB> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ne9cb9ca2d1a04463a51dba3978bbf543 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015-06-11" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Bloomberg Business Week" ] ] ;
+            dcterms:title "What is code?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne9cb9ca2d1a04463a51dba3978bbf543 ] ] .
+
+<PV527EHS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nef55ccf4213542fc880d2ed3ff5ea76a ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Springer" ] ;
+            dcterms:title "Recommender systems: The textbook" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nef55ccf4213542fc880d2ed3ff5ea76a ] ] .
+
+<QXV595WM> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ne1f04492204c4a52b403ad6a7e1023c3 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Westminster Papers in Communication and Culture" ] ;
+                    bibo:volume "10" ] ;
+            dcterms:title "Digital materialisms: Frameworks for digital media studies" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne1f04492204c4a52b403ad6a7e1023c3 ] ;
+            bibo:pages "4–17" ] .
+
+<RA4XN8DY> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N70b857834fdb40eda6c92f183980ea60 ;
+            dcterms:date "1995" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Viking" ] ;
+            dcterms:title "The road ahead" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N70b857834fdb40eda6c92f183980ea60 ] ] .
+
+<RNYA4AEI> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N02533a77440b4d26957b212f9757b123,
+                _:N093060281f0d40acb8fd1cdab4fc4b1b,
+                _:N20b5e47b048e42c49526ec74ccb1df8f,
+                _:N298714e8ac6646bf9a4fd8aa8470fce1,
+                _:N601dcb4d13a545bfbb398d6657c61eae,
+                _:N640ea837cdde4931bcfd30e3dbb4cd5b,
+                _:N7e77cdb844f24c4a8d457f652615a4fe,
+                _:Nb7a3d34911674918a9767f7e262e258f,
+                _:Nbf3af9dd45a046f6bc8198b0ff49c025,
+                _:Nd49b31936cb045b793a14072f3827c4f ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2012" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "MIT Press" ] ;
+                    dcterms:title "10 PRINT CHR$(205.5+RND(1));: GOTO 10" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb7a3d34911674918a9767f7e262e258f ;
+                    rdf:_10 _:N02533a77440b4d26957b212f9757b123 ;
+                    rdf:_2 _:N298714e8ac6646bf9a4fd8aa8470fce1 ;
+                    rdf:_3 _:N601dcb4d13a545bfbb398d6657c61eae ;
+                    rdf:_4 _:Nbf3af9dd45a046f6bc8198b0ff49c025 ;
+                    rdf:_5 _:Nd49b31936cb045b793a14072f3827c4f ;
+                    rdf:_6 _:N7e77cdb844f24c4a8d457f652615a4fe ;
+                    rdf:_7 _:N640ea837cdde4931bcfd30e3dbb4cd5b ;
+                    rdf:_8 _:N20b5e47b048e42c49526ec74ccb1df8f ;
+                    rdf:_9 _:N093060281f0d40acb8fd1cdab4fc4b1b ] ] .
+
+<TE724TS6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N03a7ec91f4bd4d90b429379194df61ff ;
+            dcterms:date "1996" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "The MIT Press" ] ;
+            dcterms:title "The closed world: Computers and the politics of discourse in Cold War America" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N03a7ec91f4bd4d90b429379194df61ff ] ] .
+
+<VZP4YJ6X> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:Nb540e4b70eb74e9a846b49328eb04031 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "1988" ;
+                    dcterms:title "Symposium Proceedings on Communications Architectures and Protocols" ] ;
+            dcterms:title "The design philosophy of the DARPA Internet protocols" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb540e4b70eb74e9a846b49328eb04031 ] ;
+            bibo:pages "106–114" ] .
+
+<WSS8RHPX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N95b0fbbbd4c9403ba52f3249e32a4b6e,
+                _:Nf7553d9b5a474ecc97685d72100e1156 ;
+            dcterms:date "1996" ;
+            dcterms:title "A Declaration of the Independence of Cyberspace" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf7553d9b5a474ecc97685d72100e1156 ;
+                    rdf:_2 _:N95b0fbbbd4c9403ba52f3249e32a4b6e ] ] .
+
+<WV3GUNVI> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Naf80484bb3c7486385b74bc528bac6c9 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "1997" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "G+B Arts" ] ;
+                    dcterms:title "Literature, media, information systems: Essays" ;
+                    bibo:editor _:N4acbc85cd4cb4e979fa2cab464ed0907 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:N4acbc85cd4cb4e979fa2cab464ed0907 ] ] ;
+            dcterms:title "There is no software" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Naf80484bb3c7486385b74bc528bac6c9 ] ;
+            bibo:pages "147–155" ] .
+
+<XZTCYKJN> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Ne789326f61c446f79bfa0cae4304c4e9 ;
+            dcterms:date "2004" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "The digital sublime: Myth, power, and cyberspace" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne789326f61c446f79bfa0cae4304c4e9 ] ] .
+
+<YDJGHYXF> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nce54e2c55aa24bfca8bd5bb94def4903 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "European Journal of Cultural Studies" ] ;
+                    bibo:issue "4–5" ;
+                    bibo:volume "18" ] ;
+            dcterms:title "Curation by code: Infomediaries and the data mining of taste" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nce54e2c55aa24bfca8bd5bb94def4903 ] ;
+            bibo:pages "446–463" ] .
+
+<YJ8YSBSR> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Ndc1ca96bbb864e2a9fa6fac102669b9a ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2013" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Anthem" ] ;
+                    dcterms:title "Memory machines: The evolution of hypertext" ] ;
+            dcterms:title "The magical place of literary memory: Xanadu" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndc1ca96bbb864e2a9fa6fac102669b9a ] ;
+            bibo:pages "65–89" ] .
+
+<ZRV3NNY2> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7faf1f1c72b24bff89a699a01bc1a794 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2005" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Critical Inquiry" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "31" ] ;
+            dcterms:title "The Moment of Wired" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7faf1f1c72b24bff89a699a01bc1a794 ] ;
+            bibo:pages "755–779" ] .
+
+_:N02533a77440b4d26957b212f9757b123 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Vawter" .
+
+_:N03a7ec91f4bd4d90b429379194df61ff a foaf:Person ;
+    foaf:givenName "P.N." ;
+    foaf:surname "Edwards" .
+
+_:N03c8c15a50cb42ca9db535d70bc200fe a foaf:Person ;
+    foaf:givenName "J.J." ;
+    foaf:surname "Jones" .
+
+_:N051fa7d3037348fb956c5d9314558e6a a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Allo" .
+
+_:N054bbeb768af4fa3af2012f58bbf52c1 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Striphas" .
+
+_:N05f4349cb9e74b9790e02435f48e3010 a foaf:Person ;
+    foaf:givenName "V." ;
+    foaf:surname "Joler" .
+
+_:N093060281f0d40acb8fd1cdab4fc4b1b a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Sample" .
+
+_:N0ede3128a80b415682b2d6cce40a9617 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Dastin" .
+
+_:N20b5e47b048e42c49526ec74ccb1df8f a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Reas" .
+
+_:N234042b0a0c74266a0b8700bf2fafd3b a foaf:Person ;
+    foaf:givenName "J.E." ;
+    foaf:surname "Guillory" .
+
+_:N23b33b18972042c3a506357c442fa71f a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Marlow" .
+
+_:N2864890802c24049bacc18f04dcb2e32 a foaf:Person ;
+    foaf:givenName "Kyle E." ;
+    foaf:surname "Niemeyer" .
+
+_:N298714e8ac6646bf9a4fd8aa8470fce1 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Baudoin" .
+
+_:N2c44b2f3a2e948a8aad1d825db5da27a a foaf:Person ;
+    foaf:givenName "Michael" ;
+    foaf:surname "Zingale" .
+
+_:N32111c769a454236bbc0db75e89a9705 a foaf:Person ;
+    foaf:givenName "J.S." ;
+    foaf:surname "Light" .
+
+_:N32ab492379664d9baec6321fdf28159e a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Striphas" .
+
+_:N35e9de12d27c4e978ff1b62286b0dca0 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Lessig" .
+
+_:N373d6e87d8be4c86aa7e5ccac67f4d73 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "François" .
+
+_:N377e3c98a2bf429aaac6469e8f2c7b0b a foaf:Person ;
+    foaf:givenName "Ryan R." ;
+    foaf:surname "Watkins" .
+
+_:N399e963cb13f49a49ed3b114b1e4dcfa a foaf:Person ;
+    foaf:givenName "L.A." ;
+    foaf:surname "Barba" .
+
+_:N44da6145b0064121bfcfc2265b2260d4 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Lessig" .
+
+_:N466f092df11f473288ea73b5ebbe17e8 a foaf:Person ;
+    foaf:givenName "Richard H." ;
+    foaf:surname "West" .
+
+_:N4acbc85cd4cb4e979fa2cab464ed0907 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Johnston" .
+
+_:N4ced250ec14340b18ac83bf959fba8d9 a foaf:Person ;
+    foaf:givenName "D.M." ;
+    foaf:surname "Berry" .
+
+_:N4d2d96d470234403a3f9aafc140df778 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Wachter" .
+
+_:N4dd3afa1f4c4434c9a0eec2cbbacc20a a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Domingos" .
+
+_:N53dbc21d9ffc493ab70b7cf2d09b5c90 a foaf:Person ;
+    foaf:givenName "Timothy" ;
+    foaf:surname "George" .
+
+_:N5eb96c9be1194ad59e6b793494d99da6 a foaf:Person ;
+    foaf:givenName "Kyle T." ;
+    foaf:surname "Mandli" .
+
+_:N601dcb4d13a545bfbb398d6657c61eae a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Bell" .
+
+_:N636fefd380f8467c87429927214a0bc7 a foaf:Person ;
+    foaf:givenName "A.D.I." ;
+    foaf:surname "Kramer" .
+
+_:N640ea837cdde4931bcfd30e3dbb4cd5b a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Mateas" .
+
+_:N64141a88d4614efda9ba473904fae6ba a foaf:Person ;
+    foaf:givenName "R.K." ;
+    foaf:surname "Hill" .
+
+_:N647e54aa1c764c3bbf85bf23a6553997 a foaf:Person ;
+    foaf:givenName "Elizabeth" ;
+    foaf:surname "Wickes" .
+
+_:N685407bf49604d94a4d09e6bea73a36e a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Meese" .
+
+_:N6871c547b8314e1aacb527628c183060 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Gaddis" .
+
+_:N689ca61e07fc4387b5ece70ba8866bbc a foaf:Person ;
+    foaf:givenName "J.H." ;
+    foaf:surname "Fowler" .
+
+_:N69d02b6130a4436ab023051ff89b32b8 a foaf:Person ;
+    foaf:givenName "N.K." ;
+    foaf:surname "Hayles" .
+
+_:N6a9d4c9f455d4739844fc0718834cd1e a foaf:Person ;
+    foaf:givenName "Lecia J." ;
+    foaf:surname "Barker" .
+
+_:N6e158b9007694ccdbd7c6fc27ae519da a foaf:Person ;
+    foaf:givenName "Lindsey J." ;
+    foaf:surname "Heagy" .
+
+_:N703d8da4468747ed901428ee10bce569 a foaf:Person ;
+    foaf:givenName "A.D.I." ;
+    foaf:surname "Kramer" .
+
+_:N70b857834fdb40eda6c92f183980ea60 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Gates" .
+
+_:N7879bab2d516490caa665d6b0c770d5c a foaf:Person ;
+    foaf:givenName "J.E." ;
+    foaf:surname "Settle" .
+
+_:N7afdc0708ec740ebb826bcd07c008ed5 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Liotsiou" .
+
+_:N7e77cdb844f24c4a8d457f652615a4fe a foaf:Person ;
+    foaf:givenName "M.C." ;
+    foaf:surname "Marino" .
+
+_:N7faf1f1c72b24bff89a699a01bc1a794 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Streeter" .
+
+_:N81975dcc7bf64fd189a18a8c69faac6e a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Feigelfeld" .
+
+_:N85726c3e19f34ebe8b0892e276d71504 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Heim" .
+
+_:N905f1d8d39154d599dc58e1264915b75 a foaf:Person ;
+    foaf:givenName "C.J." ;
+    foaf:surname "Fariss" .
+
+_:N90d0c02aa60b496793c1c7d44a2f14b5 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Zuboff" .
+
+_:N95b0fbbbd4c9403ba52f3249e32a4b6e a foaf:Organization ;
+    foaf:name "John" .
+
+_:N9e1bfd7be0ec4a278f2fe304ff3f7012 a foaf:Person ;
+    foaf:givenName "P.N." ;
+    foaf:surname "Howard" .
+
+_:Na98cd857400045628dbc3c3140503f8a a foaf:Person ;
+    foaf:givenName "R.M." ;
+    foaf:surname "Bond" .
+
+_:Nad6e6a5e1eac4a9c8924ad977ef5e36b a foaf:Person ;
+    foaf:givenName "E.van der" ;
+    foaf:surname "Nagel" .
+
+_:Naf80484bb3c7486385b74bc528bac6c9 a foaf:Person ;
+    foaf:givenName "F.A." ;
+    foaf:surname "Kittler" .
+
+_:Nb540e4b70eb74e9a846b49328eb04031 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Clark" .
+
+_:Nb7a3d34911674918a9767f7e262e258f a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Douglass" .
+
+_:Nb7d5102275d9431cb292639df6df0990 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Floridi" .
+
+_:Nbf3af9dd45a046f6bc8198b0ff49c025 a foaf:Person ;
+    foaf:givenName "I." ;
+    foaf:surname "Bogost" .
+
+_:Nc902650c7517450abe03fe8e2a2e5160 a foaf:Person ;
+    foaf:givenName "M.E." ;
+    foaf:surname "Rosheim" .
+
+_:Nca40da627d5141e2b18404f2cb9bffc0 a foaf:Person ;
+    foaf:givenName "J.T." ;
+    foaf:surname "Hancock" .
+
+_:Nca9064b22b9443b3a5c95e7ac1e2c4b5 a foaf:Person ;
+    foaf:givenName "Douglas S." ;
+    foaf:surname "Blank" .
+
+_:Ncb5adbf44a8b4eab9286a0f0db355099 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Ganesh" .
+
+_:Ncd12cedada9e4c58b332d7f59770b4b6 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Manoff" .
+
+_:Nce54e2c55aa24bfca8bd5bb94def4903 a foaf:Person ;
+    foaf:givenName "J.W." ;
+    foaf:surname "Morris" .
+
+_:Nd219bb5401e244bbb606db5e442aad8a a foaf:Person ;
+    foaf:givenName "Jason K." ;
+    foaf:surname "Moore" .
+
+_:Nd49b31936cb045b793a14072f3827c4f a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Montfort" .
+
+_:Nd6d9d9f9dd1a446690b56ba104fc28e9 a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Shevinsky" .
+
+_:Nd6e958f1cdbf4664b65cd6029b592701 a foaf:Person ;
+    foaf:givenName "Carol" ;
+    foaf:surname "Willing" .
+
+_:Nd7f591cef40a4d68bd7674296463ae3d a foaf:Person ;
+    foaf:givenName "B.D." ;
+    foaf:surname "Mittelstadt" .
+
+_:Nd97715a334f34a3683c6ce1907edda40 a foaf:Person ;
+    foaf:givenName "Jed" ;
+    foaf:surname "Brown" .
+
+_:Nda8683af80d1445391c0118d1cb7da74 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Cairo" .
+
+_:Ndc1ca96bbb864e2a9fa6fac102669b9a a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Barnet" .
+
+_:Ne1f04492204c4a52b403ad6a7e1023c3 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Casemajor" .
+
+_:Ne50f9e736e634093b638eda58d371fb4 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Spiegelhalter" .
+
+_:Ne789326f61c446f79bfa0cae4304c4e9 a foaf:Person ;
+    foaf:givenName "V." ;
+    foaf:surname "Mosco" .
+
+_:Ne8f30c616f12402b845c87e656f312ae a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Crawford" .
+
+_:Ne9cb9ca2d1a04463a51dba3978bbf543 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Ford" .
+
+_:Nec9b3733c5384c03b60a0ef74136f228 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Kelly" .
+
+_:Necee5d2441f846c8bfb104e2b75e47b6 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Hallinan" .
+
+_:Nef55ccf4213542fc880d2ed3ff5ea76a a foaf:Person ;
+    foaf:givenName "C.C." ;
+    foaf:surname "Aggarwal" .
+
+_:Nf06946a367af4d57b0e568b69f031eb5 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Li" .
+
+_:Nf2d9ed0ccdca4922b88a962b812c9235 a foaf:Person ;
+    foaf:givenName "David" ;
+    foaf:surname "Lippert" .
+
+_:Nf3eccc08ad224d16bd5ca69c2735b8dc a foaf:Person ;
+    foaf:givenName "B.H." ;
+    foaf:surname "Bratton" .
+
+_:Nf69d80c1723b425e9b55c74098d1a19f a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Taddeo" .
+
+_:Nf7553d9b5a474ecc97685d72100e1156 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Perry" .
+
+_:Nfaac1bc4a80a4d58a4374217a8405cab a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Kennedy" .
+
+_:Nfcf56a22ffc64b35831b4418c69f33a1 a foaf:Person ;
+    foaf:givenName "Allen B." ;
+    foaf:surname "Downey" .
+

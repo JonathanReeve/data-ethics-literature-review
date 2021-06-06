@@ -1,0 +1,40 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<335FNZQN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6369755b38a2452789c38f5d73a8b8ad,
+                _:N867f367922bc4fa8a1f2771c1aa04cde,
+                _:Ndc6d17f602d94ba88d076b5315f063af ;
+            dcterms:title "Semantics derived automatically from language corpora contain human-like biases" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N867f367922bc4fa8a1f2771c1aa04cde ;
+                    rdf:_2 _:N6369755b38a2452789c38f5d73a8b8ad ;
+                    rdf:_3 _:Ndc6d17f602d94ba88d076b5315f063af ] ] .
+
+<4KCWRSUW> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Awakening, New York Times" ] ;
+            dcterms:title "The Great A.I" ] .
+
+<VLFPIVCU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "AI programs exhibit racial and gender biases, research reveals, The Guardian" ] .
+
+_:N6369755b38a2452789c38f5d73a8b8ad a foaf:Person ;
+    foaf:givenName "Joanna J." ;
+    foaf:surname "Bryson" .
+
+_:N867f367922bc4fa8a1f2771c1aa04cde a foaf:Person ;
+    foaf:givenName "Aylin" ;
+    foaf:surname "Caliskan" .
+
+_:Ndc6d17f602d94ba88d076b5315f063af a foaf:Person ;
+    foaf:givenName "Arvind" ;
+    foaf:surname "Narayanan" .
+

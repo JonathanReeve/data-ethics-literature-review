@@ -1,0 +1,798 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_10> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at</p>" ] .
+
+<#item_18> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at</p>" ] .
+
+<#item_21> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at</p>" ] .
+
+<#item_29> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at</p>" ] .
+
+<#item_31> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>The Conversation. Available at</p>" ] .
+
+<#item_37> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>AI at Google: Our principles. The Keyword. Available at</p>" ] .
+
+<#item_4> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at</p>" ] .
+
+<#item_40> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at</p>" ] .
+
+<#item_7> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Available at</p>" ] .
+
+<27PXJ3HX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7c67ea4c2e5e406e94219eddac36bb52,
+                _:Nb0578ad33b884f19bcf31a99e3f61c29 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Technology in Society" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "52" ] ;
+            dcterms:title "The strategic role of technology in a good society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7c67ea4c2e5e406e94219eddac36bb52 ;
+                    rdf:_2 _:Nb0578ad33b884f19bcf31a99e3f61c29 ] ;
+            bibo:pages "39–45" ] .
+
+<36Z2DFK3> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N1fd38e4799264a02ad27455355677401,
+                _:Nf8a0bd1f18194784bcb1b340d4b42b1d ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Tomales, CA" ;
+                    foaf:name "Foundations for Critical Thinking Press" ] ;
+            dcterms:title "The thinker’s guide to ethical reasoning" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf8a0bd1f18194784bcb1b340d4b42b1d ;
+                    rdf:_2 _:N1fd38e4799264a02ad27455355677401 ] ] .
+
+<4BIVKRQE> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N48df297b409a461e9cc43e33bfb3dec0,
+                _:N8e41cbcc76c749c29da4a3429e9894b0 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Business Ethics" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "119" ] ;
+            dcterms:title "The role of ethics in the commercialization of indigenous knowledge" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8e41cbcc76c749c29da4a3429e9894b0 ;
+                    rdf:_2 _:N48df297b409a461e9cc43e33bfb3dec0 ] ;
+            bibo:pages "275–286" ] .
+
+<4RVVVF9Z> a z:UserItem ;
+    res:resource <https://www.lrb.co.uk/v39/n16/john-lanchester/you-are-the-product> .
+
+<52YWK7X5> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N05e3091faa9c4024a447b20ef3541c70,
+                _:Na7db8064c08842e3ba9b6772f1316e69,
+                _:Nae7904ae133348c9a965a868088fbae6 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Library Quarterly" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "87" ] ;
+            dcterms:title "Determining whether commercial publishers overcharge libraries for scholarly journals in the fields of science, technology, and medicine, with a semilogarithmic econometric model" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N05e3091faa9c4024a447b20ef3541c70 ;
+                    rdf:_2 _:Nae7904ae133348c9a965a868088fbae6 ;
+                    rdf:_3 _:Na7db8064c08842e3ba9b6772f1316e69 ] ;
+            bibo:pages "150–172" ] .
+
+<5BLUKF9N> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N777fe8f182a64f9888109d0818db8f53,
+                _:Nfc31b43f8ebe4fe383f63c6ae5f95ed4 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "1890/2005" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Seattle" ;
+                            foaf:name "University of Washington Press" ] ;
+                    dcterms:title "Information ethics: Privacy, property, and power" ;
+                    bibo:editor _:Ndc427c0fe1a74b29a159e513b2af6298 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Ndc427c0fe1a74b29a159e513b2af6298 ] ] ;
+            dcterms:title "The right to privacy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N777fe8f182a64f9888109d0818db8f53 ;
+                    rdf:_2 _:Nfc31b43f8ebe4fe383f63c6ae5f95ed4 ] ;
+            bibo:pages "209–225" ] .
+
+<7ZSPHQBC> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ne009c1b7b80e49389cc01021a42574ca ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2008" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of the American Society for Information Science and Technology" ] ;
+                    bibo:issue "7" ;
+                    bibo:volume "59" ] ;
+            dcterms:title "Making the global information society good: A social justice perspective on the ethical dimensions of the global information society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne009c1b7b80e49389cc01021a42574ca ] ;
+            bibo:pages "1171–1183" ] .
+
+<84KU9LUU> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N08d6f86a4a6f4e7888cad3e2e30cc202 ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New York, NY" ;
+                    foaf:name "Random House" ] ;
+            dcterms:title "The circle" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N08d6f86a4a6f4e7888cad3e2e30cc202 ] ] .
+
+<8GL2X3IA> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N9814be1f00fa44f2bf3fc1d77926fde8,
+                _:Nb3f6a5e4b9fa4cacb2804553fd5224e8 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1996" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Information Ethics" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "5" ] ;
+            dcterms:title "Information technology and technologies of the self" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9814be1f00fa44f2bf3fc1d77926fde8 ;
+                    rdf:_2 _:Nb3f6a5e4b9fa4cacb2804553fd5224e8 ] ;
+            bibo:pages "19–28" ] .
+
+<8NZP8ZQ2> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4b62b222120c40f18566eaa4f9f44b17,
+                _:Ne2d6ce68ccf041b1836472d161e372c3 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2010" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Nordicom Information" ] ;
+                    bibo:issue "2–3" ;
+                    bibo:volume "32" ] ;
+            dcterms:title "The embodied self in a digital age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4b62b222120c40f18566eaa4f9f44b17 ;
+                    rdf:_2 _:Ne2d6ce68ccf041b1836472d161e372c3 ] ;
+            bibo:pages "105–118" ] .
+
+<8Y3QQWD6> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N42b16654380d465a97a8e9a5070e6ea1 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2007" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "International Journal of Technology and Human Interaction" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "3" ] ;
+            dcterms:title "Is information ethics culture-relative?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N42b16654380d465a97a8e9a5070e6ea1 ] ;
+            bibo:pages "12–24" ] .
+
+<AJFTAGTZ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nec339f45ca0443668e32567f5dc0434a ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Media, Culture & Society" ] ;
+                    bibo:issue "5" ;
+                    bibo:volume "39" ] ;
+            dcterms:title "Reconsidering the ‘Right to be Forgotten’ – memory rights and the right to memory in the new media era" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nec339f45ca0443668e32567f5dc0434a ] ;
+            bibo:pages "644–660" ] .
+
+<AJQAAMWM> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N3968ba961b2c41e3a24a59a291deaf00,
+                _:N43496d5afe1a4c9e81d5a064709263d6,
+                _:N6be6c00479b5416dae6f7bb1ebe0d60a,
+                _:Neaa9a5f5dceb497aa3c552bf7788e13c ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Science" ] ;
+                    bibo:issue "6380" ;
+                    bibo:volume "359" ] ;
+            dcterms:title "The spread of true and false news online" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3968ba961b2c41e3a24a59a291deaf00 ;
+                    rdf:_2 _:N43496d5afe1a4c9e81d5a064709263d6 ;
+                    rdf:_3 _:Neaa9a5f5dceb497aa3c552bf7788e13c ;
+                    rdf:_4 _:N6be6c00479b5416dae6f7bb1ebe0d60a ] ;
+            bibo:pages "1146–1151" ] .
+
+<EDLL58KA> a z:UserItem ;
+    res:resource <http://www5.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf> .
+
+<FVGWSFL3> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N911d43eb40cd487f989dbdaa986157f9,
+                _:Na60d6715c71e42cfbdebf0613116dcbd ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2013" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Oxford, UK" ;
+                            foaf:name "Oxford University Press" ] ;
+                    dcterms:title "The ethics of information" ] ;
+            dcterms:title "What is information ethics?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N911d43eb40cd487f989dbdaa986157f9 ;
+                    rdf:_2 _:Na60d6715c71e42cfbdebf0613116dcbd ] ;
+            bibo:pages "19–28" ] .
+
+<FVUZA2TE> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N99509c13afb046fda4924772452947fb ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2010" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ethics and Information Technology" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "12" ] ;
+            dcterms:title "PAPA knows best: Principles for the ethical sharing of information on social networking sites" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N99509c13afb046fda4924772452947fb ] ;
+            bibo:pages "187–193" ] .
+
+<GGHQA4U9> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nc295da46af744ef1ba806bd047a8dd05 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Big Data & Society" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "3" ] ;
+            dcterms:title "How the machine “thinks”: Understanding opacity in machine learning algorithms" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc295da46af744ef1ba806bd047a8dd05 ] ;
+            bibo:pages "1–12" ] .
+
+<GXD5GKHS> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Paul & Elder" ] ;
+            dcterms:title "The Thinker’s Guide to Ethical Reasoning" ] .
+
+<HPV7XZLC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2013" ;
+            dcterms:title "The Circle, by Dave Eggers" ] .
+
+<HSVN86Y6> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N3719369079fd421e9827224863f3cf2f ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Telematics and Informatics" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "32" ] ;
+            dcterms:title "Unesco and Infoethics: Seeking global ethical values in the information society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3719369079fd421e9827224863f3cf2f ] ;
+            bibo:pages "381–390" ] .
+
+<JSGYRATJ> a z:UserItem ;
+    res:resource <info:doi/10.1177/0961000618764258> .
+
+<JTEMN6HB> a z:UserItem ;
+    res:resource <http://doi.org/> .
+
+<KQ8W5XSN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "and Information Technology" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "12" ] ;
+            bibo:pages "313–325" ] .
+
+<KU7626HN> a z:UserItem ;
+    res:resource <http://www.un.org/en/> .
+
+<LNGABM73> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N5b97272e5c2046fba2895156aa869d11,
+                _:N70188fb366684d6b8b538665b0e22899 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2018" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Philosophy & Technology" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "31" ] ;
+            dcterms:title "Soft ethics and the governance of the digital" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N70188fb366684d6b8b538665b0e22899 ;
+                    rdf:_2 _:N5b97272e5c2046fba2895156aa869d11 ] ;
+            bibo:pages "1–8" ] .
+
+<MJH4LRU9> a z:UserItem ;
+    res:resource <https://blog.google/> .
+
+<MUU9RQMK> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "International Information & Library Review" ] ;
+                    bibo:volume "32" ] ;
+            bibo:pages "257–276" ] .
+
+<NSC92RA4> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N33b3961834e04ac889a5e0aedf24ce3a,
+                _:Nc2d6a605104a4e909f594ecd84f7bac5 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Harvard Business Review" ] ;
+                    bibo:issue "10" ;
+                    bibo:volume "90" ] ;
+            dcterms:title "What ever happened to accountability?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N33b3961834e04ac889a5e0aedf24ce3a ;
+                    rdf:_2 _:Nc2d6a605104a4e909f594ecd84f7bac5 ] ;
+            bibo:pages "93–100" ] .
+
+<PFVGS7YP> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N79ed8e9217724a7f968e43f16d578a4a ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Human Values" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "24" ] ;
+            dcterms:title "Universal broadband: Option, right or obligation?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N79ed8e9217724a7f968e43f16d578a4a ] ;
+            bibo:pages "11–24" ] .
+
+<PTPR5Q54> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Na76ce06a48124d3e8a23e7ea08dae1b7 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "1979" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Cambridge, UK" ;
+                            foaf:name "Cambridge University Press" ] ;
+                    dcterms:title "Mortal questions" ] ;
+            dcterms:title "The fragmentation of value" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na76ce06a48124d3e8a23e7ea08dae1b7 ] ;
+            bibo:pages "128–141" ] .
+
+<QDLL42Y9> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Nb755d820684e41928ecfa4e35cdf3d91 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2013" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Oxford, UK" ;
+                            foaf:name "Oxford University Press" ] ;
+                    dcterms:title "The ethics of information" ] ;
+            dcterms:title "Ethics after the information revolution" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb755d820684e41928ecfa4e35cdf3d91 ] ;
+            bibo:pages "1–18" ] .
+
+<QZ9YH7IM> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nfa9b1344583e460dbb3ce67714918028 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013-10-04" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Science" ] ;
+                    bibo:issue "6154" ;
+                    bibo:volume "342" ] ;
+            dcterms:title "Scholarly communication: Cultural contexts, evolving models" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfa9b1344583e460dbb3ce67714918028 ] ;
+            bibo:pages "80–82" ] .
+
+<S26QS2TI> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N5fe90c7de1a2456180609b92e66dacaa ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2013" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Oxford, UK" ;
+                            foaf:name "Oxford University Press" ] ;
+                    dcterms:title "The ethics of information" ] ;
+            dcterms:title "Global information ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5fe90c7de1a2456180609b92e66dacaa ] ;
+            bibo:pages "292–304" ] .
+
+<SWY5U49W> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<TQQIIWEK> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N95532253fa904aacb8cac06f966872c6 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2007" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ethics and Information Technology" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "9" ] ;
+            dcterms:title "Ethics and technology design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N95532253fa904aacb8cac06f966872c6 ] ;
+            bibo:pages "63– 72" ] .
+
+<UQN9MREI> a z:UserItem ;
+    res:resource <http://> .
+
+<VPJQL6SP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N194760847c47438bbe7381cfbf8436e8,
+                _:N4a467d5b934c4c6aa1f0a33cbf61123a ;
+            dcterms:date "2013" ;
+            dcterms:title "Translating values into design requirements" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4a467d5b934c4c6aa1f0a33cbf61123a ;
+                    rdf:_2 _:N194760847c47438bbe7381cfbf8436e8 ] ;
+            bibo:editor _:N07a49c251b084a7faca3abf3fb7de366,
+                _:Na9b97592c85a4d669f112532242d13b8 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Na9b97592c85a4d669f112532242d13b8 ;
+                    rdf:_2 _:N07a49c251b084a7faca3abf3fb7de366 ] ] .
+
+<WQQB3W6J> a z:UserItem ;
+    res:resource <http://www.philosophybasics.com/> .
+
+<XG7HUA6M> a z:UserItem ;
+    res:resource <https://theconversation.com/is-downloading-really-stealing-the-> .
+
+<XU7HBMLZ> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Dordrecht, Netherlands" ;
+                            foaf:name "Springer" ] ;
+                    dcterms:title "Philosophy and engineering: Reflections on practice, principles and process" ;
+                    bibo:editor _:Nb643e8b3809a4e3fb03816bd0dce7cf9,
+                        _:Nddf69fdd0aed44f6b28e12dd8568a018 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Nb643e8b3809a4e3fb03816bd0dce7cf9 ;
+                            rdf:_2 _:Nddf69fdd0aed44f6b28e12dd8568a018 ] ] ;
+            bibo:pages "253–266" ] .
+
+<XZK2PK5D> a z:UserItem ;
+    res:resource <http://www.itu.int/net/wsis/implementation/2014/> .
+
+<http://> a bibo:AcademicArticle ;
+    dcterms:creator _:Nd695b6cc5bd24373a650abc511608d97 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2010-01-26" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The New Republic" ] ] ;
+    dcterms:title "For the love of culture" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd695b6cc5bd24373a650abc511608d97 ] ;
+    bibo:uri "http://" .
+
+<http://doi.org/> a bibo:AcademicArticle ;
+    dcterms:creator _:N11eaa770b6be4d59923f9e40d9b98f82 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2014" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Big Data & Society" ] ;
+            bibo:issue "2" ;
+            bibo:volume "1" ] ;
+    dcterms:title "Big data ethics" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N11eaa770b6be4d59923f9e40d9b98f82 ] ;
+    bibo:doi "10.1177/2053951714559253" ;
+    bibo:pages "1–6" ;
+    bibo:uri "http://doi.org/" .
+
+<http://www.itu.int/net/wsis/implementation/2014/> a bibo:Document ;
+    dcterms:creator _:Nf5005565cb2e49a3806c31188beeac9b ;
+    dcterms:date "2014" ;
+    dcterms:publisher [ a foaf:Organization ;
+            foaf:name "International Telecommunication Union" ] ;
+    dcterms:title "WSIS+10 outcome documents" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf5005565cb2e49a3806c31188beeac9b ] ;
+    bibo:uri "http://www.itu.int/net/wsis/implementation/2014/" .
+
+<http://www.philosophybasics.com/> a bibo:Document ;
+    dcterms:creator _:Nc41dec9395f14880b7d331a3bd55982b ;
+    dcterms:date "2008" ;
+    dcterms:title "Ethics. The basics of philosophy" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc41dec9395f14880b7d331a3bd55982b ] ;
+    bibo:uri "http://www.philosophybasics.com/" .
+
+<http://www.un.org/en/> a bibo:Document ;
+    dcterms:creator _:N853fef22404c4d878f1d348e7420c7ef ;
+    dcterms:date "1948" ;
+    dcterms:title "Universal declaration of human rights" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N853fef22404c4d878f1d348e7420c7ef ] ;
+    bibo:uri "http://www.un.org/en/" .
+
+<http://www5.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf> a bibo:Document ;
+    bibo:uri "http://www5.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf" .
+
+<https://blog.google/> a bibo:Document ;
+    dcterms:creator _:Nfd8400411509412cb27ed4cd59511889 ;
+    dcterms:date "2018-06-07" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nfd8400411509412cb27ed4cd59511889 ] ;
+    bibo:uri "https://blog.google/" .
+
+<https://theconversation.com/is-downloading-really-stealing-the-> a bibo:Document ;
+    dcterms:creator _:Nb4ceb15494bb4268b2a898bb522363e4 ;
+    dcterms:date "2015-04-13" ;
+    dcterms:title "Is downloading really stealing? The ethics of digital piracy" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb4ceb15494bb4268b2a898bb522363e4 ] ;
+    bibo:uri "https://theconversation.com/is-downloading-really-stealing-the-" .
+
+<https://www.lrb.co.uk/v39/n16/john-lanchester/you-are-the-product> a bibo:AcademicArticle ;
+    dcterms:creator _:N0b4f05ec15f541fe8c8420400d6d0176 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2017-08-17" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "London Review of Books" ] ;
+            bibo:issue "16" ;
+            bibo:volume "39" ] ;
+    dcterms:title "You are the product" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0b4f05ec15f541fe8c8420400d6d0176 ] ;
+    bibo:uri "https://www.lrb.co.uk/v39/n16/john-lanchester/you-are-the-product" .
+
+<info:doi/10.1177/0961000618764258> a bibo:AcademicArticle ;
+    dcterms:creator _:N3ffd9ee924d9454486d7690fd7fad304 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2018" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of Librarianship and Information Science, OnlineFirst" ] ] ;
+    dcterms:title "Why librarians can’t fight fake news" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N3ffd9ee924d9454486d7690fd7fad304 ] ;
+    bibo:doi "10.1177/0961000618764258" .
+
+_:N05e3091faa9c4024a447b20ef3541c70 a foaf:Person ;
+    foaf:givenName "Liu" ;
+    foaf:surname "Skim" .
+
+_:N07a49c251b084a7faca3abf3fb7de366 a foaf:Organization ;
+    foaf:name "N." .
+
+_:N08d6f86a4a6f4e7888cad3e2e30cc202 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Eggers" .
+
+_:N0b4f05ec15f541fe8c8420400d6d0176 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Lanchester" .
+
+_:N11eaa770b6be4d59923f9e40d9b98f82 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Zwitter" .
+
+_:N194760847c47438bbe7381cfbf8436e8 a foaf:Organization ;
+    foaf:name "I." .
+
+_:N1fd38e4799264a02ad27455355677401 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Elder" .
+
+_:N33b3961834e04ac889a5e0aedf24ce3a a foaf:Person ;
+    foaf:givenName "T.E." ;
+    foaf:surname "Ricks" .
+
+_:N3719369079fd421e9827224863f3cf2f a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Pohle" .
+
+_:N3968ba961b2c41e3a24a59a291deaf00 a foaf:Person ;
+    foaf:givenName "Vosoughi" ;
+    foaf:surname "Skim" .
+
+_:N3ffd9ee924d9454486d7690fd7fad304 a foaf:Person ;
+    foaf:givenName "M.C." ;
+    foaf:surname "Sullivan" .
+
+_:N42b16654380d465a97a8e9a5070e6ea1 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Brey" .
+
+_:N43496d5afe1a4c9e81d5a064709263d6 a foaf:Person ;
+    foaf:givenName "Roy" ;
+    foaf:surname "S." .
+
+_:N48df297b409a461e9cc43e33bfb3dec0 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Poonamallee" .
+
+_:N4a467d5b934c4c6aa1f0a33cbf61123a a foaf:Person ;
+    foaf:givenName "van de Poel" ;
+    foaf:surname "Optional" .
+
+_:N4b62b222120c40f18566eaa4f9f44b17 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Ess" .
+
+_:N5b97272e5c2046fba2895156aa869d11 a foaf:Organization ;
+    foaf:name "R." .
+
+_:N5fe90c7de1a2456180609b92e66dacaa a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Floridi" .
+
+_:N6be6c00479b5416dae6f7bb1ebe0d60a a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Aral" .
+
+_:N70188fb366684d6b8b538665b0e22899 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Floridi" .
+
+_:N777fe8f182a64f9888109d0818db8f53 a foaf:Person ;
+    foaf:givenName "S.D." ;
+    foaf:surname "Warren" .
+
+_:N79ed8e9217724a7f968e43f16d578a4a a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Jayakar" .
+
+_:N7c67ea4c2e5e406e94219eddac36bb52 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Brey" .
+
+_:N853fef22404c4d878f1d348e7420c7ef a foaf:Person ;
+    foaf:givenName "United" ;
+    foaf:surname "Nations" .
+
+_:N8e41cbcc76c749c29da4a3429e9894b0 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Orozco" .
+
+_:N911d43eb40cd487f989dbdaa986157f9 a foaf:Person ;
+    foaf:givenName "Floridi" ;
+    foaf:surname "Skim" .
+
+_:N95532253fa904aacb8cac06f966872c6 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Albrechtslund" .
+
+_:N9814be1f00fa44f2bf3fc1d77926fde8 a foaf:Person ;
+    foaf:givenName "Capurro" ;
+    foaf:surname "Optional" .
+
+_:N99509c13afb046fda4924772452947fb a foaf:Person ;
+    foaf:givenName "J.L., Jr" ;
+    foaf:surname "Parrish" .
+
+_:Na60d6715c71e42cfbdebf0613116dcbd a foaf:Organization ;
+    foaf:name "L." .
+
+_:Na76ce06a48124d3e8a23e7ea08dae1b7 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Nagel" .
+
+_:Na7db8064c08842e3ba9b6772f1316e69 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Gee" .
+
+_:Na9b97592c85a4d669f112532242d13b8 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Michelfelder" .
+
+_:Nae7904ae133348c9a965a868088fbae6 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "G." .
+
+_:Nb0578ad33b884f19bcf31a99e3f61c29 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Fallis" .
+
+_:Nb3f6a5e4b9fa4cacb2804553fd5224e8 a foaf:Organization ;
+    foaf:name "R." .
+
+_:Nb4ceb15494bb4268b2a898bb522363e4 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Barry" .
+
+_:Nb643e8b3809a4e3fb03816bd0dce7cf9 a foaf:Organization ;
+    foaf:name "McCarthy" .
+
+_:Nb755d820684e41928ecfa4e35cdf3d91 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Floridi" .
+
+_:Nc295da46af744ef1ba806bd047a8dd05 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Burrell" .
+
+_:Nc2d6a605104a4e909f594ecd84f7bac5 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Zimmer" .
+
+_:Nc41dec9395f14880b7d331a3bd55982b a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Mastin" .
+
+_:Nd695b6cc5bd24373a650abc511608d97 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Lessig" .
+
+_:Ndc427c0fe1a74b29a159e513b2af6298 a foaf:Person ;
+    foaf:givenName "A.D." ;
+    foaf:surname "Moore" .
+
+_:Nddf69fdd0aed44f6b28e12dd8568a018 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Goldberg" .
+
+_:Ne009c1b7b80e49389cc01021a42574ca a foaf:Person ;
+    foaf:givenName "J.J." ;
+    foaf:surname "Britz" .
+
+_:Ne2d6ce68ccf041b1836472d161e372c3 a foaf:Organization ;
+    foaf:name "H." .
+
+_:Neaa9a5f5dceb497aa3c552bf7788e13c a foaf:Organization ;
+    foaf:name "D." .
+
+_:Nec339f45ca0443668e32567f5dc0434a a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Tirosh" .
+
+_:Nf5005565cb2e49a3806c31188beeac9b a foaf:Person ;
+    foaf:givenName "Unesco" ;
+    foaf:surname "Skim" .
+
+_:Nf8a0bd1f18194784bcb1b340d4b42b1d a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Paul" .
+
+_:Nfa9b1344583e460dbb3ce67714918028 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Harley" .
+
+_:Nfc31b43f8ebe4fe383f63c6ae5f95ed4 a foaf:Person ;
+    foaf:givenName "L.D." ;
+    foaf:surname "Brandeis" .
+
+_:Nfd8400411509412cb27ed4cd59511889 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Pichai" .
+

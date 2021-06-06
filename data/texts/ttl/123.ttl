@@ -1,0 +1,1791 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_102> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Web page, accessed 1/5/17</p>" ] .
+
+<#item_106> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>accessed 12/30/16</p>" ] .
+
+<#item_23> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>accessed 1/17/17</p>" ] .
+
+<#item_32> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>slides</p>" ] .
+
+<#item_37> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Talk presented at HotPETS 2016</p>" ] .
+
+<#item_39> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Video of presentation</p>" ] .
+
+<#item_41> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>talk on similar topic</p>" ] .
+
+<#item_43> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>accessed 12/29/16</p>" ] .
+
+<#item_46> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>accessed 12/29/16</p>" ] .
+
+<#item_53> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Web page, accessed 12/29/16</p>" ] .
+
+<#item_55> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Web page, accessed 12/29/16</p>" ] .
+
+<#item_57> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>ArXiv e-prints.</p>" ] .
+
+<#item_69> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Slides presented at Language Analysis Portal Launch event, University of Oslo, Sept 2016</p>" ] .
+
+<#item_72> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>accessed March 1, 2017.</p>" ] .
+
+<#item_84> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>ethique et traitement automatique des langues).</p>" ] .
+
+<#item_88> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Related blog post</p>" ] .
+
+<#item_91> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Accessed 12/30/16</p>" ] .
+
+<#item_98> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Now available on &quot;Files&quot; tab of the course canvas</p>" ] .
+
+<26IR94K6> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N16632c91ec954117a9fb30f72acb0964,
+                _:N7ef2365cf0954836b2db273471be325f ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Foundations and trends in human computer interaction" ] ;
+            dcterms:title "Value Sensitive Design: a twenty-year synthesis and retrospective" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7ef2365cf0954836b2db273471be325f ;
+                    rdf:_2 _:N16632c91ec954117a9fb30f72acb0964 ] ] .
+
+<2QND73KA> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N279edeaf40ef4f7db0ed2237e733a11d,
+                _:N3e708b854fa0471d858641c60728cfbd,
+                _:N862258294671441bbe006d2a5387dd58,
+                _:N9f671f3c3a1a4fdb862328c2de7c2345,
+                _:Na57c6573c34b4541b1c153f2eecd9571,
+                _:Ncc99639c3fc0481787e98301414efda4 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Traitement Automatique des Langues" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "57" ] ;
+            dcterms:title "Typologie des risques pour une analyse éthique de l'impact des technologies du TAL" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N862258294671441bbe006d2a5387dd58 ;
+                    rdf:_2 _:N3e708b854fa0471d858641c60728cfbd ;
+                    rdf:_3 _:N9f671f3c3a1a4fdb862328c2de7c2345 ;
+                    rdf:_4 _:N279edeaf40ef4f7db0ed2237e733a11d ;
+                    rdf:_5 _:Ncc99639c3fc0481787e98301414efda4 ;
+                    rdf:_6 _:Na57c6573c34b4541b1c153f2eecd9571 ] ;
+            bibo:pages "47–71" ] .
+
+<2UF6NRLU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N913cb6fc0f1c45dbbc355a48168ce258 ;
+            dcterms:date "2016-04-08" ;
+            dcterms:title "From Siri to sexbots: Female AI reinforces a toxic desire for passive, agreeable and easily dominated women" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N913cb6fc0f1c45dbbc355a48168ce258 ] ] .
+
+<33YTXA6F> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Naa29d033aa5548e78a7e8cd287a0e852 ;
+            dcterms:date "2017-02-22" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Quartz" ] ;
+            dcterms:title "SIRI, DEFINE PATRIARCHY: We tested bots like Siri and Alexa to see who would stand up to sexual harassment" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Naa29d033aa5548e78a7e8cd287a0e852 ] ] .
+
+<3D6UDUY5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne95c4a447a564bc19e9383c8bf35d81b ;
+            dcterms:date "XXXX" ;
+            dcterms:title "Fairness in machine learning" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne95c4a447a564bc19e9383c8bf35d81b ] ] .
+
+<3IADJ4K7> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N0ec944dd46524f7580f4a124325b3c39,
+                _:Na8ea97affee640dd8a1fe4436423c8ee ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2016" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Berlin, Germany" ;
+                            foaf:name "Association for Computational Linguistics" ] ;
+                    dcterms:title "Proceedings of the 54th annual meeting of the association for computational linguistics (volume 2: Short papers" ] ;
+            dcterms:title "The social impact of natural language processing" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0ec944dd46524f7580f4a124325b3c39 ;
+                    rdf:_2 _:Na8ea97affee640dd8a1fe4436423c8ee ] ;
+            bibo:pages "591–598" ] .
+
+<3JEGQ8YP> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9dbeb25dca8f43d8a504616d1081c826 ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Pearson" ] ;
+            dcterms:title "Ethics for the information age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9dbeb25dca8f43d8a504616d1081c826 ] ] .
+
+<3UPMPIEU> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N968f49f248eb4a92a797bfd5f131135c,
+                _:Nccb88665441a449897ef0435660202f8,
+                _:Nfec6f63bdc284e98a0d6981dd42c654b ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2012-04" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Avignon, France" ;
+                            foaf:name "Association for Computational Linguistics" ] ;
+                    dcterms:title "Proceedings of the 6th workshop on language technology for cultural heritage, social sciences, and humanities" ] ;
+            dcterms:title "Distributional techniques for philosophical enquiry" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nccb88665441a449897ef0435660202f8 ;
+                    rdf:_2 _:Nfec6f63bdc284e98a0d6981dd42c654b ;
+                    rdf:_3 _:N968f49f248eb4a92a797bfd5f131135c ] ;
+            bibo:pages "45–54" ] .
+
+<45KIH8BX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N539c872e1acf4e27b812fbac296b77da ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Blog post" ] ] ;
+            dcterms:title "The women missing from the silver screen and the technology used to find them" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N539c872e1acf4e27b812fbac296b77da ] ] .
+
+<4AXEXXGM> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb93bd7dee5ef4528ad9cd02706bcdab7 ;
+            dcterms:date "XXXX" ;
+            dcterms:title "Can bots manipulate public opinion?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb93bd7dee5ef4528ad9cd02706bcdab7 ] ] .
+
+<54TLNX8W> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N205ae2c91a234db9952cca44b9eda07d ;
+            dcterms:date "2016-12-29" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Scientific American" ] ;
+            dcterms:title "How a machine learns prejudice: Artificial intelligence picks up bias from human creators–not from hard, cold logic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N205ae2c91a234db9952cca44b9eda07d ] ] .
+
+<55EEYFHP> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4bceea9430b641c1a27a2267d19edfb6,
+                _:N5e1125a5ee2240a1b01884f51da4347c,
+                _:Na5790c89709647c685f2cbe99913a860,
+                _:Naa1d3a976b014970b35d75f81980c965,
+                _:Nf0018596e92848a8867ff00aabb7e38d,
+                _:Nfa305893a19a44b69efab1022d5cc747 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "CoRR" ] ] ;
+            dcterms:title "Concrete problems in AI safety" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4bceea9430b641c1a27a2267d19edfb6 ;
+                    rdf:_2 _:N5e1125a5ee2240a1b01884f51da4347c ;
+                    rdf:_3 _:Nfa305893a19a44b69efab1022d5cc747 ;
+                    rdf:_4 _:Nf0018596e92848a8867ff00aabb7e38d ;
+                    rdf:_5 _:Na5790c89709647c685f2cbe99913a860 ;
+                    rdf:_6 _:Naa1d3a976b014970b35d75f81980c965 ] ] .
+
+<59MKJC5A> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N8fce777b3f674cbbbf361338e5581691 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013-05-01" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Communications of the ACM" ] ;
+                    bibo:issue "5" ;
+                    bibo:volume "56" ] ;
+            dcterms:title "Discrimination in online ad delivery" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8fce777b3f674cbbbf361338e5581691 ] ;
+            bibo:pages "44–54" ] .
+
+<5E3XXI53> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N41c9c002f211433eb1823594ea6b7c4f ;
+            dcterms:date "2016-11-17" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "It worked. Washington Post" ] ;
+            dcterms:title "This researcher programmed bots to fight racism on twitter" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N41c9c002f211433eb1823594ea6b7c4f ] ] .
+
+<5Y24BQL5> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N624949322da14203a016c53c29febfd9 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Information, Communication & Society" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "15" ] ;
+            dcterms:title "Fabrication as ethical practice: Qualitative inquiry in ambiguous Internet contexts" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N624949322da14203a016c53c29febfd9 ] ;
+            bibo:pages "334–353" ] .
+
+<6ZD4Z7MH> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N110557c332b745bf8712521435f9fd3d,
+                _:N32a54298f69f4a769cfd46675ebb979a ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Nature" ] ;
+                    bibo:issue "7625" ;
+                    bibo:volume "538" ] ;
+            dcterms:title "There is a blind spot in AI research" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N110557c332b745bf8712521435f9fd3d ;
+                    rdf:_2 _:N32a54298f69f4a769cfd46675ebb979a ] ;
+            bibo:pages "311" ] .
+
+<78KDFFX9> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N691770d9db2a4217ae26399c24a9a260 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2014" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "MIT Press" ] ;
+                    dcterms:title "Media technologies: Essays on communication, materiality, and society" ;
+                    bibo:editor _:N02de08aca8cc4fc2b78b903d7f9fc509,
+                        _:Ndfde231890e84bed8b628f818530ca9c,
+                        _:Nf30249a89dbb4c098a87c1b1142ff15a ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Nf30249a89dbb4c098a87c1b1142ff15a ;
+                            rdf:_2 _:N02de08aca8cc4fc2b78b903d7f9fc509 ;
+                            rdf:_3 _:Ndfde231890e84bed8b628f818530ca9c ] ] ;
+            dcterms:title "The relevance of algorithms" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N691770d9db2a4217ae26399c24a9a260 ] ;
+            bibo:pages "167–194" ] .
+
+<7SFINMNN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N47dbd18ad2be47dfbf64839ab02af76b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2007" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "San Diego Law Review" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "44" ] ;
+            dcterms:title "'I've got nothing to hide' and other misunderstandings of privacy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N47dbd18ad2be47dfbf64839ab02af76b ] ;
+            bibo:pages "745–772" ] .
+
+<8L2BKVQN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N1061d810c95c4f8ebee9ee9531172d20,
+                _:N9ca439e5c2e5407990708ae4ed68efb6,
+                _:Ne90a1cd823a84b84b619281e8a0e1ff2 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Traitement Automatique des Langues" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "57" ] ;
+            dcterms:title "Ethique et traitement automatique des langues et de la parole : entre truismes et tabous" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1061d810c95c4f8ebee9ee9531172d20 ;
+                    rdf:_2 _:N9ca439e5c2e5407990708ae4ed68efb6 ;
+                    rdf:_3 _:Ne90a1cd823a84b84b619281e8a0e1ff2 ] ;
+            bibo:pages "7–19" ] .
+
+<8QQIEZ7Q> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N062179764f4f4f16863b942f2d654313 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Traitement Automatique des Langues" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "57" ] ;
+            dcterms:title "Pour un TAL responsable" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N062179764f4f4f16863b942f2d654313 ] ;
+            bibo:pages "21–45" ] .
+
+<8RK5LNG3> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<95QIZF3N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N5aedf0b0a4184bbc8693af3772753b74 ;
+            dcterms:date "2016-06-23" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Bloomberg Technology" ] ;
+            dcterms:title "Artificial intelligence has a `sea of dudes' problem" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5aedf0b0a4184bbc8693af3772753b74 ] ] .
+
+<9AY3EH74> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N4f6a647ad3d248b19e2d9f330cded62c,
+                _:N8b85f03b6b2644df991afb9ddfe6bff9 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2012" ;
+                    dcterms:title "Proceedings of the SIGCHI conference on human factors in computing systems" ] ;
+            dcterms:title "Next steps for value sensitive design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4f6a647ad3d248b19e2d9f330cded62c ;
+                    rdf:_2 _:N8b85f03b6b2644df991afb9ddfe6bff9 ] ;
+            bibo:pages "1125–1134" ] .
+
+<ADYRJ7IA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6f1035d6419d476585d609e33312c475,
+                _:Na4be33ee376f436b854471c5305f9067 ;
+            dcterms:date "2015" ;
+            dcterms:title "The trust imperative: A framework for ethical data use" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6f1035d6419d476585d609e33312c475 ;
+                    rdf:_2 _:Na4be33ee376f436b854471c5305f9067 ] ] .
+
+<ASB4XHME> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N5c5aab7fd4ba459fbdac8f9aa03b575f ;
+            dcterms:date "2017-03-01" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "BBC News" ] ;
+            dcterms:title "Facebook artificial intelligence spots suicidal users" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5c5aab7fd4ba459fbdac8f9aa03b575f ] ] .
+
+<ATUJZG8G> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016" ;
+            dcterms:title "Executive Office of the President National Science and Technology Council Committee on Technology" ] .
+
+<B38XXHTE> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N7ff4cd5dc7394fdf91f8be34c27d77f7 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2015" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Cham" ;
+                            foaf:name "Springer International Publishing" ] ;
+                    dcterms:title "Collective agency and cooperation in natural and artificial systems: Explanation, implementation and simulation" ;
+                    bibo:editor _:Ne5270301b38947788f0a40f99df82995 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Ne5270301b38947788f0a40f99df82995 ] ] ;
+            dcterms:title "Artificial intelligence and pro-social behaviour" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7ff4cd5dc7394fdf91f8be34c27d77f7 ] ;
+            bibo:pages "281–306" ] .
+
+<CEYSXHEW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N81cc78a226324d46aba740671eaee943 ;
+            dcterms:date "2015" ;
+            dcterms:title "What world are we building?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N81cc78a226324d46aba740671eaee943 ] ;
+            bibo:editor _:Nc0284e0a65d04433a818f44017c5a913 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc0284e0a65d04433a818f44017c5a913 ] ] .
+
+<CL5FRPFK> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N8bbc0564d89e47ba88875cde5eb07734,
+                _:Ne794edb7f7e04b52aa96fc298e9ae7a0 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1996" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ACM Transactions on Information Systems (TOIS" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "14" ] ;
+            dcterms:title "Bias in computer systems" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8bbc0564d89e47ba88875cde5eb07734 ;
+                    rdf:_2 _:Ne794edb7f7e04b52aa96fc298e9ae7a0 ] ;
+            bibo:pages "330–347" ] .
+
+<CXTW6VGD> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N3892dc41473849029108e5aad141f513,
+                _:N4290b2993a294c8984482946db3d78b4,
+                _:N59c83c441769413ea95abe80a8b51566 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2016" ;
+                    dcterms:title "Proceedings of the 19th ACM conference on computer-supported cooperative work & social computing" ] ;
+            dcterms:title "Beyond the Belmont principles: Ethical challenges, practices, and beliefs in the online data research community" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3892dc41473849029108e5aad141f513 ;
+                    rdf:_2 _:N59c83c441769413ea95abe80a8b51566 ;
+                    rdf:_3 _:N4290b2993a294c8984482946db3d78b4 ] ;
+            bibo:pages "941–953" ] .
+
+<DJAAUIYL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5dca994c5dac45aeaff8aac8e2e063e5,
+                _:N92f80c56fa604f78bee215c8befe737c,
+                _:Ne59f3f0927024722bbc032cff9f2d0de ;
+            dcterms:date "2016-10-07" ;
+            dcterms:title "Attacking discrimination with smarter machine learning" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne59f3f0927024722bbc032cff9f2d0de ;
+                    rdf:_2 _:N5dca994c5dac45aeaff8aac8e2e063e5 ;
+                    rdf:_3 _:N92f80c56fa604f78bee215c8befe737c ] ] .
+
+<DKA5YSF4> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Nb071d53b9f944604910dd9aa5954f29d,
+                _:Nd032025f8f8e4fb99fb340a920751567 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2016" ;
+                    dcterms:title "Interacting with Computers" ] ;
+            dcterms:title "Blended, not bossy: Ethics roles, responsibilities and expertise in design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb071d53b9f944604910dd9aa5954f29d ;
+                    rdf:_2 _:Nd032025f8f8e4fb99fb340a920751567 ] ] .
+
+<DURVBHMN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N0b993f2a7f6d4a0fba089f684598fed4,
+                _:N3d360ac79a944408ba170c134cca468f ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2010" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Communications of the ACM" ] ;
+                    bibo:issue "6" ;
+                    bibo:volume "53" ] ;
+            dcterms:title "Myths and fallacies of \"personally identifiable information\"" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0b993f2a7f6d4a0fba089f684598fed4 ;
+                    rdf:_2 _:N3d360ac79a944408ba170c134cca468f ] ;
+            bibo:pages "24–26" ] .
+
+<E2947HRW> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N911196d5abfe4d20a282874977709fb2 ;
+            dcterms:date "2009" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Stanford" ;
+                    foaf:name "Stanford University Press" ] ;
+            dcterms:title "Privacy in context: Technology, policy, and the integrity of social life" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N911196d5abfe4d20a282874977709fb2 ] ] .
+
+<E45FPTGH> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2008" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Mahwah, NJ" ] ;
+                    dcterms:title "The human-computer interaction handbook" ;
+                    bibo:edition "Revised second" ;
+                    bibo:editor _:Nd59d8334139c470c885df9655e6add37,
+                        _:Ne9be94e3a7e44bfa8c2360b8bfdc5969 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Ne9be94e3a7e44bfa8c2360b8bfdc5969 ;
+                            rdf:_2 _:Nd59d8334139c470c885df9655e6add37 ] ] ;
+            dcterms:title "Human values, ethics, and design" ;
+            bibo:pages "1241–1266" ] .
+
+<ET7BNARE> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N5b94e1dec3454b77ac16f80cf276ecc2 ;
+            dcterms:date "2016-05-18" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Data & Society" ;
+                    foaf:name "Points" ] ;
+            dcterms:title "OKCupid data release fiasco: It's time to rethink ethics education" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5b94e1dec3454b77ac16f80cf276ecc2 ] ] .
+
+<F9RZCE93> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N809a09fb2c2448fd8d4e1b8294a9211c ;
+            dcterms:date "2016-06-10" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "USA Today" ] ;
+            dcterms:title "`Three black teenagers' Google search sparks outrage" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N809a09fb2c2448fd8d4e1b8294a9211c ] ] .
+
+<HCWJN82N> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<HL2HC7Q8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N019b632c6d0e4c98b9241a1eecb17c1a,
+                _:N8d163d1657c649c6a812a095c1a2278c,
+                _:Nbdce28f8aa5340e9839e653f33defb04 ;
+            dcterms:date "2016" ;
+            dcterms:title "Perspectives on big data, ethics, and society" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N019b632c6d0e4c98b9241a1eecb17c1a ;
+                    rdf:_2 _:Nbdce28f8aa5340e9839e653f33defb04 ;
+                    rdf:_3 _:N8d163d1657c649c6a812a095c1a2278c ] ] .
+
+<HPDUJCHL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N82db79bf771546e58f5e5aad14c2e5b9 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "NY" ;
+                    foaf:name "Crown Publishing Group" ] ;
+            dcterms:title "Weapons of math destruction: How big data increases inequality and threatens democracy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N82db79bf771546e58f5e5aad14c2e5b9 ] ] .
+
+<HUI76YGW> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N0cf89c3d65ad44c4bfecc70fd465364b,
+                _:N3d2c9da629e14d56b6bc216652bfb7db ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2011" ;
+                    dcterms:title "CHI'11 extended abstracts on human factors in computing systems" ] ;
+            dcterms:title "Web workers unite! Addressing challenges of online laborers" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0cf89c3d65ad44c4bfecc70fd465364b ;
+                    rdf:_2 _:N3d2c9da629e14d56b6bc216652bfb7db ] ;
+            bibo:pages "97–106" ] .
+
+<HVGIACDP> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N6fbdd1cb657f418e80ca1f99811e14a0 ;
+            dcterms:date "2016-12-27" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "PC Mag" ] ;
+            dcterms:title "Amazon Alexa data wanted in murder investigation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6fbdd1cb657f418e80ca1f99811e14a0 ] ] .
+
+<ID42IHCZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Another presentation by Hovy on related material" ] .
+
+<IEXW2K5Q> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N698c823c30e54e15b7c48fe774498d79,
+                _:Nb5972186a55d42188c3b9f7f06f304fe,
+                _:Nf7d90808d290417bb4628293f716e6a8 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "CoRR" ] ] ;
+            dcterms:title "Inherent trade-offs in the fair determination of risk scores" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf7d90808d290417bb4628293f716e6a8 ;
+                    rdf:_2 _:Nb5972186a55d42188c3b9f7f06f304fe ;
+                    rdf:_3 _:N698c823c30e54e15b7c48fe774498d79 ] ] .
+
+<J67XZTMI> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N0d1f852adde946349dcf4bc5ec440762,
+                _:N47588f6b56124ba987f5b7ed22684231,
+                _:N5205670fcc2a4c73a93111d6b662cffc,
+                _:Nff704f45c6894cefa92eff5dcb207d24 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ArXiv" ] ] ;
+            dcterms:title "Deceiving Google's Perspective API Built for Detecting Toxic Comments" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N47588f6b56124ba987f5b7ed22684231 ;
+                    rdf:_2 _:N5205670fcc2a4c73a93111d6b662cffc ;
+                    rdf:_3 _:N0d1f852adde946349dcf4bc5ec440762 ;
+                    rdf:_4 _:Nff704f45c6894cefa92eff5dcb207d24 ] ] .
+
+<JEP7BTMG> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N9365ddda237a43728bedf86ba81411ca ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "CoRR" ] ;
+            dcterms:title "On the relation between accuracy and fairness in binary classification" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9365ddda237a43728bedf86ba81411ca ] ] .
+
+<JFX8G24B> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N78beddbe1f7c4ff5a6a4d3ec01d7f314 ;
+            dcterms:date "2016-06-08" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Passcode" ] ;
+            dcterms:title "Why you should think twice before spilling your guts to a chatbot" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N78beddbe1f7c4ff5a6a4d3ec01d7f314 ] ] .
+
+<JMI5JTLV> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016-09-20" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The New York Times" ] ] ;
+            dcterms:title "The times is partnering with jigsaw to expand comment capabilities" ] .
+
+<KR4MXKW9> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N60d5730dcf8245ff926555491a3a872a ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2011" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Information Society" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "27" ] ;
+            dcterms:title "Critical making: Conceptual and material studies in technology and social life" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N60d5730dcf8245ff926555491a3a872a ] ;
+            bibo:pages "252–260" ] .
+
+<L3NLYFPQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7cfcf9bc41da4727b8392f9dd1f17624 ;
+            dcterms:date "2016" ;
+            dcterms:title "Code 2018 | ACM ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7cfcf9bc41da4727b8392f9dd1f17624 ] ] .
+
+<L7M2Z7NV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na4afae3bea1e4515a31c4ca92241d2b6 ;
+            dcterms:date "2015" ;
+            dcterms:title "The moral character of cryptographic work" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na4afae3bea1e4515a31c4ca92241d2b6 ] ] .
+
+<LBWTBHT8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "For Public Discussion" ] ;
+            dcterms:title "The IEEE Global Initiative for Ethical Considerations in Artificial Intelligence and Autonomous Systems" ] .
+
+<LC2TFGQ4> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N05400307cc6e4d9e905a8a3d0622b1fe ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1996" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ACM Interactions" ] ;
+                    bibo:issue "6" ;
+                    bibo:volume "3" ] ;
+            dcterms:title "Value-sensitive design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N05400307cc6e4d9e905a8a3d0622b1fe ] ;
+            bibo:pages "17–23" ] .
+
+<M2NBLHAP> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nb879036bbdf64a62914cd31a20d771b6,
+                _:Nbfe8cd8f538a4d87821fbdde887b9472,
+                _:Ncc1f5162be4644298d9ec753e4cc98b0,
+                _:Ncd6893636ae7409889c3b7eb6372a4dd,
+                _:Nfa24538c85ce4284acb31eb2ac9ce79f ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "CoRR" ] ] ;
+            dcterms:title "Man is to computer programmer as woman is to homemaker? Debiasing word embeddings" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfa24538c85ce4284acb31eb2ac9ce79f ;
+                    rdf:_2 _:Nb879036bbdf64a62914cd31a20d771b6 ;
+                    rdf:_3 _:Nbfe8cd8f538a4d87821fbdde887b9472 ;
+                    rdf:_4 _:Ncc1f5162be4644298d9ec753e4cc98b0 ;
+                    rdf:_5 _:Ncd6893636ae7409889c3b7eb6372a4dd ] ] .
+
+<MWHZTR6V> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N547fa94cd16e403da8e33b12815a5ce5 ;
+            dcterms:date "2016" ;
+            dcterms:title "Language bias and black sheep" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N547fa94cd16e403da8e33b12815a5ce5 ] ] .
+
+<NC6T6FRK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016" ;
+            dcterms:title "Internet encyclopedia of philosophy: Entries on Ethics" ;
+            bibo:editor _:N305c9112304948119fb032a80fc25b3c,
+                _:N3cccb7cc97ad482ca2811b71577e3120 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N3cccb7cc97ad482ca2811b71577e3120 ;
+                    rdf:_2 _:N305c9112304948119fb032a80fc25b3c ] ] .
+
+<P8VPL5TT> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N02cb5f6f55754d25adcc0a48c17c4417,
+                _:N9181391bfa6e4d26927e32b1389f352f,
+                _:N950b5220466345fab466f1a78c6e0ff4 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2011" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Computational Linguistics" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "37" ] ;
+            dcterms:title "Amazon mechanical turk: Gold mine or coal mine?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9181391bfa6e4d26927e32b1389f352f ;
+                    rdf:_2 _:N02cb5f6f55754d25adcc0a48c17c4417 ;
+                    rdf:_3 _:N950b5220466345fab466f1a78c6e0ff4 ] ;
+            bibo:pages "413–420" ] .
+
+<PW4PF25C> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:Nbb3b86903c93447a8536d6eab7f374b4,
+                _:Nf749e2887bb64a9785d0ae53666d61cf ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2016" ;
+                    dcterms:title "2016 49th Hawaii international conference on system sciences (HICSS" ] ;
+            dcterms:title "We aren't all going to be on the same page about ethics\": Ethical practices and challenges in research on digital and social media" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbb3b86903c93447a8536d6eab7f374b4 ;
+                    rdf:_2 _:Nf749e2887bb64a9785d0ae53666d61cf ] ;
+            bibo:pages "1909–1918" ] .
+
+<QVGGG9LY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6b3c50f1afed4eb7870ccce19c586ce1 ;
+            dcterms:date "2016-04-07" ;
+            dcterms:title "Automation rules and best practices" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6b3c50f1afed4eb7870ccce19c586ce1 ] ] .
+
+<R2LSM8W3> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N96d3e4a7190f42998dafc0725e092b8e ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014-09-26" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Medium" ] ] ;
+            dcterms:title "How big data is unfair: Understanding sources of unfairness in data driven decision making" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N96d3e4a7190f42998dafc0725e092b8e ] ] .
+
+<RJM8B3W3> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nb6597efc24f448668b09cc4c895eee36,
+                _:Nbd3c5c9c6bb6446c960d2708f4161369 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Future Internet" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "8" ] ;
+            dcterms:title "User perception of facebook app data access: A comparison of methods and privacy concerns" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb6597efc24f448668b09cc4c895eee36 ;
+                    rdf:_2 _:Nbd3c5c9c6bb6446c960d2708f4161369 ] ;
+            bibo:pages "9" ] .
+
+<RLAESSER> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N9cdfa22a073d4e0f80ca14e0655ffcf9 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017-02-23" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Financial Times" ] ] ;
+            dcterms:title "Google launches robo-tool to flag hate speech online" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9cdfa22a073d4e0f80ca14e0655ffcf9 ] ] .
+
+<RWAZZU9M> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N5563ff93a8284275a6826872b1d263bb ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013-04-01" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Harvard Business Review" ] ] ;
+            dcterms:title "The hidden biases in big data" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5563ff93a8284275a6826872b1d263bb ] ] .
+
+<RZZL488W> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N1d82175052b444489b7a5dda49b8ad54 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2010" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Business Ethics Quarterly" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "20" ] ;
+            dcterms:title "Exploitation and sweatshop labor: Perspectives and issues" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1d82175052b444489b7a5dda49b8ad54 ] ;
+            bibo:pages "187–213" ] .
+
+<STNXGAUR> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nf0cd528b5fe545cc8acaa560c2e03e42 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016-11-13" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Medium.com" ] ] ;
+            dcterms:title "The code I'm still ashamed of" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf0cd528b5fe545cc8acaa560c2e03e42 ] ] .
+
+<T2PNBSD5> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N3e0a8ebc794b4b1bb95adcf0baf7596c,
+                _:N533c5ccbd32c419f9574bddeac6ef257,
+                _:Nd3ff4b4f2c854e3fa8700d26e645d71b ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2007" ;
+                    dcterms:title "CHI'07 extended abstracts on human factors in computing systems" ] ;
+            dcterms:title "Value scenarios: a technique for envisioning systemic effects of new technologies" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3e0a8ebc794b4b1bb95adcf0baf7596c ;
+                    rdf:_2 _:Nd3ff4b4f2c854e3fa8700d26e645d71b ;
+                    rdf:_3 _:N533c5ccbd32c419f9574bddeac6ef257 ] ;
+            bibo:pages "2585–2590" ] .
+
+<T354975Q> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nd6be6718ca934fbcbd5dbf128c5547c1 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016-05-08" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Medium" ] ] ;
+            dcterms:title "Deep learning racial bias: The avenue Q theory of ubiquitous racism" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd6be6718ca934fbcbd5dbf128c5547c1 ] ] .
+
+<TCXZYBZ7> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N1bd0bc8c228d4e0fa981daf795cace39,
+                _:Nf1a8b8a69a95406c918370385658c0ca ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2010-08-04" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Wall Street Journal" ] ] ;
+            dcterms:title "On the Web's cutting edge, anonymity in name only" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1bd0bc8c228d4e0fa981daf795cace39 ;
+                    rdf:_2 _:Nf1a8b8a69a95406c918370385658c0ca ] ] .
+
+<TDW9IVNK> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<TIAIVRFV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N03eeae9cd75643c687b8b314dcd6bd6f,
+                _:N09589f0eed834057b50113da7694cc6b,
+                _:N10a09cea587f457f9eaa706e64cf540a,
+                _:N958b42d7d28246329d52c0e5e3f6c12d,
+                _:Nd7068b21120d4c1b8bf2685d71ebda4b,
+                _:Nf037b2538e554f80a4a5994474ee699b ;
+            dcterms:date "2016" ;
+            dcterms:title "Deep Learning with Differential Privacy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N10a09cea587f457f9eaa706e64cf540a ;
+                    rdf:_2 _:N09589f0eed834057b50113da7694cc6b ;
+                    rdf:_3 _:N958b42d7d28246329d52c0e5e3f6c12d ;
+                    rdf:_4 _:Nf037b2538e554f80a4a5994474ee699b ;
+                    rdf:_5 _:N03eeae9cd75643c687b8b314dcd6bd6f ;
+                    rdf:_6 _:Nd7068b21120d4c1b8bf2685d71ebda4b ] ] .
+
+<TVAU6SIQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7473f4f54195436e850cacee226a45f3,
+                _:Nc0da773364eb48d0aea506b477ff52c3,
+                _:Nc9c8ba1ae32046a49f4b280c1c3c0418 ;
+            dcterms:date "2016" ;
+            dcterms:title "A story of discrimination and unfairness" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc9c8ba1ae32046a49f4b280c1c3c0418 ;
+                    rdf:_2 _:Nc0da773364eb48d0aea506b477ff52c3 ;
+                    rdf:_3 _:N7473f4f54195436e850cacee226a45f3 ] ] .
+
+<UBBE8QNE> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N981d1676755949969420587a8b7d9a2b ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2002" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Rowman & Littlefield" ] ;
+                    dcterms:title "and other essays" ;
+                    bibo:volume "32" ] ;
+            dcterms:title "Sympathy and solidarity" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N981d1676755949969420587a8b7d9a2b ] ] .
+
+<UF29EG4V> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N76cd16c9108b4faeb7d4aed53940a269 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Proceedings of the National Academy of Sciences" ] ;
+                    bibo:issue "48" ;
+                    bibo:volume "113" ] ;
+            dcterms:title "Opinion: The dangers of faulty, biased, or malicious algorithms requires independent oversight" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N76cd16c9108b4faeb7d4aed53940a269 ] ;
+            bibo:pages "13538–13540" ] .
+
+<UF5WW46F> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N192016c730b04a35947fb8e040146a2e ;
+            dcterms:date "2017-02-27" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Quartz" ] ;
+            dcterms:title "NOT THERE YET: Alphabet's hate-fighting AI doesn’t understand hate yet" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N192016c730b04a35947fb8e040146a2e ] ] .
+
+<UJT94YXD> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N7847679f815c43f78385db71e78be86d,
+                _:N7974508ffacc4a81ab1e079424b08fe0 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Northwestern Journal of Technology and Intellectual Property" ] ;
+                    bibo:issue "45" ;
+                    bibo:volume "11" ] ;
+            dcterms:title "Big data for all: Privacy and user control in the age of analytics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7847679f815c43f78385db71e78be86d ;
+                    rdf:_2 _:N7974508ffacc4a81ab1e079424b08fe0 ] ;
+            bibo:pages "239–273" ] .
+
+<UMV2DLHF> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Neafe0414b5dc4ecc9719763f47c4f6a5 ;
+            dcterms:date "2015-12-03" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "World Economic Forum" ] ;
+            dcterms:title "Can robots slay sexism?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Neafe0414b5dc4ecc9719763f47c4f6a5 ] ] .
+
+<VGLJYIXK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nab147091c77642a981bb9906aa3f5dd1 ;
+            dcterms:date "2016" ;
+            dcterms:title "Reading between the lines" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nab147091c77642a981bb9906aa3f5dd1 ] ] .
+
+<WH6JETFL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N0bd0dde19b534120a3193e3b33a009f6,
+                _:Ndb80a3556a8a462e9db42bb81775054f ;
+            dcterms:date "2016-12-30" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "ProPublica" ] ;
+            dcterms:title "Bias in criminal risk scores is mathematically inevitable, researchers say" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndb80a3556a8a462e9db42bb81775054f ;
+                    rdf:_2 _:N0bd0dde19b534120a3193e3b33a009f6 ] ] .
+
+<WKSQVXUU> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nc8889bc9831149b3b045f646105bef35 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2017-01-04" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Medium" ] ] ;
+            dcterms:title "Google home vs Alexa: Two simple user experience design gestures that delighted a female user" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc8889bc9831149b3b045f646105bef35 ] ] .
+
+<WL33L9VH> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N24b2661a8394407ba86afb7145a7648b,
+                _:Nd1a03ab77e934f2fa0ca7b15b27bdc75 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2016" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Paris, France" ;
+                            foaf:name "European Language Resources Association (ELRA" ] ;
+                    dcterms:title "Proceedings of the tenth interna- tional conference on language resources and evaluation (LREC 2016" ] ;
+            dcterms:title "Yes, we care! results of the ethics and natural language processing surveys" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd1a03ab77e934f2fa0ca7b15b27bdc75 ;
+                    rdf:_2 _:N24b2661a8394407ba86afb7145a7648b ] ] .
+
+<WLE42EUA> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N6a310d95454d4dea942e05e2a4c71ab3,
+                _:N79633c267fba4625a57ec328d666e69e,
+                _:N7f128eee5f684ef68658861a89b6fe32 ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "AI Magainze" ] ;
+            dcterms:title "Research priorities for robust and benefcial artifcial intelligence" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N79633c267fba4625a57ec328d666e69e ;
+                    rdf:_2 _:N7f128eee5f684ef68658861a89b6fe32 ;
+                    rdf:_3 _:N6a310d95454d4dea942e05e2a4c71ab3 ] ] .
+
+<WX7IDJLN> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N76607f80bff94834b1bbb587b476337a ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Wired" ] ;
+            dcterms:title "Inside Google'S Internet Justice League and Its AI-Powered War on Trolls" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N76607f80bff94834b1bbb587b476337a ] ] .
+
+<XAXAVB96> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N3f0172896ee64db8a1deb6d9a4a44e04 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014-12-19" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Medium" ] ] ;
+            dcterms:title "Big data, machine learning, and the social sciences: Fairness, accountability, and transparency" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3f0172896ee64db8a1deb6d9a4a44e04 ] ] .
+
+<XCMFLCQA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N611e1918200a4242b32c9bcf67159650 ;
+            dcterms:date "2015" ;
+            dcterms:title "Rejecting the gender binary: A vector-space operation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N611e1918200a4242b32c9bcf67159650 ] ] .
+
+<XEL5T6KR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N15b68df8d01a42e794e3f3fa91623890 ;
+            dcterms:date "2016-11-08" ;
+            dcterms:title "Bias in ML, and teaching AI" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N15b68df8d01a42e794e3f3fa91623890 ] ] .
+
+<XKZSWV95> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2006" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Human-Computer Interaction" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "21" ] ;
+            dcterms:title "The watcher and the watched: Social judgments about privacy in a public place" ;
+            bibo:pages "235–272" ] .
+
+<XWE5UEGR> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N27461c36c75a4555a9893a47a5dbcb33 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Political Behavior" ] ] ;
+            dcterms:title "Tweetment effects on the tweeted: Experimentally reducing racist harassment" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N27461c36c75a4555a9893a47a5dbcb33 ] ;
+            bibo:pages "1–21" ] .
+
+<Y2L69P3D> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N793e29d3394447858209e4e991141175 ;
+            dcterms:date "2017-01-09" ;
+            dcterms:title "Speech analysis could now land you a promotion" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N793e29d3394447858209e4e991141175 ] ] .
+
+<Y7YKNFQX> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N45c873faa87d41348dff7f8ce4423d1a,
+                _:N4d5781728e524bc18b7a1061a8ddbf7f,
+                _:N6f6fe906c2134f37a8305ac511ab7a05 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2015" ;
+                    dcterms:title "ETeRNAL" ] ;
+            dcterms:title "Annotateurs volontaires investis et éthique de l'annotation de lettres de suicidés" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N45c873faa87d41348dff7f8ce4423d1a ;
+                    rdf:_2 _:N6f6fe906c2134f37a8305ac511ab7a05 ;
+                    rdf:_3 _:N4d5781728e524bc18b7a1061a8ddbf7f ] ] .
+
+<YABTV478> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N07e092f19538446fbdc4dc528a975005 ;
+            dcterms:date "2016-12-12" ;
+            dcterms:title "Should the NLP and ML Communities have a Code of Ethics?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N07e092f19538446fbdc4dc528a975005 ] ] .
+
+<YKXKXN9P> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:date "2016-10-19" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "ProPublica" ] ;
+            dcterms:title "Breaking the black box: How machines learn to be racist" ] .
+
+<ZK6FH7ES> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3014ebc71d1848489681a0ffacc0e386 ;
+            dcterms:date "2017" ;
+            dcterms:title "Memorandum of Law in Support of Amazon's Motion to Quash Search Warrant" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3014ebc71d1848489681a0ffacc0e386 ] ] .
+
+<ZVYNWY3M> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N368344cbd2b14d309cb60f26c7b46731 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Colo. Tech. L.J" ] ;
+                    bibo:volume "13" ] ;
+            dcterms:title "Two cheers for corporate experimentation: The A/B illusion and the virtues of data-driven innovation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N368344cbd2b14d309cb60f26c7b46731 ] ;
+            bibo:pages "273" ] .
+
+<ZYGQI6TI> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2016" ;
+                    dcterms:title "Entries on Ethics" ;
+                    bibo:edition "Edition" ;
+                    bibo:editor _:Nf98acca14f214947bdcd9722ba159348 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Nf98acca14f214947bdcd9722ba159348 ] ] ;
+            dcterms:title "The Stanford encyclopedia of philosophy" ] .
+
+_:N019b632c6d0e4c98b9241a1eecb17c1a a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Metcalf" .
+
+_:N02cb5f6f55754d25adcc0a48c17c4417 a foaf:Person ;
+    foaf:givenName "G." ;
+    foaf:surname "Adda" .
+
+_:N02de08aca8cc4fc2b78b903d7f9fc509 a foaf:Person ;
+    foaf:givenName "P.J." ;
+    foaf:surname "Boczkowski" .
+
+_:N03eeae9cd75643c687b8b314dcd6bd6f a foaf:Person ;
+    foaf:givenName "I." ;
+    foaf:surname "Mironov" .
+
+_:N05400307cc6e4d9e905a8a3d0622b1fe a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Friedman" .
+
+_:N062179764f4f4f16863b942f2d654313 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Amblard" .
+
+_:N07e092f19538446fbdc4dc528a975005 a foaf:Person ;
+    foaf:givenName "H., III" ;
+    foaf:surname "Daumé" .
+
+_:N09589f0eed834057b50113da7694cc6b a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Chu" .
+
+_:N0b993f2a7f6d4a0fba089f684598fed4 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Narayanan" .
+
+_:N0bd0dde19b534120a3193e3b33a009f6 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Larson" .
+
+_:N0cf89c3d65ad44c4bfecc70fd465364b a foaf:Person ;
+    foaf:givenName "B.B." ;
+    foaf:surname "Bederson" .
+
+_:N0d1f852adde946349dcf4bc5ec440762 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Zhang" .
+
+_:N0ec944dd46524f7580f4a124325b3c39 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Hovy" .
+
+_:N1061d810c95c4f8ebee9ee9531172d20 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Fort" .
+
+_:N10a09cea587f457f9eaa706e64cf540a a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Abadi" .
+
+_:N110557c332b745bf8712521435f9fd3d a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Crawford" .
+
+_:N15b68df8d01a42e794e3f3fa91623890 a foaf:Person ;
+    foaf:givenName "H., III" ;
+    foaf:surname "Daumé" .
+
+_:N16632c91ec954117a9fb30f72acb0964 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Hendry" .
+
+_:N192016c730b04a35947fb8e040146a2e a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Gershgorn" .
+
+_:N1bd0bc8c228d4e0fa981daf795cace39 a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Steel" .
+
+_:N1d82175052b444489b7a5dda49b8ad54 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Snyder" .
+
+_:N205ae2c91a234db9952cca44b9eda07d a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Emspak" .
+
+_:N24b2661a8394407ba86afb7145a7648b a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Couillault" .
+
+_:N27461c36c75a4555a9893a47a5dbcb33 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Munger" .
+
+_:N279edeaf40ef4f7db0ed2237e733a11d a foaf:Person ;
+    foaf:givenName "W." ;
+    foaf:surname "Allegre" .
+
+_:N3014ebc71d1848489681a0ffacc0e386 a foaf:Organization ;
+    foaf:name "Amazoncom" .
+
+_:N305c9112304948119fb032a80fc25b3c a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Dowden" .
+
+_:N32a54298f69f4a769cfd46675ebb979a a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Calo" .
+
+_:N368344cbd2b14d309cb60f26c7b46731 a foaf:Person ;
+    foaf:givenName "M.N." ;
+    foaf:surname "Meyer" .
+
+_:N3892dc41473849029108e5aad141f513 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Vitak" .
+
+_:N3cccb7cc97ad482ca2811b71577e3120 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Fieser" .
+
+_:N3d2c9da629e14d56b6bc216652bfb7db a foaf:Person ;
+    foaf:givenName "A.J." ;
+    foaf:surname "Quinn" .
+
+_:N3d360ac79a944408ba170c134cca468f a foaf:Person ;
+    foaf:givenName "V." ;
+    foaf:surname "Shmatikov" .
+
+_:N3e0a8ebc794b4b1bb95adcf0baf7596c a foaf:Person ;
+    foaf:givenName "L.P." ;
+    foaf:surname "Nathan" .
+
+_:N3e708b854fa0471d858641c60728cfbd a foaf:Person ;
+    foaf:givenName "V." ;
+    foaf:surname "Govaere" .
+
+_:N3f0172896ee64db8a1deb6d9a4a44e04 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Wallach" .
+
+_:N41c9c002f211433eb1823594ea6b7c4f a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Munger" .
+
+_:N4290b2993a294c8984482946db3d78b4 a foaf:Person ;
+    foaf:givenName "Z." ;
+    foaf:surname "Ashktorab" .
+
+_:N45c873faa87d41348dff7f8ce4423d1a a foaf:Person ;
+    foaf:givenName "K.B." ;
+    foaf:surname "Cohen" .
+
+_:N47588f6b56124ba987f5b7ed22684231 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Hosseini" .
+
+_:N47dbd18ad2be47dfbf64839ab02af76b a foaf:Person ;
+    foaf:givenName "D.J." ;
+    foaf:surname "Solove" .
+
+_:N4bceea9430b641c1a27a2267d19edfb6 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Amodei" .
+
+_:N4d5781728e524bc18b7a1061a8ddbf7f a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Fort" .
+
+_:N4f6a647ad3d248b19e2d9f330cded62c a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Borning" .
+
+_:N5205670fcc2a4c73a93111d6b662cffc a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Kannan" .
+
+_:N533c5ccbd32c419f9574bddeac6ef257 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Friedman" .
+
+_:N539c872e1acf4e27b812fbac296b77da a foaf:Organization ;
+    foaf:name "Googlecom" .
+
+_:N547fa94cd16e403da8e33b12815a5ce5 a foaf:Person ;
+    foaf:givenName "H., III" ;
+    foaf:surname "Daumé" .
+
+_:N5563ff93a8284275a6826872b1d263bb a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Crawford" .
+
+_:N59c83c441769413ea95abe80a8b51566 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Shilton" .
+
+_:N5aedf0b0a4184bbc8693af3772753b74 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Clark" .
+
+_:N5b94e1dec3454b77ac16f80cf276ecc2 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Markham" .
+
+_:N5c5aab7fd4ba459fbdac8f9aa03b575f a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Kellion" .
+
+_:N5dca994c5dac45aeaff8aac8e2e063e5 a foaf:Person ;
+    foaf:givenName "F." ;
+    foaf:surname "Viégas" .
+
+_:N5e1125a5ee2240a1b01884f51da4347c a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Olah" .
+
+_:N60d5730dcf8245ff926555491a3a872a a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Ratto" .
+
+_:N611e1918200a4242b32c9bcf67159650 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Schmidt" .
+
+_:N624949322da14203a016c53c29febfd9 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Markham" .
+
+_:N691770d9db2a4217ae26399c24a9a260 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Gillespie" .
+
+_:N698c823c30e54e15b7c48fe774498d79 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Raghavan" .
+
+_:N6a310d95454d4dea942e05e2a4c71ab3 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Tegmark" .
+
+_:N6b3c50f1afed4eb7870ccce19c586ce1 a foaf:Organization ;
+    foaf:name "Twitter" .
+
+_:N6f1035d6419d476585d609e33312c475 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Etlinger" .
+
+_:N6f6fe906c2134f37a8305ac511ab7a05 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Pestian" .
+
+_:N6fbdd1cb657f418e80ca1f99811e14a0 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Brant" .
+
+_:N7473f4f54195436e850cacee226a45f3 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Narayanan" .
+
+_:N76607f80bff94834b1bbb587b476337a a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Greenberg" .
+
+_:N76cd16c9108b4faeb7d4aed53940a269 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Shneiderman" .
+
+_:N7847679f815c43f78385db71e78be86d a foaf:Person ;
+    foaf:givenName "O." ;
+    foaf:surname "Tene" .
+
+_:N78beddbe1f7c4ff5a6a4d3ec01d7f314 a foaf:Person ;
+    foaf:givenName "N." ;
+    foaf:surname "Mott" .
+
+_:N793e29d3394447858209e4e991141175 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Morrison" .
+
+_:N79633c267fba4625a57ec328d666e69e a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Russell" .
+
+_:N7974508ffacc4a81ab1e079424b08fe0 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Polonetsky" .
+
+_:N7cfcf9bc41da4727b8392f9dd1f17624 a foaf:Person ;
+    foaf:givenName "A.C.M.Ethics Task" ;
+    foaf:surname "Force" .
+
+_:N7ef2365cf0954836b2db273471be325f a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Friedman" .
+
+_:N7f128eee5f684ef68658861a89b6fe32 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Dewey" .
+
+_:N7ff4cd5dc7394fdf91f8be34c27d77f7 a foaf:Person ;
+    foaf:givenName "J.J." ;
+    foaf:surname "Bryson" .
+
+_:N809a09fb2c2448fd8d4e1b8294a9211c a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Guynn" .
+
+_:N81cc78a226324d46aba740671eaee943 a foaf:Person ;
+    foaf:givenName "d" ;
+    foaf:surname "boyd" .
+
+_:N82db79bf771546e58f5e5aad14c2e5b9 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "O'Neil" .
+
+_:N862258294671441bbe006d2a5387dd58 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Lefeuvre-Halftermeyer" .
+
+_:N8b85f03b6b2644df991afb9ddfe6bff9 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Muller" .
+
+_:N8bbc0564d89e47ba88875cde5eb07734 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Friedman" .
+
+_:N8d163d1657c649c6a812a095c1a2278c a foaf:Person ;
+    foaf:givenName "d" ;
+    foaf:surname "boyd" .
+
+_:N8fce777b3f674cbbbf361338e5581691 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Sweeney" .
+
+_:N911196d5abfe4d20a282874977709fb2 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Nissenbaum" .
+
+_:N913cb6fc0f1c45dbbc355a48168ce258 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Seaman Cook" .
+
+_:N9181391bfa6e4d26927e32b1389f352f a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Fort" .
+
+_:N92f80c56fa604f78bee215c8befe737c a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Hardt" .
+
+_:N9365ddda237a43728bedf86ba81411ca a foaf:Person ;
+    foaf:givenName "I." ;
+    foaf:surname "Zliobaite" .
+
+_:N950b5220466345fab466f1a78c6e0ff4 a foaf:Person ;
+    foaf:givenName "K.B." ;
+    foaf:surname "Cohen" .
+
+_:N958b42d7d28246329d52c0e5e3f6c12d a foaf:Person ;
+    foaf:givenName "I." ;
+    foaf:surname "Goodfellow" .
+
+_:N968f49f248eb4a92a797bfd5f131135c a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Müller" .
+
+_:N96d3e4a7190f42998dafc0725e092b8e a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Hardt" .
+
+_:N981d1676755949969420587a8b7d9a2b a foaf:Person ;
+    foaf:givenName "S.L." ;
+    foaf:surname "Bartky" .
+
+_:N9ca439e5c2e5407990708ae4ed68efb6 a foaf:Person ;
+    foaf:givenName "G." ;
+    foaf:surname "Adda" .
+
+_:N9cdfa22a073d4e0f80ca14e0655ffcf9 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Murgia" .
+
+_:N9dbeb25dca8f43d8a504616d1081c826 a foaf:Person ;
+    foaf:givenName "M.J." ;
+    foaf:surname "Quinn" .
+
+_:N9f671f3c3a1a4fdb862328c2de7c2345 a foaf:Person ;
+    foaf:givenName "J.-Y." ;
+    foaf:surname "Antoine" .
+
+_:Na4afae3bea1e4515a31c4ca92241d2b6 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Rogaway" .
+
+_:Na4be33ee376f436b854471c5305f9067 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Groopman" .
+
+_:Na5790c89709647c685f2cbe99913a860 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Schulman" .
+
+_:Na57c6573c34b4541b1c153f2eecd9571 a foaf:Person ;
+    foaf:givenName "J.-P." ;
+    foaf:surname "Departe" .
+
+_:Na8ea97affee640dd8a1fe4436423c8ee a foaf:Person ;
+    foaf:givenName "S.L." ;
+    foaf:surname "Spruit" .
+
+_:Naa1d3a976b014970b35d75f81980c965 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Mané" .
+
+_:Naa29d033aa5548e78a7e8cd287a0e852 a foaf:Person ;
+    foaf:givenName "Leah" ;
+    foaf:surname "Fessler" .
+
+_:Nab147091c77642a981bb9906aa3f5dd1 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Fokkens" .
+
+_:Nb071d53b9f944604910dd9aa5954f29d a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Shilton" .
+
+_:Nb5972186a55d42188c3b9f7f06f304fe a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Mullainathan" .
+
+_:Nb6597efc24f448668b09cc4c895eee36 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Golbeck" .
+
+_:Nb879036bbdf64a62914cd31a20d771b6 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Chang" .
+
+_:Nb93bd7dee5ef4528ad9cd02706bcdab7 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Yao" .
+
+_:Nbb3b86903c93447a8536d6eab7f374b4 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Shilton" .
+
+_:Nbd3c5c9c6bb6446c960d2708f4161369 a foaf:Person ;
+    foaf:givenName "M.L." ;
+    foaf:surname "Mauriello" .
+
+_:Nbdce28f8aa5340e9839e653f33defb04 a foaf:Person ;
+    foaf:givenName "E.F." ;
+    foaf:surname "Keller" .
+
+_:Nbfe8cd8f538a4d87821fbdde887b9472 a foaf:Person ;
+    foaf:givenName "J.Y." ;
+    foaf:surname "Zou" .
+
+_:Nc0284e0a65d04433a818f44017c5a913 a foaf:Person ;
+    foaf:givenName "Everett C.Parker" ;
+    foaf:surname "Lecture" .
+
+_:Nc0da773364eb48d0aea506b477ff52c3 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Bryson" .
+
+_:Nc8889bc9831149b3b045f646105bef35 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Paolino" .
+
+_:Nc9c8ba1ae32046a49f4b280c1c3c0418 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Caliskan-Islam" .
+
+_:Ncc1f5162be4644298d9ec753e4cc98b0 a foaf:Person ;
+    foaf:givenName "V." ;
+    foaf:surname "Saligrama" .
+
+_:Ncc99639c3fc0481787e98301414efda4 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Pouplin" .
+
+_:Nccb88665441a449897ef0435660202f8 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Herbelot" .
+
+_:Ncd6893636ae7409889c3b7eb6372a4dd a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Kalai" .
+
+_:Nd032025f8f8e4fb99fb340a920751567 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Anderson" .
+
+_:Nd1a03ab77e934f2fa0ca7b15b27bdc75 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Fort" .
+
+_:Nd3ff4b4f2c854e3fa8700d26e645d71b a foaf:Person ;
+    foaf:givenName "P.V." ;
+    foaf:surname "Klasnja" .
+
+_:Nd59d8334139c470c885df9655e6add37 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Sears" .
+
+_:Nd6be6718ca934fbcbd5dbf128c5547c1 a foaf:Organization ;
+    foaf:name "Jacob" .
+
+_:Nd7068b21120d4c1b8bf2685d71ebda4b a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Talwar" .
+
+_:Ndb80a3556a8a462e9db42bb81775054f a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Angwin" .
+
+_:Ndfde231890e84bed8b628f818530ca9c a foaf:Person ;
+    foaf:givenName "K.A." ;
+    foaf:surname "Foot" .
+
+_:Ne5270301b38947788f0a40f99df82995 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Misselhorn" .
+
+_:Ne59f3f0927024722bbc032cff9f2d0de a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Wattenberg" .
+
+_:Ne794edb7f7e04b52aa96fc298e9ae7a0 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Nissenbaum" .
+
+_:Ne90a1cd823a84b84b619281e8a0e1ff2 a foaf:Person ;
+    foaf:givenName "K.B." ;
+    foaf:surname "Cohen" .
+
+_:Ne95c4a447a564bc19e9383c8bf35d81b a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Rao" .
+
+_:Ne9be94e3a7e44bfa8c2360b8bfdc5969 a foaf:Person ;
+    foaf:givenName "J.A." ;
+    foaf:surname "Jacko" .
+
+_:Neafe0414b5dc4ecc9719763f47c4f6a5 a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Fung" .
+
+_:Nf0018596e92848a8867ff00aabb7e38d a foaf:Person ;
+    foaf:givenName "P." ;
+    foaf:surname "Christiano" .
+
+_:Nf037b2538e554f80a4a5994474ee699b a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Brendan McMahan" .
+
+_:Nf0cd528b5fe545cc8acaa560c2e03e42 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Sourour" .
+
+_:Nf1a8b8a69a95406c918370385658c0ca a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Angwin" .
+
+_:Nf30249a89dbb4c098a87c1b1142ff15a a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Gillespie" .
+
+_:Nf749e2887bb64a9785d0ae53666d61cf a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Sayles" .
+
+_:Nf7d90808d290417bb4628293f716e6a8 a foaf:Person ;
+    foaf:givenName "J.M." ;
+    foaf:surname "Kleinberg" .
+
+_:Nf98acca14f214947bdcd9722ba159348 a foaf:Person ;
+    foaf:givenName "E.N." ;
+    foaf:surname "Zalta" .
+
+_:Nfa24538c85ce4284acb31eb2ac9ce79f a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Bolukbasi" .
+
+_:Nfa305893a19a44b69efab1022d5cc747 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Steinhardt" .
+
+_:Nfec6f63bdc284e98a0d6981dd42c654b a foaf:Person ;
+    foaf:givenName "E.von" ;
+    foaf:surname "Redecker" .
+
+_:Nff704f45c6894cefa92eff5dcb207d24 a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Poovendran" .
+

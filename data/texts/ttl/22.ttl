@@ -1,0 +1,43 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_3> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Kindle epublication.</p>" ] .
+
+<J63DHI62> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nd8ef9d19b7244285a8a4fae4e790485e ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Oxford University Press" ] ;
+            dcterms:title "The Ethics of Information" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nd8ef9d19b7244285a8a4fae4e790485e ] ] .
+
+<PHNE2REF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5108c3b698d7482bb4c0038ac157fbba,
+                _:Nc2418d9a758d41dc8c0d26dd5831faca ;
+            dcterms:date "2014" ;
+            dcterms:title "A Practical Guide to Digital Journalism Ethics" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5108c3b698d7482bb4c0038ac157fbba ;
+                    rdf:_2 _:Nc2418d9a758d41dc8c0d26dd5831faca ] ] .
+
+_:N5108c3b698d7482bb4c0038ac157fbba a foaf:Person ;
+    foaf:givenName "Don" ;
+    foaf:surname "Heider" .
+
+_:Nc2418d9a758d41dc8c0d26dd5831faca a foaf:Person ;
+    foaf:givenName "Jon" ;
+    foaf:surname "Thomas" .
+
+_:Nd8ef9d19b7244285a8a4fae4e790485e a foaf:Person ;
+    foaf:givenName "Floridi" ;
+    foaf:surname "Luciano" .
+

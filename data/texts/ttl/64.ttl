@@ -1,0 +1,2215 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_121> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>preprint at</p>" ] .
+
+<#item_135> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>working paper version at</p>" ] .
+
+<#item_15> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Work through HTML Dog “Beginner HTML tutorial”</p>" ] .
+
+<#item_167> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>the-male-gazed</p>" ] .
+
+<#item_17> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>preprint available at</p>" ] .
+
+<#item_173> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>profiling/</p>" ] .
+
+<#item_182> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Powers ch. 5 “Sending email”</p>" ] .
+
+<#item_24> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>“Sectioning”</p>" ] .
+
+<#item_27> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>I have been collecting stories of erasure on Pinboard; find them at</p>" ] .
+
+<#item_36> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>diversity/</p>" ] .
+
+<#item_40> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Dominguez, “Intro to CSS Frameworks.”</p>" ] .
+
+<#item_75> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>UNDERGRADUATES: Executive summary only.</p>" ] .
+
+<#item_86> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>education/</p>" ] .
+
+<25EMSEW6> a z:UserItem ;
+    res:resource <https://medium.com/mother-jones/we-can-code-it-e5f64d8b3075> .
+
+<2D5J5YHQ> a z:UserItem ;
+    res:resource <http://juliepagano.com/blog/2014/05/10/so-you-want-to-be-an-ally/> .
+
+<2HIPQJDX> a z:UserItem ;
+    res:resource <http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=7044011> .
+
+<2K6VAGJI> a z:UserItem ;
+    res:resource <https://techcrunch.com/2016/07/31/the-other-pipeline/> .
+
+<2Q63H76Z> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2013/07/25/what-i-mean-when-i-talk-about-collaboration-with-teachers-part-i/" ] .
+
+<2QTLA8UV> a z:UserItem ;
+    res:resource <https://> .
+
+<3H8WUR9V> a z:UserItem ;
+    res:resource <http://computer.howstuffworks.com/web-page.htm> .
+
+<3IVXLCHI> a z:UserItem ;
+    res:resource <http://www.fs.fed.us/psw/publications/winter/psw_2006_winter001.cialdini.pdf> .
+
+<3LPPBQWB> a z:UserItem ;
+    res:resource <http://www.codeconquest.com/website/client-side-vs-server-side/> .
+
+<3P2NMP9N> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<3SS4SYCK> a z:UserItem ;
+    res:resource <https://www.theguardian.com/> .
+
+<3T2UW2VE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016/02/09/why-didnt-they-talk-to-you-privately-on-call-out-culture-and-power-differentials/" ] .
+
+<3ZERL9GQ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<42IWJ4R3> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N1542ceefd9c345dcaf9479cdabc9e7fe ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "“Understanding the $_FILES array,”" ] ;
+            dcterms:title "6 “How PHP handles file uploads,” “Adding a file upload field to a form" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1542ceefd9c345dcaf9479cdabc9e7fe ] ] .
+
+<42J7RXG8> a z:UserItem ;
+    res:resource <https://github.com/erikr/lessobviouschecklist> .
+
+<45TEIGAH> a z:UserItem ;
+    res:resource <https://soledadpenades.com/> .
+
+<48UA7HY2> a z:UserItem ;
+    res:resource <http://www.gamasutra.com/view/news/264894/> .
+
+<4DY7M4QT> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<4NHY2C8W> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<4XRWKYVF> a z:UserItem ;
+    res:resource <https://articles.extension.org/sites/default/files/The%2520Path%2520from%2520Exclusive%2520Club.pdf> .
+
+<52G66T8I> a z:UserItem ;
+    res:resource <http://www.digitalhumanities.org/dhq/vol/9/2/000201/000201.html> .
+
+<56MC6244> a z:UserItem ;
+    res:resource <UNDERGRADUATES:> .
+
+<5P7HSEPG> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<5S3XX8BK> a z:UserItem ;
+    res:resource <http://kronda.com/stop-devaluing-black-womens-labor/> .
+
+<6B9QMUJU> a z:UserItem ;
+    res:resource <http://anh.cs.luc.edu/170/Kindergarten.pdf> .
+
+<6ILJCFPB> a z:UserItem ;
+    res:resource <http://arstechnica.com/information-technology/2016/01/on-american-indian-reservations-challenges-perpetuate-the-digital-divide/> .
+
+<6Q36FFDB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N9ef42ca06b2c4919a3c4881ff4ef604d ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9ef42ca06b2c4919a3c4881ff4ef604d ] ] .
+
+<6QVNCF8K> a z:UserItem ;
+    res:resource <http://juliepagano.com/blog/2014/02/26/bad-ally-quiz/> .
+
+<6TJPLU6I> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016/09/06/science/gender-bias-scientific-conferences.html" ] .
+
+<7442NDST> a z:UserItem ;
+    res:resource <https://www.safaribooksonline.com/> .
+
+<7DHG98ZV> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<7FK5W73P> a z:UserItem ;
+    res:resource <https://lnakamur.files.wordpress.com/2011/01/indigenous-circuits-nakamura-aq.pdf> .
+
+<7MLND7KS> a z:UserItem ;
+    res:resource <http://juliepagano.com/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/> .
+
+<7XDUJXBV> a z:UserItem ;
+    res:resource <http://www.youtube.com/watch?v=ulNSlES1Fds> .
+
+<7ZU8LN4W> a z:UserItem ;
+    res:resource <http://adanewmedia.org/2014/07/issue5-raval/> .
+
+<8D4KSY46> a z:UserItem ;
+    res:resource <https://faculty.ist.psu.edu/lyarger/DataBase-Kvasny-> .
+
+<8WSSVQFQ> a z:UserItem ;
+    res:resource <http://duckofminerva.com/2016/05/> .
+
+<8Z7GRKZ5> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<99582Q4X> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<99HI83IX> a z:UserItem ;
+    res:resource <https://pando.com/2016/02/11/does-vcs-> .
+
+<9L85MD8Z> a z:UserItem ;
+    res:resource <http://www.harihareswara.net/sumana/2013/11/13/0> .
+
+<9REHW2SM> a z:UserItem ;
+    res:resource <https://github.com/> .
+
+<9SE54SRQ> a z:UserItem ;
+    res:resource <https://medium.com/@cecilycarver/> .
+
+<9U883R7L> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N12b6a8b01f3640d2825c005942f8029a ;
+            dcterms:title "Persistence is cultural: Professional socialization and the reproduction of sex segregation" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N12b6a8b01f3640d2825c005942f8029a ] ;
+            bibo:uri "https://" ] .
+
+<9UK7P9B7> a z:UserItem ;
+    res:resource <http://www.themarysue.com/black-women-in-tech-debunk-pipeline-excuse/> .
+
+<A42G8EP7> a z:UserItem ;
+    res:resource <http://dx.doi.org/> .
+
+<A5BTBQRG> a z:UserItem ;
+    res:resource <http://alistapart.com/article/tweaking-the-moral-ui> .
+
+<A9RZ9C7X> a z:UserItem ;
+    res:resource <http://gandre.ws/blog/blog/2013/08/27/digital-skills-the-adults-are-also-not-all-right/> .
+
+<ACL8IU6F> a z:UserItem ;
+    res:resource <https://www.theatlantic.com/business/archive/2015/12/meritocracy/418074/> .
+
+<AQHENV3C> a z:UserItem ;
+    res:resource <https://pinboard.in/u:dsalo/t:500/t:erasure.)> .
+
+<B28TKI3L> a z:UserItem ;
+    res:resource <http://www.htmldog.com/guides/html/intermediate/> .
+
+<B9DKS2ZA> a z:UserItem ;
+    res:resource <https://modelviewculture.com/pieces/unlocking-the-invisible-elevator-accessibility-at-tech-conferences> .
+
+<BDF45Z9W> a z:UserItem ;
+    res:resource <http://fusion.net/story/340171/how-nextdoor-reduced-racial-> .
+
+<BGZPNXTE> a z:UserItem ;
+    res:resource <http://qz.com/613748/slack-sent-four-black-female-engineers-to-accept-an-award-and-make-a-statement-on-> .
+
+<BMAK7IY5> a z:UserItem ;
+    res:resource <http://hypatia.ca/2014/08/05/what-you-can-do/> .
+
+<BUSNHUC3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1826232f1a7b43aea37e7ac4d0f3f284 ;
+            dcterms:title "3 “Using Variables to Represent Changing Values,” “Understanding When to Use Quotes” “Displaying PHP Output” “Adding to an existing string" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1826232f1a7b43aea37e7ac4d0f3f284 ] ] .
+
+<BVB7XGTQ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<BVED2BER> a z:UserItem ;
+    res:resource <GRADUATES:> .
+
+<BXZZH9EW> a z:UserItem ;
+    res:resource <https://recompilermag.com/issues/issue-4/women-in-programming-erasure-and-visibility/> .
+
+<C7WTRKJ3> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<C8MWZVQH> a z:UserItem ;
+    res:resource <https://medium.com/this-is-hard/ffffff-diversity-1bd2b3421e8a> .
+
+<CELFNTLQ> a z:UserItem ;
+    res:resource <http://> .
+
+<CI5FYMSV> a z:UserItem ;
+    res:resource <https://modelviewculture.com/pieces/> .
+
+<CLY9D8Z4> a z:UserItem ;
+    res:resource <http://ejournal.narotama.ac.id/files/Accounting%2520for%2520Gender%2520Differences%2520in%2520Entrance%2520into%2520STEM%2520Occupations.pdf> .
+
+<CPZ35T96> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Establishing an upload folder,” “Moving the temporary file to the upload folder" ] .
+
+<CRMX2YB7> a z:UserItem ;
+    res:resource <https://www.youtube.com/watch?v=z8FfeA0F6Y0> .
+
+<CXAPHM53> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<CYTKWT63> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<D4YXNBNB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "the readings. (Keep your score to yourself; this is not a contest. Everyone starts somewhere, and my own score is not zero" ] .
+
+<D57Q5AGR> a z:UserItem ;
+    res:resource <http://dx.doi.org/10.2189/asqu.2010.55.4.543> .
+
+<DAU274WS> a z:UserItem ;
+    res:resource <http://fortune.com/2014/08/26/performance-review-gender-bias/> .
+
+<DFKX24V3> a z:UserItem ;
+    res:resource <http://www.flosspols.org/deliverables/D16HTML/FLOSSPOLS-D16-Gender_Integrated_Report_of_Findings.pdf> .
+
+<DNVQIUBA> a z:UserItem ;
+    res:resource <https://modelviewculture.com/> .
+
+<DSYF9TZ5> a z:UserItem ;
+    res:resource <http://fusion.net/story/369325/how-to-stop-online-harassment/> .
+
+<DTKLDIEY> a z:UserItem ;
+    res:resource <https://medium.com/this-is-hard/the-other-side-of-diversity-1bb3de2f053e> .
+
+<E4T2GRD3> a z:UserItem ;
+    res:resource <http://papers.ssrn.com/sol3/papers.cfm?> .
+
+<EBMKUL58> a z:UserItem ;
+    res:resource <http://adanewmedia.org/2016/10/issue10-miller-rauch-kaplan/> .
+
+<EHFCD2A8> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<EJ5L85GP> a z:UserItem ;
+    res:resource <https://byrslf.co/vcs-don-t-compare-me-to-your-wife-just-don-t-9dc2c8c1ac93> .
+
+<EN58HVZB> a z:UserItem ;
+    res:resource <http://the-toast.net/2014/02/07/trans-tech-industry/> .
+
+<EQMGK5Y7> a z:UserItem ;
+    res:resource <http://www.uchastings.edu/news/articles/> .
+
+<EQT76D4U> a z:UserItem ;
+    res:resource <https://services.google.com/fh/> .
+
+<ETTMELNH> a z:UserItem ;
+    res:resource <https://modelviewculture.com/pieces/when-i-> .
+
+<EZJXFUQD> a z:UserItem ;
+    res:resource <http://dx.doi.org/10.1093/iwc/iwt047> .
+
+<F6F8H9PQ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<F8257N69> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0d1c4da187f040da80805b3072e1e053 ;
+            dcterms:title "Gender-based violence in 140 characters or fewer: a #BigData case study of Twitter" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0d1c4da187f040da80805b3072e1e053 ] ;
+            bibo:uri "http://" ] .
+
+<FACX63QP> a z:UserItem ;
+    res:resource <http://genderandset.open.ac.uk/index.php/genderandset/article/view/435> .
+
+<FRFGHUCI> a z:UserItem ;
+    res:resource <https://services.google.com/fh/files/misc/diversity-gaps-in-computer-science-report.pdf> .
+
+<FRM88U7Y> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8a053e89b5284b0889053f168dc16358,
+                _:Ne6b3704740dc4258b18fda06b82de7cd ;
+            dcterms:title "Stag parties linger: continued gender bias in a female-rich scientific discipline" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne6b3704740dc4258b18fda06b82de7cd ;
+                    rdf:_2 _:N8a053e89b5284b0889053f168dc16358 ] ;
+            bibo:uri "http://" ] .
+
+<FV8NEK7U> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N969f9ec5b5674d68bf1367941a7350b4,
+                _:Nf49dc44a56454ec39f703d847886a32c ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Interacting with" ] ;
+            dcterms:title "Gender, representation and online participation: A quantitative study" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf49dc44a56454ec39f703d847886a32c ;
+                    rdf:_2 _:N969f9ec5b5674d68bf1367941a7350b4 ] ] .
+
+<FXSUN2M5> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<FZNDX48U> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<G3VJPP3A> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N902fe01222664e76ad75e4f699b170bc ;
+            dcterms:title "7 “Opening and closing files for read/write operations" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N902fe01222664e76ad75e4f699b170bc ] ] .
+
+<G3WQSWYN> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N9d8def7074934edaa5afdf4c60049094 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "PNAS" ] ;
+                    bibo:issue "41" ;
+                    bibo:volume "109" ] ;
+            dcterms:title "Science faculty’s subtle gender biases favor male students" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9d8def7074934edaa5afdf4c60049094 ] ;
+            bibo:uri "http://dx.doi.org/" ] .
+
+<GCU84X75> a z:UserItem ;
+    res:resource <http://conta.uom.gr/conta/publications/PDF/> .
+
+<GFLZMYHV> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<GNFPUELF> a z:UserItem ;
+    res:resource <http://dx.doi.org/10.5465/AMBPP.2005.18778668> .
+
+<GQMCJKWW> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<GQRNGH3Z> a z:UserItem ;
+    res:resource <https://ww2.kqed.org/> .
+
+<HAR2Z7NY> a z:UserItem ;
+    res:resource <http://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community> .
+
+<HC5BDWAF> a z:UserItem ;
+    res:resource <https://backchannel.com/a-womens-history-of-silicon-valley-feea9279d88a> .
+
+<HPBXE79R> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<HUFPZAC3> a z:UserItem ;
+    res:resource <https://www.bloomberg.com/news/features/> .
+
+<IGITBMAB> a z:UserItem ;
+    res:resource <http://blog.randi.io/2015/12/31/the-developer-formerly-known-as-freebsdgirl/> .
+
+<IQ5AV8GZ> a z:UserItem ;
+    res:resource <https://medium.com/@ameliaabreu/care-automation-and-advertising-9d9122d50437> .
+
+<J6366GNM> a z:UserItem ;
+    res:resource <https://faculty.ist.psu.edu/lyarger/DB-TrauthCainJoshiKvasnyBooth.pdf> .
+
+<J924M6F3> a z:UserItem ;
+    res:resource <http://dx.doi.org/10.1515/popets-2015-0007> .
+
+<JAMQ2TY9> a z:UserItem ;
+    res:resource <http://juliepagano.com/blog/2014/06/08/on-fighting-for-> .
+
+<JEG6HW3P> a z:UserItem ;
+    res:resource <https://faculty.ist.psu.edu/lyarger/iCS-Kvasny-Forthcoming.pdf> .
+
+<JLX3P64G> a z:UserItem ;
+    res:resource <http://dx.doi.org/10.1177/1461444811422887> .
+
+<JNL8FA4S> a z:UserItem ;
+    res:resource <http://geekfeminism.wikia.com/wiki/Missing_stair> .
+
+<JPHMLN4V> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<K4BN3FSJ> a z:UserItem ;
+    res:resource <https://hbr.org/2014/10/hacking-techs-diversity-problem> .
+
+<K5YTW3VA> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Na55d2eb991c14376b34f30c204de2c6d ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "The DATA" ] ;
+            dcterms:title "Let the sisters speak: understanding information technology from the standpoint of the ‘other.’" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na55d2eb991c14376b34f30c204de2c6d ] ] .
+
+<KBH35SBC> a z:UserItem ;
+    res:resource <https://medium.com/backchannel/techs-high-barrier-to-entry-for-the-underprivileged-da254356547d#.bazan8jm5> .
+
+<KEA9ZT9K> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nf6bfce0f59574039a55c9f5f621373e3 ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "New Media & Society" ] ;
+            dcterms:title "Race and racism in Internet Studies: a review and critique" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf6bfce0f59574039a55c9f5f621373e3 ] ;
+            bibo:uri "http://dx.doi.org/" ] .
+
+<KUVSIG55> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<L4AK8NV9> a z:UserItem ;
+    res:resource <http://culturedigitally.org/> .
+
+<LC8BBHQB> a z:UserItem ;
+    res:resource <https://backchannel.com/how-meetup-ditched-its-boys-club-4a3a3084e72f> .
+
+<LKMMR9YB> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<LN6HGZ4Q> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5688e387dd5f45c18e8d9cc345a695eb ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5688e387dd5f45c18e8d9cc345a695eb ] ] .
+
+<M22BPX3J> a z:UserItem ;
+    res:resource <http://polygraph.cool/films/> .
+
+<MGCQTSKM> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N3c2810c7fc9a4825a39a866e0df0c159,
+                _:Nc067e133d15547d9b76540e35a8f0b26 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Computer Supported Collaborative" ] ;
+            dcterms:title "Gender and diversity in collaborative virtual teams" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc067e133d15547d9b76540e35a8f0b26 ;
+                    rdf:_2 _:N3c2810c7fc9a4825a39a866e0df0c159 ] ] .
+
+<MQ5IC7LP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3d00e69d0bfd4fccbaa8576537e9873f ;
+            dcterms:title "5 “Creating a reusable script” “Preserving user input when a form is incomplete" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3d00e69d0bfd4fccbaa8576537e9873f ] ] .
+
+<N3IZCGMA> a z:UserItem ;
+    res:resource <https://ellyob.wordpress.com/2015/06/29/professional-confidence/> .
+
+<P7P32WUG> a z:UserItem ;
+    res:resource <http://www.nber.org/papers/w11474> .
+
+<PINRISDM> a z:UserItem ;
+    res:resource <http://www.chesnok.com/daily/> .
+
+<PUAWW2NF> a z:UserItem ;
+    res:resource <https://www.harihareswara.net/sumana/> .
+
+<Q2X6NNCN> a z:UserItem ;
+    res:resource <http://digitalequityforlearning.org/wp-content/uploads/2015/12/jgcc_opportunityforall.pdf> .
+
+<QA85VD2E> a z:UserItem ;
+    res:resource <https://www.bustle.com/articles/78360-i-found-my-way-back-to-tech-with-the-help-of-people-who-understood-why-id> .
+
+<QKYBGW5I> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<RJXEX8UT> a z:UserItem ;
+    res:resource <http://www.laurenbacon.com/women-tech-empathy-work/> .
+
+<S3ALBB9G> a z:UserItem ;
+    res:resource <https://www.insidehighered.com/advice/2016/04/13/how-be-ally-> .
+
+<S43J8W6Y> a z:UserItem ;
+    res:resource <https://modelviewculture.com/pieces/how-the-rhetoric-of-imposter-syndrome-is-used-to-gaslight-women-in-> .
+
+<S5LW923W> a z:UserItem ;
+    res:resource <http://www.slate.com/blogs/lexicon_valley/> .
+
+<SBZMAYUD> a z:UserItem ;
+    res:resource <http://www.bbc.com/news/blogs-trending-35938633> .
+
+<SCLBYMR3> a z:UserItem ;
+    res:resource <https://medium.com/lioness-health/vibrators-marijuana-and-venture-capitalists-8a87b8779cd4#.483klp6lm> .
+
+<SE8YK5Q9> a z:UserItem ;
+    res:resource <http://gandre.ws/blog/blog/2013/08/26/digital-skills-looking-past-digital-native-toward-curricular-reform/> .
+
+<SJKDKSVN> a z:UserItem ;
+    res:resource <http://www.theglobeandmail.com/report-on-business/small-business/startups/how-startups-can-create-a-culture-of-inclusiveness/article27865146/> .
+
+<SR64DL6C> a z:UserItem ;
+    res:resource <http://ssrn.com/abstract=2063742> .
+
+<TA7ZBG5U> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N620077cc98964d56970e28de24e7ef8e ;
+            dcterms:title "A cyberfeminist utopia?: Perceptions of gender and computer science among Malaysian women computer science" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N620077cc98964d56970e28de24e7ef8e ] ] .
+
+<U7VLVBKA> a z:UserItem ;
+    res:resource <http://www.marieclaire.com/career-advice/> .
+
+<U8HG8C9N> a z:UserItem ;
+    res:resource <http://butyoureagirl.com/2014/04/09/adria-richards-on-women-in-it-industry/> .
+
+<U8S8AZ43> a z:UserItem ;
+    res:resource <http://www.wired.com/2013/11/silicon-valley-isnt-a-meritocracy-and-the-cult-of-the-entrepreneur-holds-people-back/> .
+
+<UEWQICH8> a z:UserItem ;
+    res:resource <http://mitadmissions.org/blogs/entry/picture-yourself-as-a-stereotypical-male> .
+
+<UFA2C6D6> a z:UserItem ;
+    res:resource <http://www.htmldog.com/guides/html/advanced/> .
+
+<UGPNSFDR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N2d67967754b545a4855e2c049dc67122,
+                _:N909db9da9e464c66a644b228129a54ec ;
+            dcterms:title "Automated experiments on ad privacy settings: a tale of opacity, choice, and discrimination" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N909db9da9e464c66a644b228129a54ec ;
+                    rdf:_2 _:N2d67967754b545a4855e2c049dc67122 ] ] .
+
+<UIJ2JKYI> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<UK9FM8AM> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Stuck in the Shallow End ch" ] ;
+            dcterms:title "Claimed spaces: ‘preparatory privilege’ and high school computer science" ;
+            bibo:pages "4 71–95" ] .
+
+<UPAR755I> a z:UserItem ;
+    res:resource <http://dx.doi.org/10.1177/0162243907306192> .
+
+<UPXZYZIN> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N351040463a384f3ebae7a27c813639fd ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "“The truth according to PHP”" ] ;
+            dcterms:title "3 “Making decisions,” “Making comparisons" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N351040463a384f3ebae7a27c813639fd ] ] .
+
+<UTXGKHYM> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<UUEK54RM> a z:UserItem ;
+    res:resource <https://faculty.ist.psu.edu/lyarger/CR-WarrenJungHechtKvasnyHenderson.pdf> .
+
+<V7L58D4H> a z:UserItem ;
+    res:resource <http://mattvetter.net/digitalrhetorics/wp-content/uploads/sites/5/2014/01/Games-and-Culture-2012-Monson-48-71.pdf> .
+
+<VCZ5CK3H> a z:UserItem ;
+    res:resource <http://www.htmldog.com/guides/css/beginner/> .
+
+<VDEEJGMF> a z:UserItem ;
+    res:resource <https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5> .
+
+<VFQQDF59> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N6f29f31e33614d7197c86ad7473c5c0a ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Stuck in the Shallow End" ] ;
+            dcterms:title "Afterword" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6f29f31e33614d7197c86ad7473c5c0a ] ;
+            bibo:pages "141–144" ] .
+
+<VFUPWZFQ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nccddd30eac8647bcb318e89d2521a403 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nccddd30eac8647bcb318e89d2521a403 ] ] .
+
+<VHA5Y65V> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N07d31a39be794a259310378b7487585a,
+                _:N2d31eaec04aa49b9a00cd7633ad95776 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Model View Culture" ] ;
+            dcterms:title "A code of conduct is not enough" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2d31eaec04aa49b9a00cd7633ad95776 ;
+                    rdf:_2 _:N07d31a39be794a259310378b7487585a ] ;
+            bibo:uri "https://modelviewculture.com/" ] .
+
+<VI386KMU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N96a8208950a245b1a00b85b4625ddc04 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N96a8208950a245b1a00b85b4625ddc04 ] ] .
+
+<VJUWJM4H> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N67d544268b6440fd9779ea6e9d4c8078 ;
+            dcterms:title "4 “Introducing the PHP include commands” “Where PHP looks for include files" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N67d544268b6440fd9779ea6e9d4c8078 ] ] .
+
+<VSZXEB3K> a z:UserItem ;
+    res:resource <http://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/> .
+
+<VT6T7NDF> a z:UserItem ;
+    res:resource <http://blog.aurynn.com/contempt-culture> .
+
+<W4X8ICAM> a z:UserItem ;
+    res:resource <https://thebias.com/> .
+
+<W8M7L5P7> a z:UserItem ;
+    res:resource <http://possibility.cylab.cmu.edu/adfisher/> .
+
+<WDCLITCE> a z:UserItem ;
+    res:resource <http://www.jofreeman.com/joreen/tyranny.htm> .
+
+<WWIKVFNQ> a z:UserItem ;
+    res:resource <https://techcrunch.com/2016/10/20/anita-borg-institute-grace-hopper-diversity/> .
+
+<WZEBVSSJ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<X4ZGPUA7> a z:UserItem ;
+    res:resource <http://money.cnn.com/2016/02/17/technology/black-women-tech-startups-project-diane/> .
+
+<X9U94PK6> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<XGPZLUNX> a z:UserItem ;
+    res:resource <https://codeascraft.com/2016/10/19/> .
+
+<XSAAEWTZ> a z:UserItem ;
+    res:resource <https://faculty.ist.psu.edu/lyarger/JICES-PowerRelations.pdf> .
+
+<Y7S8SYTF> a z:UserItem ;
+    res:resource <http://jvns.ca/blog/2014/05/28/anonymous-talk-submission-equals-> .
+
+<Y9BSE647> a z:UserItem ;
+    res:resource <http://www.diversityjournal.com/13763-affinity-bias-conundrum-illusion-inclusion-part-iii/> .
+
+<YCDCR6Y7> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<YIT7N9M4> a z:UserItem ;
+    res:resource <https://www.theguardian.com/technology/2016/mar/28/tay-bot-microsoft-ai-women-siri-her-ex-machina> .
+
+<YMVA63YF> a z:UserItem ;
+    res:resource <http://host.madison.com/ct/news/local/writers/bryna-godar/wired-unwired-madison-s-digital-divide-is-an-issue-of/article_c3f4209c-3e1f-5784-9e5d-e2acf47f85a1.html> .
+
+<YTSF6IY8> a z:UserItem ;
+    res:resource <http://www.cosmopolitan.com/entertainment/movies/a53909/tracy-oliver-essay/> .
+
+<Z55JZU4N> a z:UserItem ;
+    res:resource <https://english.tau.ac.il/sites/nihul_en.tau.ac.il/files/media_server/Recanati/management/publications/tadmor/not_just.pdf> .
+
+<ZBKMSXZ5> a z:UserItem ;
+    res:resource <https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy> .
+
+<ZD3N5A8X> a z:UserItem ;
+    res:resource <http://www.nytimes.com/> .
+
+<ZFIX9HZ2> a z:UserItem ;
+    res:resource <https://kateheddleston.com/blog/social-norms-and-gendered-expectations> .
+
+<ZKYXMCBI> a z:UserItem ;
+    res:resource <https://www.fastcompany.com/3059036/most-creative-people/what-do-women-want-at-hackathons-nasa-has-a-list> .
+
+<ZS72FRHS> a z:UserItem ;
+    res:resource <http://adanewmedia.org/2016/10/> .
+
+<ZSVLEKIB> a z:UserItem ;
+    res:resource <https://www.washingtonpost.com/news/powerpost/wp/2016/09/13/white-house-women-are-now-in-the-room-where-it-happens/> .
+
+<ZVPHCWMA> a z:UserItem ;
+    res:resource <http://hunterwalk.com/2015/03/20/how-this-young-female-and-latina-investor-broke-into-a-middle-aged-> .
+
+<GRADUATES:> a bibo:Document ;
+    bibo:uri "GRADUATES:" .
+
+<UNDERGRADUATES:> a bibo:Document ;
+    bibo:uri "UNDERGRADUATES:" .
+
+<http://> a bibo:Document ;
+    dcterms:creator _:N6bfa991249a341eea8c352fc1f3a5e41 ;
+    dcterms:title "Confidence through feedback, or why impostor syndrome is the wrong metaphor" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6bfa991249a341eea8c352fc1f3a5e41 ] ;
+    bibo:uri "http://" .
+
+<http://adanewmedia.org/2014/07/issue5-raval/> a bibo:Book ;
+    dcterms:creator _:Ncdf4da2cf48c46dabb53d99dbe2d7689 ;
+    dcterms:publisher [ a foaf:Organization ;
+            address:localityName "Ada" ;
+            foaf:name "New Media and Culture" ] ;
+    dcterms:title "The encyclopedia must fail! Notes on queering Wikipedia" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ncdf4da2cf48c46dabb53d99dbe2d7689 ] ;
+    bibo:uri "http://adanewmedia.org/2014/07/issue5-raval/" .
+
+<http://adanewmedia.org/2016/10/> a bibo:Document ;
+    dcterms:creator _:Nb833da2c5d82441d9364fa562327777e ;
+    dcterms:title "Thinking beyond ‘free speech’ in responding to online harassment" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb833da2c5d82441d9364fa562327777e ] ;
+    bibo:uri "http://adanewmedia.org/2016/10/" .
+
+<http://adanewmedia.org/2016/10/issue10-miller-rauch-kaplan/> a bibo:Document ;
+    dcterms:creator _:N4c7528f5199c46379b38034eb8ba0558,
+        _:Nc366138d00a34c548d36618cb8bd65c6 ;
+    dcterms:title "Gender differences in movie superheroes’ roles, appearance, and violence" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N4c7528f5199c46379b38034eb8ba0558 ;
+            rdf:_2 _:Nc366138d00a34c548d36618cb8bd65c6 ] ;
+    bibo:uri "http://adanewmedia.org/2016/10/issue10-miller-rauch-kaplan/" .
+
+<http://alistapart.com/article/tweaking-the-moral-ui> a bibo:Book ;
+    dcterms:creator _:Nbee702d42ec1440e858a34cba4712ef6 ;
+    dcterms:publisher [ a foaf:Organization ;
+            foaf:name "A List Apart" ] ;
+    dcterms:title "Tweaking the moral UI" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbee702d42ec1440e858a34cba4712ef6 ] ;
+    bibo:uri "http://alistapart.com/article/tweaking-the-moral-ui" .
+
+<http://anh.cs.luc.edu/170/Kindergarten.pdf> a bibo:Document ;
+    dcterms:creator _:Nd3b2f2251494495b95f7237f48d6a5a4,
+        _:Nf10287d3065246dbb52fbdd86591b569 ;
+    dcterms:title "All I need to know about pair programming I learned in kindergarten" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd3b2f2251494495b95f7237f48d6a5a4 ;
+            rdf:_2 _:Nf10287d3065246dbb52fbdd86591b569 ] ;
+    bibo:uri "http://anh.cs.luc.edu/170/Kindergarten.pdf" .
+
+<http://arstechnica.com/information-technology/2016/01/on-american-indian-reservations-challenges-perpetuate-the-digital-divide/> a bibo:Document ;
+    dcterms:creator _:Naf16e6a26586427cb346b215303a9550 ;
+    dcterms:title "On American Indian reservations, challenges perpetuate the digital divide" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Naf16e6a26586427cb346b215303a9550 ] ;
+    bibo:uri "http://arstechnica.com/information-technology/2016/01/on-american-indian-reservations-challenges-perpetuate-the-digital-divide/" .
+
+<http://blog.aurynn.com/contempt-culture> a bibo:Document ;
+    dcterms:creator _:N94ecd521c1d644ba9a3502c848ce105c ;
+    dcterms:title "Contempt culture" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N94ecd521c1d644ba9a3502c848ce105c ] ;
+    bibo:uri "http://blog.aurynn.com/contempt-culture" .
+
+<http://blog.randi.io/2015/12/31/the-developer-formerly-known-as-freebsdgirl/> a bibo:Document ;
+    dcterms:creator _:N3ea1e012a660419b8b0f7a8d6b9db43a ;
+    dcterms:title "The developer formerly known as FreeBSDGirl" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N3ea1e012a660419b8b0f7a8d6b9db43a ] ;
+    bibo:uri "http://blog.randi.io/2015/12/31/the-developer-formerly-known-as-freebsdgirl/" .
+
+<http://butyoureagirl.com/2014/04/09/adria-richards-on-women-in-it-industry/> a bibo:Document ;
+    dcterms:creator _:Nacdc623d75da46068f22b7750756260d ;
+    dcterms:title "Technology has a culture problem, not a man problem" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nacdc623d75da46068f22b7750756260d ] ;
+    bibo:uri "http://butyoureagirl.com/2014/04/09/adria-richards-on-women-in-it-industry/" .
+
+<http://computer.howstuffworks.com/web-page.htm> a bibo:Document ;
+    dcterms:title "How web pages work" ;
+    bibo:uri "http://computer.howstuffworks.com/web-page.htm" .
+
+<http://conta.uom.gr/conta/publications/PDF/> a bibo:Document ;
+    dcterms:title "Learning: Best practices and principles for instructors" ;
+    bibo:uri "http://conta.uom.gr/conta/publications/PDF/" .
+
+<http://culturedigitally.org/> a bibo:Document ;
+    dcterms:creator _:N92316fdbaf8247dbb5ac9e9ec7b8f984,
+        _:N9688ccfe309545ad912b66b2771d7b30 ;
+    dcterms:date "2012/06/engendering-change-gender-advocacy-in-open-source/" ;
+    dcterms:title "Engendering Change? Gender Advocacy in Open Source" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9688ccfe309545ad912b66b2771d7b30 ;
+            rdf:_2 _:N92316fdbaf8247dbb5ac9e9ec7b8f984 ] ;
+    bibo:uri "http://culturedigitally.org/" .
+
+<http://digitalequityforlearning.org/wp-content/uploads/2015/12/jgcc_opportunityforall.pdf> a bibo:Document ;
+    dcterms:creator _:N26e4182add31483e83afd8d9318c6aed,
+        _:N3f0e84c7e43d4012956cb1824d7b9e0e ;
+    dcterms:title "Opportunities for all? Technology and learning in lower-income families" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N3f0e84c7e43d4012956cb1824d7b9e0e ;
+            rdf:_2 _:N26e4182add31483e83afd8d9318c6aed ] ;
+    bibo:uri "http://digitalequityforlearning.org/wp-content/uploads/2015/12/jgcc_opportunityforall.pdf" .
+
+<http://duckofminerva.com/2016/05/> a bibo:Document ;
+    dcterms:creator _:N072f0d9556674c8782c51ad859c50853 ;
+    dcterms:title "Five ‘don’ts’ for introducing a female speaker (and why this matters" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N072f0d9556674c8782c51ad859c50853 ] ;
+    bibo:uri "http://duckofminerva.com/2016/05/" .
+
+<http://dx.doi.org/> a bibo:AcademicArticle ;
+    dcterms:creator _:Ncfb4223bb1bc435e8289fdfff7b93bf8 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Cambridge Journal of Economics" ] ;
+            bibo:issue "1" ;
+            bibo:volume "34" ] ;
+    dcterms:title "Feminist theories of technology" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ncfb4223bb1bc435e8289fdfff7b93bf8 ] ;
+    bibo:pages "143–152" ;
+    bibo:uri "http://dx.doi.org/" .
+
+<http://dx.doi.org/10.1093/iwc/iwt047> a bibo:AcademicArticle ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2014" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Computers" ] ;
+            bibo:issue "5" ;
+            bibo:volume "26" ] ;
+    bibo:doi "10.1093/iwc/iwt047" ;
+    bibo:pages "488–511," ;
+    bibo:uri "http://dx.doi.org/10.1093/iwc/iwt047" .
+
+<http://dx.doi.org/10.1177/0162243907306192> a bibo:AcademicArticle ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Science Technology Human Values" ] ;
+            bibo:issue "1" ;
+            bibo:volume "33" ] ;
+    dcterms:title "students and faculty" ;
+    bibo:doi "10.1177/0162243907306192" ;
+    bibo:pages "5–27" ;
+    bibo:uri "http://dx.doi.org/10.1177/0162243907306192" .
+
+<http://dx.doi.org/10.1177/1461444811422887> a bibo:AcademicArticle ;
+    dcterms:creator _:Nbe4b084c61dc47ca884c422a186ebb0b ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "New Media and Society" ] ;
+            bibo:issue "4" ;
+            bibo:volume "14" ] ;
+    dcterms:title "‘Patches don’t have gender’: What is not open in open source software" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbe4b084c61dc47ca884c422a186ebb0b ] ;
+    bibo:doi "10.1177/1461444811422887" ;
+    bibo:pages "669–683" ;
+    bibo:uri "http://dx.doi.org/10.1177/1461444811422887" .
+
+<http://dx.doi.org/10.1515/popets-2015-0007> a bibo:AcademicArticle ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Proceedings on Privacy Enhancing Technologies" ] ;
+            bibo:issue "1" ;
+            bibo:volume "2015" ] ;
+    bibo:doi "10.1515/popets-2015-0007" ;
+    bibo:pages "92–112" ;
+    bibo:uri "http://dx.doi.org/10.1515/popets-2015-0007" .
+
+<http://dx.doi.org/10.2189/asqu.2010.55.4.543> a bibo:AcademicArticle ;
+    dcterms:creator _:N0e8e6d2924924eb2ab870a49a9031d21,
+        _:Nbaf556f979264ef48f0bc4568e58ca04 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Administrative Science Quarterly" ] ;
+            bibo:issue "4" ;
+            bibo:volume "55" ] ;
+    dcterms:title "The paradox of meritocracy in organizations" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbaf556f979264ef48f0bc4568e58ca04 ;
+            rdf:_2 _:N0e8e6d2924924eb2ab870a49a9031d21 ] ;
+    bibo:doi "10.2189/asqu.2010.55.4.543" ;
+    bibo:uri "http://dx.doi.org/10.2189/asqu.2010.55.4.543" .
+
+<http://dx.doi.org/10.5465/AMBPP.2005.18778668> a bibo:Article ;
+    dcterms:creator _:Nda4fe8a817b04f42963634463cbd89dc ;
+    dcterms:isPartOf [ a bibo:Proceedings ;
+            dcterms:title "Academy of Management Proceedings 2005" ] ;
+    dcterms:title "Gender, race, and meritocracy in organizational careers" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nda4fe8a817b04f42963634463cbd89dc ] ;
+    bibo:doi "10.5465/AMBPP.2005.18778668" ;
+    bibo:uri "http://dx.doi.org/10.5465/AMBPP.2005.18778668" .
+
+<http://ejournal.narotama.ac.id/files/Accounting%2520for%2520Gender%2520Differences%2520in%2520Entrance%2520into%2520STEM%2520Occupations.pdf> a bibo:Document ;
+    dcterms:creator _:N40cc96a882c24593a63d59fbf7c17c12 ;
+    dcterms:title "The missing women in STEM? Accounting for gender differences in entrance into STEM occupations" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N40cc96a882c24593a63d59fbf7c17c12 ] ;
+    bibo:uri "http://ejournal.narotama.ac.id/files/Accounting%20for%20Gender%20Differences%20in%20Entrance%20into%20STEM%20Occupations.pdf" .
+
+<http://fortune.com/2014/08/26/performance-review-gender-bias/> a bibo:AcademicArticle ;
+    dcterms:creator _:N960233c9bab6466c84eae6ea26de05da ;
+    dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "Fortune" ] ;
+    dcterms:title "The abrasiveness trap: high-achieving men and women are described differently in reviews" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N960233c9bab6466c84eae6ea26de05da ] ;
+    bibo:uri "http://fortune.com/2014/08/26/performance-review-gender-bias/" .
+
+<http://fusion.net/story/340171/how-nextdoor-reduced-racial-> a bibo:Document ;
+    dcterms:creator _:N83dbc95f41134797927876e5b58bd19f ;
+    dcterms:title "How Nextdoor reduced racist posts by 75%" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N83dbc95f41134797927876e5b58bd19f ] ;
+    bibo:uri "http://fusion.net/story/340171/how-nextdoor-reduced-racial-" .
+
+<http://fusion.net/story/369325/how-to-stop-online-harassment/> a bibo:Document ;
+    dcterms:creator _:Nb864ab7e50b149fba7f0071704816d68 ;
+    dcterms:title "What GitHub did to kill its trolls" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb864ab7e50b149fba7f0071704816d68 ] ;
+    bibo:uri "http://fusion.net/story/369325/how-to-stop-online-harassment/" .
+
+<http://gandre.ws/blog/blog/2013/08/26/digital-skills-looking-past-digital-native-toward-curricular-reform/> a bibo:Document ;
+    dcterms:creator _:N07e0e0983688476982aab637d96aad1e ;
+    dcterms:title "Digital skills: looking past ‘digital native’ assumptions, toward curricular reform" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N07e0e0983688476982aab637d96aad1e ] ;
+    bibo:uri "http://gandre.ws/blog/blog/2013/08/26/digital-skills-looking-past-digital-native-toward-curricular-reform/" .
+
+<http://gandre.ws/blog/blog/2013/08/27/digital-skills-the-adults-are-also-not-all-right/> a bibo:Document ;
+    dcterms:title "Digital skills: the adults are also not all right" ;
+    bibo:uri "http://gandre.ws/blog/blog/2013/08/27/digital-skills-the-adults-are-also-not-all-right/" .
+
+<http://geekfeminism.wikia.com/wiki/Missing_stair> a bibo:Document ;
+    dcterms:title "Missing stair" ;
+    bibo:uri "http://geekfeminism.wikia.com/wiki/Missing_stair" .
+
+<http://genderandset.open.ac.uk/index.php/genderandset/article/view/435> a bibo:Document ;
+    dcterms:creator _:Ncc5d21ee5b224894a81630f5aee186ad,
+        _:Ne246c89f3ea44d7eae353fbb744cd0fa ;
+    dcterms:title "‘I don’t know why they make it so hard here’: institutional factors and undergraduate STEM participation" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne246c89f3ea44d7eae353fbb744cd0fa ;
+            rdf:_2 _:Ncc5d21ee5b224894a81630f5aee186ad ] ;
+    bibo:uri "http://genderandset.open.ac.uk/index.php/genderandset/article/view/435" .
+
+<http://host.madison.com/ct/news/local/writers/bryna-godar/wired-unwired-madison-s-digital-divide-is-an-issue-of/article_c3f4209c-3e1f-5784-9e5d-e2acf47f85a1.html> a bibo:AcademicArticle ;
+    dcterms:creator _:N53a83eb048904362b7236cf0a0c06bf6 ;
+    dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "Cap Times" ] ;
+    dcterms:title "Wired/unwired: Madison’s digital divide is an issue of both access and skills" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N53a83eb048904362b7236cf0a0c06bf6 ] ;
+    bibo:uri "http://host.madison.com/ct/news/local/writers/bryna-godar/wired-unwired-madison-s-digital-divide-is-an-issue-of/article_c3f4209c-3e1f-5784-9e5d-e2acf47f85a1.html" .
+
+<http://hunterwalk.com/2015/03/20/how-this-young-female-and-latina-investor-broke-into-a-middle-aged-> a bibo:Document ;
+    dcterms:title "How this young, female, and Latina investor broke into a middle-aged, male, and white industry" ;
+    bibo:uri "http://hunterwalk.com/2015/03/20/how-this-young-female-and-latina-investor-broke-into-a-middle-aged-" .
+
+<http://hypatia.ca/2014/08/05/what-you-can-do/> a bibo:Document ;
+    dcterms:creator _:Ne6ba2fdd2e034e3f893b1fbb19bd46fe ;
+    dcterms:title "What you can do" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne6ba2fdd2e034e3f893b1fbb19bd46fe ] ;
+    bibo:uri "http://hypatia.ca/2014/08/05/what-you-can-do/" .
+
+<http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=7044011> a bibo:Document ;
+    dcterms:creator _:N27bef9f730c34e89b42cab2b3cd15e89 ;
+    dcterms:title "Proven practices that can reduce stereotype threat in engineering education: a literature review" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N27bef9f730c34e89b42cab2b3cd15e89 ] ;
+    bibo:uri "http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=7044011" .
+
+<http://juliepagano.com/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/> a bibo:Document ;
+    dcterms:creator _:N17630740459d49d08d5d8cc374d14cbc ;
+    dcterms:title "It’s dangerous to go alone! Battling the invisible monsters in tech" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N17630740459d49d08d5d8cc374d14cbc ] ;
+    bibo:uri "http://juliepagano.com/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/" .
+
+<http://juliepagano.com/blog/2014/02/26/bad-ally-quiz/> a bibo:Document ;
+    dcterms:title "Take Pagano’s “Bad Ally Quiz" ;
+    bibo:uri "http://juliepagano.com/blog/2014/02/26/bad-ally-quiz/" .
+
+<http://juliepagano.com/blog/2014/05/10/so-you-want-to-be-an-ally/> a bibo:Document ;
+    dcterms:creator _:Nd345e76b396c48df9caba7fc22358a2d ;
+    dcterms:title "So you want to be an ally" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd345e76b396c48df9caba7fc22358a2d ] ;
+    bibo:uri "http://juliepagano.com/blog/2014/05/10/so-you-want-to-be-an-ally/" .
+
+<http://juliepagano.com/blog/2014/06/08/on-fighting-for-> a bibo:Document ;
+    dcterms:creator _:Nad26a527c6ba48a590a6bcbe88df8179 ;
+    dcterms:title "On fighting for marginalized people in tech" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nad26a527c6ba48a590a6bcbe88df8179 ] ;
+    bibo:uri "http://juliepagano.com/blog/2014/06/08/on-fighting-for-" .
+
+<http://jvns.ca/blog/2014/05/28/anonymous-talk-submission-equals-> a bibo:Document ;
+    dcterms:creator _:Nd90344bacd794684a05800eb735377e2 ;
+    dcterms:title "Anonymous talk review is amazing" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd90344bacd794684a05800eb735377e2 ] ;
+    bibo:uri "http://jvns.ca/blog/2014/05/28/anonymous-talk-submission-equals-" .
+
+<http://kronda.com/stop-devaluing-black-womens-labor/> a bibo:Document ;
+    dcterms:creator _:N9a70eef992614da08aecb6424b6924f7 ;
+    dcterms:title "Stop devaluing black women’s labor" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9a70eef992614da08aecb6424b6924f7 ] ;
+    bibo:uri "http://kronda.com/stop-devaluing-black-womens-labor/" .
+
+<http://mattvetter.net/digitalrhetorics/wp-content/uploads/sites/5/2014/01/Games-and-Culture-2012-Monson-48-71.pdf> a bibo:Document ;
+    dcterms:creator _:N0e371d8feec041608e19888bdd0fa513 ;
+    dcterms:title "Race-based fantasy realm: essentialism in the World of Warcraft" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0e371d8feec041608e19888bdd0fa513 ] ;
+    bibo:uri "http://mattvetter.net/digitalrhetorics/wp-content/uploads/sites/5/2014/01/Games-and-Culture-2012-Monson-48-71.pdf" .
+
+<http://mitadmissions.org/blogs/entry/picture-yourself-as-a-stereotypical-male> a bibo:Document ;
+    dcterms:creator _:N44f81f757c0b475db48eafd331b78d0e ;
+    dcterms:title "Picture yourself as a stereotypical male" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N44f81f757c0b475db48eafd331b78d0e ] ;
+    bibo:uri "http://mitadmissions.org/blogs/entry/picture-yourself-as-a-stereotypical-male" .
+
+<http://money.cnn.com/2016/02/17/technology/black-women-tech-startups-project-diane/> a bibo:Document ;
+    dcterms:creator _:Nd74fd46a66a24e9592ad534e063de7d7 ;
+    dcterms:title "Only 88 tech startups are run by black women" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd74fd46a66a24e9592ad534e063de7d7 ] ;
+    bibo:uri "http://money.cnn.com/2016/02/17/technology/black-women-tech-startups-project-diane/" .
+
+<http://papers.ssrn.com/sol3/papers.cfm?> a bibo:Document ;
+    dcterms:creator _:N10d62e026c7c4fec8c60af79f882ec84,
+        _:N85e1eb6d394c4e83bdaf0ccb192e3a95 ;
+    dcterms:title "The visible hand: race and online market outcomes" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N85e1eb6d394c4e83bdaf0ccb192e3a95 ;
+            rdf:_2 _:N10d62e026c7c4fec8c60af79f882ec84 ] ;
+    bibo:uri "http://papers.ssrn.com/sol3/papers.cfm?" .
+
+<http://polygraph.cool/films/> a bibo:Document ;
+    dcterms:creator _:N1015ba4ca8124afabd8614296ea8528a,
+        _:N160a5556b50542dea24cabea66cd63c4 ;
+    dcterms:title "Film dialogue from 2000 screenplays, broken down by gender and age" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N160a5556b50542dea24cabea66cd63c4 ;
+            rdf:_2 _:N1015ba4ca8124afabd8614296ea8528a ] ;
+    bibo:uri "http://polygraph.cool/films/" .
+
+<http://possibility.cylab.cmu.edu/adfisher/> a bibo:Document ;
+    dcterms:creator _:N83f87edddc8640c18fbc22caf4260f14 ;
+    dcterms:title "Discrimination and opacity in behavioral tracking" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N83f87edddc8640c18fbc22caf4260f14 ] ;
+    bibo:uri "http://possibility.cylab.cmu.edu/adfisher/" .
+
+<http://qz.com/613748/slack-sent-four-black-female-engineers-to-accept-an-award-and-make-a-statement-on-> a bibo:Document ;
+    dcterms:creator _:Nfdeea7afe40a4abe942c1b4cc0ba971e ;
+    dcterms:title "Slack sent four black female engineers to accept an award and make a statement about diversity" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nfdeea7afe40a4abe942c1b4cc0ba971e ] ;
+    bibo:uri "http://qz.com/613748/slack-sent-four-black-female-engineers-to-accept-an-award-and-make-a-statement-on-" .
+
+<http://ssrn.com/abstract=2063742> a bibo:AcademicArticle ;
+    dcterms:creator _:N1c87524d90c047288535dea2c9ce178e,
+        _:N20f814969b3940b6bdcc60eb95d4dfe2 ;
+    dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "Journal of Applied Psychology" ] ;
+    dcterms:title "What happens before? A field experiment exploring how pay and representation differentially shape bias on the pathway into organizations" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N20f814969b3940b6bdcc60eb95d4dfe2 ;
+            rdf:_2 _:N1c87524d90c047288535dea2c9ce178e ] ;
+    bibo:uri "http://ssrn.com/abstract=2063742" .
+
+<http://the-toast.net/2014/02/07/trans-tech-industry/> a bibo:Document ;
+    dcterms:creator _:N74cfa197e8b84cf19a26913f951c5551 ;
+    dcterms:title "Being trans in the tech industry" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N74cfa197e8b84cf19a26913f951c5551 ] ;
+    bibo:uri "http://the-toast.net/2014/02/07/trans-tech-industry/" .
+
+<http://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community> a bibo:Document ;
+    dcterms:creator _:Ne78d96e98ec94df0ae73e6ddfa9a2ee4 ;
+    dcterms:title "The ethics of unpaid labor and the OSS community" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne78d96e98ec94df0ae73e6ddfa9a2ee4 ] ;
+    bibo:uri "http://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community" .
+
+<http://www.bbc.com/news/blogs-trending-35938633> a bibo:Document ;
+    dcterms:creator _:N3f43632057ec4bfc8251a13f72095b10 ;
+    dcterms:title "Obstacles to ‘coding while black.’" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N3f43632057ec4bfc8251a13f72095b10 ] ;
+    bibo:uri "http://www.bbc.com/news/blogs-trending-35938633" .
+
+<http://www.chesnok.com/daily/> a bibo:Document ;
+    dcterms:creator _:N56c049974060414a86570f5fd8a0fee4 ;
+    dcterms:title "What I mean when I talk about collaboration with teachers" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N56c049974060414a86570f5fd8a0fee4 ] ;
+    bibo:uri "http://www.chesnok.com/daily/" .
+
+<http://www.codeconquest.com/website/client-side-vs-server-side/> a bibo:Document ;
+    dcterms:title "Client Side vs. Server Side" ;
+    bibo:uri "http://www.codeconquest.com/website/client-side-vs-server-side/" .
+
+<http://www.cosmopolitan.com/entertainment/movies/a53909/tracy-oliver-essay/> a bibo:Document ;
+    dcterms:creator _:N9cd8dcc8eaa44494964c3eddadde3e3c ;
+    dcterms:title "I will no longer defend my choice to write about black women" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9cd8dcc8eaa44494964c3eddadde3e3c ] ;
+    bibo:uri "http://www.cosmopolitan.com/entertainment/movies/a53909/tracy-oliver-essay/" .
+
+<http://www.digitalhumanities.org/dhq/vol/9/2/000201/000201.html> a bibo:AcademicArticle ;
+    dcterms:creator _:N98de2802a8ce455d89b5b9198d976ab7 ;
+    dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "Digital Humanities Quarterly" ] ;
+    dcterms:title "The shock of the familiar: three timelines about gender and technology in the library" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N98de2802a8ce455d89b5b9198d976ab7 ] ;
+    bibo:uri "http://www.digitalhumanities.org/dhq/vol/9/2/000201/000201.html" .
+
+<http://www.diversityjournal.com/13763-affinity-bias-conundrum-illusion-inclusion-part-iii/> a bibo:Document ;
+    dcterms:creator _:N36a8f7d2c9974e3aa496ee319a7b3452 ;
+    dcterms:title "The affinity bias conundrum" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N36a8f7d2c9974e3aa496ee319a7b3452 ] ;
+    bibo:uri "http://www.diversityjournal.com/13763-affinity-bias-conundrum-illusion-inclusion-part-iii/" .
+
+<http://www.flosspols.org/deliverables/D16HTML/FLOSSPOLS-D16-Gender_Integrated_Report_of_Findings.pdf> a bibo:Document ;
+    dcterms:creator _:N3a6cbb802f2740268e09d3cb24395729,
+        _:N47c4a29fcd65414f9e873d1eea30b3a9 ;
+    dcterms:date "2006" ;
+    dcterms:title "FLOSSPOLS Deliverable D 16 Gender: Integrated Report of Findings" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N47c4a29fcd65414f9e873d1eea30b3a9 ;
+            rdf:_2 _:N3a6cbb802f2740268e09d3cb24395729 ] ;
+    bibo:uri "http://www.flosspols.org/deliverables/D16HTML/FLOSSPOLS-D16-Gender_Integrated_Report_of_Findings.pdf" .
+
+<http://www.fs.fed.us/psw/publications/winter/psw_2006_winter001.cialdini.pdf> a bibo:AcademicArticle ;
+    dcterms:creator _:Nee41bbeefab346069a347b54c58e3bf4 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Social Influence" ] ;
+            bibo:issue "1" ;
+            bibo:volume "1" ] ;
+    dcterms:title "Managing social norms for persuasive impact" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nee41bbeefab346069a347b54c58e3bf4 ] ;
+    bibo:pages "3–15" ;
+    bibo:uri "http://www.fs.fed.us/psw/publications/winter/psw_2006_winter001.cialdini.pdf" .
+
+<http://www.gamasutra.com/view/news/264894/> a bibo:Document ;
+    dcterms:creator _:Na69c1a7f7e0f4b1eb497aefafb51c1a2 ;
+    dcterms:title "Opinion: prejudice as a game mechanic" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Na69c1a7f7e0f4b1eb497aefafb51c1a2 ] ;
+    bibo:uri "http://www.gamasutra.com/view/news/264894/" .
+
+<http://www.harihareswara.net/sumana/2013/11/13/0> a bibo:Document ;
+    dcterms:creator _:N50a3e0d6012243a58f783c0498d5ac75 ;
+    dcterms:title "Missing from Wikipedia: tool to fight systemic bias" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N50a3e0d6012243a58f783c0498d5ac75 ] ;
+    bibo:uri "http://www.harihareswara.net/sumana/2013/11/13/0" .
+
+<http://www.htmldog.com/guides/css/beginner/> a bibo:Document ;
+    dcterms:title "Work through HTML Dog “Beginner CSS tutorial" ;
+    bibo:uri "http://www.htmldog.com/guides/css/beginner/" .
+
+<http://www.htmldog.com/guides/html/advanced/> a bibo:BookSection ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:title "“HTML5 Forms Pt 2: Attributes and Data Lists”" ] ;
+    dcterms:title "Work through HTML Dog “Advanced HTML Tutorial,” the following sections only: “Accessible Forms,” “HTML5 Forms Pt 1: Input Types" ;
+    bibo:uri "http://www.htmldog.com/guides/html/advanced/" .
+
+<http://www.htmldog.com/guides/html/intermediate/> a bibo:AcademicArticle ;
+    dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "“Meta Tags,”" ] ;
+    dcterms:title "Work through HTML Dog “Intermediate HTML Tutorial,” the following sections only: “Span and Div" ;
+    bibo:uri "http://www.htmldog.com/guides/html/intermediate/" .
+
+<http://www.jofreeman.com/joreen/tyranny.htm> a bibo:Document ;
+    dcterms:creator _:Nababd22981f34cdaabe695313c18a139 ;
+    dcterms:title "The tyranny of structurelessness" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nababd22981f34cdaabe695313c18a139 ] ;
+    bibo:uri "http://www.jofreeman.com/joreen/tyranny.htm" .
+
+<http://www.laurenbacon.com/women-tech-empathy-work/> a bibo:Document ;
+    dcterms:creator _:N2238a95165114046a5fb8db80ed6420d ;
+    dcterms:title "Women in tech and empathy work" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N2238a95165114046a5fb8db80ed6420d ] ;
+    bibo:uri "http://www.laurenbacon.com/women-tech-empathy-work/" .
+
+<http://www.marieclaire.com/career-advice/> a bibo:Document ;
+    dcterms:creator _:N5c2887267f9741b9a78c041b71d187a2 ;
+    dcterms:title "Is community college the key to closing tech’s gender gap?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N5c2887267f9741b9a78c041b71d187a2 ] ;
+    bibo:uri "http://www.marieclaire.com/career-advice/" .
+
+<http://www.nber.org/papers/w11474> a bibo:AcademicArticle ;
+    dcterms:creator _:N248d4ead0cc644c2a3f0c537d7fd046c,
+        _:N4756accaddfd4988a9c407cd4c53a2fe ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The Quarterly Journal of Economics" ] ;
+            bibo:issue "3" ;
+            bibo:volume "122" ] ;
+    dcterms:title "Do women shy away from competition? do men compete too much?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N248d4ead0cc644c2a3f0c537d7fd046c ;
+            rdf:_2 _:N4756accaddfd4988a9c407cd4c53a2fe ] ;
+    bibo:pages "1067–1101," ;
+    bibo:uri "http://www.nber.org/papers/w11474" .
+
+<http://www.nytimes.com/> a bibo:Document ;
+    dcterms:creator _:N16d0905b775a4ef1bffbdfb67351b9a9 ;
+    dcterms:title "Female scientists turn to data to fight lack of representation on panels" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N16d0905b775a4ef1bffbdfb67351b9a9 ] ;
+    bibo:uri "http://www.nytimes.com/" .
+
+<http://www.slate.com/blogs/lexicon_valley/> a bibo:AcademicArticle ;
+    dcterms:creator _:N53a7769605b84ee0979c6e015aef6dc8 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2014/07/23/study_men_interrupt_women_more_in_tech_workplaces_but_high_ranking_women.html" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Slate" ] ] ;
+    dcterms:title "How to get ahead as a woman in tech: interrupt men" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N53a7769605b84ee0979c6e015aef6dc8 ] ;
+    bibo:uri "http://www.slate.com/blogs/lexicon_valley/" .
+
+<http://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/> a bibo:Document ;
+    dcterms:creator _:Nc9c19cefb9a6498e9f42d615f013574a ;
+    dcterms:title "Responsive web design: what it is and how to use it" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc9c19cefb9a6498e9f42d615f013574a ] ;
+    bibo:uri "http://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/" .
+
+<http://www.theglobeandmail.com/report-on-business/small-business/startups/how-startups-can-create-a-culture-of-inclusiveness/article27865146/> a bibo:Document ;
+    dcterms:creator _:Ne3e6cb518e124c61b64e3975c203369e ;
+    dcterms:title "How startups can create a culture of inclusiveness" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne3e6cb518e124c61b64e3975c203369e ] ;
+    bibo:uri "http://www.theglobeandmail.com/report-on-business/small-business/startups/how-startups-can-create-a-culture-of-inclusiveness/article27865146/" .
+
+<http://www.themarysue.com/black-women-in-tech-debunk-pipeline-excuse/> a bibo:Document ;
+    dcterms:creator _:Nc279a910ea764354b7be8ae48755ef3a ;
+    dcterms:title "Black women in tech debunk the ‘pipeline’ excuse for lack of diversity in tech industry" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc279a910ea764354b7be8ae48755ef3a ] ;
+    bibo:uri "http://www.themarysue.com/black-women-in-tech-debunk-pipeline-excuse/" .
+
+<http://www.uchastings.edu/news/articles/> a bibo:Document ;
+    dcterms:creator _:Nf4c460d2850f439d8e810e5468fafc60 ;
+    dcterms:title "Double jeopardy? Bias against women of color in science" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf4c460d2850f439d8e810e5468fafc60 ] ;
+    bibo:uri "http://www.uchastings.edu/news/articles/" .
+
+<http://www.wired.com/2013/11/silicon-valley-isnt-a-meritocracy-and-the-cult-of-the-entrepreneur-holds-people-back/> a bibo:Document ;
+    dcterms:creator _:N1019527d07a04823b1afba5e4ae2ceee ;
+    dcterms:title "Silicon Valley isn’t a meritocracy, and it’s dangerous to hero-worship entrepreneurs" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N1019527d07a04823b1afba5e4ae2ceee ] ;
+    bibo:uri "http://www.wired.com/2013/11/silicon-valley-isnt-a-meritocracy-and-the-cult-of-the-entrepreneur-holds-people-back/" .
+
+<http://www.youtube.com/watch?v=ulNSlES1Fds> a bibo:Document ;
+    dcterms:creator _:Nf73dfbd2f9604563b67ee9abad358258 ;
+    dcterms:title "Don’t feed the trolls" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf73dfbd2f9604563b67ee9abad358258 ] ;
+    bibo:uri "http://www.youtube.com/watch?v=ulNSlES1Fds" .
+
+<https://> a bibo:Document ;
+    dcterms:creator _:N2d2ce07ff56347d184653d46435d1273 ;
+    dcterms:title "Ambient belonging: how stereotypical cues impact gender representation in computer science" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N2d2ce07ff56347d184653d46435d1273 ] ;
+    bibo:uri "https://" .
+
+<https://articles.extension.org/sites/default/files/The%2520Path%2520from%2520Exclusive%2520Club.pdf> a bibo:Document ;
+    dcterms:creator _:N5236fb49810149bb8e43267aa286cf8d,
+        _:N6a829f0c48834f2fabf924d50b90b436 ;
+    dcterms:title "The path from exclusive club to inclusive organization: a developmental process" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N5236fb49810149bb8e43267aa286cf8d ;
+            rdf:_2 _:N6a829f0c48834f2fabf924d50b90b436 ] ;
+    bibo:uri "https://articles.extension.org/sites/default/files/The%20Path%20from%20Exclusive%20Club.pdf" .
+
+<https://backchannel.com/a-womens-history-of-silicon-valley-feea9279d88a> a bibo:Document ;
+    dcterms:creator _:N667e3176cb2a4730b0051008df0af6a8 ;
+    dcterms:title "A woman’s history of Silicon Valley" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N667e3176cb2a4730b0051008df0af6a8 ] ;
+    bibo:uri "https://backchannel.com/a-womens-history-of-silicon-valley-feea9279d88a" .
+
+<https://backchannel.com/how-meetup-ditched-its-boys-club-4a3a3084e72f> a bibo:Document ;
+    dcterms:creator _:N45806184349c4213816d7003b260da6e ;
+    dcterms:title "How Meetup ditched its boy club" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N45806184349c4213816d7003b260da6e ] ;
+    bibo:uri "https://backchannel.com/how-meetup-ditched-its-boys-club-4a3a3084e72f" .
+
+<https://byrslf.co/vcs-don-t-compare-me-to-your-wife-just-don-t-9dc2c8c1ac93> a bibo:Document ;
+    dcterms:creator _:Ne3cd50674c044b2f936889811d20a1b8 ;
+    dcterms:title "VCs—don’t compare me to your wife, just don’t" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ne3cd50674c044b2f936889811d20a1b8 ] ;
+    bibo:uri "https://byrslf.co/vcs-don-t-compare-me-to-your-wife-just-don-t-9dc2c8c1ac93" .
+
+<https://codeascraft.com/2016/10/19/> a bibo:Document ;
+    dcterms:creator _:Nd266d5b4dd434db2804f7e4e6c0f6f22,
+        _:Nf7cfb6fa21e4471882041ae383132593 ;
+    dcterms:title "Being an effective ally to women and non-binary people" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf7cfb6fa21e4471882041ae383132593 ;
+            rdf:_2 _:Nd266d5b4dd434db2804f7e4e6c0f6f22 ] ;
+    bibo:uri "https://codeascraft.com/2016/10/19/" .
+
+<https://ellyob.wordpress.com/2015/06/29/professional-confidence/> a bibo:Document ;
+    dcterms:creator _:N3c4ac9242a7e4af8aa835033316801a4 ;
+    dcterms:title "Professional confidence and ‘imposter syndrome.’" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N3c4ac9242a7e4af8aa835033316801a4 ] ;
+    bibo:uri "https://ellyob.wordpress.com/2015/06/29/professional-confidence/" .
+
+<https://english.tau.ac.il/sites/nihul_en.tau.ac.il/files/media_server/Recanati/management/publications/tadmor/not_just.pdf> a bibo:Document ;
+    dcterms:creator _:N9f68ce06355c4467876583deebede5d8 ;
+    dcterms:title "Not just for stereotyping anymore: racial essentialism reduces domain-general creativity" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9f68ce06355c4467876583deebede5d8 ] ;
+    bibo:uri "https://english.tau.ac.il/sites/nihul_en.tau.ac.il/files/media_server/Recanati/management/publications/tadmor/not_just.pdf" .
+
+<https://faculty.ist.psu.edu/lyarger/CR-WarrenJungHechtKvasnyHenderson.pdf> a bibo:AcademicArticle ;
+    dcterms:creator _:Nf610f67f615a4b5c992e344298b65df6 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Communication Research" ] ;
+            bibo:issue "5" ;
+            bibo:volume "37" ] ;
+    dcterms:title "African American and class-based identities on the world wide web" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf610f67f615a4b5c992e344298b65df6 ] ;
+    bibo:pages "674–702" ;
+    bibo:uri "https://faculty.ist.psu.edu/lyarger/CR-WarrenJungHechtKvasnyHenderson.pdf" .
+
+<https://faculty.ist.psu.edu/lyarger/DB-TrauthCainJoshiKvasnyBooth.pdf> a bibo:BookSection ;
+    dcterms:creator _:N3d3871d9f4c2488cb249c4d6f9dcbf9b ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:title "The Data Base for Advances in Information Systems" ] ;
+    dcterms:title "The Influence of Gender-Ethnic Intersectionality on Gender Stereotypes about IT Skills and Knowledge" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N3d3871d9f4c2488cb249c4d6f9dcbf9b ] ;
+    bibo:uri "https://faculty.ist.psu.edu/lyarger/DB-TrauthCainJoshiKvasnyBooth.pdf" .
+
+<https://faculty.ist.psu.edu/lyarger/DataBase-Kvasny-> a bibo:Document ;
+    dcterms:title "BASE for Advances in Information Systems" ;
+    bibo:uri "https://faculty.ist.psu.edu/lyarger/DataBase-Kvasny-" .
+
+<https://faculty.ist.psu.edu/lyarger/JICES-PowerRelations.pdf> a bibo:AcademicArticle ;
+    dcterms:creator _:N9f2eeeccb65140038b51f92c71bd7ca1 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of Information, Communication and Ethics in Society" ] ;
+            bibo:issue "2" ;
+            bibo:volume "7" ] ;
+    dcterms:title "Power relations in IT education and work: the intersectionality of gender, race and class" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9f2eeeccb65140038b51f92c71bd7ca1 ] ;
+    bibo:pages "96–118" ;
+    bibo:uri "https://faculty.ist.psu.edu/lyarger/JICES-PowerRelations.pdf" .
+
+<https://faculty.ist.psu.edu/lyarger/iCS-Kvasny-Forthcoming.pdf> a bibo:AcademicArticle ;
+    dcterms:creator _:N85fcdcd976534900a92b7418dedebdf0 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Information, Communication and Society" ] ;
+            bibo:issue "2" ;
+            bibo:volume "9" ] ;
+    dcterms:title "Cultural (re)production of digital inequality in a US community technology initiative" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N85fcdcd976534900a92b7418dedebdf0 ] ;
+    bibo:pages "160–181" ;
+    bibo:uri "https://faculty.ist.psu.edu/lyarger/iCS-Kvasny-Forthcoming.pdf" .
+
+<https://github.com/> a bibo:Document ;
+    dcterms:creator _:Nec742e5daba04d2cbef0359dd18199ea ;
+    dcterms:title "Paradise unplugged: identifying barriers for female participation on Stack Overflow" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nec742e5daba04d2cbef0359dd18199ea ] ;
+    bibo:uri "https://github.com/" .
+
+<https://github.com/erikr/lessobviouschecklist> a bibo:Document ;
+    dcterms:title "The less obvious conference checklist" ;
+    bibo:uri "https://github.com/erikr/lessobviouschecklist" .
+
+<https://hbr.org/2014/10/hacking-techs-diversity-problem> a bibo:AcademicArticle ;
+    dcterms:creator _:Nbd82e7720602469d82c4cf6fe034bcea ;
+    dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "Harvard Business Review" ] ;
+    dcterms:title "Hacking tech’s diversity problem" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbd82e7720602469d82c4cf6fe034bcea ] ;
+    bibo:uri "https://hbr.org/2014/10/hacking-techs-diversity-problem" .
+
+<https://kateheddleston.com/blog/social-norms-and-gendered-expectations> a bibo:Document ;
+    dcterms:creator _:Nc3e51d450f0e41d4a7a3b96a6da68fb8 ;
+    dcterms:title "Social norms and gendered expectations" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc3e51d450f0e41d4a7a3b96a6da68fb8 ] ;
+    bibo:uri "https://kateheddleston.com/blog/social-norms-and-gendered-expectations" .
+
+<https://lnakamur.files.wordpress.com/2011/01/indigenous-circuits-nakamura-aq.pdf> a bibo:Document ;
+    dcterms:creator _:N6ff1335ece3f4ac494976c111209dced ;
+    dcterms:title "Indigenous circuits: Navajo women and the racialization of early electronic manufacture" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6ff1335ece3f4ac494976c111209dced ] ;
+    bibo:uri "https://lnakamur.files.wordpress.com/2011/01/indigenous-circuits-nakamura-aq.pdf" .
+
+<https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5> a bibo:Document ;
+    dcterms:creator _:Nfb6ab121750043a8a0bb3a083e8dd570 ;
+    dcterms:title "Overcoming impostor syndrome" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nfb6ab121750043a8a0bb3a083e8dd570 ] ;
+    bibo:uri "https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5" .
+
+<https://medium.com/@ameliaabreu/care-automation-and-advertising-9d9122d50437> a bibo:Document ;
+    dcterms:creator _:N5010f9ba51c24d738ef24b0a3cadcd26 ;
+    dcterms:title "Care, automation, and design" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N5010f9ba51c24d738ef24b0a3cadcd26 ] ;
+    bibo:uri "https://medium.com/@ameliaabreu/care-automation-and-advertising-9d9122d50437" .
+
+<https://medium.com/@cecilycarver/> a bibo:Document ;
+    dcterms:creator _:N43233f935a664af98c2ca5a9316bfcda ;
+    dcterms:title "Things I wish someone had told me when I was learning how to code" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N43233f935a664af98c2ca5a9316bfcda ] ;
+    bibo:uri "https://medium.com/@cecilycarver/" .
+
+<https://medium.com/backchannel/techs-high-barrier-to-entry-for-the-underprivileged-da254356547d#.bazan8jm5> a bibo:Document ;
+    dcterms:creator _:Nf8bac711285c4efcb16a69c47819ae1b ;
+    dcterms:title "Tech’s high barrier to entry for the underprivileged" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf8bac711285c4efcb16a69c47819ae1b ] ;
+    bibo:uri "https://medium.com/backchannel/techs-high-barrier-to-entry-for-the-underprivileged-da254356547d#.bazan8jm5" .
+
+<https://medium.com/lioness-health/vibrators-marijuana-and-venture-capitalists-8a87b8779cd4#.483klp6lm> a bibo:Document ;
+    dcterms:creator _:N8b83f1ca17f9477fb8ff924c3e8e4616 ;
+    dcterms:title "Vibrators, marijuana, and venture capitalists" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N8b83f1ca17f9477fb8ff924c3e8e4616 ] ;
+    bibo:uri "https://medium.com/lioness-health/vibrators-marijuana-and-venture-capitalists-8a87b8779cd4#.483klp6lm" .
+
+<https://medium.com/mother-jones/we-can-code-it-e5f64d8b3075> a bibo:Document ;
+    dcterms:creator _:N6ccc0d9d22224755b743144aaf02fe05 ;
+    dcterms:title "We can code it!" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6ccc0d9d22224755b743144aaf02fe05 ] ;
+    bibo:uri "https://medium.com/mother-jones/we-can-code-it-e5f64d8b3075" .
+
+<https://medium.com/this-is-hard/ffffff-diversity-1bd2b3421e8a> a bibo:Document ;
+    dcterms:creator _:N8b4e4fa8bb5240f8a8212419161fb3fe ;
+    dcterms:title "#FFFFFF diversity" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N8b4e4fa8bb5240f8a8212419161fb3fe ] ;
+    bibo:uri "https://medium.com/this-is-hard/ffffff-diversity-1bd2b3421e8a" .
+
+<https://medium.com/this-is-hard/the-other-side-of-diversity-1bb3de2f053e> a bibo:Document ;
+    dcterms:creator _:N38dc6d52f1a24085ab062986b2f6ba6b ;
+    dcterms:title "The other side of diversity" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N38dc6d52f1a24085ab062986b2f6ba6b ] ;
+    bibo:uri "https://medium.com/this-is-hard/the-other-side-of-diversity-1bb3de2f053e" .
+
+<https://modelviewculture.com/> a bibo:Document ;
+    dcterms:creator _:Ndcff8e1592364d5bbdf91eacf16c2263 ;
+    dcterms:title "Where are you really from: microaggressions and making tech meetups safe" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ndcff8e1592364d5bbdf91eacf16c2263 ] ;
+    bibo:uri "https://modelviewculture.com/" .
+
+<https://modelviewculture.com/pieces/> a bibo:BookSection ;
+    dcterms:creator _:N832fe838d9444691a5b679699d525aba ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:title "Model View Culture" ] ;
+    dcterms:title "The male gazed: surveillance, power, and gender" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N832fe838d9444691a5b679699d525aba ] ;
+    bibo:uri "https://modelviewculture.com/pieces/" .
+
+<https://modelviewculture.com/pieces/how-the-rhetoric-of-imposter-syndrome-is-used-to-gaslight-women-in-> a bibo:BookSection ;
+    dcterms:creator _:N04136d4096d644bead0ba262a41c1ed0 ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:title "Model View Culture" ] ;
+    dcterms:title "How the rhetoric of imposter syndrome is used to gaslight women in tech" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N04136d4096d644bead0ba262a41c1ed0 ] ;
+    bibo:uri "https://modelviewculture.com/pieces/how-the-rhetoric-of-imposter-syndrome-is-used-to-gaslight-women-in-" .
+
+<https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy> a bibo:BookSection ;
+    dcterms:creator _:N526236f5572b4a6da33d4bf01bce3dd6 ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:title "Model View Culture" ] ;
+    dcterms:title "The dehumanizing myth of the meritocracy" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N526236f5572b4a6da33d4bf01bce3dd6 ] ;
+    bibo:uri "https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy" .
+
+<https://modelviewculture.com/pieces/unlocking-the-invisible-elevator-accessibility-at-tech-conferences> a bibo:BookSection ;
+    dcterms:creator _:N0a603436b894474087d585351d55fedf ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:title "Model View Culture" ] ;
+    dcterms:title "Unlocking the invisible elevator: accessibility at tech conferences" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N0a603436b894474087d585351d55fedf ] ;
+    bibo:uri "https://modelviewculture.com/pieces/unlocking-the-invisible-elevator-accessibility-at-tech-conferences" .
+
+<https://modelviewculture.com/pieces/when-i-> a bibo:BookSection ;
+    dcterms:creator _:Nc604191df62145f18960677f807e1897 ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:title "Model View Culture" ] ;
+    dcterms:title "When ‘I didn’t mean to’ makes it worse" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc604191df62145f18960677f807e1897 ] ;
+    bibo:uri "https://modelviewculture.com/pieces/when-i-" .
+
+<https://pando.com/2016/02/11/does-vcs-> a bibo:Document ;
+    dcterms:creator _:N5cbedb30a980491495b3324200b49b08 ;
+    dcterms:title "Does a VC’s unconscious hesitation to fund women start at home?" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N5cbedb30a980491495b3324200b49b08 ] ;
+    bibo:uri "https://pando.com/2016/02/11/does-vcs-" .
+
+<https://pinboard.in/u:dsalo/t:500/t:erasure.)> a bibo:Document ;
+    bibo:uri "https://pinboard.in/u:dsalo/t:500/t:erasure.)" .
+
+<https://recompilermag.com/issues/issue-4/women-in-programming-erasure-and-visibility/> a bibo:Document ;
+    dcterms:creator _:N6092a49e130744c886d37e3f91f4ce30 ;
+    dcterms:title "Women in programming: erasure and visibility" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6092a49e130744c886d37e3f91f4ce30 ] ;
+    bibo:uri "https://recompilermag.com/issues/issue-4/women-in-programming-erasure-and-visibility/" .
+
+<https://services.google.com/fh/> a bibo:Document ;
+    dcterms:creator _:Nba1aeaae20574c32a38ac8e3ce43c004 ;
+    dcterms:title "Searching for computer science: access and barriers in U.S. K-12 education" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nba1aeaae20574c32a38ac8e3ce43c004 ] ;
+    bibo:uri "https://services.google.com/fh/" .
+
+<https://services.google.com/fh/files/misc/diversity-gaps-in-computer-science-report.pdf> a bibo:Document ;
+    dcterms:creator _:N1ef5967219ec46b298c0555a3cbb627d,
+        _:Nf58a3d0d5935494fa8078114403273f9 ;
+    dcterms:title "Diversity gaps in computer science: exploring the underrepresentation of girls, Blacks, and Hispanics" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N1ef5967219ec46b298c0555a3cbb627d ;
+            rdf:_2 _:Nf58a3d0d5935494fa8078114403273f9 ] ;
+    bibo:uri "https://services.google.com/fh/files/misc/diversity-gaps-in-computer-science-report.pdf" .
+
+<https://soledadpenades.com/> a bibo:Document ;
+    dcterms:creator _:N9b41bbecb94f47fcb30b624c95893d1f ;
+    dcterms:title "Why I won’t talk about being a woman in tech (and neither should you" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9b41bbecb94f47fcb30b624c95893d1f ] ;
+    bibo:uri "https://soledadpenades.com/" .
+
+<https://techcrunch.com/2016/07/31/the-other-pipeline/> a bibo:Document ;
+    dcterms:creator _:Nff698375d3184561b455b1e3e5fde174 ;
+    dcterms:title "The other pipeline: the tech industry in an era of mass incarceration" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nff698375d3184561b455b1e3e5fde174 ] ;
+    bibo:uri "https://techcrunch.com/2016/07/31/the-other-pipeline/" .
+
+<https://techcrunch.com/2016/10/20/anita-borg-institute-grace-hopper-diversity/> a bibo:Document ;
+    dcterms:creator _:N4b378b0a13f04af491132b57abc11852 ;
+    dcterms:title "Grace Hopper organizers struggle to practice the diversity they advocate" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N4b378b0a13f04af491132b57abc11852 ] ;
+    bibo:uri "https://techcrunch.com/2016/10/20/anita-borg-institute-grace-hopper-diversity/" .
+
+<https://thebias.com/> a bibo:Document ;
+    dcterms:creator _:Nac712e27e8a84631934ba0f7ee51fb52 ;
+    dcterms:title "Why didn’t they talk to you privately? On call-out culture and power differentials" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nac712e27e8a84631934ba0f7ee51fb52 ] ;
+    bibo:uri "https://thebias.com/" .
+
+<https://ww2.kqed.org/> a bibo:Document ;
+    dcterms:creator _:Nf8cb21d396ad483b85713a84e9ec207e ;
+    dcterms:title "Steps teachers can take to keep girls and minorities in computer science education" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf8cb21d396ad483b85713a84e9ec207e ] ;
+    bibo:uri "https://ww2.kqed.org/" .
+
+<https://www.bloomberg.com/news/features/> a bibo:Document ;
+    dcterms:creator _:N72964fdec2654323bc31e60c6c75b831 ;
+    dcterms:title "Want a job in Silicon Valley? Stay away from coding schools" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N72964fdec2654323bc31e60c6c75b831 ] ;
+    bibo:uri "https://www.bloomberg.com/news/features/" .
+
+<https://www.bustle.com/articles/78360-i-found-my-way-back-to-tech-with-the-help-of-people-who-understood-why-id> a bibo:Document ;
+    dcterms:creator _:Ndbbd09e5b58345d289298777a17a89fa ;
+    dcterms:title "I found my way back to tech with the help of people who understood why I’d left" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ndbbd09e5b58345d289298777a17a89fa ] ;
+    bibo:uri "https://www.bustle.com/articles/78360-i-found-my-way-back-to-tech-with-the-help-of-people-who-understood-why-id" .
+
+<https://www.fastcompany.com/3059036/most-creative-people/what-do-women-want-at-hackathons-nasa-has-a-list> a bibo:Document ;
+    dcterms:creator _:N5fd780678e324148ac4465d9a0a6e747 ;
+    dcterms:title "What do women want at hackathons? NASA has a list" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N5fd780678e324148ac4465d9a0a6e747 ] ;
+    bibo:uri "https://www.fastcompany.com/3059036/most-creative-people/what-do-women-want-at-hackathons-nasa-has-a-list" .
+
+<https://www.harihareswara.net/sumana/> a bibo:Document ;
+    dcterms:creator _:Ncd9470cd89d448b38586b788eb4d9d95 ;
+    dcterms:date "2016/05/21/0" ;
+    dcterms:title "Inessential weirdnesses in open source software" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ncd9470cd89d448b38586b788eb4d9d95 ] ;
+    bibo:uri "https://www.harihareswara.net/sumana/" .
+
+<https://www.insidehighered.com/advice/2016/04/13/how-be-ally-> a bibo:Document ;
+    dcterms:creator _:N8da4f853d61648f59d651fd7e3bf0503 ;
+    dcterms:title "Allies and microaggressions" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N8da4f853d61648f59d651fd7e3bf0503 ] ;
+    bibo:uri "https://www.insidehighered.com/advice/2016/04/13/how-be-ally-" .
+
+<https://www.safaribooksonline.com/> a bibo:Document ;
+    dcterms:creator _:N2bbefdb3a2ba45b59ea76a08db3834e5 ;
+    dcterms:title "On recruiting, inclusiveness, and crafting better job descriptions" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N2bbefdb3a2ba45b59ea76a08db3834e5 ] ;
+    bibo:uri "https://www.safaribooksonline.com/" .
+
+<https://www.theatlantic.com/business/archive/2015/12/meritocracy/418074/> a bibo:Document ;
+    dcterms:creator _:N17b7e2ce68fe4177a076025fc1f1643b ;
+    dcterms:title "The false promise of meritocracy" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N17b7e2ce68fe4177a076025fc1f1643b ] ;
+    bibo:uri "https://www.theatlantic.com/business/archive/2015/12/meritocracy/418074/" .
+
+<https://www.theguardian.com/> a bibo:Document ;
+    dcterms:creator _:N314afa63019b48398297f444ac020b21 ;
+    dcterms:title "Smashing the Silicon Valley patriarchy: anti-Lean In strategy puts onus on men" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N314afa63019b48398297f444ac020b21 ] ;
+    bibo:uri "https://www.theguardian.com/" .
+
+<https://www.theguardian.com/technology/2016/mar/28/tay-bot-microsoft-ai-women-siri-her-ex-machina> a bibo:Document ;
+    dcterms:creator _:Nd2e4e463d470498c9dbd4985f1a9adc1 ;
+    dcterms:title "The tech industry wants to use women’s voices—they just won’t listen to them" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nd2e4e463d470498c9dbd4985f1a9adc1 ] ;
+    bibo:uri "https://www.theguardian.com/technology/2016/mar/28/tay-bot-microsoft-ai-women-siri-her-ex-machina" .
+
+<https://www.washingtonpost.com/news/powerpost/wp/2016/09/13/white-house-women-are-now-in-the-room-where-it-happens/> a bibo:Document ;
+    dcterms:creator _:Nb4c7f363b02448c1ac35d01ac282288b ;
+    dcterms:title "White House women want to be where it happens" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nb4c7f363b02448c1ac35d01ac282288b ] ;
+    bibo:uri "https://www.washingtonpost.com/news/powerpost/wp/2016/09/13/white-house-women-are-now-in-the-room-where-it-happens/" .
+
+<https://www.youtube.com/watch?v=z8FfeA0F6Y0> a bibo:Document ;
+    dcterms:creator _:N681b3aa995ea441696073881e55c9735 ;
+    dcterms:title "A tale of two women in science" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N681b3aa995ea441696073881e55c9735 ] ;
+    bibo:uri "https://www.youtube.com/watch?v=z8FfeA0F6Y0" .
+
+_:N04136d4096d644bead0ba262a41c1ed0 a foaf:Organization ;
+    foaf:name "Hancock" .
+
+_:N072f0d9556674c8782c51ad859c50853 a foaf:Organization ;
+    foaf:name "Carpenter" .
+
+_:N07d31a39be794a259310378b7487585a a foaf:Organization ;
+    foaf:name "Kuper" .
+
+_:N07e0e0983688476982aab637d96aad1e a foaf:Organization ;
+    foaf:name "Andrews" .
+
+_:N0a603436b894474087d585351d55fedf a foaf:Organization ;
+    foaf:name "Henry" .
+
+_:N0d1c4da187f040da80805b3072e1e053 a foaf:Organization ;
+    foaf:name "Purohit" .
+
+_:N0e371d8feec041608e19888bdd0fa513 a foaf:Organization ;
+    foaf:name "Monson" .
+
+_:N0e8e6d2924924eb2ab870a49a9031d21 a foaf:Organization ;
+    foaf:name "Benard" .
+
+_:N1015ba4ca8124afabd8614296ea8528a a foaf:Organization ;
+    foaf:name "Daniels" .
+
+_:N1019527d07a04823b1afba5e4ae2ceee a foaf:Organization ;
+    foaf:name "Marwick" .
+
+_:N10d62e026c7c4fec8c60af79f882ec84 a foaf:Organization ;
+    foaf:name "Stein" .
+
+_:N12b6a8b01f3640d2825c005942f8029a a foaf:Organization ;
+    foaf:name "Seron" .
+
+_:N1542ceefd9c345dcaf9479cdabc9e7fe a foaf:Person ;
+    foaf:givenName "Powers" ;
+    foaf:surname "ch" .
+
+_:N160a5556b50542dea24cabea66cd63c4 a foaf:Organization ;
+    foaf:name "Anderson" .
+
+_:N16d0905b775a4ef1bffbdfb67351b9a9 a foaf:Organization ;
+    foaf:name "Mandavilli" .
+
+_:N17630740459d49d08d5d8cc374d14cbc a foaf:Organization ;
+    foaf:name "Pagano" .
+
+_:N17b7e2ce68fe4177a076025fc1f1643b a foaf:Organization ;
+    foaf:name "Cooper" .
+
+_:N1826232f1a7b43aea37e7ac4d0f3f284 a foaf:Person ;
+    foaf:givenName "Powers" ;
+    foaf:surname "ch" .
+
+_:N1c87524d90c047288535dea2c9ce178e a foaf:Organization ;
+    foaf:name "Chugh" .
+
+_:N1ef5967219ec46b298c0555a3cbb627d a foaf:Organization ;
+    foaf:name "Google" .
+
+_:N20f814969b3940b6bdcc60eb95d4dfe2 a foaf:Person ;
+    foaf:givenName "Akinola" ;
+    foaf:surname "Milkman" .
+
+_:N2238a95165114046a5fb8db80ed6420d a foaf:Organization ;
+    foaf:name "Bacon" .
+
+_:N248d4ead0cc644c2a3f0c537d7fd046c a foaf:Organization ;
+    foaf:name "Niederle" .
+
+_:N26e4182add31483e83afd8d9318c6aed a foaf:Organization ;
+    foaf:name "Katz" .
+
+_:N27bef9f730c34e89b42cab2b3cd15e89 a foaf:Organization ;
+    foaf:name "Eschenbach" .
+
+_:N2bbefdb3a2ba45b59ea76a08db3834e5 a foaf:Organization ;
+    foaf:name "Concepcion" .
+
+_:N2d2ce07ff56347d184653d46435d1273 a foaf:Organization ;
+    foaf:name "Cheryan" .
+
+_:N2d31eaec04aa49b9a00cd7633ad95776 a foaf:Person ;
+    foaf:givenName "Clemmer" ;
+    foaf:surname "Zhou" .
+
+_:N2d67967754b545a4855e2c049dc67122 a foaf:Organization ;
+    foaf:name "Datta" .
+
+_:N314afa63019b48398297f444ac020b21 a foaf:Organization ;
+    foaf:name "Corbyn" .
+
+_:N351040463a384f3ebae7a27c813639fd a foaf:Person ;
+    foaf:givenName "Powers" ;
+    foaf:surname "ch" .
+
+_:N36a8f7d2c9974e3aa496ee319a7b3452 a foaf:Organization ;
+    foaf:name "Turnbull" .
+
+_:N38dc6d52f1a24085ab062986b2f6ba6b a foaf:Organization ;
+    foaf:name "Joy" .
+
+_:N3a6cbb802f2740268e09d3cb24395729 a foaf:Organization ;
+    foaf:name "Krieger" .
+
+_:N3c2810c7fc9a4825a39a866e0df0c159 a foaf:Organization ;
+    foaf:name "Economides" .
+
+_:N3c4ac9242a7e4af8aa835033316801a4 a foaf:Organization ;
+    foaf:name "O.’Brien" .
+
+_:N3d00e69d0bfd4fccbaa8576537e9873f a foaf:Person ;
+    foaf:givenName "Powers" ;
+    foaf:surname "ch" .
+
+_:N3d3871d9f4c2488cb249c4d6f9dcbf9b a foaf:Organization ;
+    foaf:name "Trauth" .
+
+_:N3ea1e012a660419b8b0f7a8d6b9db43a a foaf:Organization ;
+    foaf:name "Harper" .
+
+_:N3f0e84c7e43d4012956cb1824d7b9e0e a foaf:Organization ;
+    foaf:name "Rideout" .
+
+_:N3f43632057ec4bfc8251a13f72095b10 a foaf:Organization ;
+    foaf:name "Lace-Evans" .
+
+_:N40cc96a882c24593a63d59fbf7c17c12 a foaf:Organization ;
+    foaf:name "Sassler" .
+
+_:N43233f935a664af98c2ca5a9316bfcda a foaf:Organization ;
+    foaf:name "Carver" .
+
+_:N44f81f757c0b475db48eafd331b78d0e a foaf:Person ;
+    foaf:givenName "G." ;
+    foaf:surname "Michelle" .
+
+_:N45806184349c4213816d7003b260da6e a foaf:Organization ;
+    foaf:name "Hempel" .
+
+_:N4756accaddfd4988a9c407cd4c53a2fe a foaf:Organization ;
+    foaf:name "Vesterlund" .
+
+_:N47c4a29fcd65414f9e873d1eea30b3a9 a foaf:Person ;
+    foaf:givenName "Leach" ;
+    foaf:surname "Nafus" .
+
+_:N4b378b0a13f04af491132b57abc11852 a foaf:Organization ;
+    foaf:name "Dickey" .
+
+_:N4c7528f5199c46379b38034eb8ba0558 a foaf:Person ;
+    foaf:givenName "Miller" ;
+    foaf:surname "Rauch" .
+
+_:N5010f9ba51c24d738ef24b0a3cadcd26 a foaf:Organization ;
+    foaf:name "Abreu" .
+
+_:N50a3e0d6012243a58f783c0498d5ac75 a foaf:Organization ;
+    foaf:name "Harihareswara" .
+
+_:N5236fb49810149bb8e43267aa286cf8d a foaf:Organization ;
+    foaf:name "Miller" .
+
+_:N526236f5572b4a6da33d4bf01bce3dd6 a foaf:Organization ;
+    foaf:name "Ehmke" .
+
+_:N53a7769605b84ee0979c6e015aef6dc8 a foaf:Organization ;
+    foaf:name "Snyder" .
+
+_:N53a83eb048904362b7236cf0a0c06bf6 a foaf:Organization ;
+    foaf:name "Godar" .
+
+_:N5688e387dd5f45c18e8d9cc345a695eb a foaf:Organization ;
+    foaf:name "amazing/" .
+
+_:N56c049974060414a86570f5fd8a0fee4 a foaf:Organization ;
+    foaf:name "Deckelmann" .
+
+_:N5c2887267f9741b9a78c041b71d187a2 a foaf:Organization ;
+    foaf:name "Florsheim" .
+
+_:N5cbedb30a980491495b3324200b49b08 a foaf:Organization ;
+    foaf:name "Lacy" .
+
+_:N5fd780678e324148ac4465d9a0a6e747 a foaf:Organization ;
+    foaf:name "Segran" .
+
+_:N6092a49e130744c886d37e3f91f4ce30 a foaf:Organization ;
+    foaf:name "Mustelin" .
+
+_:N620077cc98964d56970e28de24e7ef8e a foaf:Organization ;
+    foaf:name "Lagesen" .
+
+_:N667e3176cb2a4730b0051008df0af6a8 a foaf:Organization ;
+    foaf:name "Hempel" .
+
+_:N67d544268b6440fd9779ea6e9d4c8078 a foaf:Person ;
+    foaf:givenName "Powers" ;
+    foaf:surname "ch" .
+
+_:N681b3aa995ea441696073881e55c9735 a foaf:Organization ;
+    foaf:name "Katie" .
+
+_:N6a829f0c48834f2fabf924d50b90b436 a foaf:Organization ;
+    foaf:name "Katz" .
+
+_:N6bfa991249a341eea8c352fc1f3a5e41 a foaf:Organization ;
+    foaf:name "Andres-Beck" .
+
+_:N6ccc0d9d22224755b743144aaf02fe05 a foaf:Organization ;
+    foaf:name "Raja" .
+
+_:N6f29f31e33614d7197c86ad7473c5c0a a foaf:Organization ;
+    foaf:name "Tapia" .
+
+_:N6ff1335ece3f4ac494976c111209dced a foaf:Organization ;
+    foaf:name "Nakamura" .
+
+_:N72964fdec2654323bc31e60c6c75b831 a foaf:Organization ;
+    foaf:name "McBride" .
+
+_:N74cfa197e8b84cf19a26913f951c5551 a foaf:Organization ;
+    foaf:name "Shelley" .
+
+_:N832fe838d9444691a5b679699d525aba a foaf:Organization ;
+    foaf:name "Losse" .
+
+_:N83dbc95f41134797927876e5b58bd19f a foaf:Organization ;
+    foaf:name "Hill" .
+
+_:N83f87edddc8640c18fbc22caf4260f14 a foaf:Organization ;
+    foaf:name "Datta" .
+
+_:N85e1eb6d394c4e83bdaf0ccb192e3a95 a foaf:Organization ;
+    foaf:name "Doleac" .
+
+_:N85fcdcd976534900a92b7418dedebdf0 a foaf:Organization ;
+    foaf:name "Yarger" .
+
+_:N8a053e89b5284b0889053f168dc16358 a foaf:Organization ;
+    foaf:name "Harcourt" .
+
+_:N8b4e4fa8bb5240f8a8212419161fb3fe a foaf:Organization ;
+    foaf:name "Joy" .
+
+_:N8b83f1ca17f9477fb8ff924c3e8e4616 a foaf:Organization ;
+    foaf:name "Liz" .
+
+_:N8da4f853d61648f59d651fd7e3bf0503 a foaf:Organization ;
+    foaf:name "Rockquemore" .
+
+_:N902fe01222664e76ad75e4f699b170bc a foaf:Person ;
+    foaf:givenName "Powers" ;
+    foaf:surname "ch" .
+
+_:N909db9da9e464c66a644b228129a54ec a foaf:Person ;
+    foaf:givenName "Tschantz" ;
+    foaf:surname "Datta" .
+
+_:N92316fdbaf8247dbb5ac9e9ec7b8f984 a foaf:Organization ;
+    foaf:name "Coleman" .
+
+_:N94ecd521c1d644ba9a3502c848ce105c a foaf:Organization ;
+    foaf:name "Shaw" .
+
+_:N960233c9bab6466c84eae6ea26de05da a foaf:Organization ;
+    foaf:name "Snyder" .
+
+_:N9688ccfe309545ad912b66b2771d7b30 a foaf:Organization ;
+    foaf:name "Dunbar-Hester" .
+
+_:N969f9ec5b5674d68bf1367941a7350b4 a foaf:Organization ;
+    foaf:name "Serebrenik" .
+
+_:N96a8208950a245b1a00b85b4625ddc04 a foaf:Organization ;
+    foaf:name "Gender%20and%20Diversity%20in%20Collaborative%20Virtual%20Teamspdf" .
+
+_:N98de2802a8ce455d89b5b9198d976ab7 a foaf:Organization ;
+    foaf:name "Dean" .
+
+_:N9a70eef992614da08aecb6424b6924f7 a foaf:Organization ;
+    foaf:name "Adair" .
+
+_:N9b41bbecb94f47fcb30b624c95893d1f a foaf:Organization ;
+    foaf:name "Penadés" .
+
+_:N9cd8dcc8eaa44494964c3eddadde3e3c a foaf:Organization ;
+    foaf:name "Oliver" .
+
+_:N9d8def7074934edaa5afdf4c60049094 a foaf:Organization ;
+    foaf:name "Moss-Racusin" .
+
+_:N9ef42ca06b2c4919a3c4881ff4ef604d a foaf:Organization ;
+    foaf:name "Forthcomingpdf" .
+
+_:N9f2eeeccb65140038b51f92c71bd7ca1 a foaf:Organization ;
+    foaf:name "Yarger" .
+
+_:N9f68ce06355c4467876583deebede5d8 a foaf:Organization ;
+    foaf:name "Tadmor" .
+
+_:Na55d2eb991c14376b34f30c204de2c6d a foaf:Organization ;
+    foaf:name "Yarger" .
+
+_:Na69c1a7f7e0f4b1eb497aefafb51c1a2 a foaf:Organization ;
+    foaf:name "Cross" .
+
+_:Nababd22981f34cdaabe695313c18a139 a foaf:Organization ;
+    foaf:name "Freeman" .
+
+_:Nac712e27e8a84631934ba0f7ee51fb52 a foaf:Organization ;
+    foaf:name "Newitz" .
+
+_:Nacdc623d75da46068f22b7750756260d a foaf:Organization ;
+    foaf:name "Richards" .
+
+_:Nad26a527c6ba48a590a6bcbe88df8179 a foaf:Organization ;
+    foaf:name "Pagano" .
+
+_:Naf16e6a26586427cb346b215303a9550 a foaf:Organization ;
+    foaf:name "Tveten" .
+
+_:Nb4c7f363b02448c1ac35d01ac282288b a foaf:Organization ;
+    foaf:name "Eilperin" .
+
+_:Nb833da2c5d82441d9364fa562327777e a foaf:Organization ;
+    foaf:name "Croeser" .
+
+_:Nb864ab7e50b149fba7f0071704816d68 a foaf:Organization ;
+    foaf:name "Brown" .
+
+_:Nba1aeaae20574c32a38ac8e3ce43c004 a foaf:Organization ;
+    foaf:name "Google" .
+
+_:Nbaf556f979264ef48f0bc4568e58ca04 a foaf:Organization ;
+    foaf:name "Castilla" .
+
+_:Nbd82e7720602469d82c4cf6fe034bcea a foaf:Organization ;
+    foaf:name "Williams" .
+
+_:Nbe4b084c61dc47ca884c422a186ebb0b a foaf:Organization ;
+    foaf:name "Nafus" .
+
+_:Nbee702d42ec1440e858a34cba4712ef6 a foaf:Organization ;
+    foaf:name "Wodtke" .
+
+_:Nc067e133d15547d9b76540e35a8f0b26 a foaf:Organization ;
+    foaf:name "Michailidou" .
+
+_:Nc279a910ea764354b7be8ae48755ef3a a foaf:Organization ;
+    foaf:name "Jusino" .
+
+_:Nc366138d00a34c548d36618cb8bd65c6 a foaf:Organization ;
+    foaf:name "Kaplan" .
+
+_:Nc3e51d450f0e41d4a7a3b96a6da68fb8 a foaf:Organization ;
+    foaf:name "Heddleston" .
+
+_:Nc604191df62145f18960677f807e1897 a foaf:Organization ;
+    foaf:name "Hocutt" .
+
+_:Nc9c19cefb9a6498e9f42d615f013574a a foaf:Organization ;
+    foaf:name "Knight" .
+
+_:Ncc5d21ee5b224894a81630f5aee186ad a foaf:Organization ;
+    foaf:name "Zundl" .
+
+_:Nccddd30eac8647bcb318e89d2521a403 a foaf:Organization ;
+    foaf:name "Opinion_Prejudice_as_a_game_mechanicphp" .
+
+_:Ncd9470cd89d448b38586b788eb4d9d95 a foaf:Organization ;
+    foaf:name "Harihareswara" .
+
+_:Ncdf4da2cf48c46dabb53d99dbe2d7689 a foaf:Organization ;
+    foaf:name "Raval" .
+
+_:Ncfb4223bb1bc435e8289fdfff7b93bf8 a foaf:Organization ;
+    foaf:name "Wajcman" .
+
+_:Nd266d5b4dd434db2804f7e4e6c0f6f22 a foaf:Organization ;
+    foaf:name "Malpass" .
+
+_:Nd2e4e463d470498c9dbd4985f1a9adc1 a foaf:Organization ;
+    foaf:name "Alexander" .
+
+_:Nd345e76b396c48df9caba7fc22358a2d a foaf:Organization ;
+    foaf:name "Pagano" .
+
+_:Nd3b2f2251494495b95f7237f48d6a5a4 a foaf:Organization ;
+    foaf:name "Williams" .
+
+_:Nd74fd46a66a24e9592ad534e063de7d7 a foaf:Organization ;
+    foaf:name "O.’Brien" .
+
+_:Nd90344bacd794684a05800eb735377e2 a foaf:Organization ;
+    foaf:name "Evans" .
+
+_:Nda4fe8a817b04f42963634463cbd89dc a foaf:Organization ;
+    foaf:name "Castilla" .
+
+_:Ndbbd09e5b58345d289298777a17a89fa a foaf:Organization ;
+    foaf:name "Blewer" .
+
+_:Ndcff8e1592364d5bbdf91eacf16c2263 a foaf:Organization ;
+    foaf:name "Ahmed" .
+
+_:Ne246c89f3ea44d7eae353fbb744cd0fa a foaf:Person ;
+    foaf:givenName "Britton" ;
+    foaf:surname "Lindemann" .
+
+_:Ne3cd50674c044b2f936889811d20a1b8 a foaf:Organization ;
+    foaf:name "Nadav" .
+
+_:Ne3e6cb518e124c61b64e3975c203369e a foaf:Organization ;
+    foaf:name "Idrees" .
+
+_:Ne6b3704740dc4258b18fda06b82de7cd a foaf:Person ;
+    foaf:givenName "Young" ;
+    foaf:surname "Isbell" .
+
+_:Ne6ba2fdd2e034e3f893b1fbb19bd46fe a foaf:Organization ;
+    foaf:name "Honeywell" .
+
+_:Ne78d96e98ec94df0ae73e6ddfa9a2ee4 a foaf:Organization ;
+    foaf:name "Dryden" .
+
+_:Nec742e5daba04d2cbef0359dd18199ea a foaf:Organization ;
+    foaf:name "Ford" .
+
+_:Nee41bbeefab346069a347b54c58e3bf4 a foaf:Organization ;
+    foaf:name "Cialdini" .
+
+_:Nf10287d3065246dbb52fbdd86591b569 a foaf:Organization ;
+    foaf:name "Kessler" .
+
+_:Nf49dc44a56454ec39f703d847886a32c a foaf:Person ;
+    foaf:givenName "Capiluppi" ;
+    foaf:surname "Vasilescu" .
+
+_:Nf4c460d2850f439d8e810e5468fafc60 a foaf:Organization ;
+    foaf:name "Williams" .
+
+_:Nf58a3d0d5935494fa8078114403273f9 a foaf:Organization ;
+    foaf:name "Gallup" .
+
+_:Nf610f67f615a4b5c992e344298b65df6 a foaf:Organization ;
+    foaf:name "Warren" .
+
+_:Nf6bfce0f59574039a55c9f5f621373e3 a foaf:Organization ;
+    foaf:name "Daniels" .
+
+_:Nf73dfbd2f9604563b67ee9abad358258 a foaf:Organization ;
+    foaf:name "Sullivan" .
+
+_:Nf7cfb6fa21e4471882041ae383132593 a foaf:Organization ;
+    foaf:name "Gibbs" .
+
+_:Nf8bac711285c4efcb16a69c47819ae1b a foaf:Organization ;
+    foaf:name "O.’Neill" .
+
+_:Nf8cb21d396ad483b85713a84e9ec207e a foaf:Person ;
+    foaf:givenName "Farmer" ;
+    foaf:surname "Kris" .
+
+_:Nfb6ab121750043a8a0bb3a083e8dd570 a foaf:Organization ;
+    foaf:name "Liu" .
+
+_:Nfdeea7afe40a4abe942c1b4cc0ba971e a foaf:Organization ;
+    foaf:name "Truong" .
+
+_:Nff698375d3184561b455b1e3e5fde174 a foaf:Organization ;
+    foaf:name "Dickey" .
+

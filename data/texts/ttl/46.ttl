@@ -1,0 +1,732 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_12> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Retrieved from</p>" ] .
+
+<#item_14> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>September/October). Retrieved from</p>" ] .
+
+<#item_16> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Retrieved from</p>" ] .
+
+<#item_2> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Chapter 1 and Chapter 9.</p>" ] .
+
+<#item_21> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Ess, Chapter 2.</p>" ] .
+
+<#item_27> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Retrieved from</p>" ] .
+
+<#item_31> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Chapter 3.</p>" ] .
+
+<#item_54> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Retrieved from</p>" ] .
+
+<#item_56> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Retrieved from</p>" ] .
+
+<#item_59> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Retrieved May 25, 2016, from</p>" ] .
+
+<#item_63> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Chapter 2.</p>" ] .
+
+<#item_8> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Retrieved from</p>" ] .
+
+<276Y5V38> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N06696bec50e544d59b1e3b5dddf602a5,
+                _:N7a935e56b88b4b7caf4d3d1e207c0e5d ;
+            dcterms:date "2000" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge, MA and London" ;
+                    foaf:name "The MIT Press" ] ;
+            dcterms:title "Chapter 2: The Kindness of Strangers: Kinds and Politics in Classification Systems. Sorting Things Out: Classification and Its Consequences" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7a935e56b88b4b7caf4d3d1e207c0e5d ;
+                    rdf:_2 _:N06696bec50e544d59b1e3b5dddf602a5 ] ] .
+
+<2C9ERLZQ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Queue" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "11" ] ;
+            dcterms:title "Delivery" ] .
+
+<2QSCVYSC> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N5fc91a3f778240b2a09f30b530f88629 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Information Society" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "32" ] ;
+            dcterms:title "Learning consumption: Media, literacy, and the legacy of One Laptop per Child" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5fc91a3f778240b2a09f30b530f88629 ] ;
+            bibo:pages "85–97" ] .
+
+<3AZN44QJ> a z:UserItem ;
+    res:resource <http://www.pewinternet.org/2016/03/10/public-predictions-for-the-future-of-workforce-automation/> .
+
+<3L49I8LP> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Nc0248e1dd2af48a786ed2011c231075c ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Upper Saddle River, N.J" ;
+                    foaf:name "Pearson Education/Addison" ] ;
+            dcterms:title "Ethics for the information age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc0248e1dd2af48a786ed2011c231075c ] ] .
+
+<3LHRGVBJ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<5V9FSS2L> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Yale" ] ;
+            dcterms:title "Complicated: The Social Lives of Networked Teens" ] .
+
+<6B53FUKV> a z:UserItem ;
+    res:resource <http://www.americanlibrariesmagazine.org/article/forb> .
+
+<7I3DV4N8> a z:UserItem ;
+    res:resource <http://www.ala.org/ala/aboutala/offices/oif/statement> .
+
+<7NIPF7JZ> a z:UserItem ;
+    res:resource <http://www.stanfordlawreview.org/online/privacy-and-> .
+
+<828ERHXG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1ae1a9037d8e4e5ebc9e0351325a16f3 ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Pearson" ] ;
+            dcterms:title "A gift of fire: social, legal, and ethical issues for computing technology" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1ae1a9037d8e4e5ebc9e0351325a16f3 ] ] .
+
+<9HPM8J4M> a z:UserItem ;
+    res:resource <http://www.nytimes.com/2016/06/26/opinion/sunday/art> .
+
+<9RSZRAZX> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge, Massachusetts" ;
+                    foaf:name "The MIT Press" ] ] .
+
+<B37PQJAA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6b79d0d20afa44588f73858f852ffbbc ;
+            dcterms:date "2013" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Pearson Education/Addison-Wesley" ] ;
+            dcterms:title "Ethics for the information age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6b79d0d20afa44588f73858f852ffbbc ] ] .
+
+<B6QBYU8I> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Signs" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "26" ] ;
+            dcterms:title "library catalogs" ;
+            bibo:pages "639–669" ] .
+
+<BIUTDG2X> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2014" ;
+            dcterms:title "Chapter 4: Participation" ;
+            bibo:editor _:N02dbac8d60f743bc9ac6e9c0db16fc0f ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N02dbac8d60f743bc9ac6e9c0db16fc0f ] ] .
+
+<BMIVTNVZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3d95a40cd6b34bd5b15e71d408e4fa9d ;
+            dcterms:date "2013" ;
+            dcterms:title "Discrimination in Online Ad" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3d95a40cd6b34bd5b15e71d408e4fa9d ] ] .
+
+<C7QDWXZA> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N005cc8d442b34ba699f13da5075834de,
+                _:Nec224b785f524748acf2342a0b54b283 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of the American Society for Information Science and Technology" ] ;
+                    bibo:issue "11" ;
+                    bibo:volume "63" ] ;
+            dcterms:title "An ethical perspective on political-economic issues in the long-term preservation of digital heritage" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nec224b785f524748acf2342a0b54b283 ;
+                    rdf:_2 _:N005cc8d442b34ba699f13da5075834de ] ;
+            bibo:pages "2153– 2164" ] .
+
+<EDQ3JVQX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4b1d1bd1006045d9a6e1dde4cef1a55b ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2003" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Education for Library and Information Science" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "44" ] ;
+            dcterms:title "Professional Values and Ethics as Defined by “The LIS Discipline" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4b1d1bd1006045d9a6e1dde4cef1a55b ] ;
+            bibo:pages "99–199" ] .
+
+<EF4FKPK8> a z:UserItem ;
+    res:resource <https://www.youtube.com/watch?v=PuNIwYsz7PI&feat> .
+
+<EQKRPWWX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            bibo:editor _:N3f8f51148c9d43c1bcd312bd4e0aabae ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N3f8f51148c9d43c1bcd312bd4e0aabae ] ] .
+
+<FAP2YELI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7f2e8f36d3a94b919d16077989a93adf ;
+            dcterms:title "Chapter 10" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7f2e8f36d3a94b919d16077989a93adf ] ] .
+
+<FJCBMRAA> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N646222ff5ea44b48b013dcf38796c6d2,
+                _:Nbd47347d12e940bd8b6efa9fc9b731e0 ;
+            dcterms:date "2016" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Ethics, Technology" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nbd47347d12e940bd8b6efa9fc9b731e0 ;
+                    rdf:_2 _:N646222ff5ea44b48b013dcf38796c6d2 ] ] .
+
+<FTLA6IJD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Video: John Oliver, Last Week Tonight, Online Harassment" ] .
+
+<G3LCR5FV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb3f0dba9d01f442896a06113e5e3d905 ;
+            dcterms:date "2001" ;
+            dcterms:title "The power to name: representation in" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb3f0dba9d01f442896a06113e5e3d905 ] ] .
+
+<HWJLPUKP> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Nda43c225ad8b4556a95dc540a7e75dd6 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2014" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "Princeton University Press" ] ;
+                    dcterms:title "Machine Gambling in Las Vegas" ;
+                    bibo:edition "Reprint" ] ;
+            dcterms:title "Addiction by Design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nda43c225ad8b4556a95dc540a7e75dd6 ] ] .
+
+<I44FIGNK> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of Business" ] ;
+            dcterms:title "and Organizational Innovation" ] .
+
+<IGATCABP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Video: Black Mirror: The Entire History of You" ] .
+
+<IGSGMPPW> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N9128786a213d4cdca03bf04e394bbbaf ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "It’s" ] ] ;
+            dcterms:title "Chapter 2: Privacy" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N9128786a213d4cdca03bf04e394bbbaf ] ] .
+
+<J8P5TU9P> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Electronic Journals. College & Research Libraries" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "76" ] ] .
+
+<M4T5ETWD> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<MFLP6C24> a z:UserItem ;
+    res:resource <http://withoutbullshit.com/blog/10-top-writing-tips-> .
+
+<MXQI2TZJ> a z:UserItem ;
+    res:resource <http://www.newyorker.com/reporting/2013/05/27/13> .
+
+<N82CLCC8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "and Intellectual Freedom in Licensing Contracts for" ] .
+
+<NE9QEJ72> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N87aef32e1012419693dbed5aba8861f6 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2003" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Rotterdam" ;
+                            foaf:name "V2_Publishing/NAI Publishers" ] ;
+                    dcterms:title "Information is Alive" ] ;
+            dcterms:title "Archive and aspiration" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N87aef32e1012419693dbed5aba8861f6 ] ;
+            bibo:pages "14–25" ] .
+
+<NEFA9M7I> a z:UserItem ;
+    res:resource <http://www.thenation.com/article/206561/librarians-> .
+
+<PYZGCSTW> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N213b9cfe61e24642936e759a5da6351d,
+                _:N622b8b32b9b04587821e3d9f3b7e18ab,
+                _:Nf65e53063a984fb8b283a9cb24db92bb ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2008" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Information, Communication & Ethics in Society" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "6" ] ;
+            dcterms:title "Good computing: a pedagogically focused model of virtue in the practice of computing (part 1" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf65e53063a984fb8b283a9cb24db92bb ;
+                    rdf:_2 _:N213b9cfe61e24642936e759a5da6351d ;
+                    rdf:_3 _:N622b8b32b9b04587821e3d9f3b7e18ab ] ] .
+
+<QGZNDGZP> a z:UserItem ;
+    res:resource <http://doi.org/10.5860/crl.76.4.427> .
+
+<QPM5HGVX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "The Nation" ] ] .
+
+<R8QFWYNX> a z:UserItem ;
+    res:resource <http://www.ala.org/ala/aboutala/offices/oif/statementspols/corevaluesstatement/corevalues.cfm> .
+
+<RF3AUUMW> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4c64238e78924d30a6b24c7c972b8cef,
+                _:N4f3bdbdc8d4c46ccbec2b13a4e7ada23 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2011-07" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Communications of the ACM" ] ;
+                    bibo:issue "7" ;
+                    bibo:volume "54" ] ;
+            dcterms:title "Values in design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4c64238e78924d30a6b24c7c972b8cef ;
+                    rdf:_2 _:N4f3bdbdc8d4c46ccbec2b13a4e7ada23 ] ;
+            bibo:pages "26–28" ] .
+
+<RNEG4QHT> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Na4126f4a69c844b78521d0673ae3756b,
+                _:Ncd8ab3e03e824f228aa9995ec115945d ;
+            dcterms:date "2015" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Four Facets of Privacy" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncd8ab3e03e824f228aa9995ec115945d ;
+                    rdf:_2 _:Na4126f4a69c844b78521d0673ae3756b ] ] .
+
+<SDA7LMXZ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N89a5aaf5d1164294a449c0354f4051a7,
+                _:N9b53458007af4bde9aee9113a9d1437b,
+                _:Ne7c586768caf4e1da0d2f1b98cf43e05 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2006" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Hate Crimes in Cyberspace" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "14" ] ;
+            dcterms:title "Commons-based Peer Production and Virtue*" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N89a5aaf5d1164294a449c0354f4051a7 ;
+                    rdf:_2 _:N9b53458007af4bde9aee9113a9d1437b ;
+                    rdf:_3 _:Ne7c586768caf4e1da0d2f1b98cf43e05 ] ;
+            bibo:pages "394–419" ] .
+
+<SQQKMDFN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N188731c9490545b5955cdab4cb802eb2 ;
+            dcterms:date "2015-05-06" ;
+            dcterms:title "Librarians Versus the NSA" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N188731c9490545b5955cdab4cb802eb2 ] ] .
+
+<T6EXDJQI> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N16be66bcd34042d18f21db054fe35e50,
+                _:N2e311a7cd8594da6b2f31ccb5bd245f3 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2001" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Journal of Information Ethics" ] ] ;
+            dcterms:title "Values for Librarians in the Information Age" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2e311a7cd8594da6b2f31ccb5bd245f3 ;
+                    rdf:_2 _:N16be66bcd34042d18f21db054fe35e50 ] ;
+            bibo:pages "38–50" ] .
+
+<U7AMTYEX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "SuperVision: an introduction to the surveillance society" ] .
+
+<UF8FY9FD> a z:UserItem ;
+    res:resource <http://journals.uic.edu/ojs/index.php/fm/article/viewA> .
+
+<UHAF293Q> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "University Press" ] ] .
+
+<UJ2R3TWN> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Chicago" ;
+                    foaf:name "The University of Chicago Press" ] ] .
+
+<WU8FBW26> a z:UserItem ;
+    res:resource <https://medium.com/@tristanharris/how-technology-> .
+
+<YM2BUJ8A> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5c911e86f83540b6bf60986508a72016,
+                _:N8bfbdfa7c90844c2b6455d03c491683a ;
+            dcterms:date "2013" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8bfbdfa7c90844c2b6455d03c491683a ;
+                    rdf:_2 _:N5c911e86f83540b6bf60986508a72016 ] ] .
+
+<http://doi.org/10.5860/crl.76.4.427> a bibo:Document ;
+    bibo:uri "http://doi.org/10.5860/crl.76.4.427" ;
+    z:extra "DOI: 10.5860/crl.76.4.427" .
+
+<http://journals.uic.edu/ojs/index.php/fm/article/viewA> a bibo:AcademicArticle ;
+    dcterms:creator _:N77e0a0125ff043b38a33aa6d256d7eea ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2012" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "First Monday" ] ;
+            bibo:issue "6" ;
+            bibo:volume "17" ] ;
+    dcterms:title "Technology hype versus enduring uses: a longitudinal study of Internet use among early adopters in an African city" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N77e0a0125ff043b38a33aa6d256d7eea ] ;
+    bibo:uri "http://journals.uic.edu/ojs/index.php/fm/article/viewA" .
+
+<http://withoutbullshit.com/blog/10-top-writing-tips-> a bibo:Document ;
+    dcterms:creator _:Nc5e0777ac6f0479fbdea83da6f4700ad ;
+    dcterms:date "XXXX" ;
+    dcterms:title "10 top writing tips and the psychology behind them" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nc5e0777ac6f0479fbdea83da6f4700ad ] ;
+    bibo:uri "http://withoutbullshit.com/blog/10-top-writing-tips-" .
+
+<http://www.ala.org/ala/aboutala/offices/oif/statement> a bibo:Document ;
+    dcterms:title "ALA Code of Ethics" ;
+    bibo:uri "http://www.ala.org/ala/aboutala/offices/oif/statement" .
+
+<http://www.ala.org/ala/aboutala/offices/oif/statementspols/corevaluesstatement/corevalues.cfm> a bibo:Document ;
+    dcterms:title "ALA Core Values of Librarianship" ;
+    bibo:uri "http://www.ala.org/ala/aboutala/offices/oif/statementspols/corevaluesstatement/corevalues.cfm" .
+
+<http://www.americanlibrariesmagazine.org/article/forb> a bibo:AcademicArticle ;
+    dcterms:creator _:N25a73b9110b044c48c4ed10c822e849c,
+        _:N803c24b841be4caea627077a8cf2b91a,
+        _:Nfe54605a288d40af935ac20838277cc6 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2012" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "American Libraries" ] ] ;
+    dcterms:title "Forbes folly: Demonstrating the real net worth of a library degree" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N25a73b9110b044c48c4ed10c822e849c ;
+            rdf:_2 _:Nfe54605a288d40af935ac20838277cc6 ;
+            rdf:_3 _:N803c24b841be4caea627077a8cf2b91a ] ;
+    bibo:uri "http://www.americanlibrariesmagazine.org/article/forb" .
+
+<http://www.newyorker.com/reporting/2013/05/27/13> a bibo:AcademicArticle ;
+    dcterms:creator _:N6a539de24f454905b8a867466f8318ab ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2013-05-27" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The New Yorker" ] ] ;
+    dcterms:title "Change the World" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N6a539de24f454905b8a867466f8318ab ] ;
+    bibo:uri "http://www.newyorker.com/reporting/2013/05/27/13" .
+
+<http://www.nytimes.com/2016/06/26/opinion/sunday/art> a bibo:AcademicArticle ;
+    dcterms:creator _:N9655de09683646eba5ae4dc0049d8fa3 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2016-06-25" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The New York Times" ] ] ;
+    dcterms:title "Artificial Intelligence’s White Guy Problem" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N9655de09683646eba5ae4dc0049d8fa3 ] ;
+    bibo:uri "http://www.nytimes.com/2016/06/26/opinion/sunday/art" .
+
+<http://www.pewinternet.org/2016/03/10/public-predictions-for-the-future-of-workforce-automation/> a bibo:Document ;
+    dcterms:creator _:Naee315b8efa24d18b307d4e4b759c973 ;
+    dcterms:date "2016" ;
+    dcterms:publisher [ a foaf:Organization ;
+            foaf:name "Pew Research Center" ] ;
+    dcterms:title "Public Predictions for the Future of Workforce Automation" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Naee315b8efa24d18b307d4e4b759c973 ] ;
+    bibo:uri "http://www.pewinternet.org/2016/03/10/public-predictions-for-the-future-of-workforce-automation/" .
+
+<http://www.stanfordlawreview.org/online/privacy-and-> a bibo:AcademicArticle ;
+    dcterms:creator _:Nbcab53b462fc4ce4bcc99bdbaf736dc3,
+        _:Nfb616ac21ce14fa086057faf7978d4d5 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2013" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Stanford Law Review Online" ] ;
+            bibo:issue "35" ;
+            bibo:volume "66" ] ;
+    dcterms:title "It’s not privacy, and it’s not fair" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nbcab53b462fc4ce4bcc99bdbaf736dc3 ;
+            rdf:_2 _:Nfb616ac21ce14fa086057faf7978d4d5 ] ;
+    bibo:uri "http://www.stanfordlawreview.org/online/privacy-and-" .
+
+<http://www.thenation.com/article/206561/librarians-> a bibo:Document ;
+    bibo:uri "http://www.thenation.com/article/206561/librarians-" .
+
+<https://medium.com/@tristanharris/how-technology-> a bibo:Document ;
+    dcterms:creator _:Ncda9cd4ab1f249988db7182bc2990384 ;
+    dcterms:date "2016-05-18" ;
+    dcterms:title "How Technology Hijacks People’s Minds — from a Magician and Google’s Design Ethicist" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Ncda9cd4ab1f249988db7182bc2990384 ] ;
+    bibo:uri "https://medium.com/@tristanharris/how-technology-" .
+
+<https://www.youtube.com/watch?v=PuNIwYsz7PI&feat> a bibo:Document ;
+    bibo:uri "https://www.youtube.com/watch?v=PuNIwYsz7PI&feat" .
+
+_:N005cc8d442b34ba699f13da5075834de a foaf:Person ;
+    foaf:givenName "J.j" ;
+    foaf:surname "Britz" .
+
+_:N02dbac8d60f743bc9ac6e9c0db16fc0f a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "James" .
+
+_:N06696bec50e544d59b1e3b5dddf602a5 a foaf:Person ;
+    foaf:givenName "S.L." ;
+    foaf:surname "Star" .
+
+_:N16be66bcd34042d18f21db054fe35e50 a foaf:Person ;
+    foaf:givenName "J.M." ;
+    foaf:surname "Hurych" .
+
+_:N188731c9490545b5955cdab4cb802eb2 a foaf:Person ;
+    foaf:givenName "Z." ;
+    foaf:surname "Carpenter" .
+
+_:N1ae1a9037d8e4e5ebc9e0351325a16f3 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Baase" .
+
+_:N213b9cfe61e24642936e759a5da6351d a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Barnard" .
+
+_:N25a73b9110b044c48c4ed10c822e849c a foaf:Person ;
+    foaf:givenName "J.C." ;
+    foaf:surname "Bertot" .
+
+_:N2e311a7cd8594da6b2f31ccb5bd245f3 a foaf:Person ;
+    foaf:givenName "W.V." ;
+    foaf:surname "Dole" .
+
+_:N3d95a40cd6b34bd5b15e71d408e4fa9d a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Sweeney" .
+
+_:N3f8f51148c9d43c1bcd312bd4e0aabae a foaf:Organization ;
+    foaf:name "Ethics" .
+
+_:N4b1d1bd1006045d9a6e1dde4cef1a55b a foaf:Person ;
+    foaf:givenName "W." ;
+    foaf:surname "Koehler" .
+
+_:N4c64238e78924d30a6b24c7c972b8cef a foaf:Person ;
+    foaf:givenName "C.P." ;
+    foaf:surname "Knobel" .
+
+_:N4f3bdbdc8d4c46ccbec2b13a4e7ada23 a foaf:Person ;
+    foaf:givenName "G.C." ;
+    foaf:surname "Bowker" .
+
+_:N5c911e86f83540b6bf60986508a72016 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Monahan" .
+
+_:N5fc91a3f778240b2a09f30b530f88629 a foaf:Person ;
+    foaf:givenName "M.G." ;
+    foaf:surname "Ames" .
+
+_:N622b8b32b9b04587821e3d9f3b7e18ab a foaf:Person ;
+    foaf:givenName "W." ;
+    foaf:surname "Frey" .
+
+_:N646222ff5ea44b48b013dcf38796c6d2 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Vaccaro" .
+
+_:N6a539de24f454905b8a867466f8318ab a foaf:Person ;
+    foaf:givenName "G." ;
+    foaf:surname "Packer" .
+
+_:N6b79d0d20afa44588f73858f852ffbbc a foaf:Person ;
+    foaf:givenName "M.J." ;
+    foaf:surname "Quinn" .
+
+_:N77e0a0125ff043b38a33aa6d256d7eea a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Burrell" .
+
+_:N7a935e56b88b4b7caf4d3d1e207c0e5d a foaf:Person ;
+    foaf:givenName "G.C." ;
+    foaf:surname "Bowker" .
+
+_:N7f2e8f36d3a94b919d16077989a93adf a foaf:Organization ;
+    foaf:name "Wesley" .
+
+_:N803c24b841be4caea627077a8cf2b91a a foaf:Person ;
+    foaf:givenName "L.C." ;
+    foaf:surname "Sarin" .
+
+_:N87aef32e1012419693dbed5aba8861f6 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Appadurai" .
+
+_:N89a5aaf5d1164294a449c0354f4051a7 a foaf:Person ;
+    foaf:givenName "Y." ;
+    foaf:surname "Benkler" .
+
+_:N8bfbdfa7c90844c2b6455d03c491683a a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Gilliom" .
+
+_:N9128786a213d4cdca03bf04e394bbbaf a foaf:Person ;
+    foaf:givenName "danah" ;
+    foaf:surname "boyd" .
+
+_:N9655de09683646eba5ae4dc0049d8fa3 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Crawford" .
+
+_:N9b53458007af4bde9aee9113a9d1437b a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Nissenbaum" .
+
+_:Na4126f4a69c844b78521d0673ae3756b a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Zhang" .
+
+_:Naee315b8efa24d18b307d4e4b759c973 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Smith" .
+
+_:Nb3f0dba9d01f442896a06113e5e3d905 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Olson" .
+
+_:Nbcab53b462fc4ce4bcc99bdbaf736dc3 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Dwork" .
+
+_:Nbd47347d12e940bd8b6efa9fc9b731e0 a foaf:Person ;
+    foaf:givenName "S." ;
+    foaf:surname "Brusoni" .
+
+_:Nc0248e1dd2af48a786ed2011c231075c a foaf:Person ;
+    foaf:givenName "M.J." ;
+    foaf:surname "Quinn" .
+
+_:Nc5e0777ac6f0479fbdea83da6f4700ad a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Bernoff" .
+
+_:Ncd8ab3e03e824f228aa9995ec115945d a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Rubel" .
+
+_:Ncda9cd4ab1f249988db7182bc2990384 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Harris" .
+
+_:Nda43c225ad8b4556a95dc540a7e75dd6 a foaf:Person ;
+    foaf:givenName "N.D." ;
+    foaf:surname "Schüll" .
+
+_:Ne7c586768caf4e1da0d2f1b98cf43e05 a foaf:Person ;
+    foaf:givenName "D.K." ;
+    foaf:surname "Citron" .
+
+_:Nec224b785f524748acf2342a0b54b283 a foaf:Person ;
+    foaf:givenName "P.J." ;
+    foaf:surname "Lor" .
+
+_:Nf65e53063a984fb8b283a9cb24db92bb a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Huff" .
+
+_:Nfb616ac21ce14fa086057faf7978d4d5 a foaf:Person ;
+    foaf:givenName "D.K." ;
+    foaf:surname "Mulligan" .
+
+_:Nfe54605a288d40af935ac20838277cc6 a foaf:Person ;
+    foaf:givenName "P.T." ;
+    foaf:surname "Jaeger" .
+

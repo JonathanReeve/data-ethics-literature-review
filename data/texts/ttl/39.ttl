@@ -1,0 +1,433 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_18> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Toward human-centered</p>" ] .
+
+<#item_32> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Editorial Expression of Concern:</p>" ] .
+
+<32U9RY96> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nf34bbb1f61974cc0ba38a49adf5941db ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Digital Journalism" ] ] ;
+            dcterms:title "From Editors to Algorithms: A Values-Based Approach to Understanding Story Selection in the Facebook News Feed" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf34bbb1f61974cc0ba38a49adf5941db ] ;
+            bibo:pages "– –" ] .
+
+<3LZQ6G7Z> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Human-Centered Machine Learning?" ] ] .
+
+<4DN4RIBU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2016" ] .
+
+<7I9ACFZV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "knowing: Limitations of the transparency ideal and its" ] .
+
+<8LRTFZH4> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Harvard Law Case Study: Algorithmic Allegories" ] .
+
+<9I2ZM97U> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N07491ee3d12e4986b67670b28c64f478 ;
+            dcterms:date "2017" ;
+            dcterms:title "Workshop Intro by Marco Gillies: What Is" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N07491ee3d12e4986b67670b28c64f478 ] ] .
+
+<9XDQ7Y2L> a z:UserItem ;
+    res:resource <http://ed.ted.com/lessons/beware-online-filter-> .
+
+<ANPISIPC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na381f72684bb4498acaf2eed82ee6ce9,
+                _:Neeed89eca8a848cd9c6b7f0a737f1e69 ;
+            dcterms:date "2016" ;
+            dcterms:title "Seeing without" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na381f72684bb4498acaf2eed82ee6ce9 ;
+                    rdf:_2 _:Neeed89eca8a848cd9c6b7f0a737f1e69 ] ] .
+
+<B2K73HDH> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N39d2797d08ec430bbf330ba5299d768a,
+                _:N66d8e197fce845db8ad49106f3cbabd9 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1996" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "ACM Transactions on Information Systems" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "14" ] ;
+            dcterms:title "Bias in computer systems" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N39d2797d08ec430bbf330ba5299d768a ;
+                    rdf:_2 _:N66d8e197fce845db8ad49106f3cbabd9 ] ;
+            bibo:pages "330–347" ] .
+
+<B8WJGTYK> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Communications of the ACM" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "59" ] ;
+            dcterms:title "decision making" ] .
+
+<BQ3DJATV> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N4d01bd14bedc40d28d1ae5ae8ddf141f ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1960" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "IRE" ] ] ;
+            dcterms:title "Man-computer symbiosis" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4d01bd14bedc40d28d1ae5ae8ddf141f ] ] .
+
+<D9AT3SVK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0f5570706911428da315f7fb9774db97 ;
+            dcterms:date "2017" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0f5570706911428da315f7fb9774db97 ] ] .
+
+<F2Z2DFKI> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N32cdfcf98f7c4be5897fb6bb30a7bd61,
+                _:Naa85f568a58646569e13e51a54a58da0,
+                _:Nfe553da94f6b4910a2c6a0d66297b117 ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2017-05" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            foaf:name "ACM" ] ;
+                    dcterms:title "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems" ] ;
+            dcterms:title "Algorithms ruin everything: #RIPTwitter, Folk Theories, and Resistance to Algorithmic Change in Social Media" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N32cdfcf98f7c4be5897fb6bb30a7bd61 ;
+                    rdf:_2 _:Nfe553da94f6b4910a2c6a0d66297b117 ;
+                    rdf:_3 _:Naa85f568a58646569e13e51a54a58da0 ] ;
+            bibo:pages "3163–3174" ] .
+
+<F73KA3FU> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2003" ;
+                    dcterms:title "The Human-Computer Interaction Handbook" ] ;
+            dcterms:title "Human values, ethics, and design" ;
+            bibo:pages "1177–1201" ] .
+
+<FQ3XUY4R> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N54b42bd4df8f4eac8a41b8a1f98fda62 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "New Media & Society" ] ;
+                    bibo:issue "7" ;
+                    bibo:volume "14" ] ;
+            dcterms:title "Want to be on the top? Algorithmic power and the threat of invisibility on Facebook" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N54b42bd4df8f4eac8a41b8a1f98fda62 ] ;
+            bibo:pages "1164–1180" ] .
+
+<GKS5Q3LI> a z:UserItem ;
+    res:resource <http://culturedigitally.org/2012/11/the-> .
+
+<IN7ZCYEX> a z:UserItem ;
+    res:resource <http://libguides.usc.edu/writingguide/methodology> .
+
+<IWZFR2LZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "application to algorithmic accountability" ] .
+
+<KME6HPWK> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<MB6TI4YR> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Big Data & Society" ] ;
+                    bibo:issue "2" ;
+                    bibo:volume "4" ] ;
+            dcterms:title "algorithm design" ] .
+
+<NEUTZHGM> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Na15d48632e2f42c89fcd16fef5e9e2a6 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "1982" ;
+                    dcterms:title "Chapter 4 of Orality & Literacy: The Technologizing of the World" ] ;
+            dcterms:title "Writing Restructures Consciousness" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na15d48632e2f42c89fcd16fef5e9e2a6 ] ] .
+
+<PALILWML> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N81ff01f02e424d2c80c5af4967430866 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2012" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Information, Communication & Society" ] ;
+                    bibo:issue "5" ;
+                    bibo:volume "15" ] ;
+            dcterms:title "Algorithmic ideology: How capitalist society shapes search engines" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N81ff01f02e424d2c80c5af4967430866 ] ;
+            bibo:pages "769–787" ] .
+
+<QEET32F5> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Na063350dbd454e408ab05e031b64dfbf ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Communication Theory" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "24" ] ;
+            dcterms:title "Automated media: An institutional theory perspective on algorithmic media production and consumption" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na063350dbd454e408ab05e031b64dfbf ] ;
+            bibo:pages "340–360" ] .
+
+<QTAAS7HT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "USC Guide: The Methodology" ] .
+
+<R7IDM24M> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Ne701b12e7e404c7eb514e2dbe1a07a91 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2013" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ethics and information technology" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "15" ] ;
+            dcterms:title "Bias in algorithmic filtering and personalization" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne701b12e7e404c7eb514e2dbe1a07a91 ] ;
+            bibo:pages "209" ] .
+
+<RICGZFDH> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N04cda7880b7342b5b6c7014b3d3361fe,
+                _:N8af9427da3de479d8ef0b7de2b597fc7 ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New Media" ;
+                    foaf:name "Society" ] ;
+            dcterms:title "Recommended for you: The Netflix Prize and the production of algorithmic culture" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8af9427da3de479d8ef0b7de2b597fc7 ;
+                    rdf:_2 _:N04cda7880b7342b5b6c7014b3d3361fe ] ] .
+
+<RKR89W8R> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nf50c0013cf744089b20d5188669cafb0 ;
+            dcterms:title "Accountability in algorithmic" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf50c0013cf744089b20d5188669cafb0 ] ] .
+
+<WJDJLFBL> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<WWN5HUNL> a z:UserItem ;
+    res:resource <http://www.pnas.org/content/111/29/10779.1.full> .
+
+<XCJ3DVBE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Transactions on Human Factors in Electronics" ] .
+
+<XXM9RDEI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Choose a Chapter: Digital Research Confidential" ] .
+
+<http://culturedigitally.org/2012/11/the-> a bibo:BookSection ;
+    dcterms:creator _:N835d3369d4614139b37b2ba6401cecf5 ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:date "2014" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge, MA" ;
+                    foaf:name "MIT Press" ] ;
+            dcterms:title "Media Technologies: Essays on Communication, Materiality, and Society" ;
+            bibo:editor _:N34437f18c608417aaa82bba6624f8fb6,
+                _:N9d468efc21254b4fadbff633da3b4edf,
+                _:Nb6e797b4754743379ad4c7ed3c2355d3 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N34437f18c608417aaa82bba6624f8fb6 ;
+                    rdf:_2 _:N9d468efc21254b4fadbff633da3b4edf ;
+                    rdf:_3 _:Nb6e797b4754743379ad4c7ed3c2355d3 ] ] ;
+    dcterms:title "The Relevance of Algorithms" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:N835d3369d4614139b37b2ba6401cecf5 ] ;
+    bibo:pages "167–194" ;
+    bibo:uri "http://culturedigitally.org/2012/11/the-" .
+
+<http://ed.ted.com/lessons/beware-online-filter-> a bibo:Document ;
+    dcterms:creator _:Na2b7b02f9ee14ca1b80bc0fb130d56ae ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Na2b7b02f9ee14ca1b80bc0fb130d56ae ] ;
+    bibo:uri "http://ed.ted.com/lessons/beware-online-filter-" .
+
+<http://libguides.usc.edu/writingguide/methodology> a bibo:Document ;
+    bibo:uri "http://libguides.usc.edu/writingguide/methodology" .
+
+<http://www.pnas.org/content/111/29/10779.1.full> a bibo:AcademicArticle ;
+    dcterms:creator _:N05162ba7886a4df48169c1c2065cc5b3,
+        _:N59c7399fa0734257a171dd3bcdd88521,
+        _:N5c8ac456734349379b1c23c12c54bd7f,
+        _:Na871077ab19f46ceb4a7985b01ae19a5,
+        _:Nf929a7d5d2084953bf7302f990fccd43,
+        _:Nfc2566b804d8420fb58ed23d859c1db5 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2015" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of Experimental Psychology: General" ] ;
+            bibo:issue "1" ;
+            bibo:volume "144" ] ;
+    dcterms:title "Algorithm aversion: People erroneously avoid algorithms after seeing them err" ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:Nf929a7d5d2084953bf7302f990fccd43 ;
+            rdf:_2 _:N59c7399fa0734257a171dd3bcdd88521 ;
+            rdf:_3 _:N05162ba7886a4df48169c1c2065cc5b3 ;
+            rdf:_4 _:N5c8ac456734349379b1c23c12c54bd7f ;
+            rdf:_5 _:Nfc2566b804d8420fb58ed23d859c1db5 ;
+            rdf:_6 _:Na871077ab19f46ceb4a7985b01ae19a5 ] ;
+    bibo:pages "114" ;
+    bibo:uri "http://www.pnas.org/content/111/29/10779.1.full" .
+
+_:N04cda7880b7342b5b6c7014b3d3361fe a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Striphas" .
+
+_:N05162ba7886a4df48169c1c2065cc5b3 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Massey" .
+
+_:N07491ee3d12e4986b67670b28c64f478 a foaf:Organization ;
+    foaf:name "C.H.I." .
+
+_:N0f5570706911428da315f7fb9774db97 a foaf:Person ;
+    foaf:givenName "E.P." ;
+    foaf:surname "Baumer" .
+
+_:N32cdfcf98f7c4be5897fb6bb30a7bd61 a foaf:Person ;
+    foaf:givenName "M.A." ;
+    foaf:surname "DeVito" .
+
+_:N34437f18c608417aaa82bba6624f8fb6 a foaf:Person ;
+    foaf:givenName "Tarleton" ;
+    foaf:surname "Gillespie" .
+
+_:N39d2797d08ec430bbf330ba5299d768a a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Friedman" .
+
+_:N4d01bd14bedc40d28d1ae5ae8ddf141f a foaf:Person ;
+    foaf:givenName "J.C." ;
+    foaf:surname "Licklider" .
+
+_:N54b42bd4df8f4eac8a41b8a1f98fda62 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Bucher" .
+
+_:N59c7399fa0734257a171dd3bcdd88521 a foaf:Person ;
+    foaf:givenName "J.P." ;
+    foaf:surname "Simmons" .
+
+_:N5c8ac456734349379b1c23c12c54bd7f a foaf:Person ;
+    foaf:givenName "A.D." ;
+    foaf:surname "Kramer" .
+
+_:N66d8e197fce845db8ad49106f3cbabd9 a foaf:Person ;
+    foaf:givenName "H." ;
+    foaf:surname "Nissenbaum" .
+
+_:N81ff01f02e424d2c80c5af4967430866 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Mager" .
+
+_:N835d3369d4614139b37b2ba6401cecf5 a foaf:Person ;
+    foaf:givenName "Tarleton" ;
+    foaf:surname "Gillespie" .
+
+_:N8af9427da3de479d8ef0b7de2b597fc7 a foaf:Person ;
+    foaf:givenName "B." ;
+    foaf:surname "Hallinan" .
+
+_:N9d468efc21254b4fadbff633da3b4edf a foaf:Person ;
+    foaf:givenName "Pablo" ;
+    foaf:surname "Boczkowski" .
+
+_:Na063350dbd454e408ab05e031b64dfbf a foaf:Person ;
+    foaf:givenName "P.M." ;
+    foaf:surname "Napoli" .
+
+_:Na15d48632e2f42c89fcd16fef5e9e2a6 a foaf:Person ;
+    foaf:givenName "W." ;
+    foaf:surname "Ong" .
+
+_:Na2b7b02f9ee14ca1b80bc0fb130d56ae a foaf:Person ;
+    foaf:givenName "Eli Pariser Ted" ;
+    foaf:surname "Talk" .
+
+_:Na381f72684bb4498acaf2eed82ee6ce9 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Ananny" .
+
+_:Na871077ab19f46ceb4a7985b01ae19a5 a foaf:Person ;
+    foaf:givenName "J.T." ;
+    foaf:surname "Hancock" .
+
+_:Naa85f568a58646569e13e51a54a58da0 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Birnholtz" .
+
+_:Nb6e797b4754743379ad4c7ed3c2355d3 a foaf:Person ;
+    foaf:givenName "Kirsten" ;
+    foaf:surname "Foot" .
+
+_:Ne701b12e7e404c7eb514e2dbe1a07a91 a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Bozdag" .
+
+_:Neeed89eca8a848cd9c6b7f0a737f1e69 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Crawford" .
+
+_:Nf34bbb1f61974cc0ba38a49adf5941db a foaf:Person ;
+    foaf:givenName "M.A." ;
+    foaf:surname "DeVito" .
+
+_:Nf50c0013cf744089b20d5188669cafb0 a foaf:Person ;
+    foaf:givenName "Nicholas" ;
+    foaf:surname "Diakopoulos" .
+
+_:Nf929a7d5d2084953bf7302f990fccd43 a foaf:Person ;
+    foaf:givenName "B.J." ;
+    foaf:surname "Dietvorst" .
+
+_:Nfc2566b804d8420fb58ed23d859c1db5 a foaf:Person ;
+    foaf:givenName "J.E." ;
+    foaf:surname "Guillory" .
+
+_:Nfe553da94f6b4910a2c6a0d66297b117 a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Gergle" .
+

@@ -1,0 +1,221 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<C4KLLUWL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7aecf75a0ece4d7fb05f929b6f60ae93 ;
+            dcterms:title "A First Glimpse through the Data Window onto the Internet Research Agencyâ€™s Twitter Operations" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7aecf75a0ece4d7fb05f929b6f60ae93 ] ] .
+
+<D79QSX83> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:N317b32b09dd3424385e530ab938f8aad,
+                _:N52cf417ee2f347179decb1037f7e9d15,
+                _:N75936393c4a24f84bac06ee547259698 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Not Engaged Argument" ] ;
+            dcterms:title "How the Chinese Government Fabricates Social Media Posts for Strategic Distraction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N75936393c4a24f84bac06ee547259698 ;
+                    rdf:_2 _:N317b32b09dd3424385e530ab938f8aad ;
+                    rdf:_3 _:N52cf417ee2f347179decb1037f7e9d15 ] ] .
+
+<EZ5M583R> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N27e0e78978844bb28e643c796663a3b2 ;
+            dcterms:title "Timnit Gebru, Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N27e0e78978844bb28e643c796663a3b2 ] ] .
+
+<GAVG4QML> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N3ea0a2e2f2b64c929f6b5ae91e37cf74,
+                _:N5833272a7e484cd0bbdefd4ebae5b086,
+                _:N9bed9c9254b745aeae7964388021b4ce,
+                _:Na7ae8d977c604065b7332c1b172c2cf6,
+                _:Nb5f464e78e244f3a981d91e3599402ea,
+                _:Nb86920f413304146aee03789afd2d598,
+                _:Nfa5625663245450692dcec368db11e17 ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Defending Against Neural Fake News" ] ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3ea0a2e2f2b64c929f6b5ae91e37cf74 ;
+                    rdf:_2 _:Nb5f464e78e244f3a981d91e3599402ea ;
+                    rdf:_3 _:Nfa5625663245450692dcec368db11e17 ;
+                    rdf:_4 _:Na7ae8d977c604065b7332c1b172c2cf6 ;
+                    rdf:_5 _:Nb86920f413304146aee03789afd2d598 ;
+                    rdf:_6 _:N5833272a7e484cd0bbdefd4ebae5b086 ;
+                    rdf:_7 _:N9bed9c9254b745aeae7964388021b4ce ] ] .
+
+<MFTLDFCX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nb68282f0d69e4aafa9af71e0768dd78d,
+                _:Nfd1635d5f02d4442b03963b158ecbd31 ;
+            dcterms:title "Detecting Hate Speech on the World Wide Web" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb68282f0d69e4aafa9af71e0768dd78d ;
+                    rdf:_2 _:Nfd1635d5f02d4442b03963b158ecbd31 ] ] .
+
+<QZA46UZV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6c5c6215cefa4d3c89e4b62c378582a9,
+                _:Nfdd39b6333a9450d81220d3dac758243 ;
+            dcterms:date "2016" ;
+            dcterms:title "Barocas & Selbst" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6c5c6215cefa4d3c89e4b62c378582a9 ;
+                    rdf:_2 _:Nfdd39b6333a9450d81220d3dac758243 ] ] .
+
+<RB99AFYD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Revealed: 50 million Facebook profiles harvested for Cambridge Analytica in major data breach" ] .
+
+<VSQRKKD9> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N40a09856ce9b44879bd4b600b13f51cd,
+                _:N5dce6dcfd1a64a42a0a1001517769c47,
+                _:N690aa4a6168d46d184fa2d8204fa21ad,
+                _:N856164d077bd4aeb900b0b08c59212be,
+                _:N8783fb2f282644aa9d6c037f70dbfacb,
+                _:Nb4691761eaec4eecb3b84b6d18a1fc3e,
+                _:Nbe03d7e549a14138b3c2f84ef19e1a6d ;
+            dcterms:title "Conversations Gone Awry: Detecting Early Signs of Conversational Failure" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8783fb2f282644aa9d6c037f70dbfacb ;
+                    rdf:_2 _:N40a09856ce9b44879bd4b600b13f51cd ;
+                    rdf:_3 _:Nb4691761eaec4eecb3b84b6d18a1fc3e ;
+                    rdf:_4 _:N856164d077bd4aeb900b0b08c59212be ;
+                    rdf:_5 _:N5dce6dcfd1a64a42a0a1001517769c47 ;
+                    rdf:_6 _:Nbe03d7e549a14138b3c2f84ef19e1a6d ;
+                    rdf:_7 _:N690aa4a6168d46d184fa2d8204fa21ad ] ] .
+
+<WQM9FC5W> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N540adbd9774b4bf2a90bd0d12c64afae,
+                _:N75e1e0eabaee4ce9b0b4270a220d5d83,
+                _:N8b4b3f81141e4335ae4768c186dae4a2,
+                _:Nbb4349fb0a6a41bbb57c13763c2450de,
+                _:Ne582cbf3c8eb4a9183bdd3610929b3c0 ;
+            dcterms:title "The Risk of Racial Bias in Hate Speech Detection" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N75e1e0eabaee4ce9b0b4270a220d5d83 ;
+                    rdf:_2 _:Ne582cbf3c8eb4a9183bdd3610929b3c0 ;
+                    rdf:_3 _:N8b4b3f81141e4335ae4768c186dae4a2 ;
+                    rdf:_4 _:N540adbd9774b4bf2a90bd0d12c64afae ;
+                    rdf:_5 _:Nbb4349fb0a6a41bbb57c13763c2450de ] ] .
+
+_:N27e0e78978844bb28e643c796663a3b2 a foaf:Person ;
+    foaf:givenName "Joy" ;
+    foaf:surname "Buolamwini" .
+
+_:N317b32b09dd3424385e530ab938f8aad a foaf:Person ;
+    foaf:givenName "P.A.N." ;
+    foaf:surname "JENNIFER" .
+
+_:N3ea0a2e2f2b64c929f6b5ae91e37cf74 a foaf:Person ;
+    foaf:givenName "Rowan" ;
+    foaf:surname "Zellers" .
+
+_:N40a09856ce9b44879bd4b600b13f51cd a foaf:Person ;
+    foaf:givenName "Jonathan" ;
+    foaf:surname "Chang" .
+
+_:N52cf417ee2f347179decb1037f7e9d15 a foaf:Person ;
+    foaf:givenName "M.A.R.G.A.R.E.T.E." ;
+    foaf:surname "ROBERTS" .
+
+_:N540adbd9774b4bf2a90bd0d12c64afae a foaf:Person ;
+    foaf:givenName "Yejin" ;
+    foaf:surname "Choi" .
+
+_:N5833272a7e484cd0bbdefd4ebae5b086 a foaf:Person ;
+    foaf:givenName "Franziska" ;
+    foaf:surname "Roesner" .
+
+_:N5dce6dcfd1a64a42a0a1001517769c47 a foaf:Person ;
+    foaf:givenName "Yiqing" ;
+    foaf:surname "Hua" .
+
+_:N690aa4a6168d46d184fa2d8204fa21ad a foaf:Person ;
+    foaf:givenName "Nithum" ;
+    foaf:surname "Thain" .
+
+_:N6c5c6215cefa4d3c89e4b62c378582a9 a foaf:Organization ;
+    foaf:name "Hovy" .
+
+_:N75936393c4a24f84bac06ee547259698 a foaf:Person ;
+    foaf:givenName "K.I.N.G." ;
+    foaf:surname "GARY" .
+
+_:N75e1e0eabaee4ce9b0b4270a220d5d83 a foaf:Person ;
+    foaf:givenName "Maarten" ;
+    foaf:surname "Sap" .
+
+_:N7aecf75a0ece4d7fb05f929b6f60ae93 a foaf:Person ;
+    foaf:givenName "Kate" ;
+    foaf:surname "Starbird" .
+
+_:N856164d077bd4aeb900b0b08c59212be a foaf:Person ;
+    foaf:givenName "Lucas" ;
+    foaf:surname "Dixon" .
+
+_:N8783fb2f282644aa9d6c037f70dbfacb a foaf:Person ;
+    foaf:givenName "Justine" ;
+    foaf:surname "Zhang" .
+
+_:N8b4b3f81141e4335ae4768c186dae4a2 a foaf:Person ;
+    foaf:givenName "Saadia" ;
+    foaf:surname "Gabriel" .
+
+_:N9bed9c9254b745aeae7964388021b4ce a foaf:Person ;
+    foaf:givenName "Yejin" ;
+    foaf:surname "Choi" .
+
+_:Na7ae8d977c604065b7332c1b172c2cf6 a foaf:Person ;
+    foaf:givenName "Yonatan" ;
+    foaf:surname "Bisk" .
+
+_:Nb4691761eaec4eecb3b84b6d18a1fc3e a foaf:Person ;
+    foaf:givenName "Cristian" ;
+    foaf:surname "Danescu-Niculescu-Mizil" .
+
+_:Nb5f464e78e244f3a981d91e3599402ea a foaf:Person ;
+    foaf:givenName "Ari" ;
+    foaf:surname "Holtzman" .
+
+_:Nb68282f0d69e4aafa9af71e0768dd78d a foaf:Person ;
+    foaf:givenName "William" ;
+    foaf:surname "Warner" .
+
+_:Nb86920f413304146aee03789afd2d598 a foaf:Person ;
+    foaf:givenName "Ali" ;
+    foaf:surname "Farhadi" .
+
+_:Nbb4349fb0a6a41bbb57c13763c2450de a foaf:Person ;
+    foaf:givenName "Noah A." ;
+    foaf:surname "Smith" .
+
+_:Nbe03d7e549a14138b3c2f84ef19e1a6d a foaf:Person ;
+    foaf:givenName "Dario" ;
+    foaf:surname "Taraborelli" .
+
+_:Ne582cbf3c8eb4a9183bdd3610929b3c0 a foaf:Person ;
+    foaf:givenName "Dallas" ;
+    foaf:surname "Card" .
+
+_:Nfa5625663245450692dcec368db11e17 a foaf:Person ;
+    foaf:givenName "Hannah" ;
+    foaf:surname "Rashkin" .
+
+_:Nfd1635d5f02d4442b03963b158ecbd31 a foaf:Person ;
+    foaf:givenName "Julia" ;
+    foaf:surname "Hirschberg" .
+
+_:Nfdd39b6333a9450d81220d3dac758243 a foaf:Organization ;
+    foaf:name "Spruit" .
+

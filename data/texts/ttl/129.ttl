@@ -1,0 +1,22 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<L36A37FV> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016-05" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Opportunity, and Civil Rights" ] ] ;
+            dcterms:title "White House Report: Big Data: A Report on Algorithmic Systems" ] .
+
+<R8CTMJ2M> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Sections" ] ;
+                    bibo:volume "1-3" ] ;
+            dcterms:title "Simple Demographics Often Identify People Uniquely by Latanya Sweeney" ;
+            bibo:pages "6" ] .
+

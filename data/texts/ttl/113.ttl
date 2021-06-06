@@ -1,0 +1,352 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_17> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>NYTimes].</p>" ] .
+
+<#item_2> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Physiognomy’s New Clothes on Medium.</p>" ] .
+
+<#item_5> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>chapter 1).</p>" ] .
+
+<#item_7> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>chapter 3, chapter 6, bibliographic essay).</p>" ] .
+
+<2FB9PUWD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7529ea70286c4e12911d7aa2ccf321ec ;
+            dcterms:date "2017" ;
+            dcterms:title "Chapter 6: Platforms and Algorithms, from Twitter and Tear Gas: The Power and Fragility of Networked Protest" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7529ea70286c4e12911d7aa2ccf321ec ] ] .
+
+<2LNF5LJ7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N8c251af4a8b445148ef6e3c5fac01062 ;
+            dcterms:date "1992" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "University of California Press" ] ;
+            dcterms:title "America Calling: a social history of the telephone to 1940" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N8c251af4a8b445148ef6e3c5fac01062 ] ] .
+
+<3DA9AQNB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne430f6a8aa804f829ee7b17c5285bd40 ;
+            dcterms:date "2017" ;
+            dcterms:title "Chapter 7: Names and Connections, from Twitter and Tear Gas: The Power and Fragility of Networked Protest" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne430f6a8aa804f829ee7b17c5285bd40 ] ] .
+
+<4BIHPSQF> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N23edc0b07a4a49b895d59fa58551081d ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2010" ;
+                    dcterms:title "Networked Self: Identity, Community, and Culture on Social Network Sites (ed. Zizi Paparharissi" ] ;
+            dcterms:title "Social Network Sites as Networked Publics: Affordances, Dynamics, and Implications" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N23edc0b07a4a49b895d59fa58551081d ] ;
+            bibo:pages "39–58" ] .
+
+<4G278VQQ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N2f4a75710a3f40ff953c466581d82203 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2014" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Wired.com" ] ] ;
+            dcterms:title "The Laborers who Keep Dick Pics and Beheadings Out of Your Facebook Feed" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2f4a75710a3f40ff953c466581d82203 ] ] .
+
+<6ZRNGA86> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:date "2014" ;
+            dcterms:title "Working Anything but 9 to 5: Scheduling Technology Leaves Low-Income Parents With Hours of Chaos" ] .
+
+<8S9GZXVJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N29e01ec09e4349f59c0a6d77d3e45fb2 ;
+            dcterms:date "1992" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "University of California Press" ] ;
+            dcterms:title "America Calling: a social history of the telephone to 1940" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N29e01ec09e4349f59c0a6d77d3e45fb2 ] ] .
+
+<B74EQTUW> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N2a6ba2048f66477d9017aa8a49a6dfa8 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "1995" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Cambridge, MA" ;
+                            foaf:name "The MIT Press" ] ;
+                    dcterms:title "Toward a Theory of Sociotechnical Change" ;
+                    bibo:editor _:N1a7c505c704346ff979095384de55c8a,
+                        _:N36bd278b31e24eafb1cda759d64b2112,
+                        _:Nb79713f02e8141a89809e8a80419b681,
+                        _:Ndb64de37d03241b9bc72efd5e57f8682 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Nb79713f02e8141a89809e8a80419b681 ;
+                            rdf:_2 _:N1a7c505c704346ff979095384de55c8a ;
+                            rdf:_3 _:N36bd278b31e24eafb1cda759d64b2112 ;
+                            rdf:_4 _:Ndb64de37d03241b9bc72efd5e57f8682 ] ] ;
+            dcterms:title "King of the Road: The Social Construction of the Safety Bicycle" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2a6ba2048f66477d9017aa8a49a6dfa8 ] ] .
+
+<CVT7E49S> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N557726182d5e40cdb04873c5a2048838 ;
+            dcterms:date "2008" ;
+            dcterms:title "Articulations of WikiWork: Uncovering Valued Work in Wikipedia Through Barnstars" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N557726182d5e40cdb04873c5a2048838 ] ] .
+
+<DQFAV74J> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "How technology led a hospital to give a patient 38 times his dosage" ] .
+
+<ENA4Q5EE> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N128b6c377e5b49c8903fbd5dd388ba16 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "1999" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Buckingham, UK" ;
+                            foaf:name "Open University Press" ] ;
+                    dcterms:title "The Social Shaping of Technology" ;
+                    bibo:editor _:N23591ec1276d49aa8f00c582f61f1a3b,
+                        _:N99a64f1a1bf24bb4bff1b4f034eaf02e ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:N23591ec1276d49aa8f00c582f61f1a3b ;
+                            rdf:_2 _:N99a64f1a1bf24bb4bff1b4f034eaf02e ] ] ;
+            dcterms:title "Do Artifacts Have Politics?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N128b6c377e5b49c8903fbd5dd388ba16 ] ;
+            bibo:pages "22–40" ] .
+
+<G6RRA34D> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1009f8a81ed94d9aaf672f182797e441,
+                _:N1ea587cbd9fd4b9c84af2230e4fec7d7 ;
+            dcterms:date "2017" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1ea587cbd9fd4b9c84af2230e4fec7d7 ;
+                    rdf:_2 _:N1009f8a81ed94d9aaf672f182797e441 ] ] .
+
+<G7C8QGF7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N833e34218e324ed9be10c8066a308f84 ;
+            dcterms:date "2015" ;
+            dcterms:title "Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers (a study of Uber and Lyft drivers" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N833e34218e324ed9be10c8066a308f84 ] ] .
+
+<GW48IU4W> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N897ab4329d2948a0ad01a086e74cf787 ;
+            dcterms:date "2001" ;
+            dcterms:title "The Intellectual Challenge of CSCW: The Gap between Social Requirements and Technical Feasibility Human-Computer Interaction" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N897ab4329d2948a0ad01a086e74cf787 ] ] .
+
+<MCYQUQJ2> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:N25abb7a10bb8430480edb748011ac4aa ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2011" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Barcelona, Spain" ] ;
+                    dcterms:title "Proceedings of the ICWSM-11. Fifth International AAAI Conference on Weblog and Social Media" ] ;
+            dcterms:title "4chan and /b/: An Analysis of Online Anonymity and Ephemerality in a Large Online Community" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N25abb7a10bb8430480edb748011ac4aa ] ] .
+
+<N9IA35LP> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:Nafc48a94b1b945c28d20220a39b86b07 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2002" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Science, Technology & Human Values" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "27" ] ;
+            dcterms:title "IT, Gender, and Professional Practice: Or, Why an Automated Drug Distribution system was Sent Back to the Manufacturer" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nafc48a94b1b945c28d20220a39b86b07 ] ;
+            bibo:pages "379–403" ] .
+
+<TBWVAYH7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N71e454cff09e43e688e1efa7858fd7b6,
+                _:Na526c8d0a118446b934e55f6b1534c29 ;
+            dcterms:date "2004" ;
+            dcterms:title "Slash(dot) and Burn: Distributed Moderation in a Large Online Conversation Space" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N71e454cff09e43e688e1efa7858fd7b6 ;
+                    rdf:_2 _:Na526c8d0a118446b934e55f6b1534c29 ] ] .
+
+<UH6K8RVM> a z:UserItem ;
+    res:resource [ a bibo:Article ;
+            dcterms:creator _:Ncec8638be8484192a515e38069bea4db,
+                _:Ne2ef0375fceb416b8089885fc6ef0b7c ;
+            dcterms:isPartOf [ a bibo:Proceedings ;
+                    dcterms:date "2010" ;
+                    dcterms:publisher [ a foaf:Organization ;
+                            address:localityName "Savannah, GA" ] ;
+                    dcterms:title "Proceedings ofthe 2010 ACM conference on Computer Supported Cooperative Work" ] ;
+            dcterms:title "The Work of Sustaining Order in Wikipedia: The Banning of a Vandal" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne2ef0375fceb416b8089885fc6ef0b7c ;
+                    rdf:_2 _:Ncec8638be8484192a515e38069bea4db ] ] .
+
+<UPDH6WIF> a z:UserItem ;
+    res:resource <https://arstechnica.com/cars/2016/05/death-by-gps/> .
+
+<WHUBEEDB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1b733740191045ccad55fc50d1d732b7,
+                _:Nb3943ef8b3534f59ad738cb2fde4b587 ;
+            dcterms:date "2007" ;
+            dcterms:title "The Design of Implicit Interactions: Making Interactive Systems Less Obnoxious" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1b733740191045ccad55fc50d1d732b7 ;
+                    rdf:_2 _:Nb3943ef8b3534f59ad738cb2fde4b587 ] ] .
+
+<XR9HL5SC> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:Nf346a41bea1648d6bcdf021e5f07ef8c ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2017" ;
+                    dcterms:title "MD. The New Yorker" ] ;
+            dcterms:title "AI vs" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf346a41bea1648d6bcdf021e5f07ef8c ] ] .
+
+<ZXJM6NIK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N98e6e30794354e7fa2a06cd42d1ebad3 ;
+            dcterms:date "2017" ;
+            dcterms:title "You Can’t Stay Here: The Efficacy of Reddit’s 2015 Ban Examined Through Hate Speech" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N98e6e30794354e7fa2a06cd42d1ebad3 ] ] .
+
+<https://arstechnica.com/cars/2016/05/death-by-gps/> a bibo:Document ;
+    dcterms:title "Ars Technica: Death by GPS: why do we follow digital maps into dodgy places?" ;
+    bibo:uri "https://arstechnica.com/cars/2016/05/death-by-gps/" .
+
+_:N1009f8a81ed94d9aaf672f182797e441 a foaf:Organization ;
+    foaf:name "Arcas" .
+
+_:N128b6c377e5b49c8903fbd5dd388ba16 a foaf:Person ;
+    foaf:givenName "L." ;
+    foaf:surname "Winner" .
+
+_:N1a7c505c704346ff979095384de55c8a a foaf:Person ;
+    foaf:givenName "Of" ;
+    foaf:surname "Bicycles" .
+
+_:N1b733740191045ccad55fc50d1d732b7 a foaf:Organization ;
+    foaf:name "Ju" .
+
+_:N1ea587cbd9fd4b9c84af2230e4fec7d7 a foaf:Organization ;
+    foaf:name "Aguera" .
+
+_:N23591ec1276d49aa8f00c582f61f1a3b a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "MacKenzie" .
+
+_:N23edc0b07a4a49b895d59fa58551081d a foaf:Person ;
+    foaf:givenName "d" ;
+    foaf:surname "Boyd" .
+
+_:N25abb7a10bb8430480edb748011ac4aa a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Bernstein" .
+
+_:N29e01ec09e4349f59c0a6d77d3e45fb2 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Fischer" .
+
+_:N2a6ba2048f66477d9017aa8a49a6dfa8 a foaf:Person ;
+    foaf:givenName "W." ;
+    foaf:surname "Bijker" .
+
+_:N2f4a75710a3f40ff953c466581d82203 a foaf:Person ;
+    foaf:givenName "Chen" ;
+    foaf:surname "OPTIONAL" .
+
+_:N36bd278b31e24eafb1cda759d64b2112 a foaf:Organization ;
+    foaf:name "Bakelites" .
+
+_:N557726182d5e40cdb04873c5a2048838 a foaf:Organization ;
+    foaf:name "Kriplean" .
+
+_:N71e454cff09e43e688e1efa7858fd7b6 a foaf:Organization ;
+    foaf:name "Lampe" .
+
+_:N7529ea70286c4e12911d7aa2ccf321ec a foaf:Organization ;
+    foaf:name "Tufekci" .
+
+_:N833e34218e324ed9be10c8066a308f84 a foaf:Organization ;
+    foaf:name "Lee" .
+
+_:N897ab4329d2948a0ad01a086e74cf787 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Ackerman" .
+
+_:N8c251af4a8b445148ef6e3c5fac01062 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Fischer" .
+
+_:N98e6e30794354e7fa2a06cd42d1ebad3 a foaf:Organization ;
+    foaf:name "Chandrasekaran" .
+
+_:N99a64f1a1bf24bb4bff1b4f034eaf02e a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Wajcman" .
+
+_:Na526c8d0a118446b934e55f6b1534c29 a foaf:Organization ;
+    foaf:name "Resnick" .
+
+_:Nafc48a94b1b945c28d20220a39b86b07 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Novek" .
+
+_:Nb3943ef8b3534f59ad738cb2fde4b587 a foaf:Organization ;
+    foaf:name "Leifer" .
+
+_:Nb79713f02e8141a89809e8a80419b681 a foaf:Person ;
+    foaf:givenName "W." ;
+    foaf:surname "Bijker" .
+
+_:Ncec8638be8484192a515e38069bea4db a foaf:Person ;
+    foaf:givenName "D." ;
+    foaf:surname "Ribes" .
+
+_:Ndb64de37d03241b9bc72efd5e57f8682 a foaf:Organization ;
+    foaf:name "Bulbs" .
+
+_:Ne2ef0375fceb416b8089885fc6ef0b7c a foaf:Person ;
+    foaf:givenName "Geiger R." ;
+    foaf:surname "S." .
+
+_:Ne430f6a8aa804f829ee7b17c5285bd40 a foaf:Organization ;
+    foaf:name "Tufekci" .
+
+_:Nf346a41bea1648d6bcdf021e5f07ef8c a foaf:Organization ;
+    foaf:name "Mukherjee" .
+

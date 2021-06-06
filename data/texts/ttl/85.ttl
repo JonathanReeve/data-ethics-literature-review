@@ -1,0 +1,376 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_30> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>in press.</p>" ] .
+
+<2TRQAKUB> a z:UserItem ;
+    res:resource <http://alturl.com/yrrau> .
+
+<34CC6VQY> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N46190147404b44aba8aa4c637832fc75 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2014" ;
+                    dcterms:title "The Moral" ] ;
+            dcterms:title "Guns Don’t Kill, People Kill”; Values in and/or Around Technologies" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N46190147404b44aba8aa4c637832fc75 ] ] .
+
+<4BYLRQ7F> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N04c187d4877b4b87b778c2cfaeadbd80 ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2016" ;
+                    dcterms:title "Autonomous Driving: Technical, Legal and" ] ;
+            dcterms:title "Why Ethics Matters for Autonomous Cars" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N04c187d4877b4b87b778c2cfaeadbd80 ] ] .
+
+<4JGXUSBW> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Na36e0a797e4e490fb3795a3a362a0a23,
+                _:Ncebabcc0b1ed40b8a02f357055ce3821 ;
+            dcterms:date "2017" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cognition" ;
+                    foaf:name "Is Having Your Computer" ] ;
+            dcterms:title "The Ethics Of Extended" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncebabcc0b1ed40b8a02f357055ce3821 ;
+                    rdf:_2 _:Na36e0a797e4e490fb3795a3a362a0a23 ] ] .
+
+<4S3HMVEP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "‫‪Technology‬‬ ‫‪Information‬‬ ‫‪and‬‬ ‫‪Ethics‬‬ ‫‪Regulation" ] .
+
+<5SWYRVFU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "‫‪Society‬‬ ‫&‬ ‫‪AI‬‬ ‫‪Faculties.‬‬ ‫‪Moral‬‬ ‫‪Human‬‬ ‫‪Modelling‬‬ ‫‪for" ] .
+
+<66HANNR9> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Dordrecht" ;
+                    foaf:name "Springer" ] ] .
+
+<6WF2METG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N051bda2512784aed84f0f704899cb01e ;
+            dcterms:date "2015" ;
+            dcterms:title "The Problem with Self-Driving Cars: Who Controls the Code? The Guardian" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N051bda2512784aed84f0f704899cb01e ] ] .
+
+<9BR7NA55> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Social Aspects" ;
+                    bibo:editor _:N1ef049b80aad43caa880704ff7d36eda,
+                        _:Nd24a06ced55a4c71b2ffa61fbc443bc8,
+                        _:Ned82062de13d48d7a33279c87c5f1c8a,
+                        _:Nff012f7eda814e9eb0d194d8958f61d2 ;
+                    bibo:editorList [ a rdf:Seq ;
+                            rdf:_1 _:Nd24a06ced55a4c71b2ffa61fbc443bc8 ;
+                            rdf:_2 _:Nff012f7eda814e9eb0d194d8958f61d2 ;
+                            rdf:_3 _:Ned82062de13d48d7a33279c87c5f1c8a ;
+                            rdf:_4 _:N1ef049b80aad43caa880704ff7d36eda ] ] ;
+            bibo:pages "69–85" ] .
+
+<BCD5CR5N> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Compromised a Personal Assault? Journal of the American Philosophical Association, forthcoming" ] .
+
+<CB873PYF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "‫‪Information‬‬‫‪and‬‬ ‫‪Ethics‬‬ ‫‪Machines.‬‬ ‫‪Virtuous‬‬ ‫‪of‬‬ ‫‪Creation‬‬ ‫‪the‬‬ ‫‪On‬‬ ‫‪Character:‬‬ ‫‪of‬‬ ‫‪Out‬‬ ‫‪2012.‬‬ ‫‪Ryan.‬‬ ‫‪Tonkens" ] .
+
+<DIUUTSHA> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "and Information Technology" ] ;
+                    bibo:issue "4" ;
+                    bibo:volume "17" ] ;
+            bibo:pages "249–265" ] .
+
+<EESGHAJL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "‫‪Approaches‬‬‫‪Top-down‬‬ ‫‪and‬‬ ‫‪Bottom-up‬‬ ‫‪Morality:‬‬ ‫‪Machine‬‬ ‫‪2008.‬‬ ‫‪Smit.‬‬ ‫‪Iva‬‬ ‫‪and‬‬ ‫‪Allen‬‬ ‫‪Colin‬‬ ‫‪Wendell,‬‬ ‫‪Wallach" ] .
+
+<F4S4LAP7> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "‫‪M.‬‬ ‫‪David‬‬ ‫‪Douglas" ] ;
+            dcterms:title "‫‪Internet‬‬‫‪to‬‬ ‫‪Justice‬‬ ‫‪of‬‬ ‫‪Principles‬‬ ‫’‪Rawls‬‬ ‫‪Applying‬‬ ‫‪Internet:‬‬ ‫‪Fair‬‬ ‫‪and‬‬ ‫‪Just‬‬ ‫‪a‬‬ ‫‪Towards‬‬ ‫‪2015" ] .
+
+<FBCW2CYL> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<FZI4HBZS> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<GB9PNK7Q> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "‫‪Technology" ] ] .
+
+<H6BW7748> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Springer" ] ] .
+
+<H8RGLCDU> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:creator _:N087e0e13aa5c4e80a9d93667173673af,
+                _:N1699250a797b4b0482f1dca386faeeb2,
+                _:N545e705fd6704692bcee06668a6ae57e ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:date "2014" ;
+                    dcterms:title "The Moral Status of Technical" ] ;
+            dcterms:title "Can Technology Embody Values?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N087e0e13aa5c4e80a9d93667173673af ;
+                    rdf:_2 _:N545e705fd6704692bcee06668a6ae57e ;
+                    rdf:_3 _:N1699250a797b4b0482f1dca386faeeb2 ] ] .
+
+<JD69HTP4> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N51b43b421ffd4ee29cf541c3fffd3f3c ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2016" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "The Guardian" ] ] ;
+            dcterms:title "Self-Driving Cars Don't Care about Your Moral Dilemmas" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N51b43b421ffd4ee29cf541c3fffd3f3c ] ] .
+
+<JFJUF6CF> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N2c8bc3f82a304d3ba4c61b492b5ee2f9,
+                _:Nb88698c506814350840ab1e85720b2d7 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "2015" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Ethics" ] ] ;
+            dcterms:title "Breaking the Filter Bubble: Democracy and Design" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nb88698c506814350840ab1e85720b2d7 ;
+                    rdf:_2 _:N2c8bc3f82a304d3ba4c61b492b5ee2f9 ] ] .
+
+<LTYBC99I> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N819f47da6c8e453bbaf07aaeac42659c,
+                _:N84a69e125c2a4f8f95513a013dd25f1e,
+                _:Ne2d5e32eb34c4f79b8a8fd3858700861 ;
+            dcterms:date "2008" ;
+            dcterms:title "Embodying Values in Technology: Theory" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N819f47da6c8e453bbaf07aaeac42659c ;
+                    rdf:_2 _:Ne2d5e32eb34c4f79b8a8fd3858700861 ;
+                    rdf:_3 _:N84a69e125c2a4f8f95513a013dd25f1e ] ] .
+
+<RMZKME5F> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Information Technology and Moral Philosophy" ] ;
+            dcterms:title "and Practice" ] .
+
+<SHVE3DC3> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N2882295ad2a04a8cbadf1b263bb7af9a ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1999" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Social Studies of Science" ] ;
+                    bibo:issue "3" ;
+                    bibo:volume "29" ] ;
+            dcterms:title "Do Politics Have Artefacts?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N2882295ad2a04a8cbadf1b263bb7af9a ] ;
+            bibo:pages "411–431" ] .
+
+<V6TQD6QJ> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "New Media & Society" ] ;
+            dcterms:title "Analysis of Autocompleted Web Search" ] .
+
+<VSTQ4FHB> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:creator _:N431d51d1cad947578c29f84ba01dcde3 ;
+            dcterms:isPartOf [ a bibo:Issue ;
+                    dcterms:date "1980" ;
+                    dcterms:isPartOf [ a bibo:Journal ;
+                            dcterms:title "Daedalus" ] ;
+                    bibo:issue "1" ;
+                    bibo:volume "109" ] ;
+            dcterms:title "Do Artifacts Have Politics?" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N431d51d1cad947578c29f84ba01dcde3 ] ;
+            bibo:pages "121–136" ] .
+
+<VTB4PTES> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Dordrecht" ;
+                    foaf:name "Springer" ] ;
+            bibo:editor _:N1aba67f7b3194dbab60f997e001f3b25,
+                _:N4da9baed2e8f4220a38179c946cda026 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N4da9baed2e8f4220a38179c946cda026 ;
+                    rdf:_2 _:N1aba67f7b3194dbab60f997e001f3b25 ] ;
+            bibo:numPages "103–124" ] .
+
+<VY36RSNB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6530d7f23ff8409485676f090fe6dc61,
+                _:Nae4aeea280674520bd289b6cab76e02a ;
+            dcterms:date "2016" ;
+            dcterms:title "Responsible Epistemic Technologies: A Social-Epistemological" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6530d7f23ff8409485676f090fe6dc61 ;
+                    rdf:_2 _:Nae4aeea280674520bd289b6cab76e02a ] ] .
+
+<W28TE4FK> a z:UserItem ;
+    res:resource <https://www.theguardian.com/technology/2016/aug/22/self-driving-cars-moral-dilemmas> .
+
+<Y9YD595X> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Status of Technical Artefacts" ;
+            bibo:editor _:N0f19884a705d446fb375a50873af311c,
+                _:Nf267a95e8dd4482daab2505d9bdff43c ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N0f19884a705d446fb375a50873af311c ;
+                    rdf:_2 _:Nf267a95e8dd4482daab2505d9bdff43c ] ] .
+
+<ZHKGB2EB> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:creator _:Na64c075444304136a553e102bb823062 ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cambridge" ;
+                    foaf:name "Cambridge University Press" ] ;
+            dcterms:title "322-353" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na64c075444304136a553e102bb823062 ] ] .
+
+<http://alturl.com/yrrau> a bibo:Document ;
+    dcterms:date "25 December" ;
+    bibo:uri "http://alturl.com/yrrau" .
+
+<https://www.theguardian.com/technology/2016/aug/22/self-driving-cars-moral-dilemmas> a bibo:Document ;
+    bibo:uri "https://www.theguardian.com/technology/2016/aug/22/self-driving-cars-moral-dilemmas" .
+
+_:N04c187d4877b4b87b778c2cfaeadbd80 a foaf:Person ;
+    foaf:givenName "Patrick" ;
+    foaf:surname "Lin" .
+
+_:N051bda2512784aed84f0f704899cb01e a foaf:Person ;
+    foaf:givenName "Cory" ;
+    foaf:surname "Doctorow" .
+
+_:N087e0e13aa5c4e80a9d93667173673af a foaf:Person ;
+    foaf:givenName "Van" ;
+    foaf:surname "Poel" .
+
+_:N0f19884a705d446fb375a50873af311c a foaf:Person ;
+    foaf:givenName "Peter" ;
+    foaf:surname "Kroes" .
+
+_:N1699250a797b4b0482f1dca386faeeb2 a foaf:Person ;
+    foaf:givenName "Peter" ;
+    foaf:surname "Kroes" .
+
+_:N1aba67f7b3194dbab60f997e001f3b25 a foaf:Person ;
+    foaf:givenName "Peter-Paul" ;
+    foaf:surname "Verbeek" .
+
+_:N1ef049b80aad43caa880704ff7d36eda a foaf:Person ;
+    foaf:givenName "Hermann" ;
+    foaf:surname "Winner" .
+
+_:N2882295ad2a04a8cbadf1b263bb7af9a a foaf:Person ;
+    foaf:givenName "Bernward" ;
+    foaf:surname "Joerges" .
+
+_:N2c8bc3f82a304d3ba4c61b492b5ee2f9 a foaf:Person ;
+    foaf:givenName "Jeroen" ;
+    foaf:surname "Hoven" .
+
+_:N431d51d1cad947578c29f84ba01dcde3 a foaf:Person ;
+    foaf:givenName "Langdon" ;
+    foaf:surname "Winner" .
+
+_:N46190147404b44aba8aa4c637832fc75 a foaf:Person ;
+    foaf:givenName "Joseph C." ;
+    foaf:surname "Pitt" .
+
+_:N4da9baed2e8f4220a38179c946cda026 a foaf:Person ;
+    foaf:givenName "Peter Kroes" ;
+    foaf:surname "Artefacts" .
+
+_:N51b43b421ffd4ee29cf541c3fffd3f3c a foaf:Person ;
+    foaf:givenName "Alex" ;
+    foaf:surname "Hern" .
+
+_:N545e705fd6704692bcee06668a6ae57e a foaf:Organization ;
+    foaf:name "Ibo" .
+
+_:N6530d7f23ff8409485676f090fe6dc61 a foaf:Person ;
+    foaf:givenName "Boaz" ;
+    foaf:surname "Miller" .
+
+_:N819f47da6c8e453bbaf07aaeac42659c a foaf:Person ;
+    foaf:givenName "Mary" ;
+    foaf:surname "Flanagan" .
+
+_:N84a69e125c2a4f8f95513a013dd25f1e a foaf:Person ;
+    foaf:givenName "Helen" ;
+    foaf:surname "Nissenbaum" .
+
+_:Na36e0a797e4e490fb3795a3a362a0a23 a foaf:Person ;
+    foaf:givenName "S.Orestis" ;
+    foaf:surname "Palermos" .
+
+_:Na64c075444304136a553e102bb823062 a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Weckert" .
+
+_:Nae4aeea280674520bd289b6cab76e02a a foaf:Person ;
+    foaf:givenName "Isaac" ;
+    foaf:surname "Record" .
+
+_:Nb88698c506814350840ab1e85720b2d7 a foaf:Person ;
+    foaf:givenName "Engin" ;
+    foaf:surname "Bozdag" .
+
+_:Ncebabcc0b1ed40b8a02f357055ce3821 a foaf:Person ;
+    foaf:givenName "J.Adam" ;
+    foaf:surname "Carter" .
+
+_:Nd24a06ced55a4c71b2ffa61fbc443bc8 a foaf:Person ;
+    foaf:givenName "Markus" ;
+    foaf:surname "Maurer" .
+
+_:Ne2d5e32eb34c4f79b8a8fd3858700861 a foaf:Person ;
+    foaf:givenName "Daniel C." ;
+    foaf:surname "Howe" .
+
+_:Ned82062de13d48d7a33279c87c5f1c8a a foaf:Person ;
+    foaf:givenName "Barbara" ;
+    foaf:surname "Lenz" .
+
+_:Nf267a95e8dd4482daab2505d9bdff43c a foaf:Person ;
+    foaf:givenName "Peter-Paul" ;
+    foaf:surname "Verbeek" .
+
+_:Nff012f7eda814e9eb0d194d8958f61d2 a foaf:Person ;
+    foaf:givenName "Chris" ;
+    foaf:surname "Gerdes" .
+

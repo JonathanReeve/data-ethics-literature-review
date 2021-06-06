@@ -1,0 +1,933 @@
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://purl.org/vocab/resourcelist/schema#> .
+@prefix z: <http://www.zotero.org/namespaces/export#> .
+
+<#item_106> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Play Money: Julian Dibbell</p>" ] .
+
+<#item_117> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Radiant Textuality: Jerome Mcgann</p>" ] .
+
+<#item_126> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Ruling the Root: Milton Mueller</p>" ] .
+
+<#item_13> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Blog Theory: Jodi Dean</p>" ] .
+
+<#item_136> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Splintered Urbanism: Steve Graham</p>" ] .
+
+<#item_143> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Tales from Facebook: Daniel Miller</p>" ] .
+
+<#item_16> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Convergence Culture:Henry Jenkins</p>" ] .
+
+<#item_24> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Designing Culture: Anne Balsamo</p>" ] .
+
+<#item_3> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Imagining the Internet Robin Mansell</p>" ] .
+
+<#item_34> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Free Culture: Lawrence Lessig</p>" ] .
+
+<#item_42> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Good Faith Collabora9on:</p>" ] .
+
+<#item_58> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>The Informa9onal City: Manuel Castells</p>" ] .
+
+<#item_7> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Recommended texts:</p>" ] .
+
+<#item_96> a z:UserItem ;
+    res:resource [ a bibo:Note ;
+            z:note "<p>Internet Governance: Milton Mueller</p>" ] .
+
+<27DHFGFY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3a391e8ceb23400d95fa0862e22cbcb1 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3a391e8ceb23400d95fa0862e22cbcb1 ] ] .
+
+<298TAGZU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N4abc30fb42144a6d8c6672c1ff378412,
+                _:Nbff14b48026c456a91c7430dc7eef336 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N4abc30fb42144a6d8c6672c1ff378412 ;
+                    rdf:_2 _:Nbff14b48026c456a91c7430dc7eef336 ] ] .
+
+<2AP8ZJLN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Cyberprotest: Jenny Pickerill" ] .
+
+<2D48FKH6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Preemp9ng Dissent: The Poli9cs of an Inevitable" ] .
+
+<2DH4IQPJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "In the Plex: How Google Thinks....: Steven Levy" ] .
+
+<2EN4LB9Z> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Wealth of Networks: Yochai Benkler" ] .
+
+<2JEC5Z7S> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Theories of the Informa9on Society" ] .
+
+<2WN9ZUKW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Cri9cal Perspec9ves on the Internet: Greg Elmer" ] .
+
+<2ZSPNZPQ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<38U2K4YG> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Governing Global Electronic Networks" ] .
+
+<3ARY9GBM> a z:UserItem ;
+    res:resource [ a bibo:BookSection ;
+            dcterms:isPartOf [ a bibo:EditedBook ;
+                    dcterms:title "Interna9onal Handbook of Internet Research" ] ] .
+
+<4JJ3R8CG> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Imagina9on" ;
+                    foaf:name "Ma\\hew Kirschenbaum" ] ] .
+
+<4NACRLNU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N64ca4b5a114d4b818c272c0c18a1bfe3 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N64ca4b5a114d4b818c272c0c18a1bfe3 ] ] .
+
+<4RTGG4R2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            bibo:editor _:N0bbd804409294eaaae1c580925a27977,
+                _:N81c5263f75d248a6b8e4c46426367853 ;
+            bibo:editorList [ a rdf:Seq ;
+                    rdf:_1 _:N81c5263f75d248a6b8e4c46426367853 ;
+                    rdf:_2 _:N0bbd804409294eaaae1c580925a27977 ] ] .
+
+<53LVUHK6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nba5581ff4eee47b5981eadaf1f4112c0 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nba5581ff4eee47b5981eadaf1f4112c0 ] ] .
+
+<56GMSL8Y> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "L. Taylor" ] ;
+            dcterms:title "Play Between Worlds: T" ] .
+
+<5A5DJUEX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Youtube: Online Video and Par9cipatory Culture" ] .
+
+<5B8ZR9YV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nc065c64131274a1c9420efbaba6972a3 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nc065c64131274a1c9420efbaba6972a3 ] ] .
+
+<5HUPI8VT> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "John Seely Brown" ] ;
+            dcterms:title "The Social Life of Informa9on" ] .
+
+<5VTQSQB3> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<5YEY2YS7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Digi9zing Race: Lisa Nakamura" ] .
+
+<62F6S4FC> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<62TRJ25Z> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Thomas Streeter" ] ;
+            dcterms:title "The Net Effect" ] .
+
+<6FQHBG5G> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Networks and States: The Global Poli9cs of" ] .
+
+<6PZD3CH8> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Humani9es" ;
+                    foaf:name "David Berry" ] ;
+            dcterms:title "Understanding Digital" ] .
+
+<6RGAMAYE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N87bc6773ddd44caa879a69876a19ad45 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N87bc6773ddd44caa879a69876a19ad45 ] ] .
+
+<79H84BFG> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<7LWS5SU2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Hypertext 3.0: Cri9cal Theory and" ] .
+
+<7VKZWN62> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<7YLLA4V2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Life on the Screen: Sherry Turkle" ] .
+
+<8BLENFA6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Internet Inven9on: From Literacy to Electracy" ] .
+
+<8IB2UIBN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nac79b4b0fd9a499ba89e159eacea470f ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nac79b4b0fd9a499ba89e159eacea470f ] ] .
+
+<8J7JPLZ2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nfca219c8e74f49c9a1012ffcbb151ec6 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfca219c8e74f49c9a1012ffcbb151ec6 ] ] .
+
+<8PYRI872> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Divining a Digital Future: Paul Dourish" ] .
+
+<8UJYI3PV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Learning and Research in Virtual Worlds: Jeremy" ] .
+
+<8ZHG7XF6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "New Media Reader" ;
+                    foaf:name "Noah Waldrip-­‐Fruin" ] ] .
+
+<9SIZ5B5E> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Googliza9on of Everything" ] .
+
+<9U9Q663F> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Informa9on Society: Armand Ma\\elart" ] .
+
+<9UUPQJHN> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nf052e302c56c4057ad06f8936a228f8c ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nf052e302c56c4057ad06f8936a228f8c ] ] .
+
+<9V68TTB6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Network Culture" ;
+                    foaf:name "Tiziana Terranova" ] ] .
+
+<9WSY2GNE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N1fee4b35afb94087989df538b110fb36 ;
+            dcterms:title "Messing Around, and Geeking Out" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N1fee4b35afb94087989df538b110fb36 ] ] .
+
+<A3I75AJC> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "World" ;
+                    foaf:name "Naomi Baron" ] ] .
+
+<A4TQC6V8> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N09fd6b7006204c14a7cf1cd09239aca0 ;
+            dcterms:title "Ethics and Values in Web Design: Helen" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N09fd6b7006204c14a7cf1cd09239aca0 ] ] .
+
+<A5J8FLKE> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Interconnected Systems" ;
+                    foaf:name "John Palfrey and Urs" ] ] .
+
+<AMTH4SU5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Reading Youtube" ;
+                    foaf:name "Anandam Kavoori" ] ] .
+
+<AVBRGMYR> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Where the Wizards Stay Up Late: Ka9e Hafner" ] .
+
+<B4DCXD9N> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Digital Media Ethics" ;
+                    foaf:name "Charles Ess" ] ] .
+
+<B5ZGFMPR> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<BG6DPMLL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Standards and their Stories: Susan Leigh Starr" ] .
+
+<BJ99PGI9> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<BJH6W7X2> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N486077c4a29245889faf94752939385d ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N486077c4a29245889faf94752939385d ] ] .
+
+<BP9BLZQF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Informa9on Society: Cyber Dreams and Digital" ] .
+
+<BQJLER33> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N35e7ef2bc9c347308cf51e10a5f7ca62 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N35e7ef2bc9c347308cf51e10a5f7ca62 ] ] .
+
+<BSPQL3LJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Opening Standards: Laura DeNardis" ] .
+
+<C6GZWWJC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0bdd77b0c0924427be07dc72d64b51dd ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0bdd77b0c0924427be07dc72d64b51dd ] ] .
+
+<C7MJ76AI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Internet Inquiry: Anne\\e Markham and Nancy" ] .
+
+<C87YMX88> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<CGXJRG33> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Internet: an ethnographic approach: Daniel" ] .
+
+<CHZZS5D5> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Book" ;
+                    foaf:name "Jussi Parikka" ] ;
+            dcterms:title "The Spam" ] .
+
+<CI2E8RZX> a z:UserItem ;
+    res:resource [ a bibo:AcademicArticle ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Luke" ] ;
+            dcterms:title "Screens of Power: Timothy W" ] .
+
+<CS3SXBAZ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<CU2HPRSP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Venture Labor: Gina Neff" ] .
+
+<CV2SH5M6> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Protocol" ;
+                    foaf:name "Alexander Galloway" ] ] .
+
+<DEV5GGDK> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Bomb" ;
+                    foaf:name "Paul Virilio" ] ;
+            dcterms:title "The Informa9on" ] .
+
+<DHTQUXJQ> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Organized Networks" ;
+                    foaf:name "Media Theory" ] ] .
+
+<DM4GFIKA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6a1e96f59e2c427eae60ce2d9e8c0bd8,
+                _:Nadede5db0a654863915aaa442f20c7e9 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nadede5db0a654863915aaa442f20c7e9 ;
+                    rdf:_2 _:N6a1e96f59e2c427eae60ce2d9e8c0bd8 ] ] .
+
+<DNM39PIA> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<DQ6LBAUA> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ndaac9dc1bfde464eb37f228eef7e5169 ;
+            dcterms:title "Media Ac9vism and the Internet" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ndaac9dc1bfde464eb37f228eef7e5169 ] ] .
+
+<E45CJNL7> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Social Media Reader: Michael Mandiberg" ] .
+
+<EEEBQMS6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Penguin and the Leviathan: Yochai Benkler" ] .
+
+<EEPNI4EC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N16a66b132d5a486aa8c89bf31671ca55 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N16a66b132d5a486aa8c89bf31671ca55 ] ] .
+
+<EN4GN2WS> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3e540abb7c6841de9b6ecb6505fb0dbe,
+                _:N941096fd24c54e599ed066bbbded5591 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3e540abb7c6841de9b6ecb6505fb0dbe ;
+                    rdf:_2 _:N941096fd24c54e599ed066bbbded5591 ] ] .
+
+<EZ2444B3> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Myth of Digital Democracy: Mathew Hindman" ] .
+
+<F4PZD4VJ> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<F7YNHMRW> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Profiling Machines" ;
+                    foaf:name "Greg Elmer" ] ] .
+
+<FRE5WACF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Games of Empire: Nick Dyer-­‐Witherford and Greg" ] .
+
+<GFNBHY2P> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Exploit: Alexander Galloway and Eugene" ] .
+
+<GU3QV5UT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nad0400bb2d54429a84f51ec44f58f4e1 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nad0400bb2d54429a84f51ec44f58f4e1 ] ] .
+
+<HBBNWDQV> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Personal Connec9ons in the Digital Age Nancy Baym" ] .
+
+<HEPSREG5> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Routledge Handbook of Internet Poli9cs: Andrew" ] .
+
+<HZCM5YE3> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<INXSHX94> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N0fa9e22c9e2642328740815ff4992c1a ;
+            dcterms:title "Toward a Rhetoric of New Media" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N0fa9e22c9e2642328740815ff4992c1a ] ] .
+
+<IWNARX7F> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N13457ba69a4942778ed76cb44d86c4e2,
+                _:N3573b0bbfe384be4a625434696b714a3,
+                _:Nc436d9de18fc46fa914cdb4504f25beb ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3573b0bbfe384be4a625434696b714a3 ;
+                    rdf:_2 _:N13457ba69a4942778ed76cb44d86c4e2 ;
+                    rdf:_3 _:Nc436d9de18fc46fa914cdb4504f25beb ] ] .
+
+<IWRY4CDV> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Remedia9on" ;
+                    foaf:name "Jay David Bolter and Richard Grusin" ] ] .
+
+<J37HS49A> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Wikipedia" ;
+                    foaf:name "Joseph Reagle" ] ] .
+
+<J3LWGY4X> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "How to Think about Informa9on: Dan Schiller" ] .
+
+<JJMHGSUF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Inven9ng the Internet: Janet Abbate" ] .
+
+<JLK4LGYJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "My Life as a Night Elf Priest: Bonnie Nardi" ] .
+
+<JUHUA6VL> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Jean-­‐Francois Lyotard" ] ;
+            dcterms:title "The Postmodern Condi9on" ] .
+
+<K63NM6J4> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Rise of the Networked Society: Manuel Castells" ] .
+
+<KCSLE6RZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N54822421f4574786a463b375fe0a4487,
+                _:Ncf3329077055490695505096b4cf6237 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ncf3329077055490695505096b4cf6237 ;
+                    rdf:_2 _:N54822421f4574786a463b375fe0a4487 ] ] .
+
+<LHRDS8WD> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "iSpy: Surveillance and Power in the Interac9ve Era" ] .
+
+<LP3BJ646> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Weaving the Web: Tim Berners-­‐Lee" ] .
+
+<LWEZD2QH> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Future" ;
+                    foaf:name "Greg Elmer and Andy Opei" ] ] .
+
+<LZTPTE5F> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Protocol Poli9cs: Laura DeNardis" ] .
+
+<M6CD5L2F> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nfda1642584bc435aa73c8b59ab8901b7 ;
+            dcterms:title "Language in and Online and Mobile" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nfda1642584bc435aa73c8b59ab8901b7 ] ] .
+
+<N988IBTJ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Scholarship in the Digital Age: Chris9ne Borgman" ] .
+
+<NDKAVLPP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Future of the Internet: Jonathan Zi\\rain" ] .
+
+<NRMIWKZT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Reload: Rethinking Women and Cyberculture" ] .
+
+<P3NQLH8Y> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Ne1e256255e23430da7df2a3a4ce662c1 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Ne1e256255e23430da7df2a3a4ce662c1 ] ] .
+
+<PJ6DXS2S> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<PZ9F86ZC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Digital Media and Democracy: Megan Boler" ] .
+
+<QEJXJBS2> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Gamer Theory" ;
+                    foaf:name "Mackenzie Wark" ] ] .
+
+<QKZK4T6H> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Culture of" ] .
+
+<RJL58VYL> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<RPMQQY4Y> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7a446ffc9e3f4553b800508204da5dba ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7a446ffc9e3f4553b800508204da5dba ] ] .
+
+<RVANX4MH> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N3ad7b6eb1cc2445bba68bd2af16b6115 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N3ad7b6eb1cc2445bba68bd2af16b6115 ] ] .
+
+<RVVU8K34> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Labor, New Ins9tu9ons" ;
+                    foaf:name "Ned Rossiter" ] ] .
+
+<SB2IGPDY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Nece1baaf6a034937a8241352d81d1e35 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Nece1baaf6a034937a8241352d81d1e35 ] ] .
+
+<SKRYNISP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Networks of Outrage and Hope: Manuel Castells" ] .
+
+<SMWFN6VF> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Digital Origins of Dictatorship and Democracy" ] .
+
+<SQALWNKI> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "and those required in the syllabus that are downloadable on the internet or will be provided" ] .
+
+<T2RCWHE6> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<TKRX2V27> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Blogging" ;
+                    foaf:name "Jill Walker Re\\burg" ] ] .
+
+<TLU469AX> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Interop: The Promise and Peril of Highly" ] .
+
+<TT22WAFT> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Frank Who Controls the Internet: Jack Goldsmith" ] .
+
+<UB2NHC6F> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6d9fc52623cd4c589f5c6e5d0d5048a0 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6d9fc52623cd4c589f5c6e5d0d5048a0 ] ] .
+
+<UPGKCHHU> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:Na8cffadb93644f468475a518247845ce ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:Na8cffadb93644f468475a518247845ce ] ] .
+
+<UXQ6YATE> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N6a92e9f881f54a75a14131b9f4f10940 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N6a92e9f881f54a75a14131b9f4f10940 ] ] .
+
+<V24522YN> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Gregory Ulmer" ] ] .
+
+<V7NB3M5L> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Copyrights and Copywrongs: Siva Vaidhyanathan" ] .
+
+<VAM5Q7IY> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7530fdeb47184e9fad0f62edd2c3a595,
+                _:Nad8fb2c925884a2e9621cdbd7b3d3e19 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7530fdeb47184e9fad0f62edd2c3a595 ;
+                    rdf:_2 _:Nad8fb2c925884a2e9621cdbd7b3d3e19 ] ] .
+
+<VNCH7X3L> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5803a190365a4906a9ce1cf254d80cf3 ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5803a190365a4906a9ce1cf254d80cf3 ] ] .
+
+<VPP335X9> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cybertext" ;
+                    foaf:name "Espen Aarseth" ] ] .
+
+<VW3BUV7H> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "A Private Sphere Zizi Papacharisi" ] .
+
+<W8ID43UT> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Networked" ;
+                    foaf:name "Lee Rainie and Barry Wellman" ] ] .
+
+<WLI5NXEP> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Cultures" ;
+                    foaf:name "Adrian MacKenzie" ] ] .
+
+<WMGIEJZP> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N359d5ecfa264433e9cbe046a856266c0 ;
+            dcterms:title "The Meaning of a Format: Jonathan Sterne" ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N359d5ecfa264433e9cbe046a856266c0 ] ] .
+
+<WRH8WK2J> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Nightmares" ;
+                    foaf:name "Robert Hassan" ] ] .
+
+<WTMA2NFB> a z:UserItem ;
+    res:resource [ a bibo:Document ] .
+
+<WYXGT5NK> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N7a6a6eeb66c249c98e84cf1acde7cbcd ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N7a6a6eeb66c249c98e84cf1acde7cbcd ] ] .
+
+<XB6GJAAL> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Race afer the Internet: Lisa Nakamura and Peter" ] .
+
+<XLCQ55IW> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Tubes: A Journey to the Center of the Intenret: Wirelessness: Radical Empiricism and Network" ] .
+
+<XQG4EETC> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:creator _:N5cb576def22e4c3c9f9a331e8c56bb4c,
+                _:Ne59f41b7d8434c2bbf1a19e6877dbe3c ;
+            bibo:authorList [ a rdf:Seq ;
+                    rdf:_1 _:N5cb576def22e4c3c9f9a331e8c56bb4c ;
+                    rdf:_2 _:Ne59f41b7d8434c2bbf1a19e6877dbe3c ] ] .
+
+<YEB84V6W> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Standards: Recipes for Infrastructures" ] .
+
+<Z3U79UK9> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "The Breakup 2.0: Ilana Gershon" ] .
+
+<ZC8VLTPB> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Cyberfeminism 2.0: Radhika Gajjala" ] .
+
+<ZFMAQLWY> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Mark C. Taylor" ] ;
+            dcterms:title "The Moment of Complexity" ] .
+
+<ZKBVLZIF> a z:UserItem ;
+    res:resource [ a bibo:Book ;
+            dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Alexander Halavais" ] ;
+            dcterms:title "Search Engine Society" ] .
+
+<ZP9JPIJ6> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Cri9cal Social Theories Ben Agger" ] .
+
+<ZZ59VACZ> a z:UserItem ;
+    res:resource [ a bibo:Document ;
+            dcterms:title "Online A Lot of the Time: Ken Hillis" ] .
+
+_:N09fd6b7006204c14a7cf1cd09239aca0 a foaf:Person ;
+    foaf:givenName "Net" ;
+    foaf:surname "Work" .
+
+_:N0bbd804409294eaaae1c580925a27977 a foaf:Person ;
+    foaf:givenName "Ed" ;
+    foaf:surname "Castronova" .
+
+_:N0bdd77b0c0924427be07dc72d64b51dd a foaf:Person ;
+    foaf:givenName "Graham" ;
+    foaf:surname "Meikle" .
+
+_:N0fa9e22c9e2642328740815ff4992c1a a foaf:Person ;
+    foaf:givenName "Linqua" ;
+    foaf:surname "Fracta" .
+
+_:N13457ba69a4942778ed76cb44d86c4e2 a foaf:Person ;
+    foaf:givenName "Lisbeth" ;
+    foaf:surname "Klastrup" .
+
+_:N16a66b132d5a486aa8c89bf31671ca55 a foaf:Organization ;
+    foaf:name "Chow-­‐White" .
+
+_:N1fee4b35afb94087989df538b110fb36 a foaf:Person ;
+    foaf:givenName "Hanging" ;
+    foaf:surname "out" .
+
+_:N3573b0bbfe384be4a625434696b714a3 a foaf:Person ;
+    foaf:givenName "Jeremy" ;
+    foaf:surname "Hunsinger" .
+
+_:N359d5ecfa264433e9cbe046a856266c0 a foaf:Organization ;
+    foaf:name "MP3" .
+
+_:N35e7ef2bc9c347308cf51e10a5f7ca62 a foaf:Organization ;
+    foaf:name "Baym" .
+
+_:N3a391e8ceb23400d95fa0862e22cbcb1 a foaf:Person ;
+    foaf:givenName "Andrew" ;
+    foaf:surname "Blum" .
+
+_:N3ad7b6eb1cc2445bba68bd2af16b6115 a foaf:Organization ;
+    foaf:name "Kennedy" .
+
+_:N3e540abb7c6841de9b6ecb6505fb0dbe a foaf:Organization ;
+    foaf:name "Hunsinger" .
+
+_:N486077c4a29245889faf94752939385d a foaf:Organization ;
+    foaf:name "Webster" .
+
+_:N4abc30fb42144a6d8c6672c1ff378412 a foaf:Organization ;
+    foaf:name "Chadwick" .
+
+_:N54822421f4574786a463b375fe0a4487 a foaf:Organization ;
+    foaf:name "Forensic" .
+
+_:N5803a190365a4906a9ce1cf254d80cf3 a foaf:Person ;
+    foaf:givenName "Mark" ;
+    foaf:surname "Andrejevic" .
+
+_:N5cb576def22e4c3c9f9a331e8c56bb4c a foaf:Person ;
+    foaf:givenName "Mitzuko" ;
+    foaf:surname "Ito" .
+
+_:N64ca4b5a114d4b818c272c0c18a1bfe3 a foaf:Organization ;
+    foaf:name "Peuter" .
+
+_:N6a1e96f59e2c427eae60ce2d9e8c0bd8 a foaf:Person ;
+    foaf:givenName "Jean Baudrillard" ;
+    foaf:surname "Simula9on" .
+
+_:N6a92e9f881f54a75a14131b9f4f10940 a foaf:Person ;
+    foaf:givenName "Mary" ;
+    foaf:surname "Flanagan" .
+
+_:N6d9fc52623cd4c589f5c6e5d0d5048a0 a foaf:Organization ;
+    foaf:name "Thacker" .
+
+_:N7530fdeb47184e9fad0f62edd2c3a595 a foaf:Person ;
+    foaf:givenName "Always Already" ;
+    foaf:surname "New" .
+
+_:N7a446ffc9e3f4553b800508204da5dba a foaf:Organization ;
+    foaf:name "al" .
+
+_:N7a6a6eeb66c249c98e84cf1acde7cbcd a foaf:Person ;
+    foaf:givenName "George P." ;
+    foaf:surname "Landow" .
+
+_:N81c5263f75d248a6b8e4c46426367853 a foaf:Person ;
+    foaf:givenName "Synthe9c" ;
+    foaf:surname "Worlds" .
+
+_:N87bc6773ddd44caa879a69876a19ad45 a foaf:Person ;
+    foaf:givenName "Paul" ;
+    foaf:surname "Duguid" .
+
+_:N941096fd24c54e599ed066bbbded5591 a foaf:Person ;
+    foaf:givenName "Aleks" ;
+    foaf:surname "Krotoski" .
+
+_:Na8cffadb93644f468475a518247845ce a foaf:Person ;
+    foaf:givenName "Collin" ;
+    foaf:surname "Brooke" .
+
+_:Nac79b4b0fd9a499ba89e159eacea470f a foaf:Person ;
+    foaf:givenName "Philip" ;
+    foaf:surname "Howard" .
+
+_:Nad0400bb2d54429a84f51ec44f58f4e1 a foaf:Organization ;
+    foaf:name "Drake" .
+
+_:Nad8fb2c925884a2e9621cdbd7b3d3e19 a foaf:Person ;
+    foaf:givenName "Lisa" ;
+    foaf:surname "Gitelman" .
+
+_:Nadede5db0a654863915aaa442f20c7e9 a foaf:Organization ;
+    foaf:name "Simulacra" .
+
+_:Nba5581ff4eee47b5981eadaf1f4112c0 a foaf:Organization ;
+    foaf:name "Gasser" .
+
+_:Nbff14b48026c456a91c7430dc7eef336 a foaf:Person ;
+    foaf:givenName "Philip" ;
+    foaf:surname "Howard" .
+
+_:Nc065c64131274a1c9420efbaba6972a3 a foaf:Organization ;
+    foaf:name "Busch" .
+
+_:Nc436d9de18fc46fa914cdb4504f25beb a foaf:Organization ;
+    foaf:name "Ma\\hew" .
+
+_:Ncf3329077055490695505096b4cf6237 a foaf:Person ;
+    foaf:givenName "New" ;
+    foaf:surname "Media" .
+
+_:Ndaac9dc1bfde464eb37f228eef7e5169 a foaf:Person ;
+    foaf:givenName "Future" ;
+    foaf:surname "Ac9ve" .
+
+_:Ne1e256255e23430da7df2a3a4ce662c1 a foaf:Organization ;
+    foaf:name "Miller" .
+
+_:Ne59f41b7d8434c2bbf1a19e6877dbe3c a foaf:Organization ;
+    foaf:name "al" .
+
+_:Nece1baaf6a034937a8241352d81d1e35 a foaf:Organization ;
+    foaf:name "Allen" .
+
+_:Nf052e302c56c4057ad06f8936a228f8c a foaf:Organization ;
+    foaf:name "Vaidhyanathan" .
+
+_:Nfca219c8e74f49c9a1012ffcbb151ec6 a foaf:Person ;
+    foaf:givenName "Jean" ;
+    foaf:surname "Burgess" .
+
+_:Nfda1642584bc435aa73c8b59ab8901b7 a foaf:Person ;
+    foaf:givenName "Always" ;
+    foaf:surname "On" .
+
