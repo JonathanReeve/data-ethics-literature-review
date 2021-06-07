@@ -49,9 +49,11 @@ coursesWithSyllabi = g.query("""
 # for line in coursesWithSyllabi:
 #     print(line)
 
-# 2. Download those syllabi
-# 3. Add syllabus readings to graph
+# 2. Manually extract references from syllabi (see issue #23)
 
+# 3. Now we have turtle files for each course, e.g., data/texts/ttl/101.ttl
+# 4. Let's add all the texts from each of those turtle files to our main
+# courses.ttl graph.
 
 for courseID, syllabus in coursesWithSyllabi:
     logging.info(f"Course ID: {courseID}")
