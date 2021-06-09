@@ -196,6 +196,7 @@ with import (builtins.fetchGit {
         filelock
         pytest
         docx2txt
+        flask
 	    ];
     };
     in 

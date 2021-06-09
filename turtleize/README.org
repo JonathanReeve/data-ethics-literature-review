@@ -6,9 +6,14 @@
 
 * Contents
 
+- ~.envrc~: used by ~direnv~ to run ~nix-shell~ automatically.
+- ~default.nix~: the Nix file that describes the dependencies of this directory.
+- ~enhanceBibliography.py~: query bibliographic APIs for more information about our texts
+- ~enhanceGraph.py~: add text descriptions to our graph
 - ~tech-ethics-courses.csv~: a dump of the crowdsourced courses list gathered by [[https://cfiesler.medium.com/tech-ethics-curricula-a-collection-of-syllabi-3eedfb76be18][this research project]]
-- ~turtleize-spreadsheet.py~: a script for transforming the CSV into RDF
+- ~spreadsheetToGraph.py~: a script for transforming the CSV into RDF
 - ~toRDF.py~: a command-line program for transforming all kinds of text identifiers into RDF
+- ~unifyGraphs.py~: combine text and courses graphs into one big graph (#22)
 
 * Usage
 
