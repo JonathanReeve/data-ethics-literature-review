@@ -33,7 +33,7 @@ def getCourseText():
             ?doc dcterms:title ?textTitle .
             ?doc dcterms:creator ?author .
             ?author foaf:surname ?authorLast .
-        } limit 50""")
+        } limit 150""")
 
     for line in coursesAndTexts:
         print(line)

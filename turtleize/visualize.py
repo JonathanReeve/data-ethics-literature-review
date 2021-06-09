@@ -98,7 +98,7 @@ def getCourseText2():
             ?doc dcterms:title ?textTitle .
             ?doc dcterms:creator ?author .
             ?author foaf:surname ?authorLast .
-        } limit 50""")
+        } limit 400""")
 
     for line in coursesAndTexts:
         print(line)
@@ -125,7 +125,7 @@ def getCourseText2():
 
     print(template)
 
-    net.save_graph('../website/graph-viz.html')
+    net.save_graph('../website/graph-vis.html')
     # net.show('../website/graph-vis.html')
 
 getCourseText2()
