@@ -1,0 +1,2165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Courses and Texts</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width" initialScale="1.0" name="viewport">
+    <link href="https://unpkg.com/spectre.css/dist/spectre.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js" type="text/javascript"></script>
+    <script>
+    nodes = new vis.DataSet([{&quot;title&quot;: &quot;Ethics for CS students&quot;, &quot;id&quot;: &quot;Ethics for CS students&quot;, &quot;label&quot;: &quot;Ethics for CS students&quot;, &quot;shape&quot;: &quot;square&quot;}, {&quot;title&quot;: &quot;Manual de \u00c9tica Profesional. Textos Docencia Universitaria UDP&quot;, &quot;id&quot;: &quot;Manual de \u00c9tica Profesional. Textos Docencia Universitaria UDP&quot;, &quot;label&quot;: &quot;Filippi&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;\u00c9tica e Ingenier\u00eda&quot;, &quot;id&quot;: &quot;\u00c9tica e Ingenier\u00eda&quot;, &quot;label&quot;: &quot;Mitcham&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;The Moviegoer's Guide to the Future&quot;, &quot;id&quot;: &quot;The Moviegoer's Guide to the Future&quot;, &quot;label&quot;: &quot;The Moviegoer's Guide to the Future&quot;, &quot;shape&quot;: &quot;square&quot;}, {&quot;title&quot;: &quot;Films from the Future: The Technology and Morality of Sci-Fi Movies&quot;, &quot;id&quot;: &quot;Films from the Future: The Technology and Morality of Sci-Fi Movies&quot;, &quot;label&quot;: &quot;Maynard&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Critical Internet Studies&quot;, &quot;id&quot;: &quot;Critical Internet Studies&quot;, &quot;label&quot;: &quot;Critical Internet Studies&quot;, &quot;shape&quot;: &quot;square&quot;}, {&quot;title&quot;: &quot;Messing Around, and Geeking Out&quot;, &quot;id&quot;: &quot;Messing Around, and Geeking Out&quot;, &quot;label&quot;: &quot;out&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Media Ac9vism and the Internet&quot;, &quot;id&quot;: &quot;Media Ac9vism and the Internet&quot;, &quot;label&quot;: &quot;Ac9ve&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Toward a Rhetoric of New Media&quot;, &quot;id&quot;: &quot;Toward a Rhetoric of New Media&quot;, &quot;label&quot;: &quot;Fracta&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Language in and Online and Mobile&quot;, &quot;id&quot;: &quot;Language in and Online and Mobile&quot;, &quot;label&quot;: &quot;On&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Ethics and Values in Web Design: Helen&quot;, &quot;id&quot;: &quot;Ethics and Values in Web Design: Helen&quot;, &quot;label&quot;: &quot;Work&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;id&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;label&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;shape&quot;: &quot;square&quot;}, {&quot;title&quot;: &quot;Trigger-Action Programming in the Wild: An Analysis of 200,000 IFTTT Recipes&quot;, &quot;id&quot;: &quot;Trigger-Action Programming in the Wild: An Analysis of 200,000 IFTTT Recipes&quot;, &quot;label&quot;: &quot;Lee&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Pax Technica: How the Internet of Things may set us free or lock us up&quot;, &quot;id&quot;: &quot;Pax Technica: How the Internet of Things may set us free or lock us up&quot;, &quot;label&quot;: &quot;Howard&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Situating Digital Interventions: Mixed Methods for HCI Research in the Home&quot;, &quot;id&quot;: &quot;Situating Digital Interventions: Mixed Methods for HCI Research in the Home&quot;, &quot;label&quot;: &quot;Wilson&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Self-tracking&quot;, &quot;id&quot;: &quot;Self-tracking&quot;, &quot;label&quot;: &quot;Neff&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;You Put What, Where?: Hobbyist Use of Insertable Devices&quot;, &quot;id&quot;: &quot;You Put What, Where?: Hobbyist Use of Insertable Devices&quot;, &quot;label&quot;: &quot;Vetere&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Information Wars: A Window into the Alternative Media Ecosystem&quot;, &quot;id&quot;: &quot;Information Wars: A Window into the Alternative Media Ecosystem&quot;, &quot;label&quot;: &quot;Starbird&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;When the Algorithm Itself is a Racist: Diagnosing Ethical Harm in the Basic Components of Software&quot;, &quot;id&quot;: &quot;When the Algorithm Itself is a Racist: Diagnosing Ethical Harm in the Basic Components of Software&quot;, &quot;label&quot;: &quot;Karahalios&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;The relevance of algorithms&quot;, &quot;id&quot;: &quot;The relevance of algorithms&quot;, &quot;label&quot;: &quot;Gillespie&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Manifesting the Cyborg through Techno-Body Modification: From Human- Computer Interaction to Integration&quot;, &quot;id&quot;: &quot;Manifesting the Cyborg through Techno-Body Modification: From Human- Computer Interaction to Integration&quot;, &quot;label&quot;: &quot;Britton&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Censuses Evidence&quot;, &quot;id&quot;: &quot;Censuses Evidence&quot;, &quot;label&quot;: &quot;Becker&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;How to think about digital research&quot;, &quot;id&quot;: &quot;How to think about digital research&quot;, &quot;label&quot;: &quot;Sandvig&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;Accounting for Market Frictions and Power Asymmetries in Online Labor Markets&quot;, &quot;id&quot;: &quot;Accounting for Market Frictions and Power Asymmetries in Online Labor Markets&quot;, &quot;label&quot;: &quot;Kingsley&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;The attention merchants: The epic scramble to get inside our heads&quot;, &quot;id&quot;: &quot;The attention merchants: The epic scramble to get inside our heads&quot;, &quot;label&quot;: &quot;Wu&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;title&quot;: &quot;First I \u201clike\u201d it, then I hide it: Folk theories of social feeds&quot;, &quot;id&quot;: &quot;First I \u201clike\u201d it, then I hide it: Folk theories of social feeds&quot;, &quot;label&quot;: &quot;Kirlik&quot;, &quot;shape&quot;: &quot;circle&quot;}])
+    edges = new vis.DataSet([{&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Ethics for CS students&quot;, &quot;to&quot;: &quot;Manual de \u00c9tica Profesional. Textos Docencia Universitaria UDP&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Ethics for CS students&quot;, &quot;to&quot;: &quot;\u00c9tica e Ingenier\u00eda&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;The Moviegoer's Guide to the Future&quot;, &quot;to&quot;: &quot;Films from the Future: The Technology and Morality of Sci-Fi Movies&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Critical Internet Studies&quot;, &quot;to&quot;: &quot;Messing Around, and Geeking Out&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Critical Internet Studies&quot;, &quot;to&quot;: &quot;Media Ac9vism and the Internet&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Critical Internet Studies&quot;, &quot;to&quot;: &quot;Toward a Rhetoric of New Media&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Critical Internet Studies&quot;, &quot;to&quot;: &quot;Language in and Online and Mobile&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Critical Internet Studies&quot;, &quot;to&quot;: &quot;Ethics and Values in Web Design: Helen&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;Trigger-Action Programming in the Wild: An Analysis of 200,000 IFTTT Recipes&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;Pax Technica: How the Internet of Things may set us free or lock us up&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;Situating Digital Interventions: Mixed Methods for HCI Research in the Home&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;Self-tracking&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;You Put What, Where?: Hobbyist Use of Insertable Devices&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;Information Wars: A Window into the Alternative Media Ecosystem&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;When the Algorithm Itself is a Racist: Diagnosing Ethical Harm in the Basic Components of Software&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;The relevance of algorithms&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;Manifesting the Cyborg through Techno-Body Modification: From Human- Computer Interaction to Integration&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;Censuses Evidence&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;How to think about digital research&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;Accounting for Market Frictions and Power Asymmetries in Online Labor Markets&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;The attention merchants: The epic scramble to get inside our heads&quot;}, {&quot;title&quot;: &quot;hasLM&quot;, &quot;from&quot;: &quot;Media, Algorithms &amp; Platform Publics&quot;, &quot;to&quot;: &quot;First I \u201clike\u201d it, then I hide it: Folk theories of social feeds&quot;}])
+    data = {nodes: nodes, edges: edges};
+    </script>
+  </head>
+  <body>
+    <div class_="container" style="width: 55em; margin: 0 auto;">
+      <div class_="columns">
+        <div class_="column col-12">
+          <header class="navbar">
+            <section class="navbar-section">
+              <a class_="navbar-brand" href="/">Data Ethics</a>
+              <a class="btn btn-link" href="/about/index.html">About</a>
+              <a class="btn btn-link" href="/uni-course/index.html">Uni-Course</a>
+              <a class="btn btn-link" href="/course-text/index.html">Course-Text</a>
+              <a class="btn btn-link" href="/text-text/index.html">Text-Text</a>
+            </section>
+          </header>
+          <h2>Courses by University</h2>
+          <ul class="universities">
+            <li class="university">University of Edinburgh
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics of Artificial Intelligence</span>
+                  <span>, </span>
+                  <span class="instName">Mark Sprevak</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Professional Issues</span>
+                  <span>, </span>
+                  <span class="instName">Michael Fourman &amp; Stuart Anderson</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of New Mexico
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Social and Ethical Issues in Computing</span>
+                  <span>, </span>
+                  <span class="instName">often adjuncts</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social and Ethical Issues in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Leah Buechley + others on a semester by semester basis</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Massachusetts Institute of Technology (MIT)
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Civic Media: Collaborative Design Studio</span>
+                  <span>, </span>
+                  <span class="instName">Sasha Costanza-Chock</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Foundations of Internet Policy</span>
+                  <span>, </span>
+                  <span class="instName">Michael Fisher</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Foundations of Internet Policy</span>
+                  <span>, </span>
+                  <span class="instName">Harold Abelson</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Foundations of Internet Policy</span>
+                  <span>, </span>
+                  <span class="instName">Daniel Weitzner</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics for Engineers</span>
+                  <span>, </span>
+                  <span class="instName">Bernhardt L Trout</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Engineering Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Taft Broome</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Universidad de Chile
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics for CS students</span>
+                  <span>, </span>
+                  <span class="instName">Javier Bustos-Jiménez</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Northwestern University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Human-Computer Interaction</span>
+                  <span>, </span>
+                  <span class="instName">Jordan Eschler</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Algorithms and Society</span>
+                  <span>, </span>
+                  <span class="instName">Brent Hecht</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Algorithms and Society</span>
+                  <span>, </span>
+                  <span class="instName">possibly more soon</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Human/Algorithm Interaction</span>
+                  <span>, </span>
+                  <span class="instName">Mike DeVito (Winter 2018)</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Georgetown University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">ICT Law &amp; Policy</span>
+                  <span>, </span>
+                  <span class="instName">Meg Leta Jones</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">ICT Law &amp; Policy</span>
+                  <span>, </span>
+                  <span class="instName">Leslie Harris</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social Media &amp; Democracy</span>
+                  <span>, </span>
+                  <span class="instName">Elizabeth Edenberg</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social Media &amp; Democracy</span>
+                  <span>, </span>
+                  <span class="instName">Maggie Little</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Governing Automated Decisions</span>
+                  <span>, </span>
+                  <span class="instName">David Robinson</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Big Data and its Politics</span>
+                  <span>, </span>
+                  <span class="instName">Rajesh Veeraraghavan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Governing Emerging Technologies</span>
+                  <span>, </span>
+                  <span class="instName">Meg Leta Jones</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Governing Emerging Technologies</span>
+                  <span>, </span>
+                  <span class="instName">Mark MacCarthy</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">International/Comparative Privacy &amp; Surveillance</span>
+                  <span>, </span>
+                  <span class="instName">Meg Leta Jones</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Maggie Little</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Elizabeth Edenberg</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Global Internet Freedom</span>
+                  <span>, </span>
+                  <span class="instName">Leslie Harris</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in the Digital Age</span>
+                  <span>, </span>
+                  <span class="instName">Elizabeth Edenberg</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Notre Dame
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics in Business Analytics</span>
+                  <span>, </span>
+                  <span class="instName">Scott Nestler</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data &amp; AI Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Emanuele Ratti</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics &amp; Policy in Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Scott Nestler</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Colorado Boulder
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Ecosystems</span>
+                  <span>, </span>
+                  <span class="instName">Casey Fiesler</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Digital Anthropology</span>
+                  <span>, </span>
+                  <span class="instName">Timothy Webmoor</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethical and Policy Dimensions of Information, Technology, and New Media</span>
+                  <span>, </span>
+                  <span class="instName">Casey Fiesler</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">California Polytechnic State Univ., San Luis Obispo
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics, Science, and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Ryan Jenkins</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics, Science, and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Zach Rentz</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics, Science, and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Patrick Lin</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Robot Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Keith Abney</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Technologies and the Ethics of Warfare</span>
+                  <span>, </span>
+                  <span class="instName">Ryan Jenkins</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Virginia Tech
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">nan</span>
+                  <span>, </span>
+                  <span class="instName">Tom Ewing</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Main Themes in Philosophy of Science and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Ashley Shew or Jim Collier</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Technology and Disability</span>
+                  <span>, </span>
+                  <span class="instName">Ashley Shew</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Pennsylvania - The Wharton School
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Big Data, Big Responsibilities</span>
+                  <span>, </span>
+                  <span class="instName">Kevin Werbach</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Stanford University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical Issues in Engineering</span>
+                  <span>, </span>
+                  <span class="instName">Robert McGinn</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Programming Abstractions and Social Good</span>
+                  <span>, </span>
+                  <span class="instName">J. Cain</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Race &amp; Gender in Silicon Valley</span>
+                  <span>, </span>
+                  <span class="instName">Cynthia Lee</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Artificial Intelligence - Philosophy, Ethics, and Impact</span>
+                  <span>, </span>
+                  <span class="instName">Jerry Kaplan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Public Interest Tech: Case Studies</span>
+                  <span>, </span>
+                  <span class="instName">Dan Grusky</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Public Interest Tech: Case Studies</span>
+                  <span>, </span>
+                  <span class="instName">Margaret Hagan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">The Public Life of Science and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Sandra Lee</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">The Politics of Algorithms</span>
+                  <span>, </span>
+                  <span class="instName">Angele Christin</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computers, Ethics, and Public Policy</span>
+                  <span>, </span>
+                  <span class="instName">Keith Winstein</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computers, Ethics, and Public Policy</span>
+                  <span>, </span>
+                  <span class="instName">Allison Berke</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Bridging Policy and Tech Through Design</span>
+                  <span>, </span>
+                  <span class="instName">Jeffrey Ullman</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Lakehead University 
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics in Computer Science </span>
+                  <span>, </span>
+                  <span class="instName">Abhijeet Rao</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in Computer Science </span>
+                  <span>, </span>
+                  <span class="instName">Kevin Brooks</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Northeastern University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Priavcy Law</span>
+                  <span>, </span>
+                  <span class="instName">Woodrow Hartzog</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Security Law and Policy</span>
+                  <span>, </span>
+                  <span class="instName">Andrea Matwyshyn</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">The Law, Policy, and Ethics of Data and Digital Technologies</span>
+                  <span>, </span>
+                  <span class="instName">Woodrow Hartzog</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Internet Law and Policy</span>
+                  <span>, </span>
+                  <span class="instName">Andrea Matwyshyn</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Literature &amp; Digital Diversity</span>
+                  <span>, </span>
+                  <span class="instName">Sarah Connell</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Literature &amp; Digital Diversity</span>
+                  <span>, </span>
+                  <span class="instName">Elizabeth Maddock Dillon</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Rochester Institute of Technology
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Philosophy of Peace</span>
+                  <span>, </span>
+                  <span class="instName">Evan Selinger</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Philosophy of Technology</span>
+                  <span>, </span>
+                  <span class="instName">Evan Selinger</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Utah
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics in Videogames</span>
+                  <span>, </span>
+                  <span class="instName">Jose Zagal</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in Games</span>
+                  <span>, </span>
+                  <span class="instName">Jose Zagal</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Suresh Venkatasubramanian</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Katie Shelef</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">UC Berkeley
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Fairness in Machine Learning</span>
+                  <span>, </span>
+                  <span class="instName">Moritz Hardt</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Engineering, The Environment, and Society</span>
+                  <span>, </span>
+                  <span class="instName">Khalid Kadir</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Behind the Data: Humans and Values</span>
+                  <span>, </span>
+                  <span class="instName">Deirdre Mulligan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social and Organizational Issues of Information</span>
+                  <span>, </span>
+                  <span class="instName">Morgan Ames</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social and Organizational Issues of Information</span>
+                  <span>, </span>
+                  <span class="instName">Jenna Burrell</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social and Organizational Issues of Information</span>
+                  <span>, </span>
+                  <span class="instName">Anne Jonas</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social and Organizational Issues of Information</span>
+                  <span>, </span>
+                  <span class="instName">Coye Cheshire</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Law and Policy</span>
+                  <span>, </span>
+                  <span class="instName">Deirdre Mulligan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Engineering Social Justice</span>
+                  <span>, </span>
+                  <span class="instName">Khalid Kadir</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social Issues of Information</span>
+                  <span>, </span>
+                  <span class="instName">Jenna Burrell</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Privacy and Security Lab</span>
+                  <span>, </span>
+                  <span class="instName">Chris Hoofnagle</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">The Social Life of Computing</span>
+                  <span>, </span>
+                  <span class="instName">Shreeharsh Kelkar</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Deconstructing Data Science</span>
+                  <span>, </span>
+                  <span class="instName">David Bamman</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Sociology of Virtual Communities and Social Media</span>
+                  <span>, </span>
+                  <span class="instName">Stuart Geiger</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Privacy Law for Technologists</span>
+                  <span>, </span>
+                  <span class="instName">Chris Hoofnagle</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Technology and Delegation</span>
+                  <span>, </span>
+                  <span class="instName">Deirdre Mulligan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Behind the Data: Humans and Values</span>
+                  <span>, </span>
+                  <span class="instName">Nathan Good</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Behind the Data: Humans and Values</span>
+                  <span>, </span>
+                  <span class="instName">Morgan Ames</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Behind the Data: Humans and Values</span>
+                  <span>, </span>
+                  <span class="instName">Anna Lauren Hoffmann</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Behind the Data: Humans and Values</span>
+                  <span>, </span>
+                  <span class="instName">Morgan G. Ames</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data and Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Anna Lauren Hoffmann</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Science, Technology, and Society: Human Contexts and Ethics of Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Charis Thompson</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Science, Technology, and Society: Human Contexts and Ethics of Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Margo Boenig-Liptsin</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Science, Technology, and Society: Human Contexts and Ethics of Data Science</span>
+                  <span>, </span>
+                  <span class="instName">colleagues (Massimo Mazzotti</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Science, Technology, and Society: Human Contexts and Ethics of Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Cathryn Carson</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Human Rights Investigations Lab</span>
+                  <span>, </span>
+                  <span class="instName">Alexa Koenig</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Human Rights Investigations Lab</span>
+                  <span>, </span>
+                  <span class="instName">Andrea Lampros</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Human Rights Investigations Lab</span>
+                  <span>, </span>
+                  <span class="instName">Stephanie Croft</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Human Rights Investigations Lab</span>
+                  <span>, </span>
+                  <span class="instName">Eric Stover</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Professional Development at Facebook, Google, etc
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Social Environments and Human Values: Design and Metrics</span>
+                  <span>, </span>
+                  <span class="instName">Joe Edelman</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Maryland - College Park
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Data Sources and Manipulation</span>
+                  <span>, </span>
+                  <span class="instName">Donal Heidenblad</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Policy and Ethics for Digital Curation</span>
+                  <span>, </span>
+                  <span class="instName">Katie Shilton</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Columbia University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Data: Past, Present, and Future</span>
+                  <span>, </span>
+                  <span class="instName">Matt Jones</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data: Past, Present, and Future</span>
+                  <span>, </span>
+                  <span class="instName">Chris Wiggins</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computers and Society </span>
+                  <span>, </span>
+                  <span class="instName">Steven M. Bellovin</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">AI Safety, Ethics, and Policy</span>
+                  <span>, </span>
+                  <span class="instName">Chad DeChant</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Multilingual Technologies and Language Diversity</span>
+                  <span>, </span>
+                  <span class="instName">Isabelle Zaugg</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Multilingual Technologies and Language Diversity</span>
+                  <span>, </span>
+                  <span class="instName">Smaranda Muresan</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Bard College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">–</span>
+                  <span>, </span>
+                  <span class="instName">Keith O'Hara</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Humboldt-Universität zu Berlin
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information and Society; Info Ethics and Governance</span>
+                  <span>, </span>
+                  <span class="instName">Jesse David Dinneen</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Duke Law School
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Frontier AI &amp; Robotics: Law &amp; Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Jeff Ward</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">nan
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">History of Information</span>
+                  <span>, </span>
+                  <span class="instName">Paul Duguid</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information and Delegation</span>
+                  <span>, </span>
+                  <span class="instName">Deirdre Mulligan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Beyond the Code: Cybersecurity in Context</span>
+                  <span>, </span>
+                  <span class="instName">Chris Jay Hoofnagle</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Designing Field Experiments at Scale</span>
+                  <span>, </span>
+                  <span class="instName">J. Nathan Matias</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">The Philosophy and Ethics of Information</span>
+                  <span>, </span>
+                  <span class="instName">Luciano Floridi</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Marist College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics and Games</span>
+                  <span>, </span>
+                  <span class="instName">Karen Schrier</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Purdue University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Purdue's Reflective &amp; Interactive Modules for Engineering Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Andrew Brightman</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics of Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Matthew Kroll</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Texas at Austin
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Digital Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Scott R. Stroud</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Behavioral Ethics in the Digital Age</span>
+                  <span>, </span>
+                  <span class="instName">Karen Landolt</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethical Foundations of Computer Science</span>
+                  <span>, </span>
+                  <span class="instName">Alison Norman - Sarah Abraham</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Princeton University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Fairness in Machine Learning</span>
+                  <span>, </span>
+                  <span class="instName">Arvind Narayanan</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Hong Kong
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">FinTech Ethics &amp; Risks</span>
+                  <span>, </span>
+                  <span class="instName">David Bishop</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">FinTech Ethics &amp; Risks</span>
+                  <span>, </span>
+                  <span class="instName">David Lee</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Illinois at Chicago
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics and Communications in Computer Science</span>
+                  <span>, </span>
+                  <span class="instName">Emanuelle Burton</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">UC Davis
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics in an Age of Technology</span>
+                  <span>, </span>
+                  <span class="instName">Varies; Phillip Rogaway</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data and Society</span>
+                  <span>, </span>
+                  <span class="instName">Lindsay Poirier</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Washington Tacoma
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Introduction to Geospatial Technologies</span>
+                  <span>, </span>
+                  <span class="instName">Jim Thatcher</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data and the City</span>
+                  <span>, </span>
+                  <span class="instName">Jim Thatcher</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Macalester College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics and the Internet</span>
+                  <span>, </span>
+                  <span class="instName">Diane Michelfelder</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Harvard University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">The Ethics and Governance of Artificial Intelligence</span>
+                  <span>, </span>
+                  <span class="instName">Jonathan Zittrain</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Critical Thinking In Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Mike Smith &amp; Jim Waldo</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Colorado School of Mines
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Robot Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Tom Williams Qin Zhu</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">De Montfort University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Introduction to Research and Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Catherine Flick</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Research Ethics and Integrity</span>
+                  <span>, </span>
+                  <span class="instName">Catherine Flick</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computer Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Sara Wilford</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Arizona State University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">The Moviegoer's Guide to the Future</span>
+                  <span>, </span>
+                  <span class="instName">Andrew Maynard</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Haverford College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Topics in Introductory Programming: Social Inquiry</span>
+                  <span>, </span>
+                  <span class="instName">Sorelle Friedler</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Maryland, College Park 
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Technology and Consequences: Engineering, Ethics and Humanity </span>
+                  <span>, </span>
+                  <span class="instName">Nicole Mogul</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Center for Technology Ethics
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Technology Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Paola Di Maio</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Victoria University of Wellington
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Policy Concepts, Issues and Processes</span>
+                  <span>, </span>
+                  <span class="instName">Brenda Chawner</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Legal and Ethical Issues in Information Management</span>
+                  <span>, </span>
+                  <span class="instName">David Johnstone</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Legal and Ethical Issues in Information Management</span>
+                  <span>, </span>
+                  <span class="instName">Anne Goulding</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">California State University Fullerton
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Professional Ethics in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Beth Harnick-Shapiro</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Professional Ethics in Computing</span>
+                  <span>, </span>
+                  <span class="instName">multiple professors</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Professional Ethics in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Multiple professors</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Wilfrid Laurier University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Critical Internet Studies</span>
+                  <span>, </span>
+                  <span class="instName">Jeremy Hunsinger</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Technology &amp; Society</span>
+                  <span>, </span>
+                  <span class="instName">Jeremy Hunsinger</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Rensselaer Polytechnic Inst
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Data and Society</span>
+                  <span>, </span>
+                  <span class="instName">Fran Berman</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics and Policy for Artificial Intelligence</span>
+                  <span>, </span>
+                  <span class="instName">Jim Hendler</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Sciences Po Paris
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Social and Economic Challenges of Artificial Intelligence </span>
+                  <span>, </span>
+                  <span class="instName">Nicolas Miailhe</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Kentucky
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Issues in Information and Communication Technology Policy</span>
+                  <span>, </span>
+                  <span class="instName">Nicholas Proferes</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Issues in Information and Communication Technology Policy</span>
+                  <span>, </span>
+                  <span class="instName">Bryce Newell</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">ICT Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Nicholas Proferes</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Earlham College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Consent and Coercion</span>
+                  <span>, </span>
+                  <span class="instName">Peter Suber</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Kant's Second and Third Critiques</span>
+                  <span>, </span>
+                  <span class="instName">Peter Suber</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics of Belief</span>
+                  <span>, </span>
+                  <span class="instName">Peter Suber</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Boise State University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical Issues in Computing</span>
+                  <span>, </span>
+                  <span class="instName">multiple professors</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethical Issues in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Multiple professors</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Foundational Values</span>
+                  <span>, </span>
+                  <span class="instName">Don Winiecki</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Southern California
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Media, Algorithms &amp; Platform Publics</span>
+                  <span>, </span>
+                  <span class="instName">Mike Ananny &amp; Colin Maclay</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Wisconsin Milwaukee
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Technology Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Michael Zimmer</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">DePaul University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Digital Media Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Samantha Close</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Digital Media Ethics</span>
+                  <span>, </span>
+                  <span class="instName">multiple professors</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Digital Media Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Multiple professors</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Digital Media Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Adriane Stoner</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">r
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">https://learn.responsibly.ai/law-society/</span>
+                  <span>, </span>
+                  <span class="instName">Mark MacCarthy</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Lisbon
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Computing and Society</span>
+                  <span>, </span>
+                  <span class="instName">Mário J Silva</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Wisconsin - Madison
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Introduction to Digital Information</span>
+                  <span>, </span>
+                  <span class="instName">Dorothea Salo</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Ethics and Policy</span>
+                  <span>, </span>
+                  <span class="instName">Alan Rubel</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics and Policy in Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Dorothea Salo</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics and Policy in Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Reginold Royston</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics and Policy in Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Tracy Lewis-Williams</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of British Columbia
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Sociotechnical Perspectives of Information Systems</span>
+                  <span>, </span>
+                  <span class="instName">Richard Arias-Hernandez</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Practice and Protocol in Support of Indigenous Initaitives</span>
+                  <span>, </span>
+                  <span class="instName">Lisa Nathan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Policy</span>
+                  <span>, </span>
+                  <span class="instName">Lisa Nathan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics, Privacy and Security</span>
+                  <span>, </span>
+                  <span class="instName">Giulio Valentino</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics, Privacy and Security</span>
+                  <span>, </span>
+                  <span class="instName">Ed Knorr</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics, Privacy and Security</span>
+                  <span>, </span>
+                  <span class="instName">Orlin Vakarelov</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics, Privacy and Security</span>
+                  <span>, </span>
+                  <span class="instName">Dalla Riva</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Tel Aviv University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Privacy in the Age of Emerging Technologies</span>
+                  <span>, </span>
+                  <span class="instName">Michal (Michele) Rapoport</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Santa Clara University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics and the Digital Age</span>
+                  <span>, </span>
+                  <span class="instName">Shannon Vallor</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">An Introduction to Software Engineering Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Shannon Vallor with Arvind Narayanan</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Michigan
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Algorithms and Society</span>
+                  <span>, </span>
+                  <span class="instName">Sarita Schoenebeck</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Western New England University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics of Computational Science</span>
+                  <span>, </span>
+                  <span class="instName">Valerie Racine</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Cornell University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">nan</span>
+                  <span>, </span>
+                  <span class="instName">Solon Barocas</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social and Ethical Issues in AI</span>
+                  <span>, </span>
+                  <span class="instName">Joseph Halpern</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social and Ethical Issues in AI</span>
+                  <span>, </span>
+                  <span class="instName">Bart Selman</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in New Media, Technology, &amp; Communication</span>
+                  <span>, </span>
+                  <span class="instName">Dawn Schrader</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Ethics, Law, &amp; Policy</span>
+                  <span>, </span>
+                  <span class="instName">Karen Levy</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Ethics, Law, &amp; Policy</span>
+                  <span>, </span>
+                  <span class="instName">Steve Jackson</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Old Dominion University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Biomedical Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Yvette Pearson</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Technology: Its Nature and Significance</span>
+                  <span>, </span>
+                  <span class="instName">D.E. Wittkower</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Cybersecurity Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Teresa Kouri Kissel</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Cybersecurity Ethics</span>
+                  <span>, </span>
+                  <span class="instName">D.E. Wittkower</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Political Philosophy of Social Media</span>
+                  <span>, </span>
+                  <span class="instName">D.E. Wittkower</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Philosophy of Digital Culture</span>
+                  <span>, </span>
+                  <span class="instName">D.E. Wittkower</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Philosophy and Video Games</span>
+                  <span>, </span>
+                  <span class="instName">Andrew Kissel</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Loyola University Chicago
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Digital Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Florence Chee</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">UC San Diego
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Pubic Health Research &amp; Tech Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Camille Nebeker</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Harvard College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Intelligent Systems: Design and Ethical Challenges</span>
+                  <span>, </span>
+                  <span class="instName">Barbara Grosz</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Brown University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Artificial Intelligence</span>
+                  <span>, </span>
+                  <span class="instName">George Konidaris</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Carnegie Mellon University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics and Policy Issues In Computing</span>
+                  <span>, </span>
+                  <span class="instName">James Herbsleb</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data Stories</span>
+                  <span>, </span>
+                  <span class="instName">Christopher Warren</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Advanced Interaction &amp; Service Design Concepts</span>
+                  <span>, </span>
+                  <span class="instName">Ahmed Ansari</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Advanced Interaction &amp; Service Design Concepts</span>
+                  <span>, </span>
+                  <span class="instName">Dan Lockton</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computing, AI, and Philosophy</span>
+                  <span>, </span>
+                  <span class="instName">Mate Szabo</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computational Ethics for NLP</span>
+                  <span>, </span>
+                  <span class="instName">Yulia Tsvetkov</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computational Ethics for NLP</span>
+                  <span>, </span>
+                  <span class="instName">Alan Black</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Technology, Ethics &amp; Politics</span>
+                  <span>, </span>
+                  <span class="instName">Ahmed Ansari</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Guilford College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Virtual Selves:  Identities and Communities Online</span>
+                  <span>, </span>
+                  <span class="instName">Vance Ricks</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in a Digital World</span>
+                  <span>, </span>
+                  <span class="instName">Vance Ricks</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Fachhochschule St. Pölten
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical Foundations for Information Security</span>
+                  <span>, </span>
+                  <span class="instName">Davi Ottenheimer</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics of Big Data</span>
+                  <span>, </span>
+                  <span class="instName">Davi Ottenheimer</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Massachusetts Amherst
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Social Issues in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Justin Obara + additonal temporary instructors as needed.</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Social Issues in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Michelle Trim (lead)</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethical Considerations in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Michelle Trim</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Washington
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Human Centered Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Jonathan T. Morgan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Robotics Law and Policy</span>
+                  <span>, </span>
+                  <span class="instName">Ryan Calo</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data, Politics, &amp; Power: Critical and Ethical Perspectives on Big Data and Algorithms</span>
+                  <span>, </span>
+                  <span class="instName">Anna Lauren Hoffmann</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in NLP</span>
+                  <span>, </span>
+                  <span class="instName">Emily Bender</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Ethics and Policy</span>
+                  <span>, </span>
+                  <span class="instName">Adam D. Moore</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Human-Centred Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Jonathan Morgan</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Human-Centred Data Science</span>
+                  <span>, </span>
+                  <span class="instName">Os Keyes</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Exploring the Ethical Questions of New Technology</span>
+                  <span>, </span>
+                  <span class="instName">Katy Pearce</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Indian Institute of Technology Delhi
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical Foundations to Design and Manage Information Systems</span>
+                  <span>, </span>
+                  <span class="instName">Aaditeshwar Seth</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">New York University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">e</span>
+                  <span>, </span>
+                  <span class="instName">Julia Stoyanovich</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in Data Science </span>
+                  <span>, </span>
+                  <span class="instName">Laura Norén</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Tinkering in Feminist Technoscience</span>
+                  <span>, </span>
+                  <span class="instName">Cyd Cipolla</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Minnesota State University, Mankato
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Artificial Intelligence &amp; Science Fiction</span>
+                  <span>, </span>
+                  <span class="instName">Rebecca Bates</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">TU Munich
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Politics &amp; Technology </span>
+                  <span>, </span>
+                  <span class="instName">Miranda Schreurs</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Yale University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Data Science Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Elisa Celis</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Montana State University 
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Social and Ethical Issues in Computer Science</span>
+                  <span>, </span>
+                  <span class="instName">Laura Stanley</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Texas A&amp;M University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics and Cybertechnology</span>
+                  <span>, </span>
+                  <span class="instName">Glen Miller</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Bucknell University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Time/Machine</span>
+                  <span>, </span>
+                  <span class="instName">Michael Drexler</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Time/Machine</span>
+                  <span>, </span>
+                  <span class="instName">L. Felipe Perrone</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computers and Society </span>
+                  <span>, </span>
+                  <span class="instName">L. Felipe Perrone</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Life, Computers, and Everything </span>
+                  <span>, </span>
+                  <span class="instName">L. Felipe Perrone</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Dartmouth College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Philosophy and Computers</span>
+                  <span>, </span>
+                  <span class="instName">James Moor</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Bemidji State University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Social, Ethical, and Professional Issues in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Marty J. Wolf</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Oregon State University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">EECS Ethics and Diversity </span>
+                  <span>, </span>
+                  <span class="instName">Prasad Tadepalli</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Fielding Graduate University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Media Ethics Leadership</span>
+                  <span>, </span>
+                  <span class="instName">Jason Ohler</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University College London
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Governing Emerging Technologies</span>
+                  <span>, </span>
+                  <span class="instName">Jack Stilgoe</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Responsible science and innovation</span>
+                  <span>, </span>
+                  <span class="instName">Melanie Smallman</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Responsible science and innovation</span>
+                  <span>, </span>
+                  <span class="instName">Jack Stilgoe</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Columbia University - Teachers College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical Issues in Technology Design</span>
+                  <span>, </span>
+                  <span class="instName">Joey J. Lee</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Wellesley College
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Computing for the Socio-Tecno Web</span>
+                  <span>, </span>
+                  <span class="instName">Catherine Grevet Delcourt</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Drexel University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Tim Gorichanaz</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Penn State University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Data Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Daniel Susser</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Duke - Fuqua School of Business
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical &amp; Legal Issues of Data Analytics</span>
+                  <span>, </span>
+                  <span class="instName">Salman Azhar</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Simon Fraser University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Professional Responsibility and Ethics</span>
+                  <span>, </span>
+                  <span class="instName">John Edgar</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">UC Berkeley 
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Open Source Investigations</span>
+                  <span>, </span>
+                  <span class="instName">Alexa Koenig</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Swiss Federal Institute of Technology
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Introduction to Law and Ethics in LST</span>
+                  <span>, </span>
+                  <span class="instName">Dominique Sprumont</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Introduction to Law and Ethics in LST</span>
+                  <span>, </span>
+                  <span class="instName">Gaia Barazetti</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">MIT
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">#CryptoEthics: The Ethics and Impact of Cryptocurrency and Blockchain Technology</span>
+                  <span>, </span>
+                  <span class="instName">Neha Narula</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">#CryptoEthics: The Ethics and Impact of Cryptocurrency and Blockchain Technology</span>
+                  <span>, </span>
+                  <span class="instName">Rhys Lindmark</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Network Cultures</span>
+                  <span>, </span>
+                  <span class="instName">T.L. Taylor</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Saint Louis University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Computer Ethics</span>
+                  <span>, </span>
+                  <span class="instName">David Letscher</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computer Ethics</span>
+                  <span>, </span>
+                  <span class="instName">James McCollum</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computer Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Bill Rehg (alternating)</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Computer Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Erin Chambers</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Massachusetts Institute of Technology, Harvard University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">The Ethics and Governance of Artificial Intelligence</span>
+                  <span>, </span>
+                  <span class="instName">Jonathan Zittrain</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">The Ethics and Governance of Artificial Intelligence</span>
+                  <span>, </span>
+                  <span class="instName">Joi Ito</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Indiana University Bloomington
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Data and Society</span>
+                  <span>, </span>
+                  <span class="instName">David Wild</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data and Society</span>
+                  <span>, </span>
+                  <span class="instName">Eden Medina</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Data and Society</span>
+                  <span>, </span>
+                  <span class="instName">Christopher Miles</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Milan
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Introduction to Data Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Marco Cremonini</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Cambridge
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics in Mathematics</span>
+                  <span>, </span>
+                  <span class="instName">Maurice Chiodo</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Economics, Law and Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Ross Anderson</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">TU Wien
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Seminar in Critical Algorithm Studies</span>
+                  <span>, </span>
+                  <span class="instName">Matthias Fassl</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Seminar in Critical Algorithm Studies</span>
+                  <span>, </span>
+                  <span class="instName">Hilda Tellioğlu</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Seminar in Critical Algorithm Studies</span>
+                  <span>, </span>
+                  <span class="instName">Fabian Fischer</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Seminar in Critical Algorithm Studies</span>
+                  <span>, </span>
+                  <span class="instName">Gabriel Grill</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Seminar in Critical Algorithm Studies</span>
+                  <span>, </span>
+                  <span class="instName">Florian Cech</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Technology Sydney
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Code as Literacy, Commodity, Infrastructure</span>
+                  <span>, </span>
+                  <span class="instName">James Meese</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">King's College London
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Ethics and Digital Rights</span>
+                  <span>, </span>
+                  <span class="instName">John Lavagnino</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Ethics and Digital Rights</span>
+                  <span>, </span>
+                  <span class="instName">Mark Hedges</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Bath
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Intelligent Control and Cognitive Systems</span>
+                  <span>, </span>
+                  <span class="instName">Joanna Bryson</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of North Georgia
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Computer Ethics and Social Issues (CSCI 2150)</span>
+                  <span>, </span>
+                  <span class="instName">Jianjun Yang</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Stevens Institute of Technology
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical Issues in Science and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Michael Steinmann</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">North Carolina State University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics in Computing</span>
+                  <span>, </span>
+                  <span class="instName">Ed Gehringer</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Marquette University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical and Social Implications of Data</span>
+                  <span>, </span>
+                  <span class="instName">Shion Guha</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Tufts University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics for AI, Robotics, and Human-Robot Interaction</span>
+                  <span>, </span>
+                  <span class="instName">Thomas Arnold</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics for AI, Robotics, and Human-Robot Interaction</span>
+                  <span>, </span>
+                  <span class="instName">Matthias Scheutz</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Hofstra University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Computing, Ethics, and Society</span>
+                  <span>, </span>
+                  <span class="instName">Edward Currie</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of North Carolina at Chapel Hill
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Amelia Gibson</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Maggie Melo</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Houston
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Computer Science and Society</span>
+                  <span>, </span>
+                  <span class="instName">Ernst Leiss</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Massachusetts Institute of Technology (MIT) - Georgetown University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Privacy Legislation: Law and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Alvaro Bedoya</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Privacy Legislation: Law and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Hal Abelson</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Privacy Legislation: Law and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Laura Moy</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Privacy Legislation: Law and Technology</span>
+                  <span>, </span>
+                  <span class="instName">David Vladeck</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Privacy Legislation: Law and Technology</span>
+                  <span>, </span>
+                  <span class="instName">Daniel Weitzner</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University College Dublin
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Marguerite Barry</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Central Florida
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Digital Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Jonathan Beever</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">McGill University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Feminist Futurities, Technologies, and Worldmaking</span>
+                  <span>, </span>
+                  <span class="instName">Alex Ketchum</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Sciences Po, Paris
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Algorithms for Public Policy</span>
+                  <span>, </span>
+                  <span class="instName">Jean-Marie John-Mathews</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Algorithms for Public Policy</span>
+                  <span>, </span>
+                  <span class="instName">Simon Chignard</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Bauhaus-Universität Weimar, Germany
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Advanced HCI: Ubiquituous Computing</span>
+                  <span>, </span>
+                  <span class="instName">Eva Hornecker</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">IT University of Copenhagen
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Data Science in Research, Business and Society</span>
+                  <span>, </span>
+                  <span class="instName">Irina Shklovski</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in Bioengineering</span>
+                  <span>, </span>
+                  <span class="instName">Dave Magnus</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics in Bioengineering</span>
+                  <span>, </span>
+                  <span class="instName">Russ Altman</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Critical Big Data Management</span>
+                  <span>, </span>
+                  <span class="instName">Irina Shklovski</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Ottawa
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics for Artificial Intelligence</span>
+                  <span>, </span>
+                  <span class="instName">Jason Millar</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Michigan Technological University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical and Social Aspects of Computing</span>
+                  <span>, </span>
+                  <span class="instName">Leo Ureel</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethical and Social Aspects of Computing</span>
+                  <span>, </span>
+                  <span class="instName">Linda Ott</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Calvin University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Perspectives on Computing</span>
+                  <span>, </span>
+                  <span class="instName">Derek Schuurman</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Pennsylvania 
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Democratizing Data: Analytics for Social Change</span>
+                  <span>, </span>
+                  <span class="instName">Ezekiel Dixon-Román</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Univ. Complutense de Madrid
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics, Law &amp; Profession of CS</span>
+                  <span>, </span>
+                  <span class="instName">Samer Hassan &lt;samer@ucm.es&gt; Sara Román &lt;sroman@ucm.es&gt; Marcos Sánchez-Elez &lt;marcos@ucm.es&gt;</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Portland State University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Social, Ethical, and Legal Implications of Computing</span>
+                  <span>, </span>
+                  <span class="instName">Ellie Harmon</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Montana State University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Information Ethics and Privacy in the Age of Big Data</span>
+                  <span>, </span>
+                  <span class="instName">Sara Mannheimer</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Information Ethics and Privacy in the Age of Big Data</span>
+                  <span>, </span>
+                  <span class="instName">Scott W. H. Young</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">The New School
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Data, Design &amp; Social Justice</span>
+                  <span>, </span>
+                  <span class="instName">Jennifer Wilson</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">King Saud University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethical Issues in Computing and Research Methods</span>
+                  <span>, </span>
+                  <span class="instName">Sarah Alsulaiman</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethical Issues in Computing and Research Methods</span>
+                  <span>, </span>
+                  <span class="instName">Farah Muhammed</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Interdisciplinary Center Herzliya
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Philosophy of New Technology Design</span>
+                  <span>, </span>
+                  <span class="instName">Boaz Miller</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Interamerican University of Puerto Rico
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Practice and Professional Ethics</span>
+                  <span>, </span>
+                  <span class="instName">Raquel Lugo Vecchini</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Oregon Health &amp; Science University
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics for CS &amp; EE</span>
+                  <span>, </span>
+                  <span class="instName">Steven Bedrick</span>
+                </li>
+                <li class="course">
+                  <span class="courseName">Ethics for CS &amp; EE</span>
+                  <span>, </span>
+                  <span class="instName">Jill Dolata</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">Sciences Po Paris - European Campus
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Ethics of New Technologies</span>
+                  <span>, </span>
+                  <span class="instName">Imane Bello</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Zurich
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Language Technology and Big Data</span>
+                  <span>, </span>
+                  <span class="instName">Jochen Leidner</span>
+                </li>
+              </ul>
+            </li>
+            <li class="university">University of Alaska
+              <ul class="courseList">
+                <li class="course">
+                  <span class="courseName">Digital Citizenship, Open Access Course</span>
+                  <span>, </span>
+                  <span class="instName">Jason Ohler</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 750px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "Information Ethics", "label": "Information Ethics", "shape": "square", "title": "Information Ethics"}, {"id": "Forbes folly: Demonstrating the real net worth of a library degree", "label": "Sarin", "shape": "circle", "title": "Forbes folly: Demonstrating the real net worth of a library degree"}, {"id": "It\u2019s not privacy, and it\u2019s not fair", "label": "Dwork", "shape": "circle", "title": "It\u2019s not privacy, and it\u2019s not fair"}, {"id": "How Technology Hijacks People\u2019s Minds \u2014 from a Magician and Google\u2019s Design Ethicist", "label": "Harris", "shape": "circle", "title": "How Technology Hijacks People\u2019s Minds \u2014 from a Magician and Google\u2019s Design Ethicist"}, {"id": "A gift of fire: social, legal, and ethical issues for computing technology", "label": "Baase", "shape": "circle", "title": "A gift of fire: social, legal, and ethical issues for computing technology"}, {"id": "Learning consumption: Media, literacy, and the legacy of One Laptop per Child", "label": "Ames", "shape": "circle", "title": "Learning consumption: Media, literacy, and the legacy of One Laptop per Child"}, {"id": "Chapter 2: Privacy", "label": "boyd", "shape": "circle", "title": "Chapter 2: Privacy"}, {"id": "The power to name: representation in", "label": "Olson", "shape": "circle", "title": "The power to name: representation in"}, {"id": "10 top writing tips and the psychology behind them", "label": "Bernoff", "shape": "circle", "title": "10 top writing tips and the psychology behind them"}, {"id": "Librarians Versus the NSA", "label": "Carpenter", "shape": "circle", "title": "Librarians Versus the NSA"}, {"id": "Artificial Intelligence\u2019s White Guy Problem", "label": "Crawford", "shape": "circle", "title": "Artificial Intelligence\u2019s White Guy Problem"}, {"id": "Public Predictions for the Future of Workforce Automation", "label": "Smith", "shape": "circle", "title": "Public Predictions for the Future of Workforce Automation"}, {"id": "Technology hype versus enduring uses: a longitudinal study of Internet use among early adopters in an African city", "label": "Burrell", "shape": "circle", "title": "Technology hype versus enduring uses: a longitudinal study of Internet use among early adopters in an African city"}, {"id": "Archive and aspiration", "label": "Appadurai", "shape": "circle", "title": "Archive and aspiration"}, {"id": "Addiction by Design", "label": "Sch\u00fcll", "shape": "circle", "title": "Addiction by Design"}, {"id": "Discrimination in Online Ad", "label": "Sweeney", "shape": "circle", "title": "Discrimination in Online Ad"}, {"id": "Ethics for the information age", "label": "Quinn", "shape": "circle", "title": "Ethics for the information age"}, {"id": "Change the World", "label": "Packer", "shape": "circle", "title": "Change the World"}, {"id": "Good computing: a pedagogically focused model of virtue in the practice of computing (part 1", "label": "Frey", "shape": "circle", "title": "Good computing: a pedagogically focused model of virtue in the practice of computing (part 1"}, {"id": "Values for Librarians in the Information Age", "label": "Hurych", "shape": "circle", "title": "Values for Librarians in the Information Age"}, {"id": "Chapter 2: The Kindness of Strangers: Kinds and Politics in Classification Systems. Sorting Things Out: Classification and Its Consequences", "label": "Bowker", "shape": "circle", "title": "Chapter 2: The Kindness of Strangers: Kinds and Politics in Classification Systems. Sorting Things Out: Classification and Its Consequences"}, {"id": "Professional Values and Ethics as Defined by \u201cThe LIS Discipline", "label": "Koehler", "shape": "circle", "title": "Professional Values and Ethics as Defined by \u201cThe LIS Discipline"}, {"id": "Values in design", "label": "Bowker", "shape": "circle", "title": "Values in design"}, {"id": "Commons-based Peer Production and Virtue*", "label": "Benkler", "shape": "circle", "title": "Commons-based Peer Production and Virtue*"}, {"id": "An ethical perspective on political-economic issues in the long-term preservation of digital heritage", "label": "Lor", "shape": "circle", "title": "An ethical perspective on political-economic issues in the long-term preservation of digital heritage"}, {"id": "Sociotechnical Perspectives of Information Systems", "label": "Sociotechnical Perspectives of Information Systems", "shape": "square", "title": "Sociotechnical Perspectives of Information Systems"}, {"id": "Mixing Humans and Nonhumans Together: The Sociology of a Door-Closer", "label": "Latour", "shape": "circle", "title": "Mixing Humans and Nonhumans Together: The Sociology of a Door-Closer"}, {"id": "Exceptional Engineering: Challenges and Opportunities for Socially Just Engineering in Non-governmental Organizations in Colombia", "label": "Arias-Hernandez", "shape": "circle", "title": "Exceptional Engineering: Challenges and Opportunities for Socially Just Engineering in Non-governmental Organizations in Colombia"}, {"id": "The Social Construction of Facts and Artefacts: or How the Sociology of Science and the Sociology of Technology might Benefit Each Other", "label": "Bijker", "shape": "circle", "title": "The Social Construction of Facts and Artefacts: or How the Sociology of Science and the Sociology of Technology might Benefit Each Other"}, {"id": "D.C. adds a social worker to library system to work with homeless patron", "label": "Jenkins", "shape": "circle", "title": "D.C. adds a social worker to library system to work with homeless patron"}, {"id": "Do Health and Forensic DNA Databases Increase Racial Disparities?", "label": "Duster", "shape": "circle", "title": "Do Health and Forensic DNA Databases Increase Racial Disparities?"}, {"id": "Theories of the information society", "label": "Webster", "shape": "circle", "title": "Theories of the information society"}, {"id": "Actor-Network Theory and IS Research: Current Status and Future Prospects", "label": "Walsham", "shape": "circle", "title": "Actor-Network Theory and IS Research: Current Status and Future Prospects"}, {"id": "Indigenization of knowledge organization at the Xwi7Xxwa Library", "label": "Lawson", "shape": "circle", "title": "Indigenization of knowledge organization at the Xwi7Xxwa Library"}, {"id": "The Material of Male Power", "label": "Cockburn", "shape": "circle", "title": "The Material of Male Power"}, {"id": "The shock of the familiar: three timelines about gender and technology in the library", "label": "Dean", "shape": "circle", "title": "The shock of the familiar: three timelines about gender and technology in the library"}, {"id": "The Shock of the Familiar: Three Timelines about gender and Technology in the Library", "label": "Dean", "shape": "circle", "title": "The Shock of the Familiar: Three Timelines about gender and Technology in the Library"}]);
+        edges = new vis.DataSet([{"from": "Information Ethics", "title": "hasLM", "to": "Forbes folly: Demonstrating the real net worth of a library degree"}, {"from": "Information Ethics", "title": "hasLM", "to": "It\u2019s not privacy, and it\u2019s not fair"}, {"from": "Information Ethics", "title": "hasLM", "to": "How Technology Hijacks People\u2019s Minds \u2014 from a Magician and Google\u2019s Design Ethicist"}, {"from": "Information Ethics", "title": "hasLM", "to": "A gift of fire: social, legal, and ethical issues for computing technology"}, {"from": "Information Ethics", "title": "hasLM", "to": "Learning consumption: Media, literacy, and the legacy of One Laptop per Child"}, {"from": "Information Ethics", "title": "hasLM", "to": "Chapter 2: Privacy"}, {"from": "Information Ethics", "title": "hasLM", "to": "The power to name: representation in"}, {"from": "Information Ethics", "title": "hasLM", "to": "10 top writing tips and the psychology behind them"}, {"from": "Information Ethics", "title": "hasLM", "to": "Librarians Versus the NSA"}, {"from": "Information Ethics", "title": "hasLM", "to": "Artificial Intelligence\u2019s White Guy Problem"}, {"from": "Information Ethics", "title": "hasLM", "to": "Public Predictions for the Future of Workforce Automation"}, {"from": "Information Ethics", "title": "hasLM", "to": "Technology hype versus enduring uses: a longitudinal study of Internet use among early adopters in an African city"}, {"from": "Information Ethics", "title": "hasLM", "to": "Archive and aspiration"}, {"from": "Information Ethics", "title": "hasLM", "to": "Addiction by Design"}, {"from": "Information Ethics", "title": "hasLM", "to": "Discrimination in Online Ad"}, {"from": "Information Ethics", "title": "hasLM", "to": "Ethics for the information age"}, {"from": "Information Ethics", "title": "hasLM", "to": "Change the World"}, {"from": "Information Ethics", "title": "hasLM", "to": "Good computing: a pedagogically focused model of virtue in the practice of computing (part 1"}, {"from": "Information Ethics", "title": "hasLM", "to": "Values for Librarians in the Information Age"}, {"from": "Information Ethics", "title": "hasLM", "to": "Chapter 2: The Kindness of Strangers: Kinds and Politics in Classification Systems. Sorting Things Out: Classification and Its Consequences"}, {"from": "Information Ethics", "title": "hasLM", "to": "Professional Values and Ethics as Defined by \u201cThe LIS Discipline"}, {"from": "Information Ethics", "title": "hasLM", "to": "Values in design"}, {"from": "Information Ethics", "title": "hasLM", "to": "Commons-based Peer Production and Virtue*"}, {"from": "Information Ethics", "title": "hasLM", "to": "An ethical perspective on political-economic issues in the long-term preservation of digital heritage"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "Mixing Humans and Nonhumans Together: The Sociology of a Door-Closer"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "Exceptional Engineering: Challenges and Opportunities for Socially Just Engineering in Non-governmental Organizations in Colombia"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "The Social Construction of Facts and Artefacts: or How the Sociology of Science and the Sociology of Technology might Benefit Each Other"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "D.C. adds a social worker to library system to work with homeless patron"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "Do Health and Forensic DNA Databases Increase Racial Disparities?"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "Theories of the information society"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "Actor-Network Theory and IS Research: Current Status and Future Prospects"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "Indigenization of knowledge organization at the Xwi7Xxwa Library"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "The Material of Male Power"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "The shock of the familiar: three timelines about gender and technology in the library"}, {"from": "Sociotechnical Perspectives of Information Systems", "title": "hasLM", "to": "The Shock of the Familiar: Three Timelines about gender and Technology in the Library"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
