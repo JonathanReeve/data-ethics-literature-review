@@ -51,7 +51,7 @@ def getCourseText():
 
 
 
-def formatVisualization(net):
+def formatVisData(net):
     """
     Takes a pyvis network and formats it using our own custom template.
     """
@@ -64,9 +64,10 @@ def formatVisualization(net):
     data = {{nodes: nodes, edges: edges}};
     """
 
-def uniCourseList():
+
+def uniCourseContent():
     """
-    Make a dictionary of universities and their courses.
+    Make a list of universities and their courses.
     """
     results = g.query("""
         select distinct ?courseName ?instructorFN ?instructorGN ?university where {
@@ -90,14 +91,10 @@ def uniCourseList():
             byUniversity[university].append((courseName, instFN, instGN))
         else:
             byUniversity[university] = [(courseName, instFN, instGN)]
-    return byUniversity
 
-def courseList(data):
-    """ Make an HTML course listing from the university/course dictionary
-    created above."""
     uniList = ul(cls="universities")
-    for uni in data:
-        courses = data[uni]
+    for uni in byUniversity:
+        courses = byUniversity[uni]
         uniLi = uniList.add(li(uni, cls="university"))
         courseList = uniLi.add(ul(cls="courseList"))
         for course in courses:
@@ -109,7 +106,8 @@ def courseList(data):
                         cls="course"))
     return uniList
 
-def head_(jsData):
+
+def head_(jsData=""):
     """ The HTML <head> contents. Inserts the jsData. """
     # framework = "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
     framework = "https://unpkg.com/spectre.css/dist/spectre.min.css"
@@ -138,11 +136,6 @@ def body_(contents):
                class_="container", style="width: 55em; margin: 0 auto;")
 
 
-def routeURL(route):
-    """ Translate /about to /about/index.html """
-    return route + "/index.html"
-
-
 def topNav():
     """ The top navigation area of the webpage. """
 
@@ -152,7 +145,7 @@ def topNav():
 
     out = header(section(a("Data Ethics", href="/", class_="navbar-brand"),
                          # Generate navbar items from site map
-                         *[navbarItem(label, routeURL(route)) for label, route in siteMap.items()],
+                         *[navbarItem(label, f"{route}.html") for label, route in siteMap.items()],
                          _class="navbar-section"),
                  _class="navbar")
     return out
@@ -160,12 +153,27 @@ def topNav():
 
 courseListHtml = courseList(uniCourseList())
 
-siteMap = {"About": "/about",
-           "Uni-Course": "/uni-course",
-           "Course-Text":  "/course-text",
-           "Text-Text": "/text-text"}
+siteMap = {"About": "about",
+           "Uni-Course": "uniCourse",
+           "Course-Text":  "courseText",
+           "Text-Text": "textText"}
 
-doc = dominate.document(title="Courses and Texts")
+
+
+def makePage(label, route, js="", content):
+    doc = dominate.document(title=f"Data Ethics: {label}")
+    doc.head = head_(js)
+    doc.body = body_(content)
+    with open(fn, 'w') as outfile:
+        outfile.write(rendered)
+        logging.info(f"Wrote to {fn}")
+
+
+for label, route in siteMap.items():
+    makePage(label, route)
+
+
+doc = dominate.document(title="Data Ethics")
 
 visData = formatVisualization(getCourseText())
 
@@ -176,7 +184,3 @@ doc.body.add(body_(courseListHtml))
 
 rendered = doc.render()
 
-fn = '../website/index.html'
-with open(fn, 'w') as outfile:
-    outfile.write(rendered)
-    logging.info(f"Wrote to {fn}")
