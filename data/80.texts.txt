@@ -1,0 +1,76 @@
+Cathy O’Neil, Weapons of Math Destruction
+Sara Baase & Timothy M. Henry, Gift of Fire, 5ed
+Nicholas Steneck, ORI Introduction to the Responsible Conduct of Research
+Noble, S. “Algorithms of Oppression: How Search Engines Reinforce Racism”
+Benjamin, R. “Race After Technology: Abolitionist Tools for the New Jim Code”
+Eubanks, V. “Automating Inequality: How High Tech Tools Profile, Police, and Punish the Poor”
+Wachter-Boettcher, S. “Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech”
+Friedman & Hendry, “Value-Sensitive Design: Shaping Technology With Moral Imagination”
+Nissenbaum, H. “Privacy in Context: Technology, Policy, and the Integrity of Social Life”
+Igo, S. “The Known Citizen: A History of Privacy in Modern America”
+Koopman, C. “How We Became Our Data: A Genealogy of the Informational Person”
+Barocas, Hardt, & Narayanan. “Fairness and Machine Learning: Limitations and Opportunities”
+Dubber, Pasquale, Das eds. Oxford Handbook of Ethics of AI
+Weizenbaum, J. “Computer Power and Human Reason: From Judgment to Calculation”
+Bowker, G. “Sorting Things Out: Classification & Its Consequences”
+Boyd, D. “It’s Complicated: The Social Lives of Networked Teens”
+Stanford Online Encyclopedia of Philosophy (2015). Computer and Information Ethics.
+Dr. Chanda Prescod-Weinstein, “Decolonising Science”
+Dr. Chanda Prescod-Weinstein, “U.S./Canadian Race & Racism”
+Metcalf, J., & Crawford, K. (2016). Where are human subjects in Big Data research? The emerging ethics divide. Big Data & Society, 3(1).
+Hovy, D., & Spruit, L. S. (2016). The Social Impact of Natural Language Processing. In Proc. 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) pp. 591–598. Berlin, Germany.
+Metcalf, J. (2017) “The study has been approved by the IRB”: Gayface AI, research hype and the pervasive data ethics gap Medium Post, 11/30/2017
+King, Martin Luther. “Letter from Birmingham Jail” (1963)
+Keyes, Os. Counting the Countless Real Life Magazine, 4/8/2019
+boyd, D. (2012). The Politics of “Real Names.” Commun. ACM, 55(8), 29–31.
+Guo, P. (2014). Silent Technical Privilege. Blog post, 1/2014
+Keyes, O. (2018). The Misgendering Machines: Trans/HCI Implications of Automatic Gender Recognition. Proc. ACM Hum.-Comput. Interact., 2(CSCW), 1–22.
+Huston, C. (2015). The Trouble with Imposters. Model View Culture, 4/28/15
+Rivers, C. M., & Lewis, B. L. (2014). Ethical research standards in a world of big data. F1000Research, 3(38).
+Zimmer, M. (2010). “But the data is already public‘’: on the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313–325.
+Vitak, J., Shilton, K., & Ashktorab, Z. (2016). Beyond the Belmont Principles: Ethical Challenges, Practices, and Beliefs in the Online Data Research Community. Presented at the Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing, New York, NY, USA: ACM.
+Keyes, O., Stevens, N., & Wernimont, J. The Government is Using the Most Vulnerable People to Test Facial Recognition Software. Slate, 3/17/2019
+Nissenbaum, H. (2011). A Contextual Approach to Privacy Online. Daedalus, 140(4), 32–48.
+Zimmer, M. (2018). Addressing Conceptual Gaps in Big Data Research Ethics: An Application of Contextual Integrity. Social Media + Society, 4(2).
+Suresh, H., & Guttag, J. V. (2019). A Framework for Understanding Unintended Consequences of Machine Learning. arXiv Preprint 1901.1002
+Powles J., & Nissenbaum H. (2018). The Seductive Diversion of “Solving” Bias in Artificial Intelligence Medium Post, 12/7/2018
+Buolamwini, J., & Gebru, T. (2018). Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. In S. A. Friedler & C. Wilson (Eds.), (Vol. 81, pp. 77–91). Presented at the Proceedings of the 1st Conference on Fairness, Accountability and Transparency, New York, NY, USA: PMLR.
+Cagle M., & Ozer N. Amazon Teams up With law Enforcement to Deploy Dangerous new Face Recognition Technology. Here’s how it’s Used in Washington County.
+Fussell, S. How an Attempt at Correcting Bias in Tech Goes Wrong. The Atlantic, 10/9/19
+Samudzi, Z. (2019). Bots Are Terrible at Recognizing Black Faces. Let’s Keep it That Way. The Daily Beast, 2/11/19
+Flatow, I. et al. Why AI Is A Growing Part Of The Criminal Justice System. Science Friday, 9/13/19
+Bolukbasi, T., Chang, K.-W., Zou, J. Y., Saligrama, V., & Kalai, A. T. (2016). Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings. In D. D. Lee, M. Sugiyama, U. V. Luxburg, I. Guyon, & R. Garnett (Eds.), (pp. 4349–4357). Presented at the Advances in Neural Information Processing Systems 29
+Caliskan, A., Bryson, J. J., & Narayanan, A. (2017). Semantics derived automatically from language corpora contain human-like biases. Science (New York, NY), 356(6334), 183–186.
+Nissim, M., van Noord, R., & van der Goot, R. (2019). Fair is Better than Sensational: Man is to Doctor as Woman is to Doctor. arXiv Preprint 1905.09866
+Gonen, H., & Goldberg, Y. (2019). Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them (pp. 609–614). Presented at the Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), Minneapolis, Minnesota: Association for Computational Linguistics.
+Prates, M. O. R., Avelar, P. H., & Lamb, L. C. (2019). Assessing gender bias in machine translation: a case study with Google Translate. Neural Computing and Applications, 14(1), 1–19.
+Friedman, B., & Nissenbaum, H. (1996). Bias in Computer Systems. ACM Trans. Inf. Syst., 14(3), 330–347.
+Friedman, B., & Kahn, P. H. (2002). Human Values, Ethics, and Design. In The Human-Computer Interaction Handbook: Fundamentals, Evolving Technologies and Emerging Applications (pp. 1177–1201).
+Schnoebelen, T. (2017). Goal-Oriented Design for Ethical Machine Learning and NLP. Presented at the Proceedings of the First ACL Workshop on Ethics in Natural Language Processing, Valencia, Spain: Association for Computational Linguistics.
+Friedman, B., Hendry, D. G., & Borning, A. (2017). A Survey of Value Sensitive Design Methods. Found. Trends Human-Computer Interaction, 11(2), 63–125. Chapters 1-3
+Keyes, Os. (2019). The Gardener’s Vision of Data. Real Life Magazine, 5/6/19
+Merchant, B. (2018). Predictim Claims its AI Can Flag “Risky” Babysitters. So I Tried it on the People Who Watch My Kids. Gizmodo, 12/6/18
+Diakopoulos, N. (2016). Accountability in Algorithmic Decision Making. Commun. ACM, 59(2), 56–62.
+Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H. M., Daumé, H., III, & Crawford, K. (2018). Datasheets for Datasets. arXiv preprint 1803.09010. (also presented at FAT-ML ‘18)
+Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Ben Hutchinson, et al. (2019). Model Cards for Model Reporting (pp. 220–229). Presented at the Proceedings of the Conference on Fairness, Accountability, and Transparency, FAT* 2019, Atlanta, GA, USA, January 29-31, 2019.
+Keyes, O., Hutson, J., & Durbin, M. (2019). A Mulching Proposal: Analysing and Improving an Algorithmic System for Turning the Elderly into High-Nutrient Slurry (pp. alt06:1–alt06:11). Presented at the Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems, New York, NY, USA: ACM.
+Gajane, P., & Pechenizkiy, M. (2017). On Formalizing Fairness in Prediction with Machine Learning. arXiv preprint 1710.03184
+For a deeper dive, consider Barocas, Hardt, & Narayanan’s “Fairness and Machine Learning: Limitations and Opportunities”. Chapters 1, 2, and 5 are particularly useful to this week’s content.
+Daume, H. (2017) “Chapter 8: Bias and Fairness”, in A Course in Macine Learning
+ben-Aron, D. (1985). Weizenbaum examines computers and society. The Tech 105(16), 4/9/85
+Winograd, T. (1989). Strategic Computing Research and the Universities. In J. P. Jacky & D. Schuler (Eds.), Directions and Implications of Advanced Computing, DIAC- (Vol. 1, pp. 18–32).
+West, S., Whittaker, M., & Crawford, K. (2019) Discriminating Systems: Gender, Race, and Power in AI AI Now Institute tech report, 4/2019
+Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D. I., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. Nature, 489(7415), 295–298.
+Winner, L. (1980). Do Artifacts Have Politics? Daedalus, 109(1), 121–136.
+Douglas, T. (2014). The dual-use problem, scientific isolationism and the division of moral labour. Monash Bioethics Review, 32(1), 86–105.
+Sproat R. “Trump, Mercer, and why professional societies need Codes of Ethics.” The Daily Kos, 3/25/2017
+The Association for Computing Machinery, Code of Ethics 
+he Wikipedia’s article on Regulation and licensure in engineering
+Canadian Ritual of the Calling of the Engineer
+The Order of the Engineer
+Hildebrandt, Mireille, Privacy As Protection of the Incomputable Self: From Agnostic to Agonistic Machine Learning (December 3, 2017). Forthcoming in Theoretical Inquiries of Law 2019, 19(1). Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3081776)
+The policy itself on Sakai, https://sakai.ohsu.edu/access/content/group/CS-592-1-DF-W20/Anonymous%20Tech%20Company%20Ethics%20Policy.pdf
+Bill Sourour, The Code I’m Still Ashamed Of
+Mike Moteiro, Ethics and Paying Rent
+Moxie Marlinspike, A Saudi Arabia Telecom’s Surveillance Pitch
+Ben Tarnoff, “Can engineers change Silicon Valley’s political agenda?”
