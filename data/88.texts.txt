@@ -1,0 +1,53 @@
+Jacob LaReviere et al, Where Predictive Analytics Is Having the Biggest Impact, Harvard Business Review, May 25, 2016
+Will Oremus, Move Fast and Break Trust, Slate, March 7, 2017
+Drew Harwell, Wanted: The ‘Perfect Babysitter.’ Must Pass AI Scan for Respect and Attitude, Washington Post, Nov. 23, 2018
+Graham Ruddick, Admiral to Price Car Insurance Based on Facebook Posts, The Guardian, Nov. 1, 2016
+Pedro Domingos, A Few Useful Things to Know about Machine Learning, Communications of the ACM, October 2012
+Zeynep Tufekci, The Real Bias Built In at Facebook, N.Y. Times, May 19, 2016
+Zeynep Tufekci, YouTube, the Great Radicalizer, N.Y. Times, March 10, 2018
+Gary Marcus & Ernest Davis, 8 (No, 9!) Problems with Big Data, N.Y. Times, April 6, 2014
+David Lazer et al, The Parable of Google Flu, Science, March 14, 2014
+Michael Luca et al, Algorithms Need Managers, Too, Harvard Business Review, January-February 2016
+Houston Federation of Teachers v. Houston Ind. School District (S.D. Texas, May 4, 2017) – edited version
+Jenna Burrell, How the Machine ‘Thinks’: Understanding Opacity in Machine Learning Algorithms, Big Data & Society, January-June, 2016
+Cliff Kuang, Can A.I. Be Taught to Explain Itself?, New York Times, November 21, 2017
+Elizabeth Holm, In Defense of the Black Box, Science, April 5, 2019
+Julia Powles, New York City’s Bold, Flawed Attempt to Make Algorithms Accountable, New Yorker, December 20, 2017
+Andrew Smith, Franken-Algorithms: The Deadly Consequences of Unpredictable Code, The Guardian, August 30, 2014.
+National Transportation Safety Board, Preliminary Report, May 24, 2018
+Karen Hao, When Algorithms Mess Up, the Nearest Human Gets the Blame, MIT Technology Review, May 28, 2019
+Joanna Bryson, AI & Global Governance: No One Should Trust AI, UN University, Nov. 13, 2018
+Future of Privacy Forum, Beyond Explainability: A Practical Guide to Managing Risk in Machine Learning Models (June 2018)
+Kate Crawford, The Hidden Biases in Big Data, Harvard Business Review, April 1, 2013
+Alex Miller, Want Less-Biased Decisions? Use Algorithms, Harvard Business Review, July 26, 2018
+Harini Suresh and John Guttag, A Framework for Understanding Unintended Consequences of Machine Learning (January 2019)
+Julia Angwin et al, Machine Bias, ProPublica, May 23, 2016
+Aaron Klein, Credit Denial in the Age of AI, Brookings.com, April 11, 2019
+Ricci v. DeStefano, 557 U.S. 557 (2009) – edited version
+Texas Dept. of Housing and Community Affairs v. Inclusive Communities Project (2015) – edited version
+Andrew Selbst, A New HUD Rule Would Effectively Encourage Discrimination by Algorithm, Slate, August 19, 2019
+Russell Brandom, Facebook Has Been Charged With Housing Discrimination by the US Government, The Verge, March 28, 2019
+Zeynep Tufekci, Algorithmic Harms Beyond Facebook and Google: Emergent Challenges of Computational Agency, Journal on Telecom. and High-Tech Law (2015), pp. 203-209
+danah boyd, Untangling Research and Practice: What Facebook’s “Emotional Contagion” Study Teaches Us, Research Ethics (2016)
+Yoree Koh and Jessica Kuronen, How Tech Giants Get You to Click This (and Not That), Wall Street Journal, May 31, 2019
+Helen Coffey, Airlines Face Crack Down on Use of "Exploitative” Algorithm That Splits Up Families on Flights, The Independent, November 19, 2018
+Jerry Useem, How Online Shopping Makes Suckers of Us All, Atlantic Monthly, May 2017
+Ryan Calo, Digital Market Manipulation, 82 George Washington Law Review 995 (2014), pp. 1003-1012, 1020-24
+Maurice Stucke, Here Are All the Reasons It’s a Bad Idea to Let a Few Tech Companies Monopolize Our Data, Harvard Business Review, March 27, 2018
+Arwa Mahdawi, Is Your Friend Getting a Cheaper Uber Fare Than You Are?, The Guardian, April 13, 2018
+Solon Barocas and Helen Nissenbaum, Big Data’s End Run Around Procedural Privacy Protections, Communications of the ACM (November 2014)
+Gina Kolata, Your Data Were ‘Anonymized’? These Scientists Can Still Identify You, New York Times, July 23, 2019
+Kashmir Hill and Surya Mattu, How a Company You’ve Never Heard of Sends You Letters about Your Medical Condition, Gizmodo, June 19, 2017
+The White House, Big Data: Seizing Opportunities, Preserving Values (2014), pp. 15-21
+Izaak Crook, How GDPR Will Affect Data Science, Dataconomy.com, April 13, 2018
+Charles Duhigg, How Companies Learn Your Secrets, N.Y. Times Magazine, Feb. 16, 2012
+Michal Kosinski et al, Private Traits and Attributes are Predictable from Digital Records of Human Behavior, Proceedings of the National Academy of Sciences, April 9, 2013
+Jeffrey Mervis, Can a Set of Equations Keep U.S. Census Data Private?, Science, January 4, 2019
+Khari Johnson, How Federated Learning Could Shape the Future of AI in a Privacy-Obsessed World, Venturebeat, August 9, 2019
+Mara Hvistendahl, Inside China’s Vast Experiment in Social Ranking, Wired, Dec. 14, 2017
+Christopher Mims, The Secret Trust Scores Companies Use to Judge Us All, Wall Street Journal, April 6, 2019
+Kate Crawford and Jason Schultz, Big Data and Due Process: Toward a Framework to Redress Predictive Privacy Harms, 55 Boston College Law Review pp. 93-99, 121-28 (2014)
+Principled Artificial Intelligence: A Map of Ethical and Rights- Based Approaches, July 4, 2019 draft
+Bethan Cantrell, et al, Industry Needs to Embrace Data Ethics: How It Could Be Done (2016)
+Darrell West, The Role of Corporations in Addressing AI’s Ethical Dilemmas, Brookings, September 13, 2018
+Algorithmic Accountability Act of 2019 (Senate bill)

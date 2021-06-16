@@ -1,0 +1,51 @@
+Russell, Stuart, Daniel Dewey, Max Tegmark, Janos Kramar, and Richard Mallah. “Research Priorities for Robust and Beneficial Artificial Intelligence.” Future of Life Institute, 2015. [medium]
+Obama White House: Executive Office of the President National Science and Technology Council Committee on Technology. 2016. Executive Summary: Preparing for the Future of Artificial Intelligence. [short]. Note: Be sure to ONLY read the executive summary!
+Hecht, B. 2016. HCI and the U.S. Presidential Election: A Few Thoughts on a Research Agenda. 
+Journalist’s Resource. 2017. Uber, Airbnb and consequences of the sharing economy: Research roundup. Note: No need to read all the abstracts, just the summary! [Short]
+Badger, E. 2015. Now we know how many drivers Uber has — and have a better idea of what they’re making. [Short]
+Center for Economic and Policy Research. 2017. Ubernomics. [Short]
+Thebault-Spieker, J., Terveen, L., and Hecht, B. 2017. Towards a Geographic Understanding of the Sharing Economy: Systemic Biases in UberX and TaskRabbit. ACM Transactions on Computer-Human Interaction (TOCHI). In press. [Long] Note: You may want to skim some of the methods 
+Malhotra, Arvind, and Marshall Van Alstyne. “The Dark Side of the Sharing Economy … and How to Lighten It.” Commun. ACM 57, no. 11 (October 2014): 24–27. doi:10.1145/2668893. [Short]
+Schor, J. 2014. Debating the Sharing Economy. Essay. [Short]
+Dillahunt, Tawanna R., et al. “Uncovering the Values and Constraints of Real-time Ridesharing for Low-resource Populations.”. In Proceedings of the ACM 34th international conference on Human factors in computing systems (CHI 2017). 
+Eli Pariser. 2011. Beware online “filter bubbles”. Ted Talk. [short]
+NPR. 2008. “‘The Big Sort’: Red and Blue Divide Neighbors, Too”. [short]
+Nguyen, T.T., Hui, P.M., Harper, F.M., Terveen, L. and Konstan, J.A., 2014. Exploring the filter bubble: the effect of using recommender systems on content diversity. WWW ‘14. ACM. [long]
+Barberá, P., Jost, J.T., Nagler, J., Tucker, J.A. and Bonneau, R., 2015. Tweeting from left to right: Is online political communication more than an echo chamber?. Psychological science, 26(10), pp.1531-1542.
+Bakshy, E., Messing, S. and Adamic, L.A., 2015. Exposure to ideologically diverse news and opinion on Facebook. Science, 348(6239), pp.1130-1132. [short]
+Munson, Sean A., Stephanie Y. Lee, and Paul Resnick. Encouraging Reading of Diverse Political Viewpoints with a Browser Widget. ICWSM. 2013.
+Resnick, Paul, et al. Bursting your (filter) bubble: strategies for promoting diverse exposure. Proceedings of the 2013 conference on Computer supported cooperative work companion. ACM, 2013.
+Garimella, Kiran, et al. Reducing Controversy by Connecting Opposing Views. Proceedings of the Tenth ACM International Conference on Web Search and Data Mining. ACM, 2017.
+Five Tips to Break Through Your Filter(s). Harvard Business Review . 2011.
+ACM. 2017. Statement on Algorithmic Transparency and Accountability.
+Kay, Matthew, Cynthia Matuszek, and Sean A. Munson. “Unequal Representation and Gender Stereotypes in Image Search Results for Occupations.” In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, 3819–3828. ACM CHI ’15. [Long]
+Johnson, I., McMahon, C., Schöning, J., and Hecht, B. (2017) The Effect of Population and “Structural” Biases on Social Media-based Algorithms – A Case Study in Geolocation Inference Across the Urban-Rural Spectrum. Proceedings of the 35th Annual ACM Conference on Human Factors in Computing Systems (CHI 2017). New York: ACM Press. [Long]
+Hecht, B. and Gergle, D. 2010. The Tower of Babel Meets Web 2.0: User-Generated Content and Its Applications in a Multilingual Context. Proceedings of CHI 2010, pp. 291–300. New York: ACM Press. [Long]
+Wattenberg et al. 2017. Attacking discrimination with smarter machine learning. Interactive feature to accompany this paper.
+Bolukbasi, Tolga, Kai-Wei Chang, James Y. Zou, Venkatesh Saligrama, and Adam T. Kalai. Man is to computer programmer as woman is to homemaker? debiasing word embeddings. In Advances in Neural Information Processing Systems, pp. 4349-4357. 2016.
+Caliskan, A. 2017. Semantics derived automatically from language corpora contain human-like biases. Science.
+Dwork, Cynthia, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. Fairness through awareness. In Proceedings of the 3rd Innovations in Theoretical Computer Science Conference, pp. 214-226. ACM, 2012.
+PBS. 2016. Bias? In My Algorithms? A Facebook News Story
+Morris, M.R., Counts, S., Roseway, A., Hoff, A., and Schwarz, J. 2012. Tweeting is Believing? Understanding Microblog Credibility Perceptions. Proceedings of ACM CSCW 2012.
+Kollanyia, B. et al. 2016. Bots and Automation over Twitter during the U.S. Election.
+Starbird, Kate. 2017. Information Wars: A Window into the Alternative Media Ecosystem.
+Snopes. 2017. Google Adds Fact-Check Info to Search Results. [very short]
+Kakutani, M. 2016. NY Times. ‘How Propaganda Works’ Is a Timely Reminder for a Post-Truth Age. [short]
+Ruchansky, N. et al. 2017. arXiv. CSI: A Hybrid Deep Model for Fake News. [medium] (arXiv post on fake news week? we’ll discuss!)
+Note: One more reading may be coming. If it does, it will happen no later than Wednesday.
+Lee, M.K., Kusbit, D., Metsky, E. and Dabbish, L., 2015. Working with machines: The impact of algorithmic and data-driven management on human workers. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (pp. 1603-1612). ACM.
+Kittur, A., Nickerson, J.V., Bernstein, M., Gerber, E., Shaw, A., Zimmerman, J., Lease, M. and Horton, J., 2013, February. The future of crowd work. In Proceedings of the 2013 conference on Computer supported cooperative work (pp. 1301-1318). ACM.
+Bederson, B. and Quinn, A. 2011 Web workers unite! addressing challenges of online laborers. alt.chi.
+Ashkar, A. Create a Crowd Competition That Works.
+Suzuki, Ryo, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and Michael S. Bernstein. “Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships.” In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, pp. 2645-2656. ACM, 2016.
+Brynjolfsson, Erik, and Andrew McAfee. The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies. 1 edition. W. W. Norton & Company, 2016.
+McMahon, C., Johnson, I., and Hecht, B. (2017) The Substantial Interdependence of Wikipedia and Google – A Case Study on the Relationship Between Peer Production Communities and Intelligent Technologies. Proceedings of AAAI ICWSM 2017. Menlo Park, CA: AAAI Press.
+M. Eslami, A. Rickman, K. Vaccaro, A. Aleyasen, A. Vuong, K. Karahalios, K. Hamilton, and C. Sandvig. I always assumed that I wasn’t really that close to her: Reasoning about invisible algorithms in the news feed, CHI 2015.
+Diakopoulos, N., 2016. Accountability in algorithmic decision making. Communications of the ACM, 59(2), pp.56-62.
+Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. Why Should I Trust You?. ACM Press, 1135–1144.
+Kim Zetter. 2016. Researchers sue the government over computer hacking law. WIRED, 1–11. Retrieved May 16, 2017 from
+Christian Sandvig, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms. 64th Annual Meeting of the International Communication Association: 1–23.
+Kang, R., Dabbish, L., Fruchter, N. and Kiesler, S., 2015. “My data just goes everywhere:” user mental models of the internet and implications for privacy and security. In Symposium on Usable Privacy and Security (SOUPS).
+Krumm, J., 2007, May. Inference attacks on location tracks. In International Conference on Pervasive Computing (pp. 127-143). Springer Berlin Heidelberg.
+EU “Right to be Forgotten” Fact Sheet.
+Malloy et al. 2016. Ad Blockers: Global Prevalence and Impact. IMC ‘16.
