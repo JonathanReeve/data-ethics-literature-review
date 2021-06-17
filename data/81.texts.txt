@@ -1,0 +1,54 @@
+Derek C. Schuurman, Shaping a Digital World: Faith, Culture and Computer Technology, InterVarsity Academic Press, 2013.
+Psalm 8
+Shaping a Digital World, preface and ch. 1
+James Huggins, “The Assumptions of Computing”
+John Whittle, “Is Your Software Valueless?”, Computing Edge, Jan. 2021, pp. 51-54.
+Charles Adams, “Values and Things”, Exercising our Worldview, Dordt Press, 2014.
+Genesis 1:28; Psalm 19
+Al Wolters, Creation Regained, pp. 24-27,41-48.
+James Smith, “In the Beginning... was Technology”, The Banner, March 2016.
+Romans 8:22-30
+Noah Kulwin, “The Internet Apologizes”, Intelligencer, April 2018.
+Matthew Dickerson, “Wendell Berry, C.S. Lewis, J.R.R. Tolkien and the Dangers of a Technological Mindset”
+Neil Postman, “Five Things We Need to Know About Technological Change"
+Col. 1:15-20; 2 Cor. 5:18-21
+Charlie Adams, “Guiding Principles for an Office of Information Services”, CEEC, 2002, pp. 6-10.
+Al Wolters, “Structure and Direction”, from Creation Regained pp. 87-95.
+Jacques Ellul's “76 Reasonable Questions to Ask About Any Technology”
+2 Peter 3:10; Rev. 21:22-27; Isaiah 60
+Richard Mouw, When the Kings Come Marching In, pp. 17-42.
+Nick Bostrom, “Transhumanist Values”
+Andy Crouch, “The Bionic Man and the Body of Christ”, Christianity Today
+Matthew 22:36-40
+Lee Hardy, The Fabric of This World, pp. 93-118.
+ACM Code of Ethics
+“Would You Let a Robot Take Care of Your Mother?” NY Times, Dec. 2019.
+N. Leveson, “The Therac-25: 30 Years Later”, Computer, November 2017.
+“Engineers, Ethics, and the VW Scandal”, IEEE Spectrum.
+“How the Boeing 737 Max Disaster Looks to a Software Developer”, IEEE Spectrum.
+Psalm 121
+James Smith, “Alternative liturgy: social media as ritual”, The Christian Century, 2013.
+Jean Twenge, “Have Smartphones Destroyed a Generation?”, The Atlantic, Sep. 2017.
+Nicholas Carr, “Is Google Making Us Stupid?”, The Atlantic, July/Aug 2008.
+Cathy O’Neil, “The era of blind faith in big data must end”, TED talk
+“Many Tech Experts Say Digital Disruption Will Hurt Democracy”, Pew Research
+David Lyon, “Surveillance and Trust”, Comment, 2017
+Psalm 139:13-18
+Schuurman, “Artificial Intelligence: Discerning a Christian Response”
+AI: An Evangelical Statement of Principles
+Mark Harris, “Inside the First Church of Artificial Intelligence, Wired, Nov. 2017.
+“Malevolent Machine Learning”, CACM, December 2019, pp. 13-15.
+Nicolas Carr, “All Can Be Lost: The Risk of Putting Our Knowledge in the Hands of Machines”, The Atlantic, Nov. 2013.
+Exodus 20:15
+Intellectual Property Law: A Brief Introduction
+“The patent system is broken” Electronic Frontier Foundation
+“What is Free software?”, Free Software Foundation
+KD Crisman, “Open Source Software and Christian Thought” PSCF, 2015.
+Eric S. Raymond, The Cathedral and the Bazaar
+Jeremiah 29:5-7
+Technology and the church, God and Nature
+Online Communion Can Still Be Sacramental, Christianity Today
+How Technology Is Changing the Future of Higher Education, NY Times, Feb. 20, 2020.
+Introducing Open Source and the Raspberry Pi to Schools in Developing Nations, PSCF
+Letter to a Young Engineer, Christian Courier
+Letter to a Young IT worker, Christian Courier
