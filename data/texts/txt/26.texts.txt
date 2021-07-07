@@ -1,0 +1,86 @@
+Hickey, Walt. The Dollars and Cents Case Against Hollywood's Exclusion of Women. FiveThirtyEight, 2014.
+Keegan, Brian. The Need for Openness in Data Journalism. 2014.
+Princeton Dialogues on AI & Ethics: Case studies
+Aragon, C. et al. (2016). Developing a Research Agenda for Human-Centered Data Science. Human Centered Data Science workshop, CSCW 2016.
+Kling, Rob and Star, Susan Leigh. Human Centered Systems in the Perspective of Organizational and Social Informatics. 1997.
+Harford, T. (2014). Big data: A big mistake? Significance, 11(5), 14–19.
+Ideo.org The Field Guide to Human-Centered Design. 2015.
+Duarte, N., Llanso, E., & Loup, A. (2018). Mixed Messages? The Limits of Automated Social Media Content Analysis. Proceedings of the 1st Conference on Fairness, Accountability and Transparency, 81, 106.
+A2: Bias in data, https://wiki.communitydata.science/Human_Centered_Data_Science_(Fall_2019)/Assignments#A2:_Bias_in_data
+Hickey, Walt. The Bechdel Test: Checking Our Work. FiveThirtyEight, 2014.
+GroupLens, MovieLens datasets
+J. Priem, D. Taraborelli, P. Groth, C. Neylon (2010), Altmetrics: A manifesto, 26 October 2010.
+Chapter 2 "Assessing Reproducibility" and Chapter 3 "The Basic Reproducible Workflow Template" from The Practice of Reproducible Research University of California Press, 2018.
+Halfaker, A., Geiger, R. S., Morgan, J. T., & Riedl, J. (2013). The rise and decline of an open collaboration system: How Wikipedia’s reaction to popularity is causing its decline. American Behavioral Scientist, 57(5), 664-688
+TeBlunthuis, N., Shaw, A., and Hill, B.M. (2018). Revisiting "The rise and decline" in a population of peer production projects. In Proceedings of the 2018 ACM Conference on Human Factors in Computing Systems (CHI '18). https://doi.org/10.1145/3173574.3173929
+Press, Gil. Cleaning Big Data: Most Time-Consuming, Least Enjoyable Data Science Task, Survey Says. Forbes, 2016.
+Christensen, Garret. Manual of Best Practices in Transparent Social Science Research. 2016.
+Wang, Tricia. Why Big Data Needs Thick Data. Ethnography Matters, 2016.
+Kery, M. B., Radensky, M., Arya, M., John, B. E., & Myers, B. A. (2018). The Story in the Notebook: Exploratory Data Science using a Literate Programming Tool. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems - CHI’18, 1–11. https://doi.org/10.1145/3173574.3173748
+Bender, E. M., & Friedman, B. (2018). Data Statements for NLP: Toward Mitigating System Bias and Enabling Better Science. To appear in Transactions of the ACL.
+Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumeé III, H., & Crawford, K. (2018). Datasheets for datasets. arXiv preprint arXiv:1803.09010.
+Olteanu, A., Castillo, C., Diaz, F., Kıcıman, E., & Kiciman, E. (2019). Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries. Frontiers in Big Data, 2, 13. https://doi.org/10.3389/fdata.2019.00013
+Rose Eveleth The biggest lie tech people tell themselves — and the rest of us. October 8, 2019, Vox.com.
+Rani Molla The government is using the wrong data to make crucial decisions about the internet. February 8, 2019, Vox.com.
+Isaac L. Johnson, Yilun Lin, Toby Jia-Jun Li, Andrew Hall, Aaron Halfaker, Johannes Schöning, and Brent Hecht. 2016. Not at Home on the Range: Peer Production and the Urban/Rural Divide. DOI: https://doi.org/10.1145/2858036.2858123
+Leo Graiden Stewart, Ahmer Arif, A. Conrad Nied, Emma S. Spiro, and Kate Starbird. 2017. Drawing the Lines of Contention: Networked Frame Contests Within #BlackLivesMatter Discourse. CSCW 2017. DOI: https://doi.org/10.1145/3134920
+Lada A. Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 U.S. election: divided they blog. (LinkKDD '05). DOI=http://dx.doi.org/10.1145/1134271.1134277
+Cristian Danescu-Niculescu-Mizil, Robert West, Dan Jurafsky, Jure Leskovec, and Christopher Potts. 2013. No country for old members: user lifecycle and linguistic change in online communities. (WWW '13). DOI: https://doi.org/10.1145/2488388.2488416
+Read and reflect: Barocas, Solan and Nissenbaum, Helen. Big Data's End Run around Anonymity and Consent. In Privacy, Big Data, and the Public Good. 2014. (PDF available on Canvas)
+A3: Crowdwork ethnography, https://wiki.communitydata.science/Human_Centered_Data_Science_(Fall_2019)/Assignments#A3:_Crowdwork_ethnography
+Singer, P., Lemmerich, F., West, R., Zia, L., Wulczyn, E., Strohmaier, M., & Leskovec, J. (2017, April). Why we read wikipedia. In Proceedings of the 26th International Conference on World Wide Web.
+Taxonomy of reasons why people trust/distrust Wikipedia, Jonathan Morgan, Wikimedia Research report, May 2019.
+Ladner, S. (2016). Practical ethnography: A guide to doing ethnography in the private sector. Routledge.
+Spradley, J. P. (2016). The ethnographic interview. Waveland Press.
+Spradley, J. P. (2016) Participant Observation. Waveland Press
+Eriksson, P., & Kovalainen, A. (2015). Ch 12: Ethnographic Research. In Qualitative methods in business research: A practical guide to social research. Sage.
+Qualitative research activity: categorizing student responses. Mark Girod, Western Oregon University
+Empirical Epistemologies Applied to Human-‐Centered Computing Research Leysia Palen, University of Colorado Boulder, November 16 2014.
+Gray, M. L., & Suri, S. (2019). Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass. Eamon Dolan Books.
+National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. The Belmont Report. U.S. Department of Health and Human Services, 1979.
+Bethan Cantrell, Javier Salido, and Mark Van Hollebeke (2016). Industry needs to embrace data ethics: Here's how it could be done. Workshop on Data and Algorithmic Transparency (DAT'16). http://datworkshop.org/
+Javier Salido (2012). Differential Privacy for Everyone. Microsoft Corporation Whitepaper.
+Markham, Annette and Buchanan, Elizabeth. Ethical Decision-Making and Internet Researchers. Association for Internet Research, 2012.
+Kelley, P. G., Bresee, J., Cranor, L. F., & Reeder, R. W. (2009). A “nutrition label” for privacy. Proceedings of the 5th Symposium on Usable Privacy and Security - SOUPS ’09, 1990, 1. https://doi.org/10.1145/1572532.1572538
+Warncke-Wang, M., Cosley, D., & Riedl, J. (2013). Tell me more: An actionable quality model for wikipedia. Proceedings of the 9th International Symposium on Open Collaboration, WikiSym + OpenSym 2013. https://doi.org/10.1145/2491055.2491063
+Baumer, E. P. S. (2017). Toward human-centered algorithm design. Big Data & Society.
+Amershi, S., Cakmak, M., Knox, W. B., & Kulesza, T. (2014). Power to the People: The Role of Humans in Interactive Machine Learning. AI Magazine, 35(4), 105.
+Lilly C. Irani and M. Six Silberman. 2013. Turkopticon: interrupting worker invisibility in amazon mechanical turk. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). DOI: https://doi.org/10.1145/2470654.2470742
+Salehi, Niloufar, Lilly C. Irani, Michael S. Bernstein, Ali Alkhatib, Eva Ogbe, and Kristy Milland. We are dynamo: Overcoming stalling and friction in collective action for crowd workers. In Proceedings of the 33rd annual ACM conference on human factors in computing systems, pp. 1621-1630. ACM, 2015.
+Hill, B. M., Dailey, D., Guy, R. T., Lewis, B., Matsuzaki, M., & Morgan, J. T. (2017). Democratizing Data Science: The Community Data Science Workshops and Classes. In N. Jullien, S. A. Matei, & S. P. Goggins (Eds.), Big Data Factories: Scientific Collaborative approaches for virtual community data collection, repurposing, recombining, and dissemination. New York, New York: Springer Nature. https://doi.org/10.1007/978-3-319-59186-5_9
+Ingold, David and Soper, Spencer. Amazon Doesn’t Consider the Race of Its Customers. Should It?. Bloomberg, 2016.
+Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner. Machine Bias: Risk Assessment in Criminal Sentencing. Propublica, May 2018.
+Kocielnik, R., Amershi, S., & Bennett, P. N. (2019). Will You Accept an Imperfect AI? Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI ’19, 1–14. https://doi.org/10.1145/3290605.3300641
+Christian Sandvig, Kevin Hamilton, Karrie Karahalios, Cedric Langbort (2014/05/22) Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms. Paper presented to "Data and Discrimination: Converting Critical Concerns into Productive Inquiry," a preconference at the 64th Annual Meeting of the International Communication Association. May 22, 2014; Seattle, WA, USA.
+Friedman, B., & Nissenbaum, H. (1996). Bias in Computer Systems. ACM Trans. Inf. Syst., 14(3), 330–347.
+Nate Matias, 2017. How Anyone Can Audit Facebook's Newsfeed. Medium.com
+Hill, Kashmir. Facebook figured out my family secrets, and it won't tell me how. Engadget, 2017.
+Blue, Violet. Google’s comment-ranking system will be a hit with the alt-right. Engadget, 2017.
+Anderson, Carl. The role of model interpretability in data science. Medium, 2016.
+Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner. Machine Bias: Risk Assessment in Criminal Sentencing. Propublica, May 2018.
+Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., … Gebru, T. (2019). Model Cards for Model Reporting. Proceedings of the Conference on Fairness, Accountability, and Transparency, 220–229. https://doi.org/10.1145/3287560.3287596
+Hosseini, H., Kannan, S., Zhang, B., & Poovendran, R. (2017). Deceiving Google’s Perspective API Built for Detecting Toxic Comments. ArXiv:1702.08138 [Cs]. Retrieved from http://arxiv.org/abs/1702.08138
+Binns, R., Veale, M., Van Kleek, M., & Shadbolt, N. (2017). Like trainer, like bot? Inheritance of bias in algorithmic content moderation. Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), 10540 LNCS, 405–415. https://doi.org/10.1007/978-3-319-67256-4_32
+Borkan, D., Dixon, L., Sorensen, J., Thain, N., & Vasserman, L. (2019). Nuanced Metrics for Measuring Unintended Bias with Real Data for Text Classification. 2, 491–500. https://doi.org/10.1145/3308560.3317593
+Zhang, J., Chang, J., Danescu-Niculescu-Mizil, C., Dixon, L., Hua, Y., Taraborelli, D., & Thain, N. (2019). Conversations Gone Awry: Detecting Early Signs of Conversational Failure. 1350–1361. https://doi.org/10.18653/v1/p18-1125
+Miriam Redi, Besnik Fetahu, Jonathan T. Morgan, and Dario Taraborelli. 2019. Citation Needed a Taxonomy and Algorithmic Assessment of Wikipedia’s Verifiability. The Web Conference.
+Google's Perspective API, https://www.perspectiveapi.com/#/
+Kenneth Holstein, Jennifer Wortman Vaughan, Hal Daumé, III, Miro Dudik, and Hanna Wallach. 2019. Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19). ACM, New York, NY, USA, Paper 600, 16 pages. DOI: https://doi.org/10.1145/3290605.3300830
+Sean M. McNee, John Riedl, and Joseph A. Konstan. 2006. Making recommendations better: an analytic model for human-recommender interaction. In CHI '06 Extended Abstracts on Human Factors in Computing Systems (CHI EA '06).
+Sean M. McNee, Nishikant Kapoor, and Joseph A. Konstan. 2006. Don't look stupid: avoiding pitfalls when recommending research papers. In Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work (CSCW '06).
+Shahriari, K., & Shahriari, M. (2017). IEEE standard review - Ethically aligned design: A vision for prioritizing human wellbeing with artificial intelligence and autonomous systems. Institute of Electrical and Electronics Engineers
+ACM US Policy Council Statement on Algorithmic Transparency and Accountability. January 2017.
+Diakopoulos, N., Friedler, S., Arenas, M., Barocas, S., Hay, M., Howe, B., … Zevenbergen, B. (2018). Principles for Accountable Algorithms and a Social Impact Statement for Algorithms. Fatml.Org 2018.
+Morgan, J. 2016. Evaluating Related Articles recommendations. Wikimedia Research.
+Morgan, J. 2017. Comparing most read and trending edits for the top articles feature. Wikimedia Research.
+Michael D. Ekstrand, F. Maxwell Harper, Martijn C. Willemsen, and Joseph A. Konstan. 2014. User perception of differences in recommender algorithms. In Proceedings of the 8th ACM Conference on Recommender systems (RecSys '14).
+Passi, S., & Jackson, S. J. (2018). Trust in Data Science: Collaboration, Translation, and Accountability in Corporate Data Science Projects. Proceedings of the ACM on Human-Computer Interaction, 2(CSCW), 1–28. https://doi.org/10.1145/3274405
+Rich Caruana, Harsha Nori, Samuel Jenkins, Paul Koch, Ester de Nicolas. 2019. InterpretML software toolkit
+Partnership on AI, 2019 Report on Algorithmic Risk Assessment Tools in the U.S. Criminal Justice System.
+Morgan, J. T., 2019. Ethical and Human-centered AI at Wikimedia. Wikimedia Research 2030.
+Barocas, S., & Boyd, D. (2017). Engaging the ethics of data science in practice. Communications of the ACM, 60(11), 23–25. https://doi.org/10.1145/3144172
+Marilynn Larkin, How to give a dynamic scientific presentation. Elsevier Connect, 2015.
+Megan Risdal, Communicating data science: a guide to presenting your work. Kaggle blog, 2016.
+Megan Risdal, Communicating data science: Why and how to visualize information. Kaggle blog, 2016.
+Megan Risdal, Communicating data science: an interview with a storytelling expert. Kaggle blog, 2016.
+Brent Dykes, Data Storytelling: The Essential Data Science Skill Everyone Needs. Forbes, 2016.
