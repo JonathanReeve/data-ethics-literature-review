@@ -1,31 +1,15 @@
-‫‪Approaches‬‬‫‪Top-down‬‬ ‫‪and‬‬ ‫‪Bottom-up‬‬ ‫‪Morality:‬‬ ‫‪Machine‬‬ ‫‪2008.‬‬ ‫‪Smit.‬‬ ‫‪Iva‬‬ ‫‪and‬‬ ‫‪Allen‬‬ ‫‪Colin‬‬ ‫‪Wendell,‬‬ ‫‪Wallach,‬‬
-‫‪565-582.‬‬‫‪22(4):‬‬ ‫‪Society‬‬ ‫&‬ ‫‪AI‬‬ ‫‪Faculties.‬‬ ‫‪Moral‬‬ ‫‪Human‬‬ ‫‪Modelling‬‬ ‫‪for‬‬
-‫‪Information‬‬‫‪and‬‬ ‫‪Ethics‬‬ ‫‪Machines.‬‬ ‫‪Virtuous‬‬ ‫‪of‬‬ ‫‪Creation‬‬ ‫‪the‬‬ ‫‪On‬‬ ‫‪Character:‬‬ ‫‪of‬‬ ‫‪Out‬‬ ‫‪2012.‬‬ ‫‪Ryan.‬‬ ‫‪Tonkens,‬‬
-‫‪137-149.‬‬‫‪14(2):‬‬ ‫‪Technology‬‬
-‫‪3‬‬‫‪.‬‬
-‫‪Internet‬‬‫‪to‬‬ ‫‪Justice‬‬ ‫‪of‬‬ ‫‪Principles‬‬ ‫’‪Rawls‬‬ ‫‪Applying‬‬ ‫‪Internet:‬‬ ‫‪Fair‬‬ ‫‪and‬‬ ‫‪Just‬‬ ‫‪a‬‬ ‫‪Towards‬‬ ‫‪2015.‬‬ ‫‪M.‬‬ ‫‪David‬‬ ‫‪Douglas,‬‬
-‫‪.‬‬‫‪57-64‬‬‫‪17(1):‬‬ ‫‪Technology‬‬ ‫‪Information‬‬ ‫‪and‬‬ ‫‪Ethics‬‬ ‫‪Regulation.‬‬
+Wallach, Wendell, Colin Allen and Iva Smit. 2008. Machine Morality: Bottom-up and Top-down Approaches for Modelling Human Moral Faculties. AI & Society 22(4): 565-582. 
+Tonkens, Ryan. 2012. Out of Character: On the Creation of Virtuous Machines. Ethics and Information Technology 14(2): 137-149. 
+Douglas, David M. 2015. Towards a Just and Fair Internet: Applying Rawls’ Principles of Justice to Internet Regulation. Ethics and Information Technology 17(1): 57-64.
+Jonas, Hans. 1973. Technology and Responsibility: Reflections on the New Tasks of Ethics. Social Research 40(1): 31-54.
 Winner, Langdon. 1980. Do Artifacts Have Politics? Daedalus 109(1): 121-136.
-.5
 Joerges, Bernward. 1999. Do Politics Have Artefacts? Social Studies of Science 29(3): 411-431.
-Pitt, Joseph C. 2014. “Guns Don’t Kill, People Kill”; Values in and/or Around Technologies. In The Moral
-Status of Technical Artefacts, edited by Peter Kroes and Peter-Paul Verbeek, 89-101. Dordrecht:
-Springer.
-Van de Poel, Ibo and Peter Kroes. 2014. Can Technology Embody Values? In The Moral Status of Technical
-Artefacts, edited by Peter Kroes and Peter-Paul Verbeek, 103-124. Dordrecht: Springer.
-Flanagan, Mary, Daniel C. Howe and Helen Nissenbaum. 2008. Embodying Values in Technology: Theory
-and Practice. In Information Technology and Moral Philosophy, edited by Jeroen van den Hoven and
-John Weckert, 322-353. Cambridge: Cambridge University Press.
-Lin, Patrick. 2016. Why Ethics Matters for Autonomous Cars. In Autonomous Driving: Technical, Legal and
-Social Aspects, edited by Markus Maurer, Chris Gerdes, Barbara Lenz, and Hermann Winner, 69-85.
-Dordrecht: Springer.
-Doctorow, Cory. 2015. The Problem with Self-Driving Cars: Who Controls the Code? The Guardian
-(25 December). http://alturl.com/yrrau
-Hern, Alex. 2016. Self-Driving Cars Don't Care about Your Moral Dilemmas. The Guardian (22 August).
-https://www.theguardian.com/technology/2016/aug/22/self-driving-cars-moral-dilemmas
-Bozdag, Engin and Jeroen van den Hoven. 2015. Breaking the Filter Bubble: Democracy and Design. Ethics
-and Information Technology 17(4): 249-265.
-Miller, Boaz and Isaac Record. 2016. Responsible Epistemic Technologies: A Social-Epistemological
-Analysis of Autocompleted Web Search. New Media & Society, in press.
-Carter, J. Adam & S. Orestis Palermos. 2017. The Ethics Of Extended Cognition: Is Having Your Computer
-Compromised a Personal Assault? Journal of the American Philosophical Association, forthcoming.
+Pitt, Joseph C. 2014. “Guns Don’t Kill, People Kill”; Values in and/or Around Technologies. In The Moral Status of Technical Artefacts, edited by Peter Kroes and Peter-Paul Verbeek, 89-101. Dordrecht: Springer. 
+Van de Poel, Ibo and Peter Kroes. 2014. Can Technology Embody Values? In The Moral Status of Technical Artefacts, edited by Peter Kroes and Peter-Paul Verbeek, 103-124. Dordrecht: Springer. 
+Flanagan, Mary, Daniel C. Howe and Helen Nissenbaum. 2008. Embodying Values in Technology: Theory and Practice. In Information Technology and Moral Philosophy, edited by Jeroen van den Hoven and John Weckert, 322-353. Cambridge: Cambridge University Press.
+Lin, Patrick. 2016. Why Ethics Matters for Autonomous Cars. In Autonomous Driving: Technical, Legal and Social Aspects, edited by Markus Maurer, Chris Gerdes, Barbara Lenz, and Hermann Winner, 69-85.
+Dordrecht: Springer. Doctorow, Cory. 2015. The Problem with Self-Driving Cars: Who Controls the Code? The Guardian (25 December). http://alturl.com/yrrau
+Hern, Alex. 2016. Self-Driving Cars Don't Care about Your Moral Dilemmas. The Guardian (22 August). https://www.theguardian.com/technology/2016/aug/22/self-driving-cars-moral-dilemmas
+Bozdag, Engin and Jeroen van den Hoven. 2015. Breaking the Filter Bubble: Democracy and Design. Ethics and Information Technology 17(4): 249-265. 
+Miller, Boaz and Isaac Record. 2016. Responsible Epistemic Technologies: A Social-Epistemological Analysis of Autocompleted Web Search. New Media & Society, in press.
+Carter, J. Adam & S. Orestis Palermos. 2017. The Ethics Of Extended Cognition: Is Having Your Computer Compromised a Personal Assault? Journal of the American Philosophical Association.

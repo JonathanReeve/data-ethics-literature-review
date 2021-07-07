@@ -1,0 +1,55 @@
+Abelson, H., Ledeen, K., & Lewis, H. (2008). Blown to Bits: Your Life, Liberty, and Happiness after the Digital Explosion. Boston, MA: Pearson Education.
+Ingram, D. (2018, September 5). Leaks, petitions and tweets: How tech workers are starting to revolt. NBC News.
+Association for Computing Machinery (2018). 2018 ACM Code of Ethics and Professional Conduct: Draft 2. Accessed June 15, 2017: https://ethics.acm.org/2018-code-draft-2/
+CE2 Association for Computing Machinery (1992). 1992 ACM Code of Ethics and Professional Conduct. Accessed June 15, 2017: http://ethics.a c m.org/code-of-ethics/previous-versions/1992-acm-code/
+CE3 Hill, R. (2017, March 16). Ethical Theories Spotted in Silicon Valley [Communications of the ACM]. Retrieved March 16, 2017, from http://cacm.acm.org/blogs/blog-cacm/214615-ethical-theories-spotted-in-silicon-valley/fulltext#
+CE4 Noorman, M. (2012). Computing and Moral Responsibility. In The Stanford Encyclopedia of Philosophy. Stanford, CA. Retrieved from https://plato.stanford.edu/entries/computing-responsibility/
+Author. (n.d.). A Theory of Justice. In Wikipedia, the free encyclopedia. https://en.wikipedia.org/wiki/A_Theory_of_Justice
+JR2 Author. (n.d.). John Rawls. In Wikipedia, the free encyclopedia. https://en.wikipedia.org/wiki/John_Rawls
+Author. (2010). Tools for Identifying Implicit Bias. The University of California: Academic Personnel and Programs. https://diversity.ucsf.edu/sites/diversity.ucsf.edu/files/Tools%20for%20Department%20Chairs%20and%20Deans.pdf
+Fowler, S. J. (2017). Reflecting on One Very, Very Strange Year at Uber. Susan Fowler’s blog. https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber
+Ganim, S. (2016, September 30). Sexual harassment in STEM: `It’s tragic for society`. CNN (Cable News Network). http://www.cnn.com/2016/09/30/us/astronomy-sexual-harassment/index.html
+HP Computers are Racist. (2009). [YouTube]. https://www.youtube.com/watch?v=t4DT3tQqgRM
+Lee, C. (2015, September 28). What can I do today to create a more inclusive community in CS? https://computinged.wordpress.com/2015/09/28/what-can-i-do-today-to-create-a-more-inclusive-community-in-cs-guest-post-from-cynthia-lee/
+Mauldin, J. (2015, October 5). Letter to the Editor: STEM. The Easterner (Eastern Washington UniversityNewspaper). Retrieved from http://easterneronline.com/36007/letters-to-the-editor/letter-to-the-editor-stem/
+National Center for Women & Information Technology. (2017). By the Numbers [Statistics & Reports]. https://www.ncwit.org/resources/numbers
+New York Times. (June 13, 2017). Holder Recommendations on Uber. https://www.nytimes.com/interactive/2017/06/13/technology/document-The-Holder-Report-on-Uber.html
+Project Implicit. (2011). Implicit Association Test [Research]. Retrieved January 15, 2015, https://implicit.harvard.edu/implicit/selectatest.html
+Schoen, R. (2016, December 15). Grace Hopper and the psychological drain on the gender minority [Medium]. https://medium.com/search?q=Grace%20Hopper%20and%20the%20psychological%20drain%20on%20the%20gender%20minority
+Silbey, S. (2016, August 23). Why Do So Many Women Who Study Engineering Leave the Field?https://hbr.org/2016/08/why-do-so-many-women-who-study-engineering-leave-the-field
+Stockdale, S. (2017, June 15). The myth of the `cool tech girl`, and why she’s dangerous. [Medium]. https://medium.com/@skstock/the-myth-of-the-cool-tech-girl-7868fa63769b
+Vega, T. (2017, June 20). Where are you `really` from? Try another question. [CNN]. http://www.cnn.com/2017/06/20/opinions/where-are-you-really-from-vega-opinion/index.html
+The Washington Post. (June 13, 2017). Ex-Uber engineer whose complaint started firm’s internal investigation dismisses findings as `optics`. https://www.washingtonpost.com/news/the-switch/wp/2017/06/13/ex-uber-engineer-whose-complaint-started-firms-internal-investigation-dismisses-findings-as-optics/
+Goglin, J. (2017, June 15). Women are opting out of IT, here’s how to bring them back [Ensono Insights] https://www.ensono.com/insights/women-opting-out
+Damore, J. (2017, August 4). Google’s Ideological Echo Chamber. Retrieved August 7, 2017, from https://assets.documentcloud.org/documents/3914586/Googles-Ideological-Echo-Chamber.pdf
+Zunger, Y. (2017, August 5). So, about this Googler’s manifesto. Retrieved August 6, 2017, https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788
+Mims, C. (2017, August 13). What the Google Controversy Misses: The Business Case for Diversity. Wall Street Journal. Retrieved from http://libproxy.boisestate.edu/login?url=https://search.proquest.com/docview/1928135939?accountid=9649
+Damore, J. (2017, August 11). Why I was fired by Google. Wall Street Journal. http://libproxy.boisestate.edu/login?url=https://search.proquest.com/docview/1927869502?accountid=9649
+Natanson, H. “A Sort of Everyday Struggle.” The Harvard Crimson. October 20, 2017, Online edition. https://www.thecrimson.com/article/2017/10/20/everyday-struggle-women-math/
+Brooks, A., Quart, J., & Malter, J. (2017, ). 'I had to clean up underwear': Startup responds to harassment suit. CNN Tech. Online edition. http://money.cnn.com/video/technology/culture/2017/11/03/divided-we-code-uploadvr-
+harassment.cnnmoney/index.html
+Lohr, S. (2018, February 9). Facial Recognition is Accurate, if You’re a White Guy. New York Times. https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html
+Zhou, L. (2018, February 7). Is Your Software Racist? Politico. https://www.politico.com/agenda/story/2018/02/07/algorithmic-bias-software-recommendations-000631
+Seagall, L. (2018, November 20). Uber CEO on fixing its workplace culture problem. https://www.cnn.com/videos/business/2018/11/20/uber-ceo-culture-harassment.cnn-business/video/playlists/business-human-code/
+Buolamwini, J. (2018). Gender Shades [YouTube].https://www.youtube.com/watch?v=TWWsW1w-BVo
+Bidgood, J., & Merrill, J. (2017, May 29). As Computer Coding Classes Swell, So Does Cheating. New York Times. https://www.nytimes.com/2017/05/29/us/computer-science-cheating.html
+Harding, T., Mayhew, M., Finelli, C., & Carpenter, D. (2007). The Theory of Planned Behavior as a Model of Academic Dishonesty in Engineering and Humanities Undergraduates. Ethics & Behavior, 17(3), 255–279. http://www.tandfonline.com/doi/full/10.1080/10508420701519239?scroll=top&needAccess=true
+AD3 Stanley, J. (2017, June 2). Pitfalls of Artificial Intelligence Decisionmaking Highlighted in Idaho ACLU Case [Legal Analysis]. https://www.aclu.org/blog/free-future/pitfalls-artificial-intelligence-decisionmaking-highlighted-idaho-aclu-case
+Angwin, J., Larson, J., Mattu, S., & Kirchner, L. (2016, May 23). Machine Bias: There’s software used across the country to predict future criminals. And it’s biased against blacks. [ProPublica]. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+Baumer, B., Kaplan, D., Horton, N. (2017). Chapter 6, Professional Ethics. In Modern Data Science with R, pp. 131-146. http://mdsr-book.github.io/excerpts/mdsr-ethics.pdf
+Lufkin, B. (2017, March 7). Why the biggest challenge facing AI is an ethical one. BBC. http://www.bbc.com/future/story/20170307-the-ethical-challenge-facing-artificial-intelligence
+Stanley, J. (2017, June 2). Pitfalls of Artificial Intelligence Decisionmaking Highlighted in Idaho ACLU Case [Legal Analysis]. https://www.aclu.org/blog/free-future/pitfalls-artificial-intelligence-decisionmaking-highlighted-idaho-aclu-case
+O'Neill, C. (2017, April). The era of blind faith in big data must end [TED2017]. https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end
+Google. (2017, August 25). Machine Learning and Human Bias [Video content]. https://www.youtube.com/watch?v=59bMh59JQDo&feature=youtu.be&app=desktop
+Tucker, I. (2017, May 28). `A white mask worked better`: Why algorithms are not colour blind. The
+Guardian. https://www.theguardian.com/technology/2017/may/28/joy-buolamwini-when-algorithms-are-racist-facial-recognition-bias
+Yan, M. (2019, April 17). Facial recognition is almost perfectly accurate – here’s why that could be a problem. https://www.businessinsider.com/facial-recognition-technology-regulation-creepy-future-2019-4
+McKendrick, J. (2019, July 7). Ethical Artificial Intelligence Becomes A Supreme Competitive Advantage. Forbes. https://www.forbes.com/sites/joemckendrick/2019/07/07/ethical-artificial-intelligence-becomes-a-supreme-competitive-advantage/#4846dc901a8f
+Simonite, T. (2019, July 22). The best algorithms still struggle to recognize black faces equally. WIRED. https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/
+Ongweso, E. (2019, July 29). Racial bias in AI isn’t getting better and neither are researchers’ excuses. Vice. https://www.vice.com/en_us/article/8xzwgx/racial-bias-in-ai-isnt-getting-better-and-neither-are-researchers-excuses
+Author. (2017, May 25). `Thousands` of known bugs found in pacemaker code. BBC. http://www.bbc.com/news/technology-40042584
+Author. (2017, May 23). Samsung S8 `eye security` fooled by photo. BBC. http://www.bbc.com/news/technology-40012990
+Baumer, B., Kaplan, D., Horton, N. (2017). Chapter 6, Professional Ethics. In Modern Data Science with R, pp. 131-146. http://mdsr-book.github.io/excerpts/mdsr-ethics.pdf
+Ewing, J. (2017, May 6). Inside VW’s Campaign of Trickery. New York Times. https://www.nytimes.com/2017/05/06/business/inside-vws-campaign-of-trickery.html
+HP Computers are Racist. (2009). [YouTube]. https://www.youtube.com/watch?v=t4DT3tQqgRM
+The Markkula Center for Applied Ethics https://www.scu.edu/ethics/ is a terrific resource for issues related to ethical conduct in professional practice.

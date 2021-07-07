@@ -1,0 +1,86 @@
+Katz v. U.S., 389 U.S. 347 (1967) 
+U.S. v. Jones, 132 S. Ct. 945 (2012)
+The Federal Trade Commission Act, 15 U.S.C. § 45
+The White House, Big Data: Seizing Opportunities, Preserving Values
+The Federal Trade Commission, Big Data: A Tool for Inclusion or Exclusion?
+Texas Code Ann. § 503.001 (Capture or Use of Biometric Identifier)
+Dr. Joseph Atick, “Face Recognition in the Era of the Cloud and Social Media: Is it Time to Hit the Panic Button?” findBIOMETRICS, Oct. 19, 2011.
+Meduza, “‘We’ll find you, too’: An anonymous website is identifying Russians who attended Alexey Navalny's June 12 anti-corruption protests,” July 8, 2017. 
+The Economist, “Advances in AI are used to spot signs of sexuality,” Sept. 9, 2017.
+Clare Garvie & Jonathan Frankle, “Facial-Recognition Software Might Have a Racial Bias Problem,” The Atlantic, April 7, 2016.
+Geoffrey Fowler, “Apple is sharing your face with apps. That’s a new privacy worry,” The Washington Post, Nov. 30, 2017.
+Samuel Warren & Louis Brandeis, The Right to Privacy, 4 Harv. L. Rev. 193 (1890).
+1980 OECD Guidelines (revised 2013) on the Protection of Privacy and Transborder Flows of Personal Data
+Consumer Data Privacy in a Networked World:A Framework for Protecting Privacy and Promoting Innovation in the Global Digital Economy (The White House, Feb. 2012).
+Castro and McQuinn, The Privacy Panic Cycle: A Guide to Public Fears About New Technologies, Information Technology Innovation Foundation. (Sept 2015).
+Sweeney, Latanya. "Discrimination in online ad delivery." ACM Queue 11, no. 3 (2013): 10.
+Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner, “Machine Bias: There’s software used across the country to predict future criminals. And it’s biased against blacks.” ProPublica (May 23, 2016).
+Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan, “Inherent Trade-Offs in the Fair Determination of Risk Scores” (Nov. 17, 2016). [Note, there is real math in this paper. Don’t be too afraid, but make sure you understand the material is sections 1 and 5]
+Ritter, Dubravka. "Do We Still Need the Equal Credit Opportunity Act?." Federal Reserve Bank of Philadelphia, Discussion Paper: Payment Cards Center (2012). [concentrate on sections I, II, IV, VI.]
+Federal Reserve Board, Fair Housing summary, FRB Consumer Compliance Handbook (2006) 
+Police Executive Research Forum, CRITICAL ISSUES IN POLICING SERIES “How Are Innovations in Technology Transforming Policing? (2012)
+U.S. v. Jones, 132 S. Ct. 945 (2012) 
+IN THE MATTER OF THE APPLICATION OF THE UNITED STATES OF AMERICA FOR AN ORDER DIRECTING A PROVIDER OF ELECTRONIC COMMUNICATION SERVICE TO DISCLOSE RECORDS TO THE GOVERNMENT. (CA3, Feb. 12 2010) 
+US v Carpenter (CA6, 2016) [pages 1-12, 17-22]
+Carpenter oral argument (listen to it or read transcript): https://www.supremecourt.gov/oral_arguments/audio/2017/16-402
+L. Moy,  I used to track cell phone location information for prosecutors. My experience illustrates the overwhelming need for better technical resources for defense attorneys.
+Smith v. Maryland, 442 U.S 735 (1979). Landmark Supreme court ruling on Fourth Amendment status of telephone records as 3rd party records (see especially Justice Marshall’s dissent).
+DHS Privacy Impact Assessment for CBP License Plate Reader Technology, DHS/CBP/PIA-049, December 11, 2017
+Techdirt, DHS Expands License Plate Dragnet, Streams Collections To US Law Enforcement Agencies, Jan 4, 2018.
+United States v. Davis – Wrestling With the Third Party Doctrine, Liza Goitein
+Eleventh Circuit rules for the feds on cell-site records — but then overreaches, Orin Kerr
+American Bar Association, Law Enforcement Access to Third Party Records Standards (2013) 
+Andrew Cohen, The Marshall Project, What We’ve Learned About Racial Disparity in Policing Since Ferguson (Aug. 10, 2015).
+Freiwald, Susan, Cell Phone Location Data and the Fourth Amendment: A Question of Law, Not Fact (April 20, 2011). Maryland Law Review, Vol. 70, p. 677, 2011; Univ. of San Francisco Law Research Paper No. 2011-10. Available at SSRN: https://ssrn.com/abstract=1816762 (concentrate on parts I, III and V)
+Freiwald, Susan, Light in the Darkness: How the LEATPR Standards Guide Legislators in Regulating Law Enforcement Access to Cell Site Location Records (2014). Oklahoma Law Review, Vol. 66, p. 875, 2014; Univ. of San Francisco Law Research Paper No. 2014-15. Available at SSRN: https://ssrn.com/abstract=2459245
+Pew Research Center, Public Perceptions of Privacy and Security in the Post-Snowden Era 34–35 (Nov. 12, 2014).
+Pappalardo, L., Simini, F., Rinzivillo, S., Pedreschi, D., Giannotti, F., & Barabási, A. L. (2015). Returners and explorers dichotomy in human mobility. Nature communications, 6, 8166.
+The Citizen Lab, The Many Identifiers in Our Pockets: A Primer on Mobile Privacy and Security (May 21, 2015).
+Dell Cameron, How to Track a Cellphone Without GPS—or Consent, Gizmodo (Dec. 8, 2017).
+Lily Hay Newman, Hundreds of Apps Can Listen for Marketing ‘Beacons’ You Can’t Hear, WIRED (May 2, 2017).
+FTC Act Section 5, 15 USC § 45 (review)
+FTC Complaint, In re Goldenshores Technologies, LLC (2013)
+Andrés Arrieta, EFF, iOS 11’s Misleading “Off-ish” Setting for Bluetooth and Wi-Fi is Bad for User Security (Oct. 4, 2017).
+Nithan Sannappa & Lorrie Cranor, Federal Trade Commission, A Deep Dive into Mobile App Location Privacy Following the InMobi Settlement (Aug. 9, 2016).
+Fuming Shih, Ilaria Liccardi, & Daniel J. Weitzner, Privacy Tipping Points in Smartphones Privacy Preferences (2015).
+Ryan Calo, The Boundaries of Privacy Harm, 86 Ind. L.J. 1131 (2011).
+Jim Edwards, These Maps Show that Android Is for Poor People, Business Insider (Apr. 3, 2014).
+James Vincent, 99.6 Percent of New Smartphones Run Android or iOS: While  BlackBerry’s Market Share Is a Rounding Error, The Verge (Feb. 16, 2017).
+The Guardian, BT drops plan to use Phorm targeted ad service after outcry over privacy (July 5, 2009).
+Office of the Privacy Commissioner of Canada, Review of the Internet traffic management practices of Internet service providers (February 2009)
+Robert McMillan, Verizon’s ‘Perma-Cookie’ Is a Privacy-Killing Machine, WIRED (Oct. 27, 2014).
+Upturn, What ISPs Can See (Mar. 2016).
+Statement of Paul Ohm Before the Subcommittee on Communications and Technology, Committee on Energy and Commerce, U.S. House of Representatives (June 14, 2016).
+Swire et al, Online Privacy and ISPs: ISP Access to Consumer Data is Limited and Often Less than Access by Others (February 26, 2016) [read Executive Summary and skim the rest at your option]
+Broadband for America
+Letter from Public Interest Organizations to FCC Commissioners re Protecting the Privacy of Customers of Broadband and Other Telecommunications Services (Oct. 20, 2016).
+50 million US homes have only one 25Mbps Internet provider or none at all, Ars Technica (June 30, 2017)
+In the Matter of Protecting the Privacy of Customers of Broadband and Other Telecommunications Services, WC Docket No. 16-106 (2016) 
+FCC, Fact Sheet on Broadband Consumer Privacy Rules (Oct. 27, 2016).
+Kimberly Kindy, How Congress Dismantled Federal Internet Privacy Rules, Wash. Post (May 30, 2017).
+Todd C. Frankel, Brian Fung & Hayley Tsukayama, Why Verizon Wants to Buy an Ailing Yahoo in $4.8B Deal, Wash. Post (July 25, 2016).
+Kashmir Hill & Surya Mattu, The House that Spied on Me, Gizmodo (Feb. 7, 2018).
+Testimony of Jon Leibowitz, Co-Chairman, 21st Century Privacy Coalition, “FCC Overreach: Examining the Proposed Privacy Rules,” before the House Energy & Commerce Subcommittee on Communications and Technology (June 14, 2016)
+Tobias A. Dorsey, The Work of the Legislative Drafter, 1-3, 4-9.
+M. Douglass Bellis, Deputy Legislative Counsel, U.S. House of Representatives, Statutory Structure and Legislative Drafting Conventions: A Primer for Judges (2008), 7-11
+American Legislative and Issue Campaign Exchange (ALICE), ALICE Model Law Drafting Manual (2013), 1-12.
+I.N.S. v. Lopez-Mendoza, 468 U.S. 1032 (1984), read pages 3480-3489.
+Russell Brandom, “Exclusive: ICE is About to Start Tracking License Plates Throughout the U.S.,” The Verge, January 26, 2018.
+Robert Snell, “Feds Use Anti-Terror Tool to Hunt the Undocumented,” The Detroit News, May 18, 2017.
+U.S. Immigration & Customs Enforcement, “Statement of Objectives” & “Background” for the Extreme Vetting Initiative, July 2017.
+Letter from 54 Technical Experts to Acting Secretary Elaine Duke, Department of Homeland Security, Opposing the Extreme Vetting Initiative, Nov. 17. 2017.
+Su Lin Blodgett & Brenan O’Connor, “Racial Disparity in Natural Language Processing: A Case Study of Social Media African-American English,” 2017 Workshop on Fairness, Accountability, and Transparency in Machine Learning (FAT/ML 2017), June 30, 2017.
+BBC, “In your face: China’s all-seeing state,” (Dec. 2017). 
+Alex Pasternack, “Police Body Cameras Will Do More Than Just Record You,” Fast Company, March 3, 2017.
+The Center on Privacy & Technology at Georgetown Law, The Perpetual Line-Up: Unregulated Police Face Recognition in America, October 2016.
+Upturn & The Leadership Conference on Civil and Human Rights, “The Illusion of Accuracy,” November 2017. Read 4-14.
+Kyllo V. United States. 533 U.S. 27 (2001)
+US v. Jones (2012) Does GPS tracking over a long period of time require a probable cause warrant? 
+Smith v. Maryland, 442 U.S 735 (1979).
+Joel R. Reidenberg, Privacy in Public, 69 U. of Miami L. Rev. 141 (2014)
+Chris Conley, ACLU of Northern California, Making Smart Decisions about Smart Cities (2017)
+Martinez-Balleste, Antoni, Pablo A. Pérez-Martínez, and Agusti Solanas. "The pursuit of citizens' privacy: a privacy-aware smart city is possible." IEEE Communications Magazine 51, no. 6 (2013): 136-141.
+Mulligan, Catherine EA, and Magnus Olsson. "Architectural implications of smart city business models: an evolutionary perspective." IEEE Communications Magazine 51, no. 6 (2013): 80-85.
+NYCLU, City Strengthens Public Wi-fi Privacy Policy After Nyclu Raises Concerns. (March 17, 2017)
+A venture capital view, Sidewalk Labs.
+IBM Cognitive Government, Smart Buildings and Smarter Cities

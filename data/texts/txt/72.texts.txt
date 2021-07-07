@@ -1,0 +1,135 @@
+Janet Abbate, Recoding Gender : Women’s Changing Participation in Computing
+Emily Chang, Brotopia
+R. W. Connell, Masculinities
+Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor
+Mar Hicks, Programmed Inequality 
+An Xiao Mina, Memes to Movements: How the World's Most Viral Media Is Changing Social Protest & Power (in press)
+Safiya Noble, Algorithms of Oppression
+Cathy O'Neil, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy
+Ellen Pao, Reset: My Fight for Inclusion and Lasting Change
+David N. Pellow and Lisa Sun-Hee Park, The Silicon Valley of Dreams Environmental Injustice, Immigrant Workers, and the High-Tech Global Economy
+Margot Lee Shetterly, Hidden Figures
+Sara Wachter-Boettcher, Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech
+Leslie Berlin, Troublemakers: Silicon Valley's Coming of Age
+Hal Abelson, Harry Lewis, and Ken Ledeen; Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion
+Michelle Alexander, The New Jim Crow: Mass Incarceration in the Age of Colorblindness
+Sheila Jasanoff, The Ethics of Invention: Technology and the Human Future
+Clyde Ford, Think Black: A Memoir
+Ruha Benjamin, Captivating Technology
+Sasha Costanza-Chock, Design Justice
+Morgan G. Ames, The Charisma Machine
+Christina Dunbar-Hester, Hacking Diversity
+Carol Gilligan, In a Different Voice, Ethics of care
+John Stuart Mill, Utilitarianism/consequentialism 
+Judith Butler, 3rd wave feminism
+Audre Lorde, "Age, race, class, and sex: women redefining difference"
+Immanuel Kant, “What is Enlightenment” 
+John Rawls, "Theory of Justice"
+D. Soyini Madison, Critical Ethnography: Method, Ethics, and Performance
+Martin Luther King Jr, “Letter from the Birmingham Jail”
+Malcom X, "The Ballot or the Bullet"
+Peggy McIntosh, "White Privilege: Unpacking the Invisible Knapsack" 
+Ijeoma Oluo, "So You Want to Talk About Race"
+Paulo Freire, Pedagogy of the Oppressed
+A.T. Wynn and S.J. Correll, "Puncturing the pipeline: Do technology companies alienate women in recruiting sessions?"
+Kathryn McKinley, 'What Happens to Us Does Not Happen to Most of You"
+Shireen Mitchell and Jon Pincus, "Diversity-friendly software at SXSW 2017"
+Julia Angwin et al., "Machine Bias"
+Steve Henn, “When women stopped coding”
+Adrienne LaFrance, “Why Do So Many Digital Assistants Have Feminine Names?”
+Voigt et al., “Language from police body camera footage shows racial disparities in officer respect”
+Elora Israni, “When an Algorithm Helps Send You to Prison”
+The Economist editorial staff, “The e-mail Larry Page should have written to James Damore”
+Cynthia Lee on the Google Memo
+Godwin, Potvin, Hazari, Lock “Identity, Critical Agency, and Engineering: An Affective Model for Predicting Engineering as a Career Choice”
+Tracy Chou, "“I had so many advantages, and I barely made it”: Pinterest engineer on Silicon Valley sexism"
+Ben Williams, "Debugging Code(Switching): My Experiences as a Black Computer Science Student at Stanford University"
+Alona King, "No, I Am Not Lost A Black woman’s experience in the Stanford Computer Science Major"
+Kaya Thomas, "What it’s Like to Be a Black Woman in Tech: A Q&A with Kaya Thomas"
+Kaya Thomas, "Invisible Talent" (responding to Georgia Wells "Facebook Blames Lack of Available Talent for Diversity Problem" in WSJ)
+Erin Biba, "What It’s Like When Elon Musk’s Twitter Mob Comes After You"
+Peter Balonon-Rosen and Lizzie O'Leary, "How women landed the invisible work of social media labor"
+Sepehr Vakil, "Ethics, Identity, and Political Vision Toward a Justice-Centered Approach to Equity in Computer Science Education"
+Sasha Costanza-Chock, "Design Justice: Towards an Intersectional Feminist Framework for Design Theory and Practice"
+Jessica Guynn, "Silicon Valley's race gap is getting worse, not better, new research shows"
+Susan Sibley “Why Do So Many Women Who Study Engineering Leave the Field?”
+Noam Cohen, "We're All Nerds Now"
+Betsy DiSalvo et al. "African American Males Constructing Computing Identity"
+Betsy DisSalvo "Gaming Masculinity: Constructing Masculinity with Video Games"
+Kristin A. Searle and Yasmin B. Kafai, "Boys' Needlework: Understanding Gendered and Indigenous Perspectives on Computing and Crafting with Electronic Textiles"
+Fred Turner (interview), "Don't Be Evil: Fred Turner on Utopias, Frontiers, and Brogrammers"
+Jonathan McIntosh, "Playing with Privilege: the invisible benefits of gaming while male"
+Adewole S. Adamson and Avery Smith, "Machine Learning and Health Care Disparities in Dermatology"
+Richard F. Martell, David M. Lane, and Cynthia Emrich, "Male-Female Differences: A Computer Simulation"
+Ian Gent, "The Petrie Multiplier: Why an Attack on Sexism in Tech is NOT an Attack on Men"
+Michael Feldman et al., "Certifying and removing disparate impact"
+Sorelle A. Friedler et al., "A comparative study of fairness-enhancing interventions in machine learning"
+Danielle Ensign et al., "Decision making with limited feedback"
+Sorelle A. Friedler et al, "On the (im)possibility of fairness"
+Moritz Hardt, "How Big Data is Unfair"
+Dale Beran, "Gamergate: Anon Defends his Safe Spaces" (Part 4 of "4chan: The Skeleton Key to the Rise of Trump")
+Allison Master and Andrew N. Meltzoff, "Building bridges between psychological science and education: Cultural stereotypes, STEM, and equity"
+Universal principles of data ethics: 12 guidelines for developing ethics codes 
+Linda Yang, "Fighting Silicon Valley Sexism as a Queer Woman" interview of Leanne Pittsford
+Chas Danner, "More Than Half of Russian Facebook Ads Focused on Race"
+Gillian B. White, "When Algorithms Don’t Account for Civil Rights"
+S. Cheryan et al. "Ambient belonging: How stereotypical cues impact gender participation in computer science."
+Daisuke Wakabayashi "Meet the People Who Train the Robots (to Do Their Own Jobs)"
+Dave Lee, "Why Big Tech pays poor Kenyans to teach self-driving cars"
+Kate Losse, "The Male Gazed: Surveillance, Power, and Gender"
+Lisa Nakamura, "Indigenous Circuits: Navajo Women and the Racialization of Early Electronic Manufacture"
+Paxton Scott, "Startup vulnerability leaves queer student data exposed"
+Edward Ongweso Jr, "‘Significant Racial Bias’ Found in National Healthcare Algorithm Affecting Millions of People"
+Algorithm bias: Amazon scraps sexist AI resume analyzer
+Melisha Dsouza, "NIPS Foundation decides against name change as poll finds it an unpopular superficial move; instead increases ‘focus on diversity and inclusivity initiatives’"
+Jake Swearingen, "Unable to Avoid Bias, Gmail Stops Using Gender in Its Automated Replies"
+AI Now Institution 2019 Report (multiple authors)
+Penelope Phippen, "Changing your name is a hard unsolved problem in Computer Science"
+Michelle Goldberg, "Techlash Hits College Campuses"
+Lauren Alfrey and France Winddance Twine, "Gender-Fluid Geek Girls: Negotiating Inequality Regimes in the Tech Industry"
+Adrienne Shaw, "Do you identify as a gamer? Gender, race, sexuality, and gamer identity"
+Kate Conger and Noam Scheiber, "The Great Google Revolt"
+Nathan Ensmenger. “Beards, Sandals, and Other Signs of Rugged Individualism: Masculine Culture within the Computing Professions." 
+June Park John, "The case of computer science education, employment, gender, and race/ethnicity in Silicon Valley, 1980–2015"
+Roli Varma
+Sarah-Jane Leslie et al. "Expectations of brilliance underlie gender distributions across academic disciplines"
+Joseph Cimpian, "Math-intensive fields have a gender problem: The men are worse at math"
+Jessica Guynn, "Facebook diversity report: Efforts still failing Black and Hispanic employees, especially women"
+Mar Hicks, "When Winning is Losing: Why the Nation that Invented the Computer Lost its Edge"
+Mar Hicks, "Built to Last"
+Sarah Blaskey et al., "How the Trump campaign used big data to deter Miami-Dade’s Black communities from voting"
+Dave Gershgorn, "Stanford’s new AI institute is inadvertently showcasing one of tech’s biggest problems"
+Amy Ko, Deconstructing CS Culture – 2021 IEEE RESPECT Keynote
+Anthony D. Mays, "How I Went From Compton to Google" (Produced by Ryann Graham, Jessica Massa)
+Hailey Knox, "Geeks" 
+Jonathan McIntosh, "The Adorkable Misogyny of The Big Bang Theory"
+Jonathan McIntosh, "The Complicity of Geek Masculinity on the Big Bang Theory"
+Jonathan McIntosh, "The Face of Gaming: 40 Male Protagonists Featured at E3 2014"
+Vi Hart and Nicky Case, "Parable of the Polygons"
+Adam Conover, "The Disturbing History of the Suburbs"
+Karen Ashcraft, "The Glass Slipper"
+Joy Buolamwini, "AI, Ain't I a Woman?" (spoken word)
+Audrey Carlsen and Fahima Haque, "What Does Facebook Consider Hate Speech? Take Our Quiz"
+André L. Brock, "“My Constellation is Space”: Towards a Theory of Black Cyberculture"
+Nancy Douyon, interview about life in Silicon Valley
+Ruha Bejnamin, "Are Robots Racist?"
+Amira Virgil (interview by AJ+), "Black Representation in The Sims"
+Shireen Mitchell, anti-online harassment research and advocacy
+Cynthia Lee, "What can I do today to create a more inclusive community in CS?" 
+Joy Rankin, Queens of Code
+Code 2040
+National Center for Women in Information Technology
+Anita Borg
+Coraline Ada Ehmke, The Contributor Covenant
+Google's training module on machine learning bias and fairness
+Lea Coligado, Women of Silicon Valley
+Latinas in STEM
+AfroTech
+ACM Code of Ethics
+Coraline Ada Ehmke "The Post-Meritocracy Manifesto"
+Project Include
+Black Girls Code
+Latinx in Tech (Kapor Center)
+Kapor Center
+Lesbians Who Tech
+#ShutDownSTEM anti-racism in academia reading list

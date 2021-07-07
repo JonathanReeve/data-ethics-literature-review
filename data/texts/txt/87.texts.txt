@@ -1,0 +1,27 @@
+Daniel J. Solove, A Taxonomy of Privacy, 154(3) U. Penn. L. Rev. 477 (2006).
+Paul N. Otto and Annie I. Antón, Addressing Legal Requirements in Requirements Engineering, 15th IEEE International Requirements Engineering Conference (RE 2007), Delhi, 2007, pp. 5-14
+Ann Cavoukian, 7 Foundational Principles of Privacy by DesignPreview the documentView in a new window (2012).
+Sarah Spiekermann and Lorrie Faith Cranor, Engineering Privacy 35(1) IEEE Transactions on Software Engineering (Jan/Feb 2009)
+Ira Rubinstein & Nathan Good, Privacy by Design: A Counterfactual Analysis of Google and Facebook Privacy Incidents (Links to an external site.), 28 Berkeley Technology Law Journal 1333 (2013). 
+Charles Doyle, Cybercrime: An Overview of the Federal Computer Fraud and Abuse Statute and Related Federal Criminal Laws, CRS Report, Oct. 2014, pages: summary, 1–2, 14–25.
+Cybersecurity Act of 2015, sections 101–104, 106.
+Josephine Wolff, When Companies Get Hacked, Should They Be Allowed to Hack Back?  The Atlantic, July 14, 2017.
+Dave Dittrich, Thoughts on the Active Cyber Defense Certainty Act 2.0, Medium, Jun. 15, 2017
+Federal Trade Commission Privacy Law and Policy
+FTC Enforcement Policy Statement on Deceptively Formatted Advertisements
+Guides Concerning the Use of Endorsements and Testimonials in Advertising, 16 CFR 255.
+Internet of Things: Privacy & Security in a Connected World (2015).
+California Office of Privacy Protection, Recommended Practices on Notice of Security Breach Involving Personal InformationPreview the documentView in a new window (2012).
+PerkinsCoie, Security Breach Notification Chart (June 2016).
+Georg Disterer, ISO/IEC 27000, 27001 and 27002 for Information Security Management, 4(2) Journal of Information Security (2003).
+NIST 800-53 (Rev 4), https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf.
+PCI-DSS (Ver. 3.2), https://bcourses.berkeley.edu/courses/1454098/files/69459414/download?wrap=1
+NIST Cybersecurity Framework, https://bcourses.berkeley.edu/courses/1454098/files/69459416/download?wrap=1
+Federal Trade Commission Privacy Law and Policy, Chapter 7 (193–215).
+From Rumor to Written Record: Credit Reporting and the Invention of Financial Identity in Nineteenth-Century America, Technology & Culture 49, no. 2 (2008): 301-324.
+Orin Kerr's A User's Guide to the Stored Communications Act, and a Legislator's Guide to Amending it  download, 72 George Washington Law Review 1208 (2004), pages 1208–1233.
+In the Matter of the Application of the UNITED STATES FOR AN ORDER AUTHORIZING THE ROVING INTERCEPTION OF ORAL COMMUNICATIONS
+The Company, Appellant, v. UNITED STATES of America, Appellee, No. 02-15635, 349 F.3d 1132 (9th Cir. Nov. 18, 2003)
+FTC Privacy Law & Policy
+Bird & Bird, Guide to the GDPR (May 2017).
+Department of Commerce, Overview of the EU-U.S. Privacy Shield Framework, Feb. 29, 2016. 
