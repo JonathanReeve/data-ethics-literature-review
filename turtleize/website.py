@@ -6,7 +6,8 @@ to quasi-manually code it.
 from flask import Flask
 
 import dominate
-from dominate.tags import html, head, header, div, section, link, meta, body, h2, span, li, ul, script, a
+from dominate.tags import html, head, header, div, section, link, meta, body, h2, span, li, ul, script, a, base
+from dominate.util import raw
 from rdflib.namespace import DC, DCTERMS, FOAF, RDF, OWL
 from rdflib import Graph
 from rdflib import URIRef, BNode, Literal
@@ -20,7 +21,35 @@ from pyvis.network import Network
 g = rdflib.Graph()
 g.load('../data/coursesAndTexts.ttl', format="ttl")
 
-def getCourseText():
+WEBSITE_LOCATION = "../website"
+
+visOptions = {"configure": {"enabled": False},
+                "edges": {"color": {"inherit": True},
+                        "smooth": {"enabled": False, "type": "continuous"}
+                        },
+                "interaction": {"dragNodes": True, "hideEdgesOnDrag": False, "hideNodesOnDrag": False},
+                "physics": {"enabled": True, "stabilization": {
+                    "enabled": True,
+                    "fit": True,
+                    "iterations": 1000,
+                    "onlyDynamicEdges": False,
+                    "updateInterval": 50}}}
+
+
+def makeGraph(results):
+    """ Convert results of SPARQL query to a NetworkX graph. """
+    net = Network(height='750px', width='100%')
+
+    for subj, verb, obj in results:
+        net.add_node(subj, shape='square', title=str(subj))
+        net.add_node(verb, shape='circle',
+                     label=str(obj),
+                     title=str(verb))
+        net.add_edge(subj, verb, title="hasCourse")
+    return net
+
+
+def getCourseTextGraph():
     """
     Make a pyvis network for our graph.
     """
@@ -33,22 +62,12 @@ def getCourseText():
             ?doc dcterms:title ?textTitle .
             ?doc dcterms:creator ?author .
             ?author foaf:surname ?authorLast .
-        } limit 150""")
+        } limit 400""")
 
-    for line in coursesAndTexts:
-        print(line)
+    # for line in coursesAndTexts:
+    #     print(line)
 
-    net = Network(height='750px', width='100%')
-
-    for courseName, textTitle, authorLast in coursesAndTexts:
-        net.add_node(courseName, shape='square', title=str(courseName))
-        net.add_node(textTitle, shape='circle',
-                     label=str(authorLast),
-                     title=str(textTitle))
-        net.add_edge(courseName, textTitle, title="hasLM")
-
-    return net
-
+    return makeGraph(net)
 
 
 def formatVisData(net):
@@ -57,17 +76,39 @@ def formatVisData(net):
     """
     nodesJson = json.dumps(net.nodes)
     edgesJson = json.dumps(net.edges)
+    options = json.dumps(visOptions)
 
     return f"""
     nodes = new vis.DataSet({nodesJson})
     edges = new vis.DataSet({edgesJson})
     data = {{nodes: nodes, edges: edges}};
+    options = {options}
+    container = document.getElementById('mynetwork');
+    """ + """
+    network = new vis.Network(container, data, options);
+
+    network.on("stabilizationProgress", function(params) {
+        document.getElementById('loadingBar').removeAttribute("style");
+        var maxWidth = 496;
+        var minWidth = 20;
+        var widthFactor = params.iterations/params.total;
+        var width = Math.max(minWidth,maxWidth * widthFactor);
+
+        document.getElementById('bar').style.width = width + 'px';
+        document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+    });
+    network.once("stabilizationIterationsDone", function() {
+        document.getElementById('text').innerHTML = '100%';
+        document.getElementById('bar').style.width = '496px';
+        document.getElementById('loadingBar').style.opacity = 0;
+        // really clean the dom element
+        setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+    });
     """
 
-
-def uniCourseContent():
+def getUniCourseGraph():
     """
-    Make a list of universities and their courses.
+    Get university-course graph.
     """
     results = g.query("""
         select distinct ?courseName ?instructorFN ?instructorGN ?university where {
@@ -81,10 +122,18 @@ def uniCourseContent():
             ?uni ccso:legalName ?university .
         }""")
 
+    return makeGraph(results)
+
+def uniCourseList():
+    """
+    Make a list of universities and their courses.
+    """
+    uniCourseGraph = getUniCourseGraph()
+
     # Build up a dictionary with universities as keys,
     # and courses as a list of values
     byUniversity = {}
-    for line in results:
+    for line in uniCourseGraph:
         # print(line)
         courseName, instFN, instGN, university = line
         if university in byUniversity:
@@ -104,83 +153,90 @@ def uniCourseContent():
                         span(", "),
                         span(name, cls="instName"),
                         cls="course"))
-    return uniList
+    return h2("Courses by University"), uniList
 
-
-def head_(jsData=""):
-    """ The HTML <head> contents. Inserts the jsData. """
-    # framework = "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
-    framework = "https://unpkg.com/spectre.css/dist/spectre.min.css"
-    return (meta(charset='UTF-8'),
-            meta(name='viewport',
-                 content='width=device-width',
-                 initialScale=1.0),
-            link(href=framework,
-                 rel="stylesheet",
-                 type="text/css"),
-            link(rel="stylesheet",
-                 href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css",
-                 type="text/css"),
-            script(type="text/javascript",
-                   src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"),
-            script(jsData))
-
-
-def body_(contents):
-    """ The HTML <body> contents """
-    return div(div(div(topNav(),
-                       h2("Courses by University"),
-                       contents,
-                       class_="column col-12"),
-                   class_="columns"),
-               class_="container", style="width: 55em; margin: 0 auto;")
-
-
-def topNav():
-    """ The top navigation area of the webpage. """
-
-    def navbarItem(cont, targ):
-        """ An individual navigation item"""
-        return a(cont, href=targ, _class="btn btn-link")
-
-    out = header(section(a("Data Ethics", href="/", class_="navbar-brand"),
-                         # Generate navbar items from site map
-                         *[navbarItem(label, f"{route}.html") for label, route in siteMap.items()],
-                         _class="navbar-section"),
-                 _class="navbar")
-    return out
-
-
-courseListHtml = courseList(uniCourseList())
+def uniCourseContent():
+    """
+    Make a list of universities and their courses.
+    """
+    container = div(id="mynetwork")
+    loadingBar = div(div(div("0%", id="text"), div(div(id="bar"), id="border"), _class="outerBorder"), id="loadingBar")
+    return (container, loadingBar, uniCourseList())
 
 siteMap = {"About": "about",
            "Uni-Course": "uniCourse",
-           "Course-Text":  "courseText",
+           "Course-Text": "courseText",
            "Text-Text": "textText"}
 
+class WebPage():
+    """ An object to make web pages, given names, slugs, and content."""
+    def __init__(self, name, slug, content, scriptData, siteMap=siteMap):
+        self.name = name
+        self.slug = slug
+        self.content = content
+        self.siteMap = siteMap
+        self.scriptData = scriptData
+        self.makePage(label=name, slug=slug, content=content, scriptData=scriptData)
+
+    def head_(self, jsData=""):
+        """ The HTML <head> contents. Inserts the jsData. """
+        framework = "https://unpkg.com/spectre.css/dist/spectre.min.css"
+        visCSS = "https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css"
+
+        def css(href):
+            return link(rel="stylesheet", href=href, type="text/css")
+
+        stylesheets = [framework, visCSS, "/style.css"]
+
+        return (meta(charset='UTF-8'),
+                meta(name='viewport',
+                     content='width=device-width',
+                     initialScale=1.0),
+                base(href="/"),
+                *[css(url) for url in stylesheets],
+                script(type="text/javascript",
+                       src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"))
+
+    def navbarItem(self, name, slug):
+        """ An individual navigation item for the top nav."""
+        slugFormatted = f"/{slug}/"
+        buttonClass = "btn btn-link"
+        if slug == self.slug:
+            buttonClass += " active"
+        return a(name, href=slugFormatted, _class=buttonClass)
+
+    def topNav(self):
+        """ The top navigation area of the webpage. """
+        out = header(section(a("Data Ethics", href="/", _class="navbar-brand"),
+                             # Generate navbar items from site map
+                             *[self.navbarItem(name, slug)
+                               for name, slug in self.siteMap.items()],
+                             _class="navbar-section"),
+                    _class="navbar")
+        return out
+
+    def body_(self, contents, scriptData=""):
+        """ The HTML <body> contents """
+        return (div(self.topNav(),
+                   div(div(contents,
+                           _class="column col-12"),
+                       _class="columns"),
+                   _class="container", style="width: 55em; margin: 0 auto;"),
+                script(raw(scriptData)))
+
+    def makePage(self, label, slug, content, scriptData=""):
+        doc = dominate.document(title=f"Data Ethics: {label}")
+        doc.head.add(self.head_())
+        doc.body.add(self.body_(content, scriptData))
+        fn = f"{WEBSITE_LOCATION}/{slug}/index.html"
+        rendered = doc.render()
+        with open(fn, 'w') as outfile:
+            outfile.write(rendered)
+            logging.info(f"Wrote to {fn}")
 
 
-def makePage(label, route, js="", content):
-    doc = dominate.document(title=f"Data Ethics: {label}")
-    doc.head = head_(js)
-    doc.body = body_(content)
-    with open(fn, 'w') as outfile:
-        outfile.write(rendered)
-        logging.info(f"Wrote to {fn}")
 
+print(type(uniCourseContent()))
 
-for label, route in siteMap.items():
-    makePage(label, route)
-
-
-doc = dominate.document(title="Data Ethics")
-
-visData = formatVisualization(getCourseText())
-
-for tag in head_(visData):
-    doc.head.add(tag)
-
-doc.body.add(body_(courseListHtml))
-
-rendered = doc.render()
-
+uniCourse = WebPage("Uni-Course", "uniCourse", uniCourseContent(), formatVisData(getUniCourseGraph()))
+uniCourse = WebPage("Course-Text", "courseText", courseTextContent(), formatVisData(getCourseText()))

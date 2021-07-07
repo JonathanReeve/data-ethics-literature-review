@@ -17,6 +17,7 @@ import sys
 import requests
 import logging
 import json
+from nltk.metrics.distance import edit_distance
 
 
 # @click.command()
@@ -31,6 +32,8 @@ def queryCrossRef(title, author=None):
     Let's look up data from CrossRef. Here's the form we'll create,
     from their documentation here: https://github.com/CrossRef/rest-api-doc#resource-components
     https://api.crossref.org/works?query.author=richard+feynman
+
+    Returns a list of possible candidates.
     """
     logging.info(f"Querying {title} by {author}")
     url = "https://api.crossref.org/works"
@@ -42,13 +45,13 @@ def queryCrossRef(title, author=None):
         decoded = json.loads(resp.text)
         if 'message' in decoded:
             if 'items' in decoded['message']:
-                print(decoded['message']['items'][0])
+                return decoded['message']['items']
             else:
                 logging.error("Can't find items.")
         else:
             logging.error("Can't find the message.")
     else:
-        logging.error("Response not ok. Response: {resp}")
+        logging.error(f"Response not ok. Response: {resp}")
 
 
 def main():
@@ -96,7 +99,15 @@ def main():
             resultsDict[itemID] = (title, author)
     for itemID, titleAuthor in resultsDict.items():
         title, author = titleAuthor
-        queryCrossRef(title, author)
+        candidates = queryCrossRef(title, author)
+        logging.info(f"Title: {title}")
+        # Compute Levenshtein (edit) distance of titles to find the best match.
+        if candidates is not None:
+            for i, candidate in enumerate(candidates):
+                candidateTitle = candidate['title']
+                logging.info(f"Candidate {i}: {candidateTitle}")
+                distance = edit_distance(title, candidateTitle)
+                logging.info(f"Distance: {distance}")
 
 
 if __name__ == "__main__":

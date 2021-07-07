@@ -197,6 +197,7 @@ with import (builtins.fetchGit {
         pytest
         docx2txt
         flask
+        nltk
 	    ];
     };
     in 
