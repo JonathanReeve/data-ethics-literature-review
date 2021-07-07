@@ -1,0 +1,53 @@
+Tony Fry, Clive Dilnot, Susan Stewart, Design & The Question of History, pp 1–7, 163–173
+Peter Sloterdijk, In the World Interior of Capital, pp 3–14
+Viktor Papanek, Design for the Real World, read chapter “Conspicuous Consumptives: Design & The Environment” 
+Victor Margolin, The Politics of the Artificial
+Winograd & Flores, Understanding Computers & Cognition, Pgs 14–37
+Paul Dourish, Where the Action Is, Pgs 189–209
+Being In The World Documentary
+Peter Paul Verbeek, What Things Do, Pgs 47–145
+Don Norman, Affordances & Design
+Principles of Interaction Design Derived From Heidegger
+Hubert Dreyfus on Artificial Intelligence & Heidegger
+Alistair Fuad-Luke, Slow Design Theory
+Cameron Tonkinwise, Exhibiting Animism
+Elaine Scarry, The Body in Pain, Pgs 278–326
+Peter Paul Verbeek, What Things Do, Pgs 147–199
+Thomas Tierney, The Value of Convenience, pp 15–49
+Verbeek & Kockelkoren, The Things That Matter
+Pelle Ehn, Work-oriented Design of Computer Artifacts, pp 96–101
+Aftenposten, Sweatshop, Season 1, ep 1–5
+Ellen Lupton, The Designer as Producer
+William Morris, Art & Labor
+John Heskett & Clive Dilnot, Design From the Standpoint of Economics\Economics From the Standpoint of Design
+Clive Dilnot, The Gift
+Allan Stoekl, Gift, Design & Gleaning
+Bataille, The Accursed Share Vol I, read “The Theoretical Introduction”, pp 19–47
+Tony Fry, Returning: Sacred Design III
+Elaine Scarry, “On Beauty & Being Just”
+https://medium.com/advanced-interaction-service-design-concepts/mini-workshop-doing-with-theory-2fd3fac5c40b
+Jonathan Goodman, statistics and public understanding. https://aeon.co/ideas/how-statistics-are-twisted-to-obscure-public-understanding
+Courtney Martin, other people’s problems. https://thedevelopmentset.com/the-reductive-seduction-of-other-people-s-problems-3c07b307732d
+Laura Forlano, posthumanism and design. http://www.sciencedirect.com/science/article/pii/S2405872616300971/pdfft?md5=30716eb178dfaf09d5717acbee37da06&pid=1-s2.0-S2405872616300971-main.pdf
+Joe Lindley, Paul Coulton and Rachel Cooper, the Internet of Things and object-oriented ontology. http://eprints.lancs.ac.uk/85080/1/OOO_Full_paper.pdf
+George Aye, how power is dealt with in design education. https://medium.com/greater-good-studio/design-educations-big-gap-understanding-the-role-of-power-1ee1756b7f08
+Rachel Coldicutt, women and futures. https://medium.com/doteveryone/can-women-dream-of-different-futures-b82528ad96c0
+David Benque, machines and prediction. https://medium.com/@davidbenque/counting-the-future-8f593b826a13
+Josh Clark, design and algorithms. https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html
+Rob Speer, stereotypes in machine learning. https://blog.conceptnet.io/2017/04/24/conceptnet-numberbatch-17-04-better-less-stereotyped-word-vectors/
+Aleks Krotoski, haunted smart homes. http://www.bbc.com/future/story/20161027-how-smart-homes-have-become-the-haunted-houses-of-today
+Jean Jackson, fieldnotes. http://faculty.washington.edu/stevehar/Fieldnote.pdf
+Audrey Watters, educational technology. http://hackeducation.com/2017/07/08/what-went-wrong
+Julie Beck, life stories. https://www.theatlantic.com/health/archive/2015/08/life-stories-narrative-psychology-redemption-mental-health/400796/
+James Clear, productivity. https://jamesclear.com/eisenhower-box
+Jason Mesut, design leadership. https://medium.com/@jasonmesut/8-reasons-to-become-a-design-leader-7e55b2986ba1 and https://medium.com/@jasonmesut/design-is-hard-design-leadership-is-harder-bdbfd14e35ce
+Mike Monteiro / Claire Blaustein, design ethics. https://dc.aiga.org/mike-monteiro-youre-waiting-someone-else-right-thing-youre-wrong/
+Donella Meadows, Thinking in Systems
+Jeff Sussna, Designing Delivery
+Hugh Dubberly & Paul Pangaro, ‘Cybernetics and Design: Conversations for Action’.
+The Thing from the Future. http://situationlab.org/project/the-thing-from-the-future/
+Cambridge Inclusive Design Toolkit
+Exclusion Calculator and Impairment Simulator
+BBC’s The Big Life Fix (episodes, 1 and 2) — projects by Ross Atkin, Haiyan Zhang, and Ruby Steel. 
+Looking at biases in interface design (Sara Wachter-Boettcher).
+Inclusive: A Microsoft Design toolkit.

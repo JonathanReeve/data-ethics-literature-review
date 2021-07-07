@@ -1,0 +1,91 @@
+Boyd and Crawford, “Critical Questions for Big Data”
+Zarsky, “The Trouble with Algorithmic Decisions”
+O'Neil, Weapons of Math Destruction
+Pasquale, The Black Box Society
+The White House Office of Science and Technology Policy, Big Data: A Report on Algorithmic Systems, Opportunity, and Civil Rights
+Gitelman and Jackson, Raw Data is an Oxymoron
+Agre, “Surveillance and Capture: Two Models of Privacy”
+Bowker and Star, Sorting Things Out
+Auerbach, “The Stupidity of Computers”
+Moor, “What is Computer Ethics?”
+Hand, “Deconstructing Statistical Questions”
+O’Neil, On Being a Data Skeptic
+Domingos, “A Few Useful Things to Know About Machine Learning”
+Luca, Kleinberg, and Mullainathan, “Algorithms Need Managers, Too”
+Friedman and Nissenbaum, “Bias in Computer Systems”
+Lerman, “Big Data and Its Exclusions”
+Hand, “Classifier Technology and the Illusion of Progress”
+Pager and Shepherd, “The Sociology of Discrimination: Racial Discrimination in Employment, Housing, Credit, and Consumer Markets”
+Goodman, “Economic Models of (Algorithmic) Discrimination”
+Hardt, “How Big Data Is Unfair”
+Barocas and Selbst, “Big Data’s Disparate Impact”
+Gandy, “It’s Discrimination, Stupid”
+Dwork and Mulligan, “It’s Not Privacy, and It's Not Fair”
+Sandvig, Hamilton, Karahalios, and Langbort, “Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms”
+Diakopoulos, “Algorithmic Accountability: Journalistic Investigation of Computational Power Structures”
+Lavergne and Mullainathan, “Are Emily and Greg more Employable than Lakisha and Jamal?”
+Sweeney, “Discrimination in Online Ad Delivery”
+Datta, Tschantz, and Datta, “Automated Experiments on Ad Privacy Settings”
+Dwork, Hardt, Pitassi, Reingold, and Zemel, “Fairness Through Awareness”
+Feldman, Friedler, Moeller, Scheidegger, and Venkatasubramanian, “Certifying and Removing Disparate Impact”
+Žliobaitė and Custers, “Using Sensitive Personal Data May Be Necessary for Avoiding Discrimination in Data-Driven Decision Models”
+Angwin, Larson, Mattu, and Kirchner, “Machine Bias”
+Kleinberg, Mullainathan, and Raghavan, “Inherent Trade-Offs in the Fair Determination of Risk Scores”
+Northpointe, COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity
+Chouldechova, “Fair Prediction with Disparate Impact”
+Berk, Heidari, Jabbari, Kearns, and Roth, “Fairness in Criminal Justice Risk Assessments: The State of the Art”
+Hardt, Price, and Srebro, “Equality of Opportunity in Supervised Learning”
+Wattenberg, Viégas, and Hardt, “Attacking Discrimination with Smarter Machine Learning”
+Friedler, Scheidegger, and Venkatasubramanian, “On the (Im)possibility of Fairness”
+Tene and Polonetsky, “Taming the Golem: Challenges of Ethical Algorithmic Decision Making”
+Lum and Isaac, “To Predict and Serve?”
+Joseph, Kearns, Morgenstern, and Roth, “Fairness in Learning: Classic and Contextual Bandits”
+Barocas, “Data Mining and the Discourse on Discrimination”
+Grgić-Hlača, Zafar, Gummadi, and Weller, “The Case for Process Fairness in Learning: Feature Selection for Fair Decision Making”
+Vedder, “KDD: The Challenge to Individualism”
+Lippert-Rasmussen, “‘We Are All Different’: Statistical Discrimination and the Right to Be Treated as an Individual”
+Schauer, Profiles, Probabilities, And Stereotypes
+Caliskan, Bryson, and Narayanan, “Semantics Derived Automatically from Language Corpora Contain Human-like Biases”
+Zhao, Wang, Yatskar, Ordonez, and Chang, “Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints”
+Bolukbasi, Chang, Zou, Saligrama, and Kalai, “Man Is to Computer Programmer as Woman Is to Homemaker?”
+Citron and Pasquale, “The Scored Society: Due Process for Automated Predictions”
+Ananny and Crawford, “Seeing without Knowing”
+de Vries, “Privacy, Due Process and the Computational Turn”
+Zarsky, “Transparent Predictions”
+Crawford and Schultz, “Big Data and Due Process”
+Kroll, Huey, Barocas, Felten, Reidenberg, Robinson, and Yu, “Accountable Algorithms”
+Bornstein, “Is Artificial Intelligence Permanently Inscrutable?”
+Burrell, “How the Machine 'Thinks'”
+Lipton, “The Mythos of Model Interpretability”
+Doshi-Velez and Kim, “Towards a Rigorous Science of Interpretable Machine Learning”
+Hall, Phan, and Ambati, “Ideas on Interpreting Machine Learning”
+Grimmelmann and Westreich, “Incomprehensible Discrimination”
+Selbst and Barocas, “Regulating Inscrutable Systems”
+Jones, “The Right to a Human in the Loop”
+Edwards and Veale, “Slave to the Algorithm? Why a ‘Right to Explanation’ is Probably Not the Remedy You are Looking for”
+Robinson and Yu, Knowing the Score
+Hurley and Adebayo, “Credit Scoring in the Era of Big Data”
+Duhigg, “How Companies Learn Your Secrets”
+Kosinski, Stillwell, and Graepel, “Private Traits and Attributes Are Predictable from Digital Records of Human Behavior”
+Barocas and Nissenbaum, “Big Data's End Run around Procedural Privacy Protections”
+Chen, Fraiberger, Moakler, and Provost, “Enhancing Transparency and Control when Drawing Data-Driven Inferences about Individuals”
+Valentino-Devries, Singer-Vine, and Soltani, “Websites Vary Prices, Deals Based on Users' Information”
+The Council of Economic Advisers, Big Data and Differential Pricing
+Hannak, Soeller, Lazer, Mislove, and Wilson, “Measuring Price Discrimination and Steering on E-commerce Web Sites”
+Kochelek, “Data Mining and Antitrust”
+Helveston, “Consumer Protection in the Age of Big Data”
+Kolata, “New Gene Tests Pose a Threat to Insurers”
+Swedloff, “Risk Classification's Big Data (R)evolution”
+Cooper, “Separation, Pooling, and Big Data”
+Simon, “The Ideological Effects of Actuarial Practices”
+Tufekci, “Engineering the Public”
+Calo, “Digital Market Manipulation”
+Kaptein and Eckles, “Selecting Effective Means to Any End”
+Pariser, “Beware Online ‘Filter Bubbles’”
+Gillespie, “The Relevance of Algorithms”
+Buolamwini, “Algorithms Aren’t Racist. Your Skin Is just too Dark”
+Hassein, “Against Black Inclusion in Facial Recognition”
+Agüera y Arcas, Mitchell, and Todorov, “Physiognomy’s New Clothes”
+Garvie, Bedoya, and Frankle, The Perpetual Line-Up
+Wu and Zhang, “Automated Inference on Criminality using Face Images”
+Haggerty, “Methodology as a Knife Fight”

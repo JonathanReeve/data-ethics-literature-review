@@ -1,0 +1,12 @@
+ACM Code of Ethics, https://www.acm.org/code-of-ethics
+One Nation, Tracked; https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html
+Facebook and Teens, https://www.vox.com/the-goods/2019/1/30/18203803/facebook-research-vpn-minors-data-access-apple
+Genealogy Databases, https://www.theatlantic.com/science/archive/2018/04/golden-state-killer-east-area-rapist-dna-genealogy/559070/
+Social Media and the Brain, https://www.nytimes.com/2019/12/05/opinion/digital-technology-brain.html
+Humane Technology, https://humanetech.com/problem/
+Algorithmic Amplification, https://techcrunch.com/2019/10/20/facebook-isnt-free-speech-its-algorithmic-amplification-optimized-for-outrage/
+Are Social Media Companies Media Companies? https://firstmonday.org/ojs/index.php/fm/article/view/7051/6124
+Social media and civil unrest, https://socialethical.cs.unm.edu/index.php/2020/03/09/social-media-and-civil-unrest/
+Location Data and COVID-19, https://socialethical.cs.unm.edu/index.php/2020/03/30/location-data-covid-19/
+Tracking COVID-19 with IoT devices, https://socialethical.cs.unm.edu/index.php/2020/03/30/covid-19-and-iot/
+Algorithmic Bias, https://socialethical.cs.unm.edu/index.php/2020/03/30/algorithmic-bias/

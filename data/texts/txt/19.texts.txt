@@ -1,0 +1,356 @@
+Peter G. Neumann. Inside Risks 128: What to know about risks. Communications of the ACM, 44(2), February 2001.
+Peter G. Neumann and David L. Parnas. Inside Risks 129: Computers: Boon or bane? Communications of the ACM, 44(3), March 2001.
+Paul Berg, David Baltimore, Sydney Brenner, Richard O. Roblin, and Maxine F. Singer. Summary statement of the Asilomar Conference on Recombinant DNA Molecules. 72(6):1981–1984, June 1975.
+Philip M. Boffey. Software seen as obstacle in developing `Star Wars'. New York Times, September 16, 1986.
+Alex Wellerstein. A “purely military” target? Truman's changing language about Hiroshima. Restricted Data, January 19th, 2018.
+U.S. Public Health Service Syphilis Study at Tuskegee", Center for Disease Control.
+Institutional Review Board Guidebook, Introduction, Office of Human Subjects Research, Department of Health and Human Services.
+Patent GB630726, "Improvements in or relating to the transmutation of chemical elements", March 30, 1936.
+David L. Parnas. Software aspects of strategic defense systems. Communications of the ACM, 28(12), December 1985.
+Stanley Fish. Why we built the ivory tower. New York Times, May 21, 2004.
+Debbie Elliot. Challenger: What went wrong? NPR, January 28, 2006.
+Kim Zetter. A unprecedented look at Stuxnet, the world's first digital weapon. Wired, November 3, 2014.
+Phillip Rogaway. The moral character of cryptographic work, 2015.
+David Kravets. Ethics charges filed against DOJ lawyer who exposed Bush-era surveillance. Ars Technica, January 26, 2016.
+Howard Berkes. 30 years after disaster, challenger engineer still blames himself. NPR, January 28, 2016.
+John Markoff. Apple's engineers, if defiant, would be in sync with ethics code. New York Times, March 18, 2016.
+Howard Berkes. Challenger engineer who warned of shuttle disaster dies. NPR, March 21, 2016.
+Nicole Perlroth and Mike Isaac. Inside Uber's $100,000 payment to a hacker, and the fallout. New York Times, January 12, 2018.
+ACM Code of Ethics
+2018 ACM Code of Ethics and Professional Conduct: Draft 3
+ACM Software Engineering Code of Ethics
+IEEE Code of Ethics
+SAGE/LOPSA/Usenix System Administrators' Code of Ethics
+Chloe Albanesius. HP responds to claim of `racist' webcams. PC Magazine, December 22, 2009.
+Latanya Sweeney. Discrimination in online ad delivery. Queue, 11(3):10:10–10:29, March 2013.
+Michael Schrage. Big data's dangerous new era of discrimination. Harvard Business Review, January 29, 2014.
+Florian Tramèr, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, Jean-Pierre Hubaux, Mathias Humbert, Ari Juels, and Huang Lin. Discovering unwarranted associations in data-driven applications with the FairTest testing toolkit, 2015.
+Jacob Brogan. Google scrambles after software ids photo of two black people as `gorillas'. Slate (Future Tense blog), June 30, 2015.
+Amit Datta, Michael Carl Tschantz, and Anupam Datta. Automated experiments on ad privacy settings: A tale of opacity, choice, and discrimination. In Proceedings of Privacy Enhancing Technologies Symposium,, July 2015.
+Jonathan M. Gitlin. VW says rulebreaking culture at root of emissions scandal. Ars Technica, December 10, 2015.
+Roland L. Trope and Eugene K. Ressler. Mettle fatigue: VW's single-point-of-failure ethics. IEEE Computer, 14(1):12–30, Jan–Feb 2016.
+Danielle Ivory and Hiroko Tabuchijan. Takata emails show brash exchanges about data tampering. New York Times, January 4, 2016.
+Nicholas Diakopoulos. Accountability in algorithmic decision-making. ACMqueue, January 25, 2016.
+Megan Geuss. Volkswagen details what top management knew leading up to emissions revelations. Ars Technica, March 3, 2016.
+Clare Garvie and Jonathan Frankle. Facial-recognition software might have a racial bias problem. Atlantic, April 2016.
+Executive Office of the President. Big data: A report on algorithmic systems, May 2016.
+Roger Parloff. How VW paid $25 billion for dieselgate — and got off easy. ProPublica, February 6, 2017.
+Chen Guangcheng. Apple can't resist playing by China's rules. New York Times, January 23, 2018.
+Jack Ewing. 10 monkeys and a Beetle: Inside VW's campaign for `clean diesel'. New York Times, January 25, 2018.
+Eric C. Rosen. Vulnerabilities of network control protocols: An example. SIGCOMM Comput. Commun. Rev., 11(3):10–16, July 1981.
+John R. Garman. The “BUG” heard 'round the world: Discussion of the software problem which delayed the first shuttle orbital flight. SIGSOFT Softw. Eng. Notes, 6(5):3–10, October 1981.
+J. C. Knight and N. G. Leveson. An experimental evaluation of the assumption of independence in multiversion programming. IEEE Transactions on Software Engineering, SE-12(1):96–109, Jan 1986.
+S. S. Brilliant, J. C. Knight, and N. G. Leveson. Analysis of faults in an n-version software experiment. IEEE Transactions on Software Engineering, 16(2):238–247, Feb 1990.
+AT&T. Technical background on AT&T's network slowdown. Risks Digest, 9(63), January 29, 1990.
+David Hoffman. `I had a funny feeling in my gut'. Washington Post Foreign Service, February 10, 1999.
+Phil Patton. Going ballistic! Wired, November 1, 1999.
+Simson Garfinkel. History's worst software bugs. Wired, November 8, 2005.
+John Schwartz. Who needs hackers? New York Times, September 12, 2007.
+Robert Wachter. How medical tech gave a patient a massive overdose. Medium, March 30, 2015.
+Sean Gallagher. Google let root certificate for Gmail expire, causing e-mail hiccups. Ars Technica, April 6, 2015.
+Sebastian Anthony. Qantas 737 “tailstrike” was caused by iPad data entry fail. November 16, 2015.
+Jon Fingas. Google self-driving car crashes into a bus. Engadget, February 29, 2016.
+Space Shuttle Computers and Avionics, NASA Office of Logic Design.
+20 Mishaps That Might Have Started Accidental Nuclear War, Alan F. Phillips.
+Shane Harris. Hacking the Hill. Nextgov, December 19, 2008.
+John Markoff and David Barboza. Researchers trace data theft to intruders in China. New York Times, April 5, 2010.
+Kim Zetter. A unprecedented look at Stuxnet, the world's first digital weapon. Wired, November 3, 2014.
+Angelique Chrisafis and Samuel Gibbs. French media groups to hold emergency meeting after Isis cyber-attack. Guardian, 2015.
+Thomas Fox-Brewster. Russians hacked White House via State Department, claims report. Forbes, April 8, 2015.
+Steve Ragan. Ransomware takes Hollywood hospital offline, $3.6m demanded by attackers. CSO Online, February 14, 2016.
+Dan Goodin. Failure to patch two-month-old bug led to massive Equifax breach. Ars Technica, September 14, 2017.
+Dan Goodin. A series of delays and major errors led to massive Equifax breach. Ars Technica, October 2, 2017.
+Catalin Cimpanu. Samsam ransomware hits hospitals, city councils, ICS firms. Bleeping Computer, January 19, 2018.
+Filip Hrácek. Automatic Donald Trump.
+Charles Duhigg. How companies learn your secrets. New York Times, February 16, 2012.
+Peter Bright. Microsoft terminates its Tay AI chatbot after she turns into a Nazi. Ars Technica, March 24, 2016.
+Peter Bright. Tay, the neo-Nazi millennial chatbot, gets autopsied. Ars Technica, March 26, 2016.
+Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner. Machine bias. ProPublica, May 23, 2016.
+Siddhartha Mukherjee. A.I. versus M.D. New Yorker, April 3, 2017.
+Zeynep Tufekci. We're building a dystopia just to make people click on ads. TED Talk, September 2017.
+Abder-Rahman Ali. Deep learning applications in medical imaging. TechEmergence, September 14, 2017.
+Cliff Kuang. Can A.I. be taught to explain itself? New York Times, November 21, 2017.
+David Jackson and Gary Marx. Data mining program designed to predict child abuse proves unreliable, DCFS says. Chicago Tribune, December 6, 2017.
+Lauren Kirchner. New York City moves to create accountability for algorithms. Ars Technica, December 19, 2017.
+Joshua Mitts. Data science for lawyers, 2018.
+Jeanette M. Wing. Data for good: FATES, elaborated. Data Science Institute Voices Blog, January 23, 2018.
+Paul Lewis. `Fiction is outperforming reality': how YouTube's algorithm distorts truth. Guardian, February 2, 2018.
+Steve Lohr. Facial recognition is accurate, if you're a white guy. New York Times, February 09, 2018.
+Facebook patent application on how to determine user's socioeconomic status.
+Tadayoshi Kohno, Adam Stubblefield, Aviel D. Rubin, and Dan S. Wallach. Analysis of an electronic voting system. In IEEE Symposium on Security and Privacy, May 2004.
+Avi Rubin. My day at the polls. Avi Rubin's Blog, November 4, 2008.
+Matt Blaze. Is the e-voting honeymoon over? Exhaustive Search, March 23, 2009.
+Richard Carback, David Chaum, Jeremy Clark, John Conway, Aleksander Essex, Paul S. Herrnson, Travis Mayberry, Stefan Popoveniuc, Ronald L. Rivest, Emily Shen, Alan T. Sherman, and Poorvi L. Vora. Scantegrity II municipal election at Takoma Park: The first E2E binding governmental election with ballot privacy. In Usenix Security, 2010.
+Mark Lindeman and Philip B Stark. A gentle introduction to risk-limiting audits. IEEE Security & Privacy, 10(5):42–49, 2012.
+Kim Zetter. Virginia finally drops America's `worst voting machines'. Wired, August 17, 2015.
+Michael Wines Nicole Perlroth and Matthew Rosenberg. Russian election hacking efforts, wider than previously known, draw little scrutiny. New York Times, Sept. 1, 2017.
+Nicole Perlroth. In election interference, it's what reporters didn't find that matters. New York Times, Sept. 1, 2017.
+Matt Blaze, Jake Braun, Harri Hursti, Joseph Lorenzo Hall, Margaret MacAlpine, and Jeff Moss. Defcon 25 voting machine hacking village, September 2017. Optional.
+Celeste Katz. Hack-vulnerable voting machines a `national security threat', experts warn. Newsweek, October 10, 2017.
+Ann Marie Awad. Colorado launches first in the nation post-election audits. NPR, November 22, 2017.
+Matt Blaze. Hearing on cybersecurity of voting machines, November 29, 2017. Testimony before the House Committee on Oversight and Government Reform, Subcommittee on Information Technology and Subcommittee on Intergovernmental Affairs.
+Cynthia McFadden, William M. Arkin, and Kevin Monahan. Russians penetrated U.S. voter systems, says top U.S. official. NBC News, February 8, 2018.
+Project EVEREST Evaluation and Validation of Election Related Equipment, Standards and Testing, December 2007.
+Top-to-Bottom Review.
+Hacking Democracy, HBO film.
+Samuel Warren and Louis D. Brandeis. The right to privacy. Harvard Law Review, 4:193, 1890.
+David Brin. The transparent society. Wired, December 1, 1996.
+Andrea Peterson. Verizon Wireless to allow customers to actually opt-out of controversial supercookie tracking. Washington Post, January 30, 2015.
+Chris Frey. Revealed: how facial recognition has invaded shops—and your privacy. Guardian, March 3, 2016.
+Kashmir Hill and Surya Mattu. The house that spied on me. Gizmodo, February 7, 2018.
+Cyberspace Privacy: A Primer and Proposal, Jerry Kang, Human Rights Magazine 26:1, Winter 1999.
+The Perfect Scan
+Dr. Fun
+What's in the driver's license bar code?
+Safe Harbor Overview
+Samuel Warren and Louis D. Brandeis. The right to privacy. Harvard Law Review, 4:193, 1890.
+David Brin. The transparent society. Wired, December 1, 1996.
+Andrea Peterson. Verizon Wireless to allow customers to actually opt-out of controversial supercookie tracking. Washington Post, January 30, 2015.
+Chris Frey. Revealed: how facial recognition has invaded shops—and your privacy. Guardian, March 3, 2016.
+Kashmir Hill and Surya Mattu. The house that spied on me. Gizmodo, February 7, 2018.
+Cyberspace Privacy: A Primer and Proposal, Jerry Kang, Human Rights Magazine 26:1, Winter 1999.
+The Perfect Scan
+Dr. Fun
+What's in the driver's license bar code?
+Safe Harbor Overview
+Katz v. United States, 389 U.S. 347 (1967).
+Smith v. Maryland, 442 U.S. 735 (1979).
+Helene Cooper. Passport files of 3 candidates were pried into. New York Times, March 22, 2008.
+Brian Knowlton. Obama's nominee for T.S.A. withdraws. New York Times, January 20, 2010.
+Declan McCullagh. FBI wants records kept of web sites visited. February 5, 2010.
+David Robinson. Identifying John Doe: It might be easier than you think. Freedom to Tinker blog, February 8, 2010.
+Harlan Yu. What third parties know about John Doe. Freedom to Tinker blog, February 9, 2010.
+Molly Wood. Google Buzz: Privacy nightmare. CNET, February 10, 2010.
+Harlan Yu. The traceability of an anonymous online comment. Freedom to Tinker blog, February 10, 2010.
+Steven M. Bellovin, Matt Blaze, Susan Landau, and Stephanie Pell. It's too complicated: How the Internet upends Katz, Smith, and electronic surveillance law. Harvard Journal of Law and Technology, 30(1):1–101, Fall 2016.
+Kelly Fiveash. Google right to be forgotten spat returns to Europe's top court. Ars Technica, July 20, 2017.
+Ordering Pizza, ACLU.
+B. Krishnamurthy and C. Wills. On the leakage of personally identifiable information via online social networks. In Proceedings of ACM SIGCOMM Workshop on Online Social Networks, August 2009.
+Balachander Krishnamurthy. I know what you will do next summer. ACM SIGCOMM CCR, 40(5), 2010.
+Sara Kiesler, Jane Siegel, and Timothy W. McGuire. Social psychological aspects of computer-mediated communication. American Psychologist, 39(10):1123–1134, October 1984.
+January W. Payne. Hey, you're breaking up on me! Washington Post, February 13, 2007.
+Kim Zetter. Judge acquits Lori Drew in cyberbullying case, overrules jury. Wired, July 2, 2007.
+Kevin Poulsen. Hackers assault epilepsy patients via computer. Wired, March 28, 2008.
+Danielle Citron. Law's expressive value in combating cyber gender harassment. Michigan Law Review, 108:373–416, 2009. (Optional).
+Charles H. Antin. The boundaries of a breakup. New York Times, November 20, 2009.
+Bruce Bower. Facebook users keep it real in online profiles. Science News, February 26, 2010.
+Beth Teitell and Callum Borchers. GamerGate anger at women all too real for gamemaker. Boston Globe, October 30 2014.
+Jonathan Mahler. Who spewed that abuse? Anonymous Yik Yak app isn't telling. New York Times, March 8, 2015.
+Miranda Katz. 2 Long Island teens arrested, 20 suspended over sexting incident. Gothamist, November 10, 2015.
+Justin Jouvenal. A 12-year-old girl is facing criminal charges for using emoji, and she's not the only one. Washington Post, February 27, 2016.
+Penelope Green. The Facebook breakup. New York Times, March 12, 2016.
+Caitlin Dewey. In the battle of Internet mobs vs. the law, the Internet mobs have won. Washington Post, February 17, 2017.
+P F Syverson, D M Goldschlag, and M G Reed. Anonymous connections and onion routing. In IEEE Symposium on Security and Privacy, pages 44–54, Oakland, California, 4–7 1997.
+Roger Dingledine, Nick Mathewson, and Paul Syverson. Tor: The second-generation onion router. In Proceedings of the 13th USENIX Security Symposium, August 2004.
+Satoshi Nakamoto. Bitcoin: A peer-to-peer electronic cash system, 2009.
+Alec D. E. Muffett. Making connections to Facebook more secure. Facebook, October 31, 2014.
+Carl Franzen. Facebook just created a new Tor link for users who wish to remain anonymous. The Verge, October 31, 2014.
+Andy Greenberg. Why Facebook just launched its own `Dark Web' site. Wired, October 31, 2014.
+Joshuah Bearman and Tomer Hanuka. The rise & fall of Silk Road, Part I. Wired, April 2015.
+Joshuah Bearman and Tomer Hanuka. The rise & fall of Silk Road, Part II. Wired, May 2015.
+Cyrus Farivar and Sean Gallagher. Feds bust through huge Tor-hidden child porn site using questionable malware. Ars Technica, July 16, 2015.
+Joseph Cox. The FBI's “unprecedented” hacking campaign targeted over a thousand computers. Vice, January 5, 2016.
+Nick Hagar, Geordan Tilley, Alex Duner, and Nicolas Rivero. A wave of non-criminal users is joining the dark web and stepping into the middle of a privacy battle. Caught in the Crossfire, March 10, 2016.
+Nathaniel Popper. A hacking of more than $50 million dashes hopes in the world of virtual currency. New York Times, June 17, 2016.
+Nathaniel Popper. Easiest path to riches on the web? An initial coin offering. New York Times, June 23, 2017.
+Timothy B. Lee. Want to really understand how bitcoin works? here's a gentle primer. Ars Technica, December 15, 2017.
+Nellie Bowles. Cryptokitties, explained ... mostly. New York Times, December 28, 2017.
+John Schwartz. Blockchain or blockheads? bitcoin mania mints believers and skeptics. New York Times, January 12, 2018.
+Chico Harlan. `Bitcoin is my potential pension': What's driving people in Kentucky to join the craze. Washington Post, February 3, 2018.
+Ed Felten. Blockchain: What is it good for? Freedom to Tinker blog, February 26, 2018.
+Kim Nilsson. Kleiman v Craig Wright: The bitcoins that never were. Wizsec blog, February 27, 2018.
+Tor: Hidden Service Protocol
+Facebook, hidden services, and https certs.
+Tor: Overview
+Kenneth W. Dam and Herbert S. Lin, editors. Cryptography's Role in Securing the Information Society. National Academy Press, Washington, D.C., 1996. Executive summary only.
+Wendy Grossman. Net.wars. New York University Press, New York, 1997. Optional. Chapters 4 and 5.
+Whitfield Diffie and Susan Landau. Privacy on the Line. MIT Press, Cambridge, MA, second edition, 2007. Preface, Introduction, Conclusions.
+Bruce Schneier. Did NSA put a secret backdoor in new encryption standard? Wired, November 15, 2007.
+Matt Blaze. Key escrow from a safe distance: Looking back at the Clipper Chip. In Proceedings of ACSAC '11, 2011.
+Matthew Green. Why can't Apple decrypt your iPhone? A Few Thoughts on Cryptographic Engineering, October 4, 2014.
+Harold Abelson, Ross Anderson, Steven M. Bellovin, Josh Benaloh, Matt Blaze, Whitfield Diffie, John Gilmore, Matthew Green, Susan Landau, Peter G. Neumann, Ronald L. Rivest, Jeffrey I. Schiller, Bruce Schneier, Michael A. Specter, and Daniel J. Weitzner. Keys under doormats: Mandating insecurity by requiring government access to all data and communications. Journal of Cybersecurity, 1(1), September 2015.
+Sheri Pym. In the matter of the search of an Apple iPhone seized during the execution of a search warrant on a black Lexus IS300, California license plate 35KGD203. United States District Court, Central District of California, February 16, 2016. No. ED 15-0451M.
+Kashmir Hill. Apple's battle with the FBI: All your questions answered. Fusion, February 22, 2016.
+James Orenstein. In re order requiring Apple, Inc. to assist in the execution of a search warrant issued by this court. United States District Court, Eastern District of New York, February 29, 2016. Case 1:15-mc-01902-JO, Document 29.
+Susan Landau. Testimony for House Judiciary Committee hearing on “The Encryption Tightrope: Balancing Americans' security and privacy”, March 2016.
+Rod J. Rosenstein. Deputy Attorney General Rod J. Rosenstein delivers remarks on encryption at the United States Naval Academy, October 10, 2017.
+Daniel Richman. Getting encryption onto the front burner. Lawfare, October 26, 2017.
+Third report of the Manhattan District Attorney's Office on smartphone encryption and public safety, November 2017.
+Computer Science and Telecommunications Board. Decrypting the Encryption Debate: A Framework for Decision Makers. National Academies Press, 2018. Summary and Chapter 7 only.
+Sean Gallagher. Cellebrite can unlock any iPhone (for some values of “any”). Ars Technica, March 01, 2018.
+Amie Stepanovich and Michael Karanicolas. If you criminalize security, only criminals will be secure. March 2, 2018.
+"My life as an international arms courier", Matt Blaze, January, 1995.
+"Notes on key escrow meeting with NSA", Matt Blaze, February 2, 1994.
+Gregory Krieg and Tal Kopan. Is this the email that hacked John Podesta's account? CNN, October 30, 2016.
+Eric Lipton, David E. Sanger, and Scott Shane. The perfect weapon: How Russian cyberpower invaded the U.S. New York Times, December 13, 2016.
+Matt Jones. The spy who pwned me. Limn, February 2017.
+Eugene Kiely. Timeline of Russia investigation. FactChek.org, September 14, 2017.
+Susan Landau. Russia's hybrid warriors got the White House. now they're coming for America's town halls. Lawfare, September 26, 2017.
+Josh Dawsey. Russian-funded facebook ads backed Stein, Sanders and Trump. Politico, September 26, 2017.
+Michael McFaul. Enough is enough: How to stop Russia's cyber-interference. Washington Post, September 28, 2017.
+Jeff Stein. Russians still have an open path to U.S. election subversion. Newsweek, October 7, 2017.
+Matea Gold and Elizabeth Dwoskin. Trump campaign's embrace of Facebook shows company's growing reach in elections. Washington Post, October 8, 2017.
+Matea Gold and Elizabeth Dwoskin. Trump campaign's embrace of Facebook shows company's growing reach in elections. Washington Post, October 8, 2017.
+Nicholas Confessore and Daisuke Wakabayashi. How Russia harvested American rage to reshape U.S. politics. New York Times, October 9, 2017.
+Michael Morell and Mike Rogers. Russia never stopped its cyberattacks on the United States. Washington Post, December 25, 2017.
+Sarah Grant, Quinta Jurecic, Matthew Kahn, Matt Tait, and Benjamin Wittes. Russian influence campaign: What's in the latest Mueller indictment. Lawfare, February 16, 2018.
+Cynthia McFadden, William M. Arkin, Kevin Monahan, and Ken Dilanian. U.S. intel: Russia compromised seven states prior to 2016 election. NBC News, February 27, 2018.
+Matthew Rosenberg, Nicholas Confessore, and Carole Cadwalladr. How Trump consultants exploited the Facebook data of millions. New York Times, March 17, 2018.
+Amy X. Zhang, Scott Appling, Nick B. Adams, Martin Robbins, Aditya Ranganathan, Connie Moon Sehat, Emmanuel Vincent, Ed Bice, Sarah Emlen Metz, Norman Gilmore, Jennifer 8. Lee, Sandro Hawke, David Karger, and An Xiao Mina. A structured response to misinformation: Defining and annotating credibility indicators in news articles. In The Web Conference, Lyon, April 2018.
+Guccifer 2.0, Vice Motherboard, collected stories.
+Kim Zetter. Everything we know about Ukraine's power plant hack. Wired, January 20, 2016.
+David E. Sanger. Utilities cautioned about potential for a cyberattack after Ukraine's. New York Times, March 1, 2016.
+Sean Gallagher. US military launches cyber attacks on ISIS in Mosul, and announces it. Ars Technica, March 1, 2016.
+Kim Zetter. Inside the cunning, unprecedented hack of Ukraine's power grid. Wired, March 3, 2016.
+US Cyber Command. Achieve and maintain cyberspace superiority, 2018.
+Ellen Nakashima. Russian military was behind `NotPetya' cyberattack in Ukraine, CIA concludes. Washington Post, January 12, 2018.
+Liz Sly. U.S. soldiers are revealing sensitive and dangerous information by jogging. Washington Post, January 28, 2018.
+Alex Hern. Fitness tracking app gives away location of secret US army bases. Guardian, January 28, 2018.
+Nicole Perlroth and David E. Sanger. Cyberattacks put Russian fingers on the switch at power plants, U.S. says. New York Times, March 15, 2018.
+Nicole Perlroth and Clifford Krauss. A cyberattack in Saudi Arabia had a deadly goal. Experts fear another try. New York Times, March 15, 2018.
+Talley v. California, 362 U.S. 60 (1960).
+McIntyre v. Ohio Election Commission, 514 U.S. 334 (1995).
+ACLU v. Reno, 929 F. Supp. 824 (1996).
+Carter Jernigan and Behram F.T. Mistree. Gaydar: Facebook friendships expose sexual orientation. First Monday, October 5, 2009.
+David Kravets. Rulings leave online student speech rights unresolved. Wired Threat Level blog, February 4, 2010.
+Karen Turner. Mass surveillance silences minority opinions, according to study. Washington Post, March 28, 2016.
+Catherine Buni and Soraya Chemaly. The secret rules of the Internet. Verge, April 13, 2016.
+Michael Nunez. Former facebook workers: We routinely suppressed conservative news. Gizmodo, May 9, 2016.
+Farhad Manjoo. Facebook's bias is built-in, and bears watching. New York Times, May 11, 2016.
+Kashmir Hill. Maybe the real Facebook suppression is of shoddy news, not conservative news. Fusion, May 11, 2016.
+Mike Isaac. Facebook, facing bias claims, shows how editors and algorithms guide news. New York Times, May 13, 2016.
+Zeynep Tufekci. It's the (democracy-poisoning) golden age of free speech. Wired, January 16, 2018.
+Timothy B. Lee. House passes sex trafficking bill that could limit free speech online. Ars Technica, February 28, 2018.
+Matt Burgess and Liat Clark. The UK wants to block online porn. Here's what we know. Wired UK, March 12, 2018.
+Alina Selyukh. Section 230: A key legal shield for Facebook, Google is about to change. WBUR, March 21, 2018.
+Cyrus Farivar. Craigslist personals, some subreddits disappear after FOSTA passage. Ars Technica, March 23, 2018.
+EFF article on Sapient v. Geller
+EFF article on Online Policy Group v. Diebold
+Richard Clayton. Anonymity and Traceability in Cyberspace. PhD thesis, University of Cambridge, Darwin College, 2005.
+Steven M. Bellovin. Exploiting linkages for good. SMBlog (blog), December 31, 2007.
+Danielle Citron. Cyber civil rights. Boston University Law Review, 89:61–125, 2009.
+Nicole Perlroth. Fake twitter followers become multimillion-dollar business. New York Times, April 5, 2013.
+Nitasha Tiku and Casey Newton. Twitter CEO: `We suck at dealing with abuse'. The Verge, February 4, 2015.
+Travis M. Andrews. `a great purge?': Twitter suspends Richard Spencer, other prominent alt-right accounts. Washington Post, 2016.
+Sara Baker. Why online anonymity is critical for women. WMC Speech Project, March 11, 2016.
+Kristen V. Brown. How Twitter treated death threats against me. March 22, 2016.
+Elle Hunt. Milo Yiannopoulos, rightwing writer, permanently banned from Twitter. Guardian, July 20, 2016.
+Charlie Warzel. Twitter says this behavior doesn't qualify as abuse. BuzzFeed, August 31 2016.
+Joe Mullin. Prenda Law “copyright trolls” Steele and Hansmeier arrested. Ars Technica, December 16, 2016.
+Ben Nimmo. #BotSpot: Twelve ways to spot a bot. DFRlab Blog, August 28, 2017.
+Mark Hansen. The follower factory. New York Times, January 27, 2018.
+Sarah Lyall. British lawmakers look at rewriting libel law. New York Times, December 10, 2009.
+Rachel Donadio. Larger threat is seen in Google case. New York Times, February 24, 2010.
+Eric Pfanner. Italian appeals court acquits 3 Google executives in privacy case. New York Times, December 21, 2012.
+Aamna Mohdin. Facebook, Google, and Twitter have agreed to apply Germany's strict anti-hate speech law online. Quartz, December 16, 2015.
+Tetyana Lokot. Twitter reports massive increase in Russian government's content removal requests. Global Voices, March 6, 2016.
+Mark Scott. Google fined by French privacy regulator. New York Times, March 24, 2016.
+Robert Mackey. Turkey wants ban on mocking its leader enforced abroad too. The Intercept, March 30, 2016.
+Colin George. Angela Wrightson murder: How the media fought to report the case. BBC News, April 7, 2016.
+Michee Smith. Updating our “right to be forgotten” Transparency Report. Google blog, February 26, 2018.
+Paul Mozur. China presses its internet censorship efforts across the globe. New York Times, March 02, 2018.
+Pretrial Publicity
+Dow Jones & Company Inc. v Gutnick (2002), HCA 56 (10 December 2002).
+Wendy Seltzer. My first YouTube: Super Bowl highlights or lowlights. Musings of a Techie Lawyer, February 8, 2007.
+A.V. v. iParadigms, 562 F.3d 630 (2009).
+Lauren Weinstein. Entertainment industry asks White House for vast new internet monitoring, filtering, and takedown powers. Lauren Weinstein's Blog, March 25, 2010.
+Anderson J. Duff. `Let's take a #selfie,' said the monkey: A case of questionable copyrights. Wired, September 2014.
+Eletronic Frontier Foundation. Unintended consequences—16 years under the DMCA, September 16, 2014.
+Ted Johnson. Sherlock Holmes to remain in public domain after Supreme Court declines case. Variety, November 3, 2014.
+Jonathan Bailey. Peter Pan and the copyright that never grew up. Plagiarism Today, October 21, 2015.
+Zachary Crockett. How Mickey Mouse evades the public domain. Priceonomics, January 7, 2016.
+Camila Domonoske. Monkey can't own copyright to his selfie, federal judge says. NPR, January 7, 2016.
+Andres Guadamuz. Can the monkey selfie case teach us anything about copyright law? WIPO Magazine, February 2018.
+Cyrus Farivar. Playboy says linking to Playmate archive violates copyright, judge says no way. Ars Technica, February 16, 2018.
+Cyrus Farivar. Monkey-selfie lawsuit finally ends: Court affirms adorable macaque can't sue. Ars Technica, April 23, 2018.
+Zvi S. Rosen. Player pianos and the origins of compulsory licensing – some details of its origins. Mostly IP History, April 27, 2018.
+Frequently Asked Questions about Copyright
+Columbia Copyright Advisory Office
+Creative Commons
+Fred von Lohmann and Wendy Seltzer. Death by DMCA. IEEE Spectrum, June 1, 2006.
+David Kushner. For Texas Instruments, calculator hackers don't add up. IEEE Spectrum, October 28, 2009.
+Erik Stallman. A qualified win for cybersecurity researchers in DMCA triennial rulemaking. CDT Blog, October 27, 2015.
+Kevin Smith. Some radical thoughts about Sci-Hub. Scholarly Communications @ Duke, March 3, 2016.
+David Kravets. A spiritual successor to Aaron Swartz is angering publishers all over again. Ars Technica, April 3, 2016.
+David Post. Stairway to (copyright) Heaven. Volokh Conspiracy, April 13, 2016.
+David Post. Who owns “We Shall Overcome”? Volokh Conspiracy, April 15, 2016.
+Ryan Merkley. You pay to read research you fund. That's ludicrous. Wired, April 18, 2016.
+David Kravets. Piracy site for academic journals playing game of domain-name Whac-A-Mole. Ars Technica, May 05, 2016.
+Joe Mullin. Google beats Oracle—Android makes “fair use” of Java APIs. Ars Technica, May 26, 2016.
+Christopher Mele. “We Shall Overcome” is put in public domain in a copyright settlement. New York Times, January 26, 2018.
+Rebecca Flowers. Cloudflare terminates service to `the Pirate Bay of science'. Vice Motherboard, February 9, 2018.
+Cyrus Farivar. “Google's use of the Java API packages was not fair,” appeals court rules. Ars Technica, March 27, 2018.
+David Kluft. Oracle v. Google, copyright & fair use: One of “billions” of summaries. March 29, 2018.
+Takedown Hall of Shame
+Gerard N. Magliocca. Blackberries and barnyards: Patent trolls and the perils of innovation. Notre Dame Law Review, 82(5):1809–1838, 2007.
+Motoko Rich. Making the case for iPad e-book prices. New York Times, February 28, 2010.
+Charles Arthur. App developers withdraw from US as patent fears reach `tipping point'. Guardian, July 15, 2011.
+Ben Lee. Twitter's surprising solution to the patent problem: Let employees control them. Wired, February 21, 2013.
+Steven M. Bellovin. The oldest algorithmic patent. SMBlog (blog), May 21, 2013.
+National Archives. Coloring book of patents, 2016.
+Susan Decker and Dennis Robertson. Apple must pay 502.6 million to virnetx, federal jury rules. Bloomberg News, April 10, 2018.
+Daniel Nazer. New Hampshire court: First Amendment protects criticism of “patent troll”. EFF Deep Links (blog), April 12, 2018.
+Method of exercising a cat, Kevin T. Amiss and Martin H. Abbott, U.S. patent 5,443,036, issued Aug 22, 1995.
+Business method protecting jokes, Timothy Wace Roberts, U.S. patent application 10/569,506, filed Aug 24, 2004.
+What is a Patent?, up to but not including the section titled "The United States Patent And Trademark Office"
+The Cathedral and the Bazaar, Eric S. Raymond.
+W3C Patent Policy, 5 February 2004.
+Software patents—Obstacles to software development, Richard Stallman, 25 March 2002.
+Patent prosecution history for "Method of Saving and Recording of Human Soul"
+Joshua Quittner. Billions registered. Wired, October 1, Billions Registered.
+Kathleen Day. 3 accused in theft of Coke secrets. Washington Post, July 6, 2006.
+Eric Pfanner. Luxury goods makers complain about ads for counterfeit items. New York Times, March 21, 2010.
+Caitlin Dewey. From TedCruz.ca to TaylorSwift.porn: How the golden age of domain-trolling was born. March 25, 2015.
+Rebecca Tushnet. Uber and out: court grants limited but still tricky injunction against Uber. Rebecca Tushnet's 43(B)log, February 18 2016.
+David Kravets. Supreme court asked to nullify the Google trademark. Ars Technica, August 20, 2017.
+Aarian Marshall. Waymo v. Uber's big question: What on Earth is a trade secret, anyway? Wired, February 6, 2018.
+Justin T. Westbrook. Uzi Nissan spent 8 years fighting the car company with his name. he nearly lost everything to win. Jalopnik, February 22, 2018.
+How to Choose a License for Your Work
+"Trade Secret Protection for Source Code", July 17, 2001, Belinda M. Juran
+Which Creative Commons Licence is Right for Me?, Creative Commons Australia
+Uber Promotions, Inc. v. Uber Technologies, Inc.
+Matthew Ingram. Will startups get squeezed by a tech hiring binge? Gigaom, April 16, 2010.
+Sylvia Marino. The art of 10 years of telecommuting. New York Times, April 17, 2010.
+Vinton G. Cerf. Does innovation create or destroy jobs? Commun. ACM, 57(12):7–7, November 2014.
+Timothy Aeppel. What clever robots mean for jobs. Wall Street Journal, February 24, 2015.
+Zeynep Tufekci. The machines are coming. New York Times, April 18, 2015.
+Megan Geuss. Uber drivers are employees, California Labor Commission ruling suggests. Ars Technica, June 17, 2015.
+David Kravets. Judge calls Uber algorithm “genius,” green-lights surge-pricing lawsuit. Ars Technica, 2016.
+Sam Machkovech. Report: Robots, other advances will cost humans 5.1 million jobs by 2020. Ars Technica, January 18, 2016.
+Cora Lewis and Johana Bhuiyan. What striking Uber drivers are up against. BuzzFeed, February 9, 2016.
+Jed Kolko. Republican-leaning cities are at greater risk of job automation. FiveThirtyEight, February 17, 2016.
+Moshe Y. Vardi. Are robots job creators? New Republic, April 6, 2016.
+David Kravets. Appeals court halts class action on whether Uber drivers are employees. Ars Technica, April 6, 2016.
+Ángel González. Hands, heads and robots work in sync at Amazon warehouses. Seattle Times, April 9, 2016.
+Cyrus Farivar. Uber settles class-action labor lawsuits in Massachusetts, California. Ars Technica, April 22, 2016.
+Cyrus Farivar. Uber really doesn't want its drivers to be considered employees. Ars Technica, September 21, 2017.
+Erin Winick. Every study we could find on what automation will do to jobs, in one chart. MIT Technology Review, January 25, 2018.
+Alexis C. Madrigal. Could self-driving trucks be good for truckers? Atlantic, February 2018.
+Jarrett Walker. Apps are not transforming the urban transport business. Human Transit blog, February 2, 2018.
+Cyrus Farivar. Grubhub drivers are contractors—not employees—judge rules. Ars Technica, February 8, 2018.
+Noam Scheiber. Gig economy business model dealt a blow in california ruling. New York Times, April 30, 2018.
+Timothy B. Lee. Report: Software bug led to death in uber's self-driving crash. Ars Technica, May 07, 2018.
+Claire Cain Miller. Out of the loop in Silicon Valley. New York Times, April 18, 2010.
+Dana Liebelson and Tasneem Raja. Donglegate: How one brogrammer's sexist joke led to death threats and firings. Mother Jones, March 22, 2013.
+Randy Olson. Percentage of Bachelor's degrees conferred to women, by major (1970-2012). Blog, June 14, 2014.
+Beryl Nelson. The data on diversity. Communications of the ACM, 57(11):86–95, November 2014.
+Melissa McEwan. The falsest of false equivalencies. Shakesville, February 20, 2015.
+Kristen V. Brown. Women are better at coding than men—if they hide their gender. Fusion, February 11, 2016.
+Weiting Liu. These female developers explain how to recruit more female developers. Fast Company, April 6, 2016.
+Susan J. Fowler. Reflecting on one very, very strange year at uber. (blog), February 19, 2017.
+Cyrus Farivar. Ex-uber engineer alleges sexual harassment, ceo reacts by promising investigation. Ars Technica, February 20, 2017.
+Randall Stross. Why companies like Uber get away with bad behavior. New York Times, June 13, 2017.
+Mike Isaac. Uber embraces major reforms as travis kalanick, the c.e.o., steps away. New York Times, June 13, 2017.
+William D. Cohan. Silence equals complicity in workplace sexism. New York Times, July 21, 2017.
+Maureen Dowd. She's 26, and brought down Uber's C.E.O. what's next? New York Times, October 21, 2017.
+Sarah Jeong. A diverse, pop-up security conference challenges the industry status quo. Verge, April 17, 2018.
+Barriers to the Advancement of Technical Women: A Review of the Literature, Caroline Simard, Anita Borg Institute for Women and Technology, 2007.
+Women in IT: The Facts, by NCWIT, Catherine Ashcraft and Sarah Blithe, National Center for Women & Information Technology (NCWIT), 2009.
+Gender: Integrated Report of Findings, Dawn Nafus, James Leach, and Bernhard Krieger, FLOSSPOLS Project, 2006.
+Ravi Somaiya and John Herrman. Mashable announces personnel shifts and job cuts. New York Times, April 7, 2016.
+Dylan Byers. Buzzfeed buzzkill: Its stunning revenue miss goes viral. CNN Money, April 12, 2016.
+Jim Rutenberg. For news outlets squeezed from the middle, it's bend or bust. New York Times, April 17, 2016.
+John Herrman. Media websites battle faltering ad revenue and traffic. New York Times, April 17, 2016.
+Matthew Karnitschnig and Chris Spillane. Plan to make Google pay for news hits rocks. Politico, February 5, 2017.
+Megan McArdle. A farewell to free journalism. Washington Post, April 26, 2018.
+Megan McArdle, Twitter thread on the need for paid journalism, April 26, 2018.

@@ -1,0 +1,55 @@
+California Penal Code §§ 630, 631, 632, 635, 637, and 637.7
+CRS, Privacy: An Overview of the Electronic Communications Privacy Act (ECPA) (Oct. 2012) pp 1–24, https://fas.org/sgp/crs/misc/R41733.pdf
+Charles Doyle, Cybercrime: An Overview of the Federal Computer Fraud and Abuse Statute and Related Federal Criminal Laws, CRS Report, Oct. 2014, pages: summary, 1–2, 14–25, http://fas.org/sgp/crs/misc/97-1025.pdf
+17 USC 1201, Circumvention of copyright protection systems
+Letter from Matthew J. Oppenheim, Senior Vice President, Business and Legal Affairs, Recording Industry Association of America, to Professor Edward Felten, Department of Computer Science, Princeton University, Apr. 9, 2001, https://w2.eff.org/IP/DMCA/Felten_v_RIAA/20010409_riaa_sdmi_letter.html
+Cybersecurity Research: Addressing the Legal Barriers and Disincentives (Sept. 2015) p. 1–17, https://www.ischool.berkeley.edu/files/cybersec-research-nsf-workshop.pdf
+Exemption to Prohibition on Circumvention of Copyright Protection Systems for Access Control Technologies, pp. 65944–65946, 65955–65956 (Oct. 28, 2015). https://www.gpo.gov/fdsys/pkg/FR-2015-10-28/pdf/2015-27212.pdf
+UC Berkeley, Computer Use Policy, n.d., https://security.berkeley.edu/computer-use-policy
+David Dittrich, Michael Bailey, Sven Dietrich, Towards Community Standards for Ethical Behavior in Computer Security Research (2009), https://staff.washington.edu/dittrich/papers/dbd2009tr1-20090925-1133.pdf
+Google Security Blog, Rebooting Responsible Disclosure: a focus on protecting end users (Jul. 2010), https://security.googleblog.com/2010/07/rebooting-responsible-disclosure-focus.html
+SANS, The GIAC (Global Information Assurance Certification) Code of Ethics, n.d. http://digital-forensics.sans.org/certification/ethics 
+Digital Forensics Certification Board, Code of Ethics and Standards of Professional Conduct (2008), https://www.dfcb.org/DFCB_DFCB_Code_of_Ethics_and_Standards_of_Professional_Conduct_Version_1.1_Dec08.pdf
+Association for Computing Machinery, ACM Code of Ethics and Professional Conduct (1992), http://www.acm.org/about-acm/acm-code-of-ethics-and-professional-conduct
+EC Council, Code of Ethics for Certified Ethical Hacker (nd), https://www.eccouncil.org/code-of-ethics/
+Geoffrey MacDougall and Maria Rerecich, Evaluating Products and Services for Privacy, Security and Data Practices, Jan 2017, https://www.ftc.gov/system/files/documents/public_comments/2016/10/00049-129157.pdf, http://digitalprotocol.org/
+Linoxide, Linux Command Cheat Sheet (2014), http://linoxide.com/linux-command/linux-commands-cheat-sheet/
+Oracle, Virtualbox User Manual, Chap. 1, https://www.virtualbox.org/manual/
+Jonathan R. Mayer & John C. Mitchell, Third-Party Web Tracking: Policy and Technology, 2012 IEEE Symposium on Security and Privacy. http://ieeexplore.ieee.org/document/6234427/ 
+Hoofnagle et al., Behavioral Advertising: The Offer You Cannot Refuse, 6 Harvard Law & Policy Review 273 (2012), http://harvardlpr.com/wp-content/uploads/2013/06/Behavioral-Advertising-Hoofnagle-et-al.pdf
+Rebecca Balebako et al., Measuring the effectiveness of privacy tools for limiting behavioral advertising, Web 2.0 Workshop on Security and Privacy (2012), http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.306.9415
+Günes Acar et al, The Web Never Forgets: Persistent Tracking Mechanisms in the Wild, CCS’14, November 3–7, 2014, https://securehomes.esat.kuleuven.be/~gacar/persistent/the_web_never_forgets.pdf
+AboutCookies.org, Cookies: Frequently Asked Questions, n.d., http://www.aboutcookies.org/cookie-faq/
+Bert-Jaap Koops et al. A Typology of Privacy, "University of Pennsylvania Journal of International Law" https://ssrn.com/abstract=2754043
+Daniel J. Solove, 'I've Got Nothing to Hide' and Other Misunderstandings of Privacy, 44 San Diego Law Review 745 (2007),: https://ssrn.com/abstract=998565
+Noah Veltman, Web APIs for non-programmers, School of Data, Nov. 18, 2013, http://schoolofdata.org/2013/11/18/web-apis-for-non-programmers
+Aldo Cortesi, Skout: a devastating privacy vulnerability, May 31, 2013, https://corte.si/posts/security/skout/index.html
+Terence Eden,  Easy APIs Without Authentication (2016), https://shkspr.mobi/blog/2016/05/easy-apis-without-authentication/
+Paul Ohm, An Internet X-Ray Machine for the Masses, JOTWELL (June 12, 2015) (reviewing Aldo Cortesi, et al., mitmproxy), http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/
+Günes, Acar et al., Facebook Tracking Through Social Plug-Ins, Mar. 27, 2015, https://securehomes.esat.kuleuven.be/~gacar/fb_tracking/fb_plugins.pdf
+Philipp C. Heckel, How To: Use mitmproxy to read and modify HTTPS traffic, Jul. 1, 2003, https://blog.heckel.xyz/2013/07/01/how-to-use-mitmproxy-to-read-and-modify-https-traffic-of-your-phone
+Kali, mitmproxy Package Description, n.d., http://tools.kali.org/sniffingspoofing/mitmproxy
+Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) , articles 25, 28, 30, 32, 35-39, and recitals 74-78, 80-84, 89-94, 97 (the recitals are the numbered sections under "Whereas," in the US, you might call these legislative findings), http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679
+Sarah Spiekermann and Lorrie Cranor, Engineering Privacy, 35(1)  IEEE Transactions on Software Engineering (2009), https://ssrn.com/abstract=1085333
+Wijesekera et al., Android Permissions Remystified: A Field Study on Contextual Integrity, SEC 2015, http://guanotronic.com/~serge/papers/sec15.pdf
+Egelman et al., You’ve Been Warned: An Empirical Study of the Effectiveness of Web Browser Phishing Warnings, http://www.guanotronic.com/~serge/papers/warned.pdf
+Helen Nissenbaum, A Contextual Approach to Privacy Online, 140(4) Daedalus 32 (Fall 2011), http://www.mitpressjournals.org/doi/pdf/10.1162/DAED_a_00113
+Irwin Reyes, Monkey business in children’s apps, The ICSI Haystack Project Blog, Jan. 2017
+Chris Jay Hoofnagle, Children's Privacy, FTC Privacy Law and Policy (2016)
+Simson L. Garfinkel, De-Identification of Personal Information, NISTIR 8053 (Oct. 2015), http://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8053.pdf
+Harry Brignull, Dark Patterns: inside the interfaces designed to trick you, Verge (2013), http://www.theverge.com/2013/8/29/4640308/dark-patterns-inside-the-interfaces-designed-to-trick-you
+Expert Report of Jennifer King, FTC v. Amazon.com, No. 2:14-CV-01038, Dec. 2015
+Expert Report of Professor Andrew L. Sears, FTC v. Amazon.com,No. 2:14-CV-01038, Dec. 2015
+Narayanan, Arvind, Joanna Huey, and Edward W. Felten. "A precautionary approach to big data privacy." Data protection on the move. Springer, Dordrecht, 2016. 357-385, http://randomwalker.info/publications/precautionary.pdf
+California Business and Professions Code § 22575–22579, Internet Privacy Requirements, http://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=8.&title=&part=&chapter=22.&article=
+Reidenberg et al., Disagreeable Privacy Policies: Mismatches Between Meaning and Users' Understanding, 30(1) Berkeley Technology Law Journal 39 (2015), pages 39–53; 83–85; 87–88, http://btlj.org/2015/10/disagreeable-privacy-policies/
+Leon et al., Token Attempt: The Misrepresentation of Website Privacy Policies through the Misuse of P3P Compact Policy Tokens, WPES 2010, http://dl.acm.org/citation.cfm?id=1866932
+Apple Privacy Policy: https://www.apple.com/privacy/
+Apple Launches iOS 11.3: https://www.theguardian.com/technology/2018/mar/29/apple-launches-ios-113-privacy-features-gdpr-data-protection
+Job description, Privacy Software Engineer, https://jobs.apple.com/us/search?#&ss=Privacy%20Software%20Engineer&t=0&so=&lo=0*USA&pN=0&openJobId=113589005 
+CRS, Privacy: An Overview of the Electronic Communications Privacy Act (ECPA) (Oct. 2012) pp 1–34, https://fas.org/sgp/crs/misc/R41733.pdf
+Charles Doyle, Cybercrime: An Overview of the Federal Computer Fraud and Abuse Statute and Related Federal Criminal Laws, CRS Report, Oct. 2014, pages: summary, 1–2, 14–25, https://fas.org/sgp/crs/misc/97-1025.pdf
+17 USC 1201, Circumvention of copyright protection systems, https://www.gpo.gov/fdsys/granule/USCODE-2011-title17/USCODE-2011-title17-chap12-sec1201
+Letter from Matthew J. Oppenheim, Senior Vice President, Business and Legal Affairs, Recording Industry Association of America, to Professor Edward Felten, Department of Computer Science, Princeton University, Apr. 9, 2001, https://w2.eff.org/IP/DMCA/Felten_v_RIAA/20010409_riaa_sdmi_letter.html
+Cybersecurity Research: Addressing the Legal Barriers and Disincentives (Sept. 2015) p. 1–17, https://www.ischool.berkeley.edu/files/cybersec-research-nsf-workshop.pdf
+Exemption to Prohibition on Circumvention of Copyright Protection Systems for Access Control Technologies, pp. 65944– 65955–65956 (Oct. 28, 2015). https://www.gpo.gov/fdsys/pkg/FR-2015-10-28/pdf/2015-27212.pdf

@@ -1,0 +1,140 @@
+Burrington, Ingrid. Networks of New York: An Illustrated Field Guide to Urban Internet Infrastructure. Brooklyn: Melville House, 2016.
+Gitelman, Lisa. “Raw Data” Is an Oxymoron. Cambridge, MA: The MIT Press, 2013.
+Gleick, James. The Information: A History, A Theory, A Flood. New York: Vintage, 2012.
+Johnson, Steven. The Ghost Map: The Story of London’s Most Terrifying Epidemic-and How It Changed Science, Cities, and the Modern World. New York: Riverhead Books, 2007.
+Rosenberg, Daniel, and Anthony Grafton. Cartographies of Time: A History of the Timeline. New York, NY: Princeton Architectural Press, 2010.
+Shakespeare, William. Othello.
+Sloan, Robin. Mr. Penumbra’s 24-Hour Bookstore: A Novel. Picador, 2013.
+Weingart, Scott B. “The Route of a Text Message, a Love Story.” Vice, February 22, 2019 (https://www.vice.com/en_us/article/kzdn8n/the-route-of-a-text-message-a-love-story).
+Michael Pollan, “Produce Politics,” https://michaelpollan.com/articles-archive/the-way-we-live-now-produce-politics/
+Lois Beckett, “Everything We Know About What Data Brokers Know About You,” ProPublica (2014), https://www.propublica.org/article/everything-we-know-about-what-data-brokers-know-about-you
+Katherine Schwab, “This logo is like an ‘organic’ sticker for algorithms,” Fast Company (2018), https://www.fastcompany.com/90172734/this-logo-is-like-an-organic-sticker-for-algorithms-that-arent-evil
+Valentino-DeVries, Jennifer, Natasha Singer, Michael H. Keller, and Aaron Krolik. “Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret.” The New York Times, December 10, 2018, sec. Business, https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html
+Kashmir Hill, “How an internet mapping glitch turned a random Kansas farm into a digital hell,” https://splinternews.com/how-an-internet-mapping-glitch-turned-a-random-kansas-f-1793856052
+Frank Pasquale, The Black Box Society, Ch. 2, “Digital Reputation in an Era of Runaway Data”, pp.19-58
+Michael Pollan, “Big Organic” from The Omnivore’s Dilemma: A Natural History of Four Meals, pp. 134-184
+Ribes and Jackson, “Data Bite Man: The Work of Sustaining a Long-Term Study” in “Raw Data” is an Oxymoron, pp. 147-166
+Ingrid Burrington, “From Server Farm to Data Table”, 33C3 (2016)
+Hayden White, “Explanation by Emplotment” from Metahistory: The Historical Imagination in Nineteenth-Century Europe (1973), pp.7-11
+Miriam Posner, “See No Evil,” Logic Magazine, https://logicmag.io/04-see-no-evil/
+danah boyd and Kate Crawford, “Critical Questions for Big Data”
+John Cheever, “The Enormous Radio"
+Arkansas vs. James Andrew Bates [search warrant], http://www.documentcloud.org/documents/3473740-Arkansas-vs-James-Andrew-Bates-Amazon-Echo-and.html
+Complaint, National Fair Housing Alliance v. Facebook, US District Court, SDNY, https://nationalfairhousing.org/wp-content/uploads/2018/03/NFHA-v.-Facebook.-Complaint-w-Exhibits-March-27-Final-pdf.pdf
+Bowker and Star, Sorting Things Out, Ch. 1, “Some Tricks of the Trade in Analyzing Classification”
+D’Ignazio, Catherine. “Putting Data Back into Context.” DataJournalism. 2019. https://datajournalism.com/read/longreads/putting-data-back-into-context.
+Adrian Chen, “The Agency”, New York Times Magazine (2015), https://www.nytimes.com/2015/06/07/magazine/the-agency.html
+Holt, Bossler, and Seigfried-Spellar, “Acquisition and Examination of Forensic Evidence,” from Cybercrime and Digital Forensics, pp. 527-570
+Taeyoon Choi, “CPU Dumplings”, https://taeyoonchoi.com/poetic-computation/cpu-dumplings/
+Stephen Marche, “What Happens When an Algorithm Helps Write Science Fiction,” Wired (2017), https://www.wired.com/2017/12/when-an-algorithm-helps-write-science-fiction/
+Alexis Madrigal, “How Netflix Reverse Engineered Hollywood,” https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/
+“Machine Bias with Jeff Larson,” Data Stories [podcast] (http://datastori.es/85-machine-bias-with-jeff-larson/)
+Angwin and Larson, “How We Analyzed the COMPAS Recidivism Algorithm,”
+Brian Clifton, Sam Lavigne and Francis Tseng, White Collar Crime Risk Zones (March 2017), https://whitecollar.thenewinquiry.com/
+Ted Chiang, The Lifecycle of Software Objects
+1 Chronicles 21:1-18 (KJV), https://www.biblestudytools.com/kjv/1-chronicles/passage/?q=1-chronicles+21:1-18
+Daniel Rosenberg and Anthony Grafton, Cartographies of Time, Chs. 1 and 2
+Dan Bouk, from How Our Days Became Numbered
+Daniel Rosenberg, “Data before the Fact” in “Raw Data” is an Oxymoron
+William Shakespeare, Othello (1603), Folger Digital Texts, https://www.folgerdigitaltexts.org/download/index.html?filter=Othello
+Gleick, The Information, pp. 51-77
+Scott Weingart, “Cetus,” The Scottbot Irregular (2016), http://scottbot.net/cetus/
+Matthew Stanley, “Where Is That Moon, Anyway? The Problem of Interpreting Historical Solar Eclipse Observations” in “Raw Data” is an Oxymoron
+Steven Johnson, The Ghost Map: The Story of London’s Most Terrifying Epidemic-and How It Changed Science, Cities, and the Modern World
+Ellen Gruber Garvey, “Facts and FACTS: abolitionists’ database innovations” in “Raw Data” is an Oxymoron
+Catherine D’Ignazio, “The Detroit Geographic Expedition and Institute: A Case Study in Civic Mapping,” https://civic.mit.edu/2013/08/07/the-detroit-geographic-expedition-and-institute-a-case-study-in-civic-mapping/
+Larry Sanger, “The Early History of Nupedia and Wikipedia: A Memoir”
+Alison Parish, “Programming Rewordable: A Tale of Computer-Assisted Word Game Design” (2016), Medium, https://medium.com/@aparrish/programming-rewordable-a-tale-of-computer-assisted-word-game-design-dafaa31b5c77
+Virginia Eubanks, Automating Inequality, Ch. 4, “The Allegheny Algorithm,” pp. 127-173
+Russell, Andrew, and Lee Vinsel. “Hail the Maintainers.” Aeon (2016), https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more
+Mattew Kirschenbaum, “Unseen Hands,” in Track Changes: A Literary History of Word Processing, 139-165
+Lilly Irani, “Difference and Dependence among Digital Workers: The Case of Amazon Mechanical Turk,” South Atlantic Quarterly (2015), https://www.researchgate.net/publication/273109578_Difference_and_Dependence_among_Digital_Workers_The_Case_of_Amazon_Mechanical_Turk
+Ciaran Cassidey and Adrian Chen, The Moderators [Documentary], https://www.theverge.com/2017/4/16/15305562/the-moderators-documentary
+Exploring art (through selfies) with Google Arts & Culture, https://blog.google/outreach-initiatives/arts-culture/exploring-art-through-selfies-google-arts-culture/
+Ally Marotti, “Google’s art selfies aren’t available in Illinois. Here’s why.” Chicago Tribune, http://www.chicagotribune.com/business/ct-biz-google-art-selfies-20180116-story.html
+Ayana Lage, “Google’s ‘Arts & Culture’ App Is Being Called Racist, But The Problem Goes Beyond The Actual App” Bustle, https://www.bustle.com/p/googles-arts-culture-app-is-being-called-racist-but-the-problem-goes-beyond-the-actual-app-7929384
+Mimi Onuohu, “The Point of Collection”, Points, https://points.datasociety.net/the-point-of-collection-8ee44ad7c2fa
+Mimi Onuohu, “Missing Datasets”, https://github.com/MimiOnuoha/missing-datasets
+“Feminist Data Visualization with Catherine D’Ignazio” [podcast, 0:51:51], https://www.stitcher.com/podcast/data-stories-podcast/data-stories/e/52329685?autoplay=true
+Caroline Sinders, “Feminist Data Set,” http://soho20gallery.com/caroline-sinders-feminist-data-set/
+Katharine Schwab, “This Designer Is Fighting Back Against Bad Data–With Feminism,”" Fast Company, https://www.fastcompany.com/90168266/the-designer-fighting-back-against-bad-data-with-feminism
+Gleick, The Information, Ch. 4 (Babbage and Lovelace chapter)
+Roald Dahl, “The Great Automatic Grammatizator”
+Arthur C. Clarke, “Steam-Powered Word Processor”
+Latanya Sweeney, “Simple Demographics Often Identify People Uniquely”
+Robert Hackett, “Researchers Caused an Uproar By Publishing Data From 70,000 OkCupid Users,” http://fortune.com/2016/05/18/okcupid-data-research/
+Andrew Liptak, “Strava’s fitness tracker heat map reveals the location of military bases,” The Verge (2018), https://www.theverge.com/2018/1/28/16942626/strava-fitness-tracker-heat-map-military-base-internet-of-things-geolocation
+Norman Paradis, “The Golden State Killer case shows how swiftly we’re losing genetic privacy,” Vox (2018), https://www.vox.com/the-big-idea/2018/5/3/17313796/genetic-privacy-killer-golden-state-serial-killer-genealogy-genome
+“Collateral damage of Facebook Apps: an enhanced privacy scoring model”
+Erez Aiden and Jean-Baptiste Michel, Uncharted: Big Data as a Lens on Human Culture, pp. 15-17, 55-66
+Chalmers, Melissa K., and Paul N. Edwards. “Producing ‘One Vast Index’: Google Book Search as an Algorithmic System.” Big Data & Society 4, no. 2 (2017)
+Scott Rosenberg, “How Google Book Search Got Lost,” Wired, https://www.wired.com/2017/04/how-google-book-search-got-lost/
+Robin Sloan, Mr. Penumbra's 24-Hour Bookstore
+Interview with Caitlin Smallwood (Netflix) from Data Scientists at Work
+Ed Finn, “House of Cards: The Aesthetics of Abstraction” in What Algorithms Want: Imagination in the Age of Computing, 87-112
+Nosedive, Black Mirror. Netflix.
+Ingrid Burrington, Networks of New York: An Illustrated Field Guide to Urban Internet Infrastructure
+Ryan Calo, “Digital Market Manipulation”
+State Of New Mexico v. Tiny Lab Productions; Twitter Inc.; Mopub, Inc.; Google, Inc.; Admob, Inc.; Aerserv Llc; Inmobi Pte Ltd.; Applovin Corporation; And Ironsource Usa, Inc. [complaint] https://int.nyt.com/data/documenthelper/295-new-mexico-kid-apps-complaint/206d4ea39896e264fe3a/optimized/full.pdf
+L. Annette Binder, “Dead Languages” from Rise
+Jill Lepore, “The Cobweb: Can the Internet Be Archived?”, The New Yorker (2015), https://www.newyorker.com/magazine/2015/01/26/cobweb"
+Glenn Fleishman, “Archiving a Website for 10,000 Years,” The Atlantic (2016), https://www.theatlantic.com/technology/archive/2016/05/archiving-a-website-for-ten-thousand-years/482385/?utm_source=atltw
+Jer Thorp, “The Weight of Data”
+Alexander, Leo. “The Treatment of Shock from Prolonged Exposure to Cold, Especially in Water.” 1945. [Report on Data derived from Nazi medical experiments] https://corescholar.libraries.wright.edu/special_books/16.
+“Big data problems we face today can be traced to the social ordering practices of the 19th century,” http://blogs.lse.ac.uk/impactofsocialsciences/2015/10/13/ideological-inheritances-in-the-data-revolution/
+Ian Bogost, “My Cow Game Extracted Your Facebook Data”, The Atlantic (2018), https://www.theatlantic.com/technology/archive/2018/03/my-cow-game-extracted-your-facebook-data/556214/
+Amatriain, Xavier. “Big & Personal: Data and Models Behind Netflix Recommendations.” In Proceedings of the 2Nd International Workshop on Big Data, Streams and Heterogeneous Source Mining: Algorithms, Systems, Programming Models and Applications, 1–6. BigMine ’13. New York, NY, USA: ACM, 2013. https://doi.org/10.1145/2501221.2501222.
+Angwin, Julia and Surya Mattu. “Amazon Says It Puts Customers First. But Its Pricing….” Text/html. ProPublica, September 20, 2016. https://www.propublica.org/article/amazon-says-it-puts-customers-first-but-its-pricing-algorithm-doesnt.
+Angwin, Julia and Surya Mattu. “How We Analyzed Amazon’s Shopping Algorithm.” Text/html. ProPublica, September 20, 2016. https://www.propublica.org/article/how-we-analyzed-amazons-shopping-algorithm.
+BBC Scotland, “The Secret Rules of Modern Living: Algorithms”, https://www.netflix.com/watch/80095881?trackId=13752289&tctx=0%2C0%2C9ab8dcad9b19ddb24dbd49ea26607340907961ca%3A36a5345c2df4604a4a0aa711200dea370da825ce%2C%2C
+Bellanova, Rocco, and Gloria González Fuster. “No (Big) Data, No Fiction? Thinking Surveillance With/Against Netflix.” SSRN Scholarly Paper. Rochester, NY: Social Science Research Network, January 1, 2018. https://papers.ssrn.com/abstract=3120038.
+Blum, Andrew. Tubes: A Journey to the Center of the Internet. HarperCollins, 2014.
+Bounegru, Liliana, Tommaso Venturini, Jonathan Gray, and Mathieu Jacomy. “Narrating Networks.” Digital Journalism 5, no. 6 (July 3, 2017): 699–730. https://doi.org/10.1080/21670811.2016.1186497.
+Brier, Steve and Eileen Clancy. Beyond Citation: Critical Thinking About Digital Research, https://www.beyondcitation.org/
+Burrington, Ingrid. Where the Internet is Located, http://videos.theconference.se/ingrid-burrington-where-the-internet-is-located (9:54)
+Byrnes, Kevin. Harvest. Indevu Fims, 2016. https://vimeo.com/189449163.
+Carroll, Matt. “Spotlight Shines on a Spreadsheet.” MIT Technology Review. Accessed August 27, 2018. https://www.technologyreview.com/s/601545/a-spreadsheets-star-turn/.
+Mar Cabra and Erin Kissane, “The People and Tech Behind the Panama Papers: How Long-Term Infrastructure-Building Enabled the Biggest Leak in Data Journalism History,” https://source.opennews.org/articles/people-and-tech-behind-panama-papers/
+Chiang, Ted. Stories of Your Life and Others, 2016.
+Courtland, Rachel. “Bias Detectives: The Researchers Striving to Make Algorithms Fair.” Nature, June 20, 2018. https://doi.org/10.1038/d41586-018-05469-3.
+Dourish, Paul. The Stuff of Bits: An Essay on the Materialities of Information. 1 edition. Cambridge, Massachusetts: The MIT Press, 2017.
+Eggers, Dave. The Circle. Penguin, 2013.
+Fama, Katherine A. “Domestic Data and Feminist Momentum: The Narrative Accounting of Helen Stuart Campbell and Charlotte Perkins Gilman.” Studies in American Naturalism 12, no. 1 (November 3, 2017): 105–26. https://doi.org/10.1353/san.2017.0006.
+Fulsom, Ed. “Database as Genre”
+Gibson, William. Pattern Recognition
+Anna Grimshaw, At Low Tide
+Gutierrez, Sebastian. Data Scientists at Work. Berkeley, Calif.: Apress, 2014.
+Hedstrom, Margaret. Epistemic Infrastructure in the Rise of the Knowledge Economy 1, 2018.
+Hicks, Marie. Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing. 1 edition. Cambridge, MA: The MIT Press, 2017.
+Hu, Tung-Hui. A Prehistory of the Cloud. Cambridge, Massachusetts: The MIT Press, 2016.
+Ignatius, David. The Quantum Spy: A Thriller.W. W. Norton & Company, 2017.
+Irani, L. C., and M. S. Silberman. “Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk,” October 31, 2015. https://escholarship.org/uc/item/10c125z3.
+Kirschenbaum, Matthew G. Mechanisms: New Media and the Forensic Imagination. Cambridge, MA: MIT Press, 2008.
+Kitchen, Rob. “Big Data, new epistemologies and paradigm shifts”
+Lowell, Spencer, and Text By Malia Wollan. “Arks of the Apocalypse.” The New York Times, July 13, 2017, sec. Magazine. https://www.nytimes.com/2017/07/13/magazine/seed-vault-extinction-banks-arks-of-the-apocalypse.html.
+Lupi, Giorgia, Stefanie Posavec, and Maria Popova. Dear Data. New York: Princeton Architectural Press, 2016.
+Lupi, Giorgia. “Data Humanism” https://medium.com/@giorgialupi/data-humanism-the-revolution-will-be-visualized-31486a30dbfb
+Martinez, Antonio Garcia. Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley. New York: Harper, 2016.
+Miéville, China. Embassytown. London: Macmillan, 2011.
+Rajarshee Mitra. AlphaGo (2017). https://www.youtube.com/watch?v=jGyCsVhtW0M.
+Moe, Kristine. “Should the Nazi Research Data Be Cited?” The Hastings Center Report 14, no. 6 (1984): 5–7. https://doi.org/10.2307/3561733.
+Mussell, Jim. “Doing and Making: History as Digital Practice.” In History in the Digital Age, edited by Toni Weller, 79–94. Routledge, 2013.
+NAPA CARDS: Narrative Patterns for Data-Driven Storytelling, http://napa-cards.net/
+Noble, Safiya Umoja. Algorithms of Oppression: How Search Engines Reinforce Racism. New York: NYU Press, 2018.
+O’Beirne, Justin. “Google Maps’s Moat,” 2017. https://www.justinobeirne.com/google-maps-moat/.
+O’Neil, Cathy. Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy. London: Penguin Books, 2018.
+Paglen, Trevor. Blank Spots on the Map: The Dark Geography of the Pentagon’s Secret World. Updated edition. New York, N.Y.: Berkley, 2010.
+Post, Stephen G. “The Echo of Nuremberg: Nazi Data and Ethics.” Journal of Medical Ethics 17, no. 1 (1991): 42–44.
+Pipkin, Everest. “It Was Raining in the Data Center”, https://medium.com/s/story/it-was-raining-in-the-data-center-9e1525c37cc3
+Putnam, Lara. “The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast.” The American Historical Review 121, no. 2 (April 1, 2016): 377–402. https://doi.org/10.1093/ahr/121.2.377.
+Rothman, Joshua. “The Many Lives of Iron Mountain.” The New Yorker, October 9, 2013. https://www.newyorker.com/business/currency/the-many-lives-of-iron-mountain.
+Schäfer, Mirko Tobias, and Karin Van Es, eds. The Datafied Society: Studying Culture through Data. Amsterdam: Amsterdam University Press, 2017.
+Sophocles, Oedipus Rex
+Stern, Joanna. “Facebook Really Is Spying on You, Just Not Through Your Phone’s Mic.” Wall Street Journal, March 7, 2018, sec. Tech. https://www.wsj.com/articles/facebook-really-is-spying-on-you-just-not-through-your-phones-mic-1520448644.
+Tseng, Francis, and Willie Osterweil. “The Founder.” The New Inquiry (blog), November 14, 2017. https://thenewinquiry.com/the-founder/.
+Wardle, Tim, Dir, Three Identical Strangers. http://www.imdb.com/title/tt7664504/.
+Wernimont, Jacqueline. “Privacy, Security, and Your ‘Data Shadow.’” HASTAC. https://www.hastac.org/blogs/jacqueline-wernimont/2018/02/09/privacy-security-and-your-data-shadow.
+Jennifer Egan, “Great Rock and Roll Pauses, by Alison Blake” from A Visit From the Goon Squad (2010), https://www.scribd.com/document/52497593/Extract-A-Visit-from-the-Goon-Squad-by-Jennifer-Egan
+Claire Voon, “Artists Covertly Scan Bust of Nefertiti and Release the Data for Free Online,” Hyperallergic (2016), https://hyperallergic.com/274635/artists-covertly-scan-bust-of-nefertiti-and-release-the-data-for-free-online/
+Claire Voon, “Could the Nefertiti Scan Be a Hoax — and Does that Matter?”, Hyperallergic (2016), https://hyperallergic.com/281739/could-the-nefertiti-scan-be-a-hoax-and-does-that-matter/
+Cory Arcangel, “The Warhol Files: Andy Warhol’s Long-Lost Computer Graphics,” ARTFORUM (2014), https://www.artforum.com/print/201406/the-warhol-files-andy-warhol-s-long-lost-computer-graphics-46874

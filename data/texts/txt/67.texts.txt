@@ -1,0 +1,38 @@
+Howard, R. E. & Korver, C. D. (2008). Ethics for the Real World: Creating a Personal Code to Guide Decisions in Work and Life. Cambridge, MA: Harvard Business Review Press. https://books.google.com/books/about/Ethics_for_the_Real_World.html?id=OqnrtQFfXb0C.
+Ethics (for the real world). (n.d.). Retrieved from the Utilitarianism Wiki: http://utilitarianism.wikia.com/wiki/Ethics_(for_the_real_world)
+The White House. (2014). Big Data: Seizing Opportunities, Preserving Values, pp. 1-10. https://obamawhitehouse.archives.gov/sites/default/files/docs/big_data_privacy_report_may_1_2014.pdf
+Hickman, L. (2013, July 1). How algorithms rule the world. The Guardian. https://www.theguardian.com/science/2013/jul/01/how-algorithms-rule-world-nsa
+Warman, M. (2012, January 27). FBI to Use Twitter to Predict Crimes. The Telegraph. http://www.telegraph.co.uk/technology/news/9043690/FBI-to-use-Twitter-to-predict-crimes.html  
+Minority Report (film). (n.d.). Retrieved from Wikipedia: https://en.wikipedia.org/wiki/Minority_Report_(film) 
+Stanford Professor Ron Howard: Decision Analysis Turns 50. (2014, October 30). https://youtu.be/3MnsqBFpo_A 
+Fox, J. (Interviewer) & Howard, R. E. (Interviewee). (2014). Making Good Decisions [Interview audio file and transcript]. Retrieved from Havard Business Review Web site: https://hbr.org/2014/11/making-good-decisions 
+Keelin, T., Schoemaker, P., & Spetzler, C. (2009). Decision Quality: The Fundamentals of Making Good Decisions. Decision Education Foundation. http://media.wix.com/ugd/d3c97e_9452fec9f54e674f5c4e6f0dcd5edc63.pdf
+Korver, C. (2012). Applying Decision Analysis to Venture Investing. Kauffman Fellows Report, volume 3. http://www.kauffmanfellows.org/journal_posts/applying-decision-analysis-to-venture-investing/ 
+Suggett, P. (2017, February 16). Get To Know, and Use, AIDA. The Balance. Retrieved from https://www.thebalance.com/get-to-know-and-use-aida-39273
+Duhigg, C. (2012, February 16). How Companies Learn Your Secrets. The New York Times Magazine. Retrieved from http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
+(2014, September 1). Bayes' Theorem - Drug Test Probability [Video File]. Retrieved from  https://www.youtube.com/watch?v=Fp8tvqEGOJM
+Richards, N. M., & King, J. H. (2013). Three Paradoxes of Big Data. 66 Stanford Law Review Online 41. Retrieved from https://review.law.stanford.edu/wp-content/uploads/sites/3/2016/08/66_StanLRevOnline_41_RichardsKing.pdf
+Useem, J. (2017, May). How Online Shopping Makes Suckers of Us All. The Atlantic. Retrieved from https://www.theatlantic.com/magazine/archive/2017/05/how-online-shopping-makes-suckers-of-us-all/521448/
+Weinberger, D. (2015, June 22). The Internet That Was (and Still Could Be). The Atlantic. Retrieved from https://www.theatlantic.com/technology/archive/2015/06/medium-is-the-message-paradise-paved-internet-architecture/396227/
+Dubner, S. J. (2016, July 13). Is the Internet Being Ruined? Freakonomics Radio. Podcast retrieved from http://freakonomics.com/podcast/internet/
+Tufekci, Z. (2016, May 19). The Real Bias Built In at Facebook. The New York Times. Retrieved from https://www.nytimes.com/2016/05/19/opinion/the-real-bias-built-in-at-facebook.html
+Marcus, G., & Davis, E. (2014, April 6). Eight (No, Nine!) Problems with Big Data. The New York Times. Retrieved from https://www.nytimes.com/2014/04/07/opinion/eight-no-nine-problems-with-big-data.html
+Lazer, D., Kennedy, R., King, G., & Vespignani, A. (2014, March 14). The Parable of Google Flu: Traps in Big Data Analysis. Science, 343(6176), 1203-1205. Retrieved from https://gking.harvard.edu/files/gking/files/0314policyforumff.pdf (also available at http://science.sciencemag.org/content/343/6176/1203.full). 
+(2016, December 12). Uber raises privacy concerns with policy to track location even after ride [Video File]. Retrieved from https://www.youtube.com/watch?v=HRjbFvn0Pa8
+Weise, E., & Guynn, J. (2014, November 19). Uber tracking raises privacy concerns. USA Today. Retrieved from https://www.usatoday.com/story/tech/2014/11/19/uber-privacy-tracking/19285481/
+Barocas, S., & Nissenbaum, H. (2014). Big Data’s End Run Around Procedural Privacy Protections. Communications of the ACM, 57(11), 31-33. Retrieved from https://pdfs.semanticscholar.org/e6cc/9aa6de6ff274421743a397f8da77490d7e7b.pdf
+U.S. Constitution (Amendments to the Constitution). Retrieved from http://constitutionus.com/#amendments
+Schwartz, P. M. (2010). Data Protection Law and the Ethical Use of Analytics. Centre for Information Policy Leadership, pp. 18-26. Retrieved from https://iapp.org/media/pdf/knowledge_center/Ethical_Underpinnings_of_Analytics.pdf
+Brennan-Marquez, K. (2016, June 29). The Supreme Court's Big Data Problem. Points. Retrieved from https://points.datasociety.net/the-supreme-courts-big-data-problem-9401fa88a3e0
+Barocas, S., & Selbst, A. (2016). Big Data's Disparate Impact. California Law Review, 104(671), 677-693. Retrieved from http://www.californialawreview.org/2-big-data/ (PDF at http://www.californialawreview.org/wp-content/uploads/2016/06/2Barocas-Selbst.pdf)
+(2013, April 1). The Hidden Biases in Big Data. Harvard Business Review. Retrieved from https://hbr.org/2013/04/the-hidden-biases-in-big-data 
+Crawford, K., & Schultz, J. (2014). Big Data and Due Process: Toward a Framework to Redress Predictive Privacy Harms. Boston College Law Review, 55(1), 93-99, 121-128. Retrieved from http://lawdigitalcommons.bc.edu/cgi/viewcontent.cgi?article=3351&context=bclr
+Richards, N. M., & King, J. H. (2016). Big Data and the Future for Privacy. Handbook of Research on Digital Transformations, 16-21. Retrieved from https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2714496_code400644.pdf?abstractid=2512069&mirid=1
+Tufekci, Z. (2015). Algorithmic Harms Beyond Facebook and Google: Emergent Challenges of Computational Agency. Colorado Technology Law Journal, 13, 203-209. Retrieved from http://ctlj.colorado.edu/wp-content/uploads/2015/08/Tufekci-final.pdf
+Mozur, P., Scott, M., & Isaac, M. (2017, September 17). Facebook Faces a New World as Officials Rein in a Wild Web. The New York Times. Retrieved from https://www.nytimes.com/2017/09/17/technology/facebook-government-regulations.html
+Maheshwari, S., & Stevenson, A. (2017, September 15). Google and Facebook Face Criticism for Ads Targeting Racist Sentiments. The New York Times. Retrieved from https://www.nytimes.com/2017/09/15/business/facebook-advertising-anti-semitism.html
+Ehrlich, E. (2017, July 20). 'Neutrality' for Thee, but Not for Google, Facebook, and Amazon. The Wall Street Journal. Retrieved from https://www.wsj.com/articles/neutrality-for-thee-but-not-for-google-facebook-and-amazon-1500591612
+Rosen, R. J. (2013, October 3). Is This the Grossest Advertising Strategy of All Time? The Atlantic. Retrieved from https://www.theatlantic.com/technology/archive/2013/10/is-this-the-grossest-advertising-strategy-of-all-time/280242/
+Schneier, B. (2017, January 27). Click Here to Kill Everyone: With the Internet of Things, we’re building a world-size robot. How are we going to control it? New York Magazine. Retrieved from http://nymag.com/selectall/2017/01/the-internet-of-things-dangerous-future-bruce-schneier.html
+Calo, R., & Rosenblat, A. (2017). The Taking Economy: Uber, Information, Power. Columbia Law Review, 117. Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2929643 
+Thaler, R. H., & Tucker, W. (2013). Smarter Information, Smarter Consumers. Harvard Business Review. Retrieved from https://hbr.org/2013/01/smarter-information-smarter-consumers

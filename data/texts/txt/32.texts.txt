@@ -1,0 +1,68 @@
+NSPE Code of Ethics for Engineers, https://www.nspe.org/resources/ethics/code-ethics
+ACM Code of Ethics and Professional Conduct, https://www.acm.org/code-of-ethics
+Civil complaint in D.C. v. DoorDash, https://oag.dc.gov/sites/default/files/2019-11/DoorDash-Complaint.pdf
+Analysis of new DoorDash pay system, https://payup.wtf/doordash/no-free-lunch-report
+Sara Bernstein, “Causal Proportions and Moral Responsibility”, https://philpapers.org/archive/BERCPA-7.pdf
+Douglas Hofstadter, “Metamagical Themas: Sanity and Survival”
+Sade Hormio, “Culpable Ignorance in a Collective Setting”
+Nancy Leveson, Medical Devices: The Therac 25
+New Richard Feynman, chapter about the Challenger disaster
+Madeleine Hayenhjelm and Jonathan Wolff, “The Moral Problem of Risk Impositions: A Survey of the Literature”
+The Verge: The many human errors that brought down the Boeing 737 Max (May 2, 2019)
+House Committee on Transportation & Infrastructure Findings on Boeing 737 MAX
+CS Lewis, “The Inner Ring”
+Ursula K Leguin, “The Ones Who Walk Away from Omelas”
+N.K. Jemisin, “The Ones Who Stay and Fight”
+Selected readings on Theranos, https://cs181.keithw.org/Theranos-shorter-readings.pdf
+Mark Colyvan, Helen M. Regan, and Scott Ferson, “Is it a Crime to Belong to a Reference Class?”
+Cory Doctorow, “Our Neophobic, Conservative AI Overlords Want Everything to Stay the Same”
+Twitter thread on opaque credit scoring algorithms, https://twitter.com/dhh/status/1192540900393705474
+Marion Forcade and Keiran Healy, “Seeing Like a Market”
+Gary Malinas and John Bigelow, “Simpson’s Paradox”
+Sam Corbett-Davies, Emma Pierson, Avi Feller, Sharad Goel, and Aziz Huq, “Algorithmic Decision Making and the Cost of Fairness”
+Karen Hao and Jonathan Stray, “Can you make an AI fairer than a judge?”
+Reuben Binns, “Fairness in Machine Learning: Lessons from Political Philosophy”
+Solon Barocas and Andrew D. Selbst, “Big Data’s Disparate Impact”
+Buolamwini and Gebru, “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification,” 2018 Conference on Fairness, Accountability, and Transparency
+Zittrain, “The Hidden Costs of Automated Thinking,” The New Yorker, 2019
+Ochigame, “The Invention of ‘Ethical AI’”, The Intercept, 2019
+Intro and chap. 6 of Margolis and Fisher, “Unlocking the Clubhouse” (2002)
+Cutler, “East Of Palo Alto’s Eden: Race And The Formation Of Silicon Valley” (2015)
+Peterson and Dinkins, “What Atlanta Can Teach Tech About Cultivating Black Talent” (2020)
+Rode, A theoretical agenda for feminist HCI, Interacting with Computers, 2011
+Wiener, “Uncanny Valley” (2016)
+Fowler, “Reflecting on one very, very strange year at Uber” (2017)
+Chapter 7 from Valian, Why So Slow? (1999)
+Lee, “James Damore has sued Google. His infamous memo on women in tech is still nonsense.” (2018)
+Lerner, “We ran the numbers, and there really is a pipeline problem in eng hiring.” (2019)
+McClelland, “I Was a Warehouse Wage Slave” (2012)
+Bray, “Bye, Amazon” (2020)
+Newton, “The Trauma Floor: The secret lives of Facebook moderators in America” (2019)
+Newton, “Facebook will pay $52 million in settlement with moderators who developed PTSD on the job (2020)
+Alexander, “Sort by Controversial” (2018)
+Dash, “If your website’s full of assholes, it’s your fault” (2011)
+Roth, “The infinite scroll” (2020)
+“Google’s iPhone Tracking” (WSJ 2012), “F.T.C. Fines Google...” (NYT 2012), “Google is Fined $170 Million...” (NYT 2019)
+Marvin, “A visual history of Google ad labeling in search results” (updated 2020)
+Muiznieks, “The Brave Browser is Brilliant” (2020)
+Narayanan, Mathur, Chetty, and Kshirsagar, Dark Patterns: Past, Present, and Future (acm queue, 2020)
+Kroll, Citizenship privileges and corporate performance reviews (2018)
+Maria Bustillos, The GNU Manifesto Turns Thirty, New Yorker (2015)
+Zittrain, The Copyright Cage, legalaffairs (2003)
+Jennifer Granick on “Ciscogate”: Part 1 and Part 2
+Winstein, Real Dialogue: The Tech interviews Jack Valenti, The Tech (2004)
+Richard M. Stallman, The GNU Manifesto (1985)
+Hanson, The Role of Community in Free Software (2007)
+Citizenfour (2014, 115 minutes), https://www.youtube.com/watch?v=NRzDsxUOm4M
+U.S. Supreme Court decision in Kyllo v. United States, 533 U.S. 27 (2001)
+Green, Looking back at the Snowden revelations, 2019
+Kirchner and Goldstein, How Automated Background Checks Freeze Out Renters, New York Times (2019)
+Rogaway, The Moral Character of Cryptographic Work (2015)
+Gellman, Secrets, Surveillance and Snowden Washington Post (2020)
+Victor, “Inventing on Principle” (2012, 54 minutes)
+VPRO, “Beyond the emoji” (2019, 50 minutes)
+Wakabayashi, Legal Shield for Social Media Is Targeted by Trump, New York Times (2020)
+Gabriel, The Rise of Worse is Better (1991)
+Popper and Herrero, The Coder and the Dictator, N.Y. Times (2020)
+Munroe, Infrastructures (xkcd #743, 2010)
+Electronic Frontier Foundation, “Section 230 Protections”: Part 1 and Part 2

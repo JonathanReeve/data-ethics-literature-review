@@ -1,0 +1,52 @@
+Ethics for the Information Age, 7th Ed., by Michael Quinn
+Physiognomy's new clothes, https://medium.com/@blaisea/physiognomys-new-clothes-f2d4b59fdd6a
+Ethical guidelines for driverless cars in Germany, https://www.bmvi.de/SharedDocs/EN/Documents/G/ethic-commission-report.pdf?__blob=publicationFile
+https://www.moralmachine.net/
+https://en.wikipedia.org/wiki/Trolley_problem
+A simplified account of Kantian ethics
+The mechanics of applying Kantian reasoning to actions. 
+The Facebook mood experiment.
+Virtue Ethics,https://iep.utm.edu/virtue/
+Virtue Ethics in the eastern tradition, https://www.webpages.uidaho.edu/ngier/hinduve.htm
+The Ethics of Internet Software and Consumer Privacy
+https://qz.com/213900/the-nine-companies-that-know-more-about-you-than-google-or-facebook/
+Data Brokers: A Call For Transparency and Accountability, https://www.ftc.gov/system/files/documents/reports/data-brokers-call-transparency-accountability-report-federal-trade-commission-may-2014/140527databrokerreport.pdf
+How to protect yourself from that massive Equifax breach, https://www.wired.com/story/how-to-protect-yourself-from-that-massive-equifax-breach/
+Equifax's big fat fail: How not to handle a data breach, https://www.zdnet.com/article/equifaxs-big-fat-fail-how-not-to-handle-a-data-breach/
+The Equifax Breach Exposes America's Identity Crisis, https://www.wired.com/story/the-equifax-breach-exposes-americas-identity-crisis/
+What Facebook knows about you, https://www.propublica.org/article/breaking-the-black-box-what-facebook-knows-about-you
+Practical Implications of Sharing Data: A Primer on Data Privacy, Anonymization, and De-Identification, https://support.sas.com/resources/papers/proceedings15/1884-2015.pdf
+Guidance Regarding Methods for De-identification of Protected Health Information in Accordance with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule, https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html#standard
+Robust De-anonymization of Large Datasets (How to Break Anonymity of the Netflix Prize Dataset), https://arxiv.org/pdf/cs/0610105.pdf
+All of Us Research Program Overview, https://allofus.nih.gov/about/all-us-research-program-overview
+Want to Know What Facebook Really Thinks of Journalists? Here's What Happened When It Hired Some. https://gizmodo.com/want-to-know-what-facebook-really-thinks-of-journalists-1773916117
+Facebook removes fake article about Megyn Kelly from Trending Topics, https://www.theverge.com/2016/8/29/12690740/megyn-kelly-fox-news-anchor-fake-facebook-trending-topics
+Net neutrality won. Here’s the essay that started it all. https://www.vox.com/2016/6/14/11936484/net-neutrality-essay-tim-wu
+The ‘born criminal’? Lombroso and the origins of modern criminology, https://www.historyextra.com/period/victorian/the-born-criminal-lombroso-and-the-origins-of-modern-criminology/
+The Return of Lombroso? Ethical Aspects of (Visions of) Preventive Forensic Screening, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4638059/
+The Shape of Your Head and the Shape of Your Mind, The Atlantic
+The Forgotten Lessons of the American Eugenics Movement, The New Yorker
+U.S. Scientists' Role in the Eugenics Movement (1907–1939): A Contemporary Biologist's Perspective, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2757926/
+The Hidden Biases in Big Data, https://hbr.org/2013/04/the-hidden-biases-in-big-data
+"Raw Data" Is an Oxymoron (Infrastructures) by Lisa Gitelman
+How Big Data is Unfair, Moritz Hardt, https://medium.com/@mrtz/how-big-data-is-unfair-9aa544d739de
+Debugging machine learning, https://nlpers.blogspot.com/2016/08/debugging-machine-learning.html
+Tuskegee Syphilis Study, https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study
+The Portrayal of J. Marion Sims’ Controversial Surgical Legacy, Sara Spettel and Mark Donald White
+Nazi human experimentation
+The Ethical Considerations of Medical Experimentation on Human Subjects by Manny Bekier, M.S.
+The Nuremberg Code, https://history.nih.gov/display/history/Publications
+Institutional Review Boards Frequently Asked Questions, https://www.fda.gov/regulatory-information/search-fda-guidance-documents/institutional-review-boards-frequently-asked-questions
+The Belmont Report, Ethical Principles and Guidelines for the Protection of Human Subects of Research
+WMA DECLARATION OF HELSINKI – ETHICAL PRINCIPLES FOR MEDICAL RESEARCH INVOLVING HUMAN SUBJECTS, https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/
+Experimental evidence of massive-scale emotional contagion through social networks, Adam D. I. Kramer, Jamie E. Guillory, and Jeffrey T. Hancock
+On the Ethics of A/B Testing, https://freedom-to-tinker.com/2014/07/08/on-the-ethics-of-ab-testing/
+Menlo Report, The Belmont Report for Information and Communications Technology Research,  https://en.wikipedia.org/wiki/Menlo_Report
+Scientists Are Just as Confused About the Ethics of Big-Data Research as You, Sarah Zhang
+Random Forests, Leo Breiman, https://www.stat.berkeley.edu/users/breiman/randomforest2001.pdf
+Auditing Black-box Models for Indirect Influence, Philip Adler, Casey Falk, Sorelle A. Friedler, Gabriel Rybeck, Carlos Scheidegger, Brandon Smith, Suresh Venkatasubramanian
+Principles for Accountable Algorithms and a Social Impact Statement for Algorithms, https://www.fatml.org/resources/principles-for-accountable-algorithms
+Ten simple rules for responsible big data research, Matthew Zook ,Solon Barocas,danah boyd,Kate Crawford,Emily Keller,Seeta Peña Gangadharan,Alyssa Goodman,Rachelle Hollander,Barbara A. Koenig,Jacob Metcalf,Arvind Narayanan,Alondra Nelson,Frank Pasquale, March 30, 2017, https://doi.org/10.1371/journal.pcbi.1005399
+Ethics in medicine, https://depts.washington.edu/bhdept/ethics-medicine
+ICE Extreme Vetting Initiative: A Resource Page, https://www.brennancenter.org/our-work/research-reports/ice-extreme-vetting-initiative-resource-page
+A Grand Bargain to Make Tech Companies Trustworthy, https://www.theatlantic.com/technology/archive/2016/10/information-fiduciary/502346/

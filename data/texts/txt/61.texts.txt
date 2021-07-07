@@ -1,0 +1,51 @@
+Big Data: A Report on Algorithmic Systems, Opportunity, and Civil Rights. The White House. 2016.
+Bias in computer systems. Batya Friedman, Helen Nissenbaum. 1996
+The Hidden Biases in Big Data. Kate Crawford. 2013.
+Big Data’s Disparate Impact. Solon Barocas, Andrew Selbst. 2014.
+Blog post: How big data is unfair. Moritz Hardt. 2014
+Semantics derived automatically from language corpora contain human-like biases. Aylin Caliskan, Joanna J. Bryson, Arvind Narayanan
+Sex Bias in Graduate Admissions: Data from Berkeley, P. J. Bickel, E. A. Hammel, J. W. O’Connell. 1975.
+Simpson’s paradox, Pearl (Chapter 6), Tech report
+Certifying and removing disparate impact. Michael Feldman, Sorelle Friedler, John Moeller, Carlos Scheidegger, Suresh Venkatasubramanian
+Equality of Opportunity in Supervised Learning, Moritz Hardt, Eric Price, Nathan Srebro. 2016.
+Blog post: Approaching fairness in machine learning. Moritz Hardt. 2016.
+Machine Bias. Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, ProPublica, github.com/probublica/compas-analysis, github.com/adebayoj/fairml
+COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity. Northpointe Inc.
+Fairness in Criminal Justice Risk Assessments: The State of the Art. Richard Berk, Hoda Heidari, Shahin Jabbari, Michael Kearns, Aaron Roth. 2017.
+Courts and Predictive Algorithms. Angèle Christin, Alex Rosenblat, and danah boyd. 2015.
+Limitations of mitigating judicial bias with machine learning. Kristian Lum. 2017.
+Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods. John C. Platt. 1999.
+Inherent Trade-Offs in the Fair Determination of Risk Scores. Jon Kleinberg, Sendhil Mullainathan, Manish Raghavan. 2016.
+Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. Alexandra Chouldechova. 2016.
+Attacking discrimination with smarter machine learning. An interactive visualization by Martin Wattenberg, Fernanda Viégas, and Moritz Hardt. 2016.
+Algorithmic decision making and the cost of fairness. Sam Corbett-Davies, Emma Pierson, Avi Feller, Sharad Goel, Aziz Huq. 2017.
+The problem of Infra-marginality in Outcome Tests for Discrimination. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel. 2017.
+Equality of Opportunity in Supervised Learning. Moritz Hardt, Eric Price, Nathan Srebro. 2016.
+Elements of Causal Inference. Peters, Janzing, Schölkopf
+On causal interpretation of race in regressions adjusting for confounding and mediating variables. Tyler J. VanderWeele and Whitney R. Robinson. 2014.
+Counterfactual Fairness. Matt J. Kusner, Joshua R. Loftus, Chris Russell, Ricardo Silva. 2017.
+Avoiding Discrimination through Causal Reasoning. Niki Kilbertus, Mateo Rojas-Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, Bernhard Schölkopf. 2017.
+Fair Inference on Outcomes. Razieh Nabi, Ilya Shpitser
+Fairness Through Awareness. Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, Rich Zemel. 2012.
+On the (im)possibility of fairness. Sorelle A. Friedler, Carlos Scheidegger, Suresh Venkatasubramanian. 2016.
+Why propensity scores should not be used. Gary King, Richard Nielson. 2016.
+Raw Data is an Oxymoron. Edited by Lisa Gitelman. 2013.
+Blog post: What’s the most important thing in Statistics that’s not in the textbooks. Andrew Gelman. 2015.
+Deconstructing Statistical Questions. David J. Hand. 1994.
+Statistics and the Theory of Measurement. David J. Hand. 1996.
+Measurement Theory and Practice: The World Through Quantification. David J. Hand. 2010
+Survey Methodology, 2nd Edition. Robert M. Groves, Floyd J. Fowler, Jr., Mick P. Couper, James M. Lepkowski, Eleanor Singer, Roger Tourangeau. 2009
+Sampling: Design and Analysis. Sharon L. Lohr
+Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings. Tolga Bolukbasi, Kai-Wei Chang, James Zou, Venkatesh Saligrama, Adam Kalai. 2016.
+Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints. Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, Kai-Wei Chang. 2017.
+Big Data’s Disparate Impact. Solon Barocas, Andrew Selbst. 2014.
+It’s Not Privacy, and It’s Not Fair. Cynthia Dwork, Deirdre K. Mulligan. 2013.
+The Trouble with Algorithmic Decisions. Tal Zarsky. 2016.
+How Copyright Law Can Fix Artificial Intelligence’s Implicit Bias Problem. Amanda Levendowski. 2017.
+A Theory of Justice. John Rawls
+Equality of Opportunity. John E. Roemer
+Causality. Judea Pearl
+Elements of Causal Inference. Peters, Janzing, Schölkopf
+Counterfactuals and Causal Inference. Morgan and Winship
+Equity. Peyton Young
+Weapons of Math Destruction. Cathy O’Neil.

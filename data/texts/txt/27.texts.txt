@@ -1,0 +1,81 @@
+Why Humans Should Care About Data Science (Cecilia Aragon, 2016 HCDE Seminar Series)
+Aragon, C. et al. (2016). Developing a Research Agenda for Human-Centered Data Science. Human Centered Data Science workshop, CSCW 2016.
+Provost, Foster, and Tom Fawcett. Data science and its relationship to big data and data-driven decision making. Big Data 1.1 (2013): 51-59.
+Kling, Rob and Star, Susan Leigh. Human Centered Systems in the Perspective of Organizational and Social Informatics. 1997.
+Ideo.org The Field Guide to Human-Centered Design. 2015.
+Faraway, Julian. The Decline and Fall of Statistics. Faraway Statistics, 2015.
+Press, Gil. Data Science: What's The Half-Life Of A Buzzword? Forbes, 2013.
+Bloor, Robin. A Data Science Rant. Inside Analysis, 2013.
+Various authors. Position papers from 2016 CSCW Human Centered Data Science Workshop. 2016.
+Markham, Annette and Buchanan, Elizabeth. Ethical Decision-Making and Internet Researchers. Association for Internet Research, 2012.
+Barocas, Solan and Nissenbaum, Helen. Big Data's End Run around Anonymity and Consent. In Privacy, Big Data, and the Public Good. 2014.
+Wittkower, D.E. Lurkers, creepers, and virtuous interactivity: From property rights to consent and care as a conceptual basis for privacy concerns and information ethics
+National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. The Belmont Report. U.S. Department of Health and Human Services, 1979.
+Hill, Kashmir. Facebook Manipulated 689,003 Users' Emotions For Science. Forbes, 2014.
+Adam D. I. Kramer, Jamie E. Guillory, and Jeffrey T. Hancock Experimental evidence of massive-scale emotional contagion through social networks. PNAS 2014 111 (24) 8788-8790; published ahead of print June 2, 2014.
+Barbaro, Michael and Zeller, Tom. A Face Is Exposed for AOL Searcher No. 4417749. New York Times, 2008.
+Zetter, Kim. Arvind Narayanan Isn’t Anonymous, and Neither Are You. WIRED, 2012.
+Gray, Mary. When Science, Customer Service, and Human Subjects Research Collide. Now What? Culture Digitally, 2014.
+Tene, Omer and Polonetsky, Jules. Privacy in the Age of Big Data. Stanford Law Review, 2012.
+Dwork, Cynthia. Differential Privacy: A survey of results. Theory and Applications of Models of Computation , 2008.
+Green, Matthew. What is Differential Privacy? A Few Thoughts on Cryptographic Engineering, 2016.
+Hsu, Danny. Techniques to Anonymize Human Data. Data Sift, 2015.
+Metcalf, Jacob. Twelve principles of data ethics. Ethical Resolve, 2016.
+Poor, Nathaniel and Davidson, Roei. When The Data You Want Comes From Hackers, Or, Looking A Gift Horse In The Mouth. CSCW Human Centered Data Science Workshop, 2016.
+Chapter 2 "Assessing Reproducibility" and Chapter 3 "The Basic Reproducible Workflow Template" from The Practice of Reproducible Research University of California Press, 2018.
+Hickey, Walt. The Dollars and Cents Case Against Hollywood's Exclusion of Women. FiveThirtyEight, 2014. AND Keegan, Brian. The Need for Openness in Data Journalism. 2014.
+Keegan, Brian. WeatherCrime. GitHub, 2014.
+Geiger, Stuart R. and Halfaker, Aaron. Operationalizing conflict and cooperation between automated software agents in Wikipedia: A replication and expansion of "Even Good Bots Fight". GitHub, 2017.
+Thain, Nithum; Dixon, Lucas; and Wulczyn, Ellery. Wikipedia Talk Labels: Toxicity. Figshare, 2017.
+Narayan, Sneha et al. Replication Data for: The Wikipedia Adventure: Field Evaluation of an Interactive Tutorial for New Users. Harvard Dataverse, 2017.
+Press, Gil. Cleaning Big Data: Most Time-Consuming, Least Enjoyable Data Science Task, Survey Says. Forbes, 2016.
+Christensen, Garret. Manual of Best Practices in Transparent Social Science Research. 2016.
+Hickey, Walt. The Bechdel Test: Checking Our Work. FiveThirtyEight, 2014.
+Chapman et al. Cross Industry Standard Process for Data Mining. IBM, 2000.
+Shyong (Tony) K. Lam, Anuradha Uduwage, Zhenhua Dong, Shilad Sen, David R. Musicant, Loren Terveen, and John Riedl. 2011. WP:clubhouse?: an exploration of Wikipedia's gender imbalance. In Proceedings of the 7th International Symposium on Wikis and Open Collaboration (WikiSym '11). ACM, New York, NY, USA, 1-10. DOI=http://dx.doi.org/10.1145/2038558.2038560
+Aschwanden, Christie. Science Isn't Broken FiveThirtyEight, 2015.
+Halfaker, Aaron et al. The Rise and Decline of an Open Collaboration Community: How Wikipedia's reaction to sudden popularity is causing its decline. American Behavioral Scientist, 2012.
+Warnke-Wang, Morten. Autoconfirmed article creation trial. Wikimedia, 2017.
+Wikipedia Or Encyclopædia Britannica: Which Has More Bias?. Forbes, 2015. Based on Greenstein, Shane, and Feng Zhu.Do Experts or Collective Intelligence Write with More Bias? Evidence from Encyclopædia Britannica and Wikipedia. Harvard Business School working paper.
+Christian Sandvig, Kevin Hamilton, Karrie Karahalios, Cedric Langbort (2014/05/22) Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms. Paper presented to "Data and Discrimination: Converting Critical Concerns into Productive Inquiry," a preconference at the 64th Annual Meeting of the International Communication Association. May 22, 2014; Seattle, WA, USA.
+Bamman, David Interpretability in Human-Centered Data Science. 2016 CSCW workshop on Human-Centered Data Science.
+Anderson, Carl. The role of model interpretability in data science. Medium, 2016.
+Hill, Kashmir. Facebook figured out my family secrets, and it won't tell me how. Engadget, 2017.
+Blue, Violet. Google’s comment-ranking system will be a hit with the alt-right. Engadget, 2017.
+Ingold, David and Soper, Spencer. Amazon Doesn’t Consider the Race of Its Customers. Should It?. Bloomberg, 2016.
+Mars, Roman. The Age of the Algorithm. 99% Invisible Podcast, 2017.
+Google's Perspective API, https://www.perspectiveapi.com/#/
+R. Stuart Geiger and Aaron Halfaker. 2017. Operationalizing conflict and cooperation between automated software agents in Wikipedia: A replication and expansion of Even Good Bots Fight. Proceedings of the ACM on Human-Computer Interaction (Nov 2017 issue, CSCW 2018 Online First) 1, 2, Article 49. DOI: https://doi.org/10.1145/3134684
+Maximillian Klein. Gender by Wikipedia Language. Wikidata Human Gender Indicators (WHGI), 2017.
+Benjamin Collier and Julia Bear. Conflict, criticism, or confidence: an empirical examination of the gender gap in wikipedia contributions. In Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work (CSCW '12). DOI: https://doi.org/10.1145/2145204.2145265
+Christina Shane-Simpson, Kristen Gillespie-Lynch, Examining potential mechanisms underlying the Wikipedia gender gap through a collaborative editing task, In Computers in Human Behavior, Volume 66, 2017, https://doi.org/10.1016/j.chb.2016.09.043. (PDF on Canvas)
+Amanda Menking and Ingrid Erickson. 2015. The Heart Work of Wikipedia: Gendered, Emotional Labor in the World's Largest Online Encyclopedia. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). https://doi.org/10.1145/2702123.2702514
+Andrea Forte, Nazanin Andalibi, and Rachel Greenstadt. Privacy, Anonymity, and Perceived Risk in Open Collaboration: A Study of Tor Users and Wikipedians. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW '17). DOI: https://doi.org/10.1145/2998181.2998273
+Lilly C. Irani and M. Six Silberman. 2013. Turkopticon: interrupting worker invisibility in amazon mechanical turk. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). DOI: https://doi.org/10.1145/2470654.2470742
+Shilad Sen, Margaret E. Giesel, Rebecca Gold, Benjamin Hillmann, Matt Lesicko, Samuel Naden, Jesse Russell, Zixiao (Ken) Wang, and Brent Hecht. 2015. Turkers, Scholars, "Arafat" and "Peace": Cultural Communities and Algorithmic Gold Standards. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (CSCW '15). DOI: http://dx.doi.org/10.1145/2675133.2675285
+WeArDynamo contributors. How to be a good requester and Guidelines for Academic Requesters. Wearedynamo.org
+Wang, Tricia. Why Big Data Needs Thick Data. Ethnography Matters, 2016.
+Michael D. Ekstrand, F. Maxwell Harper, Martijn C. Willemsen, and Joseph A. Konstan. 2014. User perception of differences in recommender algorithms. In Proceedings of the 8th ACM Conference on Recommender systems (RecSys '14). ACM, New York, NY, USA, 161-168. DOI: https://doi.org/10.1145/2645710.2645737
+Chen, N., Brooks, M., Kocielnik, R., Hong, R., Smith, J., Lin, S., Qu, Z., Aragon, C. Lariat: A visual analytics tool for social media researchers to explore Twitter datasets. Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS), Data Analytics and Data Mining for Social Media Minitrack (2017)
+Sean M. McNee, John Riedl, and Joseph A. Konstan. 2006. Making recommendations better: an analytic model for human-recommender interaction. In CHI '06 Extended Abstracts on Human Factors in Computing Systems (CHI EA '06). ACM, New York, NY, USA, 1103-1108. DOI=http://dx.doi.org/10.1145/1125451.1125660
+Kevin Crowston and the Gravity Spy Team. 2017. Gravity Spy: Humans, Machines and The Future of Citizen Science. In Companion of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW '17 Companion). ACM, New York, NY, USA, 163-166. DOI: https://doi.org/10.1145/3022198.3026329
+Michael D. Ekstrand and Martijn C. Willemsen. 2016. Behaviorism is Not Enough: Better Recommendations through Listening to Users. In Proceedings of the 10th ACM Conference on Recommender Systems (RecSys '16). ACM, New York, NY, USA, 221-224. DOI: https://doi.org/10.1145/2959100.2959179
+Jess Holbrook. Human Centered Machine Learning. Google Design Blog. 2017.
+Xavier Amatriain and Justin Basilico. Netflix Recommendations: Beyond the 5 stars. Netflix Tech Blog, 2012.
+Fabien Girardin. Experience design in the machine learning era. Medium, 2016.
+Brian Whitman. How music recommendation works - and doesn't work. Variogram, 2012.
+Paul Lamere. How good is Google's Instant Mix?. Music Machinery, 2011.
+Snyder, Jaime. Values in the Design of Visualizations. 2016 CSCW workshop on Human-Centered Data Science.
+Hill, B. M., Dailey, D., Guy, R. T., Lewis, B., Matsuzaki, M., & Morgan, J. T. (2017). Democratizing Data Science: The Community Data Science Workshops and Classes. In N. Jullien, S. A. Matei, & S. P. Goggins (Eds.), Big Data Factories: Scientific Collaborative approaches for virtual community data collection, repurposing, recombining, and dissemination. New York, New York: Springer Nature. [Preprint/Draft PDF]
+Bivens, R. and Haimson, O.L. 2016. Baking Gender Into Social Media Design: How Platforms Shape Categories for Users and Advertisers. Social Media + Society. 2, 4 (2016), 205630511667248. DOI:https://doi.org/10.1177/2056305116672486.
+Schlesinger, A. et al. 2017. Intersectional HCI: Engaging Identity through Gender, Race, and Class. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems - CHI ’17. (2017), 5412–5427. DOI:https://doi.org/10.1145/3025453.3025766.
+Berney, Rachel, Bernease Herman, Gundula Proksch, Hillary Dawkins, Jacob Kovacs, Yahui Ma, Jacob Rich, and Amanda Tan. Visualizing Equity: A Data Science for Social Good Tool and Model for Seattle. Data Science for Social Good Conference, September 2017, Chicago, Illinois USA (2017).
+Sayamindu Dasgupta and Benjamin Mako Hill. Learning With Data: Designing for Community Introspection and Exploration. Position paper for Developing a Research Agenda for Human-Centered Data Science.
+Megan Risdal, Communicating data science: a guide to presenting your work. Kaggle blog, 2016.
+Marilynn Larkin, How to give a dynamic scientific presentation. Elsevier Connect, 2015.
+Bart P. Knijnenburg, Martijn C. Willemsen, Zeno Gantner, Hakan Soncu, and Chris Newell. 2012. Explaining the user experience of recommender systems. User Modeling and User-Adapted Interaction 22, 4-5 (October 2012), 441-504. DOI=http://dx.doi.org/10.1007/s11257-011-9118-4
+Sean M. McNee, Nishikant Kapoor, and Joseph A. Konstan. 2006. Don't look stupid: avoiding pitfalls when recommending research papers. In Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work (CSCW '06). ACM, New York, NY, USA, 171-180. DOI=http://dx.doi.org/10.1145/1180875.1180903
+Megan Risdal, Communicating data science: Why and how to visualize information. Kaggle blog, 2016.
+Megan Risdal, Communicating data science: an interview with a storytelling expert. Kaggle blog, 2016.
+Richard Garber, Power of brief speeches: World War I and the Four Minute Men. Joyful Public Speaking, 2010.
+Brent Dykes, Data Storytelling: The Essential Data Science Skill Everyone Needs. Forbes, 2016.

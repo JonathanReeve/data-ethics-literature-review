@@ -1,0 +1,56 @@
+Raymond Wacks, Privacy - A Very Short Introduction: Chapter 2
+danah boyd, It’s Complicated — Privacy
+Trina J. Magi, Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature
+Fábio Esteves, “I have nothing to hide. Why should I care about my privacy?”
+Manoush Zomorodi, The Bookie, the Phone booth, and the FBI
+Michael Zimmer, Privacy Law and Regulation
+Michael Siebert, Montana lawmakers weigh privacy in the digital age
+US Department of Justice, The USA PATRIOT Act: Preserving Life and Liberty
+ACLU, Surveillance Under the Patriot Act, Infographic and Article  
+Wikipedia Entry for the Connecticut Four
+danah boyd, It’s Complicated — Introduction
+Raymond Wacks, Privacy - A Very Short Introduction: Chapter 1 [pp. 16-33] 
+Helen Nissenbaum, Privacy in Context: Technology, Policy, and the Integrity of Social Life — Introduction
+Jacob Brogan, What’s the Deal With Algorithms?  
+Lee Raine and Janna Anderson, Code-Dependent: Pros and Cons of the Algorithm Age
+Nick Seaver, Algorithms as culture: Some tactics for the ethnography of algorithmic systems
+danah boyd and Kate Crawford, Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon
+The Economist, Videographic: What is Big Data?
+Carine Lallemand, Dear Diary: Using Diaries to Study User Experience
+John Koetsier, 2-minute explainer: AI vs. machine learning vs. deep learning
+James Vincent, What counts as artificially intelligent? AI and deep learning, explained
+Margot O'Neill, Explainer: What is artificial intelligence?
+NPR Ted Radio Hour, Jeremy Howard: Will Artificial Intelligence Be The Last Human Invention?
+The Next Web, Facebook tracks scary-specific details about your life. Here’s how to find what it knows
+Review your Facebook Ad Preferences and Apply Magic Sauce
+Martin Shelton, Securing Your Digital Life Like a Normal Person [and reference the "low-effort," "medium-effort," and "high-effort" lists of online privacy practices from Vicki Boykis, How to protect your data and privacy online for the average user]  
+Jon Christian, I tried to switch to secure email and I want to bang my head on a desk
+Laura Kalbag, Indie Design
+Privacy Policies: Facebook, D2L, MSU Library, MSU FERPA Notice, Google, Snap Inc.
+Privacy Infographics: ACLU, National Geographic Satellites, Infographic 1, 2,3,4,5
+Yasha Levine, The Crypto-Keepers
+Julia Powles, Obfuscation: how leaving a trail of confusion can beat online surveillance
+Lorenzo Franceschi-Bicchierai, Visiting Random Sites to Confuse Trackers Won’t Protect Your Privacy
+Yochai Benkler, Degrees of Freedom, Dimensions of Power, Yochai Benkler
+Natasha Duarte, Algorithmic decision-making in NYC
+Willamette Week, Portland's top brass said it was OK to swipe your garbage--so we grabbed theirs.
+John Lanchester, You Are the Product
+Goldie Blumenstyk, As Big Data Comes to College, Officials Wrestle to Set New Ethical Norms
+Cecelia Parks, Beyond Compliance: Students and FERPA in the Age of Big Data
+Sam Adler-Bell, Privacy for Whom?
+Garret Keizer, Privacy of the Poor
+Erin McCormick, Big Brother on wheels? Fired security robot divides local homeless people
+Kerry Rodden, Is that a boy or a girl? Exploring a neural network’s construction of gender
+Garret Keizer, A feminist critique of privacy
+Safiya Noble, Challenging the algorithms of oppression
+Aljazeera, Surveilling Black Lives Matter 
+Chukwuemeka Afigbo, If you have ever had a problem grasping the importance of diversity in tech and its impact on society, watch this video
+Michael Keller and Josh Neufeld, Terms of Service: Understanding our Role in the World of Big Data
+Futurism: Types of AI: from reactive to self-aware, https://futurism.com/images/types-of-ai-from-reactive-to-self-aware-infographic/
+Boer Deng, Machine ethics: the robot's dilemma 
+NPR podcast Can robots teach us what it means to be human?
+Motherboard, Tractor Hacking: The Farmers Breaking Big Tech's Repair Monopoly
+Facebook emotional contagion and analysis by Jouhki et al.
+Jacob Metcalf, Ethics Codes: History, Context, and Challenges
+Steven Ginnis, #WhatAreYouDoingWithMyData: a framework for social media ethics
+Association of Internet Researchers, Charting Ethical Questions By Data And Type. (Appendix 1 from the report “Ethical decision-making and Internet research 2.0: Recommendations from the AoIR ethics working committee”)

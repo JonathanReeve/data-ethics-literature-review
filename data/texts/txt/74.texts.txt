@@ -1,0 +1,188 @@
+Cypherpunk Manifesto, https://activism.net/cypherpunk/manifesto.html
+The Crypto Anarchist Manifesto, https://www.activism.net/cypherpunk/crypto-anarchy.html
+The Wild, Baffling, and Sometimes Terrifying History of Crypto-Anarchy, https://breakermag.com/the-wild-baffling-and-sometimes-terrifying-history-of-crypto-anarchy/
+Excerpt from The Practice of Change: 4.3.3 Blockchain and Questioning Sovereignty, pp. 141-151, http://web.media.mit.edu/~joi/publication/2018-02-14-ito_phd_diss_final
+Crypto Dream, http://randomwalker.info/publications/crypto-dream-part1.pdf, http://randomwalker.info/publications/crypto-dream-part2.pdf
+Aragon - The fight for freedom
+The Crisis was in the System. https://www.bloomberg.com/view/articles/2018-09-13/the-crisis-was-in-the-system
+Crypto has the potential to be the most social, inclusive, liberating, challenging, optimistic, and revolutionary technology wave to date. https://twitter.com/Iiterature/status/1133739694557159424
+EthicalOS
+Ethical and Societal Implications of Technology. pp 1-2. “Three Key Tasks” section. Stop at “Questions for Research”. 
+ACM Code of Ethics and Professional Conduct.
+Everyone Is Getting Hilariously Rich and You’re Not
+Pineapple Fund 
+Women in Cryptocurrencies Push Back Against ‘Blockchain Bros’
+Noam Chomsky on Anarcho-syndicalism
+Matt Levine on why ambitious young people find crypto appealing
+Blockchain Wins Over Developers with Self-Actualization
+Psychological vs. Sociological Storytelling
+Pathetic Dot Theory 
+Computer science faces an ethics crisis
+Leverage Points in a System
+Use These 5 Powerful Mindsets To Understand Our Uncertain World
+Introduction to Effective Altruism
+The 5 Camps of Crypto
+Bitcoin: A Peer-to-Peer Electronic Cash System
+The Architecture of Crypto Innovation 
+Ever wonder how Bitcoin (and other cryptocurrencies) actually work?
+What are smart contracts?
+Zcash and Financial Privacy 
+Blockchain and Trust
+The Myth of the Infrastructure Phase
+History of Money
+Blockchains are a Bad Idea
+Blockchain Demo from Anders Brownworth
+Don’t Understand Bitcoin? This Man Will Mumble An Explanation At You.
+How dApps Work in 2018.
+Intro to Crypto
+How the Bitcoin Protocol Actually Works
+How does Ethereum work, anyway?
+The Crypto Idea Maze
+Shelling Out: The Origins of Money
+The History of Paper Money
+We've stopped trusting institutions and started trusting strangers
+Ten years in, nobody has come up with a use for blockchain
+Unstoppable Code: The Difference Between Can’t and Won’t
+Excerpt from Blockchain and Law: V. Regulation and Law, A. Modes of Regulation
+Gab is forking Brave, and Brave is forking furious 
+Mastodon is big in Japan. The reason why is… uncomfortable 
+The First Augur Assassination Markets Have Arrived 
+The Moral Character of Cryptographic Work. Law-enforcement framing and surveillance-studies framing pp. 25-27.
+When the cookie meets the blockchain: Privacy risks of web payments via cryptocurrencies. Introduction. 
+Libra’s Biggest Problem
+Facebook’s Libra Masterplan.
+Resistant protocols: How decentralization evolves (24min)
+#CryptoEthics Concepts: Decentralization-Enabled Unstoppable Code
+Why BitTorrent Mattered — Bittorrent Lessons for Crypto (1 of 4)
+Sovereign-grade vs. platform-grade censorship (1, 2, 3)
+Against Szabo’s Law, For A New Crypto Legal System
+A Framework for Moderation and Terminating Service for 8Chan
+In Code(rs) We Trust: Software Developers as Fiduciaries in Public Blockchains, Angela Walch 
+3 Common Myths People Have About Crypto (Part I: 0:00-13:00)
+Characterizing Payments Among Men with No Names 
+Privacy and Cryptocurrency, Part I: How Private is Bitcoin? 
+Privacy on the Bitcoin Wiki
+A Privacy-Focused Vision for Social Networking
+Citizenfour and The Great Hack
+The End of Privacy
+The Case for Electronic Cash
+What is Differential Privacy? A tradeoff between privacy and accuracy
+Privacy Primitives for Smart Contracts in Oasis
+Introduction to Contextual Integrity
+Some crypto-criminals think jumping across blockchains covers their tracks. Big mistake.
+Blockchains and Data Protection in the European Union
+Quantifying Decentralization
+Pineapple Fund 
+Facebook's Libra probably won't help people without bank accounts
+Venezuela Isn’t the Crypto Use Case You Want It to Be
+Bitcoin is an energy hog. Where is all that electricity coming from?
+Cambridge Bitcoin Electricity Consumption Index
+Ethereum, FOMO3D, and Dangerous Game Theory
+Comparing PoolTogether, a No-Loss Lottery, to Libra
+Responsible disclosure in the era of cryptocurrencies
+Guiding Principles for Ethical Cryptocurrency, Blockchain, and DLT Research 
+Visual Guide to the Howey Test
+Grin and the Mythical Fair Launch
+Ethereum is game-changing technology, literally
+Superfluid Collateral in Open Finance
+Evolution, Not Revolution
+Trust as a Primitive.
+Blockchain Wins Over Developers with Self-Actualization and Integrity
+The Blockchain Economy: A beginner’s guide to institutional cryptoeconomics
+Markets Are Eating The World 
+Coase’s Penguin.
+Past, Present, Future: From Co-ops to Cryptonetworks
+Decentralized Social Networks Sound Great. Too Bad They’ll Never Work
+Crypto is Networked Nonviolent Protest 
+The Tyranny of Structurelessness 
+Blockchain Governance: Programming Our Future 
+Who Controls Bitcoin Core?
+Notes on Blockchain Governance
+Against on-chain governance 
+If Rockefeller Were a Coder
+On-Chain Vote Buying and the Rise of Dark DAOs
+A relative value model for governance tokens
+On Consensus and Humming in the IETF
+Open Source Guide to Leadership and Governance
+Notes on Open Source Governance Models
+Blockchain Governance 101
+A Personal Letter About The Possibility of a New Zcash Dev Fund
+Summary of “Roads and Bridges”
+Lead Grin Developer Can’t Raise Money 
+Income Inequality
+The Richest People In Cryptocurrency 
+Everyone Is Getting Hilariously Rich and You’re Not
+Exploring Wealth Inequality in Bitcoin 
+Plotting bitcoin’s wealth inequality
+Bitcoin Address Distribution 
+A Conflict of Crypto Visions
+An Overview of Blockchain-Based Universal Basic Income Projects 
+Future of Zcash Funding
+Funding Open Source In The Blockchain Era
+Mapping Out Grants in Ethereum and Beyond
+Decentralized funding? An analysis of three programs
+Against Against Billionaire Philanthropy
+Book Review: "Just Giving" by Rob Reich, A Political Theory of Philanthropy
+Metaphors we believe by: the pantheon of 2019
+Mechanism Design Shared Across Radical Markets and Blockchain. Vitalik at RadicalXChange.
+On Radical Markets. Read the section “Markets in Everything.” 
+How Can Cryptocurrency and Blockchain Technology Play a Role in Building Social and Solidarity Finance? pp. 8-16.
+The World Is Complex. Measuring Charity Has to Be Too 
+Bitcoin as Politics: Distributed Right-Wing Extremism. Read the abstract.
+To Really 'Disrupt,' Tech Needs to Listen to Actual Researchers
+Why I Am Not a Technocrat 
+What Isn’t for Sale?
+Radical Redesigns — Are They All About Allocations? 
+A Visual Representation of Liberal Radicalism 
+Experiments with Liberal Radicalism 
+Summary of “The Passions and the Interests” 
+An Animated History of Token Sales, Jan, 2014 - Aug, 2018
+A Visual Guide to the Howey Test 
+Coin Center analysis of SEC cryptocurrency guidance
+2Q19 Crypto Retrospective. pp. 35-38. IEOs and STOs.
+Thoughts on Tokens 
+On Fair Token Launches 
+Differentiating Between Scams, Ponzis, and Unethical Behavior 
+Crypto Rating Council
+Mutability in Crypto and Recent Moves by the SEC
+Not Legal Advice, Part 2: The Hinman Test is Dead
+Framework for Securities Regulation of Cryptocurrencies
+Applying Money Transmitter Laws to Crypto
+Applying CFTC Laws to Crypto
+SEC Fines Floyd Mayweather, DJ Khaled for ICO Promotions
+Bitconnect Ceremony (Wikipedia entry)
+The Five Most Notorious Cryptocurrency Scams of 2019 
+Ponzi Schemes Using Virtual Currencies
+Ethereum is full of ponzis, is that a problem?
+Token Space
+Facebook's Libra will not help the unbanked 
+Facebook's Libra probably won't help people without bank accounts 
+From a law perspective, Jerry Brito 
+From a technical perspective, Jameson Lopp
+Thread: as the only research co-founder of Chainspace that did not join Facebook (the blockchain scalability startup that Facebook acquired), people have been asking me about my view of Libra. Here's a thread about it. Mustafa Al-Bassam 
+5 Reasons Why Facebook’s New Cryptocurrency ‘Libra’ is Bad News for Africa
+A Privacy-Focused Vision for Social Networking 
+Privacy-Preserving AI in Medical Imaging with OpenMined 
+Recent Developments in Cryptography. Appendix A: Relevance of Progress in AI. pp. 90-94.
+Blockchain-based Machine Learning Marketplaces 
+Privacy-Preserving Machine Learning 2018: A Year in Review 
+Privacy Primitives for Smart Contracts in Oasis
+End-to-end encryption isn’t enough security for ‘real people’
+Zcash Counterfeiting Vulnerability Successfully Remediated.
+Fortune article about bug 
+Deploying MPC for Social Good 
+Federated Learning: Collaborative Machine Learning without Centralized Training Data
+Privacy and machine learning: two unexpected allies?
+The Case for Electronic Cash
+Attack of the Week: Apple iMessage
+End-to-End Encryption Isn’t as Safe as You Think 
+What is Differential Privacy? A tradeoff between privacy and accuracy
+How a Bitcoin Trail Led to a Massive Dark Web Child-Porn Site Takedown
+An Empirical Analysis of Traceability in the Monero Blockchain 
+A Post Mortem of The Multiple Counting Bug
+Knight Capital Group Loses $440M Trading Stocks With Errant Computer Program
+An Unstoppable Predictions Marketplace — Introducing Erasure
+The Moral Character of Cryptographic Work. 
+Paperclip Maximizer Game
+AI DAOs
+Beating Bots in Fomo3D
