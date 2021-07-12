@@ -20,12 +20,7 @@ import json
 from nltk.metrics.distance import edit_distance
 
 
-# @click.command()
-# @click.argument('turtlefile', nargs=1)
-
-
 turtleFile = "../data/texts/ttl/101.ttl"
-
 
 def queryCrossRef(title, author=None):
     """
@@ -108,6 +103,7 @@ def main():
                 logging.info(f"Candidate {i}: {candidateTitle}")
                 distance = edit_distance(title, candidateTitle)
                 logging.info(f"Distance: {distance}")
+
 
 
 if __name__ == "__main__":

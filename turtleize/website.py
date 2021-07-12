@@ -62,7 +62,7 @@ def getCourseTextGraph():
             ?doc dcterms:title ?textTitle .
             ?doc dcterms:creator ?author .
             ?author foaf:surname ?authorLast .
-        } limit 400""")
+        } limit 100""")
 
     # for line in coursesAndTexts:
     #     print(line)
