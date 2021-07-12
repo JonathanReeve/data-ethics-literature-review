@@ -49,6 +49,14 @@ def queryCrossRef(title, author=None):
         logging.error(f"Response not ok. Response: {resp}")
 
 
+def editRatio(textA, textB):
+    """
+    Computes the ratio of edit distances between two titles,
+    in order to measure title similarity.
+    """
+    return edit_distance(textA, textB) / len((textA + textB)/2)
+
+
 def main():
     g = rdflib.Graph()
     g.load(turtleFile, format="ttl")
