@@ -53,7 +53,7 @@ def getCourseTextGraph():
             ?doc dcterms:title ?textTitle .
             ?doc dcterms:creator ?author .
             ?author foaf:surname ?authorLast .
-        } limit 1000 """)
+        } """)
 
     net = Network(height='750px', width='100%')
     nxGraph = nx.Graph()
