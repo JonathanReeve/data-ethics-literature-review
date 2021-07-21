@@ -6,7 +6,7 @@ to quasi-manually code it.
 from flask import Flask
 
 import dominate
-from dominate.tags import html, head, header, div, section, link, meta, body, h2, span, li, ul, script, a, base
+from dominate.tags import html, head, header, div, section, link, meta, body, h2, span, li, ul, script, a, base, p
 from dominate.util import raw
 from rdflib.namespace import DC, DCTERMS, FOAF, RDF, OWL
 from rdflib import Graph
@@ -17,7 +17,9 @@ import rdflib
 import toRDF
 import json
 import os
+import textwrap
 from pyvis.network import Network
+import networkx as nx
 
 g = rdflib.Graph()
 g.load('../data/coursesAndTexts.ttl', format="ttl")
@@ -43,24 +45,34 @@ def getCourseTextGraph():
     Make a pyvis network for our graph.
     """
     coursesAndTexts = g.query("""
-        select distinct ?courseName ?textTitle ?authorLast where {
-            ?a a ccso:Course .
-            ?a ccso:csName ?courseName .
-            ?a ccso:hasLM ?t .
+        select distinct ?id ?courseName ?textTitle ?authorLast where {
+            ?id a ccso:Course .
+            ?id ccso:csName ?courseName .
+            ?id ccso:hasLM ?t .
             ?t res:resource ?doc .
             ?doc dcterms:title ?textTitle .
             ?doc dcterms:creator ?author .
             ?author foaf:surname ?authorLast .
-        } limit 100""")
+        } limit 1000 """)
 
     net = Network(height='750px', width='100%')
+    nxGraph = nx.Graph()
 
-    for courseName, textTitle, authorLast in coursesAndTexts:
-        net.add_node(courseName, shape='square')
-        net.add_node(textTitle, shape='circle', label=str(authorLast))
-        net.add_edge(courseName, textTitle, title="hasCourse")
+    for courseID, courseName, textTitle, authorLast in coursesAndTexts:
+        if len(courseName) > 10:
+            courseNameTruncated = courseName[:10] + "..."
+        else:
+            courseNameTruncated = courseName
+        textFormatted = textwrap.wrap(f"{authorLast}, {textTitle}", width=30)
+        nxGraph.add_node(courseID)
+        net.add_node(courseID, shape='circle', mass=5,
+                     label=courseNameTruncated, title=courseName)
+        nxGraph.add_node(authorLast)
+        net.add_node(authorLast, shape='box', mass=3, title=textFormatted)
+        net.add_edge(courseID, authorLast)
+        nxGraph.add_edge(courseID, authorLast)
 
-    return net
+    return nxGraph, net
 
 
 def getUniCourseGraph():
@@ -68,62 +80,32 @@ def getUniCourseGraph():
     Get university-course graph.
     """
     results = g.query("""
-        select distinct ?courseName ?instructorFN ?instructorGN ?university where {
-            ?id a ccso:Course .
-            ?id ccso:csName ?courseName .
-            ?id ccso:hasInstructor ?inst .
+        select distinct ?courseID ?courseName ?instructorFN ?instructorGN ?university where {
+            ?courseID a ccso:Course .
+            ?courseID ccso:csName ?courseName .
+            ?courseID ccso:hasInstructor ?inst .
             ?inst foaf:familyName ?instructorFN .
             ?inst foaf:givenName ?instructorGN .
-            ?id ccso:offeredBy ?dept .
+            ?courseID ccso:offeredBy ?dept .
             ?dept ccso:belongsTo ?uni .
             ?uni ccso:legalName ?university .
         }""")
 
-    net = Network(height='750px', width='100%')
 
-    for courseName, instLast, instFirst, uni in results:
+    visGraph = Network(height='750px', width='100%') # PyVis-Network, for visualization.
+    nxGraph = nx.Graph() # NetworkX, for analyses
+
+    for courseID, courseName, instLast, instFirst, uni in results:
         instName = f"{instFirst} {instLast}"
-        net.add_node(uni, shape='square')
-        net.add_node(courseName, shape='circle', label=str(instName))
-        net.add_edge(uni, courseName, title="hasCourse")
-    return net
+        nxGraph.add_node(uni)
+        visGraph.add_node(uni, shape='square')
+        nxGraph.add_node(courseID)
+        visGraph.add_node(courseID, shape='circle', title=courseName, label=str(instName))
+        visGraph.add_edge(uni, courseID)
+        nxGraph.add_edge(uni, courseID)
+    return nxGraph, visGraph
 
 
-def formatVisData(net):
-    """
-    Takes a pyvis network and formats it using our own custom template.
-    """
-    nodesJson = json.dumps(net.nodes)
-    edgesJson = json.dumps(net.edges)
-    options = json.dumps(visOptions)
-
-    return f"""
-    nodes = new vis.DataSet({nodesJson})
-    edges = new vis.DataSet({edgesJson})
-    data = {{nodes: nodes, edges: edges}};
-    options = {options}
-    container = document.getElementById('mynetwork');
-    """ + """
-    network = new vis.Network(container, data, options);
-
-    network.on("stabilizationProgress", function(params) {
-        document.getElementById('loadingBar').removeAttribute("style");
-        var maxWidth = 496;
-        var minWidth = 20;
-        var widthFactor = params.iterations/params.total;
-        var width = Math.max(minWidth,maxWidth * widthFactor);
-
-        document.getElementById('bar').style.width = width + 'px';
-        document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
-    });
-    network.once("stabilizationIterationsDone", function() {
-        document.getElementById('text').innerHTML = '100%';
-        document.getElementById('bar').style.width = '496px';
-        document.getElementById('loadingBar').style.opacity = 0;
-        // really clean the dom element
-        setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
-    });
-    """
 
 
 def uniCourseList():
@@ -174,30 +156,33 @@ def courseTextList():
     """
     return ""
 
-
-def uniCourseContent():
+def uniCourseContent(analysis):
     """
     Make a list of universities and their courses.
     """
     container = div(id="mynetwork")
     loadingBar = div(div(div("0%", id="text"), div(div(id="bar"), id="border"), _class="outerBorder"), id="loadingBar")
-    return (container, loadingBar, uniCourseList())
+    return (container, loadingBar, analysis, uniCourseList())
 
 
-def courseTextContent():
+def courseTextContent(analysis):
     """
     Make a list of courses and their assigned texts.
     """
     container = div(id="mynetwork")
     loadingBar = div(div(div("0%", id="text"), div(div(id="bar"), id="border"), _class="outerBorder"), id="loadingBar")
-    return (container, loadingBar, courseTextList())
+    return (container, loadingBar, analysis, courseTextList())
 
 
 def indexContent():
     """
     The content of the main index.html file.
     """
-    return div("The content of the main index file.")
+    return div(h2("Welcome to Data Ethics"),
+               p("""We map the burgeoning field of data ethics, an interdisciplinary area
+               of study, spanning computer science, data science, statistics,
+               and humanities disciplines. """)
+               )
 
 siteMap = {"About": "about",
            "Uni-Course": "uniCourse",
@@ -283,6 +268,74 @@ class WebPage():
             logging.info(f"Wrote to {fn}")
 
 
+class GraphAnalysis():
+    """
+    A class for holding graph objects, analyses, and the way they're formatted.
+    """
+    def __init__(self, nxGraph, visGraph):
+        """
+        Initialize
+        """
+        self.nxGraph = nxGraph
+        self.visGraph = visGraph
+        self.js = self.formatVisData(visGraph)
+        self.pageRank = nx.pagerank(nxGraph)
+
+    def formatVisData(self, net):
+        """
+        Takes a pyvis network and formats it using our own custom template.
+        """
+        nodesJson = json.dumps(net.nodes)
+        edgesJson = json.dumps(net.edges)
+        options = json.dumps(visOptions)
+
+        return f"""
+        nodes = new vis.DataSet({nodesJson})
+        edges = new vis.DataSet({edgesJson})
+        data = {{nodes: nodes, edges: edges}};
+        options = {options}
+        container = document.getElementById('mynetwork');
+        """ + """
+        network = new vis.Network(container, data, options);
+
+        network.on("stabilizationProgress", function(params) {
+            document.getElementById('loadingBar').removeAttribute("style");
+            var maxWidth = 496;
+            var minWidth = 20;
+            var widthFactor = params.iterations/params.total;
+            var width = Math.max(minWidth,maxWidth * widthFactor);
+
+            document.getElementById('bar').style.width = width + 'px';
+            document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+        });
+        network.once("stabilizationIterationsDone", function() {
+            document.getElementById('text').innerHTML = '100%';
+            document.getElementById('bar').style.width = '496px';
+            document.getElementById('loadingBar').style.opacity = 0;
+            // really clean the dom element
+            setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+        });
+        """
+
+    def webpageContent(self):
+        """
+        Make some HTML for the webpage.
+        """
+        return div(
+                 h2("Analysis"),
+                 p(f"Pagerank: {self.pageRank}"),
+                 id="analysis")
+
+
 index = WebPage("Index", "index", indexContent(), "")
-uniCourse = WebPage("Uni-Course", "uniCourse", uniCourseContent(), formatVisData(getUniCourseGraph()))
-courseText = WebPage("Course-Text", "courseText", courseTextContent(), formatVisData(getCourseTextGraph()))
+
+
+nxGraph, visGraph = getUniCourseGraph()
+uniCourseAnalysis = GraphAnalysis(nxGraph, visGraph)
+uniCourse = WebPage("Uni-Course", "uniCourse",
+                    uniCourseContent(uniCourseAnalysis.webpageContent()), uniCourseAnalysis.js)
+
+nxGraph, visGraph = getCourseTextGraph()
+courseTextAnalysis = GraphAnalysis(nxGraph, visGraph)
+courseText = WebPage("Course-Text", "courseText",
+                     courseTextContent(courseTextAnalysis.webpageContent()), courseTextAnalysis.js)
