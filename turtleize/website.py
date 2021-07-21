@@ -45,11 +45,11 @@ def getCourseTextGraph():
     Make a pyvis network for our graph.
     """
     coursesAndTexts = g.query("""
-        select distinct ?id ?courseName ?textTitle ?authorLast where {
-            ?id a ccso:Course .
-            ?id ccso:csName ?courseName .
-            ?id ccso:hasLM ?t .
-            ?t res:resource ?doc .
+        select distinct ?courseID ?courseName ?textTitle ?authorLast where {
+            ?courseID a ccso:Course .
+            ?courseID ccso:csName ?courseName .
+            ?courseID ccso:hasLM ?textID .
+            ?textID res:resource ?doc .
             ?doc dcterms:title ?textTitle .
             ?doc dcterms:creator ?author .
             ?author foaf:surname ?authorLast .
@@ -63,12 +63,12 @@ def getCourseTextGraph():
             courseNameTruncated = courseName[:10] + "..."
         else:
             courseNameTruncated = courseName
-        textFormatted = pre(textwrap.wrap(f"{authorLast}, {textTitle}", width=30)).render()
+        textFormatted = pre('\n'.join(textwrap.wrap(f"{authorLast}, {textTitle}", width=30))).render()
         nxGraph.add_node(courseID)
-        net.add_node(courseID, shape='dot', mass=5,
-                     label=courseNameTruncated, title=courseName)
+        net.add_node(courseID, shape='dot', mass=3,
+                     label=courseNameTruncated, title=courseName, color="#e07678")
         nxGraph.add_node(authorLast)
-        net.add_node(authorLast, shape='square', mass=3, title=textFormatted)
+        net.add_node(authorLast, shape='square', mass=4, title=textFormatted)
         net.add_edge(courseID, authorLast)
         nxGraph.add_edge(courseID, authorLast)
 
@@ -98,9 +98,9 @@ def getUniCourseGraph():
     for courseID, courseName, instLast, instFirst, uni in results:
         instName = f"{instFirst} {instLast}"
         nxGraph.add_node(uni)
-        visGraph.add_node(uni, shape='box', title=uni)
+        visGraph.add_node(uni, shape='circle', title=uni, mass=3)
         nxGraph.add_node(courseID)
-        visGraph.add_node(courseID, shape='circle', label=courseName)
+        visGraph.add_node(courseID, shape='box', label=courseName, mass=5)
         visGraph.add_edge(uni, courseID)
         nxGraph.add_edge(uni, courseID)
     return nxGraph, visGraph
@@ -160,18 +160,24 @@ def uniCourseContent(analysis):
     """
     Make a list of universities and their courses.
     """
+    intro = div(h2("University-Course Graph"),
+                p("This graph shows courses that teach data ethics, and the universities in which those courses are taught."),
+                _class="intro")
     container = div(id="mynetwork")
     loadingBar = div(div(div("0%", id="text"), div(div(id="bar"), id="border"), _class="outerBorder"), id="loadingBar")
-    return (container, loadingBar, analysis, uniCourseList())
+    return (intro, container, loadingBar, analysis, uniCourseList())
 
 
 def courseTextContent(analysis):
     """
     Make a list of courses and their assigned texts.
     """
+    intro = div(h2("Course-Text Graph"),
+                p("This graph shows courses that teach data ethics, and the required texts scraped from those courses' syllabi."),
+                _class="intro")
     container = div(id="mynetwork")
     loadingBar = div(div(div("0%", id="text"), div(div(id="bar"), id="border"), _class="outerBorder"), id="loadingBar")
-    return (container, loadingBar, analysis, courseTextList())
+    return (intro, container, loadingBar, analysis, courseTextList())
 
 
 def indexContent():
@@ -291,20 +297,25 @@ class GraphAnalysis():
     def computeSize(self):
         """ Compute the size of nodes according to their connectedness. """
         for node in self.nxGraph.nodes():
-            nEdges = self.nxGraph.edges(node)
-            size = 1 + len(nEdges)
+            if 'course' in str(node):
+                # Let's not compute sizes of courses for now
+                size = 20
+            else:
+                nEdges = self.nxGraph.edges(node)
+                size = 1 + len(nEdges) * 4
             self.visGraph.get_node(node)['size'] = size
 
     def formatPageRank(self):
         pageRankHtml = []
-        for node, rank in self.pageRank.items():
-            lineItem = li(f"{node}: {rank}")
-            # Also update our visualization graph with pagerank
-            # so that rank can affect size of nodes
-            # size = 1 + rank * 1000
-            # self.visGraph.get_node(node)['size'] = size
+        sortedRanks = sorted(self.pageRank, key=self.pageRank.get, reverse=True)
+        for node in sortedRanks:
+            if 'course' in str(node):
+                continue # Skip courses
+            rank = self.pageRank[node]
+            title = self.visGraph.get_node(node)['title'].replace('<pre>', '').replace('</pre>', '')
+            lineItem = li(f"{title}: {rank}")
             pageRankHtml.append(lineItem)
-        return pageRankHtml
+        return pageRankHtml[:20]
 
     def formatKEdges(self):
         kEdges = []
@@ -375,3 +386,5 @@ nxGraph, visGraph = getCourseTextGraph()
 courseTextAnalysis = GraphAnalysis(nxGraph, visGraph)
 courseText = WebPage("Course-Text", "courseText",
                      courseTextContent(courseTextAnalysis.webpageContent()), courseTextAnalysis.js)
+
+textText = WebPage("Text-Text", "textText", "Nothing here yet.", "")
