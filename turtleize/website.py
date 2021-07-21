@@ -6,7 +6,7 @@ to quasi-manually code it.
 from flask import Flask
 
 import dominate
-from dominate.tags import html, head, header, div, section, link, meta, body, h2, span, li, ul, script, a, base, p
+from dominate.tags import html, head, header, div, section, link, meta, body, h2, h3, span, li, ul, script, a, base, p, pre
 from dominate.util import raw
 from rdflib.namespace import DC, DCTERMS, FOAF, RDF, OWL
 from rdflib import Graph
@@ -63,12 +63,12 @@ def getCourseTextGraph():
             courseNameTruncated = courseName[:10] + "..."
         else:
             courseNameTruncated = courseName
-        textFormatted = textwrap.wrap(f"{authorLast}, {textTitle}", width=30)
+        textFormatted = pre(textwrap.wrap(f"{authorLast}, {textTitle}", width=30)).render()
         nxGraph.add_node(courseID)
-        net.add_node(courseID, shape='circle', mass=5,
+        net.add_node(courseID, shape='dot', mass=5,
                      label=courseNameTruncated, title=courseName)
         nxGraph.add_node(authorLast)
-        net.add_node(authorLast, shape='box', mass=3, title=textFormatted)
+        net.add_node(authorLast, shape='square', mass=3, title=textFormatted)
         net.add_edge(courseID, authorLast)
         nxGraph.add_edge(courseID, authorLast)
 
@@ -98,9 +98,9 @@ def getUniCourseGraph():
     for courseID, courseName, instLast, instFirst, uni in results:
         instName = f"{instFirst} {instLast}"
         nxGraph.add_node(uni)
-        visGraph.add_node(uni, shape='square')
+        visGraph.add_node(uni, shape='box', title=uni)
         nxGraph.add_node(courseID)
-        visGraph.add_node(courseID, shape='circle', title=courseName, label=str(instName))
+        visGraph.add_node(courseID, shape='circle', label=courseName)
         visGraph.add_edge(uni, courseID)
         nxGraph.add_edge(uni, courseID)
     return nxGraph, visGraph
@@ -123,7 +123,7 @@ def uniCourseList():
             ?id ccso:offeredBy ?dept .
             ?dept ccso:belongsTo ?uni .
             ?uni ccso:legalName ?university .
-        }""")
+        } limit 400""")
 
     # Build up a dictionary with universities as keys,
     # and courses as a list of values
@@ -229,9 +229,11 @@ class WebPage():
 
     def topNav(self):
         """ The top navigation area of the webpage. """
-        out = header(section(a("Data Ethics", href="/", _class="navbar-brand"),
-                             # Generate navbar items from site map
-                             *[self.navbarItem(name, slug)
+        out = header(section(a("Data Ethics", href="/",
+                               _class="navbar-brand"),
+                             _class="navbar-section"),
+                     # Generate navbar items from site map
+                     section(*[self.navbarItem(name, slug)
                                for name, slug in self.siteMap.items()],
                              _class="navbar-section"),
                     _class="navbar")
@@ -278,9 +280,41 @@ class GraphAnalysis():
         """
         self.nxGraph = nxGraph
         self.visGraph = visGraph
-        self.js = self.formatVisData(visGraph)
         self.pageRank = nx.pagerank(nxGraph)
+        self.degreeCentrality = nx.algorithms.centrality.degree_centrality(nxGraph)
+        self.computeSize()
+        # We should compute the page rank and update the graph before computing the JS data.
+        self.webContent = self.webpageContent()
+        self.js = self.formatVisData(visGraph)
+        # self.kEdges = nx.k_edge_components(nxGraph, 4)
 
+    def computeSize(self):
+        """ Compute the size of nodes according to their connectedness. """
+        for node in self.nxGraph.nodes():
+            nEdges = self.nxGraph.edges(node)
+            size = 1 + len(nEdges)
+            self.visGraph.get_node(node)['size'] = size
+
+    def formatPageRank(self):
+        pageRankHtml = []
+        for node, rank in self.pageRank.items():
+            lineItem = li(f"{node}: {rank}")
+            # Also update our visualization graph with pagerank
+            # so that rank can affect size of nodes
+            # size = 1 + rank * 1000
+            # self.visGraph.get_node(node)['size'] = size
+            pageRankHtml.append(lineItem)
+        return pageRankHtml
+
+    def formatKEdges(self):
+        kEdges = []
+        for edge in self.kEdges:
+            lineItem = li(f"{edge}")
+            kEdges.append(lineItem)
+        return kEdges
+
+
+        
     def formatVisData(self, net):
         """
         Takes a pyvis network and formats it using our own custom template.
@@ -323,7 +357,9 @@ class GraphAnalysis():
         """
         return div(
                  h2("Analysis"),
-                 p(f"Pagerank: {self.pageRank}"),
+                 h3(f"Pagerank"),
+                 p(self.formatPageRank()),
+                 # p(self.formatKEdges()),
                  id="analysis")
 
 
