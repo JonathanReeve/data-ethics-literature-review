@@ -20,10 +20,9 @@ paper['abstract']
 
 
 #to read the file
-turtleFile = "/Users/zhuohan/Desktop/temp/data/coursesAndTexts.ttl"
+turtleFile = "../data/coursesAndTexts.ttl"
 
-#my semantic scholar function. Based on given DOI, it can return title, author and abstract
-
+#my semantic scholar function. Based on given DOI, it can return title, author， abstract and citations
 def SementicScholar():
     title = []
     author = []
@@ -64,7 +63,7 @@ def SementicScholar():
     return(title, author, abstract, cit_url)
             
 
-#revise main function
+#revised main function
 def main():
     g = rdflib.Graph()
     g.load(turtleFile, format="ttl")
