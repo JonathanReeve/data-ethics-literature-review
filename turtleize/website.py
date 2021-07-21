@@ -193,6 +193,12 @@ def courseTextContent():
     return (container, loadingBar, courseTextList())
 
 
+def indexContent():
+    """
+    The content of the main index.html file.
+    """
+    return div("The content of the main index file.")
+
 siteMap = {"About": "about",
            "Uni-Course": "uniCourse",
            "Course-Text": "courseText",
@@ -259,7 +265,13 @@ class WebPage():
         doc = dominate.document(title=f"Data Ethics: {label}")
         doc.head.add(self.head_())
         doc.body.add(self.body_(content, scriptData))
-        fn = f"{WEBSITE_LOCATION}/{slug}/index.html"
+        if slug == "index":
+            # We handle the main index page differently.
+            fn = f"{WEBSITE_LOCATION}/index.html"
+        else:
+            # Everything else has a pretty url,
+            # i.e., data-ethics.tech/courseText
+            fn = f"{WEBSITE_LOCATION}/{slug}/index.html"
         rendered = doc.render()
         if not os.path.exists(os.path.dirname(fn)):
             try:
@@ -271,5 +283,6 @@ class WebPage():
             logging.info(f"Wrote to {fn}")
 
 
+index = WebPage("Index", "index", indexContent(), "")
 uniCourse = WebPage("Uni-Course", "uniCourse", uniCourseContent(), formatVisData(getUniCourseGraph()))
 courseText = WebPage("Course-Text", "courseText", courseTextContent(), formatVisData(getCourseTextGraph()))
