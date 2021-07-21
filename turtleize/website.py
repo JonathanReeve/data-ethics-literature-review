@@ -16,6 +16,7 @@ import logging
 import rdflib
 import toRDF
 import json
+import os
 from pyvis.network import Network
 
 g = rdflib.Graph()
@@ -36,18 +37,6 @@ visOptions = {"configure": {"enabled": False},
                     "updateInterval": 50}}}
 
 
-def makeGraph(results):
-    """ Convert results of SPARQL query to a NetworkX graph. """
-    net = Network(height='750px', width='100%')
-
-    for subj, verb, obj in results:
-        net.add_node(subj, shape='square', title=str(subj))
-        net.add_node(verb, shape='circle',
-                     label=str(obj),
-                     title=str(verb))
-        net.add_edge(subj, verb, title="hasCourse")
-    return net
-
 
 def getCourseTextGraph():
     """
@@ -64,10 +53,40 @@ def getCourseTextGraph():
             ?author foaf:surname ?authorLast .
         } limit 100""")
 
-    # for line in coursesAndTexts:
-    #     print(line)
+    net = Network(height='750px', width='100%')
 
-    return makeGraph(net)
+    for courseName, textTitle, authorLast in coursesAndTexts:
+        net.add_node(courseName, shape='square')
+        net.add_node(textTitle, shape='circle', label=str(authorLast))
+        net.add_edge(courseName, textTitle, title="hasCourse")
+
+    return net
+
+
+def getUniCourseGraph():
+    """
+    Get university-course graph.
+    """
+    results = g.query("""
+        select distinct ?courseName ?instructorFN ?instructorGN ?university where {
+            ?id a ccso:Course .
+            ?id ccso:csName ?courseName .
+            ?id ccso:hasInstructor ?inst .
+            ?inst foaf:familyName ?instructorFN .
+            ?inst foaf:givenName ?instructorGN .
+            ?id ccso:offeredBy ?dept .
+            ?dept ccso:belongsTo ?uni .
+            ?uni ccso:legalName ?university .
+        }""")
+
+    net = Network(height='750px', width='100%')
+
+    for courseName, instLast, instFirst, uni in results:
+        instName = f"{instFirst} {instLast}"
+        net.add_node(uni, shape='square')
+        net.add_node(courseName, shape='circle', label=str(instName))
+        net.add_edge(uni, courseName, title="hasCourse")
+    return net
 
 
 def formatVisData(net):
@@ -106,10 +125,12 @@ def formatVisData(net):
     });
     """
 
-def getUniCourseGraph():
+
+def uniCourseList():
     """
-    Get university-course graph.
+    Make a list of universities and their courses.
     """
+
     results = g.query("""
         select distinct ?courseName ?instructorFN ?instructorGN ?university where {
             ?id a ccso:Course .
@@ -122,24 +143,15 @@ def getUniCourseGraph():
             ?uni ccso:legalName ?university .
         }""")
 
-    return makeGraph(results)
-
-def uniCourseList():
-    """
-    Make a list of universities and their courses.
-    """
-    uniCourseGraph = getUniCourseGraph()
-
     # Build up a dictionary with universities as keys,
     # and courses as a list of values
     byUniversity = {}
-    for line in uniCourseGraph:
+    for courseName, instLast, instFirst, uni in results:
         # print(line)
-        courseName, instFN, instGN, university = line
-        if university in byUniversity:
-            byUniversity[university].append((courseName, instFN, instGN))
+        if uni in byUniversity:
+            byUniversity[uni].append((courseName, instLast, instFirst))
         else:
-            byUniversity[university] = [(courseName, instFN, instGN)]
+            byUniversity[uni] = [(courseName, instLast, instFirst)]
 
     uniList = ul(cls="universities")
     for uni in byUniversity:
@@ -155,6 +167,14 @@ def uniCourseList():
                         cls="course"))
     return h2("Courses by University"), uniList
 
+
+def courseTextList():
+    """
+    TODO: A list a courses and their assigned texts.
+    """
+    return ""
+
+
 def uniCourseContent():
     """
     Make a list of universities and their courses.
@@ -163,10 +183,21 @@ def uniCourseContent():
     loadingBar = div(div(div("0%", id="text"), div(div(id="bar"), id="border"), _class="outerBorder"), id="loadingBar")
     return (container, loadingBar, uniCourseList())
 
+
+def courseTextContent():
+    """
+    Make a list of courses and their assigned texts.
+    """
+    container = div(id="mynetwork")
+    loadingBar = div(div(div("0%", id="text"), div(div(id="bar"), id="border"), _class="outerBorder"), id="loadingBar")
+    return (container, loadingBar, courseTextList())
+
+
 siteMap = {"About": "about",
            "Uni-Course": "uniCourse",
            "Course-Text": "courseText",
            "Text-Text": "textText"}
+
 
 class WebPage():
     """ An object to make web pages, given names, slugs, and content."""
@@ -230,13 +261,15 @@ class WebPage():
         doc.body.add(self.body_(content, scriptData))
         fn = f"{WEBSITE_LOCATION}/{slug}/index.html"
         rendered = doc.render()
+        if not os.path.exists(os.path.dirname(fn)):
+            try:
+                os.makedirs(os.path.dirname(fn))
+            except OSError as exc: # Guard against race condition
+                exit(f"Error while writing file: {exc}")
         with open(fn, 'w') as outfile:
             outfile.write(rendered)
             logging.info(f"Wrote to {fn}")
 
 
-
-print(type(uniCourseContent()))
-
 uniCourse = WebPage("Uni-Course", "uniCourse", uniCourseContent(), formatVisData(getUniCourseGraph()))
-uniCourse = WebPage("Course-Text", "courseText", courseTextContent(), formatVisData(getCourseText()))
+courseText = WebPage("Course-Text", "courseText", courseTextContent(), formatVisData(getCourseTextGraph()))
