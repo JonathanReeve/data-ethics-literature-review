@@ -74,6 +74,32 @@ def getCourseTextGraph():
 
     return nxGraph, net
 
+def getTextTextGraph():
+    """
+    Get text-text graph: a graph of how texts cite each other.
+    TODO.
+    """
+    results = g.query("""
+        select distinct ?courseID ?courseName ?instructorFN ?instructorGN ?university where {
+            ?textID res:resource ?doc .
+            ?doc dcterms:title ?textTitle .
+            ?doc dcterms:creator ?author .
+            ?author foaf:surname ?authorLast .
+        }""")
+
+
+    visGraph = Network(height='750px', width='100%') # PyVis-Network, for visualization.
+    nxGraph = nx.Graph() # NetworkX, for analyses
+
+    for courseID, courseName, instLast, instFirst, uni in results:
+        instName = f"{instFirst} {instLast}"
+        nxGraph.add_node(uni)
+        visGraph.add_node(uni, shape='circle', title=uni, mass=2)
+        nxGraph.add_node(courseID)
+        visGraph.add_node(courseID, shape='box', label=courseName)
+        visGraph.add_edge(uni, courseID)
+        nxGraph.add_edge(uni, courseID)
+    return nxGraph, visGraph
 
 def getUniCourseGraph():
     """
@@ -98,9 +124,9 @@ def getUniCourseGraph():
     for courseID, courseName, instLast, instFirst, uni in results:
         instName = f"{instFirst} {instLast}"
         nxGraph.add_node(uni)
-        visGraph.add_node(uni, shape='circle', title=uni, mass=3)
+        visGraph.add_node(uni, shape='circle', title=uni, mass=2)
         nxGraph.add_node(courseID)
-        visGraph.add_node(courseID, shape='box', label=courseName, mass=5)
+        visGraph.add_node(courseID, shape='box', label=courseName)
         visGraph.add_edge(uni, courseID)
         nxGraph.add_edge(uni, courseID)
     return nxGraph, visGraph
