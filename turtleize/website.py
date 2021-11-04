@@ -80,7 +80,7 @@ def getTextTextGraph():
     TODO.
     """
     results = g.query("""
-        select distinct ?courseID ?courseName ?instructorFN ?instructorGN ?university where {
+        select distinct ?textID ?textTitle ?author where {
             ?textID res:resource ?doc .
             ?doc dcterms:title ?textTitle .
             ?doc dcterms:creator ?author .
@@ -91,12 +91,9 @@ def getTextTextGraph():
     visGraph = Network(height='750px', width='100%') # PyVis-Network, for visualization.
     nxGraph = nx.Graph() # NetworkX, for analyses
 
-    for courseID, courseName, instLast, instFirst, uni in results:
-        instName = f"{instFirst} {instLast}"
-        nxGraph.add_node(uni)
-        visGraph.add_node(uni, shape='circle', title=uni, mass=2)
-        nxGraph.add_node(courseID)
-        visGraph.add_node(courseID, shape='box', label=courseName)
+    for textID, textTitle, author in results:
+        nxGraph.add_node(textID)
+        visGraph.add_node(textID, shape='circle', title=textTitle, mass=2)
         visGraph.add_edge(uni, courseID)
         nxGraph.add_edge(uni, courseID)
     return nxGraph, visGraph
@@ -403,14 +400,16 @@ class GraphAnalysis():
 index = WebPage("Index", "index", indexContent(), "")
 
 
-nxGraph, visGraph = getUniCourseGraph()
-uniCourseAnalysis = GraphAnalysis(nxGraph, visGraph)
-uniCourse = WebPage("Uni-Course", "uniCourse",
-                    uniCourseContent(uniCourseAnalysis.webpageContent()), uniCourseAnalysis.js)
+# nxGraph, visGraph = getUniCourseGraph()
+# uniCourseAnalysis = GraphAnalysis(nxGraph, visGraph)
+# uniCourse = WebPage("Uni-Course", "uniCourse",
+#                     uniCourseContent(uniCourseAnalysis.webpageContent()), uniCourseAnalysis.js)
 
-nxGraph, visGraph = getCourseTextGraph()
-courseTextAnalysis = GraphAnalysis(nxGraph, visGraph)
-courseText = WebPage("Course-Text", "courseText",
-                     courseTextContent(courseTextAnalysis.webpageContent()), courseTextAnalysis.js)
+# nxGraph, visGraph = getCourseTextGraph()
+# courseTextAnalysis = GraphAnalysis(nxGraph, visGraph)
+# courseText = WebPage("Course-Text", "courseText",
+#                      courseTextContent(courseTextAnalysis.webpageContent()), courseTextAnalysis.js)
 
-textText = WebPage("Text-Text", "textText", "Nothing here yet.", "")
+nxGraph, visGraph = getTextTextGraph()
+textTextAnalysis = GraphAnalysis(nxGraph, visGraph)
+textText = WebPage("Text-Text", "textText", "Nothing here yet.", textTextAnalysis.js)

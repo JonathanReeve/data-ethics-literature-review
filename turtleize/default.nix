@@ -71,17 +71,19 @@ with import (builtins.fetchGit {
     };
     etudier = pkgs.python38Packages.buildPythonPackage rec { 
 	    pname = "etudier"; 
-	    version = "0.0.7";
+	    version = "0.0.8";
 	    src = pkgs.python38Packages.fetchPypi { 
 	      inherit version; inherit pname; 
-	      sha256 = "0qy0h0bdlp1klzd3jjdky8l3z160cck0nlh5i3kgxgq1blsfkwb4";
+	      sha256 = "XLZ5GbdAdNKy1yqIhp3Y5HHhKuZ/lvlSgh0dcaZUNJE=";
 	    };
-	    buildInputs = with pkgs.python38Packages; [ 
+	    propagatedBuildInputs = [ pkgs.chromedriver ];
+      patches = [ ./setup.py.patch ];
+	    buildInputs = with pkgs.python38Packages; [
+        pkgs.chromedriver
 	      selenium
 	      networkx
 	      requestsHtml
 	    ];
-	    nativeBuildInputs = [ chromedriver ];
 	    doCheck = false;
     };
     pyvis = pkgs.python38Packages.buildPythonPackage rec {
@@ -175,14 +177,12 @@ with import (builtins.fetchGit {
 	      # chart-studio
 	      jupyterlab # Dev
 	      # flake8  # Dev
-	      # python-language-server
-	      # pyls-mypy
+	      python-language-server
+	      pyls-mypy
 	      toolz
 	      rdflib
 	      beautifulsoup4
-	      # requestsHtml
-	      # selenium
-	      # etudier
+	      requestsHtml
 	      networkx
         jsonpickle
         docker
@@ -198,9 +198,12 @@ with import (builtins.fetchGit {
         docx2txt
         flask
         nltk
+        # Etudier
+	      selenium
+	      etudier
 	    ];
     };
     in 
     pkgs.mkShell { 
-      buildInputs = [ customPython docker anystyle-cli ];
+      buildInputs = [ customPython docker anystyle-cli chromedriver ];
     })

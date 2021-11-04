@@ -20,7 +20,8 @@ import json
 from nltk.metrics.distance import edit_distance
 
 
-turtleFile = "../data/texts/ttl/101.ttl"
+turtleFile = "../data/coursesAndTexts.ttl"
+maxDistance = 10
 
 def queryCrossRef(title, author=None):
     """
@@ -49,12 +50,53 @@ def queryCrossRef(title, author=None):
         logging.error(f"Response not ok. Response: {resp}")
 
 
+def similarPapers(textA, textB, maxDistance=maxDistance):
+    """
+    Tests whether two papers' titles are similar enough.
+    """
+    textA = textA.lower() # Get case-insensitive
+    textB = textB.lower()
+    if editRatio(textA, textB) < 0.2: # 80% similar titles
+        logging.info('Texts are more than 80% similar in terms of edit distance.')
+        return True
+    else:
+        # Truncate
+        if len(textA) > 10:
+            aHead = textA[:10]
+        else:
+            aHead = textA
+        if len(textB) > 10:
+            bHead = textB[:10]
+        else:
+            bHead = textB
+        if editRatio(aHead, bHead) > 0.9: # 90% similar beginnings
+            logging.info('Texts have beginnings that are more than 90% similar.')
+            return True
+        else:
+            wordsA = set(textA.split())
+            wordsB = set(textB.split())
+            averageLength = (len(wordsA) + len(wordsB)) / 2
+            intersection = wordsA.intersection(wordsB)
+            if len(intersection) / averageLength > 0.8:
+                # More than 80% identical words
+                logging.info('Texts contain 80% identical words.')
+                return True
+
+
+
+
 def editRatio(textA, textB):
     """
     Computes the ratio of edit distances between two titles,
     in order to measure title similarity.
     """
-    return edit_distance(textA, textB) / len((textA + textB)/2)
+    editDistance = edit_distance(textA, textB)
+    logging.debug(f"Edit distance is {editDistance}")
+    averageLength = len(textA) + len(textB) / 2
+    logging.debug(f"Average length is {averageLength}")
+    editRatio = editDistance / averageLength
+    logging.debug(f"Edit ratio is {editRatio}")
+    return editRatio
 
 
 def main():
@@ -90,7 +132,7 @@ def main():
     resultsDict = {}
     for result in data:
         itemID, title, authorFirst, authorLast = result
-        print(itemID, title, authorFirst, authorLast)
+        # print(itemID, title, authorFirst, authorLast)
         if authorFirst is not None and authorLast is not None:
             author = f"{authorFirst} {authorLast}"
         else:
@@ -107,10 +149,28 @@ def main():
         # Compute Levenshtein (edit) distance of titles to find the best match.
         if candidates is not None:
             for i, candidate in enumerate(candidates):
+                if 'title' not in candidate:
+                    logging.error("No title.")
+                    logging.debug(candidate.keys())
+                    continue
+                if type(title) == list:
+                    title = title[0] # Donno why these can be lists, but some are
                 candidateTitle = candidate['title']
-                logging.info(f"Candidate {i}: {candidateTitle}")
-                distance = edit_distance(title, candidateTitle)
-                logging.info(f"Distance: {distance}")
+                if type(candidateTitle) == list:
+                    candidateTitle = candidateTitle[0]
+                title = str(title) # Convert from RDFTerm
+                if similarPapers(title, candidateTitle):
+                    logging.info("*** Found match! ***")
+                    logging.info(f"Query: {title}")
+                    logging.info(f"Match {i}: {candidateTitle}")
+                    # logging.info(f"Distance: {distance}")
+                    # print(candidate)
+                    itemIDBare = itemID.split('/')[-1]
+                    f = open(f"../data/texts/json/{itemIDBare}.json", 'w')
+                    json.dump(candidate, f)
+                    f.close()
+
+
 
 
 
