@@ -18,6 +18,8 @@ import requests
 import logging
 import json
 from nltk.metrics.distance import edit_distance
+import time
+from os.path import exists
 
 
 turtleFile = "../data/coursesAndTexts.ttl"
@@ -48,6 +50,72 @@ def queryCrossRef(title, author=None):
             logging.error("Can't find the message.")
     else:
         logging.error(f"Response not ok. Response: {resp}")
+
+
+def querySemanticScholar(title, author=None):
+    """ Look up data from Semantic Scholar.  """
+    logging.info(f"Querying {title} by {author}")
+    # https://api.semanticscholar.org/graph/v1/paper/search?query=literature+graph&offset=10&limit=50&fields=title,authors
+    if author is None:
+        author = ""
+    query = title + " " + author
+    url = "https://api.semanticscholar.org/graph/v1/paper/search"
+    fields = "title,authors,externalIds,url,abstract," + \
+        "venue,year,referenceCount,citationCount," + \
+        "influentialCitationCount,isOpenAccess,fieldsOfStudy"
+    params = {"query": query, "fields": fields}
+    resp = requests.get(url, params=params)
+    if resp.ok:
+        data = json.loads(resp.text)
+        print(data)
+        if 'total' in data:
+            if data['total'] > 0:
+                return data['data']
+            else:
+                logging.error('No results!')
+                return None
+        else:
+            logging.error('No results!')
+            return None
+    else:
+        logging.error('Response not OK!')
+        return None
+
+def queryOpenLibrary(title, author=None):
+    """
+    We're probably dealing with a book, at this point.
+    So let's look it up on Open Library!
+    """
+    # http://openlibrary.org/search.json?q=the+lord+of+the+rings
+    url = "http://openlibrary.org/search.json"
+    if author is not None:
+        params = {"title": title, "author": author}
+    else:
+        params = {"title": title}
+    resp = requests.get(url, params=params)
+    if resp.ok:
+        data = json.loads(resp.text)
+        print(data)
+        if 'numFound' in data:
+            if data['numFound'] > 0:
+                if 'docs' in data:
+                    return data['docs']
+                else:
+                    logging.error('No docs!')
+                    return None
+            else:
+                logging.error('No results!')
+                return None
+        else:
+            logging.error('None found!')
+            return None
+    else:
+        logging.error('Response not OK!')
+        return None
+
+
+
+
 
 
 def similarPapers(textA, textB, maxDistance=maxDistance):
@@ -84,7 +152,6 @@ def similarPapers(textA, textB, maxDistance=maxDistance):
 
 
 
-
 def editRatio(textA, textB):
     """
     Computes the ratio of edit distances between two titles,
@@ -98,6 +165,33 @@ def editRatio(textA, textB):
     logging.debug(f"Edit ratio is {editRatio}")
     return editRatio
 
+def parseResults(candidates, title, itemID, source):
+    """ Compute Levenshtein (edit) distance of titles to find the best match. """
+    if source not in ['crossRef', 'semanticScholar', 'openLibrary']:
+        logging.error('Source must be either crossRef or semanticScholar or openLibrary')
+        return None
+    if candidates is not None:
+        for i, candidate in enumerate(candidates):
+            if 'title' not in candidate:
+                logging.error("No title.")
+                logging.debug(candidate.keys())
+                continue
+            candidateTitle = candidate['title']
+            if type(candidateTitle) == list:
+                candidateTitle = candidateTitle[0] # Donno why these can be lists, but some are
+            title = str(title) # Convert from RDFTerm
+            if similarPapers(title, candidateTitle):
+                logging.info("*** Found match! ***")
+                logging.info(f"Query: {title}")
+                logging.info(f"Match {i}: {candidateTitle}")
+                # logging.info(f"Distance: {distance}")
+                # print(candidate)
+                itemIDBare = itemID.split('/')[-1]
+                f = open(f"../data/texts/json/{source}/{itemIDBare}.json", 'w')
+                json.dump(candidate, f)
+                f.close()
+                return True
+    return False
 
 def main():
     g = rdflib.Graph()
@@ -143,34 +237,27 @@ def main():
         else:
             resultsDict[itemID] = (title, author)
     for itemID, titleAuthor in resultsDict.items():
-        title, author = titleAuthor
-        candidates = queryCrossRef(title, author)
-        logging.info(f"Title: {title}")
-        # Compute Levenshtein (edit) distance of titles to find the best match.
-        if candidates is not None:
-            for i, candidate in enumerate(candidates):
-                if 'title' not in candidate:
-                    logging.error("No title.")
-                    logging.debug(candidate.keys())
-                    continue
-                if type(title) == list:
-                    title = title[0] # Donno why these can be lists, but some are
-                candidateTitle = candidate['title']
-                if type(candidateTitle) == list:
-                    candidateTitle = candidateTitle[0]
-                title = str(title) # Convert from RDFTerm
-                if similarPapers(title, candidateTitle):
-                    logging.info("*** Found match! ***")
-                    logging.info(f"Query: {title}")
-                    logging.info(f"Match {i}: {candidateTitle}")
-                    # logging.info(f"Distance: {distance}")
-                    # print(candidate)
-                    itemIDBare = itemID.split('/')[-1]
-                    f = open(f"../data/texts/json/{itemIDBare}.json", 'w')
-                    json.dump(candidate, f)
-                    f.close()
-
-
+        # Don't double-dip
+        crossRefFile, semanticScholarFile = [f"../data/texts/bib/json/{source}/{itemID}.json" for source in ["crossRef", "semanticScholar"]]
+        if not exists(crossRefFile):
+            logging.info(f"Title: {title}")
+            title, author = titleAuthor
+            candidates = queryCrossRef(title, author)
+            crossRefResult = parseResults(candidates, title, itemID, "crossRef")
+        if not exists(semanticScholarFile):
+            candidates = querySemanticScholar(title, author)
+            semanticScholarResult = parseResults(candidates, title, itemID, "semanticScholar")
+        if (not crossRefResult) and (not semanticScholarResult):
+            # Check whether we have metadata files already stored.
+            if not exists(crossRefFile) and not exists(semanticScholarFile):
+                # Then we probably have a book, or something else weird
+                candidates = queryOpenLibrary(title, author)
+                openLibraryResult = parseResults(candidates, title, itemID, "openLibrary")
+                if not openLibraryResult:
+                    # Well let's just give up then
+                    with open('unknown-bibs.txt', 'a') as f:
+                        f.write(str(itemID))
+            time.sleep(1) # Try to be polite to the APIs
 
 
 

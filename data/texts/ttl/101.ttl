@@ -19,8 +19,8 @@
 <4KCWRSUW> a z:UserItem ;
     res:resource [ a bibo:Book ;
             dcterms:publisher [ a foaf:Organization ;
-                    foaf:name "Awakening, New York Times" ] ;
-            dcterms:title "The Great A.I" ] .
+                    foaf:name "New York Times" ] ;
+            dcterms:title "The Great A.I. Awakening" ] .
 
 <VLFPIVCU> a z:UserItem ;
     res:resource [ a bibo:Document ;
