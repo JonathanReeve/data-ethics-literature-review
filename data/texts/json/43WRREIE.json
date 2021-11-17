@@ -1,0 +1,333 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2021,
+        10,
+        30
+      ]
+    ],
+    "date-time": "2021-10-30T01:47:25Z",
+    "timestamp": 1635558445075
+  },
+  "reference-count": 24,
+  "publisher": "SAGE Publications",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            1981,
+            11,
+            1
+          ]
+        ],
+        "date-time": "1981-11-01T00:00:00Z",
+        "timestamp": 373420800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "http://journals.sagepub.com/page/policies/text-and-data-mining-license"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Feminist Review"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1981,
+        11
+      ]
+    ]
+  },
+  "DOI": "10.1057/fr.1981.19",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2012,
+        3,
+        12
+      ]
+    ],
+    "date-time": "2012-03-12T16:44:10Z",
+    "timestamp": 1331570650000
+  },
+  "page": "41-58",
+  "source": "Crossref",
+  "is-referenced-by-count": 36,
+  "title": [
+    "The Material of Male Power"
+  ],
+  "prefix": "10.1177",
+  "volume": "9",
+  "author": [
+    {
+      "given": "Cynthia",
+      "family": "Cockburn",
+      "sequence": "first",
+      "affiliation": []
+    }
+  ],
+  "member": "179",
+  "published-online": {
+    "date-parts": [
+      [
+        2019,
+        3,
+        4
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "issue": "10",
+      "key": "bibr1-fr.1981.19",
+      "author": "Barker Jane",
+      "year": "1980",
+      "journal-title": "Capital & Class"
+    },
+    {
+      "key": "bibr2-fr.1981.19",
+      "volume-title": "Women's Oppression Today",
+      "author": "Barrett Michèle",
+      "year": "1980"
+    },
+    {
+      "key": "bibr3-fr.1981.19",
+      "volume-title": "Little Girls",
+      "author": "Belotti Elena",
+      "year": "1975"
+    },
+    {
+      "key": "bibr4-fr.1981.19",
+      "volume-title": "Technology and Toil in Nineteenth Century Britain",
+      "author": "Berg Maxine",
+      "year": "1979"
+    },
+    {
+      "key": "bibr6-fr.1981.19",
+      "volume-title": "Industrial Relations in the British Printing Industry",
+      "author": "Child John",
+      "year": "1967"
+    },
+    {
+      "key": "bibr8-fr.1981.19",
+      "volume-title": "The Main Enemy",
+      "author": "Delphy Christine",
+      "year": "1977"
+    },
+    {
+      "key": "bibr9-fr.1981.19",
+      "volume-title": "Capitalist Patriarchy and the Case for Socialist Feminism",
+      "author": "Eisenstein Zillah",
+      "year": "1979"
+    },
+    {
+      "key": "bibr10-fr.1981.19",
+      "volume-title": "The Origin of the Family, Private Property and the State",
+      "author": "Engels Frederick",
+      "year": "1972"
+    },
+    {
+      "key": "bibr11-fr.1981.19",
+      "volume-title": "Sexual Shakedown",
+      "author": "Farley Lin",
+      "year": "1980"
+    },
+    {
+      "key": "bibr13-fr.1981.19",
+      "volume-title": "The Dialectic of Sex",
+      "author": "Firestone Shulamith",
+      "year": "1971"
+    },
+    {
+      "issue": "8",
+      "key": "bibr15-fr.1981.19",
+      "author": "Hartmann Heidi",
+      "year": "1979",
+      "journal-title": "Capital & Class"
+    },
+    {
+      "key": "bibr17-fr.1981.19",
+      "volume-title": "Sex-role Stereotyping",
+      "author": "Hartnett O.",
+      "year": "1979"
+    },
+    {
+      "key": "bibr18-fr.1981.19",
+      "volume-title": "Labouring Men",
+      "author": "Hobsbawm E.J.",
+      "year": "1964"
+    },
+    {
+      "key": "bibr21-fr.1981.19",
+      "volume-title": "Feminism and Materialism",
+      "author": "Kuhn Annette",
+      "year": "1978"
+    },
+    {
+      "key": "bibr22-fr.1981.19",
+      "volume-title": "Sexual Politics",
+      "author": "Millett Kate",
+      "year": "1971"
+    },
+    {
+      "key": "bibr23-fr.1981.19",
+      "volume-title": "Psychoanalysis and Feminism",
+      "author": "Mitchell Juliet",
+      "year": "1975"
+    },
+    {
+      "key": "bibr24-fr.1981.19",
+      "volume-title": "Sex, Gender and Society",
+      "author": "Oakley Ann",
+      "year": "1972"
+    },
+    {
+      "key": "bibr25-fr.1981.19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/1394973"
+    },
+    {
+      "key": "bibr26-fr.1981.19",
+      "volume-title": "Women in the Printing Trades, a Sociological Study",
+      "author": "Ramsay Macdonald J.",
+      "year": "1904"
+    },
+    {
+      "key": "bibr27-fr.1981.19",
+      "volume-title": "Toward an Anthropology of Women",
+      "author": "Reiter Rayna R",
+      "year": "1975"
+    },
+    {
+      "key": "bibr29-fr.1981.19",
+      "volume-title": "The Making of the English Working Class",
+      "author": "Thompson Edward P.",
+      "year": "1963"
+    },
+    {
+      "key": "bibr32-fr.1981.19",
+      "volume-title": "Women Take Issue",
+      "author": "WOMEN'S STUDIES GROUP, CENTRE FOR CONTEMPORARY CULTURAL STUDIES",
+      "year": "1978"
+    },
+    {
+      "key": "bibr33-fr.1981.19",
+      "author": "Young Kate",
+      "year": "1976",
+      "journal-title": "Papers on Patriarchy"
+    },
+    {
+      "key": "bibr35-fr.1981.19",
+      "volume-title": "Case Studies in the Labor Process",
+      "author": "Zimbalist A.",
+      "year": "1979"
+    }
+  ],
+  "container-title": [
+    "Feminist Review"
+  ],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://journals.sagepub.com/doi/pdf/10.1057/fr.1981.19",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://link.springer.com/article/10.1057/fr.1981.19/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://journals.sagepub.com/doi/full-xml/10.1057/fr.1981.19",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://journals.sagepub.com/doi/pdf/10.1057/fr.1981.19",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    },
+    {
+      "URL": "http://link.springer.com/content/pdf/10.1057/fr.1981.19.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2020,
+        10,
+        27
+      ]
+    ],
+    "date-time": "2020-10-27T20:13:13Z",
+    "timestamp": 1603829593000
+  },
+  "score": 34.4982,
+  "issued": {
+    "date-parts": [
+      [
+        1981,
+        11
+      ]
+    ]
+  },
+  "references-count": 24,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          1981,
+          11
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1057/fr.1981.19"
+  ],
+  "URL": "http://dx.doi.org/10.1057/fr.1981.19",
+  "ISSN": [
+    "0141-7789",
+    "1466-4380"
+  ],
+  "issn-type": [
+    {
+      "value": "0141-7789",
+      "type": "print"
+    },
+    {
+      "value": "1466-4380",
+      "type": "electronic"
+    }
+  ],
+  "subject": [
+    "Arts and Humanities (miscellaneous)",
+    "Gender Studies"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        1981,
+        11
+      ]
+    ]
+  }
+}
