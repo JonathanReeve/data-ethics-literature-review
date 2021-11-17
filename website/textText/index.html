@@ -27,32 +27,6 @@
         <div class="column col-12">Nothing here yet.</div>
       </div>
     </div>
-    <script>
-        nodes = new vis.DataSet([])
-        edges = new vis.DataSet([])
-        data = {nodes: nodes, edges: edges};
-        options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": {"enabled": false, "type": "continuous"}}, "interaction": {"dragNodes": true, "hideEdgesOnDrag": false, "hideNodesOnDrag": false}, "physics": {"enabled": true, "stabilization": {"enabled": true, "fit": true, "iterations": 1000, "onlyDynamicEdges": false, "updateInterval": 50}}}
-        container = document.getElementById('mynetwork');
-        
-        network = new vis.Network(container, data, options);
-
-        network.on("stabilizationProgress", function(params) {
-            document.getElementById('loadingBar').removeAttribute("style");
-            var maxWidth = 496;
-            var minWidth = 20;
-            var widthFactor = params.iterations/params.total;
-            var width = Math.max(minWidth,maxWidth * widthFactor);
-
-            document.getElementById('bar').style.width = width + 'px';
-            document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
-        });
-        network.once("stabilizationIterationsDone", function() {
-            document.getElementById('text').innerHTML = '100%';
-            document.getElementById('bar').style.width = '496px';
-            document.getElementById('loadingBar').style.opacity = 0;
-            // really clean the dom element
-            setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
-        });
-        </script>
+    <script></script>
   </body>
 </html>
