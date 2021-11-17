@@ -13,6 +13,7 @@ from rdflib import URIRef, BNode, Literal
 from rdflib import Namespace
 import rdflib
 import click
+import os
 import sys
 import requests
 import logging
@@ -20,7 +21,25 @@ import json
 from nltk.metrics.distance import edit_distance
 import time
 from os.path import exists
+from glob import glob
+from itertools import groupby
 
+base = 'https://data-ethics.tech'
+ccso = Namespace('https://w3id.org/ccso/ccso/')
+cito = Namespace('http://purl.org/spar/cito')
+de = Namespace(base + '/')
+dePerson = Namespace(f'{base}/person/')
+deCourse = Namespace(f'{base}/course/')
+deText = Namespace(f'{base}/text/')
+deUniversity = Namespace(f'{base}/university/')
+g = rdflib.Graph()
+g.bind('ccso', ccso)
+g.bind('cito', cito)
+g.bind('de', de)
+g.bind('dePerson', dePerson)
+g.bind('deCourse', deCourse)
+g.bind('deText', deText)
+g.bind('deUniversity', deUniversity)
 
 turtleFile = "../data/coursesAndTexts.ttl"
 maxDistance = 10
@@ -50,6 +69,31 @@ def queryCrossRef(title, author=None):
             logging.error("Can't find the message.")
     else:
         logging.error(f"Response not ok. Response: {resp}")
+
+def querySemanticScholarDetails(paperID, textID, citationsOrReferences):
+    """
+    We got the basic details from Semantic Scholar.
+    Now we need to get the full details about the citations and references.
+    """
+    if citationsOrReferences not in ['citations', 'references']:
+        logging.error("Type of query must be either citations or references.")
+        return False
+    # https://api.semanticscholar.org/graph/v1/paper/cb13b1b6a37e4080d8c13c5f33694b5aae90abcf/citations?fields=title,authors
+    url = f"https://api.semanticscholar.org/graph/v1/paper/{paperID}/{citationsOrReferences}"
+    fields = "contexts,intents,isInfluential,paperId,externalIds,url,title,abstract" + \
+      ",venue,year,referenceCount,citationCount,influentialCitationCount,isOpenAccess," \
+      "fieldsOfStudy,authors"
+    params = {"fields": fields}
+    resp = requests.get(url, params=params)
+    if resp.ok:
+        data = json.loads(resp.text)
+        with open(f"../data/texts/json/semanticScholar/{textID}-{citationsOrReferences}.json", 'w') as f:
+            f.write(json.dumps(data))
+        return True
+    else:
+        logging.error("Response not OK!")
+        return False
+
 
 
 def querySemanticScholar(title, author=None):
@@ -259,8 +303,78 @@ def main():
                         f.write(str(itemID))
             time.sleep(1) # Try to be polite to the APIs
 
+def getSemanticScholarDetails():
+    """
+    Go through each of our entries from SemanticScholar data, and get citation details.
+    """
+    filenames = glob("../data/texts/json/semanticScholar/*.json")
+    # print(filenames)
+    for filename in filenames:
+        stub = os.path.basename(filename)[:7]
+        logging.info(f"Stub: {stub}")
+        if filename.endswith('-citations.json') or filename.endswith('-references.json'):
+            continue
+        filenamesStartingWithThis = [fn for fn in filenames if fn.startswith(stub)]
+        if len(filenamesStartingWithThis) > 1:
+            logging.info(f"We already have it: {filenamesStartingWithThis}")
+            continue # We already got this one
+        logging.info(f"Getting details for: {filename}")
+        fn = os.path.basename(filename)
+        if fn.endswith('.json'):
+            fn = fn[:-5] # Strip suffix
+        else:
+            logging.error("Filename doesn't end in json!")
+        jsonData = json.load(open(filename))
+        if 'paperId' not in jsonData:
+            logging.error('No paper id!')
+            continue
+        paperID = jsonData['paperId']
+        querySemanticScholarDetails(paperID, fn, "citations")
+        querySemanticScholarDetails(paperID, fn, "references")
+        time.sleep(1)
+
+def parseCitationsReferences():
+    """
+    We've downloaded lots of -citations.json and -references.json files for our papers.
+    Now let's parse these out into citations in our graph format.
+    """
+    filenames = glob("../data/texts/json/semanticScholar/*.json")
+    for filename in filenames:
+        if filename.endswith('-citations.json'):
+            # We have details for this one
+            referencesFn = filename.replace('-citations.json', '-references.json')
+            baseFn = filename.replace('-citations.json', '.json')
+            baseName = os.path.basename(baseFn).replace('.json', '')
+            try:
+                with open(filename) as f:
+                    citationsData = json.load(f)
+                with open(referencesFn) as f:
+                    referencesData = json.load(f)
+                with open(baseFn) as f:
+                    baseData = json.load(f)
+            except FileNotFoundError as e:
+                logging.error(f"Can't open one or more files! {e}")
+                continue
+            citingPapers = [paper['citingPaper']['paperId'] for paper in citationsData['data']]
+            referencesPapers = [paper['citedPaper']['paperId'] for paper in referencesData['data']]
+            cites = cito['cites']
+            for citingPaper in citingPapers:
+                g.add((deText[citingPaper], cito['cites'], deText[baseName]))
+            for referencePaper in referencesPapers:
+                g.add((deText[baseName], cito['cites'], deText[referencePaper]))
+    out = g.serialize(format="turtle")
+    print(out)
+    outFn = "../data/citationsAndReferences.ttl"
+    with open(outFn, 'w') as f:
+        f.write(out)
+    logging.info(f"Wrote to {outFn}")
+
+
+
 
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    main()
+    # main()
+    # getSemanticScholarDetails()
+    parseCitationsReferences()

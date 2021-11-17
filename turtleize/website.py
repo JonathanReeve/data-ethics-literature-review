@@ -3,7 +3,6 @@ Create a website from our graph.
 We use dominate: https://github.com/Knio/dominate
 to quasi-manually code it.
 """
-from flask import Flask
 
 import dominate
 from dominate.tags import html, head, header, div, section, link, meta, body, h2, h3, span, li, ul, script, a, base, p, pre
@@ -208,10 +207,57 @@ def indexContent():
     The content of the main index.html file.
     """
     return div(h2("Welcome to Data Ethics"),
-               p("""We map the burgeoning field of data ethics, an interdisciplinary area
-               of study, spanning computer science, data science, statistics,
-               and humanities disciplines. """)
+               p("""
+On this site we map the burgeoning field of data ethics, an interdisciplinary
+area of study, spanning computer science, data science, statistics, the social
+sciences, and the humanities.
+
+There is growing recognition of the importance of data ethics as a foundation of
+professional practice and a pillar of education in data-driven fields.  We have
+designed this roadmap as a tool for educators to explore the expanding field of
+data ethics coursework and literature in the hopes that it will contribute to
+new and expanded data ethics course design.
+
+This tool was developed through a collaboration at Columbia University between
+Jonathan Reeve, Isabelle Zaugg, Tian Zheng, Serena Yuan, and Zhuohan Zhang.  To
+develop our tool, we used syllabi crowdsourced from Fiesler et al.’s 2017 study
+and elsewhere, and created a graph database, using semantic web technologies
+(linked open data, in Turtle RDF), that encodes: 1) courses related to data
+ethics, 2) their assigned texts, scraped from syllabi, and 3) other texts
+related to the field, and the texts they cite.  We then created a graphical
+visualization, an explorer which is designed to provide insight into the
+following questions relevant to educators:
+"""),
+ul(
+    li("Which texts are most frequently assigned, and cited? And which texts are excluded? Are there important outliers that deserve more attention?"),
+    li("Where are the disciplinary divides, and how can they be bridged?"),
+    li("What are similarities and differences between data ethics courses?"),
+    li("Which institutions, scholars, educators are innovating in this space?"),
+    li("What are the major topic areas?"),
+    ),
+p("""We would like to thank the following scholars and literature that informed our
+work: Casey Fiesler, Michael Zimmer, Karina Alexanyan, Daniel Castaño, Frédérick
+Bruneault"""),
+p("""Brusseau, J. (n.d.). AI Ethics Site—List of Courses and Course Materials. AI
+  Ethics Workshop. Retrieved July 8, 2021, from http://ai.ethicsworkshop.org/course-materials"""),
+p("""Dencik, L., Hintz, A., Redden, J., & Treré, E. (2019). Exploring Data Justice:
+  Conceptions, Applications and Directions. Information, Communication &
+  Society, 22, 873–881."""),
+p("""Fiesler, C. (2019, November 21). Tech Ethics Curricula: A Collection of Syllabi. Medium.
+  https://cfiesler.medium.com/tech-ethics-curricula-a-collection-of-syllabi-3eedfb76be18"""),
+p("""Fiesler, C., Garrett, N., & Beard, N. (2020). What Do We Teach When We Teach
+  Tech Ethics?: A Syllabi Analysis. Proceedings of the 51st ACM Technical
+  Symposium on Computer Science Education, 289–295."""),
+p("""Metcalf, J., Crawford, K., & Keller, E. (2015). Pedagogical Approaches to Data
+  Ethics (p. 16) [Draft Version, Produced for Council for Big Data, Ethics, and
+  Society]. Data & Society Research Institute."""),
+p("""Raji, I. D., Scheuerman, M. K., & Amironesei, R. (2021). You Can’t Sit With
+  Us: Exclusionary Pedagogy in AI Ethics Education. Proceedings of the 2021 ACM
+  Conference on Fairness, Accountability, and Transparency, 515–525."""),
+p("""Zeffiro, A. (2021). From Data Ethics to Data Justice in/as Pedagogy
+  (Dispatch). Studies in Social Justice, 15, 450–457.""")
                )
+
 
 siteMap = {"About": "about",
            "Uni-Course": "uniCourse",
@@ -399,6 +445,7 @@ class GraphAnalysis():
 
 index = WebPage("Index", "index", indexContent(), "")
 
+# index = WebPage("About", "about", aboutContent(), "")
 
 # nxGraph, visGraph = getUniCourseGraph()
 # uniCourseAnalysis = GraphAnalysis(nxGraph, visGraph)
@@ -410,6 +457,6 @@ index = WebPage("Index", "index", indexContent(), "")
 # courseText = WebPage("Course-Text", "courseText",
 #                      courseTextContent(courseTextAnalysis.webpageContent()), courseTextAnalysis.js)
 
-nxGraph, visGraph = getTextTextGraph()
-textTextAnalysis = GraphAnalysis(nxGraph, visGraph)
-textText = WebPage("Text-Text", "textText", "Nothing here yet.", textTextAnalysis.js)
+# nxGraph, visGraph = getTextTextGraph()
+# textTextAnalysis = GraphAnalysis(nxGraph, visGraph)
+textText = WebPage("Text-Text", "textText", "Nothing here yet.", "") # textTextAnalysis.js)
