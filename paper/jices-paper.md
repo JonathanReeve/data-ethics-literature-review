@@ -20,7 +20,7 @@ Data ethics, education, semantic web
 
 We begin by collecting data surrounding university courses. Using course lists such as the tech ethics curriculum list provided by Casey Fiesler et al, and Dennis Tennen et al.’s Open Syllabus Project, we are able to derive preliminary information: the names of the courses, the instructors, and the host departments, among others [see @fiesler_tech_2019; @nowogrodzki2016mining]. Fiesler et al’s list is a openly-editable Google Sheets spreadsheet, called Tech Ethics Curriculum, containing data about roughly three hundred courses. The spreadsheet tracks courses titles, universities, departments, course description URLs, syllabus URLs, and 
 
-Syllabus URLs are only present for [TODO: X%] of  
+Syllabus URLs are only present for about half of these listed courses, however. Some entries are marked as "not online." 
 
 
 
