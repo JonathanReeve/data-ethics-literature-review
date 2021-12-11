@@ -20,11 +20,32 @@ Data ethics, education, semantic web
 
 We begin by collecting data surrounding university courses. Using course lists such as the tech ethics curriculum list provided by Casey Fiesler et al, and Dennis Tennen et al.’s Open Syllabus Project, we are able to derive preliminary information: the names of the courses, the instructors, and the host departments, among others [see @fiesler_tech_2019; @nowogrodzki2016mining]. Fiesler et al’s list is a openly-editable Google Sheets spreadsheet, called Tech Ethics Curriculum, containing data about roughly three hundred courses. The spreadsheet tracks courses' titles, host universities, departments, syllabus URLs, and whether the course is required by its department.
 
-Syllabus URLs are only present for about half of these listed courses, however. Some entries are marked as "not online." 
+Syllabus URLs are only present for about half of these listed courses, however. Many entries are marked as "not online." 
 
-The semantic web, also known as “Web 3.0” or linked open data, is a relatively new system of conventions for standardizing and encoding graph data, such that it is universally interoperable, in a language known as RDF, or the Resource Description Framework. Some of the most well-known projects in the field include DBPedia, the set of parsed and inferred data from Wikipedia, and Wikidata, the data set which proposes to be the knowledge basis for Wikipedia. At its most basic, RDF data may be represented as a series of subject-verb-object triples, where each node has a stable URL. Social relationships between people, for instance, may be described as `<person:Bob> <relation:is-friends-with> <person:Alicia>`, where the angle-bracketed entities resolve to URIs: `<person:Bob>` may expand to `http://people.org/Bob`, and `relation:` would expand to `http://relations.org/is-friends-with`. 
+We then represent the data as a series of subject-verb-object triples, in the Resource Description Framework, or RDF. This graphical data structure, is the next-generation language for representing structured data on the web, so that it is highly machine-readable. It is the same structure which lies underneath 
 
-There exist a number of ontologies, or pre-defined sets of relations, which may be used to describe entities within their domains. We use a number of ontologies in conjunction: the Curriculum Course Syllabus Ontology (CCSO) describes relations between courses, universities, syllabi, professors, and learning materials such as texts; the Bibliographic Ontology (Bibliontology) describes metadata for articles, books, videos, and other media; and the Citation Typing Ontology (CiTO) describes citation relations between texts [see @katis_2018;  ; @pertsas_2017]. CiTO  
+```rdf
+<Course A> <is offered by> <Department A>
+           <has a syllabus at> <https://example.edu/syllabus-location>
+           <is taught by> <Instructor M>
+           
+<Instructor A> <has written> <Text A>
+               <has written> <Text B>
+               <has taught> <Course B>
+
+<Department A> <is a department of> <University A>
+               <has website> <http://department.example.edu>
+
+<University A> <has location> <Anytown, USA> 
+               ...
+```
+
+
+
+The semantic web, also known as “Web 3.0” or linked open data, is a relatively new system of conventions for standardizing and encoding graph data, such that it is universally interoperable, in a language known as RDF, or the Resource Description Framework. Some of the most well-known projects in the field include DBPedia, the set of parsed and inferred data from Wikipedia, and Wikidata, the data set which proposes to be the knowledge basis for Wikipedia. At its most basic, RDF data may be represented as a series of subject-verb-object triples, where each node has a stable URL. Social relationships between people, for instance, may be described as `<person:Bob> <relation:is-friends-with> <person:Alicia>`, where the angle-bracketed entities resolve to URIs: `<person:Bob>` may expand to `http://people.org/Bob`, and `relation:` would expand to `http://relations.org/is-friends-with`. The properties of each node—subject, verb, or object—are then defined at the web pages served by those URLs. 
+
+In this way, we can describe 
+There exist a number of ontologies, or pre-defined sets of relations, which may be used to describe entities within their domains. We use a number of ontologies in conjunction: the Curriculum Course Syllabus Ontology (CCSO) describes relations between courses, universities, syllabi, professors, and learning materials such as texts [@katis_2018]; the Bibliographic Ontology (Bibliontology) describes metadata for articles, books, videos, and other media [@pertsas_2017]; and the Citation Typing Ontology (CiTO) describes citation relations between texts [@peroni2012]. 
 
 [@Fig:chart] shows an example directed graph visualization, illustrating relations between these entities.
 
