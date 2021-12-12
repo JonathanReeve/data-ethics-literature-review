@@ -102,6 +102,8 @@ We begin with syllabi crowdsourced from Fiesler et al.’s study, which collects
 
 Since the RDF technology we use prefers universal reference identifiers (URIs), we attempt to resolve our data to stable identifiers, wherever possible, using new data from a number of public databases. We resolve scholarly papers to stable identifiers, using metadata APIs such as those of [CrossRef](https://www.crossref.org/) and [Semantic Scholar](https://www.semanticscholar.org/), which we also use to enhance our available bibliographic metadata. We resolve books to stable identifiers by querying the [Google Books](https://books.google.com/) and [Open Library](https://openlibrary.org/) APIs. We resolve researchers and writers to their [ORCIDs](https://orcid.org/), where possible. Finally, we resolve university names to their websites and Wikidata entries.
 
+Each of these additional data sources provides a number of advantages, beyond simply the resolution or deduplication of their entities in our database. Semantic Scholar, for instance, maintains data about the citation and reference network of a given paper. Open Library maintains information about the number of editions a given book has seen, worldwide. ORCID allows us to find the other publications by a given researcher, as well as demographic information about them. 
+
 We then represent the resulting data, and its relations, as a series of subject-verb-object triples, in the Turtle syntax of the RDF. This graphical data structure, is the next-generation language for representing structured data on the web. It is highly machine-readable and has ambitions to become "Web 3.0," a web of structured knowledge.
 
 An example might look like this, as portrayed here in Turtle-syntax pseudo-RDF: 
@@ -131,38 +133,25 @@ An example might look like this, as portrayed here in Turtle-syntax pseudo-RDF:
         ...
 ```
 
-In practice, however, each of these tokens must have a stable URI—even the verbs. Thus, we employ a number of pe-existing ontologies, or pre-defined sets of relations, to describe these relationships in a 
-structured way. The Curriculum Course Syllabus Ontology (CCSO) describes relations between courses, universities, syllabi, professors, and learning materials such as texts [@katis_2018]; the Bibliographic Ontology (Bibliontology) describes metadata for articles, books, videos, and other media [@pertsas_2017]; and the Citation Typing Ontology (CiTO) describes citation relations between texts [@peroni2012]. We integrate these three, along with a few standard ontologies for defining people and things, such as the Friend-of-a-Friend (FOAF) ontology, and that used by Wikidata. For those entities which aren't resolvable to standard URIs, we provide one. This is the case, for example, for courses, which have URIs like <https://data-ethics.tech/course/1>. 
-
-To make sense of these connections, we built a number of force-directed network visualizations in JavaScript, so that they may be explored by a wider public. This website has three main visualizations: university-course, course-text, and text-text. University-course represents universities and their courses as nodes, with edges that show which universities offer which courses. Course-text represents courses and the texts that they assign. And text-text represents those texts, and their citation/reference network. For each of these, we compute basic network statistics such as page rank, which allow users to see at a glance which texts are the most assigned, and which universities are best represented in our dataset. 
-
-We also built a mechanism for users to submit their own data ethics syllabi to our database; this way, our literature review will always stay up to date. A further step will be to generalize this framework so that it may be used to map any academic discipline, given a list of courses and their syllabus URLs.
-
 
 [@Fig:chart] shows an example directed graph visualization, illustrating relations between these entities.
 
 ![Flow chart of ontology data](chart.png){#fig:chart}
 
-Given a course syllabus URL, we are able to download the syllabus, convert it to plain text where necessary, and quasi-automatically identify its bibliographic references. Since existing automated approaches to the extraction of bibliographic metadata are written for scholarly articles, rather than syllabi, we must supplement their use with manual extraction. Once these bibliographic items are extracted, we query bibliographic APIs such as CrossRef and Semantic Scholar, which allow us to resolve these texts to stable identifiers like DOIs. These APIs also provide us with rich metadata surrounding the citation networks of these texts, both outgoing (references to other texts) and incoming (citations of the article in later works).
+In practice, however, each of these tokens must have a stable URI—even the verbs. Thus, we employ a number of pe-existing ontologies, or pre-defined sets of relations, to describe these relationships in a 
+structured way. The Curriculum Course Syllabus Ontology (CCSO) describes relations between courses, universities, syllabi, professors, and learning materials such as texts [@katis_2018]; the Bibliographic Ontology (Bibliontology) describes metadata for articles, books, videos, and other media [@pertsas_2017]; and the Citation Typing Ontology (CiTO) describes citation relations between texts [@peroni2012]. We integrate these three, along with a few standard ontologies for defining people and things, such as the Friend-of-a-Friend (FOAF) ontology, and that used by Wikidata. For those entities which aren't resolvable to standard URIs, we provide one. This is the case, for example, for courses, which have URIs like <https://data-ethics.tech/course/1>. 
 
-Anystyle: https://github.com/inukshuk/anystyle
+To make sense of these connections, we build a number of force-directed network visualizations in JavaScript, so that they may be explored by a wider public. This website has three main visualizations: university-course, course-text, and text-text. University-course represents universities and their courses as nodes, with edges that show which universities offer which courses. Course-text represents courses and the texts that they assign. And text-text represents those texts, and their citation/reference network. For each of these, we compute basic network statistics such as page rank, which allow users to see at a glance which texts are the most assigned, and which universities are best represented in our dataset. 
 
-We then resolve universities and departments to their Wikidata identifiers, which allows us to retrieve additional information with which we can organize our data, for instance the geographic coordinates of the university and its founding date.
+We also build a mechanism for users to submit their own data ethics syllabi to our database; this way, our database will always stay up to date. A further step will be to generalize this framework so that it may be used to map any academic discipline, given a list of courses and their syllabus URLs.
 
-We also resolve instructors and authors to their ORCIDs, where applicable, and this allows us to retrieve an author’s other publications, and their past and present institutional affiliations.
-
-At this point, we are left with a number of duplicates, for texts and authors, since there are a number of ways of citing a text in natural language. For this, we use a deduplication algorithm, which collapses texts which pass a certain similarity threshold.
-
-# Conclusions
-
- - Describe our course, its interdisciplinarity
- - Be explicit about our contribution
+Finally, we provide a template for instructors to create a course website wihch already organizes course data in this structured, machine-readable way. In this manner, future instructors can easily create a course website, while contributing to disciplinary metacognition.
 
 # Findings and Contributions to the Field
 
-FIRST TWO PARAGRAPHS TAKEN FROM ABSTRACT - NEED TO BE REWORDED AND EXPANDED.
+Our methods contribute to data ethics education by providing a means for curricular introspection. For educators designing or refining a course, our tool provides an overview of the courses that are already being taught. The tool then provides an opportunity for educators to more easily expand a syllabus beyond their own core expertise and pursue top aspirations in the field, such as teaching data ethics in a transdisciplinary manner, embedding computational problem-solving into coursework, and highlighting the perspectives of scholars from diverse backgrounds.
 
- Our tool contributes to data ethics education by providing an accessible means of exploring a birds-eye view of the field. For educators designing or refining a course, our tool provides a methodology for curricular introspection. The tool provides an opportunity for educators to more easily expand a syllabus beyond their own core expertise and pursue top aspirations in the field, such as teaching data ethics in a transdisciplinary manner, embedding computational problem-solving into coursework, and highlighting the perspectives of scholars from diverse backgrounds.
+![](course-text.png)
 
 While patterns in data ethics education emerge organically from the data, we also intervene manually to identify and label some of these patterns. Patterns of possible interest to educators include clusters of courses at institutions, the most-assigned literature in the field, and thought-provoking outliers. In the future we plan for our tool to foreground patterns in citations as well as clustered topic modeling of core subject areas in the data ethics literature.
 
