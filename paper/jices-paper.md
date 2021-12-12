@@ -7,11 +7,11 @@ csl: emerald-harvard.csl
 
 <!-- QUESTION: WHICH CATEGORY FITS OUR PAPER BEST: Research paper, Technical paper, or Conceptual Paper? -->
 
-# Abstract 
+# Structured Abstract
 
 <!-- (250 words or less - must cut down) --> 
 
-**Purpose**: As tech ethics crises become strikingly frequent, data ethics coursework has never been more urgently needed. We map the field of data ethics curricula, tracking relations between courses, instructors, texts, and writers, and present an interactive tool for exploring these relations. Our tool is designed to be used in curricular research and development and provides multiple vantage points on this multidisciplinary field. We hope our tool will lead to exploration, conversation, and new courses that enrich the field.
+**Purpose**: As tech ethics crises become strikingly frequent, data ethics coursework has never been more urgently needed. We map the field of data ethics curricula, tracking relations between courses, instructors, texts, and writers, and present an interactive tool for exploring these relations. Our tool is designed to be used in curricular research and development and provides multiple vantage points on this multidisciplinary field.
 
 **Design/methodology/approach**: We utilize data science methods to foster insights about the field of data ethics education and literature. We present a semantic, linked open data graph in RDF, along with accompanying analyses and tools for its exploration. This graph and its framework are open-source, giving users the capability to submit their own bibliographies and syllabi.
 
@@ -82,7 +82,7 @@ We also note the 2015 “Pedagogical Approaches to Data Ethics” report by Jaco
 >1) Integrative approaches are preferable to stand-alone modules...
 >2) When possible, integration with design/practical work should be encouraged. Ethics should be associated with problem-solving, not just rule-following or prevention of harm.
 >3) The micro-ethics of research should be intellectually and practically associated with broader social goods. Neither the RCR [Responsible Conduct of Research] approach nor broad social goods alone are adequate.
->4) Culture, collective responsibility, and collaboration are critical components of successful research ethics education.” [@metcalfPedagogicalApproachesData2015, p. 3]
+>4) Culture, collective responsibility, and collaboration are critical components of successful research ethics education. [@metcalfPedagogicalApproachesData2015, p. 3]
 
 We developed our tool with the intention of facilitating further analysis, imagination, and innovation to strengthen the field of data ethics education. Providing our database and tool as a starting point, we suggest further research questions that draw on the insights and aspirations for the field shared by the scholars above. Research questions ripe for investigation include:
 
@@ -94,15 +94,13 @@ We developed our tool with the intention of facilitating further analysis, imagi
  - How many courses are linking micro-ethics with an exploration of data scientists’ collective responsibility for the broader social good
  - How might our "roadmap" be useful for educators designing data ethics courses? What are its limitations (reducing a course to its assigned texts, for example) and how might they be addressed through complementary efforts?
 
-Beyond these formative works, our approach to this project has been enriched by the many courses and texts we reviewed during the development of our tool and our new course. Our work has also been shaped by input and advice from the following educator-innovators in the field: Casey Fiesler, Michael Zimmer, Karina Alexanyan, Daniel Castaño, and Frédérick Bruneault.
-
 # Methods
 
-We begin with syllabi crowdsourced from Fiesler et al.’s study, which collects roughly three hundred syllabi in tech ethics [@fiesler_tech_2019]. We then augmented this with syllabi gathered from the Open Syllabus Project and elsewhere [@nowogrodzki2016mining]. These syllabi we then downloaded, mined for their assigned texts, and added to our graph database. 
+We begin with syllabi crowdsourced from Fiesler et al.’s study, which collects roughly three hundred syllabi in tech ethics [@fiesler_tech_2019]. We then augmented this with syllabi gathered from the Open Syllabus Project and elsewhere [@nowogrodzki2016mining]. These syllabi we then downloaded, mined for their assigned texts, using a partially automated method, and added to our graph database. 
 
-Since the RDF technology we use prefers universal reference identifiers (URIs), we attempt to resolve our data to stable identifiers, wherever possible, using new data from a number of public databases. We resolve scholarly papers to stable identifiers, using metadata APIs such as those of [CrossRef](https://www.crossref.org/) and [Semantic Scholar](https://www.semanticscholar.org/), which we also use to enhance our available bibliographic metadata. We resolve books to stable identifiers by querying the [Google Books](https://books.google.com/) and [Open Library](https://openlibrary.org/) APIs. We resolve researchers and writers to their [ORCIDs](https://orcid.org/), where possible. Finally, we resolve university names to their websites and Wikidata entries.
+Since the RDF technology we use prefers universal reference identifiers (URIs), we attempt to resolve our data to stable identifiers, wherever possible, using new data from a number of public databases. We resolve scholarly papers to digital object identifiers (DOIs), using metadata APIs such as those of [CrossRef](https://www.crossref.org/) and [Semantic Scholar](https://www.semanticscholar.org/), which we also use to enhance our available bibliographic metadata. We resolve books to stable identifiers by querying the [Google Books](https://books.google.com/) and [Open Library](https://openlibrary.org/) APIs. We resolve researchers and writers to their [ORCIDs](https://orcid.org/), where possible. Finally, we resolve university names to their websites and Wikidata entries.
 
-Each of these additional data sources provides a number of advantages, beyond simply the resolution or deduplication of their entities in our database. Semantic Scholar, for instance, maintains data about the citation and reference network of a given paper. Open Library maintains information about the number of editions a given book has seen, worldwide. ORCID allows us to find the other publications by a given researcher, as well as demographic information about them. 
+Each of these additional data sources provides a number of advantages, beyond simply the resolution or deduplication of their entities in our database. Semantic Scholar, for instance, maintains data about the citation and reference network of a given paper. Open Library maintains information about the number of editions a given book has seen, worldwide. ORCID allows us to find the other publications by a given researcher, as well as demographic information about them. Wikidata provides us with geographic information about universities, which we may later use to plot these courses on a world map.
 
 We then represent the resulting data, and its relations, as a series of subject-verb-object triples, in the Turtle syntax of the RDF. This graphical data structure, is the next-generation language for representing structured data on the web. It is highly machine-readable and has ambitions to become "Web 3.0," a web of structured knowledge.
 
@@ -147,29 +145,37 @@ We also build a mechanism for users to submit their own data ethics syllabi to o
 
 Finally, we provide a template for instructors to create a course website wihch already organizes course data in this structured, machine-readable way. In this manner, future instructors can easily create a course website, while contributing to disciplinary metacognition.
 
-# Findings and Contributions to the Field
+# Findings and Contributions
 
 Our methods contribute to data ethics education by providing a means for curricular introspection. For educators designing or refining a course, our tool provides an overview of the courses that are already being taught. The tool then provides an opportunity for educators to more easily expand a syllabus beyond their own core expertise and pursue top aspirations in the field, such as teaching data ethics in a transdisciplinary manner, embedding computational problem-solving into coursework, and highlighting the perspectives of scholars from diverse backgrounds.
 
-![](course-text.png)
+![Course-text graph](course-text.png){#fig:graph}
 
 While patterns in data ethics education emerge organically from the data, we also intervene manually to identify and label some of these patterns. Patterns of possible interest to educators include clusters of courses at institutions, the most-assigned literature in the field, and thought-provoking outliers. In the future we plan for our tool to foreground patterns in citations as well as clustered topic modeling of core subject areas in the data ethics literature.
 
-Our data visualization allows one to quickly identify both valuable patterns in texts assigned, as well as outliers. Our visualization prioritizes users’ engagement with both consensus and outliers, which is important considering that racial justice scholarship, feminist theory, and efforts to “decolonize curricula” have highlighted how the process by which texts gain importance and “enter the canon” is not always meritocratic and often “outsider” voices deserve to be centered. This is all the more true in a field such as data ethics where critical voices are challenging established perspectives, practices, and institutions. This semantic web approach also allows us to be multilingual by default, since much of this data, such as that gleaned from Wikipedia, is available in many languages.
+Our data visualization allows one to quickly identify both valuable patterns in texts assigned, as well as outliers. [@Fig:graph] shows a portion of our course-text graph, showing the most-assigned text our analysis identified: Friedman and Nissenbaum's 1996 paper "Bias in Computer Systems" [@nissenbaum1996]. When viewed as a text-text network, however, the rankings are very different: McLuhan's 1964 _Understanding Media_ is the most-cited node in our network [@mcluhan1994understanding]. We must treat these findings with skepticism, however, since they represent a dataset that is still very incomplete, and a resolution process that is still under development. It makes sense that McLuhan's book is so widely cited, for instance, since its total count is an accumulation of its nearly 60 years of publication. 
+
+In this sense, our contribution is not merely a list of answers to the questions we posed above. Rather than generating merely rankings of texts, and statistics about courses, we are more interested in creating a proof-of-concept system for exploration of a field, one which can be built upon by future researchers.
+Our network visualizations models user engagement with both consensus and outliers, which is important considering that racial justice scholarship, feminist theory, and efforts to “decolonize curricula” have highlighted how the process by which texts gain importance and “enter the canon” is not always meritocratic and often “outsider” voices deserve to be centered. This is all the more true in a field such as data ethics where critical voices are challenging established perspectives, practices, and institutions. 
+
+We then must conclude with calls for further research: either contributions to our project directly ([all of our code and data is open-source and available on GitHub](https://github.com/JonathanReeve/data-ethics-literature-review)), or projects which can employ our data or methods to new ends. We believe that these methods can be easily adapted and used to map many other fields of academic study. 
 
 # Conclusion
 
 As a multidisciplinary and quickly growing field, data ethics educators can benefit from a birds-eye view of curricular practice and real-time innovation. Our database and tool provide a starting point for this exploration and analysis. Our literature review provides an overview of the foundational aspirations of the field, which educators may wish to manifest within their course design. Top aspirations of the field include embedding ethics within computational problem-solving, offering multi-disciplinary courses without technical prerequisites as an entry point into the field for disciplinary and demographically diverse students, and embedding opportunities for students to engage with stakeholders of data-driven practices outside the halls of academia and the field of tech.
 
-Our course is informed by everything we learned from this project. While a minority of data ethics courses include practical components and work on solutions/pathways for mitigating these issues, our course includes practical exercises in putting those ideas to use. Teaching cross-disciplinarily between Stats, CS, humanities, social sciences, we have opened our course to a mixed classroom with no technical prerequisites. We are engaging with literature across many fields, teaching foundational computational skills and problem-solving alongside reading and writing assignments that engage with some of the most-cited thought pieces as well as important outliers. We push students beyond identifying ethical issues to identify new horizons of possible solutions. As we pilot and reiterate our course, we look forward to utilizing this tool to consider new perspectives and approaches in the field of data ethics education.
+Our own course, "[People vs. Algorithms: Data Ethics in the 21st Century,](http://data-ethics.jonreeve.com/)" is informed by everything we learned from this project. While a minority of data ethics courses include practical components and work on solutions/pathways for mitigating these issues, our course includes practical exercises in putting those ideas to use. Teaching cross-disciplinarily between Stats, CS, humanities, social sciences, we have opened our course to a mixed classroom with no technical prerequisites. We are engaging with literature across many fields, teaching foundational computational skills and problem-solving alongside reading and writing assignments that engage with some of the most-cited thought pieces as well as important outliers. We push students beyond identifying ethical issues to identify new horizons of possible solutions. As we pilot and reiterate our course, we look forward to utilizing this tool to consider new perspectives and approaches in the field of data ethics education.
 
 Most importantly, we hope that other educators benefit from the tool. As data ethicists ourselves, we care about openness and transparency, and so we have open-sourced this data, so that other researchers can use our work to answer their own questions. We hope that our framework may also be used to help map the institutional knowledge structures of even more disciplines.
 
+<!--
 # Author Roles
 
 LET ME KNOW IF YOU'D LIKE TO INCLUDE THIS SECTION. IF SO, PLEASE EDIT IT TO REPRESENT YOUR WORK ACCURATELY (FORGIVE MY INABILITY TO DESCRIBE OTHERS' CONTRIBUTIONS FULLY - ISABELLE).
 
 The tool development, paper, and syllabus designed were transdisciplinary collaborations between all three authors, who met regularly to discuss these projects. For transparency, we wish to further define each author’s role. The first author did the majority of the conceptual and technical design of the tool, with regular input from the third author, as well as contributed to the abstract, methods, and conclusion sections of the paper. The second author shaped the conceptual frame of the paper and tool while providing input on social and educational theory perspectives. She also conducted the literature review, foundational to the tool design and argument of the paper. She also authored and/or edited the bulk of the paper, including final editorial work. The third author spurred the project and provided funding and an institutional home for our work in the Department of Statistics at Columbia University. She also provided deep technical and conceptual insights to the tool and paper, and aided in imagining future directions of the work. The first and second authors, with input from the third author, designed the data ethics course described in the paper. We plan to collaboratively teach the course in 2022.
+
+-->
 
 # References
 
