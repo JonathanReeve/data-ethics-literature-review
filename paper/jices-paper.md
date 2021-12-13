@@ -13,7 +13,7 @@ csl: emerald-harvard.csl
 
 **Purpose**: As tech ethics crises become strikingly frequent, data ethics coursework has never been more urgently needed. We map the field of data ethics curricula, tracking relations between courses, instructors, texts, and writers, and present an interactive tool for exploring these relations. Our tool is designed to be used in curricular research and development and provides multiple vantage points on this multidisciplinary field.
 
-**Design/methodology/approach**: We utilize data science methods to foster insights about the field of data ethics education and literature. We present a semantic, linked open data graph in RDF, along with accompanying analyses and tools for its exploration. This graph and its framework are open-source, giving users the capability to submit their own bibliographies and syllabi.
+**Design/methodology/approach**: We utilize data science methods to foster insights about the field of data ethics education and literature. We present a semantic, linked open data graph in the Resource Description Framework (RDF), along with accompanying analyses and tools for its exploration. This graph and its framework are open-source, giving users the capability to submit their own bibliographies and syllabi.
 
 **Research limitations/implications**:  The syllabi we work with are largely self-selected and represent only a subset of the field. Furthermore, our tool only represents a course’s assigned literature rather than a holistic view of what is taught and the constructivist dynamics in any given classroom.
 
@@ -41,7 +41,7 @@ Our initial motivations were to collect data on the state of data science ethics
  - Which institutions, scholars, educators are innovating in this space? 
  - What are the major topic areas?
 
-To answer these questions, we analyzed hundreds of syllabi, and hundreds of published papers, as well as adjacent and auxiliary data, from sources like CrossRef, Semantic Scholar, ORCID, and Wikidata. We then integrated this data into a large graph database, using the semantic web language known as the Resource Description Framework (RDF). 
+To explore these questions, and to give others the opportunity to explore them as well, we aggregated hundreds of syllabi, and hundreds of published papers, as well as adjacent and auxiliary data, from sources like CrossRef, Semantic Scholar, ORCID, and Wikidata. We then integrated this data into a large graph database, using the semantic web language known as the Resource Description Framework (RDF). 
 
 <!-- 
 --> 
