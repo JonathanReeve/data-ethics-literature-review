@@ -5,7 +5,8 @@ bibliography: ../bibliography.bib
 csl: emerald-harvard.csl
 ---
 
-<!-- QUESTION: WHICH CATEGORY FITS OUR PAPER BEST: Research paper, Technical paper, or Conceptual Paper? -->
+<!-- Category:  Research paper -->
+<!-- QUESTION:  SHOULD WE CONSIDER A DIFFERENT TITLE?  PERHAPS: "Mapping the Field of Data Ethics Education" or "Providing a Roadmap for Data Ethics Education" or "A Transdisciplinary Roadmap for Data Ethics" or "Sparking Transdisciplinary Imagination: A Roadmap for Data Ethics Educators"? -->
 
 # Structured Abstract
 
