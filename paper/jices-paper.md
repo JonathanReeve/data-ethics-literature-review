@@ -5,9 +5,6 @@ bibliography: ../bibliography.bib
 csl: emerald-harvard.csl
 ---
 
-<!-- Category:  Research paper -->
-<!-- QUESTION:  SHOULD WE CONSIDER A DIFFERENT TITLE?  PERHAPS: "Mapping the Field of Data Ethics Education" or "Providing a Roadmap for Data Ethics Education" or "A Transdisciplinary Roadmap for Data Ethics" or "Sparking Transdisciplinary Imagination: A Roadmap for Data Ethics Educators"? -->
-
 # Structured Abstract
 
 <!-- (250 words or less - must cut down) --> 
@@ -46,7 +43,7 @@ To explore these questions, and to give others the opportunity to explore them a
 
 The tool includes three interfaces: 1) a uni-course visualization that links data ethics courses with their institutional homes; 2) a course-text visualization that showcases the assigned literature from each course, and 3) a third “text-text” visualization, still in development, which will highlight citation relationships between assigned texts and the wider data ethics field. Our data and framework are open-source, and users will soon be able to submit their own syllabi to update the map. 
 
-Our tool is designed to provide multiple entry points into this multidisciplinary field beyond one’s own area of primary expertise. We hope this project will serve as a stepping stone towards transdisciplinary exploration, imagination, collaboration, and new courses that enrich the field. 
+Our tool is designed to provide multiple entry points into this multidisciplinary field beyond one’s own area of primary expertise. However, we acknowledge that by relying on data science methods and limiting our scope to the assigned literature in syllabi, our tool captures neither a holistic view of what is taught in each course, nor the constructivist dynamics in any given classroom or cohort. Despite our projects' limitations, we hope our tool will serve as a stepping stone towards transdisciplinary exploration, imagination, collaboration, and new courses that enrich the field. 
 
 # Background and Related Works
 
@@ -137,7 +134,7 @@ To make sense of these connections, we build a number of force-directed network 
 
 We also built a [mechanism for users to submit their own data ethics syllabi to our database](https://data-ethics.tech/submit); this way, our database will always stay up to date. A further step will be to generalize this framework so that it may be used to map any academic discipline, given a list of courses and their syllabus URLs.
 
-Since the process of parsing syllabi—traditional documents, usually in PDF or DOCX—into structured, machine-readable data, is a difficult, complex one, we imagined modern course syllabi, which would not only be web-ready, but semantically structured and machine-readable from the start. Towards this end, we provide [a proof-of-concept syllabus template](https://github.com/JonathanReeve/template-course-website), so that instructors may create a course website which already organizes course data in a structured way. The syllabus is marked up such that it may be automatically added to our database. In this manner, instructors can easily create a course syllabus website, while contributing to disciplinary metacognition.
+The process of parsing syllabi—traditional documents, usually in PDF or DOCX format—into structured, machine-readable data is a difficult, complex one. Therefore we imagined modern course syllabi, which would not only be web-ready, but semantically structured and machine-readable from the start. Towards this end, we provide [a proof-of-concept syllabus template](https://github.com/JonathanReeve/template-course-website), so that instructors may create a course website which already organizes course data in a structured way. The syllabus is marked up such that it may be automatically added to our database and the semantic web at large. In this manner, instructors can easily create a course syllabus website, while contributing to disciplinary metacognition.
 
 # Findings and Contributions
 
