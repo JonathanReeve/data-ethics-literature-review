@@ -37,7 +37,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Mapping the Field of Data Ethics},
+  pdftitle={Mapping Data Ethics Curricula},
   pdfauthor={Jonathan Reeve, Isabelle Zaugg, Tian Zheng},
   colorlinks=true,
   linkcolor=Maroon,
@@ -121,7 +121,7 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-\title{Mapping the Field of Data Ethics}
+\title{Mapping Data Ethics Curricula}
 \author{Jonathan Reeve, Isabelle Zaugg, Tian Zheng}
 \date{}
 
@@ -238,10 +238,14 @@ are open-source, and users will soon be able to submit their own syllabi
 to update the map.
 
 Our tool is designed to provide multiple entry points into this
-multidisciplinary field beyond one's own area of primary expertise. We
-hope this project will serve as a stepping stone towards
-transdisciplinary exploration, imagination, collaboration, and new
-courses that enrich the field.
+multidisciplinary field beyond one's own area of primary expertise.
+However, we acknowledge that by relying on data science methods and
+limiting our scope to the assigned literature in syllabi, our tool
+captures neither a holistic view of what is taught in each course, nor
+the constructivist dynamics in any given classroom or cohort. Despite
+our projects' limitations, we hope our tool will serve as a stepping
+stone towards transdisciplinary exploration, imagination, collaboration,
+and new courses that enrich the field.
 
 \hypertarget{background-and-related-works}{%
 \section{Background and Related
@@ -448,10 +452,17 @@ We then augmented this with syllabi gathered from the Open Syllabus
 Project (Nowogrodzki, 2016), the AI Ethics Workshop ({``{AI} {Ethics}
 {Workshop}''}, 2019), and elsewhere. These syllabi we then downloaded,
 mined for their assigned texts, using a partially automated method, and
-added to our graph database. We note that the syllabi from these sources
-are largely self-selected or curated, and represent only a subset of the
-field. Therefore, we cannot claim to represent the field as a whole, or
-even a random sample of it.
+added to our graph database.
+
+We note that the syllabi from these sources are largely self-selected or
+curated, and represent only a subset of the field. Therefore, we cannot
+claim to represent the field as a whole, or even a random sample of it.
+While projects such as the Open Syllabus Project are breadth-first, with
+ambitions to parse all syllabi on the Internet, ours is depth-first,
+exploring many facets of a single field. Our project is also distinct in
+that our ethical framework commits us to open-sourcing our work for the
+benefit of the wider field. We release all materials under the GNU
+General Public License, Version 3, a strong cpoyleft license.
 
 Since the RDF technology we use prefers universal reference identifiers
 (URIs), we attempt to resolve our data to stable identifiers, wherever
@@ -555,17 +566,18 @@ way, our database will always stay up to date. A further step will be to
 generalize this framework so that it may be used to map any academic
 discipline, given a list of courses and their syllabus URLs.
 
-Since the process of parsing syllabi---traditional documents, usually in
-PDF or DOCX---into structured, machine-readable data, is a difficult,
-complex one, we imagined modern course syllabi, which would not only be
-web-ready, but semantically structured and machine-readable from the
-start. Towards this end, we provide
+The process of parsing syllabi---traditional documents, usually in PDF
+or DOCX format---into structured, machine-readable data is a difficult,
+complex one. Therefore we imagined modern course syllabi, which would
+not only be web-ready, but semantically structured and machine-readable
+from the start. Towards this end, we provide
 \href{https://github.com/JonathanReeve/template-course-website}{a
 proof-of-concept syllabus template}, so that instructors may create a
 course website which already organizes course data in a structured way.
 The syllabus is marked up such that it may be automatically added to our
-database. In this manner, instructors can easily create a course
-syllabus website, while contributing to disciplinary metacognition.
+database and the semantic web at large. In this manner, instructors can
+easily create a course syllabus website, while contributing to
+disciplinary metacognition.
 
 \hypertarget{findings-and-contributions}{%
 \section{Findings and Contributions}\label{findings-and-contributions}}
@@ -669,9 +681,11 @@ new perspectives and approaches in the field of data ethics education.
 
 Most importantly, we hope that other educators benefit from the tool. As
 data ethicists ourselves, we care about openness and transparency, and
-so we have open-sourced this data, so that other researchers can use our
-work to answer their own questions. We hope that our framework may also
-be used to help map the institutional knowledge structures of even more
+so
+\href{https://github.com/JonathanReeve/data-ethics-literature-review}{we
+have open-sourced this data}, so that other researchers can use our work
+to answer their own questions. We hope that our framework may also be
+used to help map the institutional knowledge structures of even more
 disciplines.
 
 \hypertarget{references}{%
