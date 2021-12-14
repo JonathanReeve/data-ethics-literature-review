@@ -2,12 +2,9 @@
 title: Mapping Data Ethics Curricula
 bibliography: ../bibliography.bib
 csl: emerald-harvard.csl
-date: 2021-12-14
 ---
 
 # Structured Abstract
-
-<!-- (250 words or less - must cut down) --> 
 
 **Purpose**: As tech ethics crises become strikingly frequent, data ethics coursework has never been more urgently needed. We map the field of data ethics curricula, tracking relations between courses, instructors, texts, and writers, and present an interactive tool for exploring these relations. Our tool is designed to be used in curricular research and development and provides multiple vantage points on this multidisciplinary field.
 
