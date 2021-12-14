@@ -1,5 +1,5 @@
 ---
-title: Mapping the Field of Data Ethics
+title: Mapping Data Ethics Curricula
 author: Jonathan Reeve, Isabelle Zaugg, Tian Zheng
 bibliography: ../bibliography.bib
 csl: emerald-harvard.csl
@@ -32,7 +32,7 @@ From the spread of disinformation via social media, to class-biased dynamic pric
 
 We started by trying to design a course in data ethics. To achieve this, we needed an overview of the field, in terms of its core texts and themes that are being taught. As data scientists ourselves, we wanted to approach these questions systematically. We therefore took a data-driven approach to the problem of curricular design, generating a method which we could then share with other data ethics educators. Furthermore, since our methodology can be applied widely to the survey of any discipline, we open source our work, in the hopes that it can be used to map other disciplines. Fundamentally, we are providing a methodology for curricular introspection.
 
-The products of our research, are several. First, we provide a data set which describes a scholarly and pedagogical network. Next, we present a proof-of-concept interactive tool for exploring that data. We then share [an example syllabus informed by our findings](http://data-ethics.jonreeve.com/). Finally, we provide a template for a semantic, machine-readable course syllabus website, so that others can easily produce a syllabus using the same methods. All of this is available via our project's website, <https://data-ethics.tech>.  
+The products of our research, are several. First, we provide a data set which describes a scholarly and pedagogical network. Next, we present a proof-of-concept interactive tool for exploring that data. We then share [an example syllabus informed by our findings](http://data-ethics.jonreeve.com/). Finally, we provide a template for a semantic, machine-readable course syllabus website, so that others can easily produce a syllabus using the same methods. All of this is available via our project's website, <https://data-ethics.tech>.
 
 Our initial motivations were to collect data on the state of data science ethics, in order to answer broad questions, such as: 
 
@@ -91,7 +91,7 @@ We developed our tool with the intention of facilitating further analysis, imagi
 
 # Methods
 
-We begin with syllabi crowdsourced from Fiesler et al.’s study, which collects roughly three hundred syllabi in tech ethics [@fiesler_tech_2019]. We then augmented this with syllabi gathered from the Open Syllabus Project [@nowogrodzki2016mining], the AI Ethics Workshop [@ai_ethics], and elsewhere. These syllabi we then downloaded, mined for their assigned texts, using a partially automated method, and added to our graph database. We note that the syllabi from these sources are largely self-selected or curated, and represent only a subset of the field. Therefore, we cannot claim to represent the field as a whole, or even a random sample of it.
+We begin with syllabi crowdsourced from Fiesler et al.’s study, which collects roughly three hundred syllabi in tech ethics [@fiesler_tech_2019]. We then augmented this with syllabi gathered from the Open Syllabus Project [@nowogrodzki2016mining], the AI Ethics Workshop [@ai_ethics], and elsewhere. These syllabi we then downloaded, mined for their assigned texts, using a partially automated method, and added to our graph database. We note that the syllabi from these sources are largely self-selected or curated, and represent only a subset of the field. Therefore, we cannot claim to represent the field as a whole, or even a random sample of it. While projects such as the Open Syllabus Project are are breadth-first, with ambitions to parse all syllabi on the Internet, ours is depth-first, exploring many facets of a single field.
 
 Since the RDF technology we use prefers universal reference identifiers (URIs), we attempt to resolve our data to stable identifiers, wherever possible, using new data from a number of public databases. We resolve scholarly papers to digital object identifiers (DOIs), using metadata APIs such as those of [CrossRef](https://www.crossref.org/) and [Semantic Scholar](https://www.semanticscholar.org/), which we also use to enhance our available bibliographic metadata. We resolve books to stable identifiers by querying the [Google Books](https://books.google.com/) and [Open Library](https://openlibrary.org/) APIs. We resolve researchers and writers to their [ORCIDs](https://orcid.org/), where possible. Finally, we resolve university names to their websites and Wikidata entries.
 
@@ -161,7 +161,7 @@ As a multidisciplinary and quickly growing field, data ethics educators can bene
 
 Our own course, "[People vs. Algorithms: Data Ethics in the 21st Century,](http://data-ethics.jonreeve.com/)" is informed by everything we learned from this project. While a minority of data ethics courses include practical components and work on solutions/pathways for mitigating ethical issues, our course includes practical exercises in ethical problem-solving. Teaching cross-disciplinarily between Stats, CS, humanities, and social sciences, we have opened our course to a mixed classroom with no technical prerequisites. We are engaging with literature across many fields, teaching foundational computational skills and problem-solving alongside reading and writing assignments that engage with some of the most-cited thought pieces as well as important outliers. We push students beyond identifying ethical issues to identify new horizons of possible solutions. As we pilot and reiterate our course, we look forward to utilizing this tool to consider new perspectives and approaches in the field of data ethics education.
 
-Most importantly, we hope that other educators benefit from the tool. As data ethicists ourselves, we care about openness and transparency, and so we have open-sourced this data, so that other researchers can use our work to answer their own questions. We hope that our framework may also be used to help map the institutional knowledge structures of even more disciplines.
+Most importantly, we hope that other educators benefit from the tool. As data ethicists ourselves, we care about openness and transparency, and so [we have open-sourced this data](https://github.com/JonathanReeve/data-ethics-literature-review), so that other researchers can use our work to answer their own questions. We hope that our framework may also be used to help map the institutional knowledge structures of even more disciplines.
 
 # References
 
