@@ -1,8 +1,8 @@
 ---
 title: Mapping Data Ethics Curricula
-author: Jonathan Reeve, Isabelle Zaugg, Tian Zheng
 bibliography: ../bibliography.bib
 csl: emerald-harvard.csl
+date: 2021-12-14
 ---
 
 # Structured Abstract
@@ -102,7 +102,7 @@ An example might look like this, as portrayed here in pseudo-RDF:
 
 ```
 <Course A> <is offered by> <Department A>
-           <has a syllabus at> <https://example.edu/syllabus-location>
+           <has a syllabus at> <https://example.edu/syllabus>
            <is taught by> <Instructor M>
            <is required by> <Department A>
            <has learning material> <Text A>
@@ -128,7 +128,7 @@ An example might look like this, as portrayed here in pseudo-RDF:
 
 [@Fig:chart] shows an example directed graph visualization of this structure, illustrating relations between these entities.
 
-![Flow chart of ontology data](chart.png){#fig:chart}
+![Flow chart of ontology data](chart.jpg){#fig:chart}
 
 In practice, however, each of these tokens must have a stable URI—even the verbs. Thus, we employ a number of pe-existing ontologies, or pre-defined sets of relations, to describe these relationships in a structured way. The Curriculum Course Syllabus Ontology (CCSO) describes relations between courses, universities, syllabi, professors, and learning materials such as texts [@katis_2018]; the Bibliographic Ontology (Bibliontology) describes metadata for articles, books, videos, and other media [@pertsas_2017]; and the Citation Typing Ontology (CiTO) describes citation relations between texts [@peroni2012]. We integrate these three, along with a few standard ontologies for defining people and things, such as the Friend-of-a-Friend (FOAF) ontology, and those used by Wikidata. For those entities which aren't resolvable to standard URIs, we provide one. This is the case, for example, for courses, which have URIs like <https://data-ethics.tech/course/1>. 
 
@@ -144,7 +144,7 @@ Our methods contribute to data ethics education by providing a means for curricu
 
 While patterns in data ethics education emerge organically from the data, we also intervene manually to identify and label some of these patterns. Patterns of possible interest to educators include clusters of courses at institutions, the most-assigned literature in the field, and thought-provoking outliers. In the future we plan for our tool to foreground patterns in citations as well as clustered topic modeling of core subject areas in the data ethics literature.
 
-![Course-text graph](course-text.png){#fig:graph}
+![Course-text graph](course-text.jpg){#fig:graph}
 
 Our data visualization allows one to quickly identify both valuable patterns in texts assigned, as well as outliers. [@Fig:graph] shows a portion of our course-text graph, showing the most-assigned text our analysis identified: Friedman and Nissenbaum's 1996 paper "Bias in Computer Systems" [@nissenbaum1996]. When viewed as a text-text network, however, the rankings are very different: McLuhan's 1964 _Understanding Media_ is the most-cited node in our network [@mcluhan1994understanding]. We must treat these findings with skepticism, however, since they represent a dataset that is still very incomplete, and a node resolution process that is still under development. It makes sense that McLuhan's book is so widely cited, for instance, since its total count is an accumulation of its nearly 60 years of publication. 
 
