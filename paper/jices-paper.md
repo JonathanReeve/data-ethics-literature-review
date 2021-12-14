@@ -88,7 +88,7 @@ We developed our tool with the intention of facilitating further analysis, imagi
 
 # Methods
 
-We begin with syllabi crowdsourced from Fiesler et al.’s study, which collects roughly three hundred syllabi in tech ethics [@fiesler_tech_2019]. We then augmented this with syllabi gathered from the Open Syllabus Project [@nowogrodzki2016mining], the AI Ethics Workshop [@ai_ethics], and elsewhere. These syllabi we then downloaded, mined for their assigned texts, using a partially automated method, and added to our graph database. 
+We begin with syllabi crowdsourced from Fiesler et al.’s study, which collects roughly three hundred syllabi in tech ethics [@fieslerTechEthicsCurricula2019]. We then augmented this with syllabi gathered from the Open Syllabus Project [@nowogrodzki2016mining], the AI Ethics Workshop [@ai_ethics], and elsewhere. These syllabi we then downloaded, mined for their assigned texts, using a partially automated method, and added to our graph database. 
 
 We note that the syllabi from these sources are largely self-selected or curated, and represent only a subset of the field. Therefore, we cannot claim to represent the field as a whole, or even a random sample of it. While projects such as the Open Syllabus Project are breadth-first, with ambitions to parse all syllabi on the Internet, ours is depth-first, exploring many facets of a single field. Our project is also distinct in that our ethical framework commits us to open-sourcing our work for the benefit of the wider field. We release all materials under the GNU General Public License, Version 3, a strong cpoyleft license. 
 
