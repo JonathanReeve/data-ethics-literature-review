@@ -181,7 +181,7 @@ statistics, the social sciences, and the humanities. Thankfully, there
 is growing recognition of the importance of data ethics as a
 foundational topic within education in data-driven fields.
 
-We started by trying to design a course in data ethics. To achieve this,
+Our initial goal was to design a course in data ethics. To achieve this,
 we needed an overview of the field, in terms of its core texts and
 themes that are being taught. As data scientists ourselves, we wanted to
 approach these questions systematically. We therefore took a data-driven
@@ -202,7 +202,7 @@ produce a syllabus using the same methods. All of this is available via
 our project's website, \url{https://data-ethics.tech}.
 
 Our initial motivations were to collect data on the state of data
-science ethics, in order to answer broad questions, such as:
+ethics, in order to answer broad questions, such as:
 
 \begin{itemize}
 \tightlist
@@ -349,8 +349,8 @@ from under-represented backgrounds who might otherwise hesitate to take
 foundational computational coursework because they don't see themselves
 represented in the field.
 
-Both potential ``pipeline'' outcomes have the promise to address the
-calls data ethicists have made regarding the need to diversify the
+Both potential ``pipeline'' outcomes hold the promise to help address
+the calls data ethicists have made regarding the need to diversify the
 computational workforce in terms of disciplinary expertise,
 demographics, and lived experience (Lue, 2019; Rawlings-Goss \emph{et
 al.}, 2018; The Moore-Sloan Data Science Environments: New York
@@ -446,12 +446,12 @@ questions ripe for investigation include:
 \section{Methods}\label{methods}}
 
 We begin with syllabi crowdsourced from Fiesler et al.'s study, which
-collects roughly three hundred syllabi in tech ethics (Fiesler, 2019).
-We then augmented this with syllabi gathered from the Open Syllabus
-Project (Nowogrodzki, 2016), the AI Ethics Workshop ({``{AI} {Ethics}
-{Workshop}''}, 2019), and elsewhere. These syllabi we then downloaded,
-mined for their assigned texts, using a partially automated method, and
-added to our graph database.
+today collects roughly three hundred syllabi in tech ethics (Fiesler,
+2019). We then augmented this with syllabi gathered from the Open
+Syllabus Project (Nowogrodzki, 2016), the AI Ethics Workshop ({``{AI}
+{Ethics} {Workshop}''}, 2019), and elsewhere. These syllabi we then
+downloaded, mined for their assigned texts, using a partially automated
+method, and added to our graph database.
 
 We note that the syllabi from these sources are largely self-selected or
 curated, and represent only a subset of the field. Therefore, we cannot
@@ -491,7 +491,7 @@ We then represent the resulting data, and its relations, as a series of
 subject-verb-object triples, in the Turtle syntax of the RDF. This
 graphical data structure is the next-generation language for
 representing structured data on the web. It is highly machine-readable
-and has ambitions to become ``Web 3.0,'' a web of structured knowledge.
+and may become ``Web 3.0,'' a web of structured knowledge.
 
 An example might look like this, as portrayed here in pseudo-RDF:
 
@@ -559,11 +559,11 @@ basic network statistics such as page rank, which allow users to see at
 a glance which texts are the most assigned, and which universities are
 best represented in our dataset.
 
-We also built a \href{https://data-ethics.tech/submit}{mechanism for
-users to submit their own data ethics syllabi to our database}; this
-way, our database will always stay up to date. A further step will be to
-generalize this framework so that it may be used to map any academic
-discipline, given a list of courses and their syllabus URLs.
+We are also building a \href{https://data-ethics.tech/submit}{mechanism
+for users to submit their own data ethics syllabi to our database}; this
+way, our database will always stay up to date. This framework can be
+adapted by anyone interested in mapping an academic discipline, given a
+list of courses and their syllabus URLs.
 
 The process of parsing syllabi---traditional documents, usually in PDF
 or DOCX format---into structured, machine-readable data is a difficult,
@@ -594,10 +594,10 @@ backgrounds.
 While patterns in data ethics education emerge organically from the
 data, we also intervene manually to identify and label some of these
 patterns. Patterns of possible interest to educators include clusters of
-courses at institutions, the most-assigned literature in the field, and
-thought-provoking outliers. In the future we plan for our tool to
-foreground patterns in citations as well as clustered topic modeling of
-core subject areas in the data ethics literature.
+courses at institutions and the most-assigned literature in the field.
+In the future we plan for our tool to foreground patterns in citations
+as well as clustered topic modeling of core subject areas in the data
+ethics literature.
 
 \begin{figure}
 \hypertarget{fig:graph}{%
@@ -607,10 +607,10 @@ core subject areas in the data ethics literature.
 }
 \end{figure}
 
-Our data visualization allows one to quickly identify both valuable
-patterns in texts assigned, as well as outliers. Fig.~\ref{fig:graph}
-shows a portion of our course-text graph, showing the most-assigned text
-our analysis identified: Friedman and Nissenbaum's 1996 paper ``Bias in
+Our data visualization allows one to quickly identify valuable patterns
+in texts assigned, including outliers. Fig.~\ref{fig:graph} shows a
+portion of our course-text graph, showing the most-assigned text our
+analysis identified: Friedman and Nissenbaum's 1996 paper ``Bias in
 Computer Systems'' (Friedman and Nissenbaum, 1996). When viewed as a
 text-text network, however, the rankings are very different: McLuhan's
 1964 \emph{Understanding Media} is the most-cited node in our network
@@ -629,38 +629,36 @@ bridge the gap between practical and theoretical factions in the field
 of data ethics, digital humanities, or other fields that are in the
 process of defining or redefining themselves.
 
-Our network visualizations model user engagement with both consensus and
-outliers, which is important considering that racial justice
-scholarship, feminist theory, and efforts to ``decolonize curricula''
-have highlighted how the process by which texts gain importance and
-``enter the canon'' is not always meritocratic and often ``outsider''
-voices deserve to be centered. This is all the more true in a field such
-as data ethics where critical voices are challenging established
+Our network visualizations enable user engagement with both consensus
+and outliers. Bringing outliers to the fore is important considering
+that racial justice scholarship, feminist theory, and efforts to
+decolonize curricula have highlighted how the process by which texts
+enter the canon is not always meritocratic and often outsider voices
+deserve to be centered. This is all the more true in a field such as
+data ethics where critical voices are challenging established
 perspectives, practices, and institutions.
 
 We then must conclude with calls for further research: either
 contributions to our project directly
 (\href{https://github.com/JonathanReeve/data-ethics-literature-review}{all
 of our code and data is open-source and available on GitHub}), or
-projects which can employ our data or methods to new ends. We believe
-that these methods can be easily adapted and used to map many other
-fields of academic study.
+projects which can employ our data or methods to new ends.
 
 \hypertarget{conclusion}{%
 \section{Conclusion}\label{conclusion}}
 
-As a multidisciplinary and quickly growing field, data ethics educators
-can benefit from a birds-eye view of curricular practice and real-time
-innovation. Our database and tool provide a starting point for this
-exploration and analysis. Our literature review provides an overview of
-the foundational aspirations of the field, which educators may wish to
-manifest within their course design. Top aspirations of the field
-include embedding ethics within computational problem-solving, offering
-multi-disciplinary courses without technical prerequisites as an entry
-point into the field for disciplinary and demographically diverse
-students, and embedding opportunities for students to engage with
-stakeholders of data-driven practices outside the halls of academia and
-the field of tech.
+Working in a multidisciplinary and quickly growing field, data ethics
+educators can benefit from a birds-eye view of curricular practice and
+real-time innovation. Our database and tool provide a starting point for
+this exploration and analysis. Our literature review provides an
+overview of the foundational aspirations of the field, which educators
+may wish to manifest within their course design. Top aspirations of the
+field include embedding ethics within computational problem-solving,
+offering multi-disciplinary courses without technical prerequisites as
+an entry point into the field for disciplinary and demographically
+diverse students, and embedding opportunities for students to engage
+with stakeholders of data-driven practices outside the halls of academia
+and the field of tech.
 
 Our own course, ``\href{http://data-ethics.jonreeve.com/}{People
 vs.~Algorithms: Data Ethics in the 21st Century,}'' is informed by
