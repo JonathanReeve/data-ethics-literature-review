@@ -151,7 +151,13 @@ However, our contribution is not merely a list of answers to the questions we po
 
 Our network visualizations enable user engagement with both consensus and outliers. Bringing outliers to the fore is important considering that racial justice scholarship, feminist theory, and efforts to decolonize curricula have highlighted how the process by which texts enter the canon is not always meritocratic and often outsider voices deserve to be centered. This is all the more true in a field such as data ethics where critical voices are challenging established perspectives, practices, and institutions. 
 
-We then must conclude with calls for further research: either contributions to our project directly ([all of our code and data is open-source and available on GitHub](https://github.com/JonathanReeve/data-ethics-literature-review)), or projects which can employ our data or methods to new ends. 
+For example, an instructor designing a course in data ethics may follow this procedure in drafting a syllabus: 
+
+1. Supply seed data of the course-in-development: the instructor's name, the university, and several readings to be assigned
+2. Observe the existing graphical connections of these seed nodes: other courses taught at the same university, if not already known; other courses teaching the same texts; and other texts assigned by those courses
+3. Augment the course-in-development with new texts and approaches from (2), *as well as texts from distant or disconnected fields*. Go to (1) and repeat, until the course design is finished. 
+
+This is currently only possible to a limited degree, given the scope of our proof-of-concept website. We then must conclude with calls for further research: either contributions to our project directly ([all of our code and data is open-source and available on GitHub](https://github.com/JonathanReeve/data-ethics-literature-review)), or projects which can employ our data or methods to new ends. 
 
 # Conclusion
 
