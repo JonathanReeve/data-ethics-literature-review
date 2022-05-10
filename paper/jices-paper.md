@@ -6,15 +6,13 @@ csl: emerald-harvard.csl
 
 # Structured Abstract
 
-**Purpose**: As data-driven tools increasingly shape our life and tech ethics crises become strikingly frequent, data ethics coursework has never been more urgently needed. We map the field of data ethics curricula, tracking relations between courses, instructors, texts, and writers, and present an proof-of-concept interactive website for exploring these relations. Our method is designed to be used in curricular research and development and provides multiple vantage points on this multidisciplinary field. As tech ethics crises become strikingly frequent, data ethics coursework has never been more urgently needed. 
-
-Our method may to be used in curricular research and development and provides multiple vantage points on this multidisciplinary field.
+**Purpose**: As data-driven tools increasingly shape our life and tech ethics crises become strikingly frequent, data ethics coursework has never been more urgently needed. We map the field of data ethics curricula, tracking relations between courses, instructors, texts, and writers, and present an interactive tool for exploring these relations. Our tool is designed to be used in curricular research and development and provides multiple vantage points on this multidisciplinary field.As tech ethics crises become strikingly frequent, data ethics coursework has never been more urgently needed. We map the field of data ethics curricula, tracking relations between courses, instructors, texts, and writers, and present an interactive tool for exploring these relations. Our tool is designed to be used in curricular research and development and provides multiple vantage points on this multidisciplinary field.
 
 **Design/methodology/approach**: We utilize data science methods to foster insights about the field of data ethics education and literature. We present a semantic, linked open data graph in the Resource Description Framework (RDF), along with accompanying analyses and tools for its exploration. This graph and its framework are open-source, allowing users to submit their own syllabi.
 
 **Research limitations/implications**:  The syllabi we work with are largely self-selected and represent only a subset of the field. Furthermore, our tool only represents a course’s assigned literature rather than a holistic view of what is taught and the constructivist dynamics in any given classroom.
 
-**Findings**: Our method provides a convenient means of exploring an overview of the field of data ethics' social and textual relations. For educators designing or refining a course, our tool provides a method for curricular introspection and discovery of transdisciplinary curricula. 
+**Findings**: Our tool provides a convenient means of exploring an overview of the field of data ethic's social and textual relations. For educators designing or refining a course, our tool provides a method for curricular introspection and discovery of transdisciplinary curricula. 
 
 **Originality**: Our curricular survey provides a new way of modeling a field of study, using existing ontologies to organize graph data into an instantly-comprehensible overview. Our framework may be repurposed to map the institutional knowledge structures of other disciplines, as well.
 
