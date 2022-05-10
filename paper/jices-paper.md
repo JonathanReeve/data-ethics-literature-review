@@ -36,15 +36,9 @@ Our initial motivations were to collect data on the state of data ethics, in ord
  - Which institutions, scholars, educators are innovating in this space? 
  - What are the major topic areas?
 
-<<<<<<< HEAD
-To explore these questions, and to give others the opportunity to explore them as well, we aggregated hundreds of syllabi, and hundreds of published papers, as well as adjacent and auxiliary data, in English and other languages. Syllabi we scrape from from university and instructor websites; bibliographic data from CrossRef and Semantic Scholar; researcher biographies from ORCID, and geographic data from Wikidata. We then integrated this data into a large graph database, using the semantic web language known as the Resource Description Framework (RDF). 
-
-The proof-of-concept website includes three interfaces: 1) a uni-course visualization that links data ethics courses with their institutional homes; 2) a course-text visualization that showcases the assigned literature from each course, and 3) a third text-text visualization, still in development, which will highlight citation relationships between assigned texts and the wider data ethics field. Our data and framework are open-source, and users will soon be able to submit their own syllabi to update the map. 
-=======
 To explore these questions, and to give others the opportunity to explore them as well, we aggregated hundreds of syllabi, and hundreds of published papers, as well as adjacent and auxiliary data. Syllabi we scrape from university and instructor websites; bibliographic data from CrossRef and Semantic Scholar; researcher biographies from ORCID, and geographic data from Wikidata. We then integrated this data into a large graph database, using the semantic web language known as the Resource Description Framework (RDF). 
 
 The proof-of-concept website includes three interfaces: 1) a uni-course visualization that links data ethics courses with their institutional homes; 2) a course-text visualization that showcases the assigned literature from each course, and 3) a third “text-text” visualization, still in development, which will highlight citation relationships between assigned texts and the wider data ethics field. Our data and framework are open-source, and anyone can add new features, interfaces, and new data, such as adding additional syllabi to the repository or texts to the bibliography.
->>>>>>> ec4a5f02a843186afcf5fde959fd130f82c4d724
 
 Our method is designed to provide multiple entry points into this multidisciplinary field beyond one’s own area of primary expertise. However, we acknowledge that by relying on data science methods and limiting our scope to the assigned literature in syllabi, our method captures neither a holistic view of what is taught in each course, nor the constructivist dynamics in any given classroom or cohort. Despite our projects' limitations, we hope our method will serve as a stepping stone towards transdisciplinary exploration, imagination, collaboration, and new courses that enrich the field. 
 
