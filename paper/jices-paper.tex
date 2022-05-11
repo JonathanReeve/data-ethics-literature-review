@@ -1,14 +1,18 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
 ]{article}
+\title{Mapping Data Ethics Curricula}
+\author{}
+\date{}
+
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -39,10 +43,10 @@
 \hypersetup{
   pdftitle={Mapping Data Ethics Curricula},
   colorlinks=true,
-  linkcolor=Maroon,
-  filecolor=Maroon,
-  citecolor=Blue,
-  urlcolor=blue,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
 \usepackage{graphicx}
@@ -62,6 +66,29 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 \makeatletter
 \@ifpackageloaded{subfig}{}{\usepackage{subfig}}
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -96,33 +123,9 @@
 \floatname{codelisting}{Listing}
 \newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
 \makeatother
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
- {% don't indent paragraphs
-  \setlength{\parindent}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
-  % set entry spacing
-  \ifnum #2 > 0
-  \setlength{\parskip}{#2\baselineskip}
-  \fi
- }%
- {}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{#1\hfill\break}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
-
-\title{Mapping Data Ethics Curricula}
-\author{}
-\date{}
 
 \begin{document}
 \maketitle
@@ -131,42 +134,37 @@
 \section{Structured Abstract}\label{structured-abstract}}
 
 \textbf{Purpose}: As data-driven tools increasingly shape our life and
-tech ethics crises become strikingly frequent, data ethics coursework
-has never been more urgently needed. We map the field of data ethics
-curricula, tracking relations between courses, instructors, texts, and
-writers, and present an interactive tool for exploring these relations.
-Our tool is designed to be used in curricular research and development
-and provides multiple vantage points on this multidisciplinary field.As
-tech ethics crises become strikingly frequent, data ethics coursework
-has never been more urgently needed. We map the field of data ethics
-curricula, tracking relations between courses, instructors, texts, and
-writers, and present an interactive tool for exploring these relations.
-Our tool is designed to be used in curricular research and development
+tech ethics crises become strikingly frequent, data ethics coursework is
+urgently needed. We map the field of data ethics curricula, tracking
+relations between courses, instructors, texts, and writers, and present
+a proof-of-concept interactive website for exploring these relations.
+Our method is designed to be used in curricular research and development
 and provides multiple vantage points on this multidisciplinary field.
 
 \textbf{Design/methodology/approach}: We utilize data science methods to
 foster insights about the field of data ethics education and literature.
 We present a semantic, linked open data graph in the Resource
-Description Framework (RDF), along with accompanying analyses and tools
-for its exploration. This graph and its framework are open-source,
-allowing users to submit their own syllabi.
+Description Framework (RDF), along with proof-of-concept analyses and an
+exploratory website. Its framework is open-source, and
+language-agnostic, providing the seed for future contributions of code,
+syllabi, and resources from the global data ethics community.
 
-\textbf{Research limitations/implications}: The syllabi we work with are
-largely self-selected and represent only a subset of the field.
-Furthermore, our tool only represents a course's assigned literature
-rather than a holistic view of what is taught and the constructivist
-dynamics in any given classroom.
+\textbf{Research limitations/implications}: The syllabi we have
+collected are self-selected and represent only a subset of the field.
+Furthermore, our method exclusively represents a course's assigned
+literature rather than a holistic view of what courses teach. We present
+a prototype rather than a finished product.
 
-\textbf{Findings}: Our tool provides a convenient means of exploring an
-overview of the field of data ethic's social and textual relations. For
-educators designing or refining a course, our tool provides a method for
+\textbf{Findings}: Our method provides a convenient means of exploring
+an overview of the field of data ethics' social and textual relations.
+For educators designing or refining a course, we provide a method for
 curricular introspection and discovery of transdisciplinary curricula.
 
 \textbf{Originality}: Our curricular survey provides a new way of
 modeling a field of study, using existing ontologies to organize graph
-data into an instantly-comprehensible overview. Our framework may be
-repurposed to map the institutional knowledge structures of other
-disciplines, as well.
+data into a comprehensible overview. Our framework may be repurposed to
+map the institutional knowledge structures of other disciplines, as
+well.
 
 \hypertarget{keywords}{%
 \section{Keywords}\label{keywords}}
@@ -200,15 +198,16 @@ curricular introspection.
 
 The products of our research, are several. First, we provide a data set
 which describes a scholarly and pedagogical network. Next, we present a
-proof-of-concept interactive tool for exploring that data. We then share
-\href{http://data-ethics.jonreeve.com/}{an example syllabus informed by
-our findings}. Finally, we provide a template for a semantic,
-machine-readable course syllabus website, so that others can easily
-produce a syllabus using the same methods. All of this is available via
-our project's website, \url{https://data-ethics.tech}.
+proof-of-concept interactive website for exploring that data. We then
+share \href{http://data-ethics.jonreeve.com/}{an example syllabus
+informed by our findings}. Finally, we provide a template for a
+semantic, machine-readable course syllabus website, so that others can
+easily produce a syllabus using the same methods. All of this is
+available via our project's website, \url{https://data-ethics.tech}.
 
 Our initial motivations were to collect data on the state of data
-ethics, in order to answer broad questions, such as:
+ethics, in order to help others or ourselves answer broad questions,
+such as:
 
 \begin{itemize}
 \tightlist
@@ -228,29 +227,35 @@ ethics, in order to answer broad questions, such as:
 
 To explore these questions, and to give others the opportunity to
 explore them as well, we aggregated hundreds of syllabi, and hundreds of
-published papers, as well as adjacent and auxiliary data, from sources
-like CrossRef, Semantic Scholar, ORCID, and Wikidata. We then integrated
-this data into a large graph database, using the semantic web language
-known as the Resource Description Framework (RDF).
+published papers, as well as adjacent and auxiliary data. Syllabi we
+scrape from university and instructor websites; bibliographic data from
+CrossRef and Semantic Scholar; researcher biographies from ORCID, and
+geographic data from Wikidata. We then integrated this data into a large
+graph database, using the semantic web language known as the Resource
+Description Framework (RDF).
 
-The tool includes three interfaces: 1) a uni-course visualization that
-links data ethics courses with their institutional homes; 2) a
-course-text visualization that showcases the assigned literature from
-each course, and 3) a third ``text-text'' visualization, still in
-development, which will highlight citation relationships between
-assigned texts and the wider data ethics field. Our data and framework
-are open-source, and users will soon be able to submit their own syllabi
-to update the map.
+The proof-of-concept website includes three interfaces: 1) a uni-course
+visualization that links data ethics courses with their institutional
+homes; 2) a course-text visualization that showcases the assigned
+literature from each course, and 3) a third ``text-text'' visualization,
+still in development, which will highlight citation relationships
+between assigned texts and the wider data ethics field. Our data and
+framework are open-source, and anyone can add new features, interfaces,
+and new data, such as adding additional syllabi to the repository or
+texts to the bibliography.
 
-Our tool is designed to provide multiple entry points into this
-multidisciplinary field beyond one's own area of primary expertise.
+Our method is designed to provide multiple entry points into this
+transdisciplinary field beyond one's own area of primary expertise.
 However, we acknowledge that by relying on data science methods and
-limiting our scope to the assigned literature in syllabi, our tool
-captures neither a holistic view of what is taught in each course, nor
-the constructivist dynamics in any given classroom or cohort. Despite
-our projects' limitations, we hope our tool will serve as a stepping
-stone towards transdisciplinary exploration, imagination, collaboration,
-and new courses that enrich the field.
+limiting our scope to the assigned literature in syllabi, our method
+does not capture a holistic view of what is taught in each course. For
+example, the constructivist learning dynamics in any given classroom or
+cohort, including lectures, discussions, written responses to readings,
+project-based learning, and peer-to-peer instruction, all fall outside
+the scope of our mapping of data ethics coursework. Despite our
+projects' limitations, we hope our method will serve as a stepping stone
+towards transdisciplinary exploration, imagination, collaboration, and
+new courses that enrich the field.
 
 \hypertarget{background-and-related-works}{%
 \section{Background and Related
@@ -262,13 +267,16 @@ that for the purposes of our analysis, we use the term ``data ethics''
 as an umbrella term that encompasses the fields of AI ethics, tech
 ethics, data justice, and other overlapping subject areas aimed at
 improving technologists' ethical foundations and delivering equitable
-impacts from data-driven practices. While this paper will not delve into
-the subtle overlaps and important distinctions between these unique
-fields of research and education, we acknowledge these distinctions and
-suggest the following literature for further insight (Fiesler \emph{et
-al.}, 2020; Hao, 2021; Metcalf \emph{et al.}, 2015; Nkonde and Patton,
-2021; Ochigame, 2019; Raji \emph{et al.}, 2021; Sloane, 2019; Taylor,
-2017; Thomas and Wiggins, 2019; Zeffiro, 2021)
+impacts from data-driven practices. Given that data exists prior to its
+analysis and is not limited to a particular constellation of
+technologies, we consider ``data ethics'' as a bridge between these
+related fields. While this paper will not delve into the subtle overlaps
+and important distinctions between these unique fields of research and
+education, we acknowledge these distinctions and suggest the following
+literature for further insight (Fiesler \emph{et al.}, 2020; Hao, 2021;
+Metcalf \emph{et al.}, 2015; Nkonde and Patton, 2021; Ochigame, 2019;
+Raji \emph{et al.}, 2021; Sloane, 2019; Taylor, 2017; Thomas and
+Wiggins, 2019; Zeffiro, 2021).
 
 In 2017, spurred by a New York Times article that argued that academics
 are ``asleep at the wheel'' when it comes to tech ethics (O'Neil, 2017),
@@ -276,20 +284,20 @@ Casey Fiesler crowdsourced a list of close to 200 tech ethics syllabi
 being taught primarily in the U.S (Fiesler, 2019). This collection
 depicted the outline of a nascent field of education. This repository in
 its raw form was credited with helping many educators design or refine a
-syllabus, as well construct compelling arguments for the value of a tech
-ethics course at their institution (Fiesler, 2019). It also sparked
-several analyses to understand the contours and blindspots of this
-emerging field.
+syllabus, as well as construct compelling arguments for the value of
+launching a tech ethics course at their institution (Fiesler, 2019). It
+also sparked several analyses to understand the contours and blindspots
+of this emerging field.
 
 Fiesler, along with co-authors Natalie Garrett and Nathan Beard, used
-metadata from 202 of these tech ethics courses to analyze ``What Do We
-Teach When We Teach Tech Ethics'' (2020). First, they explored the
-disciplinary spread of these classes in terms of a course's home
-department, the instructor's home department, and the instructor's
-terminal degree. Computer Science was the most common departmental home
-both for courses and instructors, while Philosophy was the most common
-terminal degree. Next, they looked at major topic areas covered in these
-courses, the most common being Law \& Policy, addressed in 57\% of
+metadata from 202 of these courses to analyze ``What Do We Teach When We
+Teach Tech Ethics'' (2020). First, they explored the disciplinary spread
+of these classes in terms of a course's home department, the
+instructor's home department, and the instructor's terminal degree.
+Computer Science was the most common departmental home both for courses
+and instructors, while Philosophy was the most common terminal degree
+among instructors. Next, they looked at major topic areas covered in
+these courses, the most common being Law \& Policy, addressed in 57\% of
 courses, and the least common being Medical/Health, addressed in less
 than 10\% of courses. Finally, they assessed the most common learning
 outcomes promised students in these courses, including ``critique,''
@@ -306,31 +314,31 @@ algorithms, privacy, and inequality/justice. They also share a call to
 action to expand the field of tech ethics education. In particular, they
 highlight the need to develop approaches to fully integrate ethics into
 technical content for computer science (CS) students, especially at the
-impressionable initial stages of their education (Fiesler \emph{et al.},
-2020).
+initial stages of their education, when students are most impressionable
+(Fiesler \emph{et al.}, 2020).
 
 Our work builds upon Fiesler et al.'s work in several ways. First, our
-tool draws on the open-source syllabi shared in Fiesler's repository
-(Fiesler, 2017). Second, our tool responds to the calls to action
-embedded within Fiesler et al's analysis, namely to foster conversation
-among educators and bridge disciplinary divides. Third, our own
-resulting course design couples ethical reflection with computational
-practice and solution-building.
+graph draws on the open-source syllabi shared in Fiesler's repository
+(Fiesler, 2017), among other syllabi shared on the web. Second, we
+respond to the calls to action embedded within Fiesler et al's analysis,
+namely to foster conversation among educators and bridge disciplinary
+divides. Third, our own resulting course design couples ethical
+reflection with computational practice and solution-building.
 
 Our work also draws on the analysis of these syllabi by Inioluwa Deborah
-Raji, Morgan Klaus Scheuerman, and Razvan Amironesei's in their 2021
-FAccT conference paper, ``You Can't Sit With Us: Exclusionary Pedagogy
-in AI Ethics Education.'' Their analysis surfaces patterns of what the
-authors call ``exclusionary pedagogy'' in AI ethics. The authors argue
-that the predominance of computer scientists as instructors of these
-courses, hierarchies of knowledge that elevate CS and other quantitative
-fields above the humanistic social sciences (HSS), and the siloing of
-the field from HSS perspectives, all promote techno-solutionism and the
-myth of technologists as ``ethical unicorns'' (Raji \emph{et al.},
-2021). They propose that tech ethics challenges are inherently
-interdisciplinary; therefore, education in this field must in turn
-include deep transdisciplinary collaboration and propose systemic rather
-than individualistic solutions.
+Raji, Morgan Klaus Scheuerman, and Razvan Amironesei in their 2021 FAccT
+conference paper, ``You Can't Sit With Us: Exclusionary Pedagogy in AI
+Ethics Education.'' Their analysis surfaces patterns of what the authors
+call ``exclusionary pedagogy'' in AI ethics. The authors argue that the
+predominance of computer scientists as instructors of these courses,
+hierarchies of knowledge that elevate CS and other quantitative fields
+above the humanistic social sciences (HSS), and the siloing of the field
+from HSS perspectives, all promote techno-solutionism and the myth of
+technologists as ``ethical unicorns'' (Raji \emph{et al.}, 2021). They
+propose that tech ethics challenges are inherently interdisciplinary;
+therefore, education in this field must in turn include deep
+transdisciplinary collaboration and propose systemic rather than
+individualistic solutions.
 
 Raji et al.~argue that current gaps in transdisciplinary collaboration
 in AI Ethics can be perceived through the lack of transdisciplinary
@@ -340,11 +348,12 @@ reflected in the fact that only 2\% of the 254 syllabi in their analysis
 allowed for ``cross-disciplinary teaching or open courses with
 non-prohibitive requirements,'' both of which would encourage and enable
 students from different disciplines to enroll in a data ethics course
-(Raji \emph{et al.}, 2021).
+together, thus sparking transdisciplinary discussion and insight (Raji
+\emph{et al.}, 2021).
 
-In terms of our aspirations in the field of data ethics, this is
-important on two fronts. First, courses that bridge disciplines and do
-not require pre-existing technical proficiency have the potential to
+In terms of our communal aspirations in the field of data ethics, this
+is important on two fronts. First, courses that bridge disciplines and
+do not require pre-existing technical proficiency have the potential to
 attract new cohorts of students to engage with computational fields
 (Zaugg \emph{et al.}, 2021). It is important to bring students with
 ethical insights from other disciplinary backgrounds into the field of
@@ -372,14 +381,14 @@ rooted in other disciplines.
 Importantly, Raji et al.~(2021) also highlight the need for courses to
 include student engagement with stakeholders from outside academia who
 are typically the most impacted by algorithmic harms. While this type of
-curricular approach largely escapes our tool's scope, which is limited
-by its primary focus on assigned literature, this key aspiration in data
-ethics education is essential to highlight in the context of this paper.
+curricular approach largely escapes our scope, which is limited by its
+primary focus on assigned literature, this key aspiration in data ethics
+education is essential to highlight in the context of this paper.
 
 Responding to these varied calls to action in the field of data ethics
-education, we aim for our text-to-text tool, which maps citation
+education, we aim for our text-to-text view, which maps citation
 patterns, to visually highlight the issue of siloed citations and
-inspire cross-disciplinary collaboration. We also hope our tool's
+inspire cross-disciplinary collaboration. We also hope our website's
 accessible interface will spur exploration of material across
 disciplinary divides. In our own case, our syllabus design builds off of
 our varied expertise in the humanistic social sciences, statistics, and
@@ -415,12 +424,12 @@ approaches to data ethics education should be encouraged:
 \end{enumerate}
 \end{quote}
 
-We developed our tool with the intention of facilitating further
+We developed our method with the intention of facilitating further
 analysis, imagination, and innovation to strengthen the field of data
-ethics education. Providing our database and tool as a starting point,
-we suggest further research questions that draw on the insights and
-aspirations for the field shared by the scholars above. Research
-questions ripe for investigation include:
+ethics education. Providing our database and website as a starting
+point, we suggest further research questions for the future, that draw
+on the insights and aspirations for the field shared by the scholars
+above. Research questions ripe for investigation include:
 
 \begin{itemize}
 \tightlist
@@ -453,20 +462,25 @@ questions ripe for investigation include:
 
 We begin with syllabi crowdsourced from Fiesler et al.'s study, which
 today collects roughly three hundred syllabi in tech ethics (Fiesler,
-2019). We then augmented this with syllabi gathered from the Open
-Syllabus Project (Nowogrodzki, 2016), the AI Ethics Workshop ({``{AI}
-{Ethics} {Workshop}''}, 2019), and elsewhere. These syllabi we then
-downloaded, mined for their assigned texts, using a partially automated
-method, and added to our graph database.
+2019). Expanding our scope beyond just tech ethics, we adopt the
+umbrella subject area of data ethics, and augment our collection of
+syllabi with those gathered from the Open Syllabus Project (Nowogrodzki,
+2016), the AI Ethics Workshop ({``{AI} {Ethics} {Workshop}''}, 2019),
+and elsewhere. These syllabi we then download, mine for their assigned
+texts, and add to our graph database.
 
 We note that the syllabi from these sources are largely self-selected or
 curated, and represent only a subset of the field. Therefore, we cannot
 claim to represent the field as a whole, or even a random sample of it.
 While projects such as the Open Syllabus Project are breadth-first, with
 ambitions to parse all syllabi on the Internet, ours is depth-first,
-exploring many facets of a single field. Our project is also distinct in
-that our ethical framework commits us to open-sourcing our work for the
-benefit of the wider field. We release all materials under the GNU
+exploring many facets of a single field. Furthermore, the graph we
+utilize is language-agnostic, and therefore our repository is able to
+incorporate syllabi and resources in other languages, and we
+particularly invite expansion in terms of mapping data ethics coursework
+and literature in languages beyond English. Our project is also distinct
+in that our ethical framework commits us to open-sourcing our work for
+the benefit of the wider field. We release all materials under the GNU
 General Public License, Version 3, a strong copyleft license.
 
 Since the RDF technology we use prefers universal reference identifiers
@@ -566,16 +580,16 @@ a glance which texts are the most assigned, and which universities are
 best represented in our dataset.
 
 We are also building a \href{https://data-ethics.tech/submit}{mechanism
-for users to submit their own data ethics syllabi to our database}; this
-way, our database will always stay up to date. This framework can be
-adapted by anyone interested in mapping an academic discipline, given a
-list of courses and their syllabus URLs.
+for users to submit their own existing data ethics syllabi to our
+database}; this way, our database will always stay up to date. This
+framework can be adapted by anyone interested in mapping an academic
+discipline, given a list of courses and their syllabus URLs.
 
 The process of parsing syllabi---traditional documents, usually in PDF
 or DOCX format---into structured, machine-readable data is a difficult,
-complex one. Therefore we imagined modern course syllabi, which would
-not only be web-ready, but semantically structured and machine-readable
-from the start. Towards this end, we provide
+complex one. Therefore we imagined and prototyped modern course syllabi,
+which would not only be web-ready, but semantically structured and
+machine-readable from the start. Towards this end, we provide
 \href{https://github.com/JonathanReeve/template-course-website}{a
 proof-of-concept syllabus template}, so that instructors may create a
 course website which already organizes course data in a structured way.
@@ -584,16 +598,31 @@ database and the semantic web at large. In this manner, instructors can
 easily create a course syllabus website, while contributing to
 disciplinary metacognition.
 
-\hypertarget{findings-and-contributions}{%
-\section{Findings and Contributions}\label{findings-and-contributions}}
+Instructors need only fork the template repository, fill out basic
+course information, and provide a BibLaTeX file with assigned readings
+and their dates. The provided build script will format the bibliography
+for each of the readings, add them to a machine-readable semantic graph,
+and generate a course syllabus and website, in a standards-compliant
+format. The website is built using GitHub Actions, and hosted free of
+charge on GitHub Pages. This process not only makes it much easier for
+course instructors to create syllabi, but automatically generates a
+course website for them, publishes it, and ensures that the underlying
+data is available to curriculum research projects such as ours. By
+making syllabi machine readable, it will be easier for researchers or
+fellow educators to map fields of education in order to expand or
+improve them, which we expect will become a common practice in the
+future.
+
+\hypertarget{contributions}{%
+\section{Contributions}\label{contributions}}
 
 Our methods contribute to data ethics education by providing a means for
 curricular introspection. For educators designing or refining a course,
-our tool provides an overview of the courses that are already being
-taught. The tool then provides an opportunity for educators to more
-easily imagine expansions of their syllabi beyond their expertise, and
-to pursue top aspirations in the field, such as teaching data ethics in
-a transdisciplinary manner, embedding computational problem-solving into
+our visualization provides an overview of the courses that are already
+being taught. This provides an opportunity for educators to more easily
+imagine expansions of their syllabi beyond their expertise, and to
+pursue top aspirations in the field, such as teaching data ethics in a
+transdisciplinary manner, embedding computational problem-solving into
 coursework, and highlighting the perspectives of scholars from diverse
 backgrounds.
 
@@ -601,9 +630,9 @@ While patterns in data ethics education emerge organically from the
 data, we also intervene manually to identify and label some of these
 patterns. Patterns of possible interest to educators include clusters of
 courses at institutions and the most-assigned literature in the field.
-In the future we plan for our tool to foreground patterns in citations
-as well as clustered topic modeling of core subject areas in the data
-ethics literature.
+In the future we plan a visualization that foregrounds patterns in
+citations as well as clustered topic modeling of core subject areas in
+the data ethics literature.
 
 \begin{figure}
 \hypertarget{fig:graph}{%
@@ -620,20 +649,20 @@ analysis identified: Friedman and Nissenbaum's 1996 paper ``Bias in
 Computer Systems'' (Friedman and Nissenbaum, 1996). When viewed as a
 text-text network, however, the rankings are very different: McLuhan's
 1964 \emph{Understanding Media} is the most-cited node in our network
-(McLuhan, 1994). We must treat these findings with skepticism, however,
-since they represent a dataset that is still very incomplete, and a node
-resolution process that is still under development. It makes sense that
-McLuhan's book is so widely cited, for instance, since its total count
-is an accumulation of its nearly 60 years of publication.
+(McLuhan, 1994). It makes sense that McLuhan's book is so widely cited,
+for instance, since its total count is an accumulation of its nearly 60
+years of publication. We must treat these types of rankings with
+skepticism, however, since they represent a dataset that is still very
+incomplete, and a node resolution process that is still under
+development.
 
-However, our contribution is not merely a list of answers to the
-questions we posed above. Rather than merely generating rankings of
-texts, and statistics about courses, we are more interested in creating
-a proof-of-concept system for exploration of a field, one which can be
-built upon by future researchers. This type of mapping may help to
-bridge the gap between practical and theoretical factions in the field
-of data ethics, digital humanities, or other fields that are in the
-process of defining or redefining themselves.
+However, rather than merely generating rankings of texts, and statistics
+about courses, we are more interested in creating a proof-of-concept
+system for exploration of a field, one which can be built upon by future
+researchers. This type of mapping may help to bridge the gap between
+practical and theoretical factions in the field of data ethics, digital
+humanities, or other fields that are in the process of defining or
+redefining themselves.
 
 Our network visualizations enable user engagement with both consensus
 and outliers. Bringing outliers to the fore is important considering
@@ -644,8 +673,45 @@ deserve to be centered. This is all the more true in a field such as
 data ethics where critical voices are challenging established
 perspectives, practices, and institutions.
 
-We then must conclude with calls for further research: either
-contributions to our project directly
+Imagine you're creating a data ethics syllabus and you're thinking about
+what to assign. You can find several texts in our graph and see at a
+glance the citational network that surrounds it and get an idea of the
+research cluster, which could help you create a module. If you are
+looking to decolonize your syllabus, you might choose to assign, from
+within a cluster, the work of a scholar from an under-represented
+community and/or work that addresses under-studied topics. You can also
+see at a glance where other courses are being taught, such as courses
+that are thematically similar but geographically distant. Some educators
+may use the tool to ``copy'' others, opting for the most mainstream
+approach to teaching a topic, thus streamlining the syllabus development
+process. But other educators may use the tool to explore the field and
+look for ways to diverge from pre-existing approaches, helping to break
+out of filter bubbles that at times encapsulate areas of research at
+clusters of similar institutions.
+
+For example, an instructor designing a course in data ethics might
+follow this procedure in drafting a syllabus:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Supply seed data related to a course-in-development: an instructor's
+  name, the university, and several readings to be assigned
+\item
+  Observe the existing graphical connections of these seed nodes: other
+  courses taught at the same university, if not already known; other
+  courses teaching the same texts; and other texts assigned by those
+  courses
+\item
+  Augment the course-in-development with new texts and approaches from
+  (2), \emph{as well as texts from distant or disconnected fields}. Go
+  to (1) and repeat, until the course design is finished.
+\end{enumerate}
+
+This is currently only possible to a limited degree, given the scope of
+our proof-of-concept website. We then must conclude with calls for
+further research: either contributions to our project directly
 (\href{https://github.com/JonathanReeve/data-ethics-literature-review}{all
 of our code and data is open-source and available on GitHub}), or
 projects which can employ our data or methods to new ends.
@@ -655,8 +721,8 @@ projects which can employ our data or methods to new ends.
 
 Working in a multidisciplinary and quickly growing field, data ethics
 educators can benefit from a birds-eye view of curricular practice and
-real-time innovation. Our database and tool provide a starting point for
-this exploration and analysis. Our literature review provides an
+real-time innovation. Our database and website provide a starting point
+for this exploration and analysis. Our literature review provides an
 overview of the foundational aspirations of the field, which educators
 may wish to manifest within their course design. Top aspirations of the
 field include embedding ethics within computational problem-solving,
@@ -679,12 +745,13 @@ skills and problem-solving alongside reading and writing assignments
 that engage with some of the most-cited thought pieces as well as
 important outliers. We push students beyond identifying ethical issues
 to identify new horizons of possible solutions. As we pilot and
-reiterate our course, we look forward to utilizing this tool to consider
-new perspectives and approaches in the field of data ethics education.
+reiterate our course, we look forward to utilizing the website we
+developed as a means to consider new perspectives and approaches in the
+field of data ethics education.
 
-Most importantly, we hope that other educators benefit from the tool. As
-data ethicists ourselves, we care about openness and transparency, and
-so
+Most importantly, we hope that other educators benefit from this method
+and proof-of-concept website. As data ethicists ourselves, we care about
+openness and transparency, and so
 \href{https://github.com/JonathanReeve/data-ethics-literature-review}{we
 have open-sourced this data}, so that other researchers can use our work
 to answer their own questions. We hope that our framework may also be
@@ -696,102 +763,102 @@ disciplines.
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
-\leavevmode\hypertarget{ref-ai_ethics}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-ai_ethics}{}}%
 {``{AI} {Ethics} {Workshop}''}. (2019), \emph{AI Ethics Workshop},
 available at: \url{http://ai.ethicsworkshop.org/} (accessed 25 November
 2021).
 
-\leavevmode\hypertarget{ref-fieslerTechEthicsCurriculum2017}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-fieslerTechEthicsCurriculum2017}{}}%
 Fiesler, C. (2017), {``Tech {Ethics} {Curriculum} - {Google}
 {Sheets}''}, available at:
 \url{https://docs.google.com/spreadsheets/d/1jWIrA8jHz5fYAW4h9CkUD8gKS5V98PDJDymRf8d9vKI/edit\#gid=0}
 (accessed 9 December 2021).
 
-\leavevmode\hypertarget{ref-fieslerTechEthicsCurricula2019}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-fieslerTechEthicsCurricula2019}{}}%
 Fiesler, C. (2019), {``Tech {Ethics} {Curricula}: {A} {Collection} of
 {Syllabi}''}, \emph{Medium}, November, available at:
 \url{https://cfiesler.medium.com/tech-ethics-curricula-a-collection-of-syllabi-3eedfb76be18}
 (accessed 18 January 2021).
 
-\leavevmode\hypertarget{ref-fieslerWhatWeTeach2020}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-fieslerWhatWeTeach2020}{}}%
 Fiesler, C., Garrett, N. and Beard, N. (2020), {``What {Do} {We} {Teach}
 {When} {We} {Teach} {Tech} {Ethics}?: {A} {Syllabi} {Analysis}''},
 \emph{Proceedings of the 51st {ACM} {Technical} {Symposium} on
 {Computer} {Science} {Education}}, ACM, Portland OR USA, pp. 289--295.
 
-\leavevmode\hypertarget{ref-nissenbaum1996}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-nissenbaum1996}{}}%
 Friedman, B. and Nissenbaum, H. (1996), {``Bias in computer systems''},
 \emph{ACM Trans. Inf. Syst.}, Association for Computing Machinery, New
 York, NY, USA, Vol. 14 No. 3, pp. 330--347.
 
-\leavevmode\hypertarget{ref-haoStopTalkingAI2021}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-haoStopTalkingAI2021}{}}%
 Hao, K. (2021), {``Stop talking about {AI} ethics. {It}'s time to talk
 about power.''}, \emph{MIT Technology Review}, available at:
 \url{https://www.technologyreview.com/2021/04/23/1023549/kate-crawford-atlas-of-ai-review/}
 (accessed 21 July 2021).
 
-\leavevmode\hypertarget{ref-katis_2018}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-katis_2018}{}}%
 Katis, E., Kondylakis, H., Agathangelos, G. and Kostas, V. (2018),
 {``Developing an ontology for curriculum \& syllabus''}.
 
-\leavevmode\hypertarget{ref-lueDataScienceFoundation2019}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-lueDataScienceFoundation2019}{}}%
 Lue, R.A. (2019), {``Data {Science} as a {Foundation} for {Inclusive}
 {Learning}''}, \emph{Harvard Data Science Review}, Vol. 1 No. 2,
 available
 at:https://doi.org/\href{https://doi.org/10.1162/99608f92.c9267215}{10.1162/99608f92.c9267215}.
 
-\leavevmode\hypertarget{ref-mcluhan1994understanding}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-mcluhan1994understanding}{}}%
 McLuhan, M. (1994), \emph{Understanding Media: The Extensions of Man},
 MIT press.
 
-\leavevmode\hypertarget{ref-metcalfPedagogicalApproachesData2015}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-metcalfPedagogicalApproachesData2015}{}}%
 Metcalf, J., Crawford, K. and Keller, E. (2015), \emph{Pedagogical
 {Approaches} to {Data} {Ethics}}, Data \& Society Research Institute,
 available at:
 \url{https://bdes.datasociety.net/council-output/pedagogical-approaches-to-data-ethics-2}.
 
-\leavevmode\hypertarget{ref-nkondeMutaleNkondeAI2021}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-nkondeMutaleNkondeAI2021}{}}%
 Nkonde, M. and Patton, D. (2021), {``Mutale {Nkonde}, {AI} for the
 {People}''}, Columbia Data Science Institute, April, available at:
 \url{https://www.youtube.com/watch?v=j7XUNWEiBdA\&t=1127s} (accessed 3
 June 2021).
 
-\leavevmode\hypertarget{ref-nowogrodzki2016mining}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-nowogrodzki2016mining}{}}%
 Nowogrodzki, A. (2016), {``Mining the secrets of college syllabuses''},
 \emph{Nature News}, Vol. 539 No. 7627, p. 125.
 
-\leavevmode\hypertarget{ref-oneilOpinionIvoryTower2017}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-oneilOpinionIvoryTower2017}{}}%
 O'Neil, C. (2017), {``{The} {Ivory} {Tower} {Can}'t {Keep} {Ignoring}
 {Tech}''}, \emph{The New York Times}, available at:
 \url{https://www.nytimes.com/2017/11/14/opinion/academia-tech-algorithms.html}
 (accessed 9 December 2021).
 
-\leavevmode\hypertarget{ref-ochigameInventionEthicalAI2019}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-ochigameInventionEthicalAI2019}{}}%
 Ochigame, R. (2019), {``The {Invention} of {`{Ethical} {AI}'}: {How}
 {Big} {Tech} {Manipulates} {Academia} to {Avoid} {Regulation}''},
 \emph{The Intercept}, December, available at:
 \url{https://theintercept.com/2019/12/20/mit-ethical-ai-artificial-intelligence/}
 (accessed 30 September 2021).
 
-\leavevmode\hypertarget{ref-peroni2012}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-peroni2012}{}}%
 Peroni, S. and Shotton, D. (2012), {``FaBiO and CiTO: Ontologies for
 describing bibliographic resources and citations''}, \emph{Journal of
 Web Semantics}, Elsevier BV, Vol. 17, pp. 33--43.
 
-\leavevmode\hypertarget{ref-pertsas_2017}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-pertsas_2017}{}}%
 Pertsas, V. and Constantopoulos, P. (2017), {``Scholarly ontology:
 Modelling scholarly practices''}, \emph{International Journal on Digital
 Libraries}, Vol. 18, available
 at:https://doi.org/\href{https://doi.org/10.1007/s00799-016-0169-3}{10.1007/s00799-016-0169-3}.
 
-\leavevmode\hypertarget{ref-rajiYouCanSit2021}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-rajiYouCanSit2021}{}}%
 Raji, I.D., Scheuerman, M.K. and Amironesei, R. (2021), {``You {Can}'t
 {Sit} {With} {Us}: {Exclusionary} {Pedagogy} in {AI} {Ethics}
 {Education}''}, \emph{Proceedings of the 2021 {ACM} {Conference} on
 {Fairness}, {Accountability}, and {Transparency}}, ACM, Virtual Event
 Canada, pp. 515--525.
 
-\leavevmode\hypertarget{ref-rawlings-gossKeepingDataScience2018}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-rawlings-gossKeepingDataScience2018}{}}%
 Rawlings-Goss, R., Cassel, L.(Boots)., Cragin, M., Cramer, C., Dingle,
 A., Friday-Stroud, S., Herron, A., \emph{et al.} (2018), {``Keeping
 {Data} {Science} {Broad}: {Negotiating} the {Digital} and {Data}
@@ -799,7 +866,7 @@ A., Friday-Stroud, S., Herron, A., \emph{et al.} (2018), {``Keeping
 \emph{Mathematics and Statistics Faculty Publications}, available at:
 \url{https://scholar.valpo.edu/math_stat_fac_pubs/64}.
 
-\leavevmode\hypertarget{ref-sloaneInequalityNameGame2019a}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-sloaneInequalityNameGame2019a}{}}%
 Sloane, M. (2019), {``Inequality {Is} the {Name} of the {Game}:
 {Thoughts} on the {Emerging} {Field} of {Technology}, {Ethics} and
 {Social} {Justice}''}, \emph{Proceedings of the {Weizenbaum}
@@ -808,38 +875,38 @@ Sloane, M. (2019), {``Inequality {Is} the {Name} of the {Game}:
 available at: \url{https://www.ssoar.info/ssoar/handle/document/62583\#}
 (accessed 5 June 2019).
 
-\leavevmode\hypertarget{ref-taylorWhatDataJustice2017}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-taylorWhatDataJustice2017}{}}%
 Taylor, L. (2017), {``What is data justice? {The} case for connecting
 digital rights and freedoms globally''}, \emph{Big Data \& Society},
 Vol. 4, pp. 1--14.
 
-\leavevmode\hypertarget{ref-themoore-sloandatascienceenvironments:newyorkuniversityucberkeleyandtheuniversityofwashingtonCreatingInstitutionalChange2018}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-themoore-sloandatascienceenvironments:newyorkuniversityucberkeleyandtheuniversityofwashingtonCreatingInstitutionalChange2018}{}}%
 The Moore-Sloan Data Science Environments: New York University, and the
 U. of W., UC Berkeley. (2018), {``Creating {Institutional} {Change} in
 {Data} {Science}''}, March, available at:
 \url{http://msdse.org/files/Creating_Institutional_Change.pdf}.
 
-\leavevmode\hypertarget{ref-thomasConversationTechEthics2019}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-thomasConversationTechEthics2019}{}}%
 Thomas, R. and Wiggins, C. (2019), {``A {Conversation} about {Tech}
 {Ethics} with the {New} {York} {Times} {Chief} {Data} {Scientist}''},
 fast.ai, March, available at:
 \url{https://www.fast.ai/2019/03/04/ethics-framework/} (accessed 12
 December 2019).
 
-\leavevmode\hypertarget{ref-westDiscriminatingSystemsGender2019}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-westDiscriminatingSystemsGender2019}{}}%
 West, S.M., Whittaker, M. and Crawford, K. (2019), \emph{Discriminating
 {Systems}: {Gender}, {Race}, and {Power} in {AI}}, AI Now Institute,
 available at:
 \url{https://ainowinstitute.org/discriminatingsystems.pdf}.
 
-\leavevmode\hypertarget{ref-zauggCollaboratoryColumbiaAspen2021}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-zauggCollaboratoryColumbiaAspen2021}{}}%
 Zaugg, I.A., Culligan, P.J., Witten, R. and Zheng, T. (2021),
 {``Collaboratory at {Columbia}: {An} {Aspen} {Grove} of {Data} {Science}
 {Education}''}, \emph{Harvard Data Science Review}, No. 3.4, Fall 2021,
 available
 at:https://doi.org/\url{https://doi.org/10.1162/99608f92.53c4a1b4}.
 
-\leavevmode\hypertarget{ref-zeffiroDataEthicsData2021}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-zeffiroDataEthicsData2021}{}}%
 Zeffiro, A. (2021), {``From {Data} {Ethics} to {Data} {Justice} in/as
 {Pedagogy} ({Dispatch})''}, \emph{Studies in Social Justice}, Vol. 15,
 pp. 450--457.
