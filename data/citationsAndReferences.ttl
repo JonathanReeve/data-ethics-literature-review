@@ -1,5 +1,5 @@
 @prefix cito: <http://purl.org/spar/cito> .
-@prefix deText: <https://data-ethics.tech/text/> .
+@prefix deText: <https://data-ethics.net/text/> .
 
 deText:0003510ca25103ac605945c20e90586ee24de538 cito:cites deText:F7CEWSUJ .
 

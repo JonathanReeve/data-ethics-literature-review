@@ -19,7 +19,7 @@ g = Graph()
 
 
 # Namespace stuff
-base = 'https://data-ethics.tech'
+base = 'https://data-ethics.net'
 ccso = Namespace('https://w3id.org/ccso/ccso/')
 de = Namespace(base + '/')
 dePerson = Namespace(f'{base}/person/')

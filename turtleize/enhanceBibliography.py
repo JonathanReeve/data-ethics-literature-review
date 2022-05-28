@@ -24,7 +24,7 @@ from os.path import exists
 from glob import glob
 from itertools import groupby
 
-base = 'https://data-ethics.tech'
+base = 'https://data-ethics.net'
 ccso = Namespace('https://w3id.org/ccso/ccso/')
 cito = Namespace('http://purl.org/spar/cito')
 de = Namespace(base + '/')

@@ -245,7 +245,7 @@ if __name__ == "__main__":
     wikidata = Namespace('https://wikidata.org/wiki/')
     ccso = Namespace('https://w3id.org/ccso/ccso/')
     foaf = FOAF
-    base = 'https://data-ethics.tech'
+    base = 'https://data-ethics.net'
     de = Namespace(base + '/')
     dePerson = Namespace(f'{base}/person/')
     deCourse = Namespace(f'{base}/course/')

@@ -332,7 +332,7 @@ class WebPage():
             fn = f"{WEBSITE_LOCATION}/index.html"
         else:
             # Everything else has a pretty url,
-            # i.e., data-ethics.tech/courseText
+            # i.e., data-ethics.net/courseText
             fn = f"{WEBSITE_LOCATION}/{slug}/index.html"
         rendered = doc.render()
         if not os.path.exists(os.path.dirname(fn)):
