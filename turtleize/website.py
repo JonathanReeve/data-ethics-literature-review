@@ -235,8 +235,8 @@ ul(
     li("Which institutions, scholars, educators are innovating in this space?"),
     li("What are the major topic areas?"),
     ),
-a("""Read the syllabus for the pilot course which resulted from this project, People vs. Algorithms:
-Data Ethics in the 21st Century.""", href="http://data-ethics.jonreeve.com/"),
+p(a("""Read the syllabus for the pilot course which resulted from this project, People vs. Algorithms:
+Data Ethics in the 21st Century.""", href="http://data-ethics.jonreeve.com/")),
 p("""We would like to thank the following scholars and literature that informed our
 work: Casey Fiesler, Michael Zimmer, Karina Alexanyan, Daniel Castaño, Frédérick
 Bruneault"""),
